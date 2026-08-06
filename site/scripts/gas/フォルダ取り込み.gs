@@ -16,8 +16,11 @@
 // 設定 ― ここだけ書き換えてください
 // =====================================================================
 
+/** 運用シートのID（シートを開いたときのURLの /d/ と /edit の間） */
+var SHEET_ID = '1A9_xzFMdD-UhKyo_a7xJ2h-5cM-orZ_giXX41ZiKT3Y';
+
 /** 写真フォルダのID（フォルダを開いたときのURLの、最後の部分） */
-var PHOTO_FOLDER_ID = 'ここに写真フォルダのIDを貼る';
+var PHOTO_FOLDER_ID = '1r6CDHXqvVNaQKhydeB1rQAZNR441cJLR';
 
 /** 運用シートのタブ名（通常は変更不要） */
 var SHEET_PHOTOS = '写真';
@@ -34,7 +37,7 @@ var ID_PREFIX = 'P';
 // メイン ― 1時間ごとに自動で動きます
 // =====================================================================
 function フォルダを確認する() {
-  var ss = SpreadsheetApp.getActiveSpreadsheet();
+  var ss = SpreadsheetApp.openById(SHEET_ID);
   var sh = ss.getSheetByName(SHEET_PHOTOS);
   if (!sh) throw new Error('「' + SHEET_PHOTOS + '」タブが見つかりません。');
 
@@ -146,7 +149,7 @@ function _フォルダ内を読む(folder, spotName, known, areaOf) {
 function _お知らせメール(added) {
   try {
     var to = Session.getEffectiveUser().getEmail();
-    var url = SpreadsheetApp.getActiveSpreadsheet().getUrl();
+    var url = SpreadsheetApp.openById(SHEET_ID).getUrl();
     var list = added.map(function (a) {
       return '・' + a.title + '（' + (a.spot || 'スポット未設定') + '）';
     }).join('\n');
@@ -166,7 +169,7 @@ function _お知らせメール(added) {
 
 /** スポット別のフォルダをまとめて作る */
 function スポットのフォルダを作る() {
-  var ss = SpreadsheetApp.getActiveSpreadsheet();
+  var ss = SpreadsheetApp.openById(SHEET_ID);
   var sp = ss.getSheetByName(SHEET_SPOTS);
   if (!sp) throw new Error('「' + SHEET_SPOTS + '」タブが見つかりません。');
   var head = sp.getRange(1, 1, 1, sp.getLastColumn()).getValues()[0];

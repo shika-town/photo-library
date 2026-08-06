@@ -9,7 +9,7 @@
 Googleスプレッドシートは「リンクを知っている全員が閲覧可」にしておいてください。
 写真は driveFileId（Googleドライブ）または localPath（リポジトリ内）のどちらかで指定します。
 """
-import json, io, os, sys, csv, re, urllib.request, urllib.parse, unicodedata
+import json, io, os, sys, csv, re, time, urllib.request, urllib.parse, unicodedata
 from PIL import Image, ImageEnhance
 
 BASE  = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -50,20 +50,66 @@ def read_xlsx(path):
         out[ws.title] = body
     return out
 
+# 各タブに必ずあるはずの列。これが無ければ「読めていない」と判断して止める。
+REQUIRED = {
+    '写真':     ['id', 'title', 'publish'],
+    'スポット': ['id', 'name', 'area'],
+    'サイト設定': ['key', '値'],
+    'シーン':   ['label', 'photoId'],
+    '季節':     ['ja', 'photoId'],
+}
+OPTIONAL_SHEETS = ('フォーム回答',)
+
 def read_gsheet(sheet_id):
+    """Googleスプレッドシートを読む。
+    シートが非公開だと Google はログイン画面のHTMLを返す。それをCSVとして
+    読み込むと「行はあるが中身が空」という状態になり、サイトが白紙で
+    上書きされてしまう。そこで必ず見出し行を検査し、想定の列が無ければ
+    その場で異常終了する（＝GitHubの実行が赤く失敗し、公開はされない）。
+    """
     out = {}
     for name in ('写真', 'スポット', 'サイト設定', 'シーン', '季節', 'フォーム回答'):
         url = ('https://docs.google.com/spreadsheets/d/%s/gviz/tq?tqx=out:csv&sheet=%s'
                % (sheet_id, urllib.parse.quote(name)))
-        try:
-            with urllib.request.urlopen(url, timeout=60) as r:
-                text = r.read().decode('utf-8')
-        except Exception:
-            continue        # 「フォーム回答」シートが未作成のうちは飛ばす
+        text = None
+        for attempt in range(3):
+            try:
+                with urllib.request.urlopen(url, timeout=60) as r:
+                    text = r.read().decode('utf-8')
+                break
+            except Exception as e:
+                err = e
+                time.sleep(3)
+        if text is None:
+            if name in OPTIONAL_SHEETS:
+                continue    # 「フォーム回答」タブが未作成のうちは飛ばす
+            raise SystemExit('！ シート「%s」を読み込めませんでした（%s）。\n'
+                             '   運用シートの共有設定を「リンクを知っている全員（閲覧者）」に'
+                             'してください。' % (name, err))
+
+        # ログイン画面などのHTMLが返っていないか
+        if text.lstrip()[:1] == '<' or '<html' in text[:2000].lower():
+            if name in OPTIONAL_SHEETS:
+                continue
+            raise SystemExit('！ シート「%s」の代わりにHTML（ログイン画面）が返りました。\n'
+                             '   運用シートの共有設定を「リンクを知っている全員（閲覧者）」に'
+                             'してください。' % name)
+
         rows = list(csv.reader(io.StringIO(text)))
-        if not rows: continue
-        head = [h.strip() for h in rows[0]]
+        head = [h.strip() for h in rows[0]] if rows else []
+        need = REQUIRED.get(name, [])
+        missing = [c for c in need if c not in head]
+        if missing:
+            if name in OPTIONAL_SHEETS:
+                continue
+            raise SystemExit('！ シート「%s」に %s 列が見当たりません。\n'
+                             '   見出し行: %s\n'
+                             '   タブ名や列名が変わっていないか、共有設定が'
+                             '「リンクを知っている全員（閲覧者）」になっているか確認してください。'
+                             % (name, '・'.join(missing), head[:12]))
+
         out[name] = [dict(zip(head, r)) for r in rows[1:] if any(x.strip() for x in r)]
+        print('  %s: %d行' % (name, len(out[name])))
     return out
 
 # =====================================================================
@@ -144,6 +190,11 @@ def main():
         print('読み込み: Googleスプレッドシート %s' % sid); data = read_gsheet(sid)
 
     photos = [p for p in data.get('写真', [])       if yes(p.get('publish', 'TRUE'))]
+
+    # 安全装置：読み込み結果が異常に少ないときは、サイトを空で上書きしないように止める
+    if len(photos) < 20:
+        raise SystemExit('！ 公開対象の写真が %d件しかありません。読み込みに失敗している'
+                         '可能性が高いため中止しました。' % len(photos))
 
     # ---- 職員がフォームから投稿した写真 ----
     # 「承認」欄に TRUE が入っている行だけをサイトに反映する。
