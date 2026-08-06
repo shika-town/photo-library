@@ -1,0 +1,96 @@
+# =====================================================================
+# SHIKA PHOTO LIBRARY ― スプレッドシートの内容をサイトに反映して公開する
+#
+# 動くタイミング
+#   ・[手動] GitHub の Actions タブから「Run workflow」を押したとき
+#   ・[定期] 平日の 9時・12時・17時（日本時間）
+#   ・[自動] site/ 配下のファイルを直接編集して push したとき
+#
+# 事前に必要な設定
+#   1. Settings → Secrets and variables → Actions → Variables に
+#      SHEET_ID という名前で、スプレッドシートのIDを登録する
+#      （URL https://docs.google.com/spreadsheets/d/【ここ】/edit の【ここ】）
+#   2. スプレッドシートを「リンクを知っている全員が閲覧可」にする
+#   3. Settings → Pages で Source を「GitHub Actions」にする
+# =====================================================================
+name: サイトを更新して公開
+
+on:
+  workflow_dispatch:          # 手動実行
+  schedule:
+    - cron: '0 0,3,8 * * 1-5' # UTC。日本時間の 9:00 / 12:00 / 17:00（平日）
+  push:
+    branches: [main]
+    paths:
+      - 'site/**'
+      - '.github/workflows/publish.yml'
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: リポジトリを取得
+        uses: actions/checkout@v4
+
+      - name: Python を用意
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: 必要なライブラリを入れる
+        run: pip install pillow openpyxl
+
+      - name: 元画像のキャッシュを復元
+        uses: actions/cache@v4
+        with:
+          path: _source
+          key: source-images-${{ github.run_id }}
+          restore-keys: source-images-
+
+      - name: スプレッドシートを読み込む
+        if: vars.SHEET_ID != ''
+        env:
+          SHEET_ID: ${{ vars.SHEET_ID }}
+        working-directory: site
+        run: python scripts/import-sheet.py
+
+      - name: ページを組み立てる
+        working-directory: site
+        run: python scripts/build-all.py
+
+      - name: 変更をリポジトリに保存
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A site data 2>/dev/null || git add -A site
+          if git diff --staged --quiet; then
+            echo "変更はありませんでした。"
+          else
+            git commit -m "シートの内容を反映 ($(date -u '+%Y-%m-%d %H:%M UTC'))"
+            git push
+          fi
+
+      - name: 公開用に準備
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: GitHub Pages に公開
+        id: deployment
+        uses: actions/deploy-pages@v4

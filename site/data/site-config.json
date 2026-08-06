@@ -1,0 +1,6 @@
+{
+  "_note": "公開に関する設定です。テスト公開と本公開を切り替えるときは noindex と baseUrl を変えてください。",
+  "baseUrl": "https://shika-town.github.io/photo-library/",
+  "noindex": true,
+  "_noindex_説明": "true のあいだは検索エンジンに載りません。本公開のときに false にしてください。"
+}

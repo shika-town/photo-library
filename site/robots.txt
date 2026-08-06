@@ -1,0 +1,4 @@
+# テスト公開中のため、検索エンジンには載せません。
+# 本公開のときは scripts/set-public.py を実行してください。
+User-agent: *
+Disallow: /

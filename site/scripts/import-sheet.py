@@ -1,0 +1,302 @@
+# -*- coding: utf-8 -*-
+"""運用シートを読み込み、写真を自動リサイズして data/*.json を作り直します。
+
+  ローカルのExcelから:  python3 scripts/import-sheet.py ../運用シート_SHIKA_PHOTO_LIBRARY.xlsx
+  Googleスプレッドシートから:
+      export SHEET_ID=スプレッドシートのID
+      python3 scripts/import-sheet.py
+
+Googleスプレッドシートは「リンクを知っている全員が閲覧可」にしておいてください。
+写真は driveFileId（Googleドライブ）または localPath（リポジトリ内）のどちらかで指定します。
+"""
+import json, io, os, sys, csv, re, urllib.request, urllib.parse, unicodedata
+from PIL import Image, ImageEnhance
+
+BASE  = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+IMG   = os.path.join(BASE, 'assets', 'img')
+CACHE = os.path.join(BASE, '..', '_source', 'cache')   # ドライブから取得した元画像（再取得を避ける）
+os.makedirs(os.path.join(IMG, 'spots'), exist_ok=True)
+os.makedirs(CACHE, exist_ok=True)
+
+SIZES = {
+    'hero':   (2000, 1125),   # スポットのヒーロー・トップの大きな写真
+    'thumb':  ( 640,  480),   # ギャラリー・検索結果
+    'large':  (1400, 1050),   # 拡大表示・ダウンロード
+    'new':    (1080,  840),   # トップの新着写真
+    'season': ( 800,  600),   # 季節タイル
+    'scene':  ( 600,  600),   # シーンカード
+}
+FOCUS = {'中央': 0.5, '上寄り': 0.25, '下寄り': 0.75, '': 0.5}
+
+# =====================================================================
+# シートの読み込み
+# =====================================================================
+def read_xlsx(path):
+    import openpyxl
+    wb = openpyxl.load_workbook(path, data_only=True)
+    out = {}
+    for ws in wb:
+        rows = list(ws.iter_rows(values_only=True))
+        if not rows: continue
+        head = [str(h).strip() if h is not None else '' for h in rows[0]]
+        body = []
+        for r in rows[1:]:
+            if not any(v not in (None, '') for v in r):
+                continue
+            first = str(r[0] or '').strip()
+            if first.startswith('※'):        # シート内の注記行は読み飛ばす
+                continue
+            body.append(dict(zip(head, ['' if v is None else v for v in r])))
+        out[ws.title] = body
+    return out
+
+def read_gsheet(sheet_id):
+    out = {}
+    for name in ('写真', 'スポット', 'サイト設定', 'シーン', '季節', 'フォーム回答'):
+        url = ('https://docs.google.com/spreadsheets/d/%s/gviz/tq?tqx=out:csv&sheet=%s'
+               % (sheet_id, urllib.parse.quote(name)))
+        try:
+            with urllib.request.urlopen(url, timeout=60) as r:
+                text = r.read().decode('utf-8')
+        except Exception:
+            continue        # 「フォーム回答」シートが未作成のうちは飛ばす
+        rows = list(csv.reader(io.StringIO(text)))
+        if not rows: continue
+        head = [h.strip() for h in rows[0]]
+        out[name] = [dict(zip(head, r)) for r in rows[1:] if any(x.strip() for x in r)]
+    return out
+
+# =====================================================================
+# 画像の取得とリサイズ
+# =====================================================================
+def fetch(photo):
+    """元画像のローカルパスを返す。ドライブからは1度だけ取得してキャッシュする。"""
+    fid = str(photo.get('driveFileId', '')).strip()
+    if fid:
+        m = re.search(r'/d/([A-Za-z0-9_-]{20,})', fid) or re.search(r'[?&]id=([A-Za-z0-9_-]{20,})', fid)
+        if m: fid = m.group(1)
+        dst = os.path.join(CACHE, '%s.jpg' % fid)
+        if not os.path.exists(dst):
+            url = 'https://drive.usercontent.google.com/download?id=%s&export=download' % fid
+            req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+            with urllib.request.urlopen(req, timeout=120) as r:
+                data = r.read()
+            if data[:15].lower().startswith(b'<!doctype html') or data[:5] == b'<html':
+                raise SystemExit('！ ドライブの共有設定を確認してください（id=%s）' % fid)
+            io.open(dst, 'wb').write(data)
+            print('    取得: %s' % fid)
+        return dst
+    lp = str(photo.get('localPath', '')).strip()
+    if lp:
+        # assets/img/lib は取り込みの「出力先」。ここを読み込み元にすると、
+        # 実行を繰り返すうちに写真の対応が崩れるため受け付けない。
+        if 'assets/img/lib' in lp.replace('\\', '/'):
+            raise SystemExit('！ localPath に出力先（assets/img/lib）を指定できません: %s' % lp)
+        for cand in (os.path.join(BASE, lp), os.path.join(BASE, '..', lp), lp):
+            if os.path.exists(cand): return cand
+    raise FileNotFoundError('写真 %s の画像が見つかりません（driveFileId か localPath を指定してください）' % photo.get('id'))
+
+
+_made = {}
+def make(src, name, size, fy=0.5):
+    key = (src, name, size, fy)
+    if key in _made: return _made[key]
+    W, H = size
+    # 元画像より大きく書き出さない（引き伸ばして画質が落ちるのを防ぐ）
+    with Image.open(src) as _probe:
+        _w, _h = _probe.size
+    _fit = min(1.0, (_w / W) if (_w / _h) < (W / H) else (_h / H))
+    if _fit < 1.0:
+        W, H = max(1, int(W * _fit)), max(1, int(H * _fit))
+    im = Image.open(src)
+    if im.mode in ('RGBA', 'LA', 'P'):
+        bg = Image.new('RGB', im.size, (255, 255, 255))
+        im = im.convert('RGBA'); bg.paste(im, mask=im.split()[-1]); im = bg
+    else:
+        im = im.convert('RGB')
+    tw, th = W / H, im.width / im.height
+    if th > tw: nw, nh = int(im.height * tw), im.height
+    else:       nw, nh = im.width, int(im.width / tw)
+    x = int((im.width - nw) * 0.5); y = int((im.height - nh) * fy)
+    im = im.crop((x, y, x + nw, y + nh)).resize((W, H), Image.LANCZOS)
+    im = ImageEnhance.Color(im).enhance(1.03)
+    im = ImageEnhance.Sharpness(im).enhance(1.06)
+    out = os.path.join(IMG, name + '.jpg')
+    os.makedirs(os.path.dirname(out), exist_ok=True)
+    im.save(out, quality=84, optimize=True, progressive=True)
+    _made[key] = 'assets/img/%s.jpg' % name
+    return _made[key]
+
+
+yes = lambda v: str(v).strip().upper() in ('TRUE', '1', 'YES', 'はい', '○')
+split = lambda v: [x.strip() for x in str(v or '').replace('、', ',').split(',') if x.strip()]
+
+# =====================================================================
+# 実行
+# =====================================================================
+def main():
+    src = sys.argv[1] if len(sys.argv) > 1 else None
+    if src:
+        print('読み込み: %s' % src); data = read_xlsx(src)
+    else:
+        sid = os.environ.get('SHEET_ID')
+        if not sid: raise SystemExit('！ SHEET_ID を指定するか、Excelのパスを引数で渡してください。')
+        print('読み込み: Googleスプレッドシート %s' % sid); data = read_gsheet(sid)
+
+    photos = [p for p in data.get('写真', [])       if yes(p.get('publish', 'TRUE'))]
+
+    # ---- 職員がフォームから投稿した写真 ----
+    # 「承認」欄に TRUE が入っている行だけをサイトに反映する。
+    # idは回答の行順から自動で決める（F0001…）。行が追加されるだけなので番号は変わらない。
+    forms = data.get('フォーム回答', [])
+    F = {'写真': 'driveFileId', 'タイトル': 'title', 'スポット': 'spot',
+         '季節': 'season', 'タグ': 'tags', '撮影者': 'photographer', '備考': 'description'}
+    n_form = 0
+    for i, row in enumerate(forms, 1):
+        if not yes(row.get('承認', '')):
+            continue
+        pic = str(row.get('写真', '')).strip()
+        title = str(row.get('タイトル', '')).strip()
+        if not pic or not title:
+            print('  ！ フォーム回答 %d行目：写真かタイトルが空のため飛ばしました' % i)
+            continue
+        rec = {'id': str(row.get('id', '')).strip() or 'F%04d' % i,
+               'roles': '', 'focus': str(row.get('focus', '') or '中央'),
+               'copyright': '© 志賀町', 'publish': 'TRUE',
+               'sortOrder': row.get('sortOrder', '') or 9000 + i}
+        for jp, en in F.items():
+            rec[en] = str(row.get(jp, '') or '').strip()
+        # ドライブのURL/IDならそのまま、そうでなければリポジトリ内のパスとして扱う
+        if 'drive.google' not in pic and not re.fullmatch(r'[A-Za-z0-9_-]{20,}', pic):
+            rec['driveFileId'] = ''
+            rec['localPath'] = pic
+        rec['photographer'] = rec['photographer'] or '志賀町'
+        photos.append(rec)
+        n_form += 1
+    if forms:
+        waiting = sum(1 for r in forms if not yes(r.get('承認', '')))
+        print('  フォーム投稿：%d枚を反映 / %d枚が承認待ち' % (n_form, waiting))
+    spots  = [s for s in data.get('スポット', [])   if yes(s.get('publish', 'TRUE'))]
+    scenes = [s for s in data.get('シーン', [])     if yes(s.get('publish', 'TRUE'))]
+    seasons= [s for s in data.get('季節', [])       if yes(s.get('publish', 'TRUE'))]
+    site   = {r['key']: r.get('値', r.get('value', '')) for r in data.get('サイト設定', []) if r.get('key')}
+    by_id  = {str(p['id']).strip(): p for p in photos}
+    print('  写真 %d枚 / スポット %d件' % (len(photos), len(spots)))
+
+    skipped = []
+
+    def img(pid, kind):
+        p = by_id.get(str(pid).strip())
+        if not p: return None, None
+        fy = FOCUS.get(str(p.get('focus', '')).strip(), 0.5)
+        try:
+            return p, make(fetch(p), 'lib/%s-%s' % (p['id'], kind), SIZES[kind], fy)
+        except FileNotFoundError as e:
+            if p['id'] not in skipped:
+                skipped.append(p['id']); print('  ！ %s' % e)
+            return p, None
+
+    print('  画像を書き出しています…')
+    # ---- スポット ----
+    spots_out = []
+    for s in spots:
+        sid = str(s['id']).strip()
+        mine = sorted([p for p in photos if str(p.get('spot', '')).strip() == str(s['name']).strip()],
+                      key=lambda x: (float(x.get('sortOrder') or 9999), x['id']))
+        hero_id = str(s.get('heroPhotoId', '')).strip() or (mine[0]['id'] if mine else '')
+        _, hero = img(hero_id, 'hero')
+        gal = []
+        for p in mine:
+            fy = FOCUS.get(str(p.get('focus', '')).strip(), 0.5)
+            try:
+                f = fetch(p)
+            except FileNotFoundError as e:
+                if p['id'] not in skipped:
+                    skipped.append(p['id']); print('  ！ %s' % e)
+                continue
+            gal.append({'id': p['id'],
+                        'thumb': '../' + make(f, 'lib/%s-thumb' % p['id'], SIZES['thumb'], fy),
+                        'large': '../' + make(f, 'lib/%s-large' % p['id'], SIZES['large'], fy),
+                        'caption': p.get('title', '')})
+        spots_out.append({
+            'id': sid, 'name': s['name'], 'kana': s.get('kana', ''), 'area': s.get('area', ''),
+            'address': s.get('address', ''), 'catch': s.get('catch', ''),
+            'body': [s.get('body%d' % i, '') for i in (1, 2, 3, 4) if str(s.get('body%d' % i, '')).strip()],
+            'tags': split(s.get('tags')),
+            'info': [{'label': s.get('info%d_label' % i), 'value': s.get('info%d_value' % i)}
+                     for i in range(1, 7) if str(s.get('info%d_label' % i, '')).strip()],
+            'sources': [{'label': s.get('source%d_label' % i), 'url': s.get('source%d_url' % i)}
+                        for i in (1, 2) if str(s.get('source%d_url' % i, '')).strip()],
+            'hero': hero or '', 'photos': gal, 'count': len(gal),
+        })
+
+    io.open(os.path.join(BASE, 'data', 'spots.json'), 'w', encoding='utf-8').write(
+        json.dumps({'meta': {'note': '運用シートから自動生成しています。直接編集しないでください。'},
+                    'spots': spots_out}, ensure_ascii=False, indent=2))
+
+    # ---- トップページ ----
+    # 新着写真はシートの行の並び順をそのまま使う（行をドラッグすれば順番が変わる）
+    new_photos = []
+    for p in photos:
+        if '新着' not in split(p.get('roles')): continue
+        fy = FOCUS.get(str(p.get('focus', '')).strip(), 0.5)
+        try:
+            _img = make(fetch(p), 'lib/%s-new' % p['id'], SIZES['new'], fy)
+        except FileNotFoundError as e:
+            if p['id'] not in skipped:
+                skipped.append(p['id']); print('  ！ %s' % e)
+            continue
+        new_photos.append({
+            'id': p['id'], 'title': p['title'], 'spot': p.get('spot', ''), 'area': p.get('area', ''),
+            'season': p.get('season', ''), 'tags': split(p.get('tags')),
+            'image': _img,
+            'alt': p.get('description', p['title']),
+        })
+
+    _, hero_img = img(site.get('heroPhotoId', ''), 'hero')
+    spot_cards = []
+    for s in spots_out[:4]:
+        spot_cards.append({'id': s['id'], 'name': s['name'], 'area': s['area'], 'count': s['count'],
+                           'image': s['hero'], 'alt': s['name'], 'description': s['catch']})
+
+    top = {
+        'site': {'name': site.get('siteName', ''), 'nameJa': site.get('siteNameJa', ''),
+                 'tagline': site.get('tagline', ''), 'copyright': site.get('copyright', '')},
+        'hero': {'title': [t for t in (site.get('heroTitle1', ''), site.get('heroTitle2', '')) if t],
+                 'image': hero_img or '', 'alt': site.get('heroCaption', ''),
+                 'caption': site.get('heroCaption', '')},
+        'heroTags': split(site.get('heroTags')),
+        'spots': spot_cards,
+        'scenes': [], 'photos': new_photos, 'seasons': [],
+        'footer': {
+            'primary': [
+                {'label': '志賀町観光情報', 'href': site.get('kankouUrl', '#'), 'icon': 'i-compass'},
+                {'label': 'Instagram', 'href': site.get('instagramUrl', '#'), 'icon': 'i-instagram'},
+                {'label': 'お問い合わせ', 'href': '#contact', 'icon': 'i-mail'}],
+            'secondary': [
+                {'label': '利用規約', 'href': 'terms.html'},
+                {'label': 'プライバシーポリシー', 'href': 'privacy.html'},
+                {'label': '著作権・クレジット', 'href': 'credit.html'},
+                {'label': 'よくあるご質問', 'href': 'faq.html'}],
+        },
+    }
+    for sc in sorted(scenes, key=lambda x: float(x.get('sortOrder') or 0)):
+        p, path = img(sc.get('photoId', ''), 'scene')
+        top['scenes'].append({'label': sc['label'], 'query': sc.get('query', sc['label']),
+                              'image': path or '', 'alt': (p or {}).get('title', sc['label'])})
+    for se in sorted(seasons, key=lambda x: float(x.get('sortOrder') or 0)):
+        p, path = img(se.get('photoId', ''), 'season')
+        top['seasons'].append({'ja': se['ja'], 'en': se.get('en', ''), 'query': se.get('query', se['ja']),
+                               'image': path or '', 'alt': (p or {}).get('title', se['ja'])})
+
+    io.open(os.path.join(BASE, 'data', 'photos.json'), 'w', encoding='utf-8').write(
+        json.dumps(top, ensure_ascii=False, indent=2))
+
+    if skipped:
+        print('\n  ！ 画像が用意できていない写真を %d枚 飛ばしました: %s' % (len(skipped), ', '.join(skipped)))
+        print('    シートの driveFileId を埋めるか、publish を FALSE にしてください。')
+    print('\n  data/photos.json と data/spots.json を更新しました。')
+    print('\n続けて `python3 scripts/build-all.py` を実行するとページが作り直されます。')
+
+if __name__ == '__main__':
+    main()
