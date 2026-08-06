@@ -3,7 +3,7 @@
 window.SPL_LIBRARY = {
   "meta": {
     "note": "photos.json と spots.json から自動生成しています。直接編集せず、scripts/build-library.py を実行してください。",
-    "count": 57
+    "count": 56
   },
   "photos": [
     {
@@ -443,26 +443,6 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "巌門",
       "id": "P0025"
-    },
-    {
-      "title": "ZZ_テスト画像_あとで削除",
-      "spot": "巌門",
-      "spotId": "gate",
-      "area": "富来エリア",
-      "season": "",
-      "tags": [
-        "海",
-        "岩",
-        "遊覧船",
-        "空撮"
-      ],
-      "thumb": "assets/img/lib/P0073-thumb.jpg",
-      "large": "assets/img/lib/P0073-large.jpg",
-      "alt": "ZZ_テスト画像_あとで削除",
-      "credit": "© 志賀町",
-      "photographer": "志賀町",
-      "source": "巌門",
-      "id": "P0073"
     },
     {
       "title": "島の向こうに沈む夕陽",

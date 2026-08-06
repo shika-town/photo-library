@@ -228,15 +228,9 @@
           "thumb": "../assets/img/lib/P0025-thumb.jpg",
           "large": "../assets/img/lib/P0025-large.jpg",
           "caption": "能登金剛遊覧船"
-        },
-        {
-          "id": "P0073",
-          "thumb": "../assets/img/lib/P0073-thumb.jpg",
-          "large": "../assets/img/lib/P0073-large.jpg",
-          "caption": "ZZ_テスト画像_あとで削除"
         }
       ],
-      "count": 7
+      "count": 6
     },
     {
       "id": "benten",
