@@ -1,7 +1,7 @@
 {
   "meta": {
     "note": "photos.json と spots.json から自動生成しています。直接編集せず、scripts/build-library.py を実行してください。",
-    "count": 56
+    "count": 72
   },
   "photos": [
     {
@@ -441,6 +441,326 @@
       "photographer": "志賀町",
       "source": "巌門",
       "id": "P0025"
+    },
+    {
+      "title": "巌門洞窟へ続く遊歩道",
+      "spot": "巌門",
+      "spotId": "gate",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "海",
+        "岩",
+        "遊覧船",
+        "空撮"
+      ],
+      "thumb": "assets/img/lib/P0073-thumb.jpg",
+      "large": "assets/img/lib/P0073-large.jpg",
+      "alt": "巌門洞窟へ続く遊歩道",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "巌門",
+      "id": "P0073"
+    },
+    {
+      "title": "岩肌を流れ落ちる滝",
+      "spot": "巌門",
+      "spotId": "gate",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "海",
+        "岩",
+        "遊覧船",
+        "空撮"
+      ],
+      "thumb": "assets/img/lib/P0074-thumb.jpg",
+      "large": "assets/img/lib/P0074-large.jpg",
+      "alt": "岩肌を流れ落ちる滝",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "巌門",
+      "id": "P0074"
+    },
+    {
+      "title": "巌門洞窟の入口",
+      "spot": "巌門",
+      "spotId": "gate",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "海",
+        "岩",
+        "遊覧船",
+        "空撮"
+      ],
+      "thumb": "assets/img/lib/P0075-thumb.jpg",
+      "large": "assets/img/lib/P0075-large.jpg",
+      "alt": "巌門洞窟の入口",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "巌門",
+      "id": "P0075"
+    },
+    {
+      "title": "夕暮れの巌門",
+      "spot": "巌門",
+      "spotId": "gate",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "海",
+        "岩",
+        "遊覧船",
+        "空撮"
+      ],
+      "thumb": "assets/img/lib/P0076-thumb.jpg",
+      "large": "assets/img/lib/P0076-large.jpg",
+      "alt": "夕暮れの巌門",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "巌門",
+      "id": "P0076"
+    },
+    {
+      "title": "海に突き出す岩の門",
+      "spot": "巌門",
+      "spotId": "gate",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "海",
+        "岩",
+        "遊覧船",
+        "空撮"
+      ],
+      "thumb": "assets/img/lib/P0077-thumb.jpg",
+      "large": "assets/img/lib/P0077-large.jpg",
+      "alt": "海に突き出す岩の門",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "巌門",
+      "id": "P0077"
+    },
+    {
+      "title": "洞窟から望む遊覧船",
+      "spot": "巌門",
+      "spotId": "gate",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "海",
+        "岩",
+        "遊覧船",
+        "空撮"
+      ],
+      "thumb": "assets/img/lib/P0078-thumb.jpg",
+      "large": "assets/img/lib/P0078-large.jpg",
+      "alt": "洞窟から望む遊覧船",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "巌門",
+      "id": "P0078"
+    },
+    {
+      "title": "緑に覆われた海岸線",
+      "spot": "巌門",
+      "spotId": "gate",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "海",
+        "岩",
+        "遊覧船",
+        "空撮"
+      ],
+      "thumb": "assets/img/lib/P0079-thumb.jpg",
+      "large": "assets/img/lib/P0079-large.jpg",
+      "alt": "緑に覆われた海岸線",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "巌門",
+      "id": "P0079"
+    },
+    {
+      "title": "岩の額縁と遊覧船",
+      "spot": "巌門",
+      "spotId": "gate",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "海",
+        "岩",
+        "遊覧船",
+        "空撮"
+      ],
+      "thumb": "assets/img/lib/P0080-thumb.jpg",
+      "large": "assets/img/lib/P0080-large.jpg",
+      "alt": "岩の額縁と遊覧船",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "巌門",
+      "id": "P0080"
+    },
+    {
+      "title": "青く澄んだ日本海",
+      "spot": "巌門",
+      "spotId": "gate",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "海",
+        "岩",
+        "遊覧船",
+        "空撮"
+      ],
+      "thumb": "assets/img/lib/P0081-thumb.jpg",
+      "large": "assets/img/lib/P0081-large.jpg",
+      "alt": "青く澄んだ日本海",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "巌門",
+      "id": "P0081"
+    },
+    {
+      "title": "エメラルドグリーンの入り江",
+      "spot": "巌門",
+      "spotId": "gate",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "海",
+        "岩",
+        "遊覧船",
+        "空撮"
+      ],
+      "thumb": "assets/img/lib/P0082-thumb.jpg",
+      "large": "assets/img/lib/P0082-large.jpg",
+      "alt": "エメラルドグリーンの入り江",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "巌門",
+      "id": "P0082"
+    },
+    {
+      "title": "岩を伝う清流",
+      "spot": "巌門",
+      "spotId": "gate",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "海",
+        "岩",
+        "遊覧船",
+        "空撮"
+      ],
+      "thumb": "assets/img/lib/P0083-thumb.jpg",
+      "large": "assets/img/lib/P0083-large.jpg",
+      "alt": "岩を伝う清流",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "巌門",
+      "id": "P0083"
+    },
+    {
+      "title": "海上から見た巌門",
+      "spot": "巌門",
+      "spotId": "gate",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "海",
+        "岩",
+        "遊覧船",
+        "空撮"
+      ],
+      "thumb": "assets/img/lib/P0084-thumb.jpg",
+      "large": "assets/img/lib/P0084-large.jpg",
+      "alt": "海上から見た巌門",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "巌門",
+      "id": "P0084"
+    },
+    {
+      "title": "風車が並ぶ海岸線",
+      "spot": "巌門",
+      "spotId": "gate",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "海",
+        "岩",
+        "遊覧船",
+        "空撮"
+      ],
+      "thumb": "assets/img/lib/P0085-thumb.jpg",
+      "large": "assets/img/lib/P0085-large.jpg",
+      "alt": "風車が並ぶ海岸線",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "巌門",
+      "id": "P0085"
+    },
+    {
+      "title": "能登金剛遊覧船",
+      "spot": "巌門",
+      "spotId": "gate",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "海",
+        "岩",
+        "遊覧船",
+        "空撮"
+      ],
+      "thumb": "assets/img/lib/P0086-thumb.jpg",
+      "large": "assets/img/lib/P0086-large.jpg",
+      "alt": "能登金剛遊覧船",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "巌門",
+      "id": "P0086"
+    },
+    {
+      "title": "岩場に架かる橋",
+      "spot": "巌門",
+      "spotId": "gate",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "海",
+        "岩",
+        "遊覧船",
+        "空撮"
+      ],
+      "thumb": "assets/img/lib/P0087-thumb.jpg",
+      "large": "assets/img/lib/P0087-large.jpg",
+      "alt": "岩場に架かる橋",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "巌門",
+      "id": "P0087"
+    },
+    {
+      "title": "岩壁に開いた洞門",
+      "spot": "巌門",
+      "spotId": "gate",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "海",
+        "岩",
+        "遊覧船",
+        "空撮"
+      ],
+      "thumb": "assets/img/lib/P0088-thumb.jpg",
+      "large": "assets/img/lib/P0088-large.jpg",
+      "alt": "岩壁に開いた洞門",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "巌門",
+      "id": "P0088"
     },
     {
       "title": "島の向こうに沈む夕陽",

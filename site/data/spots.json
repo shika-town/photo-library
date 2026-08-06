@@ -228,9 +228,105 @@
           "thumb": "../assets/img/lib/P0025-thumb.jpg",
           "large": "../assets/img/lib/P0025-large.jpg",
           "caption": "能登金剛遊覧船"
+        },
+        {
+          "id": "P0073",
+          "thumb": "../assets/img/lib/P0073-thumb.jpg",
+          "large": "../assets/img/lib/P0073-large.jpg",
+          "caption": "巌門洞窟へ続く遊歩道"
+        },
+        {
+          "id": "P0074",
+          "thumb": "../assets/img/lib/P0074-thumb.jpg",
+          "large": "../assets/img/lib/P0074-large.jpg",
+          "caption": "岩肌を流れ落ちる滝"
+        },
+        {
+          "id": "P0075",
+          "thumb": "../assets/img/lib/P0075-thumb.jpg",
+          "large": "../assets/img/lib/P0075-large.jpg",
+          "caption": "巌門洞窟の入口"
+        },
+        {
+          "id": "P0076",
+          "thumb": "../assets/img/lib/P0076-thumb.jpg",
+          "large": "../assets/img/lib/P0076-large.jpg",
+          "caption": "夕暮れの巌門"
+        },
+        {
+          "id": "P0077",
+          "thumb": "../assets/img/lib/P0077-thumb.jpg",
+          "large": "../assets/img/lib/P0077-large.jpg",
+          "caption": "海に突き出す岩の門"
+        },
+        {
+          "id": "P0078",
+          "thumb": "../assets/img/lib/P0078-thumb.jpg",
+          "large": "../assets/img/lib/P0078-large.jpg",
+          "caption": "洞窟から望む遊覧船"
+        },
+        {
+          "id": "P0079",
+          "thumb": "../assets/img/lib/P0079-thumb.jpg",
+          "large": "../assets/img/lib/P0079-large.jpg",
+          "caption": "緑に覆われた海岸線"
+        },
+        {
+          "id": "P0080",
+          "thumb": "../assets/img/lib/P0080-thumb.jpg",
+          "large": "../assets/img/lib/P0080-large.jpg",
+          "caption": "岩の額縁と遊覧船"
+        },
+        {
+          "id": "P0081",
+          "thumb": "../assets/img/lib/P0081-thumb.jpg",
+          "large": "../assets/img/lib/P0081-large.jpg",
+          "caption": "青く澄んだ日本海"
+        },
+        {
+          "id": "P0082",
+          "thumb": "../assets/img/lib/P0082-thumb.jpg",
+          "large": "../assets/img/lib/P0082-large.jpg",
+          "caption": "エメラルドグリーンの入り江"
+        },
+        {
+          "id": "P0083",
+          "thumb": "../assets/img/lib/P0083-thumb.jpg",
+          "large": "../assets/img/lib/P0083-large.jpg",
+          "caption": "岩を伝う清流"
+        },
+        {
+          "id": "P0084",
+          "thumb": "../assets/img/lib/P0084-thumb.jpg",
+          "large": "../assets/img/lib/P0084-large.jpg",
+          "caption": "海上から見た巌門"
+        },
+        {
+          "id": "P0085",
+          "thumb": "../assets/img/lib/P0085-thumb.jpg",
+          "large": "../assets/img/lib/P0085-large.jpg",
+          "caption": "風車が並ぶ海岸線"
+        },
+        {
+          "id": "P0086",
+          "thumb": "../assets/img/lib/P0086-thumb.jpg",
+          "large": "../assets/img/lib/P0086-large.jpg",
+          "caption": "能登金剛遊覧船"
+        },
+        {
+          "id": "P0087",
+          "thumb": "../assets/img/lib/P0087-thumb.jpg",
+          "large": "../assets/img/lib/P0087-large.jpg",
+          "caption": "岩場に架かる橋"
+        },
+        {
+          "id": "P0088",
+          "thumb": "../assets/img/lib/P0088-thumb.jpg",
+          "large": "../assets/img/lib/P0088-large.jpg",
+          "caption": "岩壁に開いた洞門"
         }
       ],
-      "count": 6
+      "count": 22
     },
     {
       "id": "benten",
