@@ -2,5 +2,752 @@
   "meta": {
     "note": "運用シートから自動生成しています。直接編集しないでください。"
   },
-  "spots": []
+  "spots": [
+    {
+      "id": "bench",
+      "name": "世界一長いベンチ・増穂浦海岸",
+      "kana": "せかいいちながいべんち・ますほがうらかいがん",
+      "area": "富来エリア",
+      "address": "石川県羽咋郡志賀町富来領家町",
+      "catch": "海・貝・夕日、そして記憶に残る長さ",
+      "body": [
+        "増穂浦海岸に沿って続く「世界一長いベンチ」は、全長460.9m。1987年に地元住民の手で造られ、1989年にはギネスブックに世界一として掲載されました。現在は世界一の座を譲っていますが、そのスケールとロケーションは変わらず、志賀町を代表する景色です。",
+        "ベンチは海岸の高台に沿って設置され、日本海を見下ろす絶好の位置にあります。目の前には幸せを呼ぶといわれるさくら貝が打ち寄せる浜辺が広がり、夕暮れには日本海に沈む夕日が空と海を染め上げます。",
+        "砂浜は白砂青松が約4kmにわたって続き、透明度の高い海と穏やかな波から「日本の水浴場55選」にも選ばれています。11月から3月に吹く「貝寄せの風」の頃には、さくら貝をはじめ三十六歌仙貝と呼ばれる貝殻が浜辺に流れ着きます。",
+        "2023年冬に老朽化のため一時撤去されましたが、2024年5月に再設置され、地域の復興の象徴として新たなスタートを切りました。"
+      ],
+      "tags": [
+        "夕陽",
+        "海",
+        "ベンチ",
+        "さくら貝",
+        "空撮"
+      ],
+      "info": [
+        {
+          "label": "設備",
+          "value": "駐車場あり／撮影可"
+        }
+      ],
+      "sources": [
+        {
+          "label": "世界一長いベンチ",
+          "url": "https://shika-guide.jp/spot/id/1158/"
+        },
+        {
+          "label": "増穂浦海岸",
+          "url": "https://shika-guide.jp/spot/id/1162/"
+        }
+      ],
+      "hero": "assets/img/lib/P0008-hero.jpg",
+      "photos": [
+        {
+          "id": "P0003",
+          "thumb": "../assets/img/lib/P0003-thumb.jpg",
+          "large": "../assets/img/lib/P0003-large.jpg",
+          "caption": "手のひらのさくら貝"
+        },
+        {
+          "id": "P0008",
+          "thumb": "../assets/img/lib/P0008-thumb.jpg",
+          "large": "../assets/img/lib/P0008-large.jpg",
+          "caption": "上空から見た増穂浦海岸とベンチ"
+        },
+        {
+          "id": "P0009",
+          "thumb": "../assets/img/lib/P0009-thumb.jpg",
+          "large": "../assets/img/lib/P0009-large.jpg",
+          "caption": "海沿いに続くベンチ"
+        },
+        {
+          "id": "P0010",
+          "thumb": "../assets/img/lib/P0010-thumb.jpg",
+          "large": "../assets/img/lib/P0010-large.jpg",
+          "caption": "ベンチから望む日本海"
+        },
+        {
+          "id": "P0011",
+          "thumb": "../assets/img/lib/P0011-thumb.jpg",
+          "large": "../assets/img/lib/P0011-large.jpg",
+          "caption": "色とりどりの座面"
+        },
+        {
+          "id": "P0012",
+          "thumb": "../assets/img/lib/P0012-thumb.jpg",
+          "large": "../assets/img/lib/P0012-large.jpg",
+          "caption": "打ち寄せられた貝殻の浜"
+        },
+        {
+          "id": "P0007",
+          "thumb": "../assets/img/lib/P0007-thumb.jpg",
+          "large": "../assets/img/lib/P0007-large.jpg",
+          "caption": "満開の桜並木"
+        }
+      ],
+      "count": 7
+    },
+    {
+      "id": "hatago",
+      "name": "機具岩",
+      "kana": "はたごいわ",
+      "area": "富来エリア",
+      "address": "石川県羽咋郡志賀町七海",
+      "catch": "二つの岩が寄り添う夫婦岩。能登屈指のマジックアワーポイント。",
+      "body": [
+        "高さ16mと12mの岩が並び、注連縄で結ばれた姿から夫婦岩として知られる、能登金剛を代表する奇岩のひとつです。伊勢の二見岩に似ていることから「能登二見」とも呼ばれますが、大きい岩が女岩、小さい岩が男岩とされるのが特徴です。",
+        "その昔、能登に織物の技術を広めた神・渟名木入比咩命が山賊に襲われ、背負っていた織機を海に投げたところ、それが岩に変じたという伝説が残されています。",
+        "西を向いて立っているため夕焼けの名所としても有名で、空と海と岩が織りなすマジックアワーは多くの写真愛好家を惹きつけます。夏季と冬季にはライトアップも行われます。"
+      ],
+      "tags": [
+        "夕陽",
+        "海",
+        "岩",
+        "ライトアップ"
+      ],
+      "info": [
+        {
+          "label": "ライトアップ",
+          "value": "夏季 7/1〜9/30、冬季 12/1〜2/28　日没後〜約4時間"
+        },
+        {
+          "label": "設備",
+          "value": "駐車場あり／撮影可"
+        }
+      ],
+      "sources": [
+        {
+          "label": "機具岩",
+          "url": "https://shika-guide.jp/spot/id/1166/"
+        }
+      ],
+      "hero": "assets/img/lib/P0001-hero.jpg",
+      "photos": [
+        {
+          "id": "P0001",
+          "thumb": "../assets/img/lib/P0001-thumb.jpg",
+          "large": "../assets/img/lib/P0001-large.jpg",
+          "caption": "機具岩に沈む夕陽"
+        },
+        {
+          "id": "P0015",
+          "thumb": "../assets/img/lib/P0015-thumb.jpg",
+          "large": "../assets/img/lib/P0015-large.jpg",
+          "caption": "マジックアワーの機具岩"
+        },
+        {
+          "id": "P0016",
+          "thumb": "../assets/img/lib/P0016-thumb.jpg",
+          "large": "../assets/img/lib/P0016-large.jpg",
+          "caption": "昼間の機具岩"
+        },
+        {
+          "id": "P0017",
+          "thumb": "../assets/img/lib/P0017-thumb.jpg",
+          "large": "../assets/img/lib/P0017-large.jpg",
+          "caption": "薄暮のシルエット"
+        },
+        {
+          "id": "P0018",
+          "thumb": "../assets/img/lib/P0018-thumb.jpg",
+          "large": "../assets/img/lib/P0018-large.jpg",
+          "caption": "注連縄で結ばれた夫婦岩"
+        },
+        {
+          "id": "P0019",
+          "thumb": "../assets/img/lib/P0019-thumb.jpg",
+          "large": "../assets/img/lib/P0019-large.jpg",
+          "caption": "夏季・冬季のライトアップ"
+        }
+      ],
+      "count": 6
+    },
+    {
+      "id": "gate",
+      "name": "巌門",
+      "kana": "がんもん",
+      "area": "富来エリア",
+      "address": "石川県羽咋郡志賀町富来牛下巌門",
+      "catch": "日本海が作り上げた芸術",
+      "body": [
+        "日本海の荒波に削られた巌門の景観は古来から知られ、書画などを親しむ人の往来も多かったと伝えられています。",
+        "1853年には、風景版画の巨匠・歌川（安藤）広重の名作に数えられる「六十余州名所図会」に「滝之浦（巌門・不動滝・鷹巣岩）」として描かれました。",
+        "洞門の中からは水平線が見え、日の入りを美しく望むことができます。すぐ近くから出る能登金剛遊覧船に乗れば、海側から洞門をくぐり抜けることもできます。"
+      ],
+      "tags": [
+        "海",
+        "岩",
+        "遊覧船",
+        "空撮"
+      ],
+      "info": [
+        {
+          "label": "設備",
+          "value": "駐車場あり／撮影可"
+        }
+      ],
+      "sources": [
+        {
+          "label": "巌門",
+          "url": "https://shika-guide.jp/spot/id/1169/"
+        }
+      ],
+      "hero": "assets/img/lib/P0020-hero.jpg",
+      "photos": [
+        {
+          "id": "P0020",
+          "thumb": "../assets/img/lib/P0020-thumb.jpg",
+          "large": "../assets/img/lib/P0020-large.jpg",
+          "caption": "海岸から望む巌門"
+        },
+        {
+          "id": "P0021",
+          "thumb": "../assets/img/lib/P0021-thumb.jpg",
+          "large": "../assets/img/lib/P0021-large.jpg",
+          "caption": "洞門をくぐる遊覧船"
+        },
+        {
+          "id": "P0022",
+          "thumb": "../assets/img/lib/P0022-thumb.jpg",
+          "large": "../assets/img/lib/P0022-large.jpg",
+          "caption": "洞窟の内部"
+        },
+        {
+          "id": "P0002",
+          "thumb": "../assets/img/lib/P0002-thumb.jpg",
+          "large": "../assets/img/lib/P0002-large.jpg",
+          "caption": "巌門の入り江"
+        },
+        {
+          "id": "P0024",
+          "thumb": "../assets/img/lib/P0024-thumb.jpg",
+          "large": "../assets/img/lib/P0024-large.jpg",
+          "caption": "エメラルドグリーンの海"
+        },
+        {
+          "id": "P0025",
+          "thumb": "../assets/img/lib/P0025-thumb.jpg",
+          "large": "../assets/img/lib/P0025-large.jpg",
+          "caption": "能登金剛遊覧船"
+        },
+        {
+          "id": "P0073",
+          "thumb": "../assets/img/lib/P0073-thumb.jpg",
+          "large": "../assets/img/lib/P0073-large.jpg",
+          "caption": "ZZ_テスト画像_あとで削除"
+        }
+      ],
+      "count": 7
+    },
+    {
+      "id": "benten",
+      "name": "弁天島",
+      "kana": "べんてんじま",
+      "area": "志賀エリア",
+      "address": "石川県羽咋郡志賀町安部屋",
+      "catch": "夕日に照らされて幻想的に描かれる、美しい自然のシルエット",
+      "body": [
+        "安部屋漁港の沖に浮かぶ小さな島で、夕陽の絶景スポットとして知られています。かつて北前船が寄港した安部屋港を守る天然の防波堤の役割を果たしていたことから、「三味線島」とも呼ばれています。",
+        "島へは陸続きで歩いて渡ることができ、樹齢約50年の松が約200本立ち並ぶ静かな松林の奥には、伊都久志麻神社がひっそりと佇みます。祀られている市杵島姫命は弁才天と同一視されることもあり、海の安全と豊漁を願う漁師たちの守り神として信仰されてきました。",
+        "島の先端には白い木造灯台が立ち、夕暮れ時には空と海と島が織りなす幻想的なシルエットが広がります。冬の厳寒期には、海越しに白山を遠望できることもあります。"
+      ],
+      "tags": [
+        "夕陽",
+        "海",
+        "島",
+        "神社"
+      ],
+      "info": [
+        {
+          "label": "設備",
+          "value": "撮影可"
+        }
+      ],
+      "sources": [
+        {
+          "label": "安部屋弁天島",
+          "url": "https://shika-guide.jp/spot/id/1153/"
+        }
+      ],
+      "hero": "assets/img/lib/P0026-hero.jpg",
+      "photos": [
+        {
+          "id": "P0026",
+          "thumb": "../assets/img/lib/P0026-thumb.jpg",
+          "large": "../assets/img/lib/P0026-large.jpg",
+          "caption": "島の向こうに沈む夕陽"
+        },
+        {
+          "id": "P0027",
+          "thumb": "../assets/img/lib/P0027-thumb.jpg",
+          "large": "../assets/img/lib/P0027-large.jpg",
+          "caption": "水面に映る薄暮の空"
+        },
+        {
+          "id": "P0028",
+          "thumb": "../assets/img/lib/P0028-thumb.jpg",
+          "large": "../assets/img/lib/P0028-large.jpg",
+          "caption": "黄金色に染まる海岸"
+        },
+        {
+          "id": "P0029",
+          "thumb": "../assets/img/lib/P0029-thumb.jpg",
+          "large": "../assets/img/lib/P0029-large.jpg",
+          "caption": "波打ち際から望む弁天島"
+        },
+        {
+          "id": "P0030",
+          "thumb": "../assets/img/lib/P0030-thumb.jpg",
+          "large": "../assets/img/lib/P0030-large.jpg",
+          "caption": "夕景のシルエット"
+        }
+      ],
+      "count": 5
+    },
+    {
+      "id": "yase",
+      "name": "ヤセの断崖・義経の舟隠し",
+      "kana": "やせのだんがい・よしつねのふなかくし",
+      "area": "富来エリア",
+      "address": "石川県羽咋郡志賀町笹波",
+      "catch": "『ゼロの焦点』の舞台と、義経が舟を隠した入り江",
+      "body": [
+        "海面からの高さが35m〜55mにも及ぶ断崖絶壁。その名は、かつて周辺の土地が痩せていたこと、そして断崖に立つと身がやせる思いがすることに由来するといわれています。",
+        "松本清張の名作『ゼロの焦点』の舞台としても知られ、1961年と2009年の映画化の際にはロケ地として使用されました。断崖を少し降りた岩場は釣りの名所としても知られ、そこから見上げる断崖は絶好の撮影ポイントです。",
+        "断崖の上には自然歩道が整備され、南へ歩くと「義経の舟隠し」に着きます。源義経が兄・頼朝の追手から逃れる途中、舟を隠したと伝えられる岩場です。文治2年（1185年）、義経と弁慶一行は奥州へ向かう途中、荒波を避けるためこの地に舟を隠したとされ、48隻もの船が収まったという伝説が残っています。",
+        "入り江は間口約30m・奥行約100mの細長い地形で、沖からは見えにくく、まさに「舟隠し」にふさわしい自然の造形。断崖絶壁に囲まれたこの場所は、歴史の舞台であると同時に、日本海の荒々しい風景と静けさが共存する神秘的なスポットです。"
+      ],
+      "tags": [
+        "断崖",
+        "海",
+        "空撮",
+        "名所旧跡",
+        "義経"
+      ],
+      "info": [
+        {
+          "label": "設備",
+          "value": "駐車場あり／撮影可"
+        }
+      ],
+      "sources": [
+        {
+          "label": "ヤセの断崖",
+          "url": "https://shika-guide.jp/spot/id/1165/"
+        },
+        {
+          "label": "義経の舟隠し",
+          "url": "https://shika-guide.jp/spot/id/1163/"
+        }
+      ],
+      "hero": "assets/img/lib/P0005-hero.jpg",
+      "photos": [
+        {
+          "id": "P0005",
+          "thumb": "../assets/img/lib/P0005-thumb.jpg",
+          "large": "../assets/img/lib/P0005-large.jpg",
+          "caption": "旧福浦灯台"
+        },
+        {
+          "id": "P0032",
+          "thumb": "../assets/img/lib/P0032-thumb.jpg",
+          "large": "../assets/img/lib/P0032-large.jpg",
+          "caption": "義経の舟隠しの入り江"
+        },
+        {
+          "id": "P0033",
+          "thumb": "../assets/img/lib/P0033-thumb.jpg",
+          "large": "../assets/img/lib/P0033-large.jpg",
+          "caption": "断崖からの眺め"
+        },
+        {
+          "id": "P0034",
+          "thumb": "../assets/img/lib/P0034-thumb.jpg",
+          "large": "../assets/img/lib/P0034-large.jpg",
+          "caption": "荒々しい岩肌"
+        },
+        {
+          "id": "P0035",
+          "thumb": "../assets/img/lib/P0035-thumb.jpg",
+          "large": "../assets/img/lib/P0035-large.jpg",
+          "caption": "海岸線を望む"
+        }
+      ],
+      "count": 5
+    },
+    {
+      "id": "fukura",
+      "name": "旧福浦灯台",
+      "kana": "きゅうふくらとうだい",
+      "area": "富来エリア",
+      "address": "石川県羽咋郡志賀町福浦港",
+      "catch": "海を照らし続けた、時を超えるあかり。日本最古の木造灯台。",
+      "body": [
+        "断崖絶壁「日和山」に立つ白亜の灯台で、日本最古の木造灯台として知られる貴重な史跡です。",
+        "その起源は1608年（慶長13年）、地元の住民・日野資信がこの地で篝火を焚き、夜の海を航行する船を導いたことに始まります。後に元禄年間には灯明堂が建てられ、日野家が代々灯明役を務めました。",
+        "現在の灯台は1876年（明治9年）に日野吉三郎によって建造されたもので、西洋式木造灯台としても日本最古。高さ約5m、内部は三層構造で、1952年に新灯台が設置されるまでの76年間、船にその位置を知らせ続けました。",
+        "周辺には石畳の坂道が残り、昔ながらの漁港の風情を感じられます。2012年には映画『リトル・マエストラ』のロケ地にもなりました。"
+      ],
+      "tags": [
+        "建築",
+        "海",
+        "名所旧跡",
+        "ライトアップ"
+      ],
+      "info": [
+        {
+          "label": "アクセス",
+          "value": "旧福浦灯台観光駐車場から徒歩約5分"
+        },
+        {
+          "label": "ライトアップ",
+          "value": "夏季 7/1〜9/30、冬季 12/1〜2/28　日没後〜約4時間"
+        },
+        {
+          "label": "設備",
+          "value": "駐車場あり／撮影可"
+        }
+      ],
+      "sources": [
+        {
+          "label": "旧福浦灯台",
+          "url": "https://shika-guide.jp/spot/id/1160/"
+        }
+      ],
+      "hero": "assets/img/lib/P0006-hero.jpg",
+      "photos": [
+        {
+          "id": "P0006",
+          "thumb": "../assets/img/lib/P0006-thumb.jpg",
+          "large": "../assets/img/lib/P0006-large.jpg",
+          "caption": "ベンチイルミネーション"
+        },
+        {
+          "id": "P0037",
+          "thumb": "../assets/img/lib/P0037-thumb.jpg",
+          "large": "../assets/img/lib/P0037-large.jpg",
+          "caption": "木造三層の灯台"
+        },
+        {
+          "id": "P0038",
+          "thumb": "../assets/img/lib/P0038-thumb.jpg",
+          "large": "../assets/img/lib/P0038-large.jpg",
+          "caption": "灯台から望む日本海"
+        },
+        {
+          "id": "P0039",
+          "thumb": "../assets/img/lib/P0039-thumb.jpg",
+          "large": "../assets/img/lib/P0039-large.jpg",
+          "caption": "灯台へ続く道"
+        },
+        {
+          "id": "P0040",
+          "thumb": "../assets/img/lib/P0040-thumb.jpg",
+          "large": "../assets/img/lib/P0040-large.jpg",
+          "caption": "青空の下の灯台"
+        },
+        {
+          "id": "P0041",
+          "thumb": "../assets/img/lib/P0041-thumb.jpg",
+          "large": "../assets/img/lib/P0041-large.jpg",
+          "caption": "昔ながらの福浦港"
+        }
+      ],
+      "count": 6
+    },
+    {
+      "id": "shogando",
+      "name": "大島諸願堂・大島キャンプ場",
+      "kana": "おおしましょがんどう・おおしまきゃんぷじょう",
+      "area": "志賀エリア",
+      "address": "石川県羽咋郡志賀町大島",
+      "catch": "石積みの六角地蔵塔と、白砂青松の海辺のキャンプ場",
+      "body": [
+        "大島海岸に佇む諸願堂は、室町時代から伝わる悲しい船乗りの物語を今に伝える場所です。石積みの六角地蔵塔が静かに立ち、日本海の潮風に吹かれながら供養の祈りを捧げ続けています。",
+        "その昔、肥前大村（現在の長崎県大村市）の船持・武太夫の息子が乗った船が大島沖で難破。息子をはじめ乗組員たちは命を落とし、悲しみに暮れた武太夫は故郷から石を運び、この地に地蔵塔を建立しました。六角地蔵塔は高さ約3m、六面に地蔵菩薩が彫られた石積みの塔で、昭和48年に志賀町指定文化財に登録されています。",
+        "同じ大島海岸には、能登半島国定公園内に位置する「大島キャンプ場」があります。白砂青松に囲まれた広大なフリーサイトが魅力のオートキャンプ場で、車を乗り入れて好きな場所にテントを張り、海辺で自由なキャンプを楽しめます。",
+        "敷地内にはコテージやログハウスもあり、ドッグランを併設したサイトも。隣接する海水浴場は遠浅で、夏には家族連れで賑わいます。夏休み期間中には地引き網体験も実施されています。"
+      ],
+      "tags": [
+        "名所旧跡",
+        "海",
+        "星空",
+        "夕陽",
+        "キャンプ"
+      ],
+      "info": [
+        {
+          "label": "大島キャンプ場 チェックイン",
+          "value": "フリーサイト 9:00〜翌15:00／コテージ等 13:00〜翌11:00"
+        },
+        {
+          "label": "大島キャンプ場 料金",
+          "value": "2,300円〜（ソロキャンプ）"
+        },
+        {
+          "label": "大島キャンプ場 定休日",
+          "value": "毎週木曜日（年末年始休業あり）"
+        },
+        {
+          "label": "大島キャンプ場 電話",
+          "value": "090-4329-3134"
+        },
+        {
+          "label": "設備",
+          "value": "駐車場あり／AED設置／ペットOK／撮影可"
+        }
+      ],
+      "sources": [
+        {
+          "label": "大島諸願堂",
+          "url": "https://shika-guide.jp/spot/id/1156/"
+        },
+        {
+          "label": "大島キャンプ場",
+          "url": "https://shika-guide.jp/stay/id/1126/"
+        }
+      ],
+      "hero": "assets/img/lib/P0042-hero.jpg",
+      "photos": [
+        {
+          "id": "P0042",
+          "thumb": "../assets/img/lib/P0042-thumb.jpg",
+          "large": "../assets/img/lib/P0042-large.jpg",
+          "caption": "夕陽に照らされる六角地蔵塔"
+        },
+        {
+          "id": "P0043",
+          "thumb": "../assets/img/lib/P0043-thumb.jpg",
+          "large": "../assets/img/lib/P0043-large.jpg",
+          "caption": "大島海岸に佇む諸願堂"
+        },
+        {
+          "id": "P0044",
+          "thumb": "../assets/img/lib/P0044-thumb.jpg",
+          "large": "../assets/img/lib/P0044-large.jpg",
+          "caption": "石積みの六角地蔵塔"
+        },
+        {
+          "id": "P0045",
+          "thumb": "../assets/img/lib/P0045-thumb.jpg",
+          "large": "../assets/img/lib/P0045-large.jpg",
+          "caption": "天の川と六角地蔵塔"
+        },
+        {
+          "id": "P0046",
+          "thumb": "../assets/img/lib/P0046-thumb.jpg",
+          "large": "../assets/img/lib/P0046-large.jpg",
+          "caption": "満天の星に包まれる諸願堂"
+        },
+        {
+          "id": "P0047",
+          "thumb": "../assets/img/lib/P0047-thumb.jpg",
+          "large": "../assets/img/lib/P0047-large.jpg",
+          "caption": "松林に広がる大島キャンプ場"
+        },
+        {
+          "id": "P0048",
+          "thumb": "../assets/img/lib/P0048-thumb.jpg",
+          "large": "../assets/img/lib/P0048-large.jpg",
+          "caption": "遠浅の大島海水浴場"
+        }
+      ],
+      "count": 7
+    },
+    {
+      "id": "sakuragai",
+      "name": "道の駅とぎ海街道・さくら貝資料館",
+      "kana": "みちのえきとぎうみかいどう・さくらがいしりょうかん",
+      "area": "富来エリア",
+      "address": "石川県羽咋郡志賀町富来領家町甲3-5",
+      "catch": "能登の恵みと、幸せを呼ぶピンクの貝殻に出会える場所",
+      "body": [
+        "国道249号沿いに建つ「道の駅とぎ海街道」は、増穂浦海岸のすぐそばにある志賀町の玄関口。お土産コーナーには、志賀町ならではの特産品や工芸品、季節の農産物・海産物が並びます。",
+        "ころ柿を使ったスイーツ、さざえ最中、かきもち、板ワカメ・岩海苔など、ここでしか手に入らない逸品が揃うほか、活きた海産物をその場で選んで直送できるサービスも。季節ごとに甘えびやカニが水槽に並ぶ光景も名物です。",
+        "館内には「さくら貝資料館」を併設。淡いピンク色が美しいさくら貝をはじめ、増穂浦海岸に打ち寄せる約300種類の小貝や、世界各地の貝殻を展示しています（入場無料）。",
+        "幸せを招くといわれるさくら貝を使ったクラフト体験も人気で、フォトフレームやキーホルダーなど世界に一つだけの作品を作れます（体験料1,200円〜、要予約）。"
+      ],
+      "tags": [
+        "さくら貝",
+        "文化施設",
+        "体験",
+        "お土産",
+        "屋内"
+      ],
+      "info": [
+        {
+          "label": "営業時間",
+          "value": "9:00〜17:00（12〜2月は9:00〜16:00）"
+        },
+        {
+          "label": "定休日",
+          "value": "12〜2月の木曜日"
+        },
+        {
+          "label": "電話",
+          "value": "0767-42-0975"
+        },
+        {
+          "label": "公式サイト",
+          "value": "togi-michinoeki.com"
+        },
+        {
+          "label": "駐車場",
+          "value": "大型3台／普通車35台／身体障害者用1台"
+        },
+        {
+          "label": "設備",
+          "value": "バリアフリー／AED設置／キャッシュレス決済"
+        }
+      ],
+      "sources": [
+        {
+          "label": "道の駅とぎ海街道",
+          "url": "https://shika-guide.jp/gift/id/1097/"
+        },
+        {
+          "label": "さくら貝資料館",
+          "url": "https://shika-guide.jp/spot/id/1635/"
+        }
+      ],
+      "hero": "assets/img/lib/P0049-hero.jpg",
+      "photos": [
+        {
+          "id": "P0049",
+          "thumb": "../assets/img/lib/P0049-thumb.jpg",
+          "large": "../assets/img/lib/P0049-large.jpg",
+          "caption": "道の駅とぎ海街道の外観"
+        },
+        {
+          "id": "P0050",
+          "thumb": "../assets/img/lib/P0050-thumb.jpg",
+          "large": "../assets/img/lib/P0050-large.jpg",
+          "caption": "特産品が並ぶ館内"
+        },
+        {
+          "id": "P0051",
+          "thumb": "../assets/img/lib/P0051-thumb.jpg",
+          "large": "../assets/img/lib/P0051-large.jpg",
+          "caption": "さくら貝のクラフト作品"
+        },
+        {
+          "id": "P0052",
+          "thumb": "../assets/img/lib/P0052-thumb.jpg",
+          "large": "../assets/img/lib/P0052-large.jpg",
+          "caption": "人気のソフトクリーム"
+        },
+        {
+          "id": "P0053",
+          "thumb": "../assets/img/lib/P0053-thumb.jpg",
+          "large": "../assets/img/lib/P0053-large.jpg",
+          "caption": "資料館の展示室"
+        },
+        {
+          "id": "P0054",
+          "thumb": "../assets/img/lib/P0054-thumb.jpg",
+          "large": "../assets/img/lib/P0054-large.jpg",
+          "caption": "三十六歌仙貝の展示"
+        },
+        {
+          "id": "P0004",
+          "thumb": "../assets/img/lib/P0004-thumb.jpg",
+          "large": "../assets/img/lib/P0004-large.jpg",
+          "caption": "ヤセの断崖"
+        },
+        {
+          "id": "P0056",
+          "thumb": "../assets/img/lib/P0056-thumb.jpg",
+          "large": "../assets/img/lib/P0056-large.jpg",
+          "caption": "さくら貝のクラフト作品"
+        },
+        {
+          "id": "P0057",
+          "thumb": "../assets/img/lib/P0057-thumb.jpg",
+          "large": "../assets/img/lib/P0057-large.jpg",
+          "caption": "館内の様子"
+        },
+        {
+          "id": "P0058",
+          "thumb": "../assets/img/lib/P0058-thumb.jpg",
+          "large": "../assets/img/lib/P0058-large.jpg",
+          "caption": "色とりどりの貝殻"
+        }
+      ],
+      "count": 10
+    },
+    {
+      "id": "taira",
+      "name": "平家",
+      "kana": "たいらけ",
+      "area": "志賀エリア",
+      "address": "石川県羽咋郡志賀町町30-63",
+      "catch": "天領大庄屋の屋敷に残る、幽玄な庭園",
+      "body": [
+        "徳川幕府の天領地十三カ村を支配した天領大庄屋の屋敷で、石川県の指定文化財です。",
+        "庭園は江戸時代中期に作られ、室町時代や江戸時代の様式を今に伝える名園。心字池や苔むした築山、枯滝石組などが美しく配置され、四季折々の風情を楽しめます。",
+        "屋敷内には茶室や違い棚、金屏風など当時の建築様式や美術品も残されています。"
+      ],
+      "tags": [
+        "庭園",
+        "名所旧跡",
+        "文化施設",
+        "屋内"
+      ],
+      "info": [
+        {
+          "label": "営業時間",
+          "value": "8:00〜17:00"
+        },
+        {
+          "label": "定休日",
+          "value": "不定休"
+        },
+        {
+          "label": "利用料金",
+          "value": "大人500円／高校生300円／小中学生250円"
+        },
+        {
+          "label": "電話",
+          "value": "0767-32-1404"
+        },
+        {
+          "label": "設備",
+          "value": "駐車場あり"
+        }
+      ],
+      "sources": [
+        {
+          "label": "平家",
+          "url": "https://shika-guide.jp/spot/id/1637/"
+        }
+      ],
+      "hero": "assets/img/lib/P0062-hero.jpg",
+      "photos": [
+        {
+          "id": "P0059",
+          "thumb": "../assets/img/lib/P0059-thumb.jpg",
+          "large": "../assets/img/lib/P0059-large.jpg",
+          "caption": "天領大庄屋の屋敷"
+        },
+        {
+          "id": "P0060",
+          "thumb": "../assets/img/lib/P0060-thumb.jpg",
+          "large": "../assets/img/lib/P0060-large.jpg",
+          "caption": "心字池と築山"
+        },
+        {
+          "id": "P0061",
+          "thumb": "../assets/img/lib/P0061-thumb.jpg",
+          "large": "../assets/img/lib/P0061-large.jpg",
+          "caption": "苔むした庭のたたずまい"
+        },
+        {
+          "id": "P0062",
+          "thumb": "../assets/img/lib/P0062-thumb.jpg",
+          "large": "../assets/img/lib/P0062-large.jpg",
+          "caption": "四季の風情"
+        }
+      ],
+      "count": 4
+    }
+  ]
 }
