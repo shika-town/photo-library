@@ -130,9 +130,15 @@
           "thumb": "../assets/img/lib/P0156-thumb.jpg",
           "large": "../assets/img/lib/P0156-large.jpg",
           "caption": "ベンチが続く増穂浦の遊歩道"
+        },
+        {
+          "id": "P0363",
+          "thumb": "../assets/img/lib/P0363-thumb.jpg",
+          "large": "../assets/img/lib/P0363-large.jpg",
+          "caption": "P1020431"
         }
       ],
-      "count": 15
+      "count": 16
     },
     {
       "id": "hatago",
