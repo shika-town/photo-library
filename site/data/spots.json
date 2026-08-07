@@ -39,50 +39,8 @@
           "url": "https://shika-guide.jp/spot/id/1162/"
         }
       ],
-      "hero": "assets/img/lib/P0008-hero.jpg",
+      "hero": "",
       "photos": [
-        {
-          "id": "P0003",
-          "thumb": "../assets/img/lib/P0003-thumb.jpg",
-          "large": "../assets/img/lib/P0003-large.jpg",
-          "caption": "手のひらのさくら貝"
-        },
-        {
-          "id": "P0006",
-          "thumb": "../assets/img/lib/P0006-thumb.jpg",
-          "large": "../assets/img/lib/P0006-large.jpg",
-          "caption": "ベンチイルミネーション"
-        },
-        {
-          "id": "P0008",
-          "thumb": "../assets/img/lib/P0008-thumb.jpg",
-          "large": "../assets/img/lib/P0008-large.jpg",
-          "caption": "上空から見た増穂浦海岸とベンチ"
-        },
-        {
-          "id": "P0009",
-          "thumb": "../assets/img/lib/P0009-thumb.jpg",
-          "large": "../assets/img/lib/P0009-large.jpg",
-          "caption": "海沿いに続くベンチ"
-        },
-        {
-          "id": "P0010",
-          "thumb": "../assets/img/lib/P0010-thumb.jpg",
-          "large": "../assets/img/lib/P0010-large.jpg",
-          "caption": "ベンチから望む日本海"
-        },
-        {
-          "id": "P0011",
-          "thumb": "../assets/img/lib/P0011-thumb.jpg",
-          "large": "../assets/img/lib/P0011-large.jpg",
-          "caption": "色とりどりの手形"
-        },
-        {
-          "id": "P0012",
-          "thumb": "../assets/img/lib/P0012-thumb.jpg",
-          "large": "../assets/img/lib/P0012-large.jpg",
-          "caption": "打ち寄せられた貝殻の浜"
-        },
         {
           "id": "P0148",
           "thumb": "../assets/img/lib/P0148-thumb.jpg",
@@ -132,7 +90,7 @@
           "caption": "ベンチが続く増穂浦の遊歩道"
         }
       ],
-      "count": 15
+      "count": 8
     },
     {
       "id": "hatago",
@@ -168,46 +126,9 @@
           "url": "https://shika-guide.jp/spot/id/1166/"
         }
       ],
-      "hero": "assets/img/lib/P0001-hero.jpg",
-      "photos": [
-        {
-          "id": "P0001",
-          "thumb": "../assets/img/lib/P0001-thumb.jpg",
-          "large": "../assets/img/lib/P0001-large.jpg",
-          "caption": "機具岩に沈む夕陽"
-        },
-        {
-          "id": "P0015",
-          "thumb": "../assets/img/lib/P0015-thumb.jpg",
-          "large": "../assets/img/lib/P0015-large.jpg",
-          "caption": "マジックアワーの機具岩"
-        },
-        {
-          "id": "P0016",
-          "thumb": "../assets/img/lib/P0016-thumb.jpg",
-          "large": "../assets/img/lib/P0016-large.jpg",
-          "caption": "昼間の機具岩"
-        },
-        {
-          "id": "P0017",
-          "thumb": "../assets/img/lib/P0017-thumb.jpg",
-          "large": "../assets/img/lib/P0017-large.jpg",
-          "caption": "薄暮のシルエット"
-        },
-        {
-          "id": "P0018",
-          "thumb": "../assets/img/lib/P0018-thumb.jpg",
-          "large": "../assets/img/lib/P0018-large.jpg",
-          "caption": "しめ縄で結ばれた夫婦岩"
-        },
-        {
-          "id": "P0019",
-          "thumb": "../assets/img/lib/P0019-thumb.jpg",
-          "large": "../assets/img/lib/P0019-large.jpg",
-          "caption": "夏季・冬季のライトアップ"
-        }
-      ],
-      "count": 6
+      "hero": "",
+      "photos": [],
+      "count": 0
     },
     {
       "id": "gate",
@@ -239,44 +160,8 @@
           "url": "https://shika-guide.jp/spot/id/1169/"
         }
       ],
-      "hero": "assets/img/lib/P0020-hero.jpg",
+      "hero": "",
       "photos": [
-        {
-          "id": "P0020",
-          "thumb": "../assets/img/lib/P0020-thumb.jpg",
-          "large": "../assets/img/lib/P0020-large.jpg",
-          "caption": "海岸から望む巌門"
-        },
-        {
-          "id": "P0021",
-          "thumb": "../assets/img/lib/P0021-thumb.jpg",
-          "large": "../assets/img/lib/P0021-large.jpg",
-          "caption": "洞門から臨む遊覧船"
-        },
-        {
-          "id": "P0022",
-          "thumb": "../assets/img/lib/P0022-thumb.jpg",
-          "large": "../assets/img/lib/P0022-large.jpg",
-          "caption": "巌門洞窟"
-        },
-        {
-          "id": "P0002",
-          "thumb": "../assets/img/lib/P0002-thumb.jpg",
-          "large": "../assets/img/lib/P0002-large.jpg",
-          "caption": "巌門の入り江"
-        },
-        {
-          "id": "P0024",
-          "thumb": "../assets/img/lib/P0024-thumb.jpg",
-          "large": "../assets/img/lib/P0024-large.jpg",
-          "caption": "エメラルドグリーンの海"
-        },
-        {
-          "id": "P0025",
-          "thumb": "../assets/img/lib/P0025-thumb.jpg",
-          "large": "../assets/img/lib/P0025-large.jpg",
-          "caption": "能登金剛遊覧船"
-        },
         {
           "id": "P0073",
           "thumb": "../assets/img/lib/P0073-thumb.jpg",
@@ -374,7 +259,7 @@
           "caption": "岩壁に開いた洞門"
         }
       ],
-      "count": 22
+      "count": 16
     },
     {
       "id": "benten",
@@ -406,40 +291,9 @@
           "url": "https://shika-guide.jp/spot/id/1153/"
         }
       ],
-      "hero": "assets/img/lib/P0026-hero.jpg",
-      "photos": [
-        {
-          "id": "P0026",
-          "thumb": "../assets/img/lib/P0026-thumb.jpg",
-          "large": "../assets/img/lib/P0026-large.jpg",
-          "caption": "島の向こうに沈む夕陽"
-        },
-        {
-          "id": "P0027",
-          "thumb": "../assets/img/lib/P0027-thumb.jpg",
-          "large": "../assets/img/lib/P0027-large.jpg",
-          "caption": "水面に映る薄暮の空"
-        },
-        {
-          "id": "P0028",
-          "thumb": "../assets/img/lib/P0028-thumb.jpg",
-          "large": "../assets/img/lib/P0028-large.jpg",
-          "caption": "黄金色に染まる海岸"
-        },
-        {
-          "id": "P0029",
-          "thumb": "../assets/img/lib/P0029-thumb.jpg",
-          "large": "../assets/img/lib/P0029-large.jpg",
-          "caption": "波打ち際から望む弁天島"
-        },
-        {
-          "id": "P0030",
-          "thumb": "../assets/img/lib/P0030-thumb.jpg",
-          "large": "../assets/img/lib/P0030-large.jpg",
-          "caption": "夕景のシルエット"
-        }
-      ],
-      "count": 5
+      "hero": "",
+      "photos": [],
+      "count": 0
     },
     {
       "id": "yase",
@@ -477,44 +331,8 @@
           "url": "https://shika-guide.jp/spot/id/1163/"
         }
       ],
-      "hero": "assets/img/lib/P0005-hero.jpg",
+      "hero": "",
       "photos": [
-        {
-          "id": "P0005",
-          "thumb": "../assets/img/lib/P0005-thumb.jpg",
-          "large": "../assets/img/lib/P0005-large.jpg",
-          "caption": "旧福浦灯台"
-        },
-        {
-          "id": "P0032",
-          "thumb": "../assets/img/lib/P0032-thumb.jpg",
-          "large": "../assets/img/lib/P0032-large.jpg",
-          "caption": "義経の舟隠しの入り江"
-        },
-        {
-          "id": "P0033",
-          "thumb": "../assets/img/lib/P0033-thumb.jpg",
-          "large": "../assets/img/lib/P0033-large.jpg",
-          "caption": "断崖からの眺め"
-        },
-        {
-          "id": "P0034",
-          "thumb": "../assets/img/lib/P0034-thumb.jpg",
-          "large": "../assets/img/lib/P0034-large.jpg",
-          "caption": "荒々しい岩肌"
-        },
-        {
-          "id": "P0035",
-          "thumb": "../assets/img/lib/P0035-thumb.jpg",
-          "large": "../assets/img/lib/P0035-large.jpg",
-          "caption": "海岸線を望む"
-        },
-        {
-          "id": "P0004",
-          "thumb": "../assets/img/lib/P0004-thumb.jpg",
-          "large": "../assets/img/lib/P0004-large.jpg",
-          "caption": "ヤセの断崖"
-        },
         {
           "id": "P0129",
           "thumb": "../assets/img/lib/P0129-thumb.jpg",
@@ -528,7 +346,7 @@
           "caption": "岩に切れ込む義経の舟隠し"
         }
       ],
-      "count": 8
+      "count": 2
     },
     {
       "id": "fukura",
@@ -569,40 +387,9 @@
           "url": "https://shika-guide.jp/spot/id/1160/"
         }
       ],
-      "hero": "assets/img/lib/P0006-hero.jpg",
-      "photos": [
-        {
-          "id": "P0037",
-          "thumb": "../assets/img/lib/P0037-thumb.jpg",
-          "large": "../assets/img/lib/P0037-large.jpg",
-          "caption": "木造灯台ライトアップ"
-        },
-        {
-          "id": "P0038",
-          "thumb": "../assets/img/lib/P0038-thumb.jpg",
-          "large": "../assets/img/lib/P0038-large.jpg",
-          "caption": "灯台から望む日本海"
-        },
-        {
-          "id": "P0039",
-          "thumb": "../assets/img/lib/P0039-thumb.jpg",
-          "large": "../assets/img/lib/P0039-large.jpg",
-          "caption": "灯台と青空"
-        },
-        {
-          "id": "P0040",
-          "thumb": "../assets/img/lib/P0040-thumb.jpg",
-          "large": "../assets/img/lib/P0040-large.jpg",
-          "caption": "灯台ライトアップ"
-        },
-        {
-          "id": "P0041",
-          "thumb": "../assets/img/lib/P0041-thumb.jpg",
-          "large": "../assets/img/lib/P0041-large.jpg",
-          "caption": "昔ながらの福浦港"
-        }
-      ],
-      "count": 5
+      "hero": "",
+      "photos": [],
+      "count": 0
     },
     {
       "id": "shogando",
@@ -656,52 +443,9 @@
           "url": "https://shika-guide.jp/stay/id/1126/"
         }
       ],
-      "hero": "assets/img/lib/P0042-hero.jpg",
-      "photos": [
-        {
-          "id": "P0042",
-          "thumb": "../assets/img/lib/P0042-thumb.jpg",
-          "large": "../assets/img/lib/P0042-large.jpg",
-          "caption": "夕陽に照らされる六角地蔵塔"
-        },
-        {
-          "id": "P0043",
-          "thumb": "../assets/img/lib/P0043-thumb.jpg",
-          "large": "../assets/img/lib/P0043-large.jpg",
-          "caption": "大島海岸に佇む諸願堂"
-        },
-        {
-          "id": "P0044",
-          "thumb": "../assets/img/lib/P0044-thumb.jpg",
-          "large": "../assets/img/lib/P0044-large.jpg",
-          "caption": "石積みの六角地蔵塔"
-        },
-        {
-          "id": "P0045",
-          "thumb": "../assets/img/lib/P0045-thumb.jpg",
-          "large": "../assets/img/lib/P0045-large.jpg",
-          "caption": "天の川と六角地蔵塔"
-        },
-        {
-          "id": "P0046",
-          "thumb": "../assets/img/lib/P0046-thumb.jpg",
-          "large": "../assets/img/lib/P0046-large.jpg",
-          "caption": "満天の星に包まれる諸願堂"
-        },
-        {
-          "id": "P0047",
-          "thumb": "../assets/img/lib/P0047-thumb.jpg",
-          "large": "../assets/img/lib/P0047-large.jpg",
-          "caption": "松林に広がる大島キャンプ場"
-        },
-        {
-          "id": "P0048",
-          "thumb": "../assets/img/lib/P0048-thumb.jpg",
-          "large": "../assets/img/lib/P0048-large.jpg",
-          "caption": "遠浅の大島海水浴場"
-        }
-      ],
-      "count": 7
+      "hero": "",
+      "photos": [],
+      "count": 0
     },
     {
       "id": "sakuragai",
@@ -759,64 +503,9 @@
           "url": "https://shika-guide.jp/spot/id/1635/"
         }
       ],
-      "hero": "assets/img/lib/P0049-hero.jpg",
-      "photos": [
-        {
-          "id": "P0049",
-          "thumb": "../assets/img/lib/P0049-thumb.jpg",
-          "large": "../assets/img/lib/P0049-large.jpg",
-          "caption": "道の駅とぎ海街道の外観"
-        },
-        {
-          "id": "P0050",
-          "thumb": "../assets/img/lib/P0050-thumb.jpg",
-          "large": "../assets/img/lib/P0050-large.jpg",
-          "caption": "特産品が並ぶ館内"
-        },
-        {
-          "id": "P0051",
-          "thumb": "../assets/img/lib/P0051-thumb.jpg",
-          "large": "../assets/img/lib/P0051-large.jpg",
-          "caption": "さくら貝のクラフト作品"
-        },
-        {
-          "id": "P0052",
-          "thumb": "../assets/img/lib/P0052-thumb.jpg",
-          "large": "../assets/img/lib/P0052-large.jpg",
-          "caption": "人気のソフトクリーム"
-        },
-        {
-          "id": "P0053",
-          "thumb": "../assets/img/lib/P0053-thumb.jpg",
-          "large": "../assets/img/lib/P0053-large.jpg",
-          "caption": "資料館の展示室"
-        },
-        {
-          "id": "P0054",
-          "thumb": "../assets/img/lib/P0054-thumb.jpg",
-          "large": "../assets/img/lib/P0054-large.jpg",
-          "caption": "三十六歌仙貝の展示"
-        },
-        {
-          "id": "P0056",
-          "thumb": "../assets/img/lib/P0056-thumb.jpg",
-          "large": "../assets/img/lib/P0056-large.jpg",
-          "caption": "さくら貝のクラフト作品"
-        },
-        {
-          "id": "P0057",
-          "thumb": "../assets/img/lib/P0057-thumb.jpg",
-          "large": "../assets/img/lib/P0057-large.jpg",
-          "caption": "館内の様子"
-        },
-        {
-          "id": "P0058",
-          "thumb": "../assets/img/lib/P0058-thumb.jpg",
-          "large": "../assets/img/lib/P0058-large.jpg",
-          "caption": "色とりどりの貝殻"
-        }
-      ],
-      "count": 9
+      "hero": "",
+      "photos": [],
+      "count": 0
     },
     {
       "id": "taira",
@@ -864,34 +553,9 @@
           "url": "https://shika-guide.jp/spot/id/1637/"
         }
       ],
-      "hero": "assets/img/lib/P0062-hero.jpg",
-      "photos": [
-        {
-          "id": "P0059",
-          "thumb": "../assets/img/lib/P0059-thumb.jpg",
-          "large": "../assets/img/lib/P0059-large.jpg",
-          "caption": "天領大庄屋の屋敷"
-        },
-        {
-          "id": "P0060",
-          "thumb": "../assets/img/lib/P0060-thumb.jpg",
-          "large": "../assets/img/lib/P0060-large.jpg",
-          "caption": "心字池と築山"
-        },
-        {
-          "id": "P0061",
-          "thumb": "../assets/img/lib/P0061-thumb.jpg",
-          "large": "../assets/img/lib/P0061-large.jpg",
-          "caption": "苔むした庭のたたずまい"
-        },
-        {
-          "id": "P0062",
-          "thumb": "../assets/img/lib/P0062-thumb.jpg",
-          "large": "../assets/img/lib/P0062-large.jpg",
-          "caption": "四季の風情"
-        }
-      ],
-      "count": 4
+      "hero": "",
+      "photos": [],
+      "count": 0
     }
   ]
 }
