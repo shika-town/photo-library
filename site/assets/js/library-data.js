@@ -3,7 +3,7 @@
 window.SPL_LIBRARY = {
   "meta": {
     "note": "photos.json と spots.json から自動生成しています。直接編集せず、scripts/build-library.py を実行してください。",
-    "count": 72
+    "count": 82
   },
   "photos": [
     {
@@ -49,11 +49,11 @@ window.SPL_LIBRARY = {
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
-      "season": "春",
+      "season": "春,冬",
       "tags": [
         "さくら貝",
         "海",
-        "浜"
+        "砂浜"
       ],
       "thumb": "assets/img/lib/P0003-thumb.jpg",
       "large": "assets/img/lib/P0003-large.jpg",
@@ -65,10 +65,10 @@ window.SPL_LIBRARY = {
     },
     {
       "title": "ヤセの断崖",
-      "spot": "道の駅とぎ海街道・さくら貝資料館",
-      "spotId": "sakuragai",
+      "spot": "ヤセの断崖・義経の舟隠し",
+      "spotId": "yase",
       "area": "富来エリア",
-      "season": "秋",
+      "season": "冬",
       "tags": [
         "断崖",
         "海",
@@ -103,12 +103,12 @@ window.SPL_LIBRARY = {
     },
     {
       "title": "ベンチイルミネーション",
-      "spot": "旧福浦灯台",
-      "spotId": "fukura",
+      "spot": "世界一長いベンチ・増穂浦海岸",
+      "spotId": "bench",
       "area": "富来エリア",
-      "season": "冬",
+      "season": "秋",
       "tags": [
-        "冬",
+        "秋",
         "夜景",
         "イルミネーション"
       ],
@@ -121,9 +121,9 @@ window.SPL_LIBRARY = {
       "id": "P0006"
     },
     {
-      "title": "満開の桜並木",
-      "spot": "世界一長いベンチ・増穂浦海岸",
-      "spotId": "bench",
+      "title": "尊保の桜並木",
+      "spot": "",
+      "spotId": null,
       "area": "富来エリア",
       "season": "春",
       "tags": [
@@ -131,8 +131,8 @@ window.SPL_LIBRARY = {
         "桜",
         "花"
       ],
-      "thumb": "assets/img/lib/P0007-thumb.jpg",
-      "large": "assets/img/lib/P0007-large.jpg",
+      "thumb": "assets/img/lib/P0007-new.jpg",
+      "large": "assets/img/lib/P0007-new.jpg",
       "alt": "満開の桜が続く春の並木道",
       "credit": "© 志賀町",
       "photographer": "志賀町",
@@ -203,7 +203,7 @@ window.SPL_LIBRARY = {
       "id": "P0010"
     },
     {
-      "title": "色とりどりの座面",
+      "title": "色とりどりの手形",
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
@@ -217,7 +217,7 @@ window.SPL_LIBRARY = {
       ],
       "thumb": "assets/img/lib/P0011-thumb.jpg",
       "large": "assets/img/lib/P0011-large.jpg",
-      "alt": "色とりどりの座面",
+      "alt": "色とりどりの手形",
       "credit": "© 志賀町",
       "photographer": "志賀町",
       "source": "世界一長いベンチ・増穂浦海岸",
@@ -243,6 +243,174 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "世界一長いベンチ・増穂浦海岸",
       "id": "P0012"
+    },
+    {
+      "title": "増穂浦海岸に伸びるベンチ",
+      "spot": "世界一長いベンチ・増穂浦海岸",
+      "spotId": "bench",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "夕陽",
+        "海",
+        "ベンチ",
+        "さくら貝",
+        "空撮"
+      ],
+      "thumb": "assets/img/lib/P0148-thumb.jpg",
+      "large": "assets/img/lib/P0148-large.jpg",
+      "alt": "増穂浦海岸に伸びるベンチ",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "世界一長いベンチ・増穂浦海岸",
+      "id": "P0148"
+    },
+    {
+      "title": "カラフルに続く世界一長いベンチ",
+      "spot": "世界一長いベンチ・増穂浦海岸",
+      "spotId": "bench",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "夕陽",
+        "海",
+        "ベンチ",
+        "さくら貝",
+        "空撮"
+      ],
+      "thumb": "assets/img/lib/P0150-thumb.jpg",
+      "large": "assets/img/lib/P0150-large.jpg",
+      "alt": "カラフルに続く世界一長いベンチ",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "世界一長いベンチ・増穂浦海岸",
+      "id": "P0150"
+    },
+    {
+      "title": "増穂浦の砂浜と青い海",
+      "spot": "世界一長いベンチ・増穂浦海岸",
+      "spotId": "bench",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "夕陽",
+        "海",
+        "ベンチ",
+        "さくら貝",
+        "空撮"
+      ],
+      "thumb": "assets/img/lib/P0151-thumb.jpg",
+      "large": "assets/img/lib/P0151-large.jpg",
+      "alt": "増穂浦の砂浜と青い海",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "世界一長いベンチ・増穂浦海岸",
+      "id": "P0151"
+    },
+    {
+      "title": "世界一長いベンチの案内板",
+      "spot": "世界一長いベンチ・増穂浦海岸",
+      "spotId": "bench",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "夕陽",
+        "海",
+        "ベンチ",
+        "さくら貝",
+        "空撮"
+      ],
+      "thumb": "assets/img/lib/P0152-thumb.jpg",
+      "large": "assets/img/lib/P0152-large.jpg",
+      "alt": "世界一長いベンチの案内板",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "世界一長いベンチ・増穂浦海岸",
+      "id": "P0152"
+    },
+    {
+      "title": "世界一長いベンチのモニュメント",
+      "spot": "世界一長いベンチ・増穂浦海岸",
+      "spotId": "bench",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "夕陽",
+        "海",
+        "ベンチ",
+        "さくら貝",
+        "空撮"
+      ],
+      "thumb": "assets/img/lib/P0153-thumb.jpg",
+      "large": "assets/img/lib/P0153-large.jpg",
+      "alt": "世界一長いベンチのモニュメント",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "世界一長いベンチ・増穂浦海岸",
+      "id": "P0153"
+    },
+    {
+      "title": "手形が並ぶカラフルなタイル",
+      "spot": "世界一長いベンチ・増穂浦海岸",
+      "spotId": "bench",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "夕陽",
+        "海",
+        "ベンチ",
+        "さくら貝",
+        "空撮"
+      ],
+      "thumb": "assets/img/lib/P0154-thumb.jpg",
+      "large": "assets/img/lib/P0154-large.jpg",
+      "alt": "手形が並ぶカラフルなタイル",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "世界一長いベンチ・増穂浦海岸",
+      "id": "P0154"
+    },
+    {
+      "title": "世界一長いベンチと青い空",
+      "spot": "世界一長いベンチ・増穂浦海岸",
+      "spotId": "bench",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "夕陽",
+        "海",
+        "ベンチ",
+        "さくら貝",
+        "空撮"
+      ],
+      "thumb": "assets/img/lib/P0155-thumb.jpg",
+      "large": "assets/img/lib/P0155-large.jpg",
+      "alt": "世界一長いベンチと青い空",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "世界一長いベンチ・増穂浦海岸",
+      "id": "P0155"
+    },
+    {
+      "title": "ベンチが続く増穂浦の遊歩道",
+      "spot": "世界一長いベンチ・増穂浦海岸",
+      "spotId": "bench",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "夕陽",
+        "海",
+        "ベンチ",
+        "さくら貝",
+        "空撮"
+      ],
+      "thumb": "assets/img/lib/P0156-thumb.jpg",
+      "large": "assets/img/lib/P0156-large.jpg",
+      "alt": "ベンチが続く増穂浦の遊歩道",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "世界一長いベンチ・増穂浦海岸",
+      "id": "P0156"
     },
     {
       "title": "マジックアワーの機具岩",
@@ -305,7 +473,7 @@ window.SPL_LIBRARY = {
       "id": "P0017"
     },
     {
-      "title": "注連縄で結ばれた夫婦岩",
+      "title": "しめ縄で結ばれた夫婦岩",
       "spot": "機具岩",
       "spotId": "hatago",
       "area": "富来エリア",
@@ -318,7 +486,7 @@ window.SPL_LIBRARY = {
       ],
       "thumb": "assets/img/lib/P0018-thumb.jpg",
       "large": "assets/img/lib/P0018-large.jpg",
-      "alt": "注連縄で結ばれた夫婦岩",
+      "alt": "しめ縄で結ばれた夫婦岩",
       "credit": "© 志賀町",
       "photographer": "志賀町",
       "source": "機具岩",
@@ -365,7 +533,7 @@ window.SPL_LIBRARY = {
       "id": "P0020"
     },
     {
-      "title": "洞門をくぐる遊覧船",
+      "title": "洞門から臨む遊覧船",
       "spot": "巌門",
       "spotId": "gate",
       "area": "富来エリア",
@@ -378,14 +546,14 @@ window.SPL_LIBRARY = {
       ],
       "thumb": "assets/img/lib/P0021-thumb.jpg",
       "large": "assets/img/lib/P0021-large.jpg",
-      "alt": "洞門をくぐる遊覧船",
+      "alt": "洞門から臨む遊覧船",
       "credit": "© 志賀町",
       "photographer": "志賀町",
       "source": "巌門",
       "id": "P0021"
     },
     {
-      "title": "洞窟の内部",
+      "title": "巌門洞窟",
       "spot": "巌門",
       "spotId": "gate",
       "area": "富来エリア",
@@ -398,7 +566,7 @@ window.SPL_LIBRARY = {
       ],
       "thumb": "assets/img/lib/P0022-thumb.jpg",
       "large": "assets/img/lib/P0022-large.jpg",
-      "alt": "洞窟の内部",
+      "alt": "巌門洞窟",
       "credit": "© 志賀町",
       "photographer": "志賀町",
       "source": "巌門",
@@ -949,7 +1117,49 @@ window.SPL_LIBRARY = {
       "id": "P0035"
     },
     {
-      "title": "木造三層の灯台",
+      "title": "断崖から望む日本海",
+      "spot": "ヤセの断崖・義経の舟隠し",
+      "spotId": "yase",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "断崖",
+        "海",
+        "空撮",
+        "名所旧跡",
+        "義経"
+      ],
+      "thumb": "assets/img/lib/P0129-thumb.jpg",
+      "large": "assets/img/lib/P0129-large.jpg",
+      "alt": "断崖から望む日本海",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "ヤセの断崖・義経の舟隠し",
+      "id": "P0129"
+    },
+    {
+      "title": "岩に切れ込む義経の舟隠し",
+      "spot": "ヤセの断崖・義経の舟隠し",
+      "spotId": "yase",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "断崖",
+        "海",
+        "空撮",
+        "名所旧跡",
+        "義経"
+      ],
+      "thumb": "assets/img/lib/P0138-thumb.jpg",
+      "large": "assets/img/lib/P0138-large.jpg",
+      "alt": "岩に切れ込む義経の舟隠し",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "ヤセの断崖・義経の舟隠し",
+      "id": "P0138"
+    },
+    {
+      "title": "木造灯台ライトアップ",
       "spot": "旧福浦灯台",
       "spotId": "fukura",
       "area": "富来エリア",
@@ -962,7 +1172,7 @@ window.SPL_LIBRARY = {
       ],
       "thumb": "assets/img/lib/P0037-thumb.jpg",
       "large": "assets/img/lib/P0037-large.jpg",
-      "alt": "木造三層の灯台",
+      "alt": "木造灯台ライトアップ",
       "credit": "© 志賀町",
       "photographer": "志賀町",
       "source": "旧福浦灯台",
@@ -989,7 +1199,7 @@ window.SPL_LIBRARY = {
       "id": "P0038"
     },
     {
-      "title": "灯台へ続く道",
+      "title": "灯台と青空",
       "spot": "旧福浦灯台",
       "spotId": "fukura",
       "area": "富来エリア",
@@ -1002,14 +1212,14 @@ window.SPL_LIBRARY = {
       ],
       "thumb": "assets/img/lib/P0039-thumb.jpg",
       "large": "assets/img/lib/P0039-large.jpg",
-      "alt": "灯台へ続く道",
+      "alt": "灯台と青空",
       "credit": "© 志賀町",
       "photographer": "志賀町",
       "source": "旧福浦灯台",
       "id": "P0039"
     },
     {
-      "title": "青空の下の灯台",
+      "title": "灯台ライトアップ",
       "spot": "旧福浦灯台",
       "spotId": "fukura",
       "area": "富来エリア",
@@ -1022,7 +1232,7 @@ window.SPL_LIBRARY = {
       ],
       "thumb": "assets/img/lib/P0040-thumb.jpg",
       "large": "assets/img/lib/P0040-large.jpg",
-      "alt": "青空の下の灯台",
+      "alt": "灯台ライトアップ",
       "credit": "© 志賀町",
       "photographer": "志賀町",
       "source": "旧福浦灯台",

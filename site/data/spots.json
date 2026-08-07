@@ -48,6 +48,12 @@
           "caption": "手のひらのさくら貝"
         },
         {
+          "id": "P0006",
+          "thumb": "../assets/img/lib/P0006-thumb.jpg",
+          "large": "../assets/img/lib/P0006-large.jpg",
+          "caption": "ベンチイルミネーション"
+        },
+        {
           "id": "P0008",
           "thumb": "../assets/img/lib/P0008-thumb.jpg",
           "large": "../assets/img/lib/P0008-large.jpg",
@@ -69,7 +75,7 @@
           "id": "P0011",
           "thumb": "../assets/img/lib/P0011-thumb.jpg",
           "large": "../assets/img/lib/P0011-large.jpg",
-          "caption": "色とりどりの座面"
+          "caption": "色とりどりの手形"
         },
         {
           "id": "P0012",
@@ -78,13 +84,55 @@
           "caption": "打ち寄せられた貝殻の浜"
         },
         {
-          "id": "P0007",
-          "thumb": "../assets/img/lib/P0007-thumb.jpg",
-          "large": "../assets/img/lib/P0007-large.jpg",
-          "caption": "満開の桜並木"
+          "id": "P0148",
+          "thumb": "../assets/img/lib/P0148-thumb.jpg",
+          "large": "../assets/img/lib/P0148-large.jpg",
+          "caption": "増穂浦海岸に伸びるベンチ"
+        },
+        {
+          "id": "P0150",
+          "thumb": "../assets/img/lib/P0150-thumb.jpg",
+          "large": "../assets/img/lib/P0150-large.jpg",
+          "caption": "カラフルに続く世界一長いベンチ"
+        },
+        {
+          "id": "P0151",
+          "thumb": "../assets/img/lib/P0151-thumb.jpg",
+          "large": "../assets/img/lib/P0151-large.jpg",
+          "caption": "増穂浦の砂浜と青い海"
+        },
+        {
+          "id": "P0152",
+          "thumb": "../assets/img/lib/P0152-thumb.jpg",
+          "large": "../assets/img/lib/P0152-large.jpg",
+          "caption": "世界一長いベンチの案内板"
+        },
+        {
+          "id": "P0153",
+          "thumb": "../assets/img/lib/P0153-thumb.jpg",
+          "large": "../assets/img/lib/P0153-large.jpg",
+          "caption": "世界一長いベンチのモニュメント"
+        },
+        {
+          "id": "P0154",
+          "thumb": "../assets/img/lib/P0154-thumb.jpg",
+          "large": "../assets/img/lib/P0154-large.jpg",
+          "caption": "手形が並ぶカラフルなタイル"
+        },
+        {
+          "id": "P0155",
+          "thumb": "../assets/img/lib/P0155-thumb.jpg",
+          "large": "../assets/img/lib/P0155-large.jpg",
+          "caption": "世界一長いベンチと青い空"
+        },
+        {
+          "id": "P0156",
+          "thumb": "../assets/img/lib/P0156-thumb.jpg",
+          "large": "../assets/img/lib/P0156-large.jpg",
+          "caption": "ベンチが続く増穂浦の遊歩道"
         }
       ],
-      "count": 7
+      "count": 15
     },
     {
       "id": "hatago",
@@ -150,7 +198,7 @@
           "id": "P0018",
           "thumb": "../assets/img/lib/P0018-thumb.jpg",
           "large": "../assets/img/lib/P0018-large.jpg",
-          "caption": "注連縄で結ばれた夫婦岩"
+          "caption": "しめ縄で結ばれた夫婦岩"
         },
         {
           "id": "P0019",
@@ -203,13 +251,13 @@
           "id": "P0021",
           "thumb": "../assets/img/lib/P0021-thumb.jpg",
           "large": "../assets/img/lib/P0021-large.jpg",
-          "caption": "洞門をくぐる遊覧船"
+          "caption": "洞門から臨む遊覧船"
         },
         {
           "id": "P0022",
           "thumb": "../assets/img/lib/P0022-thumb.jpg",
           "large": "../assets/img/lib/P0022-large.jpg",
-          "caption": "洞窟の内部"
+          "caption": "巌門洞窟"
         },
         {
           "id": "P0002",
@@ -460,9 +508,27 @@
           "thumb": "../assets/img/lib/P0035-thumb.jpg",
           "large": "../assets/img/lib/P0035-large.jpg",
           "caption": "海岸線を望む"
+        },
+        {
+          "id": "P0004",
+          "thumb": "../assets/img/lib/P0004-thumb.jpg",
+          "large": "../assets/img/lib/P0004-large.jpg",
+          "caption": "ヤセの断崖"
+        },
+        {
+          "id": "P0129",
+          "thumb": "../assets/img/lib/P0129-thumb.jpg",
+          "large": "../assets/img/lib/P0129-large.jpg",
+          "caption": "断崖から望む日本海"
+        },
+        {
+          "id": "P0138",
+          "thumb": "../assets/img/lib/P0138-thumb.jpg",
+          "large": "../assets/img/lib/P0138-large.jpg",
+          "caption": "岩に切れ込む義経の舟隠し"
         }
       ],
-      "count": 5
+      "count": 8
     },
     {
       "id": "fukura",
@@ -506,16 +572,10 @@
       "hero": "assets/img/lib/P0006-hero.jpg",
       "photos": [
         {
-          "id": "P0006",
-          "thumb": "../assets/img/lib/P0006-thumb.jpg",
-          "large": "../assets/img/lib/P0006-large.jpg",
-          "caption": "ベンチイルミネーション"
-        },
-        {
           "id": "P0037",
           "thumb": "../assets/img/lib/P0037-thumb.jpg",
           "large": "../assets/img/lib/P0037-large.jpg",
-          "caption": "木造三層の灯台"
+          "caption": "木造灯台ライトアップ"
         },
         {
           "id": "P0038",
@@ -527,13 +587,13 @@
           "id": "P0039",
           "thumb": "../assets/img/lib/P0039-thumb.jpg",
           "large": "../assets/img/lib/P0039-large.jpg",
-          "caption": "灯台へ続く道"
+          "caption": "灯台と青空"
         },
         {
           "id": "P0040",
           "thumb": "../assets/img/lib/P0040-thumb.jpg",
           "large": "../assets/img/lib/P0040-large.jpg",
-          "caption": "青空の下の灯台"
+          "caption": "灯台ライトアップ"
         },
         {
           "id": "P0041",
@@ -542,7 +602,7 @@
           "caption": "昔ながらの福浦港"
         }
       ],
-      "count": 6
+      "count": 5
     },
     {
       "id": "shogando",
@@ -738,12 +798,6 @@
           "caption": "三十六歌仙貝の展示"
         },
         {
-          "id": "P0004",
-          "thumb": "../assets/img/lib/P0004-thumb.jpg",
-          "large": "../assets/img/lib/P0004-large.jpg",
-          "caption": "ヤセの断崖"
-        },
-        {
           "id": "P0056",
           "thumb": "../assets/img/lib/P0056-thumb.jpg",
           "large": "../assets/img/lib/P0056-large.jpg",
@@ -762,7 +816,7 @@
           "caption": "色とりどりの貝殻"
         }
       ],
-      "count": 10
+      "count": 9
     },
     {
       "id": "taira",

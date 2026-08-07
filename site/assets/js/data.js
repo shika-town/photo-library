@@ -32,7 +32,7 @@ window.SPL_DATA = {
       "id": "bench",
       "name": "世界一長いベンチ・増穂浦海岸",
       "area": "富来エリア",
-      "count": 7,
+      "count": 15,
       "image": "assets/img/lib/P0008-hero.jpg",
       "alt": "世界一長いベンチ・増穂浦海岸",
       "description": "海・貝・夕日、そして記憶に残る長さ"
@@ -137,11 +137,11 @@ window.SPL_DATA = {
       "title": "手のひらのさくら貝",
       "spot": "世界一長いベンチ・増穂浦海岸",
       "area": "富来エリア",
-      "season": "春",
+      "season": "春,冬",
       "tags": [
         "さくら貝",
         "海",
-        "浜"
+        "砂浜"
       ],
       "image": "assets/img/lib/P0003-new.jpg",
       "alt": "増穂浦海岸で拾い集めたさくら貝"
@@ -149,9 +149,9 @@ window.SPL_DATA = {
     {
       "id": "P0004",
       "title": "ヤセの断崖",
-      "spot": "道の駅とぎ海街道・さくら貝資料館",
+      "spot": "ヤセの断崖・義経の舟隠し",
       "area": "富来エリア",
-      "season": "秋",
+      "season": "冬",
       "tags": [
         "断崖",
         "海",
@@ -177,11 +177,11 @@ window.SPL_DATA = {
     {
       "id": "P0006",
       "title": "ベンチイルミネーション",
-      "spot": "旧福浦灯台",
+      "spot": "世界一長いベンチ・増穂浦海岸",
       "area": "富来エリア",
-      "season": "冬",
+      "season": "秋",
       "tags": [
-        "冬",
+        "秋",
         "夜景",
         "イルミネーション"
       ],
@@ -190,8 +190,8 @@ window.SPL_DATA = {
     },
     {
       "id": "P0007",
-      "title": "満開の桜並木",
-      "spot": "世界一長いベンチ・増穂浦海岸",
+      "title": "尊保の桜並木",
+      "spot": "",
       "area": "富来エリア",
       "season": "春",
       "tags": [
