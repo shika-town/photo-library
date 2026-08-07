@@ -1,7 +1,7 @@
 {
   "meta": {
     "note": "photos.json と spots.json から自動生成しています。直接編集せず、scripts/build-library.py を実行してください。",
-    "count": 83
+    "count": 82
   },
   "photos": [
     {
@@ -409,27 +409,6 @@
       "photographer": "志賀町",
       "source": "世界一長いベンチ・増穂浦海岸",
       "id": "P0156"
-    },
-    {
-      "title": "P1020431",
-      "spot": "世界一長いベンチ・増穂浦海岸",
-      "spotId": "bench",
-      "area": "富来エリア",
-      "season": "",
-      "tags": [
-        "夕陽",
-        "海",
-        "ベンチ",
-        "さくら貝",
-        "空撮"
-      ],
-      "thumb": "assets/img/lib/P0363-thumb.jpg",
-      "large": "assets/img/lib/P0363-large.jpg",
-      "alt": "P1020431",
-      "credit": "© 志賀町",
-      "photographer": "志賀町",
-      "source": "世界一長いベンチ・増穂浦海岸",
-      "id": "P0363"
     },
     {
       "title": "マジックアワーの機具岩",
