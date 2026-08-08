@@ -262,11 +262,13 @@ def main():
         fy = FOCUS.get(str(p.get('focus', '')).strip(), 0.5)
         try:
             return p, make(fetch(p), 'lib/%s-%s' % (p['id'], kind), SIZES[kind], fy)
-        except FileNotFoundError as e:
+        except Exception as e:
             old = made_path('lib/%s-%s' % (p['id'], kind))
             if old:
                 print('  ！ %s（生成済み画像を再利用します）' % e)
                 return p, old
+            if not isinstance(e, FileNotFoundError):
+                raise
             if p['id'] not in skipped:
                 skipped.append(p['id']); print('  ！ %s' % e)
             return p, None
@@ -285,7 +287,11 @@ def main():
             fy = FOCUS.get(str(p.get('focus', '')).strip(), 0.5)
             try:
                 f = fetch(p)
-            except FileNotFoundError as e:
+                gal.append({'id': p['id'],
+                            'thumb': '../' + make(f, 'lib/%s-thumb' % p['id'], SIZES['thumb'], fy),
+                            'large': '../' + make(f, 'lib/%s-large' % p['id'], SIZES['large'], fy),
+                            'caption': p.get('title', '')})
+            except Exception as e:
                 thumb = made_path('lib/%s-thumb' % p['id'])
                 large = made_path('lib/%s-large' % p['id'])
                 if thumb and large:
@@ -295,13 +301,11 @@ def main():
                                 'large': '../' + large,
                                 'caption': p.get('title', '')})
                     continue
+                if not isinstance(e, FileNotFoundError):
+                    raise
                 if p['id'] not in skipped:
                     skipped.append(p['id']); print('  ！ %s' % e)
                 continue
-            gal.append({'id': p['id'],
-                        'thumb': '../' + make(f, 'lib/%s-thumb' % p['id'], SIZES['thumb'], fy),
-                        'large': '../' + make(f, 'lib/%s-large' % p['id'], SIZES['large'], fy),
-                        'caption': p.get('title', '')})
         spots_out.append({
             'id': sid, 'name': s['name'], 'kana': s.get('kana', ''), 'area': s.get('area', ''),
             'address': s.get('address', ''), 'catch': s.get('catch', ''),
@@ -326,11 +330,13 @@ def main():
         fy = FOCUS.get(str(p.get('focus', '')).strip(), 0.5)
         try:
             _img = make(fetch(p), 'lib/%s-new' % p['id'], SIZES['new'], fy)
-        except FileNotFoundError as e:
+        except Exception as e:
             _img = made_path('lib/%s-new' % p['id'])
             if _img:
                 print('  ！ %s（生成済み画像を再利用します）' % e)
             else:
+                if not isinstance(e, FileNotFoundError):
+                    raise
                 if p['id'] not in skipped:
                     skipped.append(p['id']); print('  ！ %s' % e)
                 continue
