@@ -18,6 +18,34 @@
   }
   function icon(id) { return '<svg aria-hidden="true"><use href="#' + id + '"/></svg>'; }
 
+  var FALLBACK_IMAGES = {
+    hero: 'assets/img/lib/P0009-hero.jpg',
+    spots: {
+      bench: 'assets/img/lib/P0008-hero.jpg',
+      hatago: 'assets/img/lib/P0001-hero.jpg',
+      gate: 'assets/img/lib/P0020-hero.jpg',
+      benten: 'assets/img/lib/P0026-hero.jpg'
+    },
+    scenes: {
+      '夕陽': 'assets/img/lib/P0063-scene.jpg',
+      '海': 'assets/img/lib/P0064-scene.jpg',
+      '空撮': 'assets/img/lib/P0065-scene.jpg',
+      '春': 'assets/img/lib/P0066-scene.jpg',
+      '秋': 'assets/img/lib/P0067-scene.jpg',
+      '星空': 'assets/img/lib/P0068-scene.jpg'
+    },
+    seasons: {
+      '春': 'assets/img/lib/P0069-season.jpg',
+      '夏': 'assets/img/lib/P0070-season.jpg',
+      '秋': 'assets/img/lib/P0071-season.jpg',
+      '冬': 'assets/img/lib/P0072-season.jpg'
+    }
+  };
+
+  function withFallback(value, fallback) {
+    return value && String(value).trim() ? value : fallback;
+  }
+
   /* ---------- データ取得（file:// では data.js にフォールバック） ---------- */
   function loadData() {
     return fetch(DATA_URL, { cache: 'no-cache' })
@@ -32,8 +60,9 @@
      カード
      ===================================================================== */
   function spotCard(s) {
+    var image = withFallback(s.image, FALLBACK_IMAGES.spots[s.id] || FALLBACK_IMAGES.hero);
     return '<a class="spot-card" href="spots/' + esc(s.id) + '.html">' +
-      '<div class="spot-card__media"><img src="' + esc(s.image) + '" alt="' + esc(s.alt || s.name) +
+      '<div class="spot-card__media"><img src="' + esc(image) + '" alt="' + esc(s.alt || s.name) +
         '" loading="lazy" width="1200" height="800"></div>' +
       '<div class="spot-card__body">' +
         '<h3 class="spot-card__name">' + esc(s.name) + '</h3>' +
@@ -55,14 +84,16 @@
   }
 
   function sceneCard(s) {
+    var image = withFallback(s.image, FALLBACK_IMAGES.scenes[s.label] || FALLBACK_IMAGES.hero);
     return '<button class="scene-card" type="button" data-query="' + esc(s.query) + '">' +
-      '<img src="' + esc(s.image) + '" alt="' + esc(s.alt || s.label) + '" loading="lazy" width="600" height="600">' +
+      '<img src="' + esc(image) + '" alt="' + esc(s.alt || s.label) + '" loading="lazy" width="600" height="600">' +
       '<span class="scene-card__label">' + esc(s.label) + '</span></button>';
   }
 
   function seasonCard(s) {
+    var image = withFallback(s.image, FALLBACK_IMAGES.seasons[s.ja] || FALLBACK_IMAGES.hero);
     return '<a class="season-card" href="#season-' + esc(s.en) + '" data-query="' + esc(s.query) + '">' +
-      '<img src="' + esc(s.image) + '" alt="' + esc(s.alt || s.ja) + 'の志賀町" loading="lazy" width="800" height="600">' +
+      '<img src="' + esc(image) + '" alt="' + esc(s.alt || s.ja) + 'の志賀町" loading="lazy" width="800" height="600">' +
       '<span class="season-card__label">' +
         '<span class="season-card__ja">' + esc(s.ja) + '</span>' +
         '<span class="season-card__en">' + esc(s.en) + '</span>' +
@@ -74,7 +105,7 @@
      ===================================================================== */
   function render(d) {
     $('#heroTitle').innerHTML = d.hero.title.map(function (t) { return '<span>' + esc(t) + '</span>'; }).join('');
-    $('#heroImg').src = d.hero.image;
+    $('#heroImg').src = withFallback(d.hero.image, FALLBACK_IMAGES.hero);
     $('#heroImg').alt = d.hero.alt || '';
     $('#heroCaption').querySelector('span').textContent = d.hero.caption;
     document.title = d.site.name + '｜' + d.site.nameJa;

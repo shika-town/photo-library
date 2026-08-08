@@ -144,6 +144,16 @@ def fetch(photo):
 
 
 _made = {}
+def made_path(name):
+    """生成済み画像がある場合は、サイト内パスを返す。
+    GitHub Actions 側でドライブや元画像を一時的に読めない場合でも、
+    すでに公開用画像が残っていればトップページを画像なしで上書きしない。
+    """
+    out = os.path.join(IMG, name + '.jpg')
+    if os.path.exists(out):
+        return 'assets/img/%s.jpg' % name
+    return None
+
 def make(src, name, size, fy=0.5):
     key = (src, name, size, fy)
     if key in _made: return _made[key]
@@ -200,9 +210,19 @@ def main():
     # 「承認」欄に TRUE が入っている行だけをサイトに反映する。
     # idは回答の行順から自動で決める（F0001…）。行が追加されるだけなので番号は変わらない。
     forms = data.get('フォーム回答', [])
-    F = {'写真': 'driveFileId', 'タイトル': 'title', 'スポット': 'spot',
+    F = {'写真': 'driveFileId', 'タイトル': 'title',
+         ('スポット', 'どこで撮った写真ですか'): 'spot',
          '季節': 'season', 'タグ': 'tags', '撮影者': 'photographer', '備考': 'description'}
     n_form = 0
+    def form_value(row, keys):
+        if isinstance(keys, tuple):
+            for key in keys:
+                v = str(row.get(key, '') or '').strip()
+                if v:
+                    return v
+            return ''
+        return str(row.get(keys, '') or '').strip()
+
     for i, row in enumerate(forms, 1):
         if not yes(row.get('承認', '')):
             continue
@@ -216,7 +236,7 @@ def main():
                'copyright': '© 志賀町', 'publish': 'TRUE',
                'sortOrder': row.get('sortOrder', '') or 9000 + i}
         for jp, en in F.items():
-            rec[en] = str(row.get(jp, '') or '').strip()
+            rec[en] = form_value(row, jp)
         # ドライブのURL/IDならそのまま、そうでなければリポジトリ内のパスとして扱う
         if 'drive.google' not in pic and not re.fullmatch(r'[A-Za-z0-9_-]{20,}', pic):
             rec['driveFileId'] = ''
@@ -243,6 +263,10 @@ def main():
         try:
             return p, make(fetch(p), 'lib/%s-%s' % (p['id'], kind), SIZES[kind], fy)
         except FileNotFoundError as e:
+            old = made_path('lib/%s-%s' % (p['id'], kind))
+            if old:
+                print('  ！ %s（生成済み画像を再利用します）' % e)
+                return p, old
             if p['id'] not in skipped:
                 skipped.append(p['id']); print('  ！ %s' % e)
             return p, None
@@ -262,6 +286,15 @@ def main():
             try:
                 f = fetch(p)
             except FileNotFoundError as e:
+                thumb = made_path('lib/%s-thumb' % p['id'])
+                large = made_path('lib/%s-large' % p['id'])
+                if thumb and large:
+                    print('  ！ %s（生成済み画像を再利用します）' % e)
+                    gal.append({'id': p['id'],
+                                'thumb': '../' + thumb,
+                                'large': '../' + large,
+                                'caption': p.get('title', '')})
+                    continue
                 if p['id'] not in skipped:
                     skipped.append(p['id']); print('  ！ %s' % e)
                 continue
@@ -294,9 +327,13 @@ def main():
         try:
             _img = make(fetch(p), 'lib/%s-new' % p['id'], SIZES['new'], fy)
         except FileNotFoundError as e:
-            if p['id'] not in skipped:
-                skipped.append(p['id']); print('  ！ %s' % e)
-            continue
+            _img = made_path('lib/%s-new' % p['id'])
+            if _img:
+                print('  ！ %s（生成済み画像を再利用します）' % e)
+            else:
+                if p['id'] not in skipped:
+                    skipped.append(p['id']); print('  ！ %s' % e)
+                continue
         new_photos.append({
             'id': p['id'], 'title': p['title'], 'spot': p.get('spot', ''), 'area': p.get('area', ''),
             'season': p.get('season', ''), 'tags': split(p.get('tags')),
