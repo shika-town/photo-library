@@ -26,8 +26,10 @@ function 管理画面を開く() {
 
 function 管理画面データを取得する() {
   var ss = _管理対象シート();
+  _写真列を保証(_必須タブ(ss, '写真'), ['downloadAllowed']);
   return {
     spots: _スポット一覧(ss),
+    photos: _写真一覧(ss),
     choices: _選択肢(ss),
     pending: _承認待ち一覧(ss),
     today: Utilities.formatDate(new Date(), 'JST', 'yyyy-MM-dd')
@@ -38,7 +40,7 @@ function 写真を登録する(payload) {
   payload = payload || {};
   var ss = _管理対象シート();
   var sh = _必須タブ(ss, '写真');
-  var col = _列番号(sh);
+  var col = _写真列を保証(sh, ['downloadAllowed']);
   ['id', 'title', 'spot', 'area', 'driveFileId', 'publish'].forEach(function (key) {
     if (col[key] === undefined) throw new Error('「写真」タブに ' + key + ' 列がありません。');
   });
@@ -68,6 +70,7 @@ function 写真を登録する(payload) {
   if (col.copyright !== undefined) row[col.copyright] = String(payload.copyright || '© 志賀町');
   if (col.description !== undefined) row[col.description] = String(payload.description || '').trim();
   row[col.publish] = payload.publish === true ? 'TRUE' : 'FALSE';
+  if (col.downloadAllowed !== undefined) row[col.downloadAllowed] = payload.downloadAllowed === false ? 'FALSE' : 'TRUE';
   if (col.updatedBy !== undefined) row[col.updatedBy] = Session.getEffectiveUser().getEmail() || '管理画面';
   if (col.updatedAt !== undefined) row[col.updatedAt] = Utilities.formatDate(new Date(), 'JST', 'yyyy-MM-dd');
 
@@ -99,6 +102,35 @@ function 承認状態を変更する(payload) {
     throw new Error('承認できないタブです。');
   }
   return { ok: true, message: payload.approved ? '公開待ちにしました。次回の自動更新で反映されます。' : '非公開にしました。' };
+}
+
+function 写真を保存する(payload) {
+  payload = payload || {};
+  var ss = _管理対象シート();
+  var sh = _必須タブ(ss, '写真');
+  var col = _写真列を保証(sh, ['downloadAllowed']);
+  var rowNumber = Number(payload.rowNumber || 0);
+  var id = String(payload.id || '').trim();
+  if (!rowNumber && id) rowNumber = _行を探す(sh, col.id, id);
+  if (!rowNumber || rowNumber < 2) throw new Error('写真が見つかりません。');
+
+  var updates = {
+    title: String(payload.title || '').trim(),
+    description: String(payload.description || '').trim(),
+    tags: _配列文字列(payload.tags),
+    roles: _配列文字列(payload.roles),
+    sortOrder: payload.sortOrder === '' ? '' : Number(payload.sortOrder || 0),
+    publish: payload.publish ? 'TRUE' : 'FALSE',
+    downloadAllowed: payload.downloadAllowed ? 'TRUE' : 'FALSE'
+  };
+  if (!updates.title) throw new Error('キャプションを入力してください。');
+
+  Object.keys(updates).forEach(function (key) {
+    if (col[key] !== undefined) sh.getRange(rowNumber, col[key] + 1).setValue(updates[key]);
+  });
+  if (col.updatedBy !== undefined) sh.getRange(rowNumber, col.updatedBy + 1).setValue(Session.getEffectiveUser().getEmail() || '管理画面');
+  if (col.updatedAt !== undefined) sh.getRange(rowNumber, col.updatedAt + 1).setValue(Utilities.formatDate(new Date(), 'JST', 'yyyy-MM-dd'));
+  return { ok: true, message: '写真情報を保存しました。次回の自動更新で反映されます。' };
 }
 
 function スポットを保存する(payload) {
@@ -142,6 +174,20 @@ function _列番号(sh) {
   return col;
 }
 
+function _写真列を保証(sh, names) {
+  var col = _列番号(sh);
+  names.forEach(function (name) {
+    if (col[name] !== undefined) return;
+    var next = sh.getLastColumn() + 1;
+    sh.getRange(1, next).setValue(name);
+    if (name === 'downloadAllowed' && sh.getLastRow() > 1) {
+      sh.getRange(2, next, sh.getLastRow() - 1, 1).setValue('TRUE');
+    }
+    col[name] = next - 1;
+  });
+  return _列番号(sh);
+}
+
 function _スポット一覧(ss) {
   var sh = _必須タブ(ss, 'スポット');
   var col = _列番号(sh);
@@ -161,6 +207,31 @@ function _スポット一覧(ss) {
       publish: String(r[col.publish] || 'TRUE').toUpperCase() === 'TRUE'
     };
   });
+}
+
+function _写真一覧(ss) {
+  var sh = _必須タブ(ss, '写真');
+  var col = _列番号(sh);
+  var rows = sh.getLastRow() > 1 ? sh.getRange(2, 1, sh.getLastRow() - 1, sh.getLastColumn()).getValues() : [];
+  return rows.map(function (r, i) {
+    var title = String(r[col.title] || '').trim();
+    var spot = String(r[col.spot] || '').trim();
+    return {
+      rowNumber: i + 2,
+      id: String(r[col.id] || '').trim(),
+      title: title,
+      spot: spot,
+      area: col.area !== undefined ? String(r[col.area] || '').trim() : '',
+      season: col.season !== undefined ? String(r[col.season] || '').trim() : '',
+      tags: col.tags !== undefined ? String(r[col.tags] || '').trim() : '',
+      roles: col.roles !== undefined ? String(r[col.roles] || '').trim() : '',
+      sortOrder: col.sortOrder !== undefined ? String(r[col.sortOrder] || '').trim() : '',
+      description: col.description !== undefined ? String(r[col.description] || '').trim() : '',
+      publish: col.publish === undefined || String(r[col.publish] || 'TRUE').toUpperCase() === 'TRUE',
+      downloadAllowed: col.downloadAllowed === undefined || String(r[col.downloadAllowed] || 'TRUE').toUpperCase() === 'TRUE',
+      label: String(r[col.id] || '').trim() + ' / ' + (title || 'キャプション未入力') + ' / ' + (spot || 'スポット未設定')
+    };
+  }).filter(function (p) { return p.id; });
 }
 
 function _選択肢(ss) {

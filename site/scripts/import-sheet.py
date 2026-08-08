@@ -187,6 +187,13 @@ def make(src, name, size, fy=0.5):
 yes = lambda v: str(v).strip().upper() in ('TRUE', '1', 'YES', 'はい', '○')
 split = lambda v: [x.strip() for x in str(v or '').replace('、', ',').split(',') if x.strip()]
 
+def photo_visible(p):
+    """公開サイトに出す写真だけを通す。
+    publish は表示ON/OFF、downloadAllowed はダウンロード対象のON/OFF。
+    既存シートに downloadAllowed 列が無い場合は、従来どおり TRUE 扱いにする。
+    """
+    return yes(p.get('publish', 'TRUE')) and yes(p.get('downloadAllowed', p.get('download', 'TRUE')))
+
 # =====================================================================
 # 実行
 # =====================================================================
@@ -199,7 +206,7 @@ def main():
         if not sid: raise SystemExit('！ SHEET_ID を指定するか、Excelのパスを引数で渡してください。')
         print('読み込み: Googleスプレッドシート %s' % sid); data = read_gsheet(sid)
 
-    photos = [p for p in data.get('写真', [])       if yes(p.get('publish', 'TRUE'))]
+    photos = [p for p in data.get('写真', [])       if photo_visible(p)]
 
     # 安全装置：読み込み結果が異常に少ないときは、サイトを空で上書きしないように止める
     if len(photos) < 20:
@@ -233,7 +240,7 @@ def main():
             continue
         rec = {'id': str(row.get('id', '')).strip() or 'F%04d' % i,
                'roles': '', 'focus': str(row.get('focus', '') or '中央'),
-               'copyright': '© 志賀町', 'publish': 'TRUE',
+               'copyright': '© 志賀町', 'publish': 'TRUE', 'downloadAllowed': 'TRUE',
                'sortOrder': row.get('sortOrder', '') or 9000 + i}
         for jp, en in F.items():
             rec[en] = form_value(row, jp)

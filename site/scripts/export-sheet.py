@@ -136,8 +136,8 @@ for n in notes:
 # 2. 写真
 # =====================================================================
 PH = ['id','title','spot','area','season','tags','roles','sortOrder','driveFileId','localPath',
-      'focus','photographer','copyright','description','publish','updatedBy','updatedAt']
-PW = [9, 30, 26, 13, 9, 26, 20, 11, 34, 34, 12, 13, 12, 40, 10, 13, 13]
+      'focus','photographer','copyright','description','publish','downloadAllowed','updatedBy','updatedAt']
+PW = [9, 30, 26, 13, 9, 26, 20, 11, 34, 34, 12, 13, 12, 40, 10, 15, 13, 13]
 # トップの新着写真は library.json の先頭に同じ順で並んでいる（build-library.py の仕様）
 N_TOP = len(top['photos'])
 
@@ -173,7 +173,7 @@ for i, p in enumerate(lib['photos']):
         'season': p.get('season', ''), 'tags': ','.join(p['tags']),
         'roles': ','.join(roles), 'sortOrder': '', 'driveFileId': '', 'localPath': '_source/photos/%s.jpg' % p['id'],
         'focus': '中央', 'photographer': p['photographer'], 'copyright': p['credit'],
-        'description': p.get('alt', ''), 'publish': 'TRUE',
+        'description': p.get('alt', ''), 'publish': 'TRUE', 'downloadAllowed': 'TRUE',
         'updatedBy': '', 'updatedAt': '',
     })
 
@@ -186,7 +186,7 @@ for sc in top['scenes']:
     rows.append({'id': pid, 'title': sc['alt'], 'spot': '', 'area': '', 'season': '',
                  'tags': sc['query'], 'roles': 'シーン', 'sortOrder': 10 * len(scene_row), 'driveFileId': '',
                  'localPath': '_source/photos/scene-%02d.jpg' % len(scene_row), 'focus': '中央', 'photographer': '志賀町',
-                 'copyright': '© 志賀町', 'description': sc['alt'], 'publish': 'TRUE',
+                 'copyright': '© 志賀町', 'description': sc['alt'], 'publish': 'TRUE', 'downloadAllowed': 'TRUE',
                  'updatedBy': '', 'updatedAt': ''})
 for se in top['seasons']:
     n += 1; pid = 'P%04d' % n
@@ -194,7 +194,7 @@ for se in top['seasons']:
     rows.append({'id': pid, 'title': se['alt'], 'spot': '', 'area': '', 'season': se['ja'],
                  'tags': se['query'], 'roles': '季節', 'sortOrder': 10 * len(season_row), 'driveFileId': '',
                  'localPath': '_source/photos/season-%02d.jpg' % len(season_row), 'focus': '中央', 'photographer': '志賀町',
-                 'copyright': '© 志賀町', 'description': se['alt'], 'publish': 'TRUE',
+                 'copyright': '© 志賀町', 'description': se['alt'], 'publish': 'TRUE', 'downloadAllowed': 'TRUE',
                  'updatedBy': '', 'updatedAt': ''})
 # 元のギャラリー順を保つように sortOrder を振り、落とした行は代わりの行に読み替える
 by_id_row = {r['id']: r for r in rows}
@@ -232,8 +232,10 @@ ws['J1'].comment = Comment('ドライブを使わず、リポジトリ内の画�
 ws['H1'].comment = Comment('小さいほど先に表示されます。並べ替えたいときは数字を変えてください。', 'SHIKA PHOTO LIBRARY', height=90, width=320)
 ws['G1'].comment = Comment('トップページのどこに出すか。新着／シーン／季節 をカンマ区切りで。\n空欄ならスポットページにだけ出ます。', 'SHIKA PHOTO LIBRARY', height=100, width=320)
 ws['K1'].comment = Comment('切り抜きの基準位置。中央／上寄り／下寄り から選びます。\n人物の顔が切れるときに調整してください。', 'SHIKA PHOTO LIBRARY', height=100, width=320)
+ws['P1'].comment = Comment('TRUE の写真だけ、公開サイトの写真一覧・スポットページに出ます。\nダウンロードさせたくない写真は FALSE にします。', 'SHIKA PHOTO LIBRARY', height=110, width=320)
 for r in range(2, len(rows) + 2):
     ws.cell(row=r, column=PH.index('publish') + 1).fill = fill_warn   # publish
+    ws.cell(row=r, column=PH.index('downloadAllowed') + 1).fill = fill_warn
 
 # =====================================================================
 # 3. スポット
