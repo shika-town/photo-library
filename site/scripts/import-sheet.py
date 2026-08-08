@@ -10,7 +10,7 @@ Googleスプレッドシートは「リンクを知っている全員が閲覧�
 写真は driveFileId（Googleドライブ）または localPath（リポジトリ内）のどちらかで指定します。
 """
 import json, io, os, sys, csv, re, time, urllib.request, urllib.parse, unicodedata
-from PIL import Image, ImageEnhance
+from PIL import Image, ImageEnhance, UnidentifiedImageError
 
 BASE  = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 IMG   = os.path.join(BASE, 'assets', 'img')
@@ -267,7 +267,7 @@ def main():
             if old:
                 print('  ！ %s（生成済み画像を再利用します）' % e)
                 return p, old
-            if not isinstance(e, FileNotFoundError):
+            if not isinstance(e, (FileNotFoundError, UnidentifiedImageError)):
                 raise
             if p['id'] not in skipped:
                 skipped.append(p['id']); print('  ！ %s' % e)
@@ -301,7 +301,7 @@ def main():
                                 'large': '../' + large,
                                 'caption': p.get('title', '')})
                     continue
-                if not isinstance(e, FileNotFoundError):
+                if not isinstance(e, (FileNotFoundError, UnidentifiedImageError)):
                     raise
                 if p['id'] not in skipped:
                     skipped.append(p['id']); print('  ！ %s' % e)
@@ -335,7 +335,7 @@ def main():
             if _img:
                 print('  ！ %s（生成済み画像を再利用します）' % e)
             else:
-                if not isinstance(e, FileNotFoundError):
+                if not isinstance(e, (FileNotFoundError, UnidentifiedImageError)):
                     raise
                 if p['id'] not in skipped:
                     skipped.append(p['id']); print('  ！ %s' % e)
