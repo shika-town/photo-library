@@ -3,7 +3,7 @@
 window.SPL_LIBRARY = {
   "meta": {
     "note": "photos.json と spots.json から自動生成しています。直接編集せず、scripts/build-library.py を実行してください。",
-    "count": 103
+    "count": 104
   },
   "photos": [
     {
@@ -1071,6 +1071,26 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "弁天島",
       "id": "P0194"
+    },
+    {
+      "title": "DSC_8600",
+      "spot": "弁天島",
+      "spotId": "benten",
+      "area": "志賀エリア",
+      "season": "",
+      "tags": [
+        "夕陽",
+        "海",
+        "島",
+        "神社"
+      ],
+      "thumb": "assets/img/lib/P0195-thumb.jpg",
+      "large": "assets/img/lib/P0195-large.jpg",
+      "alt": "DSC_8600",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "弁天島",
+      "id": "P0195"
     },
     {
       "title": "弁天島_3",

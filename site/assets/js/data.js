@@ -59,7 +59,7 @@ window.SPL_DATA = {
       "id": "benten",
       "name": "弁天島",
       "area": "志賀エリア",
-      "count": 19,
+      "count": 20,
       "image": "assets/img/lib/P0026-hero.jpg",
       "alt": "弁天島",
       "description": "夕日に照らされて幻想的に描かれる、美しい自然のシルエット"

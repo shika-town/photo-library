@@ -451,6 +451,12 @@
           "caption": "弁天島_2"
         },
         {
+          "id": "P0195",
+          "thumb": "../assets/img/lib/P0195-thumb.jpg",
+          "large": "../assets/img/lib/P0195-large.jpg",
+          "caption": "DSC_8600"
+        },
+        {
           "id": "P0196",
           "thumb": "../assets/img/lib/P0196-thumb.jpg",
           "large": "../assets/img/lib/P0196-large.jpg",
@@ -523,7 +529,7 @@
           "caption": "弁天島_14"
         }
       ],
-      "count": 19
+      "count": 20
     },
     {
       "id": "yase",
