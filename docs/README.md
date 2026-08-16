@@ -8,7 +8,7 @@
 |---|---|
 | 公開サイト | <https://shika-town.github.io/photo-library/> |
 | 運用スプレッドシート | <https://docs.google.com/spreadsheets/d/1A9_xzFMdD-UhKyo_a7xJ2h-5cM-orZ_giXX41ZiKT3Y/edit> |
-| 管理画面（写真登録・承認・スポット編集） | スプレッドシート上部メニュー「フォトライブラリー管理」→「入力画面を開く」 |
+| **管理画面（単独URL・おすすめ）** | <https://script.google.com/macros/s/AKfycbyudf6_QNYycyyauow4Rm0fWwbMUUfYEgqAJgIl0w5cLfMXjKgB7HJAlmIvkfhK2Nn4/exec> |
 | 今すぐサイトに反映させたいとき | <https://github.com/shika-town/photo-library/actions/workflows/publish.yml> →「Run workflow」 |
 | GitHubリポジトリ | <https://github.com/shika-town/photo-library> |
 
