@@ -59,7 +59,9 @@
     ctx.fill();
 
     ctx.fillStyle = 'rgba(255, 255, 255, 0.96)';
-    ctx.fillText(credit, x - padX, y - padY);
+    // バッジの幾何中心（ry + rh/2）に文字の視覚中心を合わせるため middle ベースラインで描画
+    ctx.textBaseline = 'middle';
+    ctx.fillText(credit, x - padX, ry + rh / 2);
 
     return cv;
   }

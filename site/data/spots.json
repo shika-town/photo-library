@@ -561,14 +561,8 @@
           "url": "https://shika-guide.jp/spot/id/1163/"
         }
       ],
-      "hero": "assets/img/lib/P0005-hero.jpg",
+      "hero": "assets/img/lib/P0004-hero.jpg",
       "photos": [
-        {
-          "id": "P0005",
-          "thumb": "../assets/img/lib/P0005-thumb.jpg",
-          "large": "../assets/img/lib/P0005-large.jpg",
-          "caption": "旧福浦灯台"
-        },
         {
           "id": "P0032",
           "thumb": "../assets/img/lib/P0032-thumb.jpg",
@@ -612,7 +606,7 @@
           "caption": "岩に切れ込む義経の舟隠し"
         }
       ],
-      "count": 8
+      "count": 7
     },
     {
       "id": "fukura",
@@ -653,8 +647,14 @@
           "url": "https://shika-guide.jp/spot/id/1160/"
         }
       ],
-      "hero": "assets/img/lib/P0006-hero.jpg",
+      "hero": "assets/img/lib/P0005-hero.jpg",
       "photos": [
+        {
+          "id": "P0005",
+          "thumb": "../assets/img/lib/P0005-thumb.jpg",
+          "large": "../assets/img/lib/P0005-large.jpg",
+          "caption": "旧福浦灯台"
+        },
         {
           "id": "P0037",
           "thumb": "../assets/img/lib/P0037-thumb.jpg",
@@ -686,7 +686,7 @@
           "caption": "昔ながらの福浦港"
         }
       ],
-      "count": 5
+      "count": 6
     },
     {
       "id": "shogando",

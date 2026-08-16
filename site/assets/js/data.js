@@ -177,7 +177,7 @@ window.SPL_DATA = {
     {
       "id": "P0005",
       "title": "旧福浦灯台",
-      "spot": "ヤセの断崖・義経の舟隠し",
+      "spot": "旧福浦灯台",
       "area": "富来エリア",
       "season": "夏",
       "tags": [

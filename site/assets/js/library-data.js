@@ -103,8 +103,8 @@ window.SPL_LIBRARY = {
     },
     {
       "title": "旧福浦灯台",
-      "spot": "ヤセの断崖・義経の舟隠し",
-      "spotId": "yase",
+      "spot": "旧福浦灯台",
+      "spotId": "fukura",
       "area": "富来エリア",
       "season": "夏",
       "tags": [

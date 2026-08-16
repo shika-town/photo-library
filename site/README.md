@@ -207,11 +207,11 @@ Googleドライブ（写真）─┘        （自動リサイズ）
 
 | ファイル | 役割 |
 |---|---|
-| `../運用シート_SHIKA_PHOTO_LIBRARY.xlsx` | 現在の内容を書き出したもの。Googleスプレッドシートにアップして使います |
+| `../docs/06_旧資料/運用シート_SHIKA_PHOTO_LIBRARY.xlsx` | 現在の内容を書き出したもの。Googleスプレッドシートにアップして使います |
 | `scripts/export-sheet.py` | サイトの内容 → 運用シート（初回の書き出し用） |
 | `scripts/import-sheet.py` | 運用シート → data/*.json（写真の取得とリサイズも実行） |
 | `../.github/workflows/publish.yml` | シートを読んでページを作り直し、GitHub Pages に公開する |
-| `../運用マニュアル_サイトの更新方法.md` | 職員向けの手順書 |
+| `../docs/01_担当者向け/担当者マニュアル_フォトライブラリー管理画面.md` | 職員向けの手順書 |
 
 ### シートの構成
 

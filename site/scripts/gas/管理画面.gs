@@ -7,6 +7,8 @@
  */
 
 var ADMIN_MENU_NAME = 'フォトライブラリー管理';
+var DEFAULT_SHEET_ID = '1A9_xzFMdD-UhKyo_a7xJ2h-5cM-orZ_giXX41ZiKT3Y';
+var PUBLIC_SITE_URL = 'https://shika-town.github.io/photo-library/';
 
 function onOpen() {
   SpreadsheetApp.getUi()
@@ -17,11 +19,20 @@ function onOpen() {
     .addToUi();
 }
 
+function doGet() {
+  return _管理画面HTML()
+    .setTitle('フォトライブラリー管理')
+    .setXFrameOptionsMode(HtmlService.XFrameOptionsMode.ALLOWALL);
+}
+
 function 管理画面を開く() {
-  var html = HtmlService.createTemplateFromFile('管理画面')
-    .evaluate()
+  var html = _管理画面HTML()
     .setTitle('フォトライブラリー管理');
   SpreadsheetApp.getUi().showSidebar(html);
+}
+
+function _管理画面HTML() {
+  return HtmlService.createTemplateFromFile('管理画面').evaluate();
 }
 
 function 管理画面データを取得する() {
@@ -32,7 +43,8 @@ function 管理画面データを取得する() {
     photos: _写真一覧(ss),
     choices: _選択肢(ss),
     pending: _承認待ち一覧(ss),
-    today: Utilities.formatDate(new Date(), 'JST', 'yyyy-MM-dd')
+    today: Utilities.formatDate(new Date(), 'JST', 'yyyy-MM-dd'),
+    sitePhotoBaseUrl: PUBLIC_SITE_URL + 'assets/img/lib/'
   };
 }
 
@@ -133,6 +145,36 @@ function 写真を保存する(payload) {
   return { ok: true, message: '写真情報を保存しました。次回の自動更新で反映されます。' };
 }
 
+function スポットを追加する(payload) {
+  payload = payload || {};
+  var ss = _管理対象シート();
+  var sh = _必須タブ(ss, 'スポット');
+  var col = _列番号(sh);
+  ['id', 'name'].forEach(function (key) {
+    if (col[key] === undefined) throw new Error('「スポット」タブに ' + key + ' 列がありません。');
+  });
+
+  var id = String(payload.id || '').trim().toLowerCase();
+  var name = String(payload.name || '').trim();
+  if (!name) throw new Error('スポット名を入力してください。');
+  if (!id) throw new Error('IDを入力してください（例：shrine）。');
+  if (!/^[a-z0-9-]+$/.test(id)) throw new Error('IDは半角英小文字・数字・ハイフンのみ使えます。');
+  if (_行を探す(sh, col.id, id)) throw new Error('このIDはすでに使われています: ' + id);
+
+  var width = sh.getLastColumn();
+  var row = new Array(width).fill('');
+  row[col.id] = id;
+  row[col.name] = name;
+  if (col.area !== undefined) row[col.area] = String(payload.area || '').trim();
+  if (col.catch !== undefined) row[col.catch] = String(payload.catch || '').trim();
+  if (col.publish !== undefined) row[col.publish] = 'FALSE';
+  if (col.updatedBy !== undefined) row[col.updatedBy] = Session.getEffectiveUser().getEmail() || '管理画面';
+  if (col.updatedAt !== undefined) row[col.updatedAt] = Utilities.formatDate(new Date(), 'JST', 'yyyy-MM-dd');
+
+  sh.getRange(sh.getLastRow() + 1, 1, 1, width).setValues([row]);
+  return { ok: true, message: '「' + name + '」を追加しました。まだ非公開です。説明文や写真を入力してから公開してください。', id: id };
+}
+
 function スポットを保存する(payload) {
   payload = payload || {};
   var ss = _管理対象シート();
@@ -155,7 +197,10 @@ function スポットを保存する(payload) {
 
 function _管理対象シート() {
   if (typeof SHEET_ID !== 'undefined' && SHEET_ID) return SpreadsheetApp.openById(SHEET_ID);
-  return SpreadsheetApp.getActiveSpreadsheet();
+  if (DEFAULT_SHEET_ID) return SpreadsheetApp.openById(DEFAULT_SHEET_ID);
+  var active = SpreadsheetApp.getActiveSpreadsheet();
+  if (active) return active;
+  throw new Error('管理対象のスプレッドシートIDが未設定です。');
 }
 
 function _必須タブ(ss, name) {
@@ -216,9 +261,11 @@ function _写真一覧(ss) {
   return rows.map(function (r, i) {
     var title = String(r[col.title] || '').trim();
     var spot = String(r[col.spot] || '').trim();
+    var id = String(r[col.id] || '').trim();
+    var driveFileId = col.driveFileId !== undefined ? String(r[col.driveFileId] || '').trim() : '';
     return {
       rowNumber: i + 2,
-      id: String(r[col.id] || '').trim(),
+      id: id,
       title: title,
       spot: spot,
       area: col.area !== undefined ? String(r[col.area] || '').trim() : '',
@@ -229,9 +276,25 @@ function _写真一覧(ss) {
       description: col.description !== undefined ? String(r[col.description] || '').trim() : '',
       publish: col.publish === undefined || String(r[col.publish] || 'TRUE').toUpperCase() === 'TRUE',
       downloadAllowed: col.downloadAllowed === undefined || String(r[col.downloadAllowed] || 'TRUE').toUpperCase() === 'TRUE',
-      label: String(r[col.id] || '').trim() + ' / ' + (title || 'キャプション未入力') + ' / ' + (spot || 'スポット未設定')
+      previewUrl: _写真プレビューURL(id, driveFileId),
+      label: id + ' / ' + (title || 'キャプション未入力') + ' / ' + (spot || 'スポット未設定')
     };
   }).filter(function (p) { return p.id; });
+}
+
+function _写真プレビューURL(id, driveFileId) {
+  var fid = _ドライブIDを抜く(driveFileId);
+  if (fid) return 'https://drive.google.com/thumbnail?id=' + encodeURIComponent(fid) + '&sz=w360';
+  if (id) return PUBLIC_SITE_URL + 'assets/img/lib/' + encodeURIComponent(id) + '-thumb.jpg';
+  return '';
+}
+
+function _ドライブIDを抜く(value) {
+  value = String(value || '').trim();
+  if (!value) return '';
+  var m = value.match(/\/d\/([A-Za-z0-9_-]{20,})/) || value.match(/[?&]id=([A-Za-z0-9_-]{20,})/);
+  if (m) return m[1];
+  return /^[A-Za-z0-9_-]{20,}$/.test(value) ? value : '';
 }
 
 function _選択肢(ss) {
@@ -263,13 +326,19 @@ function _承認待ち一覧(ss) {
     var rows = photos.getLastRow() > 1 ? photos.getRange(2, 1, photos.getLastRow() - 1, photos.getLastColumn()).getValues() : [];
     rows.forEach(function (r, i) {
       if (String(r[pc.publish] || '').toUpperCase() === 'TRUE') return;
+      var id = String(r[pc.id] || '').trim();
+      var driveFileId = pc.driveFileId !== undefined ? String(r[pc.driveFileId] || '').trim() : '';
+      // updatedBy が空＝まだ誰も手を触れていない新規登録。値があれば、過去に一度確認・保存された上で非公開にされている写真。
+      var isNew = pc.updatedBy === undefined || !String(r[pc.updatedBy] || '').trim();
       out.push({
         sheet: '写真',
         rowNumber: i + 2,
-        id: String(r[pc.id] || '').trim(),
+        id: id,
         title: String(r[pc.title] || '').trim(),
         spot: String(r[pc.spot] || '').trim(),
-        note: String(r[pc.description] || '').trim()
+        note: String(r[pc.description] || '').trim(),
+        previewUrl: _写真プレビューURL(id, driveFileId),
+        isNew: isNew
       });
     });
   }
@@ -281,13 +350,18 @@ function _承認待ち一覧(ss) {
       if (String(r[fc['承認']] || '').toUpperCase() === 'TRUE') return;
       var titleCol = fc['タイトル'];
       var spotCol = fc['スポット'] !== undefined ? fc['スポット'] : fc['どこで撮った写真ですか'];
+      var driveCol = fc['driveFileId'] !== undefined ? fc['driveFileId'] : fc['写真'];
+      // 承認列が空＝まだ確認していない新規投稿。「FALSE」が明示的に入っていれば、確認した上で非公開のままにした投稿。
+      var isNewForm = String(r[fc['承認']] || '').trim() === '';
       out.push({
         sheet: 'フォーム回答',
         rowNumber: i + 2,
         id: String(r[fc.id] || '').trim(),
         title: String(r[titleCol] || '').trim(),
         spot: String(r[spotCol] || '').trim(),
-        note: String(r[fc['備考']] || '').trim()
+        note: String(r[fc['備考']] || '').trim(),
+        previewUrl: driveCol !== undefined ? _写真プレビューURL('', String(r[driveCol] || '').trim()) : '',
+        isNew: isNewForm
       });
     });
   }
