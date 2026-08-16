@@ -177,7 +177,7 @@ window.SPL_DATA = {
     {
       "id": "P0005",
       "title": "旧福浦灯台",
-      "spot": "旧福浦灯台",
+      "spot": "旧福浦灯台 ",
       "area": "富来エリア",
       "season": "夏",
       "tags": [
