@@ -66,6 +66,13 @@
     return cv;
   }
 
+  /* ダウンロード回数をGoogleアナリティクス（GA4）に記録する */
+  function trackDownload(filename) {
+    if (typeof gtag !== 'function') return;
+    var photoId = (location.pathname.match(/P\d+/) || [])[0] || '';
+    gtag('event', 'photo_download', { photo_id: photoId, file_name: filename });
+  }
+
   /* ブラウザに保存させる */
   function saveBlob(blob, filename) {
     var url = URL.createObjectURL(blob);
@@ -80,6 +87,7 @@
     var a = document.createElement('a');
     a.href = src; a.download = filename;
     document.body.appendChild(a); a.click(); document.body.removeChild(a);
+    trackDownload(filename);
   }
 
   function download(cv, filename) {
@@ -88,6 +96,7 @@
         cv.toBlob(function (blob) {
           if (!blob) { reject(new Error('画像を生成できませんでした')); return; }
           saveBlob(blob, filename);
+          trackDownload(filename);
           resolve();
         }, 'image/jpeg', 0.92);
       } catch (e) {

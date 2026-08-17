@@ -35,6 +35,17 @@ E = lambda s: html.escape(str(s), quote=True)
 SITE = 'SHIKA PHOTO LIBRARY'
 SITE_JA = '志賀町公式フォトライブラリー'
 
+# Google アナリティクス（GA4）計測ID。アクセス解析・ダウンロード計測に使う。
+GA_MEASUREMENT_ID = 'G-T1JHX80JS6'
+GA_SNIPPET = '''<script async src="https://www.googletagmanager.com/gtag/js?id=%s"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', '%s');
+</script>
+''' % (GA_MEASUREMENT_ID, GA_MEASUREMENT_ID)
+
 # {p} には階層に応じた接頭辞が入る（サイト直下なら '' 、1階層下なら '../'）
 NAV = [('HOME', '{p}index.html'), ('スポットから探す', '{p}spots/index.html'),
        ('写真から探す', '{p}search.html'), ('シーンで探す', '{p}index.html#scenes'),
@@ -57,12 +68,12 @@ SPRITE = '''<svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hi
 
 
 def head(title, desc, ogimg, canonical, pre='../'):
-    return '''<!DOCTYPE html>
+    return ('''<!DOCTYPE html>
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>%s</title>
+''' + GA_SNIPPET + '''<title>%s</title>
 <meta name="description" content="%s">
 <meta name="theme-color" content="#0B4F82">
 {ROBOTS}
@@ -78,7 +89,7 @@ def head(title, desc, ogimg, canonical, pre='../'):
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="{PRE}assets/css/style.css">
-'''.replace('{PRE}', pre).replace('{ROBOTS}', ROBOTS) % (E(title), E(desc), E(SITE), E(title), E(desc), E(ogimg), E(canonical))
+''').replace('{PRE}', pre).replace('{ROBOTS}', ROBOTS) % (E(title), E(desc), E(SITE), E(title), E(desc), E(ogimg), E(canonical))
 
 
 def header(current, pre='../'):
