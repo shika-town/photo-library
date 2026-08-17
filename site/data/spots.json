@@ -45,91 +45,165 @@
           "id": "P0003",
           "thumb": "../assets/img/lib/P0003-thumb.jpg",
           "large": "../assets/img/lib/P0003-large.jpg",
-          "caption": "手のひらのさくら貝"
+          "caption": "手のひらのさくら貝",
+          "tags": [
+            "さくら貝",
+            "海",
+            "砂浜"
+          ]
         },
         {
           "id": "P0006",
           "thumb": "../assets/img/lib/P0006-thumb.jpg",
           "large": "../assets/img/lib/P0006-large.jpg",
-          "caption": "ベンチイルミネーション"
+          "caption": "ベンチイルミネーション",
+          "tags": [
+            "秋",
+            "夜景",
+            "イルミネーション"
+          ]
         },
         {
           "id": "P0008",
           "thumb": "../assets/img/lib/P0008-thumb.jpg",
           "large": "../assets/img/lib/P0008-large.jpg",
-          "caption": "上空から見た増穂浦海岸とベンチ"
+          "caption": "上空から見た増穂浦海岸とベンチ",
+          "tags": [
+            "海",
+            "ベンチ",
+            "さくら貝",
+            "空撮"
+          ]
         },
         {
           "id": "P0009",
           "thumb": "../assets/img/lib/P0009-thumb.jpg",
           "large": "../assets/img/lib/P0009-large.jpg",
-          "caption": "海沿いに続くベンチ"
+          "caption": "海沿いに続くベンチ",
+          "tags": [
+            "海",
+            "ベンチ",
+            "さくら貝"
+          ]
         },
         {
           "id": "P0010",
           "thumb": "../assets/img/lib/P0010-thumb.jpg",
           "large": "../assets/img/lib/P0010-large.jpg",
-          "caption": "ベンチから望む日本海"
+          "caption": "ベンチから望む日本海",
+          "tags": [
+            "海",
+            "ベンチ",
+            "さくら貝"
+          ]
         },
         {
           "id": "P0011",
           "thumb": "../assets/img/lib/P0011-thumb.jpg",
           "large": "../assets/img/lib/P0011-large.jpg",
-          "caption": "色とりどりの手形"
+          "caption": "色とりどりの手形",
+          "tags": [
+            "海",
+            "ベンチ",
+            "さくら貝"
+          ]
         },
         {
           "id": "P0012",
           "thumb": "../assets/img/lib/P0012-thumb.jpg",
           "large": "../assets/img/lib/P0012-large.jpg",
-          "caption": "打ち寄せられた貝殻の浜"
+          "caption": "打ち寄せられた貝殻の浜",
+          "tags": [
+            "海",
+            "ベンチ",
+            "さくら貝"
+          ]
         },
         {
           "id": "P0148",
           "thumb": "../assets/img/lib/P0148-thumb.jpg",
           "large": "../assets/img/lib/P0148-large.jpg",
-          "caption": "増穂浦海岸に伸びるベンチ"
+          "caption": "増穂浦海岸に伸びるベンチ",
+          "tags": [
+            "世界一長いベンチ",
+            "海",
+            "青空"
+          ]
         },
         {
           "id": "P0150",
           "thumb": "../assets/img/lib/P0150-thumb.jpg",
           "large": "../assets/img/lib/P0150-large.jpg",
-          "caption": "カラフルに続く世界一長いベンチ"
+          "caption": "カラフルに続く世界一長いベンチ",
+          "tags": [
+            "世界一長いベンチ",
+            "海",
+            "青空"
+          ]
         },
         {
           "id": "P0151",
           "thumb": "../assets/img/lib/P0151-thumb.jpg",
           "large": "../assets/img/lib/P0151-large.jpg",
-          "caption": "増穂浦の砂浜と青い海"
+          "caption": "増穂浦の砂浜と青い海",
+          "tags": [
+            "海",
+            "青空",
+            "砂浜"
+          ]
         },
         {
           "id": "P0152",
           "thumb": "../assets/img/lib/P0152-thumb.jpg",
           "large": "../assets/img/lib/P0152-large.jpg",
-          "caption": "世界一長いベンチの案内板"
+          "caption": "世界一長いベンチの案内板",
+          "tags": [
+            "世界一長いベンチ",
+            "海",
+            "青空"
+          ]
         },
         {
           "id": "P0153",
           "thumb": "../assets/img/lib/P0153-thumb.jpg",
           "large": "../assets/img/lib/P0153-large.jpg",
-          "caption": "世界一長いベンチのモニュメント"
+          "caption": "世界一長いベンチのモニュメント",
+          "tags": [
+            "世界一長いベンチ",
+            "海"
+          ]
         },
         {
           "id": "P0154",
           "thumb": "../assets/img/lib/P0154-thumb.jpg",
           "large": "../assets/img/lib/P0154-large.jpg",
-          "caption": "手形が並ぶカラフルなタイル"
+          "caption": "手形が並ぶカラフルなタイル",
+          "tags": [
+            "世界一長いベンチ",
+            "アート"
+          ]
         },
         {
           "id": "P0155",
           "thumb": "../assets/img/lib/P0155-thumb.jpg",
           "large": "../assets/img/lib/P0155-large.jpg",
-          "caption": "世界一長いベンチと青い空"
+          "caption": "世界一長いベンチと青い空",
+          "tags": [
+            "世界一長いベンチ",
+            "海",
+            "青空"
+          ]
         },
         {
           "id": "P0156",
           "thumb": "../assets/img/lib/P0156-thumb.jpg",
           "large": "../assets/img/lib/P0156-large.jpg",
-          "caption": "ベンチが続く増穂浦の遊歩道"
+          "caption": "ベンチが続く増穂浦の遊歩道",
+          "tags": [
+            "世界一長いベンチ",
+            "海",
+            "青空"
+          ]
         }
       ],
       "count": 15
@@ -174,37 +248,66 @@
           "id": "P0001",
           "thumb": "../assets/img/lib/P0001-thumb.jpg",
           "large": "../assets/img/lib/P0001-large.jpg",
-          "caption": "機具岩に沈む夕陽"
+          "caption": "機具岩に沈む夕陽",
+          "tags": [
+            "夕陽",
+            "海",
+            "岩"
+          ]
         },
         {
           "id": "P0015",
           "thumb": "../assets/img/lib/P0015-thumb.jpg",
           "large": "../assets/img/lib/P0015-large.jpg",
-          "caption": "マジックアワーの機具岩"
+          "caption": "マジックアワーの機具岩",
+          "tags": [
+            "夕陽",
+            "海",
+            "岩"
+          ]
         },
         {
           "id": "P0016",
           "thumb": "../assets/img/lib/P0016-thumb.jpg",
           "large": "../assets/img/lib/P0016-large.jpg",
-          "caption": "昼間の機具岩"
+          "caption": "昼間の機具岩",
+          "tags": [
+            "海",
+            "岩"
+          ]
         },
         {
           "id": "P0017",
           "thumb": "../assets/img/lib/P0017-thumb.jpg",
           "large": "../assets/img/lib/P0017-large.jpg",
-          "caption": "薄暮のシルエット"
+          "caption": "薄暮のシルエット",
+          "tags": [
+            "夕陽",
+            "海",
+            "岩"
+          ]
         },
         {
           "id": "P0018",
           "thumb": "../assets/img/lib/P0018-thumb.jpg",
           "large": "../assets/img/lib/P0018-large.jpg",
-          "caption": "しめ縄で結ばれた夫婦岩"
+          "caption": "しめ縄で結ばれた夫婦岩",
+          "tags": [
+            "夕陽",
+            "海",
+            "岩"
+          ]
         },
         {
           "id": "P0019",
           "thumb": "../assets/img/lib/P0019-thumb.jpg",
           "large": "../assets/img/lib/P0019-large.jpg",
-          "caption": "夏季・冬季のライトアップ"
+          "caption": "夏季・冬季のライトアップ",
+          "tags": [
+            "海",
+            "岩",
+            "ライトアップ"
+          ]
         }
       ],
       "count": 6
@@ -245,133 +348,238 @@
           "id": "P0020",
           "thumb": "../assets/img/lib/P0020-thumb.jpg",
           "large": "../assets/img/lib/P0020-large.jpg",
-          "caption": "海岸から望む巌門"
+          "caption": "海岸から望む巌門",
+          "tags": [
+            "海",
+            "岩",
+            "遊覧船"
+          ]
         },
         {
           "id": "P0021",
           "thumb": "../assets/img/lib/P0021-thumb.jpg",
           "large": "../assets/img/lib/P0021-large.jpg",
-          "caption": "洞門から臨む遊覧船"
+          "caption": "洞門から臨む遊覧船",
+          "tags": [
+            "海",
+            "岩",
+            "遊覧船"
+          ]
         },
         {
           "id": "P0022",
           "thumb": "../assets/img/lib/P0022-thumb.jpg",
           "large": "../assets/img/lib/P0022-large.jpg",
-          "caption": "巌門洞窟"
+          "caption": "巌門洞窟",
+          "tags": [
+            "海",
+            "岩",
+            "遊覧船"
+          ]
         },
         {
           "id": "P0002",
           "thumb": "../assets/img/lib/P0002-thumb.jpg",
           "large": "../assets/img/lib/P0002-large.jpg",
-          "caption": "巌門の入り江"
+          "caption": "巌門の入り江",
+          "tags": [
+            "空撮",
+            "海",
+            "岩"
+          ]
         },
         {
           "id": "P0024",
           "thumb": "../assets/img/lib/P0024-thumb.jpg",
           "large": "../assets/img/lib/P0024-large.jpg",
-          "caption": "エメラルドグリーンの海"
+          "caption": "エメラルドグリーンの海",
+          "tags": [
+            "海",
+            "岩",
+            "遊覧船"
+          ]
         },
         {
           "id": "P0025",
           "thumb": "../assets/img/lib/P0025-thumb.jpg",
           "large": "../assets/img/lib/P0025-large.jpg",
-          "caption": "能登金剛遊覧船"
+          "caption": "能登金剛遊覧船",
+          "tags": [
+            "海",
+            "岩",
+            "遊覧船"
+          ]
         },
         {
           "id": "P0073",
           "thumb": "../assets/img/lib/P0073-thumb.jpg",
           "large": "../assets/img/lib/P0073-large.jpg",
-          "caption": "巌門洞窟へ続く遊歩道"
+          "caption": "巌門洞窟へ続く遊歩道",
+          "tags": [
+            "海",
+            "岩",
+            "遊歩道"
+          ]
         },
         {
           "id": "P0074",
           "thumb": "../assets/img/lib/P0074-thumb.jpg",
           "large": "../assets/img/lib/P0074-large.jpg",
-          "caption": "岩肌を流れ落ちる滝"
+          "caption": "岩肌を流れ落ちる滝",
+          "tags": [
+            "滝",
+            "岩",
+            "自然"
+          ]
         },
         {
           "id": "P0075",
           "thumb": "../assets/img/lib/P0075-thumb.jpg",
           "large": "../assets/img/lib/P0075-large.jpg",
-          "caption": "巌門洞窟の入口"
+          "caption": "巌門洞窟の入口",
+          "tags": [
+            "海",
+            "岩",
+            "遊歩道"
+          ]
         },
         {
           "id": "P0076",
           "thumb": "../assets/img/lib/P0076-thumb.jpg",
           "large": "../assets/img/lib/P0076-large.jpg",
-          "caption": "夕暮れの巌門"
+          "caption": "夕暮れの巌門",
+          "tags": [
+            "夕陽",
+            "海",
+            "岩"
+          ]
         },
         {
           "id": "P0077",
           "thumb": "../assets/img/lib/P0077-thumb.jpg",
           "large": "../assets/img/lib/P0077-large.jpg",
-          "caption": "海に突き出す岩の門"
+          "caption": "海に突き出す岩の門",
+          "tags": [
+            "海",
+            "岩"
+          ]
         },
         {
           "id": "P0078",
           "thumb": "../assets/img/lib/P0078-thumb.jpg",
           "large": "../assets/img/lib/P0078-large.jpg",
-          "caption": "洞窟から望む遊覧船"
+          "caption": "洞窟から望む遊覧船",
+          "tags": [
+            "海",
+            "岩",
+            "遊覧船"
+          ]
         },
         {
           "id": "P0079",
           "thumb": "../assets/img/lib/P0079-thumb.jpg",
           "large": "../assets/img/lib/P0079-large.jpg",
-          "caption": "緑に覆われた海岸線"
+          "caption": "緑に覆われた海岸線",
+          "tags": [
+            "海",
+            "岩",
+            "青空"
+          ]
         },
         {
           "id": "P0080",
           "thumb": "../assets/img/lib/P0080-thumb.jpg",
           "large": "../assets/img/lib/P0080-large.jpg",
-          "caption": "岩の額縁と遊覧船"
+          "caption": "岩の額縁と遊覧船",
+          "tags": [
+            "海",
+            "岩",
+            "遊覧船"
+          ]
         },
         {
           "id": "P0081",
           "thumb": "../assets/img/lib/P0081-thumb.jpg",
           "large": "../assets/img/lib/P0081-large.jpg",
-          "caption": "青く澄んだ日本海"
+          "caption": "青く澄んだ日本海",
+          "tags": [
+            "海",
+            "岩",
+            "青空"
+          ]
         },
         {
           "id": "P0082",
           "thumb": "../assets/img/lib/P0082-thumb.jpg",
           "large": "../assets/img/lib/P0082-large.jpg",
-          "caption": "エメラルドグリーンの入り江"
+          "caption": "エメラルドグリーンの入り江",
+          "tags": [
+            "海",
+            "岩"
+          ]
         },
         {
           "id": "P0083",
           "thumb": "../assets/img/lib/P0083-thumb.jpg",
           "large": "../assets/img/lib/P0083-large.jpg",
-          "caption": "岩を伝う清流"
+          "caption": "岩を伝う清流",
+          "tags": [
+            "滝",
+            "岩",
+            "自然"
+          ]
         },
         {
           "id": "P0084",
           "thumb": "../assets/img/lib/P0084-thumb.jpg",
           "large": "../assets/img/lib/P0084-large.jpg",
-          "caption": "海上から見た巌門"
+          "caption": "海上から見た巌門",
+          "tags": [
+            "海",
+            "岩",
+            "遊覧船"
+          ]
         },
         {
           "id": "P0085",
           "thumb": "../assets/img/lib/P0085-thumb.jpg",
           "large": "../assets/img/lib/P0085-large.jpg",
-          "caption": "風車が並ぶ海岸線"
+          "caption": "風車が並ぶ海岸線",
+          "tags": [
+            "海",
+            "風車",
+            "青空"
+          ]
         },
         {
           "id": "P0086",
           "thumb": "../assets/img/lib/P0086-thumb.jpg",
           "large": "../assets/img/lib/P0086-large.jpg",
-          "caption": "能登金剛遊覧船"
+          "caption": "能登金剛遊覧船",
+          "tags": [
+            "海",
+            "遊覧船"
+          ]
         },
         {
           "id": "P0087",
           "thumb": "../assets/img/lib/P0087-thumb.jpg",
           "large": "../assets/img/lib/P0087-large.jpg",
-          "caption": "岩場に架かる橋"
+          "caption": "岩場に架かる橋",
+          "tags": [
+            "岩",
+            "自然"
+          ]
         },
         {
           "id": "P0088",
           "thumb": "../assets/img/lib/P0088-thumb.jpg",
           "large": "../assets/img/lib/P0088-large.jpg",
-          "caption": "岩壁に開いた洞門"
+          "caption": "岩壁に開いた洞門",
+          "tags": [
+            "海",
+            "岩"
+          ]
         }
       ],
       "count": 22
@@ -412,121 +620,223 @@
           "id": "P0026",
           "thumb": "../assets/img/lib/P0026-thumb.jpg",
           "large": "../assets/img/lib/P0026-large.jpg",
-          "caption": "島の向こうに沈む夕陽"
+          "caption": "島の向こうに沈む夕陽",
+          "tags": [
+            "夕陽",
+            "海",
+            "島",
+            "神社"
+          ]
         },
         {
           "id": "P0027",
           "thumb": "../assets/img/lib/P0027-thumb.jpg",
           "large": "../assets/img/lib/P0027-large.jpg",
-          "caption": "水面に映る薄暮の空"
+          "caption": "水面に映る薄暮の空",
+          "tags": [
+            "夕陽",
+            "海",
+            "島",
+            "神社"
+          ]
         },
         {
           "id": "P0028",
           "thumb": "../assets/img/lib/P0028-thumb.jpg",
           "large": "../assets/img/lib/P0028-large.jpg",
-          "caption": "黄金色に染まる海岸"
+          "caption": "黄金色に染まる海岸",
+          "tags": [
+            "夕陽",
+            "海",
+            "島",
+            "神社"
+          ]
         },
         {
           "id": "P0029",
           "thumb": "../assets/img/lib/P0029-thumb.jpg",
           "large": "../assets/img/lib/P0029-large.jpg",
-          "caption": "波打ち際から望む弁天島"
+          "caption": "波打ち際から望む弁天島",
+          "tags": [
+            "夕陽",
+            "海",
+            "島",
+            "神社"
+          ]
         },
         {
           "id": "P0030",
           "thumb": "../assets/img/lib/P0030-thumb.jpg",
           "large": "../assets/img/lib/P0030-large.jpg",
-          "caption": "夕景のシルエット"
+          "caption": "夕景のシルエット",
+          "tags": [
+            "夕陽",
+            "海",
+            "島",
+            "神社"
+          ]
         },
         {
           "id": "P0193",
           "thumb": "../assets/img/lib/P0193-thumb.jpg",
           "large": "../assets/img/lib/P0193-large.jpg",
-          "caption": "弁天島_1"
+          "caption": "弁天島_1",
+          "tags": [
+            "島",
+            "夜",
+            "星"
+          ]
         },
         {
           "id": "P0194",
           "thumb": "../assets/img/lib/P0194-thumb.jpg",
           "large": "../assets/img/lib/P0194-large.jpg",
-          "caption": "弁天島_2"
+          "caption": "弁天島_2",
+          "tags": [
+            "島",
+            "夜",
+            "星"
+          ]
         },
         {
           "id": "P0195",
           "thumb": "../assets/img/lib/P0195-thumb.jpg",
           "large": "../assets/img/lib/P0195-large.jpg",
-          "caption": "DSC_8600"
+          "caption": "DSC_8600",
+          "tags": []
         },
         {
           "id": "P0196",
           "thumb": "../assets/img/lib/P0196-thumb.jpg",
           "large": "../assets/img/lib/P0196-large.jpg",
-          "caption": "弁天島_3"
+          "caption": "弁天島_3",
+          "tags": [
+            "島",
+            "海",
+            "夕陽"
+          ]
         },
         {
           "id": "P0197",
           "thumb": "../assets/img/lib/P0197-thumb.jpg",
           "large": "../assets/img/lib/P0197-large.jpg",
-          "caption": "弁天島_4"
+          "caption": "弁天島_4",
+          "tags": [
+            "島",
+            "海",
+            "夕陽"
+          ]
         },
         {
           "id": "P0198",
           "thumb": "../assets/img/lib/P0198-thumb.jpg",
           "large": "../assets/img/lib/P0198-large.jpg",
-          "caption": "弁天島_5"
+          "caption": "弁天島_5",
+          "tags": [
+            "島",
+            "海",
+            "夕陽"
+          ]
         },
         {
           "id": "P0199",
           "thumb": "../assets/img/lib/P0199-thumb.jpg",
           "large": "../assets/img/lib/P0199-large.jpg",
-          "caption": "弁天島_6"
+          "caption": "弁天島_6",
+          "tags": [
+            "島",
+            "海",
+            "夕陽"
+          ]
         },
         {
           "id": "P0200",
           "thumb": "../assets/img/lib/P0200-thumb.jpg",
           "large": "../assets/img/lib/P0200-large.jpg",
-          "caption": "弁天島_7"
+          "caption": "弁天島_7",
+          "tags": [
+            "島",
+            "海",
+            "夕陽"
+          ]
         },
         {
           "id": "P0201",
           "thumb": "../assets/img/lib/P0201-thumb.jpg",
           "large": "../assets/img/lib/P0201-large.jpg",
-          "caption": "弁天島_8"
+          "caption": "弁天島_8",
+          "tags": [
+            "島",
+            "海",
+            "夕陽"
+          ]
         },
         {
           "id": "P0202",
           "thumb": "../assets/img/lib/P0202-thumb.jpg",
           "large": "../assets/img/lib/P0202-large.jpg",
-          "caption": "弁天島_9"
+          "caption": "弁天島_9",
+          "tags": [
+            "島",
+            "海",
+            "夕陽"
+          ]
         },
         {
           "id": "P0203",
           "thumb": "../assets/img/lib/P0203-thumb.jpg",
           "large": "../assets/img/lib/P0203-large.jpg",
-          "caption": "弁天島_10"
+          "caption": "弁天島_10",
+          "tags": [
+            "島",
+            "海",
+            "夕陽"
+          ]
         },
         {
           "id": "P0264",
           "thumb": "../assets/img/lib/P0264-thumb.jpg",
           "large": "../assets/img/lib/P0264-large.jpg",
-          "caption": "弁天島_11"
+          "caption": "弁天島_11",
+          "tags": [
+            "島",
+            "海",
+            "夕陽"
+          ]
         },
         {
           "id": "P0265",
           "thumb": "../assets/img/lib/P0265-thumb.jpg",
           "large": "../assets/img/lib/P0265-large.jpg",
-          "caption": "弁天島_12"
+          "caption": "弁天島_12",
+          "tags": [
+            "島",
+            "海",
+            "夕陽"
+          ]
         },
         {
           "id": "P0402",
           "thumb": "../assets/img/lib/P0402-thumb.jpg",
           "large": "../assets/img/lib/P0402-large.jpg",
-          "caption": "弁天島_13"
+          "caption": "弁天島_13",
+          "tags": [
+            "島",
+            "海",
+            "神社"
+          ]
         },
         {
           "id": "P0403",
           "thumb": "../assets/img/lib/P0403-thumb.jpg",
           "large": "../assets/img/lib/P0403-large.jpg",
-          "caption": "弁天島_14"
+          "caption": "弁天島_14",
+          "tags": [
+            "島",
+            "海",
+            "神社",
+            "天使のはしご"
+          ]
         }
       ],
       "count": 20
@@ -573,43 +883,86 @@
           "id": "P0032",
           "thumb": "../assets/img/lib/P0032-thumb.jpg",
           "large": "../assets/img/lib/P0032-large.jpg",
-          "caption": "義経の舟隠しの入り江"
+          "caption": "義経の舟隠しの入り江",
+          "tags": [
+            "断崖",
+            "海",
+            "空撮",
+            "名所旧跡",
+            "義経"
+          ]
         },
         {
           "id": "P0033",
           "thumb": "../assets/img/lib/P0033-thumb.jpg",
           "large": "../assets/img/lib/P0033-large.jpg",
-          "caption": "断崖からの眺め"
+          "caption": "断崖からの眺め",
+          "tags": [
+            "断崖",
+            "海",
+            "空撮",
+            "名所旧跡",
+            "義経"
+          ]
         },
         {
           "id": "P0034",
           "thumb": "../assets/img/lib/P0034-thumb.jpg",
           "large": "../assets/img/lib/P0034-large.jpg",
-          "caption": "荒々しい岩肌"
+          "caption": "荒々しい岩肌",
+          "tags": [
+            "断崖",
+            "海",
+            "空撮",
+            "名所旧跡",
+            "義経"
+          ]
         },
         {
           "id": "P0035",
           "thumb": "../assets/img/lib/P0035-thumb.jpg",
           "large": "../assets/img/lib/P0035-large.jpg",
-          "caption": "海岸線を望む"
+          "caption": "海岸線を望む",
+          "tags": [
+            "断崖",
+            "海",
+            "空撮",
+            "名所旧跡",
+            "義経"
+          ]
         },
         {
           "id": "P0004",
           "thumb": "../assets/img/lib/P0004-thumb.jpg",
           "large": "../assets/img/lib/P0004-large.jpg",
-          "caption": "ヤセの断崖"
+          "caption": "ヤセの断崖",
+          "tags": [
+            "断崖",
+            "海",
+            "空撮"
+          ]
         },
         {
           "id": "P0129",
           "thumb": "../assets/img/lib/P0129-thumb.jpg",
           "large": "../assets/img/lib/P0129-large.jpg",
-          "caption": "断崖から望む日本海"
+          "caption": "断崖から望む日本海",
+          "tags": [
+            "海",
+            "岩",
+            "断崖"
+          ]
         },
         {
           "id": "P0138",
           "thumb": "../assets/img/lib/P0138-thumb.jpg",
           "large": "../assets/img/lib/P0138-large.jpg",
-          "caption": "岩に切れ込む義経の舟隠し"
+          "caption": "岩に切れ込む義経の舟隠し",
+          "tags": [
+            "海",
+            "岩",
+            "断崖"
+          ]
         }
       ],
       "count": 7
@@ -659,37 +1012,72 @@
           "id": "P0005",
           "thumb": "../assets/img/lib/P0005-thumb.jpg",
           "large": "../assets/img/lib/P0005-large.jpg",
-          "caption": "旧福浦灯台"
+          "caption": "旧福浦灯台",
+          "tags": [
+            "建築",
+            "海",
+            "青空"
+          ]
         },
         {
           "id": "P0037",
           "thumb": "../assets/img/lib/P0037-thumb.jpg",
           "large": "../assets/img/lib/P0037-large.jpg",
-          "caption": "木造灯台ライトアップ"
+          "caption": "木造灯台ライトアップ",
+          "tags": [
+            "建築",
+            "海",
+            "名所旧跡",
+            "ライトアップ"
+          ]
         },
         {
           "id": "P0038",
           "thumb": "../assets/img/lib/P0038-thumb.jpg",
           "large": "../assets/img/lib/P0038-large.jpg",
-          "caption": "灯台から望む日本海"
+          "caption": "灯台から望む日本海",
+          "tags": [
+            "建築",
+            "海",
+            "名所旧跡",
+            "ライトアップ"
+          ]
         },
         {
           "id": "P0039",
           "thumb": "../assets/img/lib/P0039-thumb.jpg",
           "large": "../assets/img/lib/P0039-large.jpg",
-          "caption": "灯台と青空"
+          "caption": "灯台と青空",
+          "tags": [
+            "建築",
+            "海",
+            "名所旧跡",
+            "ライトアップ"
+          ]
         },
         {
           "id": "P0040",
           "thumb": "../assets/img/lib/P0040-thumb.jpg",
           "large": "../assets/img/lib/P0040-large.jpg",
-          "caption": "灯台ライトアップ"
+          "caption": "灯台ライトアップ",
+          "tags": [
+            "建築",
+            "海",
+            "名所旧跡",
+            "ライトアップ"
+          ]
         },
         {
           "id": "P0041",
           "thumb": "../assets/img/lib/P0041-thumb.jpg",
           "large": "../assets/img/lib/P0041-large.jpg",
-          "caption": "昔ながらの福浦港"
+          "caption": "昔ながらの福浦港",
+          "tags": [
+            "建築",
+            "海",
+            "名所旧跡",
+            "ライトアップ"
+          ]
         }
       ],
       "count": 6
@@ -752,43 +1140,86 @@
           "id": "P0042",
           "thumb": "../assets/img/lib/P0042-thumb.jpg",
           "large": "../assets/img/lib/P0042-large.jpg",
-          "caption": "夕陽に照らされる六角地蔵塔"
+          "caption": "夕陽に照らされる六角地蔵塔",
+          "tags": [
+            "名所旧跡",
+            "海",
+            "星空",
+            "夕陽",
+            "キャンプ"
+          ]
         },
         {
           "id": "P0043",
           "thumb": "../assets/img/lib/P0043-thumb.jpg",
           "large": "../assets/img/lib/P0043-large.jpg",
-          "caption": "大島海岸に佇む諸願堂"
+          "caption": "大島海岸に佇む諸願堂",
+          "tags": [
+            "名所旧跡",
+            "海",
+            "星空",
+            "キャンプ"
+          ]
         },
         {
           "id": "P0044",
           "thumb": "../assets/img/lib/P0044-thumb.jpg",
           "large": "../assets/img/lib/P0044-large.jpg",
-          "caption": "石積みの六角地蔵塔"
+          "caption": "石積みの六角地蔵塔",
+          "tags": [
+            "名所旧跡",
+            "海",
+            "星空",
+            "キャンプ"
+          ]
         },
         {
           "id": "P0045",
           "thumb": "../assets/img/lib/P0045-thumb.jpg",
           "large": "../assets/img/lib/P0045-large.jpg",
-          "caption": "天の川と六角地蔵塔"
+          "caption": "天の川と六角地蔵塔",
+          "tags": [
+            "名所旧跡",
+            "海",
+            "星空",
+            "キャンプ"
+          ]
         },
         {
           "id": "P0046",
           "thumb": "../assets/img/lib/P0046-thumb.jpg",
           "large": "../assets/img/lib/P0046-large.jpg",
-          "caption": "満天の星に包まれる諸願堂"
+          "caption": "満天の星に包まれる諸願堂",
+          "tags": [
+            "名所旧跡",
+            "海",
+            "星空",
+            "キャンプ"
+          ]
         },
         {
           "id": "P0047",
           "thumb": "../assets/img/lib/P0047-thumb.jpg",
           "large": "../assets/img/lib/P0047-large.jpg",
-          "caption": "松林に広がる大島キャンプ場"
+          "caption": "松林に広がる大島キャンプ場",
+          "tags": [
+            "名所旧跡",
+            "海",
+            "星空",
+            "キャンプ"
+          ]
         },
         {
           "id": "P0048",
           "thumb": "../assets/img/lib/P0048-thumb.jpg",
           "large": "../assets/img/lib/P0048-large.jpg",
-          "caption": "遠浅の大島海水浴場"
+          "caption": "遠浅の大島海水浴場",
+          "tags": [
+            "名所旧跡",
+            "海",
+            "星空",
+            "キャンプ"
+          ]
         }
       ],
       "count": 7
@@ -855,127 +1286,252 @@
           "id": "P0049",
           "thumb": "../assets/img/lib/P0049-thumb.jpg",
           "large": "../assets/img/lib/P0049-large.jpg",
-          "caption": "道の駅とぎ海街道の外観"
+          "caption": "道の駅とぎ海街道の外観",
+          "tags": [
+            "さくら貝",
+            "文化施設",
+            "体験",
+            "お土産",
+            "屋内"
+          ]
         },
         {
           "id": "P0050",
           "thumb": "../assets/img/lib/P0050-thumb.jpg",
           "large": "../assets/img/lib/P0050-large.jpg",
-          "caption": "特産品が並ぶ館内"
+          "caption": "特産品が並ぶ館内",
+          "tags": [
+            "さくら貝",
+            "文化施設",
+            "体験",
+            "お土産",
+            "屋内"
+          ]
         },
         {
           "id": "P0051",
           "thumb": "../assets/img/lib/P0051-thumb.jpg",
           "large": "../assets/img/lib/P0051-large.jpg",
-          "caption": "さくら貝のクラフト作品"
+          "caption": "さくら貝のクラフト作品",
+          "tags": [
+            "さくら貝",
+            "文化施設",
+            "体験",
+            "お土産",
+            "屋内"
+          ]
         },
         {
           "id": "P0052",
           "thumb": "../assets/img/lib/P0052-thumb.jpg",
           "large": "../assets/img/lib/P0052-large.jpg",
-          "caption": "人気のソフトクリーム"
+          "caption": "人気のソフトクリーム",
+          "tags": [
+            "さくら貝",
+            "文化施設",
+            "体験",
+            "お土産",
+            "屋内"
+          ]
         },
         {
           "id": "P0053",
           "thumb": "../assets/img/lib/P0053-thumb.jpg",
           "large": "../assets/img/lib/P0053-large.jpg",
-          "caption": "さくら貝資料館_1"
+          "caption": "さくら貝資料館_1",
+          "tags": [
+            "さくら貝",
+            "文化施設",
+            "体験",
+            "お土産",
+            "屋内"
+          ]
         },
         {
           "id": "P0054",
           "thumb": "../assets/img/lib/P0054-thumb.jpg",
           "large": "../assets/img/lib/P0054-large.jpg",
-          "caption": "三十六歌仙貝の展示"
+          "caption": "三十六歌仙貝の展示",
+          "tags": [
+            "さくら貝",
+            "文化施設",
+            "体験",
+            "お土産",
+            "屋内"
+          ]
         },
         {
           "id": "P0056",
           "thumb": "../assets/img/lib/P0056-thumb.jpg",
           "large": "../assets/img/lib/P0056-large.jpg",
-          "caption": "さくら貝のクラフト作品"
+          "caption": "さくら貝のクラフト作品",
+          "tags": [
+            "さくら貝",
+            "文化施設",
+            "体験",
+            "お土産",
+            "屋内"
+          ]
         },
         {
           "id": "P0057",
           "thumb": "../assets/img/lib/P0057-thumb.jpg",
           "large": "../assets/img/lib/P0057-large.jpg",
-          "caption": "さくら貝資料館_2"
+          "caption": "さくら貝資料館_2",
+          "tags": [
+            "さくら貝",
+            "文化施設",
+            "体験",
+            "お土産",
+            "屋内"
+          ]
         },
         {
           "id": "P0058",
           "thumb": "../assets/img/lib/P0058-thumb.jpg",
           "large": "../assets/img/lib/P0058-large.jpg",
-          "caption": "さくら貝資料館_3"
+          "caption": "さくら貝資料館_3",
+          "tags": [
+            "さくら貝",
+            "文化施設",
+            "体験",
+            "お土産",
+            "屋内"
+          ]
         },
         {
           "id": "P0335",
           "thumb": "../assets/img/lib/P0335-thumb.jpg",
           "large": "../assets/img/lib/P0335-large.jpg",
-          "caption": "さくら貝資料館_4"
+          "caption": "さくら貝資料館_4",
+          "tags": [
+            "さくら貝",
+            "文化施設",
+            "体験",
+            "お土産",
+            "屋内"
+          ]
         },
         {
           "id": "P0336",
           "thumb": "../assets/img/lib/P0336-thumb.jpg",
           "large": "../assets/img/lib/P0336-large.jpg",
-          "caption": "さくら貝資料館_5"
+          "caption": "さくら貝資料館_5",
+          "tags": [
+            "さくら貝",
+            "文化施設",
+            "体験",
+            "お土産",
+            "屋内"
+          ]
         },
         {
           "id": "P0337",
           "thumb": "../assets/img/lib/P0337-thumb.jpg",
           "large": "../assets/img/lib/P0337-large.jpg",
-          "caption": "道の駅とぎ海街道_かに"
+          "caption": "道の駅とぎ海街道_かに",
+          "tags": [
+            "道の駅",
+            "海の幸",
+            "カニ"
+          ]
         },
         {
           "id": "P0338",
           "thumb": "../assets/img/lib/P0338-thumb.jpg",
           "large": "../assets/img/lib/P0338-large.jpg",
-          "caption": "道の駅とぎ海街道_海鮮丼"
+          "caption": "道の駅とぎ海街道_海鮮丼",
+          "tags": [
+            "道の駅",
+            "海の幸",
+            "海鮮"
+          ]
         },
         {
           "id": "P0339",
           "thumb": "../assets/img/lib/P0339-thumb.jpg",
           "large": "../assets/img/lib/P0339-large.jpg",
-          "caption": "道の駅とぎ海街道_甘えびかきあげバーガー"
+          "caption": "道の駅とぎ海街道_甘えびかきあげバーガー",
+          "tags": [
+            "道の駅",
+            "えび",
+            "食事"
+          ]
         },
         {
           "id": "P0340",
           "thumb": "../assets/img/lib/P0340-thumb.jpg",
           "large": "../assets/img/lib/P0340-large.jpg",
-          "caption": "道の駅とぎ海街道_甘えびかきあげバーガー"
+          "caption": "道の駅とぎ海街道_甘えびかきあげバーガー",
+          "tags": [
+            "道の駅",
+            "えび",
+            "食事"
+          ]
         },
         {
           "id": "P0341",
           "thumb": "../assets/img/lib/P0341-thumb.jpg",
           "large": "../assets/img/lib/P0341-large.jpg",
-          "caption": "道の駅とぎ海街道_海鮮丼＆甘えびかきあげバーガー"
+          "caption": "道の駅とぎ海街道_海鮮丼＆甘えびかきあげバーガー",
+          "tags": [
+            "道の駅",
+            "海鮮",
+            "食事"
+          ]
         },
         {
           "id": "P0342",
           "thumb": "../assets/img/lib/P0342-thumb.jpg",
           "large": "../assets/img/lib/P0342-large.jpg",
-          "caption": "道の駅とぎ海街道_カネヨ醤油"
+          "caption": "道の駅とぎ海街道_カネヨ醤油",
+          "tags": [
+            "道の駅",
+            "お土産"
+          ]
         },
         {
           "id": "P0344",
           "thumb": "../assets/img/lib/P0344-thumb.jpg",
           "large": "../assets/img/lib/P0344-large.jpg",
-          "caption": "道の駅とぎ海街道_志賀町優良特産品"
+          "caption": "道の駅とぎ海街道_志賀町優良特産品",
+          "tags": [
+            "道の駅",
+            "お土産",
+            "特産品"
+          ]
         },
         {
           "id": "P0345",
           "thumb": "../assets/img/lib/P0345-thumb.jpg",
           "large": "../assets/img/lib/P0345-large.jpg",
-          "caption": "道の駅とぎ海街道_海鮮丼"
+          "caption": "道の駅とぎ海街道_海鮮丼",
+          "tags": [
+            "道の駅",
+            "海鮮",
+            "食事"
+          ]
         },
         {
           "id": "P0346",
           "thumb": "../assets/img/lib/P0346-thumb.jpg",
           "large": "../assets/img/lib/P0346-large.jpg",
-          "caption": "道の駅とぎ海街道_海鮮丼"
+          "caption": "道の駅とぎ海街道_海鮮丼",
+          "tags": [
+            "道の駅",
+            "海鮮",
+            "食事"
+          ]
         },
         {
           "id": "P0347",
           "thumb": "../assets/img/lib/P0347-thumb.jpg",
           "large": "../assets/img/lib/P0347-large.jpg",
-          "caption": "さざえ（道の駅）"
+          "caption": "さざえ（道の駅）",
+          "tags": [
+            "夏",
+            "海"
+          ]
         }
       ],
       "count": 21
@@ -1032,85 +1588,159 @@
           "id": "P0059",
           "thumb": "../assets/img/lib/P0059-thumb.jpg",
           "large": "../assets/img/lib/P0059-large.jpg",
-          "caption": "天領大庄屋の屋敷"
+          "caption": "天領大庄屋の屋敷",
+          "tags": [
+            "庭園",
+            "名所旧跡",
+            "文化施設",
+            "屋内"
+          ]
         },
         {
           "id": "P0060",
           "thumb": "../assets/img/lib/P0060-thumb.jpg",
           "large": "../assets/img/lib/P0060-large.jpg",
-          "caption": "心字池と築山"
+          "caption": "心字池と築山",
+          "tags": [
+            "庭園",
+            "名所旧跡",
+            "文化施設",
+            "屋内"
+          ]
         },
         {
           "id": "P0061",
           "thumb": "../assets/img/lib/P0061-thumb.jpg",
           "large": "../assets/img/lib/P0061-large.jpg",
-          "caption": "苔むした庭のたたずまい"
+          "caption": "苔むした庭のたたずまい",
+          "tags": [
+            "庭園",
+            "名所旧跡",
+            "文化施設",
+            "屋内"
+          ]
         },
         {
           "id": "P0062",
           "thumb": "../assets/img/lib/P0062-thumb.jpg",
           "large": "../assets/img/lib/P0062-large.jpg",
-          "caption": "四季の風情"
+          "caption": "四季の風情",
+          "tags": [
+            "庭園",
+            "名所旧跡",
+            "文化施設",
+            "屋内"
+          ]
         },
         {
           "id": "P0175",
           "thumb": "../assets/img/lib/P0175-thumb.jpg",
           "large": "../assets/img/lib/P0175-large.jpg",
-          "caption": "平家_1"
+          "caption": "平家_1",
+          "tags": [
+            "庭園",
+            "名所旧跡",
+            "文化施設"
+          ]
         },
         {
           "id": "P0176",
           "thumb": "../assets/img/lib/P0176-thumb.jpg",
           "large": "../assets/img/lib/P0176-large.jpg",
-          "caption": "平家_2"
+          "caption": "平家_2",
+          "tags": [
+            "庭園",
+            "名所旧跡",
+            "文化施設"
+          ]
         },
         {
           "id": "P0178",
           "thumb": "../assets/img/lib/P0178-thumb.jpg",
           "large": "../assets/img/lib/P0178-large.jpg",
-          "caption": "平家_4"
+          "caption": "平家_4",
+          "tags": [
+            "庭園",
+            "名所旧跡",
+            "文化施設"
+          ]
         },
         {
           "id": "P0179",
           "thumb": "../assets/img/lib/P0179-thumb.jpg",
           "large": "../assets/img/lib/P0179-large.jpg",
-          "caption": "平家_5"
+          "caption": "平家_5",
+          "tags": [
+            "庭園",
+            "名所旧跡",
+            "文化施設"
+          ]
         },
         {
           "id": "P0180",
           "thumb": "../assets/img/lib/P0180-thumb.jpg",
           "large": "../assets/img/lib/P0180-large.jpg",
-          "caption": "平家_6"
+          "caption": "平家_6",
+          "tags": [
+            "庭園",
+            "名所旧跡",
+            "文化施設"
+          ]
         },
         {
           "id": "P0181",
           "thumb": "../assets/img/lib/P0181-thumb.jpg",
           "large": "../assets/img/lib/P0181-large.jpg",
-          "caption": "平家_7"
+          "caption": "平家_7",
+          "tags": [
+            "庭園",
+            "名所旧跡",
+            "文化施設"
+          ]
         },
         {
           "id": "P0182",
           "thumb": "../assets/img/lib/P0182-thumb.jpg",
           "large": "../assets/img/lib/P0182-large.jpg",
-          "caption": "平家_8"
+          "caption": "平家_8",
+          "tags": [
+            "庭園",
+            "名所旧跡",
+            "文化施設"
+          ]
         },
         {
           "id": "P0183",
           "thumb": "../assets/img/lib/P0183-thumb.jpg",
           "large": "../assets/img/lib/P0183-large.jpg",
-          "caption": "平家_9"
+          "caption": "平家_9",
+          "tags": [
+            "庭園",
+            "名所旧跡",
+            "文化施設"
+          ]
         },
         {
           "id": "P0184",
           "thumb": "../assets/img/lib/P0184-thumb.jpg",
           "large": "../assets/img/lib/P0184-large.jpg",
-          "caption": "平家_10"
+          "caption": "平家_10",
+          "tags": [
+            "庭園",
+            "名所旧跡",
+            "文化施設"
+          ]
         },
         {
           "id": "P0185",
           "thumb": "../assets/img/lib/P0185-thumb.jpg",
           "large": "../assets/img/lib/P0185-large.jpg",
-          "caption": "平家"
+          "caption": "平家",
+          "tags": [
+            "庭園",
+            "名所旧跡",
+            "文化施設"
+          ]
         }
       ],
       "count": 14

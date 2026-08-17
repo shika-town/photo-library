@@ -146,7 +146,6 @@ window.SPL_LIBRARY = {
       "area": "富来エリア",
       "season": "",
       "tags": [
-        "夕陽",
         "海",
         "ベンチ",
         "さくら貝",
@@ -167,11 +166,9 @@ window.SPL_LIBRARY = {
       "area": "富来エリア",
       "season": "",
       "tags": [
-        "夕陽",
         "海",
         "ベンチ",
-        "さくら貝",
-        "空撮"
+        "さくら貝"
       ],
       "thumb": "assets/img/lib/P0009-thumb.jpg",
       "large": "assets/img/lib/P0009-large.jpg",
@@ -188,11 +185,9 @@ window.SPL_LIBRARY = {
       "area": "富来エリア",
       "season": "",
       "tags": [
-        "夕陽",
         "海",
         "ベンチ",
-        "さくら貝",
-        "空撮"
+        "さくら貝"
       ],
       "thumb": "assets/img/lib/P0010-thumb.jpg",
       "large": "assets/img/lib/P0010-large.jpg",
@@ -209,11 +204,9 @@ window.SPL_LIBRARY = {
       "area": "富来エリア",
       "season": "",
       "tags": [
-        "夕陽",
         "海",
         "ベンチ",
-        "さくら貝",
-        "空撮"
+        "さくら貝"
       ],
       "thumb": "assets/img/lib/P0011-thumb.jpg",
       "large": "assets/img/lib/P0011-large.jpg",
@@ -230,11 +223,9 @@ window.SPL_LIBRARY = {
       "area": "富来エリア",
       "season": "",
       "tags": [
-        "夕陽",
         "海",
         "ベンチ",
-        "さくら貝",
-        "空撮"
+        "さくら貝"
       ],
       "thumb": "assets/img/lib/P0012-thumb.jpg",
       "large": "assets/img/lib/P0012-large.jpg",
@@ -251,11 +242,9 @@ window.SPL_LIBRARY = {
       "area": "富来エリア",
       "season": "",
       "tags": [
-        "夕陽",
+        "世界一長いベンチ",
         "海",
-        "ベンチ",
-        "さくら貝",
-        "空撮"
+        "青空"
       ],
       "thumb": "assets/img/lib/P0148-thumb.jpg",
       "large": "assets/img/lib/P0148-large.jpg",
@@ -272,11 +261,9 @@ window.SPL_LIBRARY = {
       "area": "富来エリア",
       "season": "",
       "tags": [
-        "夕陽",
+        "世界一長いベンチ",
         "海",
-        "ベンチ",
-        "さくら貝",
-        "空撮"
+        "青空"
       ],
       "thumb": "assets/img/lib/P0150-thumb.jpg",
       "large": "assets/img/lib/P0150-large.jpg",
@@ -293,11 +280,9 @@ window.SPL_LIBRARY = {
       "area": "富来エリア",
       "season": "",
       "tags": [
-        "夕陽",
         "海",
-        "ベンチ",
-        "さくら貝",
-        "空撮"
+        "青空",
+        "砂浜"
       ],
       "thumb": "assets/img/lib/P0151-thumb.jpg",
       "large": "assets/img/lib/P0151-large.jpg",
@@ -314,11 +299,9 @@ window.SPL_LIBRARY = {
       "area": "富来エリア",
       "season": "",
       "tags": [
-        "夕陽",
+        "世界一長いベンチ",
         "海",
-        "ベンチ",
-        "さくら貝",
-        "空撮"
+        "青空"
       ],
       "thumb": "assets/img/lib/P0152-thumb.jpg",
       "large": "assets/img/lib/P0152-large.jpg",
@@ -335,11 +318,8 @@ window.SPL_LIBRARY = {
       "area": "富来エリア",
       "season": "",
       "tags": [
-        "夕陽",
-        "海",
-        "ベンチ",
-        "さくら貝",
-        "空撮"
+        "世界一長いベンチ",
+        "海"
       ],
       "thumb": "assets/img/lib/P0153-thumb.jpg",
       "large": "assets/img/lib/P0153-large.jpg",
@@ -356,11 +336,8 @@ window.SPL_LIBRARY = {
       "area": "富来エリア",
       "season": "",
       "tags": [
-        "夕陽",
-        "海",
-        "ベンチ",
-        "さくら貝",
-        "空撮"
+        "世界一長いベンチ",
+        "アート"
       ],
       "thumb": "assets/img/lib/P0154-thumb.jpg",
       "large": "assets/img/lib/P0154-large.jpg",
@@ -377,11 +354,9 @@ window.SPL_LIBRARY = {
       "area": "富来エリア",
       "season": "",
       "tags": [
-        "夕陽",
+        "世界一長いベンチ",
         "海",
-        "ベンチ",
-        "さくら貝",
-        "空撮"
+        "青空"
       ],
       "thumb": "assets/img/lib/P0155-thumb.jpg",
       "large": "assets/img/lib/P0155-large.jpg",
@@ -398,11 +373,9 @@ window.SPL_LIBRARY = {
       "area": "富来エリア",
       "season": "",
       "tags": [
-        "夕陽",
+        "世界一長いベンチ",
         "海",
-        "ベンチ",
-        "さくら貝",
-        "空撮"
+        "青空"
       ],
       "thumb": "assets/img/lib/P0156-thumb.jpg",
       "large": "assets/img/lib/P0156-large.jpg",
@@ -421,8 +394,7 @@ window.SPL_LIBRARY = {
       "tags": [
         "夕陽",
         "海",
-        "岩",
-        "ライトアップ"
+        "岩"
       ],
       "thumb": "assets/img/lib/P0015-thumb.jpg",
       "large": "assets/img/lib/P0015-large.jpg",
@@ -439,10 +411,8 @@ window.SPL_LIBRARY = {
       "area": "富来エリア",
       "season": "",
       "tags": [
-        "夕陽",
         "海",
-        "岩",
-        "ライトアップ"
+        "岩"
       ],
       "thumb": "assets/img/lib/P0016-thumb.jpg",
       "large": "assets/img/lib/P0016-large.jpg",
@@ -461,8 +431,7 @@ window.SPL_LIBRARY = {
       "tags": [
         "夕陽",
         "海",
-        "岩",
-        "ライトアップ"
+        "岩"
       ],
       "thumb": "assets/img/lib/P0017-thumb.jpg",
       "large": "assets/img/lib/P0017-large.jpg",
@@ -481,8 +450,7 @@ window.SPL_LIBRARY = {
       "tags": [
         "夕陽",
         "海",
-        "岩",
-        "ライトアップ"
+        "岩"
       ],
       "thumb": "assets/img/lib/P0018-thumb.jpg",
       "large": "assets/img/lib/P0018-large.jpg",
@@ -499,7 +467,6 @@ window.SPL_LIBRARY = {
       "area": "富来エリア",
       "season": "",
       "tags": [
-        "夕陽",
         "海",
         "岩",
         "ライトアップ"
@@ -521,8 +488,7 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "岩",
-        "遊覧船",
-        "空撮"
+        "遊覧船"
       ],
       "thumb": "assets/img/lib/P0020-thumb.jpg",
       "large": "assets/img/lib/P0020-large.jpg",
@@ -541,8 +507,7 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "岩",
-        "遊覧船",
-        "空撮"
+        "遊覧船"
       ],
       "thumb": "assets/img/lib/P0021-thumb.jpg",
       "large": "assets/img/lib/P0021-large.jpg",
@@ -561,8 +526,7 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "岩",
-        "遊覧船",
-        "空撮"
+        "遊覧船"
       ],
       "thumb": "assets/img/lib/P0022-thumb.jpg",
       "large": "assets/img/lib/P0022-large.jpg",
@@ -581,8 +545,7 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "岩",
-        "遊覧船",
-        "空撮"
+        "遊覧船"
       ],
       "thumb": "assets/img/lib/P0024-thumb.jpg",
       "large": "assets/img/lib/P0024-large.jpg",
@@ -601,8 +564,7 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "岩",
-        "遊覧船",
-        "空撮"
+        "遊覧船"
       ],
       "thumb": "assets/img/lib/P0025-thumb.jpg",
       "large": "assets/img/lib/P0025-large.jpg",
@@ -621,8 +583,7 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "岩",
-        "遊覧船",
-        "空撮"
+        "遊歩道"
       ],
       "thumb": "assets/img/lib/P0073-thumb.jpg",
       "large": "assets/img/lib/P0073-large.jpg",
@@ -639,10 +600,9 @@ window.SPL_LIBRARY = {
       "area": "富来エリア",
       "season": "",
       "tags": [
-        "海",
+        "滝",
         "岩",
-        "遊覧船",
-        "空撮"
+        "自然"
       ],
       "thumb": "assets/img/lib/P0074-thumb.jpg",
       "large": "assets/img/lib/P0074-large.jpg",
@@ -661,8 +621,7 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "岩",
-        "遊覧船",
-        "空撮"
+        "遊歩道"
       ],
       "thumb": "assets/img/lib/P0075-thumb.jpg",
       "large": "assets/img/lib/P0075-large.jpg",
@@ -679,10 +638,9 @@ window.SPL_LIBRARY = {
       "area": "富来エリア",
       "season": "",
       "tags": [
+        "夕陽",
         "海",
-        "岩",
-        "遊覧船",
-        "空撮"
+        "岩"
       ],
       "thumb": "assets/img/lib/P0076-thumb.jpg",
       "large": "assets/img/lib/P0076-large.jpg",
@@ -700,9 +658,7 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "海",
-        "岩",
-        "遊覧船",
-        "空撮"
+        "岩"
       ],
       "thumb": "assets/img/lib/P0077-thumb.jpg",
       "large": "assets/img/lib/P0077-large.jpg",
@@ -721,8 +677,7 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "岩",
-        "遊覧船",
-        "空撮"
+        "遊覧船"
       ],
       "thumb": "assets/img/lib/P0078-thumb.jpg",
       "large": "assets/img/lib/P0078-large.jpg",
@@ -741,8 +696,7 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "岩",
-        "遊覧船",
-        "空撮"
+        "青空"
       ],
       "thumb": "assets/img/lib/P0079-thumb.jpg",
       "large": "assets/img/lib/P0079-large.jpg",
@@ -761,8 +715,7 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "岩",
-        "遊覧船",
-        "空撮"
+        "遊覧船"
       ],
       "thumb": "assets/img/lib/P0080-thumb.jpg",
       "large": "assets/img/lib/P0080-large.jpg",
@@ -781,8 +734,7 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "岩",
-        "遊覧船",
-        "空撮"
+        "青空"
       ],
       "thumb": "assets/img/lib/P0081-thumb.jpg",
       "large": "assets/img/lib/P0081-large.jpg",
@@ -800,9 +752,7 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "海",
-        "岩",
-        "遊覧船",
-        "空撮"
+        "岩"
       ],
       "thumb": "assets/img/lib/P0082-thumb.jpg",
       "large": "assets/img/lib/P0082-large.jpg",
@@ -819,10 +769,9 @@ window.SPL_LIBRARY = {
       "area": "富来エリア",
       "season": "",
       "tags": [
-        "海",
+        "滝",
         "岩",
-        "遊覧船",
-        "空撮"
+        "自然"
       ],
       "thumb": "assets/img/lib/P0083-thumb.jpg",
       "large": "assets/img/lib/P0083-large.jpg",
@@ -841,8 +790,7 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "岩",
-        "遊覧船",
-        "空撮"
+        "遊覧船"
       ],
       "thumb": "assets/img/lib/P0084-thumb.jpg",
       "large": "assets/img/lib/P0084-large.jpg",
@@ -860,9 +808,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "海",
-        "岩",
-        "遊覧船",
-        "空撮"
+        "風車",
+        "青空"
       ],
       "thumb": "assets/img/lib/P0085-thumb.jpg",
       "large": "assets/img/lib/P0085-large.jpg",
@@ -880,9 +827,7 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "海",
-        "岩",
-        "遊覧船",
-        "空撮"
+        "遊覧船"
       ],
       "thumb": "assets/img/lib/P0086-thumb.jpg",
       "large": "assets/img/lib/P0086-large.jpg",
@@ -899,10 +844,8 @@ window.SPL_LIBRARY = {
       "area": "富来エリア",
       "season": "",
       "tags": [
-        "海",
         "岩",
-        "遊覧船",
-        "空撮"
+        "自然"
       ],
       "thumb": "assets/img/lib/P0087-thumb.jpg",
       "large": "assets/img/lib/P0087-large.jpg",
@@ -920,9 +863,7 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "海",
-        "岩",
-        "遊覧船",
-        "空撮"
+        "岩"
       ],
       "thumb": "assets/img/lib/P0088-thumb.jpg",
       "large": "assets/img/lib/P0088-large.jpg",
@@ -1039,10 +980,9 @@ window.SPL_LIBRARY = {
       "area": "志賀エリア",
       "season": "",
       "tags": [
-        "夕陽",
-        "海",
         "島",
-        "神社"
+        "夜",
+        "星"
       ],
       "thumb": "assets/img/lib/P0193-thumb.jpg",
       "large": "assets/img/lib/P0193-large.jpg",
@@ -1059,10 +999,9 @@ window.SPL_LIBRARY = {
       "area": "志賀エリア",
       "season": "",
       "tags": [
-        "夕陽",
-        "海",
         "島",
-        "神社"
+        "夜",
+        "星"
       ],
       "thumb": "assets/img/lib/P0194-thumb.jpg",
       "large": "assets/img/lib/P0194-large.jpg",
@@ -1078,12 +1017,7 @@ window.SPL_LIBRARY = {
       "spotId": "benten",
       "area": "志賀エリア",
       "season": "",
-      "tags": [
-        "夕陽",
-        "海",
-        "島",
-        "神社"
-      ],
+      "tags": [],
       "thumb": "assets/img/lib/P0195-thumb.jpg",
       "large": "assets/img/lib/P0195-large.jpg",
       "alt": "DSC_8600",
@@ -1099,10 +1033,9 @@ window.SPL_LIBRARY = {
       "area": "志賀エリア",
       "season": "",
       "tags": [
-        "夕陽",
-        "海",
         "島",
-        "神社"
+        "海",
+        "夕陽"
       ],
       "thumb": "assets/img/lib/P0196-thumb.jpg",
       "large": "assets/img/lib/P0196-large.jpg",
@@ -1119,10 +1052,9 @@ window.SPL_LIBRARY = {
       "area": "志賀エリア",
       "season": "",
       "tags": [
-        "夕陽",
-        "海",
         "島",
-        "神社"
+        "海",
+        "夕陽"
       ],
       "thumb": "assets/img/lib/P0197-thumb.jpg",
       "large": "assets/img/lib/P0197-large.jpg",
@@ -1139,10 +1071,9 @@ window.SPL_LIBRARY = {
       "area": "志賀エリア",
       "season": "",
       "tags": [
-        "夕陽",
-        "海",
         "島",
-        "神社"
+        "海",
+        "夕陽"
       ],
       "thumb": "assets/img/lib/P0198-thumb.jpg",
       "large": "assets/img/lib/P0198-large.jpg",
@@ -1159,10 +1090,9 @@ window.SPL_LIBRARY = {
       "area": "志賀エリア",
       "season": "",
       "tags": [
-        "夕陽",
-        "海",
         "島",
-        "神社"
+        "海",
+        "夕陽"
       ],
       "thumb": "assets/img/lib/P0199-thumb.jpg",
       "large": "assets/img/lib/P0199-large.jpg",
@@ -1179,10 +1109,9 @@ window.SPL_LIBRARY = {
       "area": "志賀エリア",
       "season": "",
       "tags": [
-        "夕陽",
-        "海",
         "島",
-        "神社"
+        "海",
+        "夕陽"
       ],
       "thumb": "assets/img/lib/P0200-thumb.jpg",
       "large": "assets/img/lib/P0200-large.jpg",
@@ -1199,10 +1128,9 @@ window.SPL_LIBRARY = {
       "area": "志賀エリア",
       "season": "",
       "tags": [
-        "夕陽",
-        "海",
         "島",
-        "神社"
+        "海",
+        "夕陽"
       ],
       "thumb": "assets/img/lib/P0201-thumb.jpg",
       "large": "assets/img/lib/P0201-large.jpg",
@@ -1219,10 +1147,9 @@ window.SPL_LIBRARY = {
       "area": "志賀エリア",
       "season": "",
       "tags": [
-        "夕陽",
-        "海",
         "島",
-        "神社"
+        "海",
+        "夕陽"
       ],
       "thumb": "assets/img/lib/P0202-thumb.jpg",
       "large": "assets/img/lib/P0202-large.jpg",
@@ -1239,10 +1166,9 @@ window.SPL_LIBRARY = {
       "area": "志賀エリア",
       "season": "",
       "tags": [
-        "夕陽",
-        "海",
         "島",
-        "神社"
+        "海",
+        "夕陽"
       ],
       "thumb": "assets/img/lib/P0203-thumb.jpg",
       "large": "assets/img/lib/P0203-large.jpg",
@@ -1259,10 +1185,9 @@ window.SPL_LIBRARY = {
       "area": "志賀エリア",
       "season": "",
       "tags": [
-        "夕陽",
-        "海",
         "島",
-        "神社"
+        "海",
+        "夕陽"
       ],
       "thumb": "assets/img/lib/P0264-thumb.jpg",
       "large": "assets/img/lib/P0264-large.jpg",
@@ -1279,10 +1204,9 @@ window.SPL_LIBRARY = {
       "area": "志賀エリア",
       "season": "",
       "tags": [
-        "夕陽",
-        "海",
         "島",
-        "神社"
+        "海",
+        "夕陽"
       ],
       "thumb": "assets/img/lib/P0265-thumb.jpg",
       "large": "assets/img/lib/P0265-large.jpg",
@@ -1299,9 +1223,8 @@ window.SPL_LIBRARY = {
       "area": "志賀エリア",
       "season": "",
       "tags": [
-        "夕陽",
-        "海",
         "島",
+        "海",
         "神社"
       ],
       "thumb": "assets/img/lib/P0402-thumb.jpg",
@@ -1319,10 +1242,10 @@ window.SPL_LIBRARY = {
       "area": "志賀エリア",
       "season": "",
       "tags": [
-        "夕陽",
-        "海",
         "島",
-        "神社"
+        "海",
+        "神社",
+        "天使のはしご"
       ],
       "thumb": "assets/img/lib/P0403-thumb.jpg",
       "large": "assets/img/lib/P0403-large.jpg",
@@ -1423,11 +1346,9 @@ window.SPL_LIBRARY = {
       "area": "富来エリア",
       "season": "",
       "tags": [
-        "断崖",
         "海",
-        "空撮",
-        "名所旧跡",
-        "義経"
+        "岩",
+        "断崖"
       ],
       "thumb": "assets/img/lib/P0129-thumb.jpg",
       "large": "assets/img/lib/P0129-large.jpg",
@@ -1444,11 +1365,9 @@ window.SPL_LIBRARY = {
       "area": "富来エリア",
       "season": "",
       "tags": [
-        "断崖",
         "海",
-        "空撮",
-        "名所旧跡",
-        "義経"
+        "岩",
+        "断崖"
       ],
       "thumb": "assets/img/lib/P0138-thumb.jpg",
       "large": "assets/img/lib/P0138-large.jpg",
@@ -1589,7 +1508,6 @@ window.SPL_LIBRARY = {
         "名所旧跡",
         "海",
         "星空",
-        "夕陽",
         "キャンプ"
       ],
       "thumb": "assets/img/lib/P0043-thumb.jpg",
@@ -1610,7 +1528,6 @@ window.SPL_LIBRARY = {
         "名所旧跡",
         "海",
         "星空",
-        "夕陽",
         "キャンプ"
       ],
       "thumb": "assets/img/lib/P0044-thumb.jpg",
@@ -1631,7 +1548,6 @@ window.SPL_LIBRARY = {
         "名所旧跡",
         "海",
         "星空",
-        "夕陽",
         "キャンプ"
       ],
       "thumb": "assets/img/lib/P0045-thumb.jpg",
@@ -1652,7 +1568,6 @@ window.SPL_LIBRARY = {
         "名所旧跡",
         "海",
         "星空",
-        "夕陽",
         "キャンプ"
       ],
       "thumb": "assets/img/lib/P0046-thumb.jpg",
@@ -1673,7 +1588,6 @@ window.SPL_LIBRARY = {
         "名所旧跡",
         "海",
         "星空",
-        "夕陽",
         "キャンプ"
       ],
       "thumb": "assets/img/lib/P0047-thumb.jpg",
@@ -1694,7 +1608,6 @@ window.SPL_LIBRARY = {
         "名所旧跡",
         "海",
         "星空",
-        "夕陽",
         "キャンプ"
       ],
       "thumb": "assets/img/lib/P0048-thumb.jpg",
@@ -1943,11 +1856,9 @@ window.SPL_LIBRARY = {
       "area": "富来エリア",
       "season": "",
       "tags": [
-        "さくら貝",
-        "文化施設",
-        "体験",
-        "お土産",
-        "屋内"
+        "道の駅",
+        "海の幸",
+        "カニ"
       ],
       "thumb": "assets/img/lib/P0337-thumb.jpg",
       "large": "assets/img/lib/P0337-large.jpg",
@@ -1964,11 +1875,9 @@ window.SPL_LIBRARY = {
       "area": "富来エリア",
       "season": "",
       "tags": [
-        "さくら貝",
-        "文化施設",
-        "体験",
-        "お土産",
-        "屋内"
+        "道の駅",
+        "海の幸",
+        "海鮮"
       ],
       "thumb": "assets/img/lib/P0338-thumb.jpg",
       "large": "assets/img/lib/P0338-large.jpg",
@@ -1985,11 +1894,9 @@ window.SPL_LIBRARY = {
       "area": "富来エリア",
       "season": "",
       "tags": [
-        "さくら貝",
-        "文化施設",
-        "体験",
-        "お土産",
-        "屋内"
+        "道の駅",
+        "えび",
+        "食事"
       ],
       "thumb": "assets/img/lib/P0339-thumb.jpg",
       "large": "assets/img/lib/P0339-large.jpg",
@@ -2006,11 +1913,9 @@ window.SPL_LIBRARY = {
       "area": "富来エリア",
       "season": "",
       "tags": [
-        "さくら貝",
-        "文化施設",
-        "体験",
-        "お土産",
-        "屋内"
+        "道の駅",
+        "えび",
+        "食事"
       ],
       "thumb": "assets/img/lib/P0340-thumb.jpg",
       "large": "assets/img/lib/P0340-large.jpg",
@@ -2027,11 +1932,9 @@ window.SPL_LIBRARY = {
       "area": "富来エリア",
       "season": "",
       "tags": [
-        "さくら貝",
-        "文化施設",
-        "体験",
-        "お土産",
-        "屋内"
+        "道の駅",
+        "海鮮",
+        "食事"
       ],
       "thumb": "assets/img/lib/P0341-thumb.jpg",
       "large": "assets/img/lib/P0341-large.jpg",
@@ -2048,11 +1951,8 @@ window.SPL_LIBRARY = {
       "area": "富来エリア",
       "season": "",
       "tags": [
-        "さくら貝",
-        "文化施設",
-        "体験",
-        "お土産",
-        "屋内"
+        "道の駅",
+        "お土産"
       ],
       "thumb": "assets/img/lib/P0342-thumb.jpg",
       "large": "assets/img/lib/P0342-large.jpg",
@@ -2069,11 +1969,9 @@ window.SPL_LIBRARY = {
       "area": "富来エリア",
       "season": "",
       "tags": [
-        "さくら貝",
-        "文化施設",
-        "体験",
+        "道の駅",
         "お土産",
-        "屋内"
+        "特産品"
       ],
       "thumb": "assets/img/lib/P0344-thumb.jpg",
       "large": "assets/img/lib/P0344-large.jpg",
@@ -2090,11 +1988,9 @@ window.SPL_LIBRARY = {
       "area": "富来エリア",
       "season": "",
       "tags": [
-        "さくら貝",
-        "文化施設",
-        "体験",
-        "お土産",
-        "屋内"
+        "道の駅",
+        "海鮮",
+        "食事"
       ],
       "thumb": "assets/img/lib/P0345-thumb.jpg",
       "large": "assets/img/lib/P0345-large.jpg",
@@ -2111,11 +2007,9 @@ window.SPL_LIBRARY = {
       "area": "富来エリア",
       "season": "",
       "tags": [
-        "さくら貝",
-        "文化施設",
-        "体験",
-        "お土産",
-        "屋内"
+        "道の駅",
+        "海鮮",
+        "食事"
       ],
       "thumb": "assets/img/lib/P0346-thumb.jpg",
       "large": "assets/img/lib/P0346-large.jpg",
@@ -2132,11 +2026,8 @@ window.SPL_LIBRARY = {
       "area": "富来エリア",
       "season": "",
       "tags": [
-        "さくら貝",
-        "文化施設",
-        "体験",
-        "お土産",
-        "屋内"
+        "夏",
+        "海"
       ],
       "thumb": "assets/img/lib/P0347-thumb.jpg",
       "large": "assets/img/lib/P0347-large.jpg",
@@ -2235,8 +2126,7 @@ window.SPL_LIBRARY = {
       "tags": [
         "庭園",
         "名所旧跡",
-        "文化施設",
-        "屋内"
+        "文化施設"
       ],
       "thumb": "assets/img/lib/P0175-thumb.jpg",
       "large": "assets/img/lib/P0175-large.jpg",
@@ -2255,8 +2145,7 @@ window.SPL_LIBRARY = {
       "tags": [
         "庭園",
         "名所旧跡",
-        "文化施設",
-        "屋内"
+        "文化施設"
       ],
       "thumb": "assets/img/lib/P0176-thumb.jpg",
       "large": "assets/img/lib/P0176-large.jpg",
@@ -2275,8 +2164,7 @@ window.SPL_LIBRARY = {
       "tags": [
         "庭園",
         "名所旧跡",
-        "文化施設",
-        "屋内"
+        "文化施設"
       ],
       "thumb": "assets/img/lib/P0178-thumb.jpg",
       "large": "assets/img/lib/P0178-large.jpg",
@@ -2295,8 +2183,7 @@ window.SPL_LIBRARY = {
       "tags": [
         "庭園",
         "名所旧跡",
-        "文化施設",
-        "屋内"
+        "文化施設"
       ],
       "thumb": "assets/img/lib/P0179-thumb.jpg",
       "large": "assets/img/lib/P0179-large.jpg",
@@ -2315,8 +2202,7 @@ window.SPL_LIBRARY = {
       "tags": [
         "庭園",
         "名所旧跡",
-        "文化施設",
-        "屋内"
+        "文化施設"
       ],
       "thumb": "assets/img/lib/P0180-thumb.jpg",
       "large": "assets/img/lib/P0180-large.jpg",
@@ -2335,8 +2221,7 @@ window.SPL_LIBRARY = {
       "tags": [
         "庭園",
         "名所旧跡",
-        "文化施設",
-        "屋内"
+        "文化施設"
       ],
       "thumb": "assets/img/lib/P0181-thumb.jpg",
       "large": "assets/img/lib/P0181-large.jpg",
@@ -2355,8 +2240,7 @@ window.SPL_LIBRARY = {
       "tags": [
         "庭園",
         "名所旧跡",
-        "文化施設",
-        "屋内"
+        "文化施設"
       ],
       "thumb": "assets/img/lib/P0182-thumb.jpg",
       "large": "assets/img/lib/P0182-large.jpg",
@@ -2375,8 +2259,7 @@ window.SPL_LIBRARY = {
       "tags": [
         "庭園",
         "名所旧跡",
-        "文化施設",
-        "屋内"
+        "文化施設"
       ],
       "thumb": "assets/img/lib/P0183-thumb.jpg",
       "large": "assets/img/lib/P0183-large.jpg",
@@ -2395,8 +2278,7 @@ window.SPL_LIBRARY = {
       "tags": [
         "庭園",
         "名所旧跡",
-        "文化施設",
-        "屋内"
+        "文化施設"
       ],
       "thumb": "assets/img/lib/P0184-thumb.jpg",
       "large": "assets/img/lib/P0184-large.jpg",
@@ -2415,8 +2297,7 @@ window.SPL_LIBRARY = {
       "tags": [
         "庭園",
         "名所旧跡",
-        "文化施設",
-        "屋内"
+        "文化施設"
       ],
       "thumb": "assets/img/lib/P0185-thumb.jpg",
       "large": "assets/img/lib/P0185-large.jpg",
