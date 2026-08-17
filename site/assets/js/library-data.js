@@ -3,7 +3,7 @@
 window.SPL_LIBRARY = {
   "meta": {
     "note": "photos.json と spots.json から自動生成しています。直接編集せず、scripts/build-library.py を実行してください。",
-    "count": 119
+    "count": 120
   },
   "photos": [
     {
@@ -2306,6 +2306,24 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "平家",
       "id": "P0185"
+    },
+    {
+      "title": "白い鳥居の立つ境内",
+      "spot": "松尾神社",
+      "spotId": "matsuo",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "神社",
+        "名所旧跡"
+      ],
+      "thumb": "assets/img/lib/P0144-thumb.jpg",
+      "large": "assets/img/lib/P0144-large.jpg",
+      "alt": "白い鳥居の立つ境内",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "松尾神社",
+      "id": "P0144"
     }
   ]
 };

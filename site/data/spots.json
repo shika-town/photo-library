@@ -1756,9 +1756,20 @@
       "tags": [],
       "info": [],
       "sources": [],
-      "hero": "",
-      "photos": [],
-      "count": 0
+      "hero": "assets/img/lib/P0144-hero.jpg",
+      "photos": [
+        {
+          "id": "P0144",
+          "thumb": "../assets/img/lib/P0144-thumb.jpg",
+          "large": "../assets/img/lib/P0144-large.jpg",
+          "caption": "白い鳥居の立つ境内",
+          "tags": [
+            "神社",
+            "名所旧跡"
+          ]
+        }
+      ],
+      "count": 1
     }
   ]
 }
