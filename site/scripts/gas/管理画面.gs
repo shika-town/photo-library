@@ -83,8 +83,11 @@ function ダッシュボード情報を取得する() {
   var spots = _スポット一覧(ss);
   var pending = _承認待ち一覧(ss);
 
+  var validSpotNames = {};
+  spots.forEach(function (s) { validSpotNames[s.name] = true; });
+
   var publishCount = photos.filter(function (p) { return p.publish; }).length;
-  var reviewCount = photos.filter(_要確認).length;
+  var reviewCount = photos.filter(function (p) { return _要確認(p, validSpotNames); }).length;
 
   var bySpot = {};
   photos.forEach(function (p) {
@@ -126,12 +129,16 @@ function ダッシュボード情報を取得する() {
 }
 
 // 写真管理タブの「要確認」判定と同じ基準（タイトル未入力・仮のファイル名風・日本語の文字が無い・スポット未分類）
-function _要確認(p) {
+// validSpotNames を渡すと、現在の「スポット」タブに無い名前（スポット名の変更・削除・入力ミスで
+// 孤立した写真）も検知する。孤立した写真はサイトのスポットギャラリーから静かに消えてしまうため、
+// ここで拾って画面に出すことで「気づけないまま公開から漏れる」事故を防ぐ。
+function _要確認(p, validSpotNames) {
   var title = String(p.title || '').trim();
   if (!title) return true;
   if (/^(dsc|img|dji|pxl|mov|gopr|p\d{3,}|100_|100-)[-_ ]?\d*/i.test(title)) return true;
   if (!/[぀-ヿ一-鿿]/.test(title)) return true; // ひらがな・カタカナ・漢字が一つも無い
   if (!p.spot || p.spot === 'その他') return true;
+  if (validSpotNames && !validSpotNames[p.spot]) return true;
   return false;
 }
 

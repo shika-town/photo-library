@@ -349,6 +349,14 @@
       border: 1px solid var(--line-soft); border-radius: var(--radius);
       padding: 14px 8px; background: #fff; text-align: center;
     }
+    .photo-nav {
+      display: flex; align-items: center; justify-content: space-between; gap: 8px;
+      border: 1px solid var(--line-soft); border-radius: 10px; background: var(--soft);
+      padding: 8px 10px; margin: 10px 0;
+    }
+    .photo-nav button { padding: 8px 12px; font-size: 12px; }
+    .photo-nav button:disabled { opacity: 0.4; cursor: default; }
+    #photoNavPos { color: var(--blue-dark); font-weight: 700; }
     .dash-tile__icon { font-size: 17px; }
     .dash-tile__num { font-size: 22px; font-weight: 800; color: var(--blue-dark); line-height: 1.3; }
     .dash-tile__label { font-size: 10.5px; color: var(--muted); }
@@ -481,6 +489,13 @@
         <div id="photoPreviewMeta" class="meta"></div>
       </div>
       <p class="hint" id="photoPreviewHint" style="display:none;">👆 変更するとここに反映され、保存後の見え方を確認できます。</p>
+
+      <div class="photo-nav" id="photoNav" style="display:none;">
+        <button type="button" class="secondary" id="prevPhoto">◀ 前へ</button>
+        <span id="photoNavPos" class="hint" style="margin:0;"></span>
+        <button type="button" class="secondary" id="nextPhoto">次へ ▶</button>
+      </div>
+      <p class="hint" id="photoNavHint" style="display:none;">上の一覧に戻らなくても、ここから続けて次の写真を編集できます。</p>
 
       <label>スポット</label>
       <div class="field-with-preview">
@@ -820,7 +835,7 @@
       }).今すぐ公開する();
     });
 
-    function load() {
+    function load(keepPhotoId, fallbackIdx) {
       google.script.run.withSuccessHandler(data => {
         state = data;
         fillSelect($('spot'), data.spots.map(s => s.name), true);
@@ -837,7 +852,7 @@
         $('photoSpot').insertAdjacentHTML('beforeend', '<option value="' + esc(OTHER_SPOT) + '">' + esc(OTHER_SPOT_LABEL) + '</option>');
         const areaList = Array.from(new Set([].concat(data.choices.area || [], data.spots.map(s => s.area)).filter(Boolean)));
         $('areaOptions').innerHTML = areaList.map(a => '<option value="' + esc(a) + '">').join('');
-        renderPhotoChoices();
+        renderPhotoChoices(keepPhotoId, fallbackIdx);
         renderPending();
         renderSceneSeasonLists();
         if ($('photoEdit').value) setPhotoFields();
@@ -850,13 +865,16 @@
     }
 
     /* ---------- 写真グリッド（サムネイル選択） ---------- */
-    // ファイル名そのままのようなタイトル、未入力、日本語の文字が無い、未分類のスポットを「要確認」として拾う
+    // ファイル名そのままのようなタイトル、未入力、日本語の文字が無い、未分類・現存しないスポットを「要確認」として拾う
+    // （スポット名の変更・削除・入力ミスで孤立した写真は、サイトのスポットギャラリーから静かに消えてしまうため、
+    //  ここで拾って気づけるようにする）
     function needsReview(p) {
       const title = String(p.title || '').trim();
       if (!title) return true;
       if (/^(dsc|img|dji|pxl|mov|gopr|p\d{3,}|100_|100-)[-_ ]?\d*/i.test(title)) return true;
       if (!/[぀-ヿ一-鿿]/.test(title)) return true; // ひらがな・カタカナ・漢字が一つも無い
       if (p.spot === OTHER_SPOT || !p.spot) return true;
+      if (!(state.spots || []).some(s => s.name === p.spot)) return true;
       return false;
     }
 
@@ -879,7 +897,9 @@
       '</button>';
     }
 
-    function renderPhotoChoices(keepId) {
+    let filteredPhotoIds = [];
+
+    function renderPhotoChoices(keepId, fallbackIdx) {
       const q = String($('photoSearch').value || '').trim().toLowerCase();
       const filter = (document.querySelector('input[name="photoFilter"]:checked') || {}).value || 'all';
       const spotFilter = $('photoFilterSpot').value;
@@ -892,9 +912,16 @@
         if (filter === 'review' && !needsReview(p)) return false;
         return true;
       });
+      filteredPhotoIds = list.map(p => p.id);
       $('photoEdit').innerHTML = '<option value="">選択してください</option>' +
         list.map(p => '<option value="' + esc(p.id) + '">' + esc(p.label) + '</option>').join('');
-      if (keepId && list.some(p => p.id === keepId)) $('photoEdit').value = keepId;
+      if (keepId && list.some(p => p.id === keepId)) {
+        $('photoEdit').value = keepId;
+      } else if (fallbackIdx !== undefined && filteredPhotoIds.length) {
+        // 保存/変更した写真がこの絞り込みから外れた場合（例：⚠️要確認のみ表示中に直したら要確認でなくなった）
+        // 一覧の先頭に戻さず、同じ位置＝次の写真を続けて選ぶ
+        $('photoEdit').value = filteredPhotoIds[Math.min(fallbackIdx, filteredPhotoIds.length - 1)];
+      }
       $('photoCount').textContent = list.length ? list.length + '件から選べます。クリックして選んでください。' : '該当する写真がありません。検索語を変えてください。';
 
       const selectedId = $('photoEdit').value;
@@ -902,14 +929,42 @@
         ? list.map(p => photoCardHtml(p, selectedId)).join('')
         : '<div class="empty" style="grid-column:1/-1;">該当する写真がありません。</div>';
       $('photoGrid').querySelectorAll('[data-id]').forEach(btn => {
-        btn.addEventListener('click', () => {
-          $('photoEdit').value = btn.dataset.id;
-          setPhotoFields();
-          $('photoGrid').querySelectorAll('.photo-card').forEach(c => c.classList.toggle('selected', c === btn));
-        });
+        btn.addEventListener('click', () => selectPhotoById(btn.dataset.id, { scroll: true }));
       });
       if (!$('photoEdit').value) setPhotoFields();
+      updatePhotoNav();
     }
+
+    // 一覧から選ぶ／前へ・次へで移動する、両方の入口をここに集約する
+    function selectPhotoById(id, opts) {
+      opts = opts || {};
+      $('photoEdit').value = id;
+      setPhotoFields();
+      $('photoGrid').querySelectorAll('.photo-card').forEach(c => c.classList.toggle('selected', c.dataset.id === id));
+      updatePhotoNav();
+      if (opts.scroll) $('photoNav').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+
+    // 一覧に戻らなくても続けて編集できるよう、絞り込み後の並びの中で前後に移動する
+    function updatePhotoNav() {
+      const id = $('photoEdit').value;
+      const idx = filteredPhotoIds.indexOf(id);
+      const show = filteredPhotoIds.length > 1 && idx !== -1;
+      $('photoNav').style.display = show ? 'flex' : 'none';
+      $('photoNavHint').style.display = show ? 'block' : 'none';
+      if (!show) return;
+      $('photoNavPos').textContent = (idx + 1) + ' / ' + filteredPhotoIds.length + '件';
+      $('prevPhoto').disabled = idx <= 0;
+      $('nextPhoto').disabled = idx >= filteredPhotoIds.length - 1;
+    }
+    $('prevPhoto').addEventListener('click', () => {
+      const idx = filteredPhotoIds.indexOf($('photoEdit').value);
+      if (idx > 0) selectPhotoById(filteredPhotoIds[idx - 1]);
+    });
+    $('nextPhoto').addEventListener('click', () => {
+      const idx = filteredPhotoIds.indexOf($('photoEdit').value);
+      if (idx !== -1 && idx < filteredPhotoIds.length - 1) selectPhotoById(filteredPhotoIds[idx + 1]);
+    });
 
     function pendingItemHtml(p, i, isNewGroup) {
       const thumb = p.previewUrl
@@ -1251,10 +1306,11 @@
     $('savePhoto').onclick = () => {
       const p = currentPhoto();
       if (!p) return notice('写真を選んでください。', false);
+      const idxBeforeSave = filteredPhotoIds.indexOf(p.id);
       $('savePhoto').disabled = true;
       google.script.run.withSuccessHandler(res => {
         notice(res.message, true);
-        load();
+        load(p.id, idxBeforeSave);
         $('savePhoto').disabled = false;
       }).withFailureHandler(e => {
         notice(e.message, false);

@@ -280,6 +280,22 @@ def main():
                 skipped.append(p['id']); print('  ！ %s' % e)
             return p, None
 
+    # 安全装置：写真の「スポット」欄が、現在の「スポット」タブのどの名前とも一致しない場合を検知する。
+    # スポット名の変更・削除・入力ミスがあると、該当の写真は一致するギャラリーが無いまま静かに
+    # サイトから抜け落ちてしまう（新着扱いの写真だけはトップに残るが、詳細ページのスポットリンクが壊れる）。
+    _spot_names = set(str(s['name']).strip() for s in spots)
+    _orphan_spot_photos = [p for p in photos
+                            if str(p.get('spot', '')).strip() and str(p.get('spot', '')).strip() not in _spot_names]
+    if _orphan_spot_photos:
+        print('\n  ！ どのスポットとも一致しない「スポット」欄の写真が %d枚あります（ギャラリーに出ません）:'
+              % len(_orphan_spot_photos))
+        for p in _orphan_spot_photos[:20]:
+            print('      %s: 「%s」（スポット「%s」）' % (p.get('id'), p.get('title', ''), p.get('spot', '')))
+        if len(_orphan_spot_photos) > 20:
+            print('      …ほか %d枚' % (len(_orphan_spot_photos) - 20))
+        print('    管理画面の「写真管理」タブで⚠️要確認として表示されます。スポット名の変更・削除・'
+              '入力ミスがないか確認してください。')
+
     print('  画像を書き出しています…')
     # ---- スポット ----
     spots_out = []
