@@ -3,7 +3,7 @@
 window.SPL_LIBRARY = {
   "meta": {
     "note": "photos.json と spots.json から自動生成しています。直接編集せず、scripts/build-library.py を実行してください。",
-    "count": 104
+    "count": 119
   },
   "photos": [
     {
@@ -1790,7 +1790,7 @@ window.SPL_LIBRARY = {
       "id": "P0052"
     },
     {
-      "title": "資料館の展示室",
+      "title": "さくら貝資料館_1",
       "spot": "道の駅とぎ海街道・さくら貝資料館",
       "spotId": "sakuragai",
       "area": "富来エリア",
@@ -1804,7 +1804,7 @@ window.SPL_LIBRARY = {
       ],
       "thumb": "assets/img/lib/P0053-thumb.jpg",
       "large": "assets/img/lib/P0053-large.jpg",
-      "alt": "資料館の展示室",
+      "alt": "さくら貝資料館_1",
       "credit": "© 志賀町",
       "photographer": "志賀町",
       "source": "道の駅とぎ海街道・さくら貝資料館",
@@ -1853,7 +1853,7 @@ window.SPL_LIBRARY = {
       "id": "P0056"
     },
     {
-      "title": "館内の様子",
+      "title": "さくら貝資料館_2",
       "spot": "道の駅とぎ海街道・さくら貝資料館",
       "spotId": "sakuragai",
       "area": "富来エリア",
@@ -1867,14 +1867,14 @@ window.SPL_LIBRARY = {
       ],
       "thumb": "assets/img/lib/P0057-thumb.jpg",
       "large": "assets/img/lib/P0057-large.jpg",
-      "alt": "館内の様子",
+      "alt": "さくら貝資料館_2",
       "credit": "© 志賀町",
       "photographer": "志賀町",
       "source": "道の駅とぎ海街道・さくら貝資料館",
       "id": "P0057"
     },
     {
-      "title": "色とりどりの貝殻",
+      "title": "さくら貝資料館_3",
       "spot": "道の駅とぎ海街道・さくら貝資料館",
       "spotId": "sakuragai",
       "area": "富来エリア",
@@ -1888,11 +1888,263 @@ window.SPL_LIBRARY = {
       ],
       "thumb": "assets/img/lib/P0058-thumb.jpg",
       "large": "assets/img/lib/P0058-large.jpg",
-      "alt": "色とりどりの貝殻",
+      "alt": "さくら貝資料館_3",
       "credit": "© 志賀町",
       "photographer": "志賀町",
       "source": "道の駅とぎ海街道・さくら貝資料館",
       "id": "P0058"
+    },
+    {
+      "title": "さくら貝資料館_4",
+      "spot": "道の駅とぎ海街道・さくら貝資料館",
+      "spotId": "sakuragai",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "さくら貝",
+        "文化施設",
+        "体験",
+        "お土産",
+        "屋内"
+      ],
+      "thumb": "assets/img/lib/P0335-thumb.jpg",
+      "large": "assets/img/lib/P0335-large.jpg",
+      "alt": "さくら貝資料館_4",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "道の駅とぎ海街道・さくら貝資料館",
+      "id": "P0335"
+    },
+    {
+      "title": "さくら貝資料館_5",
+      "spot": "道の駅とぎ海街道・さくら貝資料館",
+      "spotId": "sakuragai",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "さくら貝",
+        "文化施設",
+        "体験",
+        "お土産",
+        "屋内"
+      ],
+      "thumb": "assets/img/lib/P0336-thumb.jpg",
+      "large": "assets/img/lib/P0336-large.jpg",
+      "alt": "さくら貝資料館_5",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "道の駅とぎ海街道・さくら貝資料館",
+      "id": "P0336"
+    },
+    {
+      "title": "道の駅とぎ海街道_かに",
+      "spot": "道の駅とぎ海街道・さくら貝資料館",
+      "spotId": "sakuragai",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "さくら貝",
+        "文化施設",
+        "体験",
+        "お土産",
+        "屋内"
+      ],
+      "thumb": "assets/img/lib/P0337-thumb.jpg",
+      "large": "assets/img/lib/P0337-large.jpg",
+      "alt": "道の駅とぎ海街道_かに",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "道の駅とぎ海街道・さくら貝資料館",
+      "id": "P0337"
+    },
+    {
+      "title": "道の駅とぎ海街道_海鮮丼",
+      "spot": "道の駅とぎ海街道・さくら貝資料館",
+      "spotId": "sakuragai",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "さくら貝",
+        "文化施設",
+        "体験",
+        "お土産",
+        "屋内"
+      ],
+      "thumb": "assets/img/lib/P0338-thumb.jpg",
+      "large": "assets/img/lib/P0338-large.jpg",
+      "alt": "道の駅とぎ海街道_海鮮丼",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "道の駅とぎ海街道・さくら貝資料館",
+      "id": "P0338"
+    },
+    {
+      "title": "道の駅とぎ海街道_甘えびかきあげバーガー",
+      "spot": "道の駅とぎ海街道・さくら貝資料館",
+      "spotId": "sakuragai",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "さくら貝",
+        "文化施設",
+        "体験",
+        "お土産",
+        "屋内"
+      ],
+      "thumb": "assets/img/lib/P0339-thumb.jpg",
+      "large": "assets/img/lib/P0339-large.jpg",
+      "alt": "道の駅とぎ海街道_甘えびかきあげバーガー",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "道の駅とぎ海街道・さくら貝資料館",
+      "id": "P0339"
+    },
+    {
+      "title": "道の駅とぎ海街道_甘えびかきあげバーガー",
+      "spot": "道の駅とぎ海街道・さくら貝資料館",
+      "spotId": "sakuragai",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "さくら貝",
+        "文化施設",
+        "体験",
+        "お土産",
+        "屋内"
+      ],
+      "thumb": "assets/img/lib/P0340-thumb.jpg",
+      "large": "assets/img/lib/P0340-large.jpg",
+      "alt": "道の駅とぎ海街道_甘えびかきあげバーガー",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "道の駅とぎ海街道・さくら貝資料館",
+      "id": "P0340"
+    },
+    {
+      "title": "道の駅とぎ海街道_海鮮丼＆甘えびかきあげバーガー",
+      "spot": "道の駅とぎ海街道・さくら貝資料館",
+      "spotId": "sakuragai",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "さくら貝",
+        "文化施設",
+        "体験",
+        "お土産",
+        "屋内"
+      ],
+      "thumb": "assets/img/lib/P0341-thumb.jpg",
+      "large": "assets/img/lib/P0341-large.jpg",
+      "alt": "道の駅とぎ海街道_海鮮丼＆甘えびかきあげバーガー",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "道の駅とぎ海街道・さくら貝資料館",
+      "id": "P0341"
+    },
+    {
+      "title": "道の駅とぎ海街道_カネヨ醤油",
+      "spot": "道の駅とぎ海街道・さくら貝資料館",
+      "spotId": "sakuragai",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "さくら貝",
+        "文化施設",
+        "体験",
+        "お土産",
+        "屋内"
+      ],
+      "thumb": "assets/img/lib/P0342-thumb.jpg",
+      "large": "assets/img/lib/P0342-large.jpg",
+      "alt": "道の駅とぎ海街道_カネヨ醤油",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "道の駅とぎ海街道・さくら貝資料館",
+      "id": "P0342"
+    },
+    {
+      "title": "道の駅とぎ海街道_志賀町優良特産品",
+      "spot": "道の駅とぎ海街道・さくら貝資料館",
+      "spotId": "sakuragai",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "さくら貝",
+        "文化施設",
+        "体験",
+        "お土産",
+        "屋内"
+      ],
+      "thumb": "assets/img/lib/P0344-thumb.jpg",
+      "large": "assets/img/lib/P0344-large.jpg",
+      "alt": "道の駅とぎ海街道_志賀町優良特産品",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "道の駅とぎ海街道・さくら貝資料館",
+      "id": "P0344"
+    },
+    {
+      "title": "道の駅とぎ海街道_海鮮丼",
+      "spot": "道の駅とぎ海街道・さくら貝資料館",
+      "spotId": "sakuragai",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "さくら貝",
+        "文化施設",
+        "体験",
+        "お土産",
+        "屋内"
+      ],
+      "thumb": "assets/img/lib/P0345-thumb.jpg",
+      "large": "assets/img/lib/P0345-large.jpg",
+      "alt": "道の駅とぎ海街道_海鮮丼",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "道の駅とぎ海街道・さくら貝資料館",
+      "id": "P0345"
+    },
+    {
+      "title": "道の駅とぎ海街道_海鮮丼",
+      "spot": "道の駅とぎ海街道・さくら貝資料館",
+      "spotId": "sakuragai",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "さくら貝",
+        "文化施設",
+        "体験",
+        "お土産",
+        "屋内"
+      ],
+      "thumb": "assets/img/lib/P0346-thumb.jpg",
+      "large": "assets/img/lib/P0346-large.jpg",
+      "alt": "道の駅とぎ海街道_海鮮丼",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "道の駅とぎ海街道・さくら貝資料館",
+      "id": "P0346"
+    },
+    {
+      "title": "さざえ（道の駅）",
+      "spot": "道の駅とぎ海街道・さくら貝資料館",
+      "spotId": "sakuragai",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "さくら貝",
+        "文化施設",
+        "体験",
+        "お土産",
+        "屋内"
+      ],
+      "thumb": "assets/img/lib/P0347-thumb.jpg",
+      "large": "assets/img/lib/P0347-large.jpg",
+      "alt": "さざえ（道の駅）",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "道の駅とぎ海街道・さくら貝資料館",
+      "id": "P0347"
     },
     {
       "title": "天領大庄屋の屋敷",
@@ -2113,6 +2365,66 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "平家",
       "id": "P0182"
+    },
+    {
+      "title": "平家_9",
+      "spot": "平家",
+      "spotId": "taira",
+      "area": "志賀エリア",
+      "season": "",
+      "tags": [
+        "庭園",
+        "名所旧跡",
+        "文化施設",
+        "屋内"
+      ],
+      "thumb": "assets/img/lib/P0183-thumb.jpg",
+      "large": "assets/img/lib/P0183-large.jpg",
+      "alt": "平家_9",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "平家",
+      "id": "P0183"
+    },
+    {
+      "title": "平家_10",
+      "spot": "平家",
+      "spotId": "taira",
+      "area": "志賀エリア",
+      "season": "",
+      "tags": [
+        "庭園",
+        "名所旧跡",
+        "文化施設",
+        "屋内"
+      ],
+      "thumb": "assets/img/lib/P0184-thumb.jpg",
+      "large": "assets/img/lib/P0184-large.jpg",
+      "alt": "平家_10",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "平家",
+      "id": "P0184"
+    },
+    {
+      "title": "平家",
+      "spot": "平家",
+      "spotId": "taira",
+      "area": "志賀エリア",
+      "season": "",
+      "tags": [
+        "庭園",
+        "名所旧跡",
+        "文化施設",
+        "屋内"
+      ],
+      "thumb": "assets/img/lib/P0185-thumb.jpg",
+      "large": "assets/img/lib/P0185-large.jpg",
+      "alt": "平家",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "平家",
+      "id": "P0185"
     }
   ]
 };

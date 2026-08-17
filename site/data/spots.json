@@ -879,7 +879,7 @@
           "id": "P0053",
           "thumb": "../assets/img/lib/P0053-thumb.jpg",
           "large": "../assets/img/lib/P0053-large.jpg",
-          "caption": "資料館の展示室"
+          "caption": "さくら貝資料館_1"
         },
         {
           "id": "P0054",
@@ -897,16 +897,88 @@
           "id": "P0057",
           "thumb": "../assets/img/lib/P0057-thumb.jpg",
           "large": "../assets/img/lib/P0057-large.jpg",
-          "caption": "館内の様子"
+          "caption": "さくら貝資料館_2"
         },
         {
           "id": "P0058",
           "thumb": "../assets/img/lib/P0058-thumb.jpg",
           "large": "../assets/img/lib/P0058-large.jpg",
-          "caption": "色とりどりの貝殻"
+          "caption": "さくら貝資料館_3"
+        },
+        {
+          "id": "P0335",
+          "thumb": "../assets/img/lib/P0335-thumb.jpg",
+          "large": "../assets/img/lib/P0335-large.jpg",
+          "caption": "さくら貝資料館_4"
+        },
+        {
+          "id": "P0336",
+          "thumb": "../assets/img/lib/P0336-thumb.jpg",
+          "large": "../assets/img/lib/P0336-large.jpg",
+          "caption": "さくら貝資料館_5"
+        },
+        {
+          "id": "P0337",
+          "thumb": "../assets/img/lib/P0337-thumb.jpg",
+          "large": "../assets/img/lib/P0337-large.jpg",
+          "caption": "道の駅とぎ海街道_かに"
+        },
+        {
+          "id": "P0338",
+          "thumb": "../assets/img/lib/P0338-thumb.jpg",
+          "large": "../assets/img/lib/P0338-large.jpg",
+          "caption": "道の駅とぎ海街道_海鮮丼"
+        },
+        {
+          "id": "P0339",
+          "thumb": "../assets/img/lib/P0339-thumb.jpg",
+          "large": "../assets/img/lib/P0339-large.jpg",
+          "caption": "道の駅とぎ海街道_甘えびかきあげバーガー"
+        },
+        {
+          "id": "P0340",
+          "thumb": "../assets/img/lib/P0340-thumb.jpg",
+          "large": "../assets/img/lib/P0340-large.jpg",
+          "caption": "道の駅とぎ海街道_甘えびかきあげバーガー"
+        },
+        {
+          "id": "P0341",
+          "thumb": "../assets/img/lib/P0341-thumb.jpg",
+          "large": "../assets/img/lib/P0341-large.jpg",
+          "caption": "道の駅とぎ海街道_海鮮丼＆甘えびかきあげバーガー"
+        },
+        {
+          "id": "P0342",
+          "thumb": "../assets/img/lib/P0342-thumb.jpg",
+          "large": "../assets/img/lib/P0342-large.jpg",
+          "caption": "道の駅とぎ海街道_カネヨ醤油"
+        },
+        {
+          "id": "P0344",
+          "thumb": "../assets/img/lib/P0344-thumb.jpg",
+          "large": "../assets/img/lib/P0344-large.jpg",
+          "caption": "道の駅とぎ海街道_志賀町優良特産品"
+        },
+        {
+          "id": "P0345",
+          "thumb": "../assets/img/lib/P0345-thumb.jpg",
+          "large": "../assets/img/lib/P0345-large.jpg",
+          "caption": "道の駅とぎ海街道_海鮮丼"
+        },
+        {
+          "id": "P0346",
+          "thumb": "../assets/img/lib/P0346-thumb.jpg",
+          "large": "../assets/img/lib/P0346-large.jpg",
+          "caption": "道の駅とぎ海街道_海鮮丼"
+        },
+        {
+          "id": "P0347",
+          "thumb": "../assets/img/lib/P0347-thumb.jpg",
+          "large": "../assets/img/lib/P0347-large.jpg",
+          "caption": "さざえ（道の駅）"
         }
       ],
-      "count": 9
+      "count": 21
     },
     {
       "id": "taira",
@@ -1021,9 +1093,27 @@
           "thumb": "../assets/img/lib/P0182-thumb.jpg",
           "large": "../assets/img/lib/P0182-large.jpg",
           "caption": "平家_8"
+        },
+        {
+          "id": "P0183",
+          "thumb": "../assets/img/lib/P0183-thumb.jpg",
+          "large": "../assets/img/lib/P0183-large.jpg",
+          "caption": "平家_9"
+        },
+        {
+          "id": "P0184",
+          "thumb": "../assets/img/lib/P0184-thumb.jpg",
+          "large": "../assets/img/lib/P0184-large.jpg",
+          "caption": "平家_10"
+        },
+        {
+          "id": "P0185",
+          "thumb": "../assets/img/lib/P0185-thumb.jpg",
+          "large": "../assets/img/lib/P0185-large.jpg",
+          "caption": "平家"
         }
       ],
-      "count": 11
+      "count": 14
     }
   ]
 }
