@@ -427,6 +427,7 @@
 
         <label>タグ</label>
         <div id="tags" class="checks"></div>
+        <p class="hint" id="tagsBatchHint" style="display:none;color:var(--warn-ink);">⚠️ まとめて登録すると、選んだタグは選んだ写真すべてに付きます。「夕陽」「朝日」のように写真ごとに違う可能性があるタグは、ここでは付けずに登録し、あとで「写真管理」タブから1枚ずつ付け直すことをおすすめします。</p>
 
         <label>表示場所</label>
         <div id="roles"></div>
@@ -831,6 +832,7 @@
         fillSelect($('spotEdit'), data.spots.map(s => s.name), true);
         fillSelect($('photoFilterSpot'), data.spots.map(s => s.name).concat(OTHER_SPOT), true);
         $('photoFilterSpot').options[0].textContent = 'スポットで絞り込み（すべて）';
+        $('photoFilterSpot').querySelector('option[value="' + OTHER_SPOT + '"]').textContent = OTHER_SPOT_LABEL;
         fillSelect($('photoSpot'), data.spots.map(s => s.name), false);
         $('photoSpot').insertAdjacentHTML('beforeend', '<option value="' + esc(OTHER_SPOT) + '">' + esc(OTHER_SPOT_LABEL) + '</option>');
         const areaList = Array.from(new Set([].concat(data.choices.area || [], data.spots.map(s => s.area)).filter(Boolean)));
@@ -1010,10 +1012,12 @@
         listEl.innerHTML = '';
         listEl.classList.remove('active');
         $('titleField').style.display = '';
+        $('tagsBatchHint').style.display = 'none';
         $('addPhoto').textContent = '非公開で登録';
         return;
       }
       $('titleField').style.display = 'none';
+      $('tagsBatchHint').style.display = selectedFiles.length > 1 ? 'block' : 'none';
       listEl.classList.add('active');
       listEl.innerHTML =
         '<p class="hint" style="margin-top:0;">写真ごとの<b>タイトル</b>です（サイトに表示される名前）。ファイル名から自動で入力しています。分かりやすい名前に書き換えてください。</p>' +
@@ -1170,7 +1174,10 @@
       return state.photos.find(p => p.id === $('photoEdit').value);
     }
     function looksLikeRawFilename(title) {
-      return /^(dsc|img|p\d{3,}|100_|100-)[-_ ]?\d*$/i.test(String(title || '').trim());
+      const t = String(title || '').trim();
+      if (!t) return false;
+      if (/^(dsc|img|dji|pxl|mov|gopr|p\d{3,}|100_|100-)[-_ ]?\d*/i.test(t)) return true;
+      return !/[぀-ヿ一-鿿]/.test(t); // ひらがな・カタカナ・漢字が一つも無い
     }
     function updatePhotoSpotThumb() {
       const spotName = $('photoSpot').value;
