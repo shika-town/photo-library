@@ -699,13 +699,6 @@
           ]
         },
         {
-          "id": "P0195",
-          "thumb": "../assets/img/lib/P0195-thumb.jpg",
-          "large": "../assets/img/lib/P0195-large.jpg",
-          "caption": "DSC_8600",
-          "tags": []
-        },
-        {
           "id": "P0196",
           "thumb": "../assets/img/lib/P0196-thumb.jpg",
           "large": "../assets/img/lib/P0196-large.jpg",
@@ -789,6 +782,16 @@
           "caption": "弁天島_10",
           "tags": [
             "島",
+            "海",
+            "夕陽"
+          ]
+        },
+        {
+          "id": "P0204",
+          "thumb": "../assets/img/lib/P0204-thumb.jpg",
+          "large": "../assets/img/lib/P0204-large.jpg",
+          "caption": "弁天島_16",
+          "tags": [
             "海",
             "夕陽"
           ]
@@ -1491,6 +1494,17 @@
           ]
         },
         {
+          "id": "P0343",
+          "thumb": "../assets/img/lib/P0343-thumb.jpg",
+          "large": "../assets/img/lib/P0343-large.jpg",
+          "caption": "道の駅とぎ海街道_キリコ",
+          "tags": [
+            "屋内",
+            "お土産",
+            "道の駅"
+          ]
+        },
+        {
           "id": "P0344",
           "thumb": "../assets/img/lib/P0344-thumb.jpg",
           "large": "../assets/img/lib/P0344-large.jpg",
@@ -1534,7 +1548,7 @@
           ]
         }
       ],
-      "count": 21
+      "count": 22
     },
     {
       "id": "taira",

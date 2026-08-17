@@ -3,7 +3,7 @@
 window.SPL_LIBRARY = {
   "meta": {
     "note": "photos.json と spots.json から自動生成しています。直接編集せず、scripts/build-library.py を実行してください。",
-    "count": 120
+    "count": 121
   },
   "photos": [
     {
@@ -1012,21 +1012,6 @@ window.SPL_LIBRARY = {
       "id": "P0194"
     },
     {
-      "title": "DSC_8600",
-      "spot": "弁天島",
-      "spotId": "benten",
-      "area": "志賀エリア",
-      "season": "",
-      "tags": [],
-      "thumb": "assets/img/lib/P0195-thumb.jpg",
-      "large": "assets/img/lib/P0195-large.jpg",
-      "alt": "DSC_8600",
-      "credit": "© 志賀町",
-      "photographer": "志賀町",
-      "source": "弁天島",
-      "id": "P0195"
-    },
-    {
       "title": "弁天島_3",
       "spot": "弁天島",
       "spotId": "benten",
@@ -1177,6 +1162,24 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "弁天島",
       "id": "P0203"
+    },
+    {
+      "title": "弁天島_16",
+      "spot": "弁天島",
+      "spotId": "benten",
+      "area": "志賀エリア",
+      "season": "",
+      "tags": [
+        "海",
+        "夕陽"
+      ],
+      "thumb": "assets/img/lib/P0204-thumb.jpg",
+      "large": "assets/img/lib/P0204-large.jpg",
+      "alt": "弁天島_16",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "弁天島",
+      "id": "P0204"
     },
     {
       "title": "弁天島_11",
@@ -1961,6 +1964,25 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "道の駅とぎ海街道・さくら貝資料館",
       "id": "P0342"
+    },
+    {
+      "title": "道の駅とぎ海街道_キリコ",
+      "spot": "道の駅とぎ海街道・さくら貝資料館",
+      "spotId": "sakuragai",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "屋内",
+        "お土産",
+        "道の駅"
+      ],
+      "thumb": "assets/img/lib/P0343-thumb.jpg",
+      "large": "assets/img/lib/P0343-large.jpg",
+      "alt": "道の駅とぎ海街道_キリコ",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "道の駅とぎ海街道・さくら貝資料館",
+      "id": "P0343"
     },
     {
       "title": "道の駅とぎ海街道_志賀町優良特産品",
