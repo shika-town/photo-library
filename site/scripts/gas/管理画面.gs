@@ -129,6 +129,8 @@ function ダッシュボード情報を取得する() {
 }
 
 // 写真管理タブの「要確認」判定と同じ基準（タイトル未入力・仮のファイル名風・日本語の文字が無い・スポット未分類）
+// 「その他（分類なし）」は、あえてスポットを特定しないという判断も認めるため、要確認の対象にしない
+// （空欄＝まだ何も決めていない、とは区別する）。
 // validSpotNames を渡すと、現在の「スポット」タブに無い名前（スポット名の変更・削除・入力ミスで
 // 孤立した写真）も検知する。孤立した写真はサイトのスポットギャラリーから静かに消えてしまうため、
 // ここで拾って画面に出すことで「気づけないまま公開から漏れる」事故を防ぐ。
@@ -137,8 +139,8 @@ function _要確認(p, validSpotNames) {
   if (!title) return true;
   if (/^(dsc|img|dji|pxl|mov|gopr|p\d{3,}|100_|100-)[-_ ]?\d*/i.test(title)) return true;
   if (!/[぀-ヿ一-鿿]/.test(title)) return true; // ひらがな・カタカナ・漢字が一つも無い
-  if (!p.spot || p.spot === 'その他') return true;
-  if (validSpotNames && !validSpotNames[p.spot]) return true;
+  if (!p.spot) return true;
+  if (p.spot !== 'その他' && validSpotNames && !validSpotNames[p.spot]) return true;
   return false;
 }
 

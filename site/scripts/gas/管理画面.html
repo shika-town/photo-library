@@ -875,13 +875,15 @@
     // ファイル名そのままのようなタイトル、未入力、日本語の文字が無い、未分類・現存しないスポットを「要確認」として拾う
     // （スポット名の変更・削除・入力ミスで孤立した写真は、サイトのスポットギャラリーから静かに消えてしまうため、
     //  ここで拾って気づけるようにする）
+    // 「その他（分類なし）」は、あえてスポットを特定しないという判断も認めるため要確認にしない
+    // （空欄＝まだ何も決めていない、とは区別する）
     function needsReview(p) {
       const title = String(p.title || '').trim();
       if (!title) return true;
       if (/^(dsc|img|dji|pxl|mov|gopr|p\d{3,}|100_|100-)[-_ ]?\d*/i.test(title)) return true;
       if (!/[぀-ヿ一-鿿]/.test(title)) return true; // ひらがな・カタカナ・漢字が一つも無い
-      if (p.spot === OTHER_SPOT || !p.spot) return true;
-      if (!(state.spots || []).some(s => s.name === p.spot)) return true;
+      if (!p.spot) return true;
+      if (p.spot !== OTHER_SPOT && !(state.spots || []).some(s => s.name === p.spot)) return true;
       return false;
     }
 
