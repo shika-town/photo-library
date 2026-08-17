@@ -52,8 +52,10 @@ for p in top['photos']:
 # ---- 各スポットのギャラリー ----
 for s in spots['spots']:
     for ph in s['photos']:
+        # 写真自身のタグを優先する。（旧データ等で）写真にタグが無い場合だけ、
+        # スポット全体の代表タグで補う（誤って全写真に同じタグが付くのを防ぐため）。
         add(_id=ph.get('id'), title=ph['caption'], spot=s['name'], spotId=s['id'], area=s['area'],
-            season='', tags=s['tags'], thumb=norm(ph['thumb']), large=norm(ph['large']),
+            season='', tags=ph.get('tags') or s['tags'], thumb=norm(ph['thumb']), large=norm(ph['large']),
             alt=ph['caption'], credit='© 志賀町', photographer='志賀町',
             source=s['name'])
 

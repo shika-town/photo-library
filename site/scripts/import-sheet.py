@@ -297,7 +297,7 @@ def main():
                 gal.append({'id': p['id'],
                             'thumb': '../' + make(f, 'lib/%s-thumb' % p['id'], SIZES['thumb'], fy),
                             'large': '../' + make(f, 'lib/%s-large' % p['id'], SIZES['large'], fy),
-                            'caption': p.get('title', '')})
+                            'caption': p.get('title', ''), 'tags': split(p.get('tags'))})
             except Exception as e:
                 thumb = made_path('lib/%s-thumb' % p['id'])
                 large = made_path('lib/%s-large' % p['id'])
@@ -306,7 +306,7 @@ def main():
                     gal.append({'id': p['id'],
                                 'thumb': '../' + thumb,
                                 'large': '../' + large,
-                                'caption': p.get('title', '')})
+                                'caption': p.get('title', ''), 'tags': split(p.get('tags'))})
                     continue
                 if not isinstance(e, (FileNotFoundError, UnidentifiedImageError)):
                     raise
