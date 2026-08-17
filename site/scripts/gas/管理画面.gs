@@ -75,6 +75,79 @@ function 今すぐ公開する() {
   return { ok: true, message: '公開処理を開始しました。1〜2分ほどで公開サイトに反映されます。' };
 }
 
+function ダッシュボード情報を取得する() {
+  var ss = _管理対象シート();
+  var sh = _必須タブ(ss, '写真');
+  var col = _写真列を保証(sh, ['downloadAllowed']);
+  var photos = _写真一覧(ss);
+  var spots = _スポット一覧(ss);
+  var pending = _承認待ち一覧(ss);
+
+  var publishCount = photos.filter(function (p) { return p.publish; }).length;
+  var reviewCount = photos.filter(_要確認).length;
+
+  var bySpot = {};
+  photos.forEach(function (p) {
+    var key = p.spot || '未設定';
+    bySpot[key] = (bySpot[key] || 0) + 1;
+  });
+  var spotCounts = Object.keys(bySpot).map(function (k) {
+    return { spot: k, count: bySpot[k] };
+  }).sort(function (a, b) { return b.count - a.count; });
+
+  var recentUpdates = [];
+  if (col.updatedAt !== undefined && sh.getLastRow() > 1) {
+    var rows = sh.getRange(2, 1, sh.getLastRow() - 1, sh.getLastColumn()).getValues();
+    rows.forEach(function (r) {
+      var updatedAt = String(r[col.updatedAt] || '').trim();
+      if (!updatedAt) return;
+      recentUpdates.push({
+        id: String(r[col.id] || '').trim(),
+        title: String(r[col.title] || '').trim(),
+        updatedBy: col.updatedBy !== undefined ? String(r[col.updatedBy] || '').trim() : '',
+        updatedAt: updatedAt
+      });
+    });
+    recentUpdates.sort(function (a, b) { return a.updatedAt < b.updatedAt ? 1 : (a.updatedAt > b.updatedAt ? -1 : 0); });
+    recentUpdates = recentUpdates.slice(0, 10);
+  }
+
+  return {
+    totalPhotos: photos.length,
+    publishCount: publishCount,
+    privateCount: photos.length - publishCount,
+    reviewCount: reviewCount,
+    pendingCount: pending.length,
+    spotCount: spots.length,
+    spotCounts: spotCounts,
+    recentUpdates: recentUpdates,
+    lastRun: _GitHub最終実行()
+  };
+}
+
+// 写真管理タブの「要確認」判定と同じ基準（タイトル未入力・仮のファイル名風・スポット未分類）
+function _要確認(p) {
+  var title = String(p.title || '').trim();
+  if (!title) return true;
+  if (/^(dsc|img|p\d{3,}|100_|100-)[-_ ]?\d*$/i.test(title)) return true;
+  if (!p.spot || p.spot === 'その他') return true;
+  return false;
+}
+
+function _GitHub最終実行() {
+  try {
+    var url = 'https://api.github.com/repos/' + GITHUB_REPO + '/actions/workflows/' + GITHUB_WORKFLOW_FILE + '/runs?per_page=1&status=success';
+    var res = UrlFetchApp.fetch(url, { muteHttpExceptions: true, headers: { Accept: 'application/vnd.github+json' } });
+    if (res.getResponseCode() !== 200) return null;
+    var data = JSON.parse(res.getContentText());
+    var run = data.workflow_runs && data.workflow_runs[0];
+    if (!run) return null;
+    return { at: run.updated_at || run.created_at, url: run.html_url };
+  } catch (e) {
+    return null;
+  }
+}
+
 function 写真を登録する(payload) {
   payload = payload || {};
   var ss = _管理対象シート();
@@ -183,6 +256,21 @@ function 写真を保存する(payload) {
   if (col.updatedBy !== undefined) sh.getRange(rowNumber, col.updatedBy + 1).setValue(Session.getEffectiveUser().getEmail() || '管理画面');
   if (col.updatedAt !== undefined) sh.getRange(rowNumber, col.updatedAt + 1).setValue(Utilities.formatDate(new Date(), 'JST', 'yyyy-MM-dd'));
   return { ok: true, message: '写真情報を保存しました。次回の自動更新で反映されます。' };
+}
+
+function 写真を削除する(payload) {
+  payload = payload || {};
+  var ss = _管理対象シート();
+  var sh = _必須タブ(ss, '写真');
+  var col = _列番号(sh);
+  var rowNumber = Number(payload.rowNumber || 0);
+  var id = String(payload.id || '').trim();
+  if (!rowNumber && id) rowNumber = _行を探す(sh, col.id, id);
+  if (!rowNumber || rowNumber < 2) throw new Error('写真が見つかりません。');
+
+  var deletedId = String(sh.getRange(rowNumber, col.id + 1).getValue() || '').trim() || id;
+  sh.deleteRow(rowNumber);
+  return { ok: true, message: (deletedId || '写真') + ' を削除しました。写真ファイルの実体はGoogleドライブに残っています。' };
 }
 
 function スポットを追加する(payload) {

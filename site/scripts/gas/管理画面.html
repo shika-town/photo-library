@@ -57,7 +57,7 @@
     }
     h1 { margin: 0 0 2px; color: var(--blue-dark); font-size: 19px; line-height: 1.4; letter-spacing: -0.01em; }
     .lead { margin: 0; color: var(--muted); line-height: 1.7; }
-    .tabs { display: grid; grid-template-columns: repeat(5, 1fr); gap: 6px; padding: 14px 14px 0; background: #fff; }
+    .tabs { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; padding: 14px 14px 0; background: #fff; }
     body.webapp .tabs { background: #fff; padding-top: 14px; }
     .tab {
       position: relative;
@@ -155,6 +155,11 @@
     button.secondary:hover { background: #eef2f7; border-color: #c7d6e5; }
     button.ghost { background: transparent; color: var(--blue); border: 1px solid var(--blue-soft); padding: 6px 10px; font-size: 12px; }
     button.ghost:hover { background: var(--blue-soft); }
+    button.danger {
+      border: 1px solid #f4c2c2; background: var(--danger); color: var(--danger-ink);
+      border-radius: 8px; cursor: pointer; padding: 11px 14px; font-weight: 700; font: inherit;
+    }
+    button.danger:hover { background: #f9d3d3; }
     .hint { margin-top: 6px; color: var(--muted); font-size: 12px; line-height: 1.6; }
     .notice { display: none; margin: 12px 16px 0; padding: 11px 12px; border-radius: 8px; line-height: 1.6; box-shadow: var(--shadow); }
     .notice.ok { display: block; background: var(--ok); color: var(--ok-ink); }
@@ -339,6 +344,14 @@
       border: 1px solid var(--line-soft); background: var(--soft);
       border-radius: 999px; padding: 5px 10px; font-size: 11px; font-weight: 700; color: var(--muted);
     }
+    .dash-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin: 4px 0 16px; }
+    .dash-tile {
+      border: 1px solid var(--line-soft); border-radius: var(--radius);
+      padding: 14px 8px; background: #fff; text-align: center;
+    }
+    .dash-tile__icon { font-size: 17px; }
+    .dash-tile__num { font-size: 22px; font-weight: 800; color: var(--blue-dark); line-height: 1.3; }
+    .dash-tile__label { font-size: 10.5px; color: var(--muted); }
   </style>
 </head>
 <body>
@@ -360,6 +373,7 @@
     <button class="tab" data-tab="approve"><span class="tab__icon">✅</span><span class="tab__label">承認</span><span id="pendingBadge" class="badge" style="display:none;">0</span></button>
     <button class="tab" data-tab="spot"><span class="tab__icon">📍</span><span class="tab__label">スポット</span></button>
     <button class="tab" data-tab="scenes"><span class="tab__icon">🌅</span><span class="tab__label">シーン・季節</span></button>
+    <button class="tab" data-tab="dashboard"><span class="tab__icon">📊</span><span class="tab__label">ダッシュボード</span></button>
   </nav>
   <main>
     <section id="tab-add" class="active">
@@ -504,8 +518,10 @@
 
       <div class="actions">
         <button class="primary" id="savePhoto">保存</button>
+        <button class="danger" id="deletePhoto" title="この写真をシートから削除します">🗑 削除</button>
       </div>
       <p class="hint">保存後、次回の自動更新またはGitHub Actionsの手動実行で公開サイトに反映されます。</p>
+      <p class="hint">「削除」はシートの行を消します（元に戻せません）。Googleドライブの写真ファイル自体は残るので、公開したくないだけなら削除ではなく「公開サイトに表示する」をOFFにしてください。</p>
     </section>
 
     <section id="tab-approve">
@@ -578,6 +594,30 @@
       <h2 class="group-title">🍁 季節から探す <span id="seasonCount" class="group-count"></span></h2>
       <div id="seasonList" class="pending"></div>
     </section>
+
+    <section id="tab-dashboard">
+      <div class="card" style="margin-top:0;">
+        <div class="card__head"><span class="card__num">?</span><span class="card__title">このタブでできること</span></div>
+        <p class="card__sub" style="margin-bottom:10px;">サイト全体の状態をひと目で確認できます。</p>
+      </div>
+
+      <div class="summary-bar" id="dashLastRun" style="padding:0 0 8px;"></div>
+
+      <div id="dashStats" class="dash-grid"></div>
+
+      <h2 class="group-title">📍 スポットごとの写真枚数</h2>
+      <div id="dashSpots" class="pending"></div>
+
+      <h2 class="group-title">🕘 最近の更新（新しい順）</h2>
+      <div id="dashRecent" class="pending"></div>
+
+      <div class="card">
+        <div class="card__head"><span class="card__num">!</span><span class="card__title">ダウンロード回数・アクセス回数について</span></div>
+        <p class="card__sub" style="margin-bottom:10px;">
+          これらは今のサイトには計測の仕組みがなく、表示するには別途アクセス解析の導入が必要です。管理者にご相談ください。
+        </p>
+      </div>
+    </section>
   </main>
 
   <div class="modal-overlay" id="heroModal">
@@ -625,14 +665,59 @@
     const OTHER_SPOT = 'その他';
     const OTHER_SPOT_LABEL = 'その他（分類なし）';
 
+    let dashboardLoaded = false;
     document.querySelectorAll('.tab').forEach(btn => {
       btn.addEventListener('click', () => {
         document.querySelectorAll('.tab').forEach(b => b.classList.remove('active'));
         document.querySelectorAll('section').forEach(s => s.classList.remove('active'));
         btn.classList.add('active');
         $('tab-' + btn.dataset.tab).classList.add('active');
+        if (btn.dataset.tab === 'dashboard' && !dashboardLoaded) loadDashboard();
       });
     });
+
+    function loadDashboard() {
+      dashboardLoaded = true;
+      $('dashStats').innerHTML = '<div class="empty" style="grid-column:1/-1;">読み込み中…</div>';
+      google.script.run.withSuccessHandler(renderDashboard)
+        .withFailureHandler(e => { notice(e.message, false); dashboardLoaded = false; })
+        .ダッシュボード情報を取得する();
+    }
+
+    function renderDashboard(d) {
+      $('dashLastRun').innerHTML = d.lastRun
+        ? '<span class="summary-chip">🕘 前回の公開: ' + esc(d.lastRun.at) + '</span>' +
+          '<span class="summary-chip">🔗 <a href="' + esc(d.lastRun.url) + '" target="_top" style="color:inherit;">実行結果を見る</a></span>'
+        : '<span class="summary-chip">前回の公開情報を取得できませんでした</span>';
+
+      const tiles = [
+        ['📷', d.totalPhotos, '総写真数'],
+        ['🟢', d.publishCount, '公開中'],
+        ['⚪', d.privateCount, '非公開'],
+        ['⚠️', d.reviewCount, '要確認'],
+        ['✅', d.pendingCount, '承認待ち'],
+        ['📍', d.spotCount, 'スポット数']
+      ];
+      $('dashStats').innerHTML = tiles.map(t =>
+        '<div class="dash-tile"><div class="dash-tile__icon">' + t[0] + '</div>' +
+        '<div class="dash-tile__num">' + t[1] + '</div>' +
+        '<div class="dash-tile__label">' + t[2] + '</div></div>'
+      ).join('');
+
+      $('dashSpots').innerHTML = (d.spotCounts || []).length
+        ? d.spotCounts.map(s =>
+            '<div class="item"><div class="item__body"><h3 style="margin:0;">' + esc(s.spot) + '</h3>' +
+            '<div class="meta">' + s.count + '枚</div></div></div>'
+          ).join('')
+        : '<div class="empty">データがありません。</div>';
+
+      $('dashRecent').innerHTML = (d.recentUpdates || []).length
+        ? d.recentUpdates.map(r =>
+            '<div class="item"><div class="item__body"><h3 style="margin:0;">' + esc(r.title || r.id || 'タイトル未入力') + '</h3>' +
+            '<div class="meta">' + esc(r.id) + (r.updatedBy ? ' ・ ' + esc(r.updatedBy) : '') + ' ・ ' + esc(r.updatedAt) + '</div></div></div>'
+          ).join('')
+        : '<div class="empty">更新履歴がありません。</div>';
+    }
 
     function notice(text, ok) {
       const n = $('notice');
@@ -1176,6 +1261,26 @@
         publish: $('photoPublish').checked,
         downloadAllowed: $('photoDownload').checked
       });
+    };
+
+    $('deletePhoto').onclick = () => {
+      const p = currentPhoto();
+      if (!p) return notice('写真を選んでください。', false);
+      const ok = confirm(
+        '「' + (p.title || p.id) + '」（' + p.id + '）を削除します。この操作は元に戻せません。\n\n' +
+        '（Googleドライブの写真ファイル自体は削除されません）\n\nよろしいですか？'
+      );
+      if (!ok) return;
+      $('deletePhoto').disabled = true;
+      google.script.run.withSuccessHandler(res => {
+        notice(res.message, true);
+        $('photoEdit').value = '';
+        load();
+        $('deletePhoto').disabled = false;
+      }).withFailureHandler(e => {
+        notice(e.message, false);
+        $('deletePhoto').disabled = false;
+      }).写真を削除する({ rowNumber: p.rowNumber, id: p.id });
     };
 
     /* ---------- スポット：大きな写真のプレビュー＆選択 ---------- */
