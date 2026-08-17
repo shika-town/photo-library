@@ -60,6 +60,29 @@ REQUIRED = {
 }
 OPTIONAL_SHEETS = ('フォーム回答',)
 
+# gviz（/gviz/tq?tqx=out:csv）は、列数や本文の長い列が多いタブ（特に「スポット」）で、
+# まれに行ごとのデータではなく「列見出し＋全行の値を空白でつなげた1行」という壊れた形の
+# CSVを返すことがある（Google側の既知の癖で、シート自体のデータは壊れていない）。
+# その場合は、より単純で確実な /export?format=csv エンドポイントに切り替えて読み直す。
+# ただしこちらは gid（シートの内部ID）指定が必要でシート名を受け付けないため、
+# 既知のタブだけ gid を記録しておく（運用シートでタブを作り直すとgidは変わるので、
+# 該当タブが増えたらここに追記する）。
+SHEET_GID_FALLBACK = {
+    'スポット': '985598342',
+}
+
+def _fetch_csv(url):
+    text = None
+    for attempt in range(3):
+        try:
+            with urllib.request.urlopen(url, timeout=60) as r:
+                text = r.read().decode('utf-8')
+            break
+        except Exception as e:
+            err = e
+            time.sleep(3)
+    return text, (err if text is None else None)
+
 def read_gsheet(sheet_id):
     """Googleスプレッドシートを読む。
     シートが非公開だと Google はログイン画面のHTMLを返す。それをCSVとして
@@ -71,15 +94,7 @@ def read_gsheet(sheet_id):
     for name in ('写真', 'スポット', 'サイト設定', 'シーン', '季節', 'フォーム回答'):
         url = ('https://docs.google.com/spreadsheets/d/%s/gviz/tq?tqx=out:csv&sheet=%s'
                % (sheet_id, urllib.parse.quote(name)))
-        text = None
-        for attempt in range(3):
-            try:
-                with urllib.request.urlopen(url, timeout=60) as r:
-                    text = r.read().decode('utf-8')
-                break
-            except Exception as e:
-                err = e
-                time.sleep(3)
+        text, err = _fetch_csv(url)
         if text is None:
             if name in OPTIONAL_SHEETS:
                 continue    # 「フォーム回答」タブが未作成のうちは飛ばす
@@ -99,6 +114,17 @@ def read_gsheet(sheet_id):
         head = [h.strip() for h in rows[0]] if rows else []
         need = REQUIRED.get(name, [])
         missing = [c for c in need if c not in head]
+        if missing and name in SHEET_GID_FALLBACK:
+            fallback_url = ('https://docs.google.com/spreadsheets/d/%s/export?format=csv&gid=%s'
+                            % (sheet_id, SHEET_GID_FALLBACK[name]))
+            fb_text, fb_err = _fetch_csv(fallback_url)
+            if fb_text is not None and not (fb_text.lstrip()[:1] == '<' or '<html' in fb_text[:2000].lower()):
+                fb_rows = list(csv.reader(io.StringIO(fb_text)))
+                fb_head = [h.strip() for h in fb_rows[0]] if fb_rows else []
+                fb_missing = [c for c in need if c not in fb_head]
+                if not fb_missing:
+                    print('  ！ シート「%s」はgvizが壊れた形を返したため、別の読み込み方法に切り替えました。' % name)
+                    rows, head, missing = fb_rows, fb_head, fb_missing
         if missing:
             if name in OPTIONAL_SHEETS:
                 continue
