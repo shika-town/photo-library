@@ -568,6 +568,13 @@
       <select id="spotEdit"></select>
       <button type="button" class="ghost" id="openNewSpot" style="margin-top:8px;">➕ 新しいスポットを追加</button>
 
+      <div class="switches">
+        <label class="switch">
+          <div>公開サイトに表示する<span>新しく追加したスポットは、最初は非公開です。ここをONにして保存すると公開されます。</span></div>
+          <input id="spotPublish" type="checkbox">
+        </label>
+      </div>
+
       <label>キャッチコピー</label>
       <input id="spotCatch">
 
@@ -1389,6 +1396,7 @@
       $('body3').value = spot.body3 || '';
       $('body4').value = spot.body4 || '';
       $('heroPhotoId').value = spot.heroPhotoId || '';
+      $('spotPublish').checked = Boolean(spot.publish);
       renderHeroThumb();
     };
     $('saveSpot').onclick = () => {
@@ -1404,7 +1412,7 @@
           body3: $('body3').value,
           body4: $('body4').value,
           heroPhotoId: $('heroPhotoId').value,
-          publish: spot.publish ? 'TRUE' : 'FALSE'
+          publish: $('spotPublish').checked ? 'TRUE' : 'FALSE'
         });
     };
 
