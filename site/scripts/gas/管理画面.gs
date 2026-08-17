@@ -135,6 +135,12 @@ function 写真を保存する(payload) {
     publish: payload.publish ? 'TRUE' : 'FALSE',
     downloadAllowed: payload.downloadAllowed ? 'TRUE' : 'FALSE'
   };
+  if (payload.spot !== undefined) {
+    var newSpot = String(payload.spot || '').trim();
+    if (!newSpot) throw new Error('スポットを選んでください。');
+    updates.spot = newSpot;
+    updates.area = _スポット別エリア(ss)[newSpot] || '';
+  }
   if (!updates.title) throw new Error('キャプションを入力してください。');
 
   Object.keys(updates).forEach(function (key) {
@@ -314,7 +320,13 @@ function _選択肢(ss) {
     if (label === '切り抜き') out.focus = list;
     if (label === '役割') out.roles = list;
   }
-  out.tags = ['夕陽', '朝日', '星空', '海', '砂浜', '岩', '断崖', '空撮', 'さくら貝', '花', '祭り', 'ライトアップ', '雪', '紅葉', '建築', '庭園'];
+  // 実際によく使われているタグを中心に、季節・定番の候補を加えた一覧（頻度: 実データ調査ベース）
+  out.tags = [
+    '海', '夕陽', '朝日', '空撮', '岩', '断崖', '島', '砂浜', 'さくら貝', '星空',
+    '神社', '文化施設', '名所旧跡', '建築', '庭園', '遊覧船', '屋内', 'ベンチ',
+    'ライトアップ', '夜景', 'イルミネーション', '体験', 'お土産', 'キャンプ', '義経',
+    '桜', '花', '青空', '雪', '紅葉', '祭り'
+  ];
   return out;
 }
 

@@ -240,6 +240,7 @@
       padding: 2px;
     }
     .photo-card {
+      position: relative;
       border: 2px solid var(--line);
       border-radius: 10px;
       overflow: hidden;
@@ -253,6 +254,12 @@
     }
     .photo-card:hover { border-color: #9db8cf; transform: translateY(-2px); box-shadow: var(--shadow); }
     .photo-card.selected { border-color: var(--blue); box-shadow: 0 0 0 3px var(--blue-soft), var(--shadow-md); }
+    .photo-card__flag {
+      position: absolute; top: 4px; right: 4px; z-index: 1;
+      background: rgba(255,255,255,0.92); border-radius: 999px;
+      width: 20px; height: 20px; display: flex; align-items: center; justify-content: center;
+      font-size: 11px; box-shadow: var(--shadow);
+    }
     .photo-card__img { width: 100%; height: 72px; object-fit: cover; display: block; background: var(--soft); }
     .photo-card__img.empty-img { display: flex; align-items: center; justify-content: center; color: var(--muted); font-size: 18px; }
     .photo-card__body { padding: 6px 7px 7px; }
@@ -438,6 +445,7 @@
         <label class="check filter-check"><input type="radio" name="photoFilter" value="public">🟢 公開中のみ</label>
         <label class="check filter-check"><input type="radio" name="photoFilter" value="private">⚪ 非公開のみ</label>
         <label class="check filter-check"><input type="radio" name="photoFilter" value="nodownload">DL対象外のみ</label>
+        <label class="check filter-check"><input type="radio" name="photoFilter" value="review">⚠️ 要確認のみ</label>
       </div>
       <select id="photoFilterSpot" style="margin-top:8px;">
         <option value="">スポットで絞り込み（すべて）</option>
@@ -451,6 +459,14 @@
         <img id="photoPreviewImg" alt="">
         <div id="photoPreviewMeta" class="meta"></div>
       </div>
+      <p class="hint" id="photoPreviewHint" style="display:none;">👆 変更するとここに反映され、保存後の見え方を確認できます。</p>
+
+      <label>スポット</label>
+      <div class="field-with-preview">
+        <div><select id="photoSpot"></select></div>
+        <div class="hero-thumb" id="photoSpotThumb">?</div>
+      </div>
+      <p class="hint" id="photoSpotReviewHint" style="display:none;">⚠️ この写真はまだ「その他（分類なし）」のままです。正しいスポットが分かれば選び直してください。</p>
 
       <div class="switches">
         <label class="switch">
@@ -465,20 +481,16 @@
 
       <label>キャプション</label>
       <input id="photoTitle" placeholder="例：夕暮れの巌門">
+      <p class="hint" id="photoTitleReviewHint" style="display:none;">⚠️ ファイル名のような仮のタイトルのままかもしれません。何の写真か分かる名前に直しましょう。</p>
 
       <label>説明</label>
       <textarea id="photoDescription" placeholder="写真の補足説明や代替テキスト"></textarea>
 
-      <div class="row">
-        <div>
-          <label>タグ</label>
-          <input id="photoTags" placeholder="夕陽,海,岩">
-        </div>
-        <div>
-          <label>表示場所 <span class="opt">(実際に効くのは「新着」のみ)</span></label>
-          <input id="photoRoles" placeholder="新着,シーン,季節">
-        </div>
-      </div>
+      <label>タグ <span class="opt">(候補から選ぶか、右下の欄から追加できます)</span></label>
+      <div id="photoTags"></div>
+
+      <label>表示場所 <span class="opt">(実際に効くのは「新着」のみ)</span></label>
+      <div id="photoRoles"></div>
 
       <label>並び順</label>
       <input id="photoSortOrder" type="number">
@@ -617,25 +629,62 @@
       ).join('');
     }
 
+    /* ---------- タグ候補ピッカー（候補から選ぶ＋自由に追加） ---------- */
+    function renderTagsField(containerId, candidates, selected) {
+      selected = selected || [];
+      const all = candidates.slice();
+      selected.forEach(v => { if (all.indexOf(v) === -1) all.push(v); });
+      const el = $(containerId);
+      el.className = 'checks';
+      el.innerHTML = all.map(v =>
+        '<label class="check"><input type="checkbox" value="' + esc(v) + '"' + (selected.indexOf(v) !== -1 ? ' checked' : '') + '>' + esc(v) + '</label>'
+      ).join('') +
+      '<span class="check tag-add"><input type="text" class="tag-add-input" data-target="' + containerId + '" placeholder="＋タグを追加してEnter" style="border:0;background:transparent;padding:0;width:130px;"></span>';
+      initTagAdd(el);
+    }
+
+    function initTagAdd(root) {
+      root.querySelectorAll('.tag-add-input').forEach(inp => {
+        inp.addEventListener('keydown', e => {
+          if (e.key !== 'Enter') return;
+          e.preventDefault();
+          const v = inp.value.trim();
+          if (!v) return;
+          const containerId = inp.dataset.target;
+          const container = $(containerId);
+          const exists = Array.from(container.querySelectorAll('input[type="checkbox"]')).some(c => c.value === v);
+          if (!exists) {
+            const label = document.createElement('label');
+            label.className = 'check';
+            label.innerHTML = '<input type="checkbox" value="' + esc(v) + '" checked>' + esc(v);
+            inp.closest('.tag-add').before(label);
+          }
+          inp.value = '';
+          if (containerId === 'photoTags') updateLivePreview();
+        });
+      });
+    }
+
     // 「表示場所」は実際は「新着」だけがサイト表示に効く（トップページ新着欄）。
     // 「シーン」「季節」はスプレッドシートの別タブで個別に管理されており、ここでのチェックは表示に影響しないメモ。
-    function renderRolesField(values) {
+    function renderRolesField(containerId, values, selected) {
+      selected = selected || [];
       const hasNew = values.indexOf('新着') !== -1;
       const others = values.filter(v => v !== '新着');
       let html = '';
       if (hasNew) {
         html += '<label class="switch" style="margin-bottom:8px;">' +
           '<div>🆕 新着としてトップページに表示する<span>公開すると、トップページの「新着」欄に並びます（先頭6枚まで表示）。</span></div>' +
-          '<input type="checkbox" value="新着">' +
+          '<input type="checkbox" value="新着"' + (selected.indexOf('新着') !== -1 ? ' checked' : '') + '>' +
         '</label>';
       }
       if (others.length) {
         html += '<p class="hint" style="margin:6px 0;">それ以外のメモ用タグ（チェックしてもサイトの見た目は変わりません。トップページの「シーンで探す」「季節から探す」の代表写真を差し替えたいときは管理者にご相談ください）</p>' +
           '<div class="checks">' + others.map(v =>
-            '<label class="check"><input type="checkbox" value="' + esc(v) + '">' + esc(v) + '</label>'
+            '<label class="check"><input type="checkbox" value="' + esc(v) + '"' + (selected.indexOf(v) !== -1 ? ' checked' : '') + '>' + esc(v) + '</label>'
           ).join('') + '</div>';
       }
-      $('roles').innerHTML = html;
+      $(containerId).innerHTML = html;
     }
 
     function checked(id) {
@@ -653,11 +702,13 @@
         $('spot').insertAdjacentHTML('beforeend', '<option value="' + esc(OTHER_SPOT) + '">' + esc(OTHER_SPOT_LABEL) + '</option>');
         fillSelect($('season'), data.choices.season || [], true);
         fillSelect($('focus'), data.choices.focus || [], false);
-        fillChecks($('tags'), data.choices.tags || []);
-        renderRolesField(data.choices.roles || []);
+        renderTagsField('tags', data.choices.tags || [], []);
+        renderRolesField('roles', data.choices.roles || [], []);
         fillSelect($('spotEdit'), data.spots.map(s => s.name), true);
         fillSelect($('photoFilterSpot'), data.spots.map(s => s.name).concat(OTHER_SPOT), true);
         $('photoFilterSpot').options[0].textContent = 'スポットで絞り込み（すべて）';
+        fillSelect($('photoSpot'), data.spots.map(s => s.name), false);
+        $('photoSpot').insertAdjacentHTML('beforeend', '<option value="' + esc(OTHER_SPOT) + '">' + esc(OTHER_SPOT_LABEL) + '</option>');
         const areaList = Array.from(new Set([].concat(data.choices.area || [], data.spots.map(s => s.area)).filter(Boolean)));
         $('areaOptions').innerHTML = areaList.map(a => '<option value="' + esc(a) + '">').join('');
         renderPhotoChoices();
@@ -672,13 +723,23 @@
     }
 
     /* ---------- 写真グリッド（サムネイル選択） ---------- */
+    // ファイル名そのままのようなタイトル、未入力、未分類のスポットを「要確認」として拾う
+    function needsReview(p) {
+      const title = String(p.title || '').trim();
+      if (!title) return true;
+      if (/^(dsc|img|p\d{3,}|100_|100-)[-_ ]?\d*$/i.test(title)) return true;
+      if (p.spot === OTHER_SPOT || !p.spot) return true;
+      return false;
+    }
+
     function photoCardHtml(p, selectedId) {
       const img = p.previewUrl
         ? '<img class="photo-card__img" src="' + esc(p.previewUrl) + '" alt="" loading="lazy">'
         : '<div class="photo-card__img empty-img">🖼️</div>';
       const sel = p.id === selectedId ? ' selected' : '';
+      const review = needsReview(p) ? '<span class="photo-card__flag" title="要確認">⚠️</span>' : '';
       return '<button type="button" class="photo-card' + sel + '" data-id="' + esc(p.id) + '">' +
-        img +
+        review + img +
         '<div class="photo-card__body">' +
           '<div class="photo-card__id">' + esc(p.id) + '</div>' +
           '<div class="photo-card__title">' + esc(p.title || p.spot || 'タイトル未入力') + '</div>' +
@@ -700,6 +761,7 @@
         if (filter === 'public' && !p.publish) return false;
         if (filter === 'private' && p.publish) return false;
         if (filter === 'nodownload' && p.downloadAllowed) return false;
+        if (filter === 'review' && !needsReview(p)) return false;
         return true;
       });
       $('photoEdit').innerHTML = '<option value="">選択してください</option>' +
@@ -937,36 +999,78 @@
     function currentPhoto() {
       return state.photos.find(p => p.id === $('photoEdit').value);
     }
+    function looksLikeRawFilename(title) {
+      return /^(dsc|img|p\d{3,}|100_|100-)[-_ ]?\d*$/i.test(String(title || '').trim());
+    }
+    function updatePhotoSpotThumb() {
+      const spotName = $('photoSpot').value;
+      const thumb = $('photoSpotThumb');
+      const reviewHint = $('photoSpotReviewHint');
+      if (spotName === OTHER_SPOT) {
+        thumb.innerHTML = '🗂️';
+        reviewHint.style.display = 'block';
+        return;
+      }
+      reviewHint.style.display = 'none';
+      const spot = state.spots.find(s => s.name === spotName);
+      if (!spotName || !spot) { thumb.innerHTML = '?'; return; }
+      const url = heroPhotoUrl(spot.heroPhotoId);
+      thumb.innerHTML = url ? '<img src="' + esc(url) + '" alt="">' : '🖼️';
+    }
+    function updateTitleReviewHint() {
+      const title = $('photoTitle').value.trim();
+      $('photoTitleReviewHint').style.display = (!title || looksLikeRawFilename(title)) ? 'block' : 'none';
+    }
     function setPhotoFields() {
       const p = currentPhoto() || {};
       $('photoPublish').checked = p.publish !== false;
       $('photoDownload').checked = p.downloadAllowed !== false;
       $('photoTitle').value = p.title || '';
       $('photoDescription').value = p.description || '';
-      $('photoTags').value = p.tags || '';
-      $('photoRoles').value = p.roles || '';
+      const tagList = String(p.tags || '').split(',').map(s => s.trim()).filter(Boolean);
+      renderTagsField('photoTags', state.choices.tags || [], tagList);
+      const roleList = String(p.roles || '').split(',').map(s => s.trim()).filter(Boolean);
+      renderRolesField('photoRoles', state.choices.roles || [], roleList);
       $('photoSortOrder').value = p.sortOrder || '';
+      const spotOptions = Array.from($('photoSpot').options).map(o => o.value);
+      $('photoSpot').value = p.id ? (spotOptions.indexOf(p.spot) !== -1 ? p.spot : OTHER_SPOT) : '';
+      updatePhotoSpotThumb();
+      updateTitleReviewHint();
       renderPhotoPreview(p);
     }
     function renderPhotoPreview(p) {
       const box = $('photoPreview');
       const img = $('photoPreviewImg');
-      if (!p.id || !p.previewUrl) {
+      if (!p || !p.id || !p.previewUrl) {
         box.classList.remove('active');
         img.removeAttribute('src');
         $('photoPreviewMeta').textContent = '';
+        $('photoPreviewHint').style.display = 'none';
         return;
       }
+      const title = $('photoTitle').value || p.title || 'タイトル未入力';
+      const spotVal = $('photoSpot').value || p.spot;
+      const publish = $('photoPublish').checked;
+      const download = $('photoDownload').checked;
       img.src = p.previewUrl;
-      img.alt = p.title || p.id;
+      img.alt = title;
       $('photoPreviewMeta').innerHTML =
-        '<div>' + esc([p.id, p.spot, p.season].filter(Boolean).join(' / ')) + '</div>' +
+        '<div><b>' + esc(title) + '</b></div>' +
+        '<div>' + esc([p.id, spotVal, p.season].filter(Boolean).join(' / ')) + '</div>' +
         '<div class="status-line">' +
-          '<span class="status ' + (p.publish ? 'on' : 'off') + '">' + (p.publish ? '表示中' : '非表示') + '</span>' +
-          '<span class="status ' + (p.downloadAllowed ? 'on' : 'off') + '">' + (p.downloadAllowed ? 'ダウンロード対象' : '対象外') + '</span>' +
+          '<span class="status ' + (publish ? 'on' : 'off') + '">' + (publish ? '表示中' : '非表示') + '</span>' +
+          '<span class="status ' + (download ? 'on' : 'off') + '">' + (download ? 'ダウンロード対象' : '対象外') + '</span>' +
         '</div>';
       box.classList.add('active');
+      $('photoPreviewHint').style.display = 'block';
     }
+    function updateLivePreview() { renderPhotoPreview(currentPhoto()); }
+    $('photoSpot').addEventListener('change', () => { updatePhotoSpotThumb(); updateLivePreview(); });
+    $('photoTitle').addEventListener('input', () => { updateTitleReviewHint(); updateLivePreview(); });
+    $('photoPublish').addEventListener('change', updateLivePreview);
+    $('photoDownload').addEventListener('change', updateLivePreview);
+    $('photoTags').addEventListener('change', updateLivePreview);
+    $('photoRoles').addEventListener('change', updateLivePreview);
     $('savePhoto').onclick = () => {
       const p = currentPhoto();
       if (!p) return notice('写真を選んでください。', false);
@@ -983,8 +1087,9 @@
         id: p.id,
         title: $('photoTitle').value,
         description: $('photoDescription').value,
-        tags: $('photoTags').value,
-        roles: $('photoRoles').value,
+        spot: $('photoSpot').value,
+        tags: checked('photoTags'),
+        roles: checked('photoRoles'),
         sortOrder: $('photoSortOrder').value,
         publish: $('photoPublish').checked,
         downloadAllowed: $('photoDownload').checked
