@@ -125,11 +125,12 @@ function ダッシュボード情報を取得する() {
   };
 }
 
-// 写真管理タブの「要確認」判定と同じ基準（タイトル未入力・仮のファイル名風・スポット未分類）
+// 写真管理タブの「要確認」判定と同じ基準（タイトル未入力・仮のファイル名風・日本語の文字が無い・スポット未分類）
 function _要確認(p) {
   var title = String(p.title || '').trim();
   if (!title) return true;
-  if (/^(dsc|img|p\d{3,}|100_|100-)[-_ ]?\d*$/i.test(title)) return true;
+  if (/^(dsc|img|dji|pxl|mov|gopr|p\d{3,}|100_|100-)[-_ ]?\d*/i.test(title)) return true;
+  if (!/[぀-ヿ一-鿿]/.test(title)) return true; // ひらがな・カタカナ・漢字が一つも無い
   if (!p.spot || p.spot === 'その他') return true;
   return false;
 }
@@ -365,7 +366,9 @@ function _スポット一覧(ss) {
   var sh = _必須タブ(ss, 'スポット');
   var col = _列番号(sh);
   var rows = sh.getLastRow() > 1 ? sh.getRange(2, 1, sh.getLastRow() - 1, sh.getLastColumn()).getValues() : [];
-  return rows.filter(function (r) { return String(r[col.name] || '').trim(); }).map(function (r, i) {
+  // 先に rowNumber を確定させてからフィルタする（filter→map の順だと、
+  // 空行がフィルタで取り除かれた分だけ後続行の rowNumber がずれてしまうため）。
+  return rows.map(function (r, i) {
     return {
       rowNumber: i + 2,
       id: String(r[col.id] || '').trim(),
@@ -379,7 +382,7 @@ function _スポット一覧(ss) {
       heroPhotoId: String(r[col.heroPhotoId] || '').trim(),
       publish: String(r[col.publish] || 'TRUE').toUpperCase() === 'TRUE'
     };
-  });
+  }).filter(function (s) { return s.name; });
 }
 
 function _写真一覧(ss) {

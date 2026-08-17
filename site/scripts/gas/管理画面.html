@@ -848,11 +848,12 @@
     }
 
     /* ---------- 写真グリッド（サムネイル選択） ---------- */
-    // ファイル名そのままのようなタイトル、未入力、未分類のスポットを「要確認」として拾う
+    // ファイル名そのままのようなタイトル、未入力、日本語の文字が無い、未分類のスポットを「要確認」として拾う
     function needsReview(p) {
       const title = String(p.title || '').trim();
       if (!title) return true;
-      if (/^(dsc|img|p\d{3,}|100_|100-)[-_ ]?\d*$/i.test(title)) return true;
+      if (/^(dsc|img|dji|pxl|mov|gopr|p\d{3,}|100_|100-)[-_ ]?\d*/i.test(title)) return true;
+      if (!/[぀-ヿ一-鿿]/.test(title)) return true; // ひらがな・カタカナ・漢字が一つも無い
       if (p.spot === OTHER_SPOT || !p.spot) return true;
       return false;
     }
