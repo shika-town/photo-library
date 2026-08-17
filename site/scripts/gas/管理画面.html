@@ -309,6 +309,7 @@
     }
     .file-item__thumb { flex: none; width: 48px; height: 48px; border-radius: 6px; object-fit: cover; background: var(--soft); }
     .file-item__body { flex: 1; min-width: 0; }
+    .file-item__label { font-size: 10px; font-weight: 800; color: var(--blue); text-transform: uppercase; letter-spacing: 0.03em; margin-bottom: 2px; }
     .file-item__title {
       width: 100%; border: 1px solid transparent; border-radius: 5px; padding: 4px 6px;
       font-weight: 700; font-size: 12.5px; background: var(--soft);
@@ -375,6 +376,7 @@
         <div id="titleField">
           <label>タイトル <span class="opt">(必須)</span></label>
           <input id="title" placeholder="例：夕暮れの巌門">
+          <p class="hint">サイトに表示される写真の名前です。「とてもきれいな写真」のような感想ではなく、「夕暮れの巌門」のように何の写真か分かる名前にしてください。</p>
         </div>
 
         <label>スポット <span class="opt">(必須)</span></label>
@@ -818,16 +820,19 @@
       }
       $('titleField').style.display = 'none';
       listEl.classList.add('active');
-      listEl.innerHTML = selectedFiles.map((f, i) =>
-        '<div class="file-item">' +
-          '<img class="file-item__thumb" src="' + fileThumbUrls[i] + '" alt="">' +
-          '<div class="file-item__body">' +
-            '<input class="file-item__title" data-title-idx="' + i + '" value="' + esc(defaultTitleFromName(f.name)) + '" placeholder="タイトル">' +
-            '<div class="file-item__name">' + esc(f.name) + '</div>' +
-          '</div>' +
-          '<button type="button" class="file-item__remove" data-remove-idx="' + i + '" title="この写真を外す">✕</button>' +
-        '</div>'
-      ).join('');
+      listEl.innerHTML =
+        '<p class="hint" style="margin-top:0;">写真ごとの<b>タイトル</b>です（サイトに表示される名前）。ファイル名から自動で入力しています。分かりやすい名前に書き換えてください。</p>' +
+        selectedFiles.map((f, i) =>
+          '<div class="file-item">' +
+            '<img class="file-item__thumb" src="' + fileThumbUrls[i] + '" alt="">' +
+            '<div class="file-item__body">' +
+              '<div class="file-item__label">タイトル</div>' +
+              '<input class="file-item__title" data-title-idx="' + i + '" value="' + esc(defaultTitleFromName(f.name)) + '" placeholder="タイトル">' +
+              '<div class="file-item__name">元のファイル名：' + esc(f.name) + '</div>' +
+            '</div>' +
+            '<button type="button" class="file-item__remove" data-remove-idx="' + i + '" title="この写真を外す">✕</button>' +
+          '</div>'
+        ).join('');
       listEl.querySelectorAll('[data-remove-idx]').forEach(btn => {
         btn.addEventListener('click', () => {
           selectedFiles.splice(Number(btn.dataset.removeIdx), 1);
