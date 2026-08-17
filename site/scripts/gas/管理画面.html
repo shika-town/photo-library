@@ -57,7 +57,7 @@
     }
     h1 { margin: 0 0 2px; color: var(--blue-dark); font-size: 19px; line-height: 1.4; letter-spacing: -0.01em; }
     .lead { margin: 0; color: var(--muted); line-height: 1.7; }
-    .tabs { display: grid; grid-template-columns: repeat(4, 1fr); gap: 7px; padding: 14px 14px 0; background: #fff; }
+    .tabs { display: grid; grid-template-columns: repeat(5, 1fr); gap: 6px; padding: 14px 14px 0; background: #fff; }
     body.webapp .tabs { background: #fff; padding-top: 14px; }
     .tab {
       position: relative;
@@ -322,7 +322,9 @@
       font-weight: 700; font-size: 12.5px; background: var(--soft);
     }
     .file-item__title:focus { border-color: var(--blue); background: #fff; }
+    .file-item__title.dup { border-color: var(--danger-ink); background: var(--danger); color: var(--danger-ink); }
     .file-item__name { margin-top: 3px; font-size: 10.5px; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .file-item__dupmsg { margin-top: 3px; font-size: 10.5px; color: var(--danger-ink); font-weight: 700; }
     .file-item__remove {
       flex: none; width: 26px; height: 26px; border-radius: 999px; border: 1px solid var(--line);
       background: #fff; color: var(--muted); cursor: pointer; font-size: 12px;
@@ -348,6 +350,8 @@
         <p class="lead">列を触らずに、写真登録・承認・スポット説明の修正ができます。</p>
       </div>
     </div>
+    <button type="button" class="ghost" id="publishNow" style="margin-top:12px;">🚀 今すぐ公開サイトに反映する</button>
+    <p class="hint">保存した内容を待たずに、今すぐ公開サイトのビルドを開始します（反映まで1〜2分ほど）。</p>
   </header>
   <div id="notice" class="notice"></div>
   <nav class="tabs">
@@ -355,6 +359,7 @@
     <button class="tab" data-tab="photo"><span class="tab__icon">🖼️</span><span class="tab__label">写真管理</span></button>
     <button class="tab" data-tab="approve"><span class="tab__icon">✅</span><span class="tab__label">承認</span><span id="pendingBadge" class="badge" style="display:none;">0</span></button>
     <button class="tab" data-tab="spot"><span class="tab__icon">📍</span><span class="tab__label">スポット</span></button>
+    <button class="tab" data-tab="scenes"><span class="tab__icon">🌅</span><span class="tab__label">シーン・季節</span></button>
   </nav>
   <main>
     <section id="tab-add" class="active">
@@ -384,6 +389,7 @@
           <label>タイトル <span class="opt">(必須)</span></label>
           <input id="title" placeholder="例：夕暮れの巌門">
           <p class="hint">サイトに表示される写真の名前です。「とてもきれいな写真」のような感想ではなく、「夕暮れの巌門」のように何の写真か分かる名前にしてください。</p>
+          <p class="hint" id="titleDupHint" style="display:none;color:var(--danger-ink);">⚠ 同じタイトルの写真がすでに登録されています。別のタイトルにしてください。</p>
         </div>
 
         <label>スポット <span class="opt">(必須)</span></label>
@@ -556,6 +562,22 @@
         <button class="primary" id="saveSpot">保存</button>
       </div>
     </section>
+
+    <section id="tab-scenes">
+      <div class="card" style="margin-top:0;">
+        <div class="card__head"><span class="card__num">?</span><span class="card__title">このタブでできること</span></div>
+        <p class="card__sub" style="margin-bottom:10px;">
+          トップページの「シーンで探す」「季節から探す」に出る<b>代表写真</b>だけを、写真を見ながら選べます。
+          カードの並びやタグの意味そのものは変わりません。写真ごとに「🖼️ 写真から選ぶ」→「保存」の順で押してください。
+        </p>
+      </div>
+
+      <h2 class="group-title">🌅 シーンで探す <span id="sceneCount" class="group-count"></span></h2>
+      <div id="sceneList" class="pending"></div>
+
+      <h2 class="group-title">🍁 季節から探す <span id="seasonCount" class="group-count"></span></h2>
+      <div id="seasonList" class="pending"></div>
+    </section>
   </main>
 
   <div class="modal-overlay" id="heroModal">
@@ -597,7 +619,7 @@
   </div>
 
   <script>
-    let state = { spots: [], photos: [], choices: {}, pending: [], sitePhotoBaseUrl: '' };
+    let state = { spots: [], photos: [], choices: {}, pending: [], scenes: [], seasons: [], sitePhotoBaseUrl: '' };
     let pendingSelectSpot = null;
     const $ = id => document.getElementById(id);
     const OTHER_SPOT = 'その他';
@@ -695,6 +717,21 @@
       return String(s || '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
     }
 
+    $('publishNow').addEventListener('click', () => {
+      $('publishNow').disabled = true;
+      const before = $('publishNow').textContent;
+      $('publishNow').textContent = '送信中…';
+      google.script.run.withSuccessHandler(res => {
+        notice(res.message, true);
+        $('publishNow').disabled = false;
+        $('publishNow').textContent = before;
+      }).withFailureHandler(e => {
+        notice(e.message, false);
+        $('publishNow').disabled = false;
+        $('publishNow').textContent = before;
+      }).今すぐ公開する();
+    });
+
     function load() {
       google.script.run.withSuccessHandler(data => {
         state = data;
@@ -713,6 +750,7 @@
         $('areaOptions').innerHTML = areaList.map(a => '<option value="' + esc(a) + '">').join('');
         renderPhotoChoices();
         renderPending();
+        renderSceneSeasonLists();
         if ($('photoEdit').value) setPhotoFields();
         if (pendingSelectSpot) {
           $('spotEdit').value = pendingSelectSpot;
@@ -860,6 +898,13 @@
       return String(name || '').replace(/\.[^.]+$/, '').replace(/[_-]+/g, ' ').trim();
     }
 
+    // 既存の写真（excludeId以外）に同じタイトルがあるか調べる
+    function isDuplicateTitle(title, excludeId) {
+      const t = String(title || '').trim().toLowerCase();
+      if (!t) return false;
+      return (state.photos || []).some(p => p.id !== excludeId && String(p.title || '').trim().toLowerCase() === t);
+    }
+
     function addFiles(list) {
       Array.from(list || []).forEach(f => {
         if (f.type && f.type.indexOf('image/') !== 0) return;
@@ -891,6 +936,7 @@
               '<div class="file-item__label">タイトル</div>' +
               '<input class="file-item__title" data-title-idx="' + i + '" value="' + esc(defaultTitleFromName(f.name)) + '" placeholder="タイトル">' +
               '<div class="file-item__name">元のファイル名：' + esc(f.name) + '</div>' +
+              '<div class="file-item__dupmsg" data-dupmsg-idx="' + i + '" style="display:none;">⚠ 同じタイトルがあります</div>' +
             '</div>' +
             '<button type="button" class="file-item__remove" data-remove-idx="' + i + '" title="この写真を外す">✕</button>' +
           '</div>'
@@ -901,8 +947,37 @@
           renderFileList();
         });
       });
+      listEl.querySelectorAll('.file-item__title').forEach(inp => {
+        inp.addEventListener('input', updateFileTitleDupFlags);
+      });
+      updateFileTitleDupFlags();
       $('addPhoto').textContent = selectedFiles.length === 1 ? '1件を登録' : selectedFiles.length + '件をまとめて登録';
     }
+
+    // バッチ登録中の各タイトルについて、既存写真・同じバッチ内の他ファイルと重複していないか確認する
+    function updateFileTitleDupFlags() {
+      const inputs = Array.from(document.querySelectorAll('.file-item__title'));
+      const values = inputs.map(inp => inp.value.trim().toLowerCase());
+      let anyDup = false;
+      inputs.forEach((inp, i) => {
+        const v = values[i];
+        const dupInBatch = v && values.some((other, j) => j !== i && other === v);
+        const dupExisting = v && isDuplicateTitle(v, null);
+        const dup = Boolean(dupInBatch || dupExisting);
+        if (dup) anyDup = true;
+        inp.classList.toggle('dup', dup);
+        const msg = document.querySelector('[data-dupmsg-idx="' + i + '"]');
+        if (msg) {
+          msg.style.display = dup ? 'block' : 'none';
+          msg.textContent = dupInBatch ? '⚠ 同じバッチ内に同じタイトルがあります' : '⚠ 同じタイトルの写真がすでに登録されています';
+        }
+      });
+      return anyDup;
+    }
+
+    $('title').addEventListener('input', () => {
+      $('titleDupHint').style.display = isDuplicateTitle($('title').value, null) ? 'block' : 'none';
+    });
 
     $('pickFilesBtn').addEventListener('click', () => $('file').click());
     $('pickFolderBtn').addEventListener('click', () => $('folder').click());
@@ -938,6 +1013,13 @@
     }
 
     $('addPhoto').onclick = async () => {
+      if (selectedFiles.length) {
+        if (updateFileTitleDupFlags()) {
+          return notice('タイトルが重複している写真があります。赤く表示された欄を直してから登録してください。', false);
+        }
+      } else if (isDuplicateTitle($('title').value, null)) {
+        return notice('同じタイトルの写真がすでに登録されています。別のタイトルにしてください。', false);
+      }
       $('addPhoto').disabled = true;
       const baseSortOrder = Number($('sortOrder').value || 9000);
       try {
@@ -1216,8 +1298,16 @@
       }).スポットを追加する({ name: name, id: id, area: $('newSpotArea').value });
     };
 
-    /* ---------- 大きな写真を選ぶモーダル ---------- */
-    function openHeroModal() {
+    /* ---------- 大きな写真を選ぶモーダル（スポット・シーン・季節で共用） ---------- */
+    let heroModalGetSelected = () => $('heroPhotoId').value.trim();
+    let heroModalGetPreferSpot = () => $('spotEdit').value;
+    let heroModalOnPick = (id) => { $('heroPhotoId').value = id; renderHeroThumb(); };
+
+    function openHeroModal(opts) {
+      opts = opts || {};
+      heroModalGetSelected = opts.getSelected || (() => $('heroPhotoId').value.trim());
+      heroModalGetPreferSpot = opts.getPreferSpot || (() => $('spotEdit').value);
+      heroModalOnPick = opts.onPick || ((id) => { $('heroPhotoId').value = id; renderHeroThumb(); });
       $('heroModal').classList.add('open');
       $('heroModalSearch').value = '';
       renderHeroModalGrid();
@@ -1226,7 +1316,7 @@
     function closeHeroModal() { $('heroModal').classList.remove('open'); }
     function renderHeroModalGrid() {
       const q = String($('heroModalSearch').value || '').trim().toLowerCase();
-      const currentSpotName = $('spotEdit').value;
+      const currentSpotName = heroModalGetPreferSpot();
       let list = (state.photos || []).filter(p =>
         !q || [p.id, p.title, p.spot, p.season, p.tags].join(' ').toLowerCase().includes(q)
       );
@@ -1235,22 +1325,85 @@
         if (ofSpot.length) list = ofSpot.concat(list.filter(p => p.spot !== currentSpotName));
       }
       $('heroModalCount').textContent = list.length + '件。' + (!q && currentSpotName ? '「' + currentSpotName + '」の写真を先頭に表示しています。' : '');
-      const selectedId = $('heroPhotoId').value.trim();
+      const selectedId = heroModalGetSelected();
       $('heroModalGrid').innerHTML = list.length
         ? list.map(p => photoCardHtml(p, selectedId)).join('')
         : '<div class="empty" style="grid-column:1/-1;">該当する写真がありません。</div>';
       $('heroModalGrid').querySelectorAll('[data-id]').forEach(btn => {
         btn.addEventListener('click', () => {
-          $('heroPhotoId').value = btn.dataset.id;
-          renderHeroThumb();
+          heroModalOnPick(btn.dataset.id);
           closeHeroModal();
         });
       });
     }
-    $('pickHeroPhoto').addEventListener('click', openHeroModal);
+    $('pickHeroPhoto').addEventListener('click', () => openHeroModal());
     $('heroModalClose').addEventListener('click', closeHeroModal);
     $('heroModal').addEventListener('click', e => { if (e.target === $('heroModal')) closeHeroModal(); });
     $('heroModalSearch').addEventListener('input', renderHeroModalGrid);
+
+    /* ---------- シーン・季節：代表写真の管理 ---------- */
+    function sceneSeasonItemHtml(item, kind) {
+      const label = kind === 'scene' ? item.label : item.ja;
+      const url = heroPhotoUrl(item.photoId);
+      const known = item.photoId && state.photos.some(p => p.id === item.photoId);
+      return '<div class="item">' +
+        '<div class="item__thumb">' + (url ? '<img src="' + esc(url) + '" alt="" loading="lazy">' : '🖼️') + '</div>' +
+        '<div class="item__body">' +
+          '<h3>' + esc(label) + '</h3>' +
+          '<div class="meta">写真ID: ' + esc(item.photoId || '未設定') + (item.photoId && !known ? '<span style="color:var(--danger-ink);"> ⚠ 見つかりません</span>' : '') + '</div>' +
+          '<div class="actions">' +
+            '<button type="button" class="secondary" data-scene-pick="' + kind + ':' + item.rowNumber + '">🖼️ 写真から選ぶ</button>' +
+            '<button type="button" class="primary" data-scene-save="' + kind + ':' + item.rowNumber + '">保存</button>' +
+          '</div>' +
+        '</div>' +
+      '</div>';
+    }
+    function renderSceneSeasonLists() {
+      const scenes = state.scenes || [];
+      const seasons = state.seasons || [];
+      $('sceneCount').textContent = '(' + scenes.length + '件)';
+      $('seasonCount').textContent = '(' + seasons.length + '件)';
+      $('sceneList').innerHTML = scenes.length
+        ? scenes.map(s => sceneSeasonItemHtml(s, 'scene')).join('')
+        : '<div class="empty">「シーン」タブが見つかりませんでした。</div>';
+      $('seasonList').innerHTML = seasons.length
+        ? seasons.map(s => sceneSeasonItemHtml(s, 'season')).join('')
+        : '<div class="empty">「季節」タブが見つかりませんでした。</div>';
+
+      document.querySelectorAll('[data-scene-pick]').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const [kind, rowNumber] = btn.dataset.scenePick.split(':');
+          const list = kind === 'scene' ? state.scenes : state.seasons;
+          const item = list.find(x => String(x.rowNumber) === rowNumber);
+          if (!item) return;
+          openHeroModal({
+            getSelected: () => item.photoId,
+            getPreferSpot: () => '',
+            onPick: (id) => { item.photoId = id; renderSceneSeasonLists(); }
+          });
+        });
+      });
+      document.querySelectorAll('[data-scene-save]').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const [kind, rowNumber] = btn.dataset.sceneSave.split(':');
+          const list = kind === 'scene' ? state.scenes : state.seasons;
+          const item = list.find(x => String(x.rowNumber) === rowNumber);
+          if (!item) return;
+          btn.disabled = true;
+          google.script.run.withSuccessHandler(res => {
+            notice(res.message, true);
+            btn.disabled = false;
+          }).withFailureHandler(e => {
+            notice(e.message, false);
+            btn.disabled = false;
+          }).シーン季節の写真を保存する({
+            type: kind === 'scene' ? 'シーン' : '季節',
+            rowNumber: Number(rowNumber),
+            photoId: item.photoId
+          });
+        });
+      });
+    }
 
     if (window.top === window.self) document.body.classList.add('webapp');
     load();

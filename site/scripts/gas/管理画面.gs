@@ -9,6 +9,8 @@
 var ADMIN_MENU_NAME = 'フォトライブラリー管理';
 var DEFAULT_SHEET_ID = '1A9_xzFMdD-UhKyo_a7xJ2h-5cM-orZ_giXX41ZiKT3Y';
 var PUBLIC_SITE_URL = 'https://shika-town.github.io/photo-library/';
+var GITHUB_REPO = 'shika-town/photo-library';
+var GITHUB_WORKFLOW_FILE = 'publish.yml';
 
 function onOpen() {
   SpreadsheetApp.getUi()
@@ -43,9 +45,34 @@ function 管理画面データを取得する() {
     photos: _写真一覧(ss),
     choices: _選択肢(ss),
     pending: _承認待ち一覧(ss),
+    scenes: _シーン一覧(ss),
+    seasons: _季節一覧(ss),
     today: Utilities.formatDate(new Date(), 'JST', 'yyyy-MM-dd'),
     sitePhotoBaseUrl: PUBLIC_SITE_URL + 'assets/img/lib/'
   };
+}
+
+function 今すぐ公開する() {
+  var token = PropertiesService.getScriptProperties().getProperty('GITHUB_TOKEN');
+  if (!token) {
+    throw new Error('GitHubのアクセストークンが未設定です。管理者に「Apps Scriptのスクリプトプロパティに GITHUB_TOKEN を設定してください」とご相談ください。');
+  }
+  var url = 'https://api.github.com/repos/' + GITHUB_REPO + '/actions/workflows/' + GITHUB_WORKFLOW_FILE + '/dispatches';
+  var res = UrlFetchApp.fetch(url, {
+    method: 'post',
+    contentType: 'application/json',
+    headers: {
+      Authorization: 'Bearer ' + token,
+      Accept: 'application/vnd.github+json'
+    },
+    payload: JSON.stringify({ ref: 'main' }),
+    muteHttpExceptions: true
+  });
+  var code = res.getResponseCode();
+  if (code !== 204) {
+    throw new Error('GitHubへの反映リクエストに失敗しました（コード ' + code + '）。トークンの権限（workflowスコープ）を確認してください。');
+  }
+  return { ok: true, message: '公開処理を開始しました。1〜2分ほどで公開サイトに反映されます。' };
 }
 
 function 写真を登録する(payload) {
@@ -63,13 +90,18 @@ function 写真を登録する(payload) {
   }
   if (!fileId) throw new Error('写真ファイル、またはGoogleドライブの共有リンクを指定してください。');
 
+  var title = String(payload.title || '').trim();
+  if (!title) throw new Error('タイトルを入力してください。');
+  var dupId = _同じタイトルの写真ID(sh, col, title, '');
+  if (dupId) throw new Error('同じタイトル「' + title + '」の写真がすでに登録されています（' + dupId + '）。別のタイトルにしてください。');
+
   var spot = String(payload.spot || '').trim();
   var area = _スポット別エリア(ss)[spot] || String(payload.area || '').trim();
   var id = _次の写真ID(sh, col.id);
   var width = sh.getLastColumn();
   var row = new Array(width).fill('');
   row[col.id] = id;
-  row[col.title] = String(payload.title || '').trim();
+  row[col.title] = title;
   row[col.spot] = spot;
   row[col.area] = area;
   row[col.season] = String(payload.season || '').trim();
@@ -86,7 +118,6 @@ function 写真を登録する(payload) {
   if (col.updatedBy !== undefined) row[col.updatedBy] = Session.getEffectiveUser().getEmail() || '管理画面';
   if (col.updatedAt !== undefined) row[col.updatedAt] = Utilities.formatDate(new Date(), 'JST', 'yyyy-MM-dd');
 
-  if (!row[col.title]) throw new Error('タイトルを入力してください。');
   sh.getRange(sh.getLastRow() + 1, 1, 1, width).setValues([row]);
   return { ok: true, message: id + ' を登録しました。公開するには承認してください。', id: id };
 }
@@ -142,6 +173,9 @@ function 写真を保存する(payload) {
     updates.area = _スポット別エリア(ss)[newSpot] || '';
   }
   if (!updates.title) throw new Error('キャプションを入力してください。');
+  var selfId = id || String(sh.getRange(rowNumber, col.id + 1).getValue() || '').trim();
+  var dupId = _同じタイトルの写真ID(sh, col, updates.title, selfId);
+  if (dupId) throw new Error('同じタイトル「' + updates.title + '」の写真がすでにあります（' + dupId + '）。別のタイトルにしてください。');
 
   Object.keys(updates).forEach(function (key) {
     if (col[key] !== undefined) sh.getRange(rowNumber, col[key] + 1).setValue(updates[key]);
@@ -303,6 +337,66 @@ function _ドライブIDを抜く(value) {
   return /^[A-Za-z0-9_-]{20,}$/.test(value) ? value : '';
 }
 
+function _シーン一覧(ss) {
+  var sh = ss.getSheetByName('シーン');
+  if (!sh) return [];
+  var col = _列番号(sh);
+  if (col.label === undefined) return [];
+  var out = [];
+  var rows = sh.getLastRow() > 1 ? sh.getRange(2, 1, sh.getLastRow() - 1, sh.getLastColumn()).getValues() : [];
+  rows.forEach(function (r, i) {
+    var label = String(r[col.label] || '').trim();
+    if (!label) return;
+    out.push({
+      rowNumber: i + 2,
+      label: label,
+      photoId: col.photoId !== undefined ? String(r[col.photoId] || '').trim() : '',
+      sortOrder: col.sortOrder !== undefined ? String(r[col.sortOrder] || '').trim() : ''
+    });
+  });
+  return out;
+}
+
+function _季節一覧(ss) {
+  var sh = ss.getSheetByName('季節');
+  if (!sh) return [];
+  var col = _列番号(sh);
+  if (col.ja === undefined) return [];
+  var out = [];
+  var rows = sh.getLastRow() > 1 ? sh.getRange(2, 1, sh.getLastRow() - 1, sh.getLastColumn()).getValues() : [];
+  rows.forEach(function (r, i) {
+    var ja = String(r[col.ja] || '').trim();
+    if (!ja) return;
+    out.push({
+      rowNumber: i + 2,
+      ja: ja,
+      photoId: col.photoId !== undefined ? String(r[col.photoId] || '').trim() : '',
+      sortOrder: col.sortOrder !== undefined ? String(r[col.sortOrder] || '').trim() : ''
+    });
+  });
+  return out;
+}
+
+function シーン季節の写真を保存する(payload) {
+  payload = payload || {};
+  var ss = _管理対象シート();
+  var sheetName = payload.type === '季節' ? '季節' : 'シーン';
+  var sh = _必須タブ(ss, sheetName);
+  var col = _列番号(sh);
+  var rowNumber = Number(payload.rowNumber || 0);
+  if (!rowNumber || rowNumber < 2) throw new Error('対象が見つかりません。');
+  if (col.photoId === undefined) throw new Error('「' + sheetName + '」タブに photoId 列がありません。');
+
+  var photoId = String(payload.photoId || '').trim();
+  if (photoId) {
+    var photoSh = _必須タブ(ss, '写真');
+    var photoCol = _列番号(photoSh);
+    if (!_行を探す(photoSh, photoCol.id, photoId)) throw new Error('写真ID「' + photoId + '」が見つかりません。');
+  }
+  sh.getRange(rowNumber, col.photoId + 1).setValue(photoId);
+  return { ok: true, message: '代表写真を更新しました。' };
+}
+
 function _選択肢(ss) {
   var out = { area: [], season: ['春', '夏', '秋', '冬', '通年'], focus: ['中央', '上寄り', '下寄り'], tags: [], roles: ['新着', 'シーン', '季節'] };
   var sh = ss.getSheetByName('選択肢');
@@ -403,6 +497,21 @@ function _行を探す(sh, idIndex, id) {
     if (String(vals[i][0] || '').trim() === id) return i + 2;
   }
   return 0;
+}
+
+// 「写真」タブの中から、指定したタイトルと同じ（大文字小文字・前後の空白を無視して一致）写真IDを探す。
+// selfId に一致する行は自分自身なので除外する。
+function _同じタイトルの写真ID(sh, col, title, selfId) {
+  var target = String(title || '').trim().toLowerCase();
+  if (!target || sh.getLastRow() <= 1) return '';
+  var rows = sh.getRange(2, 1, sh.getLastRow() - 1, sh.getLastColumn()).getValues();
+  for (var i = 0; i < rows.length; i++) {
+    var rowId = String(rows[i][col.id] || '').trim();
+    if (rowId && rowId === selfId) continue;
+    var rowTitle = String(rows[i][col.title] || '').trim().toLowerCase();
+    if (rowTitle && rowTitle === target) return rowId;
+  }
+  return '';
 }
 
 function _写真ファイルを保存(file, spotName) {
