@@ -32,7 +32,7 @@ window.SPL_DATA = {
       "id": "bench",
       "name": "世界一長いベンチ・増穂浦海岸",
       "area": "富来エリア",
-      "count": 15,
+      "count": 51,
       "image": "assets/img/lib/P0008-hero.jpg",
       "alt": "世界一長いベンチ・増穂浦海岸",
       "description": "海・貝・夕日、そして記憶に残る長さ"
@@ -50,7 +50,7 @@ window.SPL_DATA = {
       "id": "gate",
       "name": "巌門",
       "area": "富来エリア",
-      "count": 22,
+      "count": 31,
       "image": "assets/img/lib/P0020-hero.jpg",
       "alt": "巌門",
       "description": "日本海が作り上げた芸術"
