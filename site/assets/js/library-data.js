@@ -3,7 +3,7 @@
 window.SPL_LIBRARY = {
   "meta": {
     "note": "photos.json と spots.json から自動生成しています。直接編集せず、scripts/build-library.py を実行してください。",
-    "count": 192
+    "count": 200
   },
   "photos": [
     {
@@ -1189,6 +1189,24 @@ window.SPL_LIBRARY = {
       "id": "P0019"
     },
     {
+      "title": "機具岩_1",
+      "spot": "機具岩",
+      "spotId": "hatago",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "海",
+        "岩"
+      ],
+      "thumb": "assets/img/lib/P0218-thumb.jpg",
+      "large": "assets/img/lib/P0218-large.jpg",
+      "alt": "機具岩_1",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "機具岩",
+      "id": "P0218"
+    },
+    {
       "title": "海岸から望む巌門",
       "spot": "巌門",
       "spotId": "gate",
@@ -2361,6 +2379,188 @@ window.SPL_LIBRARY = {
       "id": "P0041"
     },
     {
+      "title": "旧福浦灯台_1",
+      "spot": "旧福浦灯台",
+      "spotId": "fukura",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "海",
+        "夕陽",
+        "灯台",
+        "日本最古"
+      ],
+      "thumb": "assets/img/lib/P0089-thumb.jpg",
+      "large": "assets/img/lib/P0089-large.jpg",
+      "alt": "旧福浦灯台_1",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "旧福浦灯台",
+      "id": "P0089"
+    },
+    {
+      "title": "旧福浦灯台_2",
+      "spot": "旧福浦灯台",
+      "spotId": "fukura",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "海",
+        "夕陽",
+        "灯台",
+        "日本最古"
+      ],
+      "thumb": "assets/img/lib/P0090-thumb.jpg",
+      "large": "assets/img/lib/P0090-large.jpg",
+      "alt": "旧福浦灯台_2",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "旧福浦灯台",
+      "id": "P0090"
+    },
+    {
+      "title": "旧福浦灯台_3",
+      "spot": "旧福浦灯台",
+      "spotId": "fukura",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "海",
+        "夕陽",
+        "灯台",
+        "日本最古"
+      ],
+      "thumb": "assets/img/lib/P0092-thumb.jpg",
+      "large": "assets/img/lib/P0092-large.jpg",
+      "alt": "旧福浦灯台_3",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "旧福浦灯台",
+      "id": "P0092"
+    },
+    {
+      "title": "旧福浦灯台_4",
+      "spot": "旧福浦灯台",
+      "spotId": "fukura",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "海",
+        "ライトアップ",
+        "灯台",
+        "日本最古"
+      ],
+      "thumb": "assets/img/lib/P0093-thumb.jpg",
+      "large": "assets/img/lib/P0093-large.jpg",
+      "alt": "旧福浦灯台_4",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "旧福浦灯台",
+      "id": "P0093"
+    },
+    {
+      "title": "旧福浦灯台_あかりちゃん1",
+      "spot": "旧福浦灯台",
+      "spotId": "fukura",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "海",
+        "灯台",
+        "日本最古",
+        "あかりちゃん"
+      ],
+      "thumb": "assets/img/lib/P0095-thumb.jpg",
+      "large": "assets/img/lib/P0095-large.jpg",
+      "alt": "旧福浦灯台_あかりちゃん1",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "旧福浦灯台",
+      "id": "P0095"
+    },
+    {
+      "title": "旧福浦灯台_あかりちゃん2",
+      "spot": "旧福浦灯台",
+      "spotId": "fukura",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "海",
+        "灯台",
+        "日本最古",
+        "あかりちゃん"
+      ],
+      "thumb": "assets/img/lib/P0096-thumb.jpg",
+      "large": "assets/img/lib/P0096-large.jpg",
+      "alt": "旧福浦灯台_あかりちゃん2",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "旧福浦灯台",
+      "id": "P0096"
+    },
+    {
+      "title": "旧福浦灯台_5",
+      "spot": "旧福浦灯台",
+      "spotId": "fukura",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "海",
+        "ライトアップ",
+        "灯台",
+        "日本最古"
+      ],
+      "thumb": "assets/img/lib/P0097-thumb.jpg",
+      "large": "assets/img/lib/P0097-large.jpg",
+      "alt": "旧福浦灯台_5",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "旧福浦灯台",
+      "id": "P0097"
+    },
+    {
+      "title": "旧福浦灯台_6",
+      "spot": "旧福浦灯台",
+      "spotId": "fukura",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "海",
+        "花",
+        "灯台",
+        "日本最古",
+        "あじさい"
+      ],
+      "thumb": "assets/img/lib/P0186-thumb.jpg",
+      "large": "assets/img/lib/P0186-large.jpg",
+      "alt": "旧福浦灯台_6",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "旧福浦灯台",
+      "id": "P0186"
+    },
+    {
+      "title": "旧福浦灯台_7",
+      "spot": "旧福浦灯台",
+      "spotId": "fukura",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "海",
+        "花",
+        "灯台",
+        "日本最古",
+        "あじさい"
+      ],
+      "thumb": "assets/img/lib/P0189-thumb.jpg",
+      "large": "assets/img/lib/P0189-large.jpg",
+      "alt": "旧福浦灯台_7",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "旧福浦灯台",
+      "id": "P0189"
+    },
+    {
       "title": "夕陽に照らされる六角地蔵塔",
       "spot": "大島諸願堂・大島キャンプ場",
       "spotId": "shogando",
@@ -2941,21 +3141,19 @@ window.SPL_LIBRARY = {
       "id": "P0054"
     },
     {
-      "title": "さくら貝のクラフト作品",
+      "title": "志賀町優良特産品_さくら貝華ブローチ",
       "spot": "道の駅とぎ海街道・さくら貝資料館",
       "spotId": "sakuragai",
       "area": "富来エリア",
       "season": "",
       "tags": [
         "さくら貝",
-        "文化施設",
-        "体験",
         "お土産",
-        "屋内"
+        "特産品"
       ],
       "thumb": "assets/img/lib/P0056-thumb.jpg",
       "large": "assets/img/lib/P0056-large.jpg",
-      "alt": "さくら貝のクラフト作品",
+      "alt": "志賀町優良特産品_さくら貝華ブローチ",
       "credit": "© 志賀町",
       "photographer": "志賀町",
       "source": "道の駅とぎ海街道・さくら貝資料館",
@@ -3063,25 +3261,6 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "道の駅とぎ海街道・さくら貝資料館",
       "id": "P0337"
-    },
-    {
-      "title": "道の駅とぎ海街道_海鮮丼",
-      "spot": "道の駅とぎ海街道・さくら貝資料館",
-      "spotId": "sakuragai",
-      "area": "富来エリア",
-      "season": "",
-      "tags": [
-        "道の駅",
-        "海の幸",
-        "海鮮"
-      ],
-      "thumb": "assets/img/lib/P0338-thumb.jpg",
-      "large": "assets/img/lib/P0338-large.jpg",
-      "alt": "道の駅とぎ海街道_海鮮丼",
-      "credit": "© 志賀町",
-      "photographer": "志賀町",
-      "source": "道の駅とぎ海街道・さくら貝資料館",
-      "id": "P0338"
     },
     {
       "title": "道の駅とぎ海街道_甘えびかきあげバーガー",
@@ -3214,25 +3393,6 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "道の駅とぎ海街道・さくら貝資料館",
       "id": "P0345"
-    },
-    {
-      "title": "道の駅とぎ海街道_海鮮丼",
-      "spot": "道の駅とぎ海街道・さくら貝資料館",
-      "spotId": "sakuragai",
-      "area": "富来エリア",
-      "season": "",
-      "tags": [
-        "道の駅",
-        "海鮮",
-        "食事"
-      ],
-      "thumb": "assets/img/lib/P0346-thumb.jpg",
-      "large": "assets/img/lib/P0346-large.jpg",
-      "alt": "道の駅とぎ海街道_海鮮丼",
-      "credit": "© 志賀町",
-      "photographer": "志賀町",
-      "source": "道の駅とぎ海街道・さくら貝資料館",
-      "id": "P0346"
     },
     {
       "title": "道の駅とぎ海街道_さざえ",

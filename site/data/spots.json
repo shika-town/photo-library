@@ -729,9 +729,19 @@
             "岩",
             "ライトアップ"
           ]
+        },
+        {
+          "id": "P0218",
+          "thumb": "../assets/img/lib/P0218-thumb.jpg",
+          "large": "../assets/img/lib/P0218-large.jpg",
+          "caption": "機具岩_1",
+          "tags": [
+            "海",
+            "岩"
+          ]
         }
       ],
-      "count": 6
+      "count": 7
     },
     {
       "id": "gate",
@@ -1601,9 +1611,119 @@
             "名所旧跡",
             "ライトアップ"
           ]
+        },
+        {
+          "id": "P0089",
+          "thumb": "../assets/img/lib/P0089-thumb.jpg",
+          "large": "../assets/img/lib/P0089-large.jpg",
+          "caption": "旧福浦灯台_1",
+          "tags": [
+            "海",
+            "夕陽",
+            "灯台",
+            "日本最古"
+          ]
+        },
+        {
+          "id": "P0090",
+          "thumb": "../assets/img/lib/P0090-thumb.jpg",
+          "large": "../assets/img/lib/P0090-large.jpg",
+          "caption": "旧福浦灯台_2",
+          "tags": [
+            "海",
+            "夕陽",
+            "灯台",
+            "日本最古"
+          ]
+        },
+        {
+          "id": "P0092",
+          "thumb": "../assets/img/lib/P0092-thumb.jpg",
+          "large": "../assets/img/lib/P0092-large.jpg",
+          "caption": "旧福浦灯台_3",
+          "tags": [
+            "海",
+            "夕陽",
+            "灯台",
+            "日本最古"
+          ]
+        },
+        {
+          "id": "P0093",
+          "thumb": "../assets/img/lib/P0093-thumb.jpg",
+          "large": "../assets/img/lib/P0093-large.jpg",
+          "caption": "旧福浦灯台_4",
+          "tags": [
+            "海",
+            "ライトアップ",
+            "灯台",
+            "日本最古"
+          ]
+        },
+        {
+          "id": "P0095",
+          "thumb": "../assets/img/lib/P0095-thumb.jpg",
+          "large": "../assets/img/lib/P0095-large.jpg",
+          "caption": "旧福浦灯台_あかりちゃん1",
+          "tags": [
+            "海",
+            "灯台",
+            "日本最古",
+            "あかりちゃん"
+          ]
+        },
+        {
+          "id": "P0096",
+          "thumb": "../assets/img/lib/P0096-thumb.jpg",
+          "large": "../assets/img/lib/P0096-large.jpg",
+          "caption": "旧福浦灯台_あかりちゃん2",
+          "tags": [
+            "海",
+            "灯台",
+            "日本最古",
+            "あかりちゃん"
+          ]
+        },
+        {
+          "id": "P0097",
+          "thumb": "../assets/img/lib/P0097-thumb.jpg",
+          "large": "../assets/img/lib/P0097-large.jpg",
+          "caption": "旧福浦灯台_5",
+          "tags": [
+            "海",
+            "ライトアップ",
+            "灯台",
+            "日本最古"
+          ]
+        },
+        {
+          "id": "P0186",
+          "thumb": "../assets/img/lib/P0186-thumb.jpg",
+          "large": "../assets/img/lib/P0186-large.jpg",
+          "caption": "旧福浦灯台_6",
+          "tags": [
+            "海",
+            "花",
+            "灯台",
+            "日本最古",
+            "あじさい"
+          ]
+        },
+        {
+          "id": "P0189",
+          "thumb": "../assets/img/lib/P0189-thumb.jpg",
+          "large": "../assets/img/lib/P0189-large.jpg",
+          "caption": "旧福浦灯台_7",
+          "tags": [
+            "海",
+            "花",
+            "灯台",
+            "日本最古",
+            "あじさい"
+          ]
         }
       ],
-      "count": 6
+      "count": 15
     },
     {
       "id": "shogando",
@@ -2072,13 +2192,11 @@
           "id": "P0056",
           "thumb": "../assets/img/lib/P0056-thumb.jpg",
           "large": "../assets/img/lib/P0056-large.jpg",
-          "caption": "さくら貝のクラフト作品",
+          "caption": "志賀町優良特産品_さくら貝華ブローチ",
           "tags": [
             "さくら貝",
-            "文化施設",
-            "体験",
             "お土産",
-            "屋内"
+            "特産品"
           ]
         },
         {
@@ -2142,17 +2260,6 @@
             "道の駅",
             "海の幸",
             "カニ"
-          ]
-        },
-        {
-          "id": "P0338",
-          "thumb": "../assets/img/lib/P0338-thumb.jpg",
-          "large": "../assets/img/lib/P0338-large.jpg",
-          "caption": "道の駅とぎ海街道_海鮮丼",
-          "tags": [
-            "道の駅",
-            "海の幸",
-            "海鮮"
           ]
         },
         {
@@ -2224,17 +2331,6 @@
           "id": "P0345",
           "thumb": "../assets/img/lib/P0345-thumb.jpg",
           "large": "../assets/img/lib/P0345-large.jpg",
-          "caption": "道の駅とぎ海街道_海鮮丼",
-          "tags": [
-            "道の駅",
-            "海鮮",
-            "食事"
-          ]
-        },
-        {
-          "id": "P0346",
-          "thumb": "../assets/img/lib/P0346-thumb.jpg",
-          "large": "../assets/img/lib/P0346-large.jpg",
           "caption": "道の駅とぎ海街道_海鮮丼",
           "tags": [
             "道の駅",
@@ -2364,7 +2460,7 @@
           ]
         }
       ],
-      "count": 32
+      "count": 30
     },
     {
       "id": "taira",

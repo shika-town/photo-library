@@ -41,7 +41,7 @@ window.SPL_DATA = {
       "id": "hatago",
       "name": "機具岩",
       "area": "富来エリア",
-      "count": 6,
+      "count": 7,
       "image": "assets/img/lib/P0001-hero.jpg",
       "alt": "機具岩",
       "description": "二つの岩が寄り添う夫婦岩。能登屈指のマジックアワーポイント。"
