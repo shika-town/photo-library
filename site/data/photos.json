@@ -29,7 +29,7 @@
       "id": "bench",
       "name": "世界一長いベンチ・増穂浦海岸",
       "area": "富来エリア",
-      "count": 51,
+      "count": 52,
       "image": "assets/img/lib/P0008-hero.jpg",
       "alt": "世界一長いベンチ・増穂浦海岸",
       "description": "海・貝・夕日、そして記憶に残る長さ"
@@ -38,7 +38,7 @@
       "id": "hatago",
       "name": "機具岩",
       "area": "富来エリア",
-      "count": 7,
+      "count": 23,
       "image": "assets/img/lib/P0001-hero.jpg",
       "alt": "機具岩",
       "description": "二つの岩が寄り添う夫婦岩。能登屈指のマジックアワーポイント。"
@@ -47,7 +47,7 @@
       "id": "gate",
       "name": "巌門",
       "area": "富来エリア",
-      "count": 31,
+      "count": 44,
       "image": "assets/img/lib/P0020-hero.jpg",
       "alt": "巌門",
       "description": "日本海が作り上げた芸術"
@@ -173,14 +173,15 @@
     },
     {
       "id": "P0005",
-      "title": "旧福浦灯台",
-      "spot": "旧福浦灯台 ",
+      "title": "旧福浦灯台_8",
+      "spot": "旧福浦灯台",
       "area": "富来エリア",
       "season": "夏",
       "tags": [
-        "建築",
         "海",
-        "青空"
+        "青空",
+        "灯台",
+        "日本最古"
       ],
       "image": "assets/img/lib/P0005-new.jpg",
       "alt": "青空の下に建つ白い木造の旧福浦灯台"

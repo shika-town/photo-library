@@ -625,9 +625,20 @@
             "ベンチ",
             "青空"
           ]
+        },
+        {
+          "id": "P0444",
+          "thumb": "../assets/img/lib/P0444-thumb.jpg",
+          "large": "../assets/img/lib/P0444-large.jpg",
+          "caption": "世界一長いベンチ_22",
+          "tags": [
+            "海",
+            "ベンチ",
+            "青空"
+          ]
         }
       ],
-      "count": 51
+      "count": 52
     },
     {
       "id": "hatago",
@@ -731,6 +742,184 @@
           ]
         },
         {
+          "id": "P0099",
+          "thumb": "../assets/img/lib/P0099-thumb.jpg",
+          "large": "../assets/img/lib/P0099-large.jpg",
+          "caption": "機具岩_2",
+          "tags": [
+            "海",
+            "夕陽",
+            "岩"
+          ]
+        },
+        {
+          "id": "P0100",
+          "thumb": "../assets/img/lib/P0100-thumb.jpg",
+          "large": "../assets/img/lib/P0100-large.jpg",
+          "caption": "機具岩_3",
+          "tags": [
+            "海",
+            "夕陽",
+            "岩"
+          ]
+        },
+        {
+          "id": "P0101",
+          "thumb": "../assets/img/lib/P0101-thumb.jpg",
+          "large": "../assets/img/lib/P0101-large.jpg",
+          "caption": "機具岩_4",
+          "tags": [
+            "海",
+            "夕陽",
+            "岩"
+          ]
+        },
+        {
+          "id": "P0102",
+          "thumb": "../assets/img/lib/P0102-thumb.jpg",
+          "large": "../assets/img/lib/P0102-large.jpg",
+          "caption": "機具岩_5",
+          "tags": [
+            "海",
+            "夕陽",
+            "岩"
+          ]
+        },
+        {
+          "id": "P0103",
+          "thumb": "../assets/img/lib/P0103-thumb.jpg",
+          "large": "../assets/img/lib/P0103-large.jpg",
+          "caption": "機具岩_6",
+          "tags": [
+            "海",
+            "夕陽",
+            "岩"
+          ]
+        },
+        {
+          "id": "P0104",
+          "thumb": "../assets/img/lib/P0104-thumb.jpg",
+          "large": "../assets/img/lib/P0104-large.jpg",
+          "caption": "機具岩_7",
+          "tags": [
+            "海",
+            "岩",
+            "青空"
+          ]
+        },
+        {
+          "id": "P0105",
+          "thumb": "../assets/img/lib/P0105-thumb.jpg",
+          "large": "../assets/img/lib/P0105-large.jpg",
+          "caption": "機具岩_8",
+          "tags": [
+            "海",
+            "夕陽",
+            "岩"
+          ]
+        },
+        {
+          "id": "P0106",
+          "thumb": "../assets/img/lib/P0106-thumb.jpg",
+          "large": "../assets/img/lib/P0106-large.jpg",
+          "caption": "機具岩_9",
+          "tags": [
+            "海",
+            "夕陽",
+            "岩"
+          ]
+        },
+        {
+          "id": "P0107",
+          "thumb": "../assets/img/lib/P0107-thumb.jpg",
+          "large": "../assets/img/lib/P0107-large.jpg",
+          "caption": "機具岩_10",
+          "tags": [
+            "海",
+            "夕陽",
+            "岩"
+          ]
+        },
+        {
+          "id": "P0108",
+          "thumb": "../assets/img/lib/P0108-thumb.jpg",
+          "large": "../assets/img/lib/P0108-large.jpg",
+          "caption": "機具岩_11",
+          "tags": [
+            "海",
+            "夕陽",
+            "岩"
+          ]
+        },
+        {
+          "id": "P0109",
+          "thumb": "../assets/img/lib/P0109-thumb.jpg",
+          "large": "../assets/img/lib/P0109-large.jpg",
+          "caption": "機具岩_12",
+          "tags": [
+            "海",
+            "夕陽",
+            "岩"
+          ]
+        },
+        {
+          "id": "P0110",
+          "thumb": "../assets/img/lib/P0110-thumb.jpg",
+          "large": "../assets/img/lib/P0110-large.jpg",
+          "caption": "機具岩_13",
+          "tags": [
+            "海",
+            "夕陽",
+            "岩"
+          ]
+        },
+        {
+          "id": "P0111",
+          "thumb": "../assets/img/lib/P0111-thumb.jpg",
+          "large": "../assets/img/lib/P0111-large.jpg",
+          "caption": "機具岩_14",
+          "tags": [
+            "海",
+            "夕陽",
+            "岩",
+            "星空"
+          ]
+        },
+        {
+          "id": "P0112",
+          "thumb": "../assets/img/lib/P0112-thumb.jpg",
+          "large": "../assets/img/lib/P0112-large.jpg",
+          "caption": "機具岩_15",
+          "tags": [
+            "海",
+            "夕陽",
+            "岩"
+          ]
+        },
+        {
+          "id": "P0113",
+          "thumb": "../assets/img/lib/P0113-thumb.jpg",
+          "large": "../assets/img/lib/P0113-large.jpg",
+          "caption": "機具岩_16",
+          "tags": [
+            "海",
+            "岩",
+            "ライトアップ",
+            "夜景"
+          ]
+        },
+        {
+          "id": "P0114",
+          "thumb": "../assets/img/lib/P0114-thumb.jpg",
+          "large": "../assets/img/lib/P0114-large.jpg",
+          "caption": "機具岩_17",
+          "tags": [
+            "海",
+            "夕陽",
+            "岩"
+          ]
+        },
+        {
           "id": "P0218",
           "thumb": "../assets/img/lib/P0218-thumb.jpg",
           "large": "../assets/img/lib/P0218-large.jpg",
@@ -741,7 +930,7 @@
           ]
         }
       ],
-      "count": 7
+      "count": 23
     },
     {
       "id": "gate",
@@ -1013,6 +1202,157 @@
           ]
         },
         {
+          "id": "P0191",
+          "thumb": "../assets/img/lib/P0191-thumb.jpg",
+          "large": "../assets/img/lib/P0191-large.jpg",
+          "caption": "巌門_1",
+          "tags": [
+            "海",
+            "岩",
+            "遊覧船"
+          ]
+        },
+        {
+          "id": "P0205",
+          "thumb": "../assets/img/lib/P0205-thumb.jpg",
+          "large": "../assets/img/lib/P0205-large.jpg",
+          "caption": "巌門_2",
+          "tags": [
+            "海",
+            "岩",
+            "遊覧船"
+          ]
+        },
+        {
+          "id": "P0206",
+          "thumb": "../assets/img/lib/P0206-thumb.jpg",
+          "large": "../assets/img/lib/P0206-large.jpg",
+          "caption": "巌門_3",
+          "tags": [
+            "海",
+            "岩",
+            "遊覧船"
+          ]
+        },
+        {
+          "id": "P0207",
+          "thumb": "../assets/img/lib/P0207-thumb.jpg",
+          "large": "../assets/img/lib/P0207-large.jpg",
+          "caption": "巌門_4",
+          "tags": [
+            "海",
+            "岩",
+            "遊覧船"
+          ]
+        },
+        {
+          "id": "P0208",
+          "thumb": "../assets/img/lib/P0208-thumb.jpg",
+          "large": "../assets/img/lib/P0208-large.jpg",
+          "caption": "巌門_5",
+          "tags": [
+            "海",
+            "岩",
+            "遊覧船"
+          ]
+        },
+        {
+          "id": "P0209",
+          "thumb": "../assets/img/lib/P0209-thumb.jpg",
+          "large": "../assets/img/lib/P0209-large.jpg",
+          "caption": "巌門_7",
+          "tags": [
+            "海",
+            "岩",
+            "遊覧船"
+          ]
+        },
+        {
+          "id": "P0210",
+          "thumb": "../assets/img/lib/P0210-thumb.jpg",
+          "large": "../assets/img/lib/P0210-large.jpg",
+          "caption": "巌門_8",
+          "tags": [
+            "海",
+            "岩",
+            "遊覧船"
+          ]
+        },
+        {
+          "id": "P0211",
+          "thumb": "../assets/img/lib/P0211-thumb.jpg",
+          "large": "../assets/img/lib/P0211-large.jpg",
+          "caption": "巌門_9",
+          "tags": [
+            "海",
+            "岩",
+            "遊覧船"
+          ]
+        },
+        {
+          "id": "P0212",
+          "thumb": "../assets/img/lib/P0212-thumb.jpg",
+          "large": "../assets/img/lib/P0212-large.jpg",
+          "caption": "巌門_10",
+          "tags": [
+            "海",
+            "岩",
+            "遊覧船",
+            "雪",
+            "冬"
+          ]
+        },
+        {
+          "id": "P0213",
+          "thumb": "../assets/img/lib/P0213-thumb.jpg",
+          "large": "../assets/img/lib/P0213-large.jpg",
+          "caption": "巌門_11",
+          "tags": [
+            "海",
+            "岩",
+            "雪",
+            "冬"
+          ]
+        },
+        {
+          "id": "P0214",
+          "thumb": "../assets/img/lib/P0214-thumb.jpg",
+          "large": "../assets/img/lib/P0214-large.jpg",
+          "caption": "巌門_12",
+          "tags": [
+            "海",
+            "岩",
+            "雪",
+            "冬"
+          ]
+        },
+        {
+          "id": "P0215",
+          "thumb": "../assets/img/lib/P0215-thumb.jpg",
+          "large": "../assets/img/lib/P0215-large.jpg",
+          "caption": "巌門_13",
+          "tags": [
+            "海",
+            "空撮",
+            "岩",
+            "遊覧船",
+            "青空"
+          ]
+        },
+        {
+          "id": "P0216",
+          "thumb": "../assets/img/lib/P0216-thumb.jpg",
+          "large": "../assets/img/lib/P0216-large.jpg",
+          "caption": "巌門_14",
+          "tags": [
+            "海",
+            "空撮",
+            "岩",
+            "遊覧船",
+            "青空"
+          ]
+        },
+        {
           "id": "P0371",
           "thumb": "../assets/img/lib/P0371-thumb.jpg",
           "large": "../assets/img/lib/P0371-large.jpg",
@@ -1112,7 +1452,7 @@
           ]
         }
       ],
-      "count": 31
+      "count": 44
     },
     {
       "id": "benten",
@@ -1496,9 +1836,31 @@
             "岩",
             "断崖"
           ]
+        },
+        {
+          "id": "P0190",
+          "thumb": "../assets/img/lib/P0190-thumb.jpg",
+          "large": "../assets/img/lib/P0190-large.jpg",
+          "caption": "ヤセの断崖_1",
+          "tags": [
+            "海",
+            "岩",
+            "断崖"
+          ]
+        },
+        {
+          "id": "P0423",
+          "thumb": "../assets/img/lib/P0423-thumb.jpg",
+          "large": "../assets/img/lib/P0423-large.jpg",
+          "caption": "ヤセの断崖_2",
+          "tags": [
+            "海",
+            "岩",
+            "断崖"
+          ]
         }
       ],
-      "count": 7
+      "count": 9
     },
     {
       "id": "fukura",
@@ -1545,11 +1907,12 @@
           "id": "P0005",
           "thumb": "../assets/img/lib/P0005-thumb.jpg",
           "large": "../assets/img/lib/P0005-large.jpg",
-          "caption": "旧福浦灯台",
+          "caption": "旧福浦灯台_8",
           "tags": [
-            "建築",
             "海",
-            "青空"
+            "青空",
+            "灯台",
+            "日本最古"
           ]
         },
         {
@@ -1721,9 +2084,33 @@
             "日本最古",
             "あじさい"
           ]
+        },
+        {
+          "id": "P0484",
+          "thumb": "../assets/img/lib/P0484-thumb.jpg",
+          "large": "../assets/img/lib/P0484-large.jpg",
+          "caption": "旧福浦灯台_9",
+          "tags": [
+            "海",
+            "夕陽",
+            "灯台",
+            "日本最古"
+          ]
+        },
+        {
+          "id": "P0485",
+          "thumb": "../assets/img/lib/P0485-thumb.jpg",
+          "large": "../assets/img/lib/P0485-large.jpg",
+          "caption": "旧福浦灯台_10",
+          "tags": [
+            "海",
+            "夕陽",
+            "灯台",
+            "日本最古"
+          ]
         }
       ],
-      "count": 15
+      "count": 17
     },
     {
       "id": "shogando",
