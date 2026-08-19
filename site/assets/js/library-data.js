@@ -205,9 +205,8 @@ window.SPL_LIBRARY = {
       "area": "富来エリア",
       "season": "",
       "tags": [
-        "海",
         "ベンチ",
-        "さくら貝"
+        "青空"
       ],
       "thumb": "assets/img/lib/P0011-thumb.jpg",
       "large": "assets/img/lib/P0011-large.jpg",
@@ -374,9 +373,8 @@ window.SPL_LIBRARY = {
       "area": "富来エリア",
       "season": "",
       "tags": [
-        "世界一長いベンチ",
-        "海",
-        "青空"
+        "青空",
+        "世界一長いベンチ"
       ],
       "thumb": "assets/img/lib/P0156-thumb.jpg",
       "large": "assets/img/lib/P0156-large.jpg",
@@ -603,7 +601,7 @@ window.SPL_LIBRARY = {
       "id": "P0230"
     },
     {
-      "title": "⑩世界一長いベンチ_花火6",
+      "title": "世界一長いベンチ_花火6",
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
@@ -617,7 +615,7 @@ window.SPL_LIBRARY = {
       ],
       "thumb": "assets/img/lib/P0231-thumb.jpg",
       "large": "assets/img/lib/P0231-large.jpg",
-      "alt": "⑩世界一長いベンチ_花火6",
+      "alt": "世界一長いベンチ_花火6",
       "credit": "© 志賀町",
       "photographer": "志賀町",
       "source": "世界一長いベンチ・増穂浦海岸",
@@ -643,7 +641,7 @@ window.SPL_LIBRARY = {
       "id": "P0232"
     },
     {
-      "title": "⑩世界一長いベンチ_花火7",
+      "title": "世界一長いベンチ_花火9",
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
@@ -656,7 +654,7 @@ window.SPL_LIBRARY = {
       ],
       "thumb": "assets/img/lib/P0233-thumb.jpg",
       "large": "assets/img/lib/P0233-large.jpg",
-      "alt": "⑩世界一長いベンチ_花火7",
+      "alt": "世界一長いベンチ_花火9",
       "credit": "© 志賀町",
       "photographer": "志賀町",
       "source": "世界一長いベンチ・増穂浦海岸",
@@ -683,7 +681,7 @@ window.SPL_LIBRARY = {
       "id": "P0234"
     },
     {
-      "title": "⑩世界一長いベンチ_花火8",
+      "title": "世界一長いベンチ_花火8",
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
@@ -697,7 +695,7 @@ window.SPL_LIBRARY = {
       ],
       "thumb": "assets/img/lib/P0235-thumb.jpg",
       "large": "assets/img/lib/P0235-large.jpg",
-      "alt": "⑩世界一長いベンチ_花火8",
+      "alt": "世界一長いベンチ_花火8",
       "credit": "© 志賀町",
       "photographer": "志賀町",
       "source": "世界一長いベンチ・増穂浦海岸",
@@ -1083,7 +1081,6 @@ window.SPL_LIBRARY = {
       "area": "富来エリア",
       "season": "",
       "tags": [
-        "海",
         "ベンチ",
         "青空"
       ],
@@ -1672,7 +1669,6 @@ window.SPL_LIBRARY = {
       "area": "富来エリア",
       "season": "",
       "tags": [
-        "海",
         "岩",
         "遊歩道"
       ],
@@ -3226,10 +3222,9 @@ window.SPL_LIBRARY = {
       "area": "志賀エリア",
       "season": "",
       "tags": [
-        "名所旧跡",
         "海",
-        "星空",
         "夕陽",
+        "名所旧跡",
         "キャンプ"
       ],
       "thumb": "assets/img/lib/P0042-thumb.jpg",
@@ -3247,10 +3242,10 @@ window.SPL_LIBRARY = {
       "area": "志賀エリア",
       "season": "",
       "tags": [
-        "名所旧跡",
         "海",
-        "星空",
-        "キャンプ"
+        "名所旧跡",
+        "キャンプ",
+        "青空"
       ],
       "thumb": "assets/img/lib/P0043-thumb.jpg",
       "large": "assets/img/lib/P0043-large.jpg",
@@ -3267,10 +3262,10 @@ window.SPL_LIBRARY = {
       "area": "志賀エリア",
       "season": "",
       "tags": [
-        "名所旧跡",
         "海",
-        "星空",
-        "キャンプ"
+        "名所旧跡",
+        "キャンプ",
+        "青空"
       ],
       "thumb": "assets/img/lib/P0044-thumb.jpg",
       "large": "assets/img/lib/P0044-large.jpg",
@@ -3327,10 +3322,8 @@ window.SPL_LIBRARY = {
       "area": "志賀エリア",
       "season": "",
       "tags": [
-        "名所旧跡",
-        "海",
-        "星空",
-        "キャンプ"
+        "キャンプ",
+        "青空"
       ],
       "thumb": "assets/img/lib/P0047-thumb.jpg",
       "large": "assets/img/lib/P0047-large.jpg",
@@ -3347,10 +3340,10 @@ window.SPL_LIBRARY = {
       "area": "志賀エリア",
       "season": "",
       "tags": [
-        "名所旧跡",
         "海",
-        "星空",
-        "キャンプ"
+        "名所旧跡",
+        "キャンプ",
+        "青空"
       ],
       "thumb": "assets/img/lib/P0048-thumb.jpg",
       "large": "assets/img/lib/P0048-large.jpg",

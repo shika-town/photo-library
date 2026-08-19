@@ -103,9 +103,8 @@
           "large": "../assets/img/lib/P0011-large.jpg",
           "caption": "色とりどりの手形",
           "tags": [
-            "海",
             "ベンチ",
-            "さくら貝"
+            "青空"
           ]
         },
         {
@@ -200,9 +199,8 @@
           "large": "../assets/img/lib/P0156-large.jpg",
           "caption": "ベンチが続く増穂浦の遊歩道",
           "tags": [
-            "世界一長いベンチ",
-            "海",
-            "青空"
+            "青空",
+            "世界一長いベンチ"
           ]
         },
         {
@@ -337,7 +335,7 @@
           "id": "P0231",
           "thumb": "../assets/img/lib/P0231-thumb.jpg",
           "large": "../assets/img/lib/P0231-large.jpg",
-          "caption": "⑩世界一長いベンチ_花火6",
+          "caption": "世界一長いベンチ_花火6",
           "tags": [
             "海",
             "ベンチ",
@@ -361,7 +359,7 @@
           "id": "P0233",
           "thumb": "../assets/img/lib/P0233-thumb.jpg",
           "large": "../assets/img/lib/P0233-large.jpg",
-          "caption": "⑩世界一長いベンチ_花火7",
+          "caption": "世界一長いベンチ_花火9",
           "tags": [
             "海",
             "夜景",
@@ -385,7 +383,7 @@
           "id": "P0235",
           "thumb": "../assets/img/lib/P0235-thumb.jpg",
           "large": "../assets/img/lib/P0235-large.jpg",
-          "caption": "⑩世界一長いベンチ_花火8",
+          "caption": "世界一長いベンチ_花火8",
           "tags": [
             "海",
             "ベンチ",
@@ -621,7 +619,6 @@
           "large": "../assets/img/lib/P0430-large.jpg",
           "caption": "世界一長いベンチ_21",
           "tags": [
-            "海",
             "ベンチ",
             "青空"
           ]
@@ -1058,7 +1055,6 @@
           "large": "../assets/img/lib/P0075-large.jpg",
           "caption": "巌門洞窟の入口",
           "tags": [
-            "海",
             "岩",
             "遊歩道"
           ]
@@ -2172,10 +2168,9 @@
           "large": "../assets/img/lib/P0042-large.jpg",
           "caption": "夕陽に照らされる六角地蔵塔",
           "tags": [
-            "名所旧跡",
             "海",
-            "星空",
             "夕陽",
+            "名所旧跡",
             "キャンプ"
           ]
         },
@@ -2185,10 +2180,10 @@
           "large": "../assets/img/lib/P0043-large.jpg",
           "caption": "大島海岸に佇む諸願堂",
           "tags": [
-            "名所旧跡",
             "海",
-            "星空",
-            "キャンプ"
+            "名所旧跡",
+            "キャンプ",
+            "青空"
           ]
         },
         {
@@ -2197,10 +2192,10 @@
           "large": "../assets/img/lib/P0044-large.jpg",
           "caption": "石積みの六角地蔵塔",
           "tags": [
-            "名所旧跡",
             "海",
-            "星空",
-            "キャンプ"
+            "名所旧跡",
+            "キャンプ",
+            "青空"
           ]
         },
         {
@@ -2233,10 +2228,8 @@
           "large": "../assets/img/lib/P0047-large.jpg",
           "caption": "松林に広がる大島キャンプ場",
           "tags": [
-            "名所旧跡",
-            "海",
-            "星空",
-            "キャンプ"
+            "キャンプ",
+            "青空"
           ]
         },
         {
@@ -2245,10 +2238,10 @@
           "large": "../assets/img/lib/P0048-large.jpg",
           "caption": "遠浅の大島海水浴場",
           "tags": [
-            "名所旧跡",
             "海",
-            "星空",
-            "キャンプ"
+            "名所旧跡",
+            "キャンプ",
+            "青空"
           ]
         },
         {
