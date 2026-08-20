@@ -925,9 +925,30 @@
             "海",
             "岩"
           ]
+        },
+        {
+          "id": "P0267",
+          "thumb": "../assets/img/lib/P0267-thumb.jpg",
+          "large": "../assets/img/lib/P0267-large.jpg",
+          "caption": "DSC_4743",
+          "tags": []
+        },
+        {
+          "id": "P0268",
+          "thumb": "../assets/img/lib/P0268-thumb.jpg",
+          "large": "../assets/img/lib/P0268-large.jpg",
+          "caption": "DSC_4749",
+          "tags": []
+        },
+        {
+          "id": "P0269",
+          "thumb": "../assets/img/lib/P0269-thumb.jpg",
+          "large": "../assets/img/lib/P0269-large.jpg",
+          "caption": "DSC_4752",
+          "tags": []
         }
       ],
-      "count": 23
+      "count": 26
     },
     {
       "id": "gate",
@@ -1286,19 +1307,6 @@
           ]
         },
         {
-          "id": "P0212",
-          "thumb": "../assets/img/lib/P0212-thumb.jpg",
-          "large": "../assets/img/lib/P0212-large.jpg",
-          "caption": "巌門_10",
-          "tags": [
-            "海",
-            "岩",
-            "遊覧船",
-            "雪",
-            "冬"
-          ]
-        },
-        {
           "id": "P0213",
           "thumb": "../assets/img/lib/P0213-thumb.jpg",
           "large": "../assets/img/lib/P0213-large.jpg",
@@ -1448,7 +1456,7 @@
           ]
         }
       ],
-      "count": 44
+      "count": 43
     },
     {
       "id": "benten",
