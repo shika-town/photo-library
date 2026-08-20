@@ -209,11 +209,17 @@ function 承認状態を変更する(payload) {
   payload = payload || {};
   var ss = _管理対象シート();
   var sheetName = String(payload.sheet || '');
-  var rowNumber = Number(payload.rowNumber || 0);
-  if (!rowNumber || rowNumber < 2) throw new Error('対象行が見つかりません。');
-
   var sh = _必須タブ(ss, sheetName);
   var col = _列番号(sh);
+  var id = String(payload.id || '').trim();
+  // 「写真」タブはidが必ず入っているため、行番号のズレを避けて毎回探し直す。
+  // 「フォーム回答」タブは回答者がidを入力しないため空のことが多く、その場合はやむを得ず
+  // ブラウザから渡された行番号をそのまま使う（承認タブは開いてすぐ操作することが多く、
+  // 「写真管理」の削除ほど間隔が空かないため実害は低い）。
+  var rowNumber = (sheetName === '写真' && id) ? _行を探す(sh, col.id, id) : 0;
+  if (!rowNumber) rowNumber = Number(payload.rowNumber || 0);
+  if (!rowNumber || rowNumber < 2) throw new Error('対象行が見つかりません。');
+
   if (sheetName === 'フォーム回答') {
     if (col['承認'] === undefined) throw new Error('「フォーム回答」タブに承認列がありません。');
     sh.getRange(rowNumber, col['承認'] + 1).setValue(payload.approved ? 'TRUE' : 'FALSE');
@@ -235,9 +241,11 @@ function 写真を保存する(payload) {
   var ss = _管理対象シート();
   var sh = _必須タブ(ss, '写真');
   var col = _写真列を保証(sh, ['downloadAllowed']);
-  var rowNumber = Number(payload.rowNumber || 0);
   var id = String(payload.id || '').trim();
-  if (!rowNumber && id) rowNumber = _行を探す(sh, col.id, id);
+  // ブラウザが持っている行番号は、他の人の編集や時間経過でずれている可能性があるため信用しない。
+  // idから毎回その場で正しい行を探し直す（idが渡された場合のみ、渡された行番号は最後の保険）。
+  var rowNumber = id ? _行を探す(sh, col.id, id) : 0;
+  if (!rowNumber) rowNumber = Number(payload.rowNumber || 0);
   if (!rowNumber || rowNumber < 2) throw new Error('写真が見つかりません。');
 
   var updates = {
@@ -273,12 +281,16 @@ function 写真を削除する(payload) {
   var ss = _管理対象シート();
   var sh = _必須タブ(ss, '写真');
   var col = _列番号(sh);
-  var rowNumber = Number(payload.rowNumber || 0);
   var id = String(payload.id || '').trim();
-  if (!rowNumber && id) rowNumber = _行を探す(sh, col.id, id);
+  // 削除は取り消せない操作なので、ブラウザが持っている行番号は信用せず、
+  // idから「今まさに」その行がどこにあるかを探し直してから消す。
+  // （他の人の編集や時間経過で行番号がずれていると、無関係な写真が消えてしまうため）
+  var rowNumber = id ? _行を探す(sh, col.id, id) : 0;
+  if (!rowNumber) rowNumber = Number(payload.rowNumber || 0);
   if (!rowNumber || rowNumber < 2) throw new Error('写真が見つかりません。');
 
   var deletedId = String(sh.getRange(rowNumber, col.id + 1).getValue() || '').trim() || id;
+  if (id && deletedId !== id) throw new Error('削除対象の特定に失敗しました（安全のため中止しました）。もう一度お試しください。');
   sh.deleteRow(rowNumber);
   return { ok: true, message: (deletedId || '写真') + ' を削除しました。写真ファイルの実体はGoogleドライブに残っています。' };
 }
