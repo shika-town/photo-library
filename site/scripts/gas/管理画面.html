@@ -502,7 +502,7 @@
         <div><select id="photoSpot"></select></div>
         <div class="hero-thumb" id="photoSpotThumb">?</div>
       </div>
-      <p class="hint" id="photoSpotReviewHint" style="display:none;">⚠️ この写真はまだ「その他（分類なし）」のままです。正しいスポットが分かれば選び直してください。</p>
+      <p class="hint" id="photoSpotReviewHint" style="display:none;">⚠️ この写真はまだ「未分類（あとで決める）」のままです。正しいスポットが分かれば選び直してください。分かる場所が無ければ「その他」を選んでください（要確認から外れます）。</p>
 
       <div class="switches">
         <label class="switch">
@@ -687,8 +687,18 @@
     let state = { spots: [], photos: [], choices: {}, pending: [], scenes: [], seasons: [], sitePhotoBaseUrl: '' };
     let pendingSelectSpot = null;
     const $ = id => document.getElementById(id);
+    // 「その他」＝あえて特定のスポットに当てはめないという判断（要確認にしない）。
+    // 「未分類」＝まだ決めていない・後で直す（要確認のまま）。この2つを混同しないよう別の値にしている。
     const OTHER_SPOT = 'その他';
-    const OTHER_SPOT_LABEL = 'その他（分類なし）';
+    const OTHER_SPOT_LABEL = 'その他（スポットに当てはまらない）';
+    const UNCLASSIFIED_SPOT = '未分類';
+    const UNCLASSIFIED_SPOT_LABEL = '未分類（あとで決める）';
+
+    function appendSpecialSpotOptions(selectEl) {
+      selectEl.insertAdjacentHTML('beforeend',
+        '<option value="' + esc(OTHER_SPOT) + '">' + esc(OTHER_SPOT_LABEL) + '</option>' +
+        '<option value="' + esc(UNCLASSIFIED_SPOT) + '">' + esc(UNCLASSIFIED_SPOT_LABEL) + '</option>');
+    }
 
     let dashboardLoaded = false;
     document.querySelectorAll('.tab').forEach(btn => {
@@ -846,17 +856,18 @@
       google.script.run.withSuccessHandler(data => {
         state = data;
         fillSelect($('spot'), data.spots.map(s => s.name), true);
-        $('spot').insertAdjacentHTML('beforeend', '<option value="' + esc(OTHER_SPOT) + '">' + esc(OTHER_SPOT_LABEL) + '</option>');
+        appendSpecialSpotOptions($('spot'));
         fillSelect($('season'), data.choices.season || [], true);
         fillSelect($('focus'), data.choices.focus || [], false);
         renderTagsField('tags', data.choices.tags || [], []);
         renderRolesField('roles', data.choices.roles || [], []);
         fillSelect($('spotEdit'), data.spots.map(s => s.name), true);
-        fillSelect($('photoFilterSpot'), data.spots.map(s => s.name).concat(OTHER_SPOT), true);
+        fillSelect($('photoFilterSpot'), data.spots.map(s => s.name).concat(OTHER_SPOT, UNCLASSIFIED_SPOT), true);
         $('photoFilterSpot').options[0].textContent = 'スポットで絞り込み（すべて）';
         $('photoFilterSpot').querySelector('option[value="' + OTHER_SPOT + '"]').textContent = OTHER_SPOT_LABEL;
+        $('photoFilterSpot').querySelector('option[value="' + UNCLASSIFIED_SPOT + '"]').textContent = UNCLASSIFIED_SPOT_LABEL;
         fillSelect($('photoSpot'), data.spots.map(s => s.name), false);
-        $('photoSpot').insertAdjacentHTML('beforeend', '<option value="' + esc(OTHER_SPOT) + '">' + esc(OTHER_SPOT_LABEL) + '</option>');
+        appendSpecialSpotOptions($('photoSpot'));
         const areaList = Array.from(new Set([].concat(data.choices.area || [], data.spots.map(s => s.area)).filter(Boolean)));
         $('areaOptions').innerHTML = areaList.map(a => '<option value="' + esc(a) + '">').join('');
         renderPhotoChoices(keepPhotoId, fallbackIdx);
@@ -875,14 +886,14 @@
     // ファイル名そのままのようなタイトル、未入力、日本語の文字が無い、未分類・現存しないスポットを「要確認」として拾う
     // （スポット名の変更・削除・入力ミスで孤立した写真は、サイトのスポットギャラリーから静かに消えてしまうため、
     //  ここで拾って気づけるようにする）
-    // 「その他（分類なし）」は、あえてスポットを特定しないという判断も認めるため要確認にしない
-    // （空欄＝まだ何も決めていない、とは区別する）
+    // 「その他」は、あえて特定のスポットに当てはめないという判断なので要確認にしない。
+    // 空欄・「未分類」はまだ決めていない状態として要確認のままにする。
     function needsReview(p) {
       const title = String(p.title || '').trim();
       if (!title) return true;
       if (/^(dsc|img|dji|pxl|mov|gopr|p\d{3,}|100_|100-)[-_ ]?\d*/i.test(title)) return true;
       if (!/[぀-ヿ一-鿿]/.test(title)) return true; // ひらがな・カタカナ・漢字が一つも無い
-      if (!p.spot) return true;
+      if (!p.spot || p.spot === UNCLASSIFIED_SPOT) return true;
       if (p.spot !== OTHER_SPOT && !(state.spots || []).some(s => s.name === p.spot)) return true;
       return false;
     }
@@ -1035,7 +1046,12 @@
       const hint = $('spotHeroHint');
       if (spotName === OTHER_SPOT) {
         thumb.innerHTML = '🗂️';
-        hint.textContent = '「どのスポットにも当てはまらない」写真として登録されます。あとで正しいスポットが決まったら、「写真管理」タブから直せます。';
+        hint.textContent = '「どのスポットにも当てはまらない」写真として登録されます（要確認にはなりません）。';
+        return;
+      }
+      if (spotName === UNCLASSIFIED_SPOT) {
+        thumb.innerHTML = '❔';
+        hint.textContent = '「まだ決めていない」写真として登録されます。要確認のままになるので、あとで「写真管理」タブから正しいスポット（分からなければ「その他」）に直してください。';
         return;
       }
       hint.textContent = 'スポットを選ぶと、そのスポットの代表写真が右に表示されます。選んだスポットで合っているか確認してください。';
@@ -1250,6 +1266,11 @@
       const reviewHint = $('photoSpotReviewHint');
       if (spotName === OTHER_SPOT) {
         thumb.innerHTML = '🗂️';
+        reviewHint.style.display = 'none';
+        return;
+      }
+      if (spotName === UNCLASSIFIED_SPOT) {
+        thumb.innerHTML = '❔';
         reviewHint.style.display = 'block';
         return;
       }
@@ -1275,7 +1296,9 @@
       renderRolesField('photoRoles', state.choices.roles || [], roleList);
       $('photoSortOrder').value = p.sortOrder || '';
       const spotOptions = Array.from($('photoSpot').options).map(o => o.value);
-      $('photoSpot').value = p.id ? (spotOptions.indexOf(p.spot) !== -1 ? p.spot : OTHER_SPOT) : '';
+      // p.spot が候補に無い場合（空欄・スポット名の変更などで孤立）は「その他」に化けさせず、
+      // あとで気づけるよう「未分類」を選んだ状態で開く（そのまま保存しても要確認が消えない）。
+      $('photoSpot').value = p.id ? (spotOptions.indexOf(p.spot) !== -1 ? p.spot : UNCLASSIFIED_SPOT) : '';
       updatePhotoSpotThumb();
       updateTitleReviewHint();
       renderPhotoPreview(p);
