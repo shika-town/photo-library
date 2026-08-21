@@ -3,7 +3,7 @@
 window.SPL_LIBRARY = {
   "meta": {
     "note": "photos.json と spots.json から自動生成しています。直接編集せず、scripts/build-library.py を実行してください。",
-    "count": 233
+    "count": 234
   },
   "photos": [
     {
@@ -123,14 +123,14 @@ window.SPL_LIBRARY = {
     },
     {
       "title": "尊保の桜並木",
-      "spot": "",
+      "spot": "その他",
       "spotId": null,
-      "area": "富来エリア",
+      "area": "",
       "season": "春",
       "tags": [
-        "春",
         "桜",
-        "花"
+        "花",
+        "春"
       ],
       "thumb": "assets/img/lib/P0007-new.jpg",
       "large": "assets/img/lib/P0007-new.jpg",
@@ -4027,7 +4027,6 @@ window.SPL_LIBRARY = {
       "area": "富来エリア",
       "season": "",
       "tags": [
-        "海",
         "夏",
         "道の駅"
       ],
@@ -4248,6 +4247,25 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "平家",
       "id": "P0059"
+    },
+    {
+      "title": "平家_12",
+      "spot": "平家",
+      "spotId": "taira",
+      "area": "志賀エリア",
+      "season": "",
+      "tags": [
+        "文化施設",
+        "名所旧跡",
+        "庭園"
+      ],
+      "thumb": "assets/img/lib/P0063-thumb.jpg",
+      "large": "assets/img/lib/P0063-large.jpg",
+      "alt": "平家_12",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "平家",
+      "id": "P0063"
     },
     {
       "title": "心字池と築山",
@@ -4481,19 +4499,19 @@ window.SPL_LIBRARY = {
       "id": "P0184"
     },
     {
-      "title": "平家",
+      "title": "平家_11",
       "spot": "平家",
       "spotId": "taira",
       "area": "志賀エリア",
       "season": "",
       "tags": [
-        "庭園",
+        "文化施設",
         "名所旧跡",
-        "文化施設"
+        "庭園"
       ],
       "thumb": "assets/img/lib/P0185-thumb.jpg",
       "large": "assets/img/lib/P0185-large.jpg",
-      "alt": "平家",
+      "alt": "平家_11",
       "credit": "© 志賀町",
       "photographer": "志賀町",
       "source": "平家",

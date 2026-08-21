@@ -2706,7 +2706,6 @@
           "large": "../assets/img/lib/P0347-large.jpg",
           "caption": "道の駅とぎ海街道_さざえ",
           "tags": [
-            "海",
             "夏",
             "道の駅"
           ]
@@ -2885,6 +2884,17 @@
           ]
         },
         {
+          "id": "P0063",
+          "thumb": "../assets/img/lib/P0063-thumb.jpg",
+          "large": "../assets/img/lib/P0063-large.jpg",
+          "caption": "平家_12",
+          "tags": [
+            "文化施設",
+            "名所旧跡",
+            "庭園"
+          ]
+        },
+        {
           "id": "P0060",
           "thumb": "../assets/img/lib/P0060-thumb.jpg",
           "large": "../assets/img/lib/P0060-large.jpg",
@@ -3023,15 +3033,15 @@
           "id": "P0185",
           "thumb": "../assets/img/lib/P0185-thumb.jpg",
           "large": "../assets/img/lib/P0185-large.jpg",
-          "caption": "平家",
+          "caption": "平家_11",
           "tags": [
-            "庭園",
+            "文化施設",
             "名所旧跡",
-            "文化施設"
+            "庭園"
           ]
         }
       ],
-      "count": 14
+      "count": 15
     },
     {
       "id": "matsuo",

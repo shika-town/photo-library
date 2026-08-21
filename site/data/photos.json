@@ -67,13 +67,13 @@
       "label": "夕陽",
       "query": "夕陽",
       "image": "assets/img/lib/P0063-scene.jpg",
-      "alt": "岩の間に沈む夕陽"
+      "alt": "平家_12"
     },
     {
       "label": "海",
       "query": "海",
-      "image": "assets/img/lib/P0064-scene.jpg",
-      "alt": "エメラルドグリーンの入り江"
+      "image": "",
+      "alt": "海"
     },
     {
       "label": "空撮",
@@ -189,13 +189,13 @@
     {
       "id": "P0007",
       "title": "尊保の桜並木",
-      "spot": "",
-      "area": "富来エリア",
+      "spot": "その他",
+      "area": "",
       "season": "春",
       "tags": [
-        "春",
         "桜",
-        "花"
+        "花",
+        "春"
       ],
       "image": "assets/img/lib/P0007-new.jpg",
       "alt": "満開の桜が続く春の並木道"
