@@ -62,7 +62,10 @@ for i, p in enumerate(PHOTOS):
     rows_html = ''.join(
         '<div class="photometa__row"><p class="photometa__label">%s</p><p class="photometa__value">%s</p></div>' % (a, b)
         for a, b in rows)
-    tags_html = ''.join('<a class="tag" href="../search.html?q=%s">#%s</a>'
+    # タグは自由文検索（q=）ではなく、そのタグが実際に付いている写真だけに絞り込む
+    # 専用パラメータ（tag=）にリンクする（タイトルやスポット名にたまたま同じ文字が
+    # 含まれる無関係な写真まで拾ってしまうのを防ぐため）。
+    tags_html = ''.join('<a class="tag" href="../search.html?tag=%s">#%s</a>'
                         % (urllib.parse.quote(t), E(t)) for t in p['tags'])
 
     terms_html = ''.join('<li>・%s</li>' % E(t) for t in TERMS)

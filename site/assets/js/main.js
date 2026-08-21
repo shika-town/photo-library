@@ -142,6 +142,17 @@
     if (!q || !q.trim()) return;
     location.href = 'search.html?q=' + encodeURIComponent(q.trim());
   }
+  // タグ・シーンのクリックは自由文検索（q=）ではなく、そのタグが実際に付いている
+  // 写真だけに絞り込む専用パラメータ（tag=）を使う。タイトルやスポット名にたまたま
+  // 同じ文字が含まれるだけの無関係な写真まで拾ってしまうのを防ぐため。
+  function goTagSearch(tag) {
+    if (!tag || !tag.trim()) return;
+    location.href = 'search.html?tag=' + encodeURIComponent(tag.trim());
+  }
+  function goSeasonSearch(season) {
+    if (!season || !season.trim()) return;
+    location.href = 'search.html?season=' + encodeURIComponent(season.trim());
+  }
 
   /* =====================================================================
      UI
@@ -234,7 +245,8 @@
         var t = e.target.closest('[data-query]');
         if (!t) return;
         e.preventDefault();
-        goSearch(t.dataset.query);
+        if (t.classList.contains('season-card')) goSeasonSearch(t.dataset.query);
+        else goTagSearch(t.dataset.query);
       });
 
     }).catch(function (err) {

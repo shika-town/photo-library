@@ -40,6 +40,14 @@
     var hay = [p.title, p.spot, p.area, p.season].concat(p.tags || []).join(' ').toLowerCase();
     return hay.indexOf(q) !== -1;
   }
+  // タグ・季節での絞り込みは、タイトルやスポット名にたまたま同じ文字が含まれるだけの
+  // 無関係な写真を拾わないよう、完全一致でのみ判定する（自由文検索の match() とは別）。
+  function matchTag(p, tag) {
+    return (p.tags || []).indexOf(tag) !== -1;
+  }
+  function matchSeason(p, season) {
+    return String(p.season || '') === season;
+  }
 
   function pager(page, total) {
     if (total <= 1) return '';
@@ -77,11 +85,15 @@
 
     var params = new URLSearchParams(location.search);
     var q = (params.get('q') || '').trim();
+    var tag = (params.get('tag') || '').trim();
+    var season = (params.get('season') || '').trim();
     var page = Math.max(1, parseInt(params.get('page') || '1', 10) || 1);
     var area = params.get('area') || 'all';
+    // 表示・検索欄への反映用（タグ／季節で来た場合もそのキーワードを見せる）
+    var displayQuery = tag || season || q;
 
-    $('#searchInput').value = q;
-    document.title = (q ? '「' + q + '」の検索結果' : '写真から探す') + '｜SHIKA PHOTO LIBRARY';
+    $('#searchInput').value = displayQuery;
+    document.title = (displayQuery ? '「' + displayQuery + '」の検索結果' : '写真から探す') + '｜SHIKA PHOTO LIBRARY';
 
     $('#searchForm').addEventListener('submit', function (e) {
       e.preventDefault();
@@ -91,7 +103,12 @@
 
     loadLibrary().then(function (lib) {
       var all = lib.photos;
-      var hits = q ? all.filter(function (p) { return match(p, q.toLowerCase()); }) : all.slice();
+      // タグ・季節はそのタグ／季節が実際に付いている写真だけに絞る完全一致、
+      // 自由文検索（q）はタイトル・スポット名なども含めたあいまい検索。
+      var hits = tag ? all.filter(function (p) { return matchTag(p, tag); })
+        : season ? all.filter(function (p) { return matchSeason(p, season); })
+        : q ? all.filter(function (p) { return match(p, q.toLowerCase()); })
+        : all.slice();
       var areas = [];
       hits.forEach(function (p) { if (areas.indexOf(p.area) === -1) areas.push(p.area); });
 
@@ -108,10 +125,10 @@
       var totalPages = Math.max(1, Math.ceil(list.length / PER_PAGE));
       page = Math.min(page, totalPages);
 
-      $('#searchTitle').textContent = q ? '「' + q + '」の検索結果' : '写真から探す';
+      $('#searchTitle').textContent = displayQuery ? '「' + displayQuery + '」の検索結果' : '写真から探す';
       $('#searchCount').innerHTML = '<strong>' + list.length + '</strong>枚の写真' +
         (totalPages > 1 ? '（' + page + ' / ' + totalPages + ' ページ）' : '');
-      $('#resetLink').hidden = !q && area === 'all';
+      $('#resetLink').hidden = !displayQuery && area === 'all';
 
       if (!list.length) {
         $('#photoGrid').innerHTML = '';
@@ -125,7 +142,9 @@
 
       function go(next) {
         var u = new URLSearchParams();
-        if (q) u.set('q', q);
+        if (tag) u.set('tag', tag);
+        else if (season) u.set('season', season);
+        else if (q) u.set('q', q);
         if (next.area !== undefined ? next.area !== 'all' : area !== 'all') u.set('area', next.area !== undefined ? next.area : area);
         if (next.page && next.page > 1) u.set('page', next.page);
         location.search = u.toString() ? '?' + u.toString() : '';
