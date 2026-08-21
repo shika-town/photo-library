@@ -70,9 +70,8 @@
           "caption": "上空から見た増穂浦海岸とベンチ",
           "tags": [
             "海",
-            "ベンチ",
-            "さくら貝",
-            "空撮"
+            "空撮",
+            "ベンチ"
           ]
         },
         {
@@ -82,8 +81,7 @@
           "caption": "海沿いに続くベンチ",
           "tags": [
             "海",
-            "ベンチ",
-            "さくら貝"
+            "ベンチ"
           ]
         },
         {
@@ -93,8 +91,7 @@
           "caption": "ベンチから望む日本海",
           "tags": [
             "海",
-            "ベンチ",
-            "さくら貝"
+            "ベンチ"
           ]
         },
         {
@@ -925,30 +922,9 @@
             "海",
             "岩"
           ]
-        },
-        {
-          "id": "P0267",
-          "thumb": "../assets/img/lib/P0267-thumb.jpg",
-          "large": "../assets/img/lib/P0267-large.jpg",
-          "caption": "DSC_4743",
-          "tags": []
-        },
-        {
-          "id": "P0268",
-          "thumb": "../assets/img/lib/P0268-thumb.jpg",
-          "large": "../assets/img/lib/P0268-large.jpg",
-          "caption": "DSC_4749",
-          "tags": []
-        },
-        {
-          "id": "P0269",
-          "thumb": "../assets/img/lib/P0269-thumb.jpg",
-          "large": "../assets/img/lib/P0269-large.jpg",
-          "caption": "DSC_4752",
-          "tags": []
         }
       ],
-      "count": 26
+      "count": 23
     },
     {
       "id": "gate",
@@ -2504,11 +2480,10 @@
           "large": "../assets/img/lib/P0049-large.jpg",
           "caption": "道の駅とぎ海街道の外観",
           "tags": [
-            "さくら貝",
             "文化施設",
+            "屋内",
             "体験",
-            "お土産",
-            "屋内"
+            "お土産"
           ]
         },
         {
@@ -2543,11 +2518,10 @@
           "large": "../assets/img/lib/P0052-large.jpg",
           "caption": "人気のソフトクリーム",
           "tags": [
-            "さくら貝",
             "文化施設",
+            "屋内",
             "体験",
-            "お土産",
-            "屋内"
+            "お土産"
           ]
         },
         {

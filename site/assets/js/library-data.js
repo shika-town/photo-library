@@ -3,7 +3,7 @@
 window.SPL_LIBRARY = {
   "meta": {
     "note": "photos.json と spots.json から自動生成しています。直接編集せず、scripts/build-library.py を実行してください。",
-    "count": 236
+    "count": 233
   },
   "photos": [
     {
@@ -148,9 +148,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "海",
-        "ベンチ",
-        "さくら貝",
-        "空撮"
+        "空撮",
+        "ベンチ"
       ],
       "thumb": "assets/img/lib/P0008-thumb.jpg",
       "large": "assets/img/lib/P0008-large.jpg",
@@ -168,8 +167,7 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "海",
-        "ベンチ",
-        "さくら貝"
+        "ベンチ"
       ],
       "thumb": "assets/img/lib/P0009-thumb.jpg",
       "large": "assets/img/lib/P0009-large.jpg",
@@ -187,8 +185,7 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "海",
-        "ベンチ",
-        "さくら貝"
+        "ベンチ"
       ],
       "thumb": "assets/img/lib/P0010-thumb.jpg",
       "large": "assets/img/lib/P0010-large.jpg",
@@ -1528,51 +1525,6 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "機具岩",
       "id": "P0218"
-    },
-    {
-      "title": "DSC_4743",
-      "spot": "機具岩",
-      "spotId": "hatago",
-      "area": "富来エリア",
-      "season": "",
-      "tags": [],
-      "thumb": "assets/img/lib/P0267-thumb.jpg",
-      "large": "assets/img/lib/P0267-large.jpg",
-      "alt": "DSC_4743",
-      "credit": "© 志賀町",
-      "photographer": "志賀町",
-      "source": "機具岩",
-      "id": "P0267"
-    },
-    {
-      "title": "DSC_4749",
-      "spot": "機具岩",
-      "spotId": "hatago",
-      "area": "富来エリア",
-      "season": "",
-      "tags": [],
-      "thumb": "assets/img/lib/P0268-thumb.jpg",
-      "large": "assets/img/lib/P0268-large.jpg",
-      "alt": "DSC_4749",
-      "credit": "© 志賀町",
-      "photographer": "志賀町",
-      "source": "機具岩",
-      "id": "P0268"
-    },
-    {
-      "title": "DSC_4752",
-      "spot": "機具岩",
-      "spotId": "hatago",
-      "area": "富来エリア",
-      "season": "",
-      "tags": [],
-      "thumb": "assets/img/lib/P0269-thumb.jpg",
-      "large": "assets/img/lib/P0269-large.jpg",
-      "alt": "DSC_4752",
-      "credit": "© 志賀町",
-      "photographer": "志賀町",
-      "source": "機具岩",
-      "id": "P0269"
     },
     {
       "title": "海岸から望む巌門",
@@ -3697,11 +3649,10 @@ window.SPL_LIBRARY = {
       "area": "富来エリア",
       "season": "",
       "tags": [
-        "さくら貝",
         "文化施設",
+        "屋内",
         "体験",
-        "お土産",
-        "屋内"
+        "お土産"
       ],
       "thumb": "assets/img/lib/P0049-thumb.jpg",
       "large": "assets/img/lib/P0049-large.jpg",
@@ -3760,11 +3711,10 @@ window.SPL_LIBRARY = {
       "area": "富来エリア",
       "season": "",
       "tags": [
-        "さくら貝",
         "文化施設",
+        "屋内",
         "体験",
-        "お土産",
-        "屋内"
+        "お土産"
       ],
       "thumb": "assets/img/lib/P0052-thumb.jpg",
       "large": "assets/img/lib/P0052-large.jpg",
