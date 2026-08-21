@@ -627,10 +627,12 @@ function _同じタイトルの写真ID(sh, col, title, selfId) {
 }
 
 function _写真ファイルを保存(file, spotName) {
-  if (typeof PHOTO_FOLDER_ID === 'undefined' || !PHOTO_FOLDER_ID) {
-    throw new Error('写真フォルダIDが未設定です。先に PHOTO_FOLDER_ID を設定してください。');
-  }
-  var root = DriveApp.getFolderById(PHOTO_FOLDER_ID);
+  // PHOTO_FOLDER_ID は「フォルダ取り込み.gs」など別のスクリプトで設定されている想定だが、
+  // 未設定でも写真登録自体は止めず、マイドライブのルートに保存する（そこにスポットごとの
+  // フォルダを作る）。整理された場所に保存したい場合は PHOTO_FOLDER_ID を設定してください。
+  var root = (typeof PHOTO_FOLDER_ID !== 'undefined' && PHOTO_FOLDER_ID)
+    ? DriveApp.getFolderById(PHOTO_FOLDER_ID)
+    : DriveApp.getRootFolder();
   var folder = root;
   if (spotName) {
     var found = root.getFoldersByName(spotName);
