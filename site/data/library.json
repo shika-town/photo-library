@@ -1,7 +1,7 @@
 {
   "meta": {
     "note": "photos.json と spots.json から自動生成しています。直接編集せず、scripts/build-library.py を実行してください。",
-    "count": 234
+    "count": 240
   },
   "photos": [
     {
@@ -2811,6 +2811,103 @@
       "id": "P0129"
     },
     {
+      "title": "岬をめぐる遊歩道",
+      "spot": "ヤセの断崖・義経の舟隠し",
+      "spotId": "yase",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "海",
+        "空撮",
+        "岩",
+        "断崖"
+      ],
+      "thumb": "assets/img/lib/P0130-thumb.jpg",
+      "large": "assets/img/lib/P0130-large.jpg",
+      "alt": "岬をめぐる遊歩道",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "ヤセの断崖・義経の舟隠し",
+      "id": "P0130"
+    },
+    {
+      "title": "切り立つ岩壁を上空から",
+      "spot": "ヤセの断崖・義経の舟隠し",
+      "spotId": "yase",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "海",
+        "空撮",
+        "岩",
+        "断崖"
+      ],
+      "thumb": "assets/img/lib/P0131-thumb.jpg",
+      "large": "assets/img/lib/P0131-large.jpg",
+      "alt": "切り立つ岩壁を上空から",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "ヤセの断崖・義経の舟隠し",
+      "id": "P0131"
+    },
+    {
+      "title": "上空から望む海岸の岩場",
+      "spot": "ヤセの断崖・義経の舟隠し",
+      "spotId": "yase",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "空撮",
+        "岩",
+        "断崖"
+      ],
+      "thumb": "assets/img/lib/P0132-thumb.jpg",
+      "large": "assets/img/lib/P0132-large.jpg",
+      "alt": "上空から望む海岸の岩場",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "ヤセの断崖・義経の舟隠し",
+      "id": "P0132"
+    },
+    {
+      "title": "断崖の上に立つ展望デッキ",
+      "spot": "ヤセの断崖・義経の舟隠し",
+      "spotId": "yase",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "空撮",
+        "岩",
+        "断崖"
+      ],
+      "thumb": "assets/img/lib/P0133-thumb.jpg",
+      "large": "assets/img/lib/P0133-large.jpg",
+      "alt": "断崖の上に立つ展望デッキ",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "ヤセの断崖・義経の舟隠し",
+      "id": "P0133"
+    },
+    {
+      "title": "海に突き出す断崖",
+      "spot": "ヤセの断崖・義経の舟隠し",
+      "spotId": "yase",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "空撮",
+        "岩",
+        "断崖"
+      ],
+      "thumb": "assets/img/lib/P0135-thumb.jpg",
+      "large": "assets/img/lib/P0135-large.jpg",
+      "alt": "海に突き出す断崖",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "ヤセの断崖・義経の舟隠し",
+      "id": "P0135"
+    },
+    {
       "title": "岩に切れ込む義経の舟隠し",
       "spot": "ヤセの断崖・義経の舟隠し",
       "spotId": "yase",
@@ -2866,6 +2963,24 @@
       "photographer": "志賀町",
       "source": "ヤセの断崖・義経の舟隠し",
       "id": "P0423"
+    },
+    {
+      "title": "ヤセの断崖_3",
+      "spot": "ヤセの断崖・義経の舟隠し",
+      "spotId": "yase",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "岩",
+        "断崖"
+      ],
+      "thumb": "assets/img/lib/P0505-thumb.jpg",
+      "large": "assets/img/lib/P0505-large.jpg",
+      "alt": "ヤセの断崖_3",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "ヤセの断崖・義経の舟隠し",
+      "id": "P0505"
     },
     {
       "title": "木造灯台ライトアップ",

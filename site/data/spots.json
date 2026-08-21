@@ -1807,6 +1807,63 @@
           ]
         },
         {
+          "id": "P0130",
+          "thumb": "../assets/img/lib/P0130-thumb.jpg",
+          "large": "../assets/img/lib/P0130-large.jpg",
+          "caption": "岬をめぐる遊歩道",
+          "tags": [
+            "海",
+            "空撮",
+            "岩",
+            "断崖"
+          ]
+        },
+        {
+          "id": "P0131",
+          "thumb": "../assets/img/lib/P0131-thumb.jpg",
+          "large": "../assets/img/lib/P0131-large.jpg",
+          "caption": "切り立つ岩壁を上空から",
+          "tags": [
+            "海",
+            "空撮",
+            "岩",
+            "断崖"
+          ]
+        },
+        {
+          "id": "P0132",
+          "thumb": "../assets/img/lib/P0132-thumb.jpg",
+          "large": "../assets/img/lib/P0132-large.jpg",
+          "caption": "上空から望む海岸の岩場",
+          "tags": [
+            "空撮",
+            "岩",
+            "断崖"
+          ]
+        },
+        {
+          "id": "P0133",
+          "thumb": "../assets/img/lib/P0133-thumb.jpg",
+          "large": "../assets/img/lib/P0133-large.jpg",
+          "caption": "断崖の上に立つ展望デッキ",
+          "tags": [
+            "空撮",
+            "岩",
+            "断崖"
+          ]
+        },
+        {
+          "id": "P0135",
+          "thumb": "../assets/img/lib/P0135-thumb.jpg",
+          "large": "../assets/img/lib/P0135-large.jpg",
+          "caption": "海に突き出す断崖",
+          "tags": [
+            "空撮",
+            "岩",
+            "断崖"
+          ]
+        },
+        {
           "id": "P0138",
           "thumb": "../assets/img/lib/P0138-thumb.jpg",
           "large": "../assets/img/lib/P0138-large.jpg",
@@ -1838,9 +1895,19 @@
             "岩",
             "断崖"
           ]
+        },
+        {
+          "id": "P0505",
+          "thumb": "../assets/img/lib/P0505-thumb.jpg",
+          "large": "../assets/img/lib/P0505-large.jpg",
+          "caption": "ヤセの断崖_3",
+          "tags": [
+            "岩",
+            "断崖"
+          ]
         }
       ],
-      "count": 9
+      "count": 15
     },
     {
       "id": "fukura",
