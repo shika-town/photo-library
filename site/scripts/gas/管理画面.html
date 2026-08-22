@@ -544,8 +544,8 @@
       <div class="card" style="margin-top:0;">
         <div class="card__head"><span class="card__num">?</span><span class="card__title">このタブでできること</span></div>
         <p class="card__sub" style="margin-bottom:10px;">
-          「公開サイトに表示する」がOFFになっている写真が並びます。<b>公開する</b>を押すとサイトに表示され、
-          <b>非公開のままにする</b>を押すと「確認済み・非公開」として下の一覧に移り、催促されなくなります（削除はされません）。
+          「公開サイトに表示する」がOFFになっている写真を、大きく見ながら1件ずつ確認できます。
+          <b>公開する</b>を押すとサイトに表示され、<b>非公開のままにする</b>を押すと催促されなくなります（削除はされません）。
         </p>
       </div>
 
@@ -556,11 +556,30 @@
         <button class="secondary" id="reload">再読み込み</button>
       </div>
 
-      <h2 class="group-title">🆕 新規登録・未確認 <span id="pendingNewCount" class="group-count"></span></h2>
-      <div id="pendingNew" class="pending"></div>
+      <div class="checks" id="pendingFilters" style="margin-top:8px;">
+        <label class="check filter-check"><input type="radio" name="pendingFilter" value="all" checked>すべて</label>
+        <label class="check filter-check"><input type="radio" name="pendingFilter" value="new">🆕 新規登録のみ</label>
+        <label class="check filter-check"><input type="radio" name="pendingFilter" value="hidden">🙈 非公開のままのみ</label>
+      </div>
 
-      <h2 class="group-title">🙈 確認済み・非公開のままの写真 <span id="pendingHiddenCount" class="group-count"></span></h2>
-      <div id="pendingHidden" class="pending"></div>
+      <div id="pendingGrid" class="photo-grid" style="margin-top:10px;"></div>
+      <div class="empty" id="pendingEmpty" style="display:none;">承認待ちの写真はありません。🎉</div>
+
+      <div id="pendingPreview" class="photo-preview">
+        <img id="pendingPreviewImg" alt="">
+        <div id="pendingPreviewMeta" class="meta"></div>
+      </div>
+
+      <div class="photo-nav" id="pendingNav" style="display:none;">
+        <button type="button" class="secondary" id="prevPending">◀ 前へ</button>
+        <span id="pendingNavPos" class="hint" style="margin:0;"></span>
+        <button type="button" class="secondary" id="nextPending">次へ ▶</button>
+      </div>
+
+      <div class="actions" id="pendingActions" style="display:none;">
+        <button class="primary" id="approvePublish">✅ 公開する</button>
+        <button class="secondary" id="approveHide">非公開のままにする</button>
+      </div>
     </section>
 
     <section id="tab-spot">
@@ -986,24 +1005,25 @@
       if (idx !== -1 && idx < filteredPhotoIds.length - 1) selectPhotoById(filteredPhotoIds[idx + 1]);
     });
 
-    function pendingItemHtml(p, i, isNewGroup) {
-      const thumb = p.previewUrl
-        ? '<img src="' + esc(p.previewUrl) + '" alt="" loading="lazy">'
-        : '🖼️';
-      const actions = isNewGroup
-        ? '<button class="primary" data-approve="' + i + '">✅ 公開する</button><button class="secondary" data-hide="' + i + '">非公開のままにする</button>'
-        : '<button class="primary" data-approve="' + i + '">✅ 公開する</button>';
-      return '<div class="item">' +
-        '<div class="item__thumb">' + thumb + '</div>' +
-        '<div class="item__body">' +
-          '<h3>' + esc(p.title || 'タイトル未入力') + '</h3>' +
-          '<div class="meta"><span class="pill">' + esc(p.sheet) + '</span>' + esc(p.id || '新規') + ' / ' + esc(p.spot || 'スポット未設定') + '</div>' +
-          (p.note ? '<p class="meta">' + esc(p.note) + '</p>' : '') +
-          '<div class="actions">' + actions + '</div>' +
+    function pendingCardHtml(p, idx) {
+      const img = p.previewUrl
+        ? '<img class="photo-card__img" src="' + esc(p.previewUrl) + '" alt="" loading="lazy">'
+        : '<div class="photo-card__img empty-img">🖼️</div>';
+      const flag = p.isNew !== false ? '<span class="photo-card__flag" title="新規登録・未確認">🆕</span>' : '';
+      return '<button type="button" class="photo-card" data-idx="' + idx + '">' +
+        flag + img +
+        '<div class="photo-card__body">' +
+          '<div class="photo-card__id">' + esc(p.id || '新規') + '</div>' +
+          '<div class="photo-card__title">' + esc(p.title || 'タイトル未入力') + '</div>' +
         '</div>' +
-      '</div>';
+      '</button>';
     }
 
+    let pendingFilteredIdx = [];
+    let currentPendingPos = 0;
+    let pendingFallbackPos = null;
+
+    // 一覧に戻らなくても続けて承認できるよう、絞り込み後の並びの中で前後に移動する
     function renderPending() {
       const list = state.pending || [];
       const badge = $('pendingBadge');
@@ -1013,26 +1033,91 @@
       if (newList.length) { badge.style.display = 'flex'; badge.textContent = newList.length > 99 ? '99+' : newList.length; }
       else { badge.style.display = 'none'; }
       $('pendingSummary').textContent = '未確認 ' + newList.length + '件 ／ 非公開のまま ' + hiddenList.length + '件';
-      $('pendingNewCount').textContent = '(' + newList.length + '件)';
-      $('pendingHiddenCount').textContent = '(' + hiddenList.length + '件)';
 
-      $('pendingNew').innerHTML = newList.length
-        ? list.map((p, i) => p.isNew !== false ? pendingItemHtml(p, i, true) : '').join('')
-        : '<div class="empty">未確認の新規登録はありません。🎉</div>';
-      $('pendingHidden').innerHTML = hiddenList.length
-        ? list.map((p, i) => p.isNew === false ? pendingItemHtml(p, i, false) : '').join('')
-        : '<div class="empty">確認済みで非公開のままの写真はありません。</div>';
+      const filter = (document.querySelector('input[name="pendingFilter"]:checked') || {}).value || 'all';
+      pendingFilteredIdx = list.map((p, i) => i).filter(i => {
+        if (filter === 'new') return list[i].isNew !== false;
+        if (filter === 'hidden') return list[i].isNew === false;
+        return true;
+      });
 
-      document.querySelectorAll('[data-approve]').forEach(b => b.onclick = () => approve(Number(b.dataset.approve), true));
-      document.querySelectorAll('[data-hide]').forEach(b => b.onclick = () => approve(Number(b.dataset.hide), false));
+      $('pendingGrid').innerHTML = pendingFilteredIdx.map(i => pendingCardHtml(list[i], i)).join('');
+      $('pendingEmpty').style.display = pendingFilteredIdx.length ? 'none' : 'block';
+      $('pendingGrid').querySelectorAll('[data-idx]').forEach(btn => {
+        btn.addEventListener('click', () => selectPendingByIndex(Number(btn.dataset.idx)));
+      });
+
+      if (!pendingFilteredIdx.length) {
+        pendingFallbackPos = null;
+        $('pendingPreview').classList.remove('active');
+        $('pendingNav').style.display = 'none';
+        $('pendingActions').style.display = 'none';
+        return;
+      }
+      let pos = pendingFallbackPos !== null ? Math.min(pendingFallbackPos, pendingFilteredIdx.length - 1) : 0;
+      pendingFallbackPos = null;
+      selectPendingByPos(pos);
     }
+
+    function selectPendingByPos(pos) {
+      currentPendingPos = pos;
+      const idx = pendingFilteredIdx[pos];
+      const p = state.pending[idx];
+      $('pendingGrid').querySelectorAll('.photo-card').forEach(c => c.classList.toggle('selected', Number(c.dataset.idx) === idx));
+
+      const img = $('pendingPreviewImg');
+      const box = $('pendingPreview');
+      if (p.previewUrl) { img.src = p.previewUrl; img.alt = p.title || ''; box.classList.add('active'); }
+      else { box.classList.remove('active'); img.removeAttribute('src'); }
+      $('pendingPreviewMeta').innerHTML =
+        '<div><b>' + esc(p.title || 'タイトル未入力') + '</b></div>' +
+        '<div>' + esc([p.id || '新規', p.spot || 'スポット未設定'].join(' / ')) + '</div>' +
+        (p.note ? '<div class="hint" style="margin:4px 0 0;">' + esc(p.note) + '</div>' : '') +
+        '<div class="status-line">' +
+          '<span class="status ' + (p.isNew !== false ? 'warn' : 'off') + '">' + (p.isNew !== false ? '🆕 未確認' : '🙈 非公開のまま') + '</span>' +
+          '<span class="status">' + esc(p.sheet) + '</span>' +
+        '</div>';
+
+      const show = pendingFilteredIdx.length > 1;
+      $('pendingNav').style.display = show ? 'flex' : 'none';
+      if (show) {
+        $('pendingNavPos').textContent = (pos + 1) + ' / ' + pendingFilteredIdx.length + '件';
+        $('prevPending').disabled = pos <= 0;
+        $('nextPending').disabled = pos >= pendingFilteredIdx.length - 1;
+      }
+
+      $('pendingActions').style.display = 'flex';
+      // 「確認済み・非公開」は既に非公開判断済みなので、もう一度「非公開のままにする」を出す必要はない
+      $('approveHide').style.display = p.isNew !== false ? 'inline-block' : 'none';
+      $('approvePublish').onclick = () => approve(idx, true);
+      $('approveHide').onclick = () => approve(idx, false);
+    }
+
+    function selectPendingByIndex(idx) {
+      const pos = pendingFilteredIdx.indexOf(idx);
+      if (pos !== -1) selectPendingByPos(pos);
+    }
+
+    document.querySelectorAll('input[name="pendingFilter"]').forEach(r => r.addEventListener('change', renderPending));
+    $('prevPending').addEventListener('click', () => { if (currentPendingPos > 0) selectPendingByPos(currentPendingPos - 1); });
+    $('nextPending').addEventListener('click', () => { if (currentPendingPos < pendingFilteredIdx.length - 1) selectPendingByPos(currentPendingPos + 1); });
 
     function approve(i, approved) {
       const p = state.pending[i];
+      pendingFallbackPos = currentPendingPos;
+      $('approvePublish').disabled = true;
+      $('approveHide').disabled = true;
       google.script.run.withSuccessHandler(res => {
         notice(res.message, true);
         load();
-      }).withFailureHandler(e => notice(e.message, false)).承認状態を変更する({
+        $('approvePublish').disabled = false;
+        $('approveHide').disabled = false;
+      }).withFailureHandler(e => {
+        pendingFallbackPos = null;
+        notice(e.message, false);
+        $('approvePublish').disabled = false;
+        $('approveHide').disabled = false;
+      }).承認状態を変更する({
         sheet: p.sheet,
         rowNumber: p.rowNumber,
         id: p.id,
@@ -1317,6 +1402,7 @@
       const spotVal = $('photoSpot').value || p.spot;
       const publish = $('photoPublish').checked;
       const download = $('photoDownload').checked;
+      const isNew = checked('photoRoles').indexOf('新着') !== -1;
       img.src = p.previewUrl;
       img.alt = title;
       $('photoPreviewMeta').innerHTML =
@@ -1325,9 +1411,21 @@
         '<div class="status-line">' +
           '<span class="status ' + (publish ? 'on' : 'off') + '">' + (publish ? '表示中' : '非表示') + '</span>' +
           '<span class="status ' + (download ? 'on' : 'off') + '">' + (download ? 'ダウンロード対象' : '対象外') + '</span>' +
-        '</div>';
+        '</div>' +
+        '<p class="hint" style="margin:6px 0 0;">' + esc(whereShown(spotVal, publish, isNew)) + '</p>';
       box.classList.add('active');
       $('photoPreviewHint').style.display = 'block';
+    }
+
+    // 「今どこに表示されるか」を1行で説明する（公開中の写真の管理をしやすくするため）
+    function whereShown(spotVal, publish, isNew) {
+      if (!publish) return '非公開サイトには表示されません。';
+      var places = [];
+      if (spotVal === OTHER_SPOT) places.push('「写真から探す」でのみ見つかります（特定のスポットには属しません）');
+      else if (spotVal === UNCLASSIFIED_SPOT || !spotVal) places.push('⚠️ スポットが未分類のため、公開されても一覧に出づらい状態です');
+      else places.push('「' + spotVal + '」の写真一覧に表示されます');
+      if (isNew) places.push('トップページの新着欄にも表示されます（先頭6枚まで）');
+      return places.join(' ／ ');
     }
     function updateLivePreview() { renderPhotoPreview(currentPhoto()); }
     $('photoSpot').addEventListener('change', () => { updatePhotoSpotThumb(); updateLivePreview(); });
