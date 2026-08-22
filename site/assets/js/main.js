@@ -100,13 +100,38 @@
       '</span></a>';
   }
 
+  var HERO_INTERVAL_MS = 5000;
+  var heroTimer = null;
+
+  // ヒーロー画像：1枚だけならこれまで通りの静止画、2枚以上なら数秒おきに
+  // クロスフェードで切り替わるスライドショーになる。
+  function renderHero(hero) {
+    var media = $('#heroMedia');
+    var images = (hero.images && hero.images.length) ? hero.images : [{ image: hero.image, alt: hero.alt }];
+    media.innerHTML = images.map(function (im, i) {
+      return '<img class="hero__slide' + (i === 0 ? ' is-active' : '') + '" ' +
+        'src="' + esc(withFallback(im.image, FALLBACK_IMAGES.hero)) + '" alt="' + esc(im.alt || hero.alt || '') + '" ' +
+        (i === 0 ? 'fetchpriority="high"' : 'loading="lazy"') + ' width="2400" height="1350">';
+    }).join('');
+
+    if (heroTimer) { clearInterval(heroTimer); heroTimer = null; }
+    if (images.length > 1) {
+      var idx = 0;
+      var slides = $$('.hero__slide', media);
+      heroTimer = setInterval(function () {
+        slides[idx].classList.remove('is-active');
+        idx = (idx + 1) % slides.length;
+        slides[idx].classList.add('is-active');
+      }, HERO_INTERVAL_MS);
+    }
+  }
+
   /* =====================================================================
      描画
      ===================================================================== */
   function render(d) {
     $('#heroTitle').innerHTML = d.hero.title.map(function (t) { return '<span>' + esc(t) + '</span>'; }).join('');
-    $('#heroImg').src = withFallback(d.hero.image, FALLBACK_IMAGES.hero);
-    $('#heroImg').alt = d.hero.alt || '';
+    renderHero(d.hero);
     $('#heroCaption').querySelector('span').textContent = d.hero.caption;
     document.title = d.site.name + '｜' + d.site.nameJa;
 

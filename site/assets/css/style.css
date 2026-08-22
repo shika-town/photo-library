@@ -148,6 +148,12 @@ h1, h2, h3, p { margin: 0; }
   height: min(56.25vw, 84vh); min-height: 460px; overflow: hidden;
 }
 .hero__media img { width: 100%; height: 100%; object-fit: cover; }
+/* 複数枚あるときはスライドショー：重ねて置いて、透明度でクロスフェードする */
+.hero__media .hero__slide { position: absolute; inset: 0; opacity: 0; transition: opacity 1.2s ease; }
+.hero__media .hero__slide.is-active { opacity: 1; }
+@media (prefers-reduced-motion: reduce) {
+  .hero__media .hero__slide { transition: none; }
+}
 .hero__media::after { content: ""; position: absolute; inset: 0; background: rgba(0, 0, 0, .35); }
 
 .hero__body {

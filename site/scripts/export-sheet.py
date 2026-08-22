@@ -285,7 +285,7 @@ SITE_ROWS = [
     ('tagline',     '説明文',                 top['site']['tagline'],'検索結果やSNSに出る説明です。'),
     ('heroTitle1',  'キャッチコピー1行目',    top['hero']['title'][0], 'トップの大きな文字（1行目）。'),
     ('heroTitle2',  'キャッチコピー2行目',    top['hero']['title'][1] if len(top['hero']['title']) > 1 else '', 'トップの大きな文字（2行目）。'),
-    ('heroPhotoId', 'トップの大きな写真',     next((r['id'] for r in rows if r['localPath'].endswith('bench-01-lg.jpg')), 'P0009'), '「写真」シートのidを入れます。'),
+    ('heroPhotoId', 'トップの大きな写真',     next((r['id'] for r in rows if r['localPath'].endswith('bench-01-lg.jpg')), 'P0009'), '「写真」シートのidを入れます。カンマ区切りで最大3枚まで指定すると、5秒おきに切り替わるスライドショーになります（例：P0009,P0001,P0020）。'),
     ('heroCaption', '写真の撮影地表示',       top['hero']['caption'], '大きな写真の右下に出ます。'),
     ('heroTags',    '人気のタグ',             ','.join(top['heroTags']), '検索ボックスの下に並ぶタグ。カンマ区切り。'),
     ('copyright',   '著作権表示',             top['site']['copyright'], 'フッターの一番下に出ます。'),

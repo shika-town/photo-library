@@ -396,7 +396,15 @@ def main():
             'alt': p.get('description', p['title']),
         })
 
-    _, hero_img = img(site.get('heroPhotoId', ''), 'hero')
+    # トップのヒーロー画像はスライドショー対応。heroPhotoId にカンマ区切りで
+    # 最大3枚まで指定できる（1枚だけ指定した場合は今までどおり静止画として動く）。
+    hero_ids = split(site.get('heroPhotoId', ''))[:3]
+    hero_images = []
+    for hid in hero_ids:
+        hp, hpath = img(hid, 'hero')
+        if hpath:
+            hero_images.append({'image': hpath, 'alt': (hp or {}).get('title', '') or site.get('heroCaption', '')})
+    hero_img = hero_images[0]['image'] if hero_images else ''
     spot_cards = []
     for s in spots_out[:4]:
         spot_cards.append({'id': s['id'], 'name': s['name'], 'area': s['area'], 'count': s['count'],
@@ -407,7 +415,7 @@ def main():
                  'tagline': site.get('tagline', ''), 'copyright': site.get('copyright', '')},
         'hero': {'title': [t for t in (site.get('heroTitle1', ''), site.get('heroTitle2', '')) if t],
                  'image': hero_img or '', 'alt': site.get('heroCaption', ''),
-                 'caption': site.get('heroCaption', '')},
+                 'images': hero_images, 'caption': site.get('heroCaption', '')},
         'heroTags': split(site.get('heroTags')),
         'spots': spot_cards,
         'scenes': [], 'photos': new_photos, 'seasons': [],
