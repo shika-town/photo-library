@@ -15,6 +15,12 @@ window.SPL_DATA = {
     ],
     "image": "assets/img/lib/P0009-hero.jpg",
     "alt": "世界一長いベンチ／増穂浦海岸",
+    "images": [
+      {
+        "image": "assets/img/lib/P0009-hero.jpg",
+        "alt": "海沿いに続くベンチ"
+      }
+    ],
     "caption": "世界一長いベンチ／増穂浦海岸"
   },
   "heroTags": [
