@@ -291,8 +291,25 @@ function 写真を削除する(payload) {
 
   var deletedId = String(sh.getRange(rowNumber, col.id + 1).getValue() || '').trim() || id;
   if (id && deletedId !== id) throw new Error('削除対象の特定に失敗しました（安全のため中止しました）。もう一度お試しください。');
+  var deletedDriveId = col.driveFileId !== undefined
+    ? String(sh.getRange(rowNumber, col.driveFileId + 1).getValue() || '').trim() : '';
   sh.deleteRow(rowNumber);
-  return { ok: true, message: (deletedId || '写真') + ' を削除しました。写真ファイルの実体はGoogleドライブに残っています。' };
+  // 「フォルダ取り込み」を使っている場合、写真ファイルの実体はドライブに残ったままなので、
+  // 除外リストに控えておかないと次の自動巡回で「新しい写真」として再登録されてしまう。
+  if (deletedDriveId) _取り込み除外に追加する(ss, deletedDriveId, deletedId);
+  return { ok: true, message: (deletedId || '写真') + ' を削除しました。写真ファイルの実体はGoogleドライブに残っていますが、'
+    + '「フォルダ取り込み」で再登録されることはありません。' };
+}
+
+/** 「フォルダ取り込み」が同じ写真を二度と拾わないよう、削除したドライブファイルIDを控えておく。
+ * 「取り込み除外」タブが無い環境（フォルダ取り込みを使っていない）でも壊れないよう、無ければ作る。 */
+function _取り込み除外に追加する(ss, driveFileId, deletedId) {
+  var sh = ss.getSheetByName('取り込み除外');
+  if (!sh) {
+    sh = ss.insertSheet('取り込み除外');
+    sh.getRange(1, 1, 1, 3).setValues([['driveFileId', '削除した写真ID', '削除日']]);
+  }
+  sh.appendRow([driveFileId, deletedId || '', Utilities.formatDate(new Date(), 'JST', 'yyyy-MM-dd')]);
 }
 
 function スポットを追加する(payload) {

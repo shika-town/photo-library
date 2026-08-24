@@ -313,14 +313,19 @@ def main():
     _orphan_spot_photos = [p for p in photos
                             if str(p.get('spot', '')).strip() and str(p.get('spot', '')).strip() not in _spot_names]
     if _orphan_spot_photos:
-        print('\n  ！ どのスポットとも一致しない「スポット」欄の写真が %d枚あります（ギャラリーに出ません）:'
+        print('\n  ！ どのスポットとも一致しない「スポット」欄の写真が %d枚あります（「その他」スポットにまとめます）:'
               % len(_orphan_spot_photos))
         for p in _orphan_spot_photos[:20]:
             print('      %s: 「%s」（スポット「%s」）' % (p.get('id'), p.get('title', ''), p.get('spot', '')))
         if len(_orphan_spot_photos) > 20:
             print('      …ほか %d枚' % (len(_orphan_spot_photos) - 20))
-        print('    管理画面の「写真管理」タブで⚠️要確認として表示されます。スポット名の変更・削除・'
-              '入力ミスがないか確認してください。')
+        print('    管理画面の「写真管理」タブで⚠️要確認として表示されます。本来のスポット名に直せば、'
+              'そのスポットのギャラリーに移動します。')
+        # 入力ミスや削除されたスポット名など、理由を問わず「一致するスポットが無い」写真は、
+        # 完全にサイトから見えなくなってしまわないよう「その他」スポットにまとめて掲載する。
+        if 'その他' not in _spot_names:
+            spots.append({'id': 'other', 'name': 'その他', 'area': '',
+                          'catch': '特定の観光スポットに属さない写真をまとめて掲載しています。'})
 
     print('  画像を書き出しています…')
     # ---- スポット ----

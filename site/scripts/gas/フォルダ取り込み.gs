@@ -59,6 +59,9 @@ function フォルダを確認する() {
     var m = String(r[col.id] || '').match(/^([A-Za-z]*)(\d+)$/);
     if (m) maxNo = Math.max(maxNo, parseInt(m[2], 10));
   });
+  // 管理画面から一度「削除」した写真は、ファイル自体はドライブに残るため、
+  // 除外リストに載っているファイルIDも「登録済み」として扱い、二度と取り込まない。
+  _除外済みIDを読む(ss).forEach(function (fid) { known[fid] = true; });
 
   // スポット名 → エリア名 の対応表
   var areaOf = {};
@@ -115,6 +118,16 @@ function フォルダを確認する() {
   _お知らせメール(added);
 }
 
+
+/** 管理画面で削除された写真の、除外リスト（「取り込み除外」タブ）を読む。
+ * タブが無い場合（管理画面の削除機能をまだ一度も使っていない）は空リストを返す。 */
+function _除外済みIDを読む(ss) {
+  var sh = ss.getSheetByName('取り込み除外');
+  if (!sh || sh.getLastRow() < 2) return [];
+  return sh.getRange(2, 1, sh.getLastRow() - 1, 1).getValues()
+    .map(function (r) { return String(r[0] || '').trim(); })
+    .filter(Boolean);
+}
 
 /** フォルダ1つ分の画像を読む */
 function _フォルダ内を読む(folder, spotName, known, areaOf) {

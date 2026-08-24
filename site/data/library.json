@@ -1,7 +1,7 @@
 {
   "meta": {
     "note": "photos.json と spots.json から自動生成しています。直接編集せず、scripts/build-library.py を実行してください。",
-    "count": 277
+    "count": 404
   },
   "photos": [
     {
@@ -121,7 +121,7 @@
     {
       "title": "尊保の桜並木",
       "spot": "その他",
-      "spotId": null,
+      "spotId": "other",
       "area": "",
       "season": "春",
       "tags": [
@@ -129,8 +129,8 @@
         "花",
         "春"
       ],
-      "thumb": "assets/img/lib/P0007-new.jpg",
-      "large": "assets/img/lib/P0007-new.jpg",
+      "thumb": "assets/img/lib/P0007-thumb.jpg",
+      "large": "assets/img/lib/P0007-large.jpg",
       "alt": "満開の桜が続く春の並木道",
       "credit": "© 志賀町",
       "photographer": "志賀町",
@@ -5328,6 +5328,2390 @@
       "photographer": "志賀町",
       "source": "松尾神社",
       "id": "P0145"
+    },
+    {
+      "title": "ヤセの断崖_4",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "海",
+        "岩",
+        "断崖"
+      ],
+      "thumb": "assets/img/lib/P0533-thumb.jpg",
+      "large": "assets/img/lib/P0533-large.jpg",
+      "alt": "ヤセの断崖_4",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0533"
+    },
+    {
+      "title": "高爪山_3",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "能登富士",
+        "山"
+      ],
+      "thumb": "assets/img/lib/P0548-thumb.jpg",
+      "large": "assets/img/lib/P0548-large.jpg",
+      "alt": "高爪山_3",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0548"
+    },
+    {
+      "title": "高爪山_4",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "能登富士",
+        "山"
+      ],
+      "thumb": "assets/img/lib/P0549-thumb.jpg",
+      "large": "assets/img/lib/P0549-large.jpg",
+      "alt": "高爪山_4",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0549"
+    },
+    {
+      "title": "高爪山_5",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "能登富士",
+        "山"
+      ],
+      "thumb": "assets/img/lib/P0550-thumb.jpg",
+      "large": "assets/img/lib/P0550-large.jpg",
+      "alt": "高爪山_5",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0550"
+    },
+    {
+      "title": "高爪山_6",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "能登富士",
+        "山"
+      ],
+      "thumb": "assets/img/lib/P0551-thumb.jpg",
+      "large": "assets/img/lib/P0551-large.jpg",
+      "alt": "高爪山_6",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0551"
+    },
+    {
+      "title": "高爪山_7",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "花",
+        "青空",
+        "能登富士",
+        "山"
+      ],
+      "thumb": "assets/img/lib/P0552-thumb.jpg",
+      "large": "assets/img/lib/P0552-large.jpg",
+      "alt": "高爪山_7",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0552"
+    },
+    {
+      "title": "高爪山_8",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "花",
+        "能登富士",
+        "山"
+      ],
+      "thumb": "assets/img/lib/P0553-thumb.jpg",
+      "large": "assets/img/lib/P0553-large.jpg",
+      "alt": "高爪山_8",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0553"
+    },
+    {
+      "title": "青空に泳ぐこいのぼり",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "青空",
+        "春",
+        "こいのぼり"
+      ],
+      "thumb": "assets/img/lib/P0115-thumb.jpg",
+      "large": "assets/img/lib/P0115-large.jpg",
+      "alt": "青空に泳ぐこいのぼり",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0115"
+    },
+    {
+      "title": "連なるこいのぼり",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "青空",
+        "春",
+        "こいのぼり"
+      ],
+      "thumb": "assets/img/lib/P0116-thumb.jpg",
+      "large": "assets/img/lib/P0116-large.jpg",
+      "alt": "連なるこいのぼり",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0116"
+    },
+    {
+      "title": "芝生を泳ぐこいのぼり",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "青空",
+        "春",
+        "こいのぼり"
+      ],
+      "thumb": "assets/img/lib/P0117-thumb.jpg",
+      "large": "assets/img/lib/P0117-large.jpg",
+      "alt": "芝生を泳ぐこいのぼり",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0117"
+    },
+    {
+      "title": "藤とつつじに包まれる家",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "花",
+        "春",
+        "つつじ"
+      ],
+      "thumb": "assets/img/lib/P0118-thumb.jpg",
+      "large": "assets/img/lib/P0118-large.jpg",
+      "alt": "藤とつつじに包まれる家",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0118"
+    },
+    {
+      "title": "赤と紫のつつじ",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "花",
+        "春",
+        "つつじ"
+      ],
+      "thumb": "assets/img/lib/P0119-thumb.jpg",
+      "large": "assets/img/lib/P0119-large.jpg",
+      "alt": "赤と紫のつつじ",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0119"
+    },
+    {
+      "title": "石灯籠とつつじの庭",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "庭園",
+        "春",
+        "つつじ"
+      ],
+      "thumb": "assets/img/lib/P0120-thumb.jpg",
+      "large": "assets/img/lib/P0120-large.jpg",
+      "alt": "石灯籠とつつじの庭",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0120"
+    },
+    {
+      "title": "つつじが彩る庭園",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "庭園",
+        "春",
+        "つつじ"
+      ],
+      "thumb": "assets/img/lib/P0121-thumb.jpg",
+      "large": "assets/img/lib/P0121-large.jpg",
+      "alt": "つつじが彩る庭園",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0121"
+    },
+    {
+      "title": "松とつつじの庭",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "庭園",
+        "春",
+        "つつじ"
+      ],
+      "thumb": "assets/img/lib/P0122-thumb.jpg",
+      "large": "assets/img/lib/P0122-large.jpg",
+      "alt": "松とつつじの庭",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0122"
+    },
+    {
+      "title": "道沿いに咲くつつじ",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "花",
+        "春",
+        "つつじ"
+      ],
+      "thumb": "assets/img/lib/P0123-thumb.jpg",
+      "large": "assets/img/lib/P0123-large.jpg",
+      "alt": "道沿いに咲くつつじ",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0123"
+    },
+    {
+      "title": "満開のつつじ",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "花",
+        "春",
+        "つつじ"
+      ],
+      "thumb": "assets/img/lib/P0124-thumb.jpg",
+      "large": "assets/img/lib/P0124-large.jpg",
+      "alt": "満開のつつじ",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0124"
+    },
+    {
+      "title": "見下ろすつつじの庭",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "庭園",
+        "春",
+        "つつじ"
+      ],
+      "thumb": "assets/img/lib/P0125-thumb.jpg",
+      "large": "assets/img/lib/P0125-large.jpg",
+      "alt": "見下ろすつつじの庭",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0125"
+    },
+    {
+      "title": "石段脇のつつじ",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "花",
+        "春",
+        "つつじ"
+      ],
+      "thumb": "assets/img/lib/P0126-thumb.jpg",
+      "large": "assets/img/lib/P0126-large.jpg",
+      "alt": "石段脇のつつじ",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0126"
+    },
+    {
+      "title": "咲き誇る赤いつつじ",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "花",
+        "春",
+        "つつじ"
+      ],
+      "thumb": "assets/img/lib/P0127-thumb.jpg",
+      "large": "assets/img/lib/P0127-large.jpg",
+      "alt": "咲き誇る赤いつつじ",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0127"
+    },
+    {
+      "title": "民家を彩るつつじ",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "花",
+        "春",
+        "つつじ"
+      ],
+      "thumb": "assets/img/lib/P0128-thumb.jpg",
+      "large": "assets/img/lib/P0128-large.jpg",
+      "alt": "民家を彩るつつじ",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0128"
+    },
+    {
+      "title": "高爪山_1",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "山",
+        "能登富士"
+      ],
+      "thumb": "assets/img/lib/P0136-thumb.jpg",
+      "large": "assets/img/lib/P0136-large.jpg",
+      "alt": "高爪山_1",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0136"
+    },
+    {
+      "title": "高爪山_2",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "山",
+        "能登富士"
+      ],
+      "thumb": "assets/img/lib/P0137-thumb.jpg",
+      "large": "assets/img/lib/P0137-large.jpg",
+      "alt": "高爪山_2",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0137"
+    },
+    {
+      "title": "水面に映る桜",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "桜",
+        "花",
+        "春"
+      ],
+      "thumb": "assets/img/lib/P0139-thumb.jpg",
+      "large": "assets/img/lib/P0139-large.jpg",
+      "alt": "水面に映る桜",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0139"
+    },
+    {
+      "title": "田園に咲く桜",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "桜",
+        "花",
+        "春"
+      ],
+      "thumb": "assets/img/lib/P0140-thumb.jpg",
+      "large": "assets/img/lib/P0140-large.jpg",
+      "alt": "田園に咲く桜",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0140"
+    },
+    {
+      "title": "見上げる桜の大木",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "桜",
+        "花",
+        "春"
+      ],
+      "thumb": "assets/img/lib/P0141-thumb.jpg",
+      "large": "assets/img/lib/P0141-large.jpg",
+      "alt": "見上げる桜の大木",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0141"
+    },
+    {
+      "title": "山裾に続く桜並木",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "桜",
+        "花",
+        "春"
+      ],
+      "thumb": "assets/img/lib/P0142-thumb.jpg",
+      "large": "assets/img/lib/P0142-large.jpg",
+      "alt": "山裾に続く桜並木",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0142"
+    },
+    {
+      "title": "桜が包む坂道",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "桜",
+        "花",
+        "春"
+      ],
+      "thumb": "assets/img/lib/P0143-thumb.jpg",
+      "large": "assets/img/lib/P0143-large.jpg",
+      "alt": "桜が包む坂道",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0143"
+    },
+    {
+      "title": "福浦港_1",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "空撮"
+      ],
+      "thumb": "assets/img/lib/P0165-thumb.jpg",
+      "large": "assets/img/lib/P0165-large.jpg",
+      "alt": "福浦港_1",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0165"
+    },
+    {
+      "title": "福浦港_2",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "海",
+        "空撮",
+        "港"
+      ],
+      "thumb": "assets/img/lib/P0166-thumb.jpg",
+      "large": "assets/img/lib/P0166-large.jpg",
+      "alt": "福浦港_2",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0166"
+    },
+    {
+      "title": "あじさい",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "花",
+        "あじさい"
+      ],
+      "thumb": "assets/img/lib/P0188-thumb.jpg",
+      "large": "assets/img/lib/P0188-large.jpg",
+      "alt": "あじさい",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0188"
+    },
+    {
+      "title": "遍行寺_1",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "花",
+        "寺",
+        "太陽",
+        "ぼたん"
+      ],
+      "thumb": "assets/img/lib/P0239-thumb.jpg",
+      "large": "assets/img/lib/P0239-large.jpg",
+      "alt": "遍行寺_1",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0239"
+    },
+    {
+      "title": "遍行寺_3",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "花",
+        "寺",
+        "ぼたん",
+        "鐘"
+      ],
+      "thumb": "assets/img/lib/P0243-thumb.jpg",
+      "large": "assets/img/lib/P0243-large.jpg",
+      "alt": "遍行寺_3",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0243"
+    },
+    {
+      "title": "遍行寺_4",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "花",
+        "寺",
+        "ぼたん"
+      ],
+      "thumb": "assets/img/lib/P0244-thumb.jpg",
+      "large": "assets/img/lib/P0244-large.jpg",
+      "alt": "遍行寺_4",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0244"
+    },
+    {
+      "title": "遍行寺_5",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "花",
+        "寺",
+        "ぼたん"
+      ],
+      "thumb": "assets/img/lib/P0245-thumb.jpg",
+      "large": "assets/img/lib/P0245-large.jpg",
+      "alt": "遍行寺_5",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0245"
+    },
+    {
+      "title": "遍行寺_6",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "花",
+        "寺",
+        "ぼたん"
+      ],
+      "thumb": "assets/img/lib/P0246-thumb.jpg",
+      "large": "assets/img/lib/P0246-large.jpg",
+      "alt": "遍行寺_6",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0246"
+    },
+    {
+      "title": "遍行寺_7",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "花",
+        "寺",
+        "ぼたん"
+      ],
+      "thumb": "assets/img/lib/P0247-thumb.jpg",
+      "large": "assets/img/lib/P0247-large.jpg",
+      "alt": "遍行寺_7",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0247"
+    },
+    {
+      "title": "虹のトンネル",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "トンネル",
+        "アート"
+      ],
+      "thumb": "assets/img/lib/P0249-thumb.jpg",
+      "large": "assets/img/lib/P0249-large.jpg",
+      "alt": "虹のトンネル",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0249"
+    },
+    {
+      "title": "大笹波水田_1",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "青空",
+        "水田"
+      ],
+      "thumb": "assets/img/lib/P0250-thumb.jpg",
+      "large": "assets/img/lib/P0250-large.jpg",
+      "alt": "大笹波水田_1",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0250"
+    },
+    {
+      "title": "大笹波水田_2",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "青空",
+        "水田"
+      ],
+      "thumb": "assets/img/lib/P0251-thumb.jpg",
+      "large": "assets/img/lib/P0251-large.jpg",
+      "alt": "大笹波水田_2",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0251"
+    },
+    {
+      "title": "福専寺_1",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "福浦",
+        "寺"
+      ],
+      "thumb": "assets/img/lib/P0252-thumb.jpg",
+      "large": "assets/img/lib/P0252-large.jpg",
+      "alt": "福専寺_1",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0252"
+    },
+    {
+      "title": "福専寺_2",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "福浦",
+        "寺"
+      ],
+      "thumb": "assets/img/lib/P0253-thumb.jpg",
+      "large": "assets/img/lib/P0253-large.jpg",
+      "alt": "福専寺_2",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0253"
+    },
+    {
+      "title": "福専寺_3",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "福浦",
+        "寺"
+      ],
+      "thumb": "assets/img/lib/P0254-thumb.jpg",
+      "large": "assets/img/lib/P0254-large.jpg",
+      "alt": "福専寺_3",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0254"
+    },
+    {
+      "title": "福専寺_4",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "福浦",
+        "寺"
+      ],
+      "thumb": "assets/img/lib/P0255-thumb.jpg",
+      "large": "assets/img/lib/P0255-large.jpg",
+      "alt": "福専寺_4",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0255"
+    },
+    {
+      "title": "福専寺_5",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "福浦",
+        "寺"
+      ],
+      "thumb": "assets/img/lib/P0256-thumb.jpg",
+      "large": "assets/img/lib/P0256-large.jpg",
+      "alt": "福専寺_5",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0256"
+    },
+    {
+      "title": "福専寺_6",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "福浦",
+        "寺"
+      ],
+      "thumb": "assets/img/lib/P0257-thumb.jpg",
+      "large": "assets/img/lib/P0257-large.jpg",
+      "alt": "福専寺_6",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0257"
+    },
+    {
+      "title": "千鳥ヶ浜_1",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "海",
+        "青空"
+      ],
+      "thumb": "assets/img/lib/P0258-thumb.jpg",
+      "large": "assets/img/lib/P0258-large.jpg",
+      "alt": "千鳥ヶ浜_1",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0258"
+    },
+    {
+      "title": "千鳥ヶ浜_2",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "海",
+        "青空"
+      ],
+      "thumb": "assets/img/lib/P0259-thumb.jpg",
+      "large": "assets/img/lib/P0259-large.jpg",
+      "alt": "千鳥ヶ浜_2",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0259"
+    },
+    {
+      "title": "千鳥ヶ浜_3",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "海",
+        "青空"
+      ],
+      "thumb": "assets/img/lib/P0260-thumb.jpg",
+      "large": "assets/img/lib/P0260-large.jpg",
+      "alt": "千鳥ヶ浜_3",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0260"
+    },
+    {
+      "title": "千鳥ヶ浜_4",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "海",
+        "青空"
+      ],
+      "thumb": "assets/img/lib/P0261-thumb.jpg",
+      "large": "assets/img/lib/P0261-large.jpg",
+      "alt": "千鳥ヶ浜_4",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0261"
+    },
+    {
+      "title": "千鳥ヶ浜_5",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "海",
+        "青空"
+      ],
+      "thumb": "assets/img/lib/P0263-thumb.jpg",
+      "large": "assets/img/lib/P0263-large.jpg",
+      "alt": "千鳥ヶ浜_5",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0263"
+    },
+    {
+      "title": "海_1",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "海",
+        "夕陽"
+      ],
+      "thumb": "assets/img/lib/P0267-thumb.jpg",
+      "large": "assets/img/lib/P0267-large.jpg",
+      "alt": "海_1",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0267"
+    },
+    {
+      "title": "海_2",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "海",
+        "夕陽"
+      ],
+      "thumb": "assets/img/lib/P0268-thumb.jpg",
+      "large": "assets/img/lib/P0268-large.jpg",
+      "alt": "海_2",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0268"
+    },
+    {
+      "title": "海_3",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "海",
+        "夕陽"
+      ],
+      "thumb": "assets/img/lib/P0269-thumb.jpg",
+      "large": "assets/img/lib/P0269-large.jpg",
+      "alt": "海_3",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0269"
+    },
+    {
+      "title": "海_4",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "海",
+        "夕陽"
+      ],
+      "thumb": "assets/img/lib/P0272-thumb.jpg",
+      "large": "assets/img/lib/P0272-large.jpg",
+      "alt": "海_4",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0272"
+    },
+    {
+      "title": "花火_1",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "夜景",
+        "祭り",
+        "花火"
+      ],
+      "thumb": "assets/img/lib/P0275-thumb.jpg",
+      "large": "assets/img/lib/P0275-large.jpg",
+      "alt": "花火_1",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0275"
+    },
+    {
+      "title": "花火_2",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "夜景",
+        "花火"
+      ],
+      "thumb": "assets/img/lib/P0276-thumb.jpg",
+      "large": "assets/img/lib/P0276-large.jpg",
+      "alt": "花火_2",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0276"
+    },
+    {
+      "title": "花火_3",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "夜景",
+        "祭り",
+        "花火"
+      ],
+      "thumb": "assets/img/lib/P0277-thumb.jpg",
+      "large": "assets/img/lib/P0277-large.jpg",
+      "alt": "花火_3",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0277"
+    },
+    {
+      "title": "花火_4",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "夜景",
+        "祭り",
+        "花火"
+      ],
+      "thumb": "assets/img/lib/P0278-thumb.jpg",
+      "large": "assets/img/lib/P0278-large.jpg",
+      "alt": "花火_4",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0278"
+    },
+    {
+      "title": "花火_5",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "夜景",
+        "祭り",
+        "花火"
+      ],
+      "thumb": "assets/img/lib/P0279-thumb.jpg",
+      "large": "assets/img/lib/P0279-large.jpg",
+      "alt": "花火_5",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0279"
+    },
+    {
+      "title": "花火_6",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "イルミネーション",
+        "祭り",
+        "花火"
+      ],
+      "thumb": "assets/img/lib/P0281-thumb.jpg",
+      "large": "assets/img/lib/P0281-large.jpg",
+      "alt": "花火_6",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0281"
+    },
+    {
+      "title": "ドローン_1",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "夜景",
+        "イルミネーション",
+        "祭り"
+      ],
+      "thumb": "assets/img/lib/P0282-thumb.jpg",
+      "large": "assets/img/lib/P0282-large.jpg",
+      "alt": "ドローン_1",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0282"
+    },
+    {
+      "title": "花火_7",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "夜景",
+        "祭り",
+        "花火"
+      ],
+      "thumb": "assets/img/lib/P0283-thumb.jpg",
+      "large": "assets/img/lib/P0283-large.jpg",
+      "alt": "花火_7",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0283"
+    },
+    {
+      "title": "ドローン_2",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "夜景",
+        "イルミネーション",
+        "祭り"
+      ],
+      "thumb": "assets/img/lib/P0284-thumb.jpg",
+      "large": "assets/img/lib/P0284-large.jpg",
+      "alt": "ドローン_2",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0284"
+    },
+    {
+      "title": "ドローン_3",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "夜景",
+        "イルミネーション",
+        "祭り"
+      ],
+      "thumb": "assets/img/lib/P0285-thumb.jpg",
+      "large": "assets/img/lib/P0285-large.jpg",
+      "alt": "ドローン_3",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0285"
+    },
+    {
+      "title": "花火_8",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "夜景",
+        "祭り",
+        "花火"
+      ],
+      "thumb": "assets/img/lib/P0286-thumb.jpg",
+      "large": "assets/img/lib/P0286-large.jpg",
+      "alt": "花火_8",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0286"
+    },
+    {
+      "title": "志賀町優良特産品_かきもち1",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "お土産",
+        "食",
+        "特産品"
+      ],
+      "thumb": "assets/img/lib/P0287-thumb.jpg",
+      "large": "assets/img/lib/P0287-large.jpg",
+      "alt": "志賀町優良特産品_かきもち1",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0287"
+    },
+    {
+      "title": "志賀町優良特産品_さくら貝華ドーム",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "さくら貝",
+        "特産品",
+        "工芸"
+      ],
+      "thumb": "assets/img/lib/P0288-thumb.jpg",
+      "large": "assets/img/lib/P0288-large.jpg",
+      "alt": "志賀町優良特産品_さくら貝華ドーム",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0288"
+    },
+    {
+      "title": "志賀町優良特産品_ころ柿",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "お土産",
+        "食",
+        "特産品"
+      ],
+      "thumb": "assets/img/lib/P0289-thumb.jpg",
+      "large": "assets/img/lib/P0289-large.jpg",
+      "alt": "志賀町優良特産品_ころ柿",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0289"
+    },
+    {
+      "title": "志賀町優良特産品_天然岩かき1",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "お土産",
+        "食",
+        "特産品"
+      ],
+      "thumb": "assets/img/lib/P0290-thumb.jpg",
+      "large": "assets/img/lib/P0290-large.jpg",
+      "alt": "志賀町優良特産品_天然岩かき1",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0290"
+    },
+    {
+      "title": "志賀町優良特産品_天然岩かき2",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "お土産",
+        "食",
+        "特産品"
+      ],
+      "thumb": "assets/img/lib/P0291-thumb.jpg",
+      "large": "assets/img/lib/P0291-large.jpg",
+      "alt": "志賀町優良特産品_天然岩かき2",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0291"
+    },
+    {
+      "title": "志賀町優良特産品_天然岩かき3",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "お土産",
+        "食",
+        "特産品"
+      ],
+      "thumb": "assets/img/lib/P0292-thumb.jpg",
+      "large": "assets/img/lib/P0292-large.jpg",
+      "alt": "志賀町優良特産品_天然岩かき3",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0292"
+    },
+    {
+      "title": "志賀町優良特産品_スイカ金色羅皇1",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "お土産",
+        "食",
+        "特産品"
+      ],
+      "thumb": "assets/img/lib/P0293-thumb.jpg",
+      "large": "assets/img/lib/P0293-large.jpg",
+      "alt": "志賀町優良特産品_スイカ金色羅皇1",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0293"
+    },
+    {
+      "title": "志賀町優良特産品_スイカ金色羅皇2",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "お土産",
+        "食",
+        "特産品"
+      ],
+      "thumb": "assets/img/lib/P0294-thumb.jpg",
+      "large": "assets/img/lib/P0294-large.jpg",
+      "alt": "志賀町優良特産品_スイカ金色羅皇2",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0294"
+    },
+    {
+      "title": "志賀町優良特産品_スイカ金色羅皇3",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "お土産",
+        "食",
+        "特産品"
+      ],
+      "thumb": "assets/img/lib/P0295-thumb.jpg",
+      "large": "assets/img/lib/P0295-large.jpg",
+      "alt": "志賀町優良特産品_スイカ金色羅皇3",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0295"
+    },
+    {
+      "title": "さくら貝_1",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "さくら貝",
+        "お土産"
+      ],
+      "thumb": "assets/img/lib/P0298-thumb.jpg",
+      "large": "assets/img/lib/P0298-large.jpg",
+      "alt": "さくら貝_1",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0298"
+    },
+    {
+      "title": "さくら貝_2",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "さくら貝",
+        "お土産"
+      ],
+      "thumb": "assets/img/lib/P0299-thumb.jpg",
+      "large": "assets/img/lib/P0299-large.jpg",
+      "alt": "さくら貝_2",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0299"
+    },
+    {
+      "title": "さくら貝_3",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "さくら貝",
+        "お土産"
+      ],
+      "thumb": "assets/img/lib/P0301-thumb.jpg",
+      "large": "assets/img/lib/P0301-large.jpg",
+      "alt": "さくら貝_3",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0301"
+    },
+    {
+      "title": "志賀町優良特産品_志賀米こしひかり",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "お土産",
+        "食",
+        "特産品"
+      ],
+      "thumb": "assets/img/lib/P0302-thumb.jpg",
+      "large": "assets/img/lib/P0302-large.jpg",
+      "alt": "志賀町優良特産品_志賀米こしひかり",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0302"
+    },
+    {
+      "title": "さくら貝_4",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "さくら貝",
+        "お土産"
+      ],
+      "thumb": "assets/img/lib/P0303-thumb.jpg",
+      "large": "assets/img/lib/P0303-large.jpg",
+      "alt": "さくら貝_4",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0303"
+    },
+    {
+      "title": "志賀町優良特産品_さくら貝イヤリング",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "さくら貝",
+        "お土産"
+      ],
+      "thumb": "assets/img/lib/P0306-thumb.jpg",
+      "large": "assets/img/lib/P0306-large.jpg",
+      "alt": "志賀町優良特産品_さくら貝イヤリング",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0306"
+    },
+    {
+      "title": "志賀町優良特産品_ゆずぽん酢/しょうが醤油/にんにく醤油",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "お土産",
+        "食",
+        "特産品"
+      ],
+      "thumb": "assets/img/lib/P0307-thumb.jpg",
+      "large": "assets/img/lib/P0307-large.jpg",
+      "alt": "志賀町優良特産品_ゆずぽん酢/しょうが醤油/にんにく醤油",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0307"
+    },
+    {
+      "title": "志賀町優良特産品_甲箱ガニ",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "お土産",
+        "食",
+        "特産品"
+      ],
+      "thumb": "assets/img/lib/P0309-thumb.jpg",
+      "large": "assets/img/lib/P0309-large.jpg",
+      "alt": "志賀町優良特産品_甲箱ガニ",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0309"
+    },
+    {
+      "title": "志賀町優良特産品_KOHAKU（あんぽ柿シャーベット）",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "お土産",
+        "食",
+        "特産品"
+      ],
+      "thumb": "assets/img/lib/P0310-thumb.jpg",
+      "large": "assets/img/lib/P0310-large.jpg",
+      "alt": "志賀町優良特産品_KOHAKU（あんぽ柿シャーベット）",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0310"
+    },
+    {
+      "title": "志賀町優良特産品_ころ柿1",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "お土産",
+        "食",
+        "特産品"
+      ],
+      "thumb": "assets/img/lib/P0313-thumb.jpg",
+      "large": "assets/img/lib/P0313-large.jpg",
+      "alt": "志賀町優良特産品_ころ柿1",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0313"
+    },
+    {
+      "title": "志賀町優良特産品_ころ柿2",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "お土産",
+        "食",
+        "特産品"
+      ],
+      "thumb": "assets/img/lib/P0314-thumb.jpg",
+      "large": "assets/img/lib/P0314-large.jpg",
+      "alt": "志賀町優良特産品_ころ柿2",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0314"
+    },
+    {
+      "title": "志賀町優良特産品_いしる干し",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "お土産",
+        "食",
+        "特産品"
+      ],
+      "thumb": "assets/img/lib/P0315-thumb.jpg",
+      "large": "assets/img/lib/P0315-large.jpg",
+      "alt": "志賀町優良特産品_いしる干し",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0315"
+    },
+    {
+      "title": "志賀町優良特産品_カネヨ醬油",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "お土産",
+        "食",
+        "特産品"
+      ],
+      "thumb": "assets/img/lib/P0319-thumb.jpg",
+      "large": "assets/img/lib/P0319-large.jpg",
+      "alt": "志賀町優良特産品_カネヨ醬油",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0319"
+    },
+    {
+      "title": "志賀町優良特産品_ころ柿3",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "お土産",
+        "食",
+        "特産品"
+      ],
+      "thumb": "assets/img/lib/P0321-thumb.jpg",
+      "large": "assets/img/lib/P0321-large.jpg",
+      "alt": "志賀町優良特産品_ころ柿3",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0321"
+    },
+    {
+      "title": "志賀町優良特産品_柿羊羹",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "お土産",
+        "食",
+        "特産品"
+      ],
+      "thumb": "assets/img/lib/P0322-thumb.jpg",
+      "large": "assets/img/lib/P0322-large.jpg",
+      "alt": "志賀町優良特産品_柿羊羹",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0322"
+    },
+    {
+      "title": "志賀町優良特産品_サザエ最中",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "お土産",
+        "食",
+        "特産品"
+      ],
+      "thumb": "assets/img/lib/P0323-thumb.jpg",
+      "large": "assets/img/lib/P0323-large.jpg",
+      "alt": "志賀町優良特産品_サザエ最中",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0323"
+    },
+    {
+      "title": "志賀町優良特産品_かきもち2",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "お土産",
+        "食",
+        "特産品"
+      ],
+      "thumb": "assets/img/lib/P0326-thumb.jpg",
+      "large": "assets/img/lib/P0326-large.jpg",
+      "alt": "志賀町優良特産品_かきもち2",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0326"
+    },
+    {
+      "title": "志賀町優良特産品_かきもち4",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "お土産",
+        "食",
+        "特産品"
+      ],
+      "thumb": "assets/img/lib/P0328-thumb.jpg",
+      "large": "assets/img/lib/P0328-large.jpg",
+      "alt": "志賀町優良特産品_かきもち4",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0328"
+    },
+    {
+      "title": "志賀町優良特産品_ころ柿4",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "お土産",
+        "食",
+        "特産品"
+      ],
+      "thumb": "assets/img/lib/P0330-thumb.jpg",
+      "large": "assets/img/lib/P0330-large.jpg",
+      "alt": "志賀町優良特産品_ころ柿4",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0330"
+    },
+    {
+      "title": "志賀町優良特産品_能登うなぎ白焼き",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "お土産",
+        "食",
+        "特産品"
+      ],
+      "thumb": "assets/img/lib/P0331-thumb.jpg",
+      "large": "assets/img/lib/P0331-large.jpg",
+      "alt": "志賀町優良特産品_能登うなぎ白焼き",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0331"
+    },
+    {
+      "title": "志賀町優良特産品_能登うなぎ蒲焼き",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "お土産",
+        "食",
+        "特産品"
+      ],
+      "thumb": "assets/img/lib/P0332-thumb.jpg",
+      "large": "assets/img/lib/P0332-large.jpg",
+      "alt": "志賀町優良特産品_能登うなぎ蒲焼き",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0332"
+    },
+    {
+      "title": "志賀町優良特産品_天然岩かき4",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "お土産",
+        "食",
+        "特産品"
+      ],
+      "thumb": "assets/img/lib/P0333-thumb.jpg",
+      "large": "assets/img/lib/P0333-large.jpg",
+      "alt": "志賀町優良特産品_天然岩かき4",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0333"
+    },
+    {
+      "title": "高爪神社_1",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "神社",
+        "能登富士",
+        "高爪山"
+      ],
+      "thumb": "assets/img/lib/P0380-thumb.jpg",
+      "large": "assets/img/lib/P0380-large.jpg",
+      "alt": "高爪神社_1",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0380"
+    },
+    {
+      "title": "高爪神社_2",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "神社",
+        "能登富士",
+        "高爪山"
+      ],
+      "thumb": "assets/img/lib/P0381-thumb.jpg",
+      "large": "assets/img/lib/P0381-large.jpg",
+      "alt": "高爪神社_2",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0381"
+    },
+    {
+      "title": "高爪神社_3",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "神社",
+        "能登富士",
+        "高爪山"
+      ],
+      "thumb": "assets/img/lib/P0382-thumb.jpg",
+      "large": "assets/img/lib/P0382-large.jpg",
+      "alt": "高爪神社_3",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0382"
+    },
+    {
+      "title": "高爪神社_4",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "神社",
+        "高爪山",
+        "能登富士"
+      ],
+      "thumb": "assets/img/lib/P0383-thumb.jpg",
+      "large": "assets/img/lib/P0383-large.jpg",
+      "alt": "高爪神社_4",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0383"
+    },
+    {
+      "title": "高爪神社_5",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "神社",
+        "高爪山",
+        "能登富士"
+      ],
+      "thumb": "assets/img/lib/P0384-thumb.jpg",
+      "large": "assets/img/lib/P0384-large.jpg",
+      "alt": "高爪神社_5",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0384"
+    },
+    {
+      "title": "高爪神社_6",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "神社",
+        "高爪山",
+        "能登富士"
+      ],
+      "thumb": "assets/img/lib/P0385-thumb.jpg",
+      "large": "assets/img/lib/P0385-large.jpg",
+      "alt": "高爪神社_6",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0385"
+    },
+    {
+      "title": "高爪神社_7",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "神社",
+        "高爪山",
+        "能登富士"
+      ],
+      "thumb": "assets/img/lib/P0386-thumb.jpg",
+      "large": "assets/img/lib/P0386-large.jpg",
+      "alt": "高爪神社_7",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0386"
+    },
+    {
+      "title": "高爪神社_8",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "神社",
+        "高爪山",
+        "能登富士"
+      ],
+      "thumb": "assets/img/lib/P0387-thumb.jpg",
+      "large": "assets/img/lib/P0387-large.jpg",
+      "alt": "高爪神社_8",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0387"
+    },
+    {
+      "title": "西海漁港（大量旗）_1",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "海",
+        "西海",
+        "漁港",
+        "旗"
+      ],
+      "thumb": "assets/img/lib/P0390-thumb.jpg",
+      "large": "assets/img/lib/P0390-large.jpg",
+      "alt": "西海漁港（大量旗）_1",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0390"
+    },
+    {
+      "title": "西海漁港（大量旗）_2",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "海",
+        "西海",
+        "漁港",
+        "旗"
+      ],
+      "thumb": "assets/img/lib/P0391-thumb.jpg",
+      "large": "assets/img/lib/P0391-large.jpg",
+      "alt": "西海漁港（大量旗）_2",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0391"
+    },
+    {
+      "title": "西海漁港（大量旗）_3",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "海",
+        "西海",
+        "漁港",
+        "旗"
+      ],
+      "thumb": "assets/img/lib/P0392-thumb.jpg",
+      "large": "assets/img/lib/P0392-large.jpg",
+      "alt": "西海漁港（大量旗）_3",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0392"
+    },
+    {
+      "title": "西海地下間漁港_1",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "海",
+        "西海",
+        "漁港"
+      ],
+      "thumb": "assets/img/lib/P0394-thumb.jpg",
+      "large": "assets/img/lib/P0394-large.jpg",
+      "alt": "西海地下間漁港_1",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0394"
+    },
+    {
+      "title": "西海地下間漁港_2",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "海",
+        "西海",
+        "漁港"
+      ],
+      "thumb": "assets/img/lib/P0396-thumb.jpg",
+      "large": "assets/img/lib/P0396-large.jpg",
+      "alt": "西海地下間漁港_2",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0396"
+    },
+    {
+      "title": "西海地下間漁港_3",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "海",
+        "西海",
+        "漁港"
+      ],
+      "thumb": "assets/img/lib/P0397-thumb.jpg",
+      "large": "assets/img/lib/P0397-large.jpg",
+      "alt": "西海地下間漁港_3",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0397"
+    },
+    {
+      "title": "西海地下間漁港_4",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "海",
+        "西海",
+        "漁港"
+      ],
+      "thumb": "assets/img/lib/P0398-thumb.jpg",
+      "large": "assets/img/lib/P0398-large.jpg",
+      "alt": "西海地下間漁港_4",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0398"
+    },
+    {
+      "title": "のとキリシマツツジ_1",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "花",
+        "庭",
+        "春"
+      ],
+      "thumb": "assets/img/lib/P0410-thumb.jpg",
+      "large": "assets/img/lib/P0410-large.jpg",
+      "alt": "のとキリシマツツジ_1",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0410"
+    },
+    {
+      "title": "のとキリシマツツジ_2",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "花",
+        "庭",
+        "春"
+      ],
+      "thumb": "assets/img/lib/P0411-thumb.jpg",
+      "large": "assets/img/lib/P0411-large.jpg",
+      "alt": "のとキリシマツツジ_2",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0411"
+    },
+    {
+      "title": "のとキリシマツツジ_3",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "花",
+        "庭",
+        "春"
+      ],
+      "thumb": "assets/img/lib/P0412-thumb.jpg",
+      "large": "assets/img/lib/P0412-large.jpg",
+      "alt": "のとキリシマツツジ_3",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0412"
+    },
+    {
+      "title": "のとキリシマツツジ_4",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "花",
+        "庭",
+        "春"
+      ],
+      "thumb": "assets/img/lib/P0413-thumb.jpg",
+      "large": "assets/img/lib/P0413-large.jpg",
+      "alt": "のとキリシマツツジ_4",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0413"
+    },
+    {
+      "title": "のとキリシマツツジ_5",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "花",
+        "庭",
+        "春"
+      ],
+      "thumb": "assets/img/lib/P0414-thumb.jpg",
+      "large": "assets/img/lib/P0414-large.jpg",
+      "alt": "のとキリシマツツジ_5",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0414"
+    },
+    {
+      "title": "のとキリシマツツジ_6",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "花",
+        "庭",
+        "春"
+      ],
+      "thumb": "assets/img/lib/P0415-thumb.jpg",
+      "large": "assets/img/lib/P0415-large.jpg",
+      "alt": "のとキリシマツツジ_6",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0415"
+    },
+    {
+      "title": "のとキリシマツツジ_7",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "花",
+        "庭",
+        "春"
+      ],
+      "thumb": "assets/img/lib/P0416-thumb.jpg",
+      "large": "assets/img/lib/P0416-large.jpg",
+      "alt": "のとキリシマツツジ_7",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0416"
+    },
+    {
+      "title": "のとキリシマツツジ_8",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "花",
+        "庭",
+        "春"
+      ],
+      "thumb": "assets/img/lib/P0417-thumb.jpg",
+      "large": "assets/img/lib/P0417-large.jpg",
+      "alt": "のとキリシマツツジ_8",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0417"
+    },
+    {
+      "title": "のとキリシマツツジ_9",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "花",
+        "庭",
+        "春"
+      ],
+      "thumb": "assets/img/lib/P0418-thumb.jpg",
+      "large": "assets/img/lib/P0418-large.jpg",
+      "alt": "のとキリシマツツジ_9",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0418"
+    },
+    {
+      "title": "のとキリシマツツジ_10",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "花",
+        "庭",
+        "春"
+      ],
+      "thumb": "assets/img/lib/P0419-thumb.jpg",
+      "large": "assets/img/lib/P0419-large.jpg",
+      "alt": "のとキリシマツツジ_10",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0419"
+    },
+    {
+      "title": "のとキリシマツツジ_11",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "花",
+        "庭",
+        "春"
+      ],
+      "thumb": "assets/img/lib/P0420-thumb.jpg",
+      "large": "assets/img/lib/P0420-large.jpg",
+      "alt": "のとキリシマツツジ_11",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0420"
+    },
+    {
+      "title": "のとキリシマツツジ_12",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "花",
+        "庭",
+        "春"
+      ],
+      "thumb": "assets/img/lib/P0421-thumb.jpg",
+      "large": "assets/img/lib/P0421-large.jpg",
+      "alt": "のとキリシマツツジ_12",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0421"
+    },
+    {
+      "title": "のとキリシマツツジ_13",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "花",
+        "庭",
+        "春"
+      ],
+      "thumb": "assets/img/lib/P0422-thumb.jpg",
+      "large": "assets/img/lib/P0422-large.jpg",
+      "alt": "のとキリシマツツジ_13",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0422"
+    },
+    {
+      "title": "水芭蕉",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "花",
+        "水芭蕉"
+      ],
+      "thumb": "assets/img/lib/P0432-thumb.jpg",
+      "large": "assets/img/lib/P0432-large.jpg",
+      "alt": "水芭蕉",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0432"
+    },
+    {
+      "title": "高爪神社_9",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "神社",
+        "名所旧跡"
+      ],
+      "thumb": "assets/img/lib/P0504-thumb.jpg",
+      "large": "assets/img/lib/P0504-large.jpg",
+      "alt": "高爪神社_9",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0504"
     }
   ]
 }

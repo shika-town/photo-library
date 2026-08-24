@@ -180,7 +180,7 @@ def spot_card(s, href_prefix=''):
 # =====================================================================
 areas = []
 for s in SPOTS:
-    if s['area'] not in areas:
+    if s['area'] and s['area'] not in areas:
         areas.append(s['area'])
 
 filters = '<button class="filter is-active" type="button" data-area="all">すべて（%d）</button>' % len(SPOTS)
