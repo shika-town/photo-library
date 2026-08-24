@@ -53,28 +53,47 @@
   }
 
   // カードのリンク（photos/P0001.html や ../photos/P0001.html）から写真IDを取り出す
-  function extractId(href) {
-    var m = String(href || '').match(/([A-Za-z]\d{3,})\.html(?:[?#]|$)/);
+  function idFromHref(card) {
+    var m = String(card.getAttribute('href') || '').match(/([A-Za-z]\d{3,})\.html(?:[?#]|$)/);
     return m ? m[1] : '';
+  }
+  // スポットページのギャラリー（ライトボックス用ボタン）は data-photo に直接IDが入っている
+  function idFromDataPhoto(card) {
+    return String(card.getAttribute('data-photo') || '').trim();
+  }
+
+  // サイト内には写真カードの実装が2種類ある：
+  // 1. .photo-card … トップ/検索結果/関連写真など、<a href="photos/ID.html">
+  // 2. .gallery__item … スポットページのギャラリー、<button data-photo="ID">（ライトボックス表示用）
+  var CARD_TYPES = [
+    { selector: '.photo-card', getId: idFromHref },
+    { selector: '.gallery__item', getId: idFromDataPhoto }
+  ];
+
+  function makeFavBtn(id) {
+    var btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'favbtn' + (isFavorite(id) ? ' is-active' : '');
+    btn.setAttribute('aria-label', 'あとで見るに追加・削除');
+    btn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-6.7-4.35-9.3-8.1C1 10 1.5 6.5 4.4 5.1 6.7 4 9.2 4.8 12 7.4 14.8 4.8 17.3 4 19.6 5.1c2.9 1.4 3.4 4.9 1.7 7.8C18.7 16.65 12 21 12 21z"/></svg>';
+    // カードそのもの（リンク遷移・ライトボックス表示）を発火させない
+    btn.addEventListener('click', function (e) {
+      e.preventDefault();
+      e.stopPropagation();
+      var added = toggleFavorite(id);
+      btn.classList.toggle('is-active', added);
+    });
+    return btn;
   }
 
   function decorate(root) {
-    (root || document).querySelectorAll('.photo-card').forEach(function (card) {
-      if (card.querySelector('.favbtn')) return;
-      var id = extractId(card.getAttribute('href'));
-      if (!id) return;
-      var btn = document.createElement('button');
-      btn.type = 'button';
-      btn.className = 'favbtn' + (isFavorite(id) ? ' is-active' : '');
-      btn.setAttribute('aria-label', 'あとで見るに追加・削除');
-      btn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-6.7-4.35-9.3-8.1C1 10 1.5 6.5 4.4 5.1 6.7 4 9.2 4.8 12 7.4 14.8 4.8 17.3 4 19.6 5.1c2.9 1.4 3.4 4.9 1.7 7.8C18.7 16.65 12 21 12 21z"/></svg>';
-      btn.addEventListener('click', function (e) {
-        e.preventDefault();
-        e.stopPropagation();
-        var added = toggleFavorite(id);
-        btn.classList.toggle('is-active', added);
+    CARD_TYPES.forEach(function (type) {
+      (root || document).querySelectorAll(type.selector).forEach(function (card) {
+        if (card.querySelector('.favbtn')) return;
+        var id = type.getId(card);
+        if (!id) return;
+        card.appendChild(makeFavBtn(id));
       });
-      card.appendChild(btn);
     });
   }
 
