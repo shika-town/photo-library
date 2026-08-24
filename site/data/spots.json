@@ -47,9 +47,8 @@
           "large": "../assets/img/lib/P0003-large.jpg",
           "caption": "手のひらのさくら貝",
           "tags": [
-            "さくら貝",
-            "海",
-            "砂浜"
+            "砂浜",
+            "さくら貝"
           ]
         },
         {
@@ -90,7 +89,6 @@
           "large": "../assets/img/lib/P0010-large.jpg",
           "caption": "ベンチから望む日本海",
           "tags": [
-            "海",
             "ベンチ"
           ]
         },
@@ -116,6 +114,28 @@
           ]
         },
         {
+          "id": "P0146",
+          "thumb": "../assets/img/lib/P0146-thumb.jpg",
+          "large": "../assets/img/lib/P0146-large.jpg",
+          "caption": "上空から見た増穂浦海岸",
+          "tags": [
+            "海",
+            "空撮",
+            "海岸線"
+          ]
+        },
+        {
+          "id": "P0147",
+          "thumb": "../assets/img/lib/P0147-thumb.jpg",
+          "large": "../assets/img/lib/P0147-large.jpg",
+          "caption": "上空から見た志賀町の海岸",
+          "tags": [
+            "海",
+            "空撮",
+            "海岸線"
+          ]
+        },
+        {
           "id": "P0148",
           "thumb": "../assets/img/lib/P0148-thumb.jpg",
           "large": "../assets/img/lib/P0148-large.jpg",
@@ -127,14 +147,22 @@
           ]
         },
         {
+          "id": "P0149",
+          "thumb": "../assets/img/lib/P0149-thumb.jpg",
+          "large": "../assets/img/lib/P0149-large.jpg",
+          "caption": "海を望む木製デッキ",
+          "tags": [
+            "ベンチ"
+          ]
+        },
+        {
           "id": "P0150",
           "thumb": "../assets/img/lib/P0150-thumb.jpg",
           "large": "../assets/img/lib/P0150-large.jpg",
           "caption": "カラフルに続く世界一長いベンチ",
           "tags": [
-            "世界一長いベンチ",
-            "海",
-            "青空"
+            "青空",
+            "世界一長いベンチ"
           ]
         },
         {
@@ -154,9 +182,8 @@
           "large": "../assets/img/lib/P0152-large.jpg",
           "caption": "世界一長いベンチの案内板",
           "tags": [
-            "世界一長いベンチ",
-            "海",
-            "青空"
+            "青空",
+            "世界一長いベンチ"
           ]
         },
         {
@@ -165,8 +192,7 @@
           "large": "../assets/img/lib/P0153-large.jpg",
           "caption": "世界一長いベンチのモニュメント",
           "tags": [
-            "世界一長いベンチ",
-            "海"
+            "世界一長いベンチ"
           ]
         },
         {
@@ -185,9 +211,8 @@
           "large": "../assets/img/lib/P0155-large.jpg",
           "caption": "世界一長いベンチと青い空",
           "tags": [
-            "世界一長いベンチ",
-            "海",
-            "青空"
+            "青空",
+            "世界一長いベンチ"
           ]
         },
         {
@@ -428,7 +453,6 @@
           "large": "../assets/img/lib/P0366-large.jpg",
           "caption": "世界一長いベンチ_5",
           "tags": [
-            "海",
             "ベンチ",
             "ライトアップ",
             "夜景",
@@ -467,7 +491,6 @@
           "large": "../assets/img/lib/P0369-large.jpg",
           "caption": "世界一長いベンチ_8",
           "tags": [
-            "海",
             "ベンチ",
             "ライトアップ",
             "夜景",
@@ -493,7 +516,6 @@
           "large": "../assets/img/lib/P0404-large.jpg",
           "caption": "世界一長いベンチ_10",
           "tags": [
-            "海",
             "空撮",
             "砂浜",
             "ベンチ",
@@ -506,7 +528,6 @@
           "large": "../assets/img/lib/P0405-large.jpg",
           "caption": "世界一長いベンチ_11",
           "tags": [
-            "海",
             "ベンチ",
             "青空"
           ]
@@ -517,7 +538,6 @@
           "large": "../assets/img/lib/P0406-large.jpg",
           "caption": "世界一長いベンチ_12",
           "tags": [
-            "海",
             "ベンチ",
             "青空"
           ]
@@ -528,7 +548,6 @@
           "large": "../assets/img/lib/P0407-large.jpg",
           "caption": "世界一長いベンチ_13",
           "tags": [
-            "海",
             "ベンチ",
             "青空"
           ]
@@ -539,7 +558,6 @@
           "large": "../assets/img/lib/P0408-large.jpg",
           "caption": "世界一長いベンチ_14",
           "tags": [
-            "海",
             "ベンチ",
             "青空"
           ]
@@ -550,7 +568,6 @@
           "large": "../assets/img/lib/P0409-large.jpg",
           "caption": "世界一長いベンチ_15",
           "tags": [
-            "海",
             "ベンチ",
             "青空"
           ]
@@ -572,7 +589,6 @@
           "large": "../assets/img/lib/P0425-large.jpg",
           "caption": "世界一長いベンチ_17",
           "tags": [
-            "海",
             "ベンチ",
             "青空"
           ]
@@ -594,7 +610,6 @@
           "large": "../assets/img/lib/P0427-large.jpg",
           "caption": "世界一長いベンチ_19",
           "tags": [
-            "海",
             "ベンチ",
             "青空"
           ]
@@ -617,7 +632,8 @@
           "caption": "世界一長いベンチ_21",
           "tags": [
             "ベンチ",
-            "青空"
+            "青空",
+            "手形"
           ]
         },
         {
@@ -626,13 +642,12 @@
           "large": "../assets/img/lib/P0444-large.jpg",
           "caption": "世界一長いベンチ_22",
           "tags": [
-            "海",
             "ベンチ",
             "青空"
           ]
         }
       ],
-      "count": 52
+      "count": 55
     },
     {
       "id": "hatago",
@@ -1022,6 +1037,207 @@
             "海",
             "岩",
             "遊覧船"
+          ]
+        },
+        {
+          "id": "P0585",
+          "thumb": "../assets/img/lib/P0585-thumb.jpg",
+          "large": "../assets/img/lib/P0585-large.jpg",
+          "caption": "巌門_15",
+          "tags": [
+            "岩",
+            "断崖",
+            "名所旧跡"
+          ]
+        },
+        {
+          "id": "P0586",
+          "thumb": "../assets/img/lib/P0586-thumb.jpg",
+          "large": "../assets/img/lib/P0586-large.jpg",
+          "caption": "巌門_16",
+          "tags": [
+            "岩",
+            "断崖",
+            "名所旧跡"
+          ]
+        },
+        {
+          "id": "P0587",
+          "thumb": "../assets/img/lib/P0587-thumb.jpg",
+          "large": "../assets/img/lib/P0587-large.jpg",
+          "caption": "巌門_17",
+          "tags": [
+            "岩",
+            "断崖",
+            "名所旧跡"
+          ]
+        },
+        {
+          "id": "P0588",
+          "thumb": "../assets/img/lib/P0588-thumb.jpg",
+          "large": "../assets/img/lib/P0588-large.jpg",
+          "caption": "巌門_18",
+          "tags": [
+            "岩",
+            "断崖",
+            "名所旧跡",
+            "遊覧船"
+          ]
+        },
+        {
+          "id": "P0589",
+          "thumb": "../assets/img/lib/P0589-thumb.jpg",
+          "large": "../assets/img/lib/P0589-large.jpg",
+          "caption": "巌門_19",
+          "tags": [
+            "空撮",
+            "岩",
+            "断崖",
+            "名所旧跡",
+            "遊覧船"
+          ]
+        },
+        {
+          "id": "P0590",
+          "thumb": "../assets/img/lib/P0590-thumb.jpg",
+          "large": "../assets/img/lib/P0590-large.jpg",
+          "caption": "巌門_20",
+          "tags": [
+            "岩",
+            "断崖",
+            "名所旧跡"
+          ]
+        },
+        {
+          "id": "P0591",
+          "thumb": "../assets/img/lib/P0591-thumb.jpg",
+          "large": "../assets/img/lib/P0591-large.jpg",
+          "caption": "巌門_21",
+          "tags": [
+            "岩",
+            "断崖",
+            "名所旧跡"
+          ]
+        },
+        {
+          "id": "P0592",
+          "thumb": "../assets/img/lib/P0592-thumb.jpg",
+          "large": "../assets/img/lib/P0592-large.jpg",
+          "caption": "巌門_22",
+          "tags": [
+            "岩",
+            "断崖",
+            "名所旧跡"
+          ]
+        },
+        {
+          "id": "P0593",
+          "thumb": "../assets/img/lib/P0593-thumb.jpg",
+          "large": "../assets/img/lib/P0593-large.jpg",
+          "caption": "巌門_23",
+          "tags": [
+            "岩",
+            "断崖",
+            "名所旧跡"
+          ]
+        },
+        {
+          "id": "P0594",
+          "thumb": "../assets/img/lib/P0594-thumb.jpg",
+          "large": "../assets/img/lib/P0594-large.jpg",
+          "caption": "巌門_24",
+          "tags": [
+            "岩",
+            "断崖",
+            "名所旧跡"
+          ]
+        },
+        {
+          "id": "P0595",
+          "thumb": "../assets/img/lib/P0595-thumb.jpg",
+          "large": "../assets/img/lib/P0595-large.jpg",
+          "caption": "巌門_25",
+          "tags": [
+            "岩",
+            "断崖",
+            "名所旧跡"
+          ]
+        },
+        {
+          "id": "P0596",
+          "thumb": "../assets/img/lib/P0596-thumb.jpg",
+          "large": "../assets/img/lib/P0596-large.jpg",
+          "caption": "巌門_26",
+          "tags": [
+            "岩",
+            "断崖",
+            "名所旧跡"
+          ]
+        },
+        {
+          "id": "P0597",
+          "thumb": "../assets/img/lib/P0597-thumb.jpg",
+          "large": "../assets/img/lib/P0597-large.jpg",
+          "caption": "巌門_27",
+          "tags": [
+            "岩",
+            "断崖",
+            "名所旧跡"
+          ]
+        },
+        {
+          "id": "P0598",
+          "thumb": "../assets/img/lib/P0598-thumb.jpg",
+          "large": "../assets/img/lib/P0598-large.jpg",
+          "caption": "巌門_28",
+          "tags": [
+            "岩",
+            "断崖",
+            "名所旧跡"
+          ]
+        },
+        {
+          "id": "P0599",
+          "thumb": "../assets/img/lib/P0599-thumb.jpg",
+          "large": "../assets/img/lib/P0599-large.jpg",
+          "caption": "巌門_29",
+          "tags": [
+            "岩",
+            "断崖",
+            "名所旧跡"
+          ]
+        },
+        {
+          "id": "P0600",
+          "thumb": "../assets/img/lib/P0600-thumb.jpg",
+          "large": "../assets/img/lib/P0600-large.jpg",
+          "caption": "巌門_30",
+          "tags": [
+            "岩",
+            "断崖",
+            "名所旧跡"
+          ]
+        },
+        {
+          "id": "P0601",
+          "thumb": "../assets/img/lib/P0601-thumb.jpg",
+          "large": "../assets/img/lib/P0601-large.jpg",
+          "caption": "巌門_31",
+          "tags": [
+            "岩",
+            "断崖",
+            "名所旧跡"
+          ]
+        },
+        {
+          "id": "P0603",
+          "thumb": "../assets/img/lib/P0603-thumb.jpg",
+          "large": "../assets/img/lib/P0603-large.jpg",
+          "caption": "巌門_32",
+          "tags": [
+            "岩",
+            "断崖",
+            "名所旧跡"
           ]
         },
         {
@@ -1430,9 +1646,20 @@
             "岩",
             "遊覧船"
           ]
+        },
+        {
+          "id": "P0510",
+          "thumb": "../assets/img/lib/P0510-thumb.jpg",
+          "large": "../assets/img/lib/P0510-large.jpg",
+          "caption": "巌門_33",
+          "tags": [
+            "岩",
+            "断崖",
+            "雪"
+          ]
         }
       ],
-      "count": 43
+      "count": 62
     },
     {
       "id": "benten",
@@ -1686,7 +1913,6 @@
           "caption": "弁天島_14",
           "tags": [
             "島",
-            "海",
             "神社",
             "天使のはしご"
           ]
@@ -1793,6 +2019,155 @@
             "断崖",
             "海",
             "空撮"
+          ]
+        },
+        {
+          "id": "P0534",
+          "thumb": "../assets/img/lib/P0534-thumb.jpg",
+          "large": "../assets/img/lib/P0534-large.jpg",
+          "caption": "ヤセの断崖_5",
+          "tags": [
+            "海",
+            "空撮",
+            "岩",
+            "断崖"
+          ]
+        },
+        {
+          "id": "P0535",
+          "thumb": "../assets/img/lib/P0535-thumb.jpg",
+          "large": "../assets/img/lib/P0535-large.jpg",
+          "caption": "ヤセの断崖_6",
+          "tags": [
+            "海",
+            "岩",
+            "断崖"
+          ]
+        },
+        {
+          "id": "P0536",
+          "thumb": "../assets/img/lib/P0536-thumb.jpg",
+          "large": "../assets/img/lib/P0536-large.jpg",
+          "caption": "ヤセの断崖_7",
+          "tags": [
+            "岩",
+            "断崖"
+          ]
+        },
+        {
+          "id": "P0537",
+          "thumb": "../assets/img/lib/P0537-thumb.jpg",
+          "large": "../assets/img/lib/P0537-large.jpg",
+          "caption": "ヤセの断崖_8",
+          "tags": [
+            "岩",
+            "断崖"
+          ]
+        },
+        {
+          "id": "P0538",
+          "thumb": "../assets/img/lib/P0538-thumb.jpg",
+          "large": "../assets/img/lib/P0538-large.jpg",
+          "caption": "ヤセの断崖_9",
+          "tags": [
+            "岩",
+            "断崖"
+          ]
+        },
+        {
+          "id": "P0539",
+          "thumb": "../assets/img/lib/P0539-thumb.jpg",
+          "large": "../assets/img/lib/P0539-large.jpg",
+          "caption": "ヤセの断崖_10",
+          "tags": [
+            "岩",
+            "断崖"
+          ]
+        },
+        {
+          "id": "P0540",
+          "thumb": "../assets/img/lib/P0540-thumb.jpg",
+          "large": "../assets/img/lib/P0540-large.jpg",
+          "caption": "ヤセの断崖_11",
+          "tags": [
+            "海",
+            "岩",
+            "断崖"
+          ]
+        },
+        {
+          "id": "P0541",
+          "thumb": "../assets/img/lib/P0541-thumb.jpg",
+          "large": "../assets/img/lib/P0541-large.jpg",
+          "caption": "ヤセの断崖_12",
+          "tags": [
+            "断崖",
+            "景色"
+          ]
+        },
+        {
+          "id": "P0542",
+          "thumb": "../assets/img/lib/P0542-thumb.jpg",
+          "large": "../assets/img/lib/P0542-large.jpg",
+          "caption": "ヤセの断崖_13",
+          "tags": [
+            "断崖",
+            "景色"
+          ]
+        },
+        {
+          "id": "P0543",
+          "thumb": "../assets/img/lib/P0543-thumb.jpg",
+          "large": "../assets/img/lib/P0543-large.jpg",
+          "caption": "ヤセの断崖_14",
+          "tags": [
+            "岩",
+            "断崖",
+            "景色"
+          ]
+        },
+        {
+          "id": "P0544",
+          "thumb": "../assets/img/lib/P0544-thumb.jpg",
+          "large": "../assets/img/lib/P0544-large.jpg",
+          "caption": "ヤセの断崖_15",
+          "tags": [
+            "海",
+            "岩",
+            "断崖"
+          ]
+        },
+        {
+          "id": "P0545",
+          "thumb": "../assets/img/lib/P0545-thumb.jpg",
+          "large": "../assets/img/lib/P0545-large.jpg",
+          "caption": "ヤセの断崖_16",
+          "tags": [
+            "海",
+            "岩",
+            "断崖"
+          ]
+        },
+        {
+          "id": "P0546",
+          "thumb": "../assets/img/lib/P0546-thumb.jpg",
+          "large": "../assets/img/lib/P0546-large.jpg",
+          "caption": "ヤセの断崖_17",
+          "tags": [
+            "海",
+            "岩",
+            "断崖"
+          ]
+        },
+        {
+          "id": "P0547",
+          "thumb": "../assets/img/lib/P0547-thumb.jpg",
+          "large": "../assets/img/lib/P0547-large.jpg",
+          "caption": "ヤセの断崖_18",
+          "tags": [
+            "海",
+            "岩",
+            "断崖"
           ]
         },
         {
@@ -1905,9 +2280,21 @@
             "岩",
             "断崖"
           ]
+        },
+        {
+          "id": "P0560",
+          "thumb": "../assets/img/lib/P0560-thumb.jpg",
+          "large": "../assets/img/lib/P0560-large.jpg",
+          "caption": "ヤセの断崖_19",
+          "tags": [
+            "海",
+            "空撮",
+            "岩",
+            "断崖"
+          ]
         }
       ],
-      "count": 15
+      "count": 30
     },
     {
       "id": "fukura",
@@ -3124,17 +3511,37 @@
       "hero": "assets/img/lib/P0144-hero.jpg",
       "photos": [
         {
+          "id": "P0566",
+          "thumb": "../assets/img/lib/P0566-thumb.jpg",
+          "large": "../assets/img/lib/P0566-large.jpg",
+          "caption": "松尾神社_3",
+          "tags": [
+            "神社",
+            "名所旧跡"
+          ]
+        },
+        {
           "id": "P0144",
           "thumb": "../assets/img/lib/P0144-thumb.jpg",
           "large": "../assets/img/lib/P0144-large.jpg",
-          "caption": "白い鳥居の立つ境内",
+          "caption": "松尾神社_2",
+          "tags": [
+            "神社",
+            "名所旧跡"
+          ]
+        },
+        {
+          "id": "P0145",
+          "thumb": "../assets/img/lib/P0145-thumb.jpg",
+          "large": "../assets/img/lib/P0145-large.jpg",
+          "caption": "松尾神社",
           "tags": [
             "神社",
             "名所旧跡"
           ]
         }
       ],
-      "count": 1
+      "count": 3
     }
   ]
 }

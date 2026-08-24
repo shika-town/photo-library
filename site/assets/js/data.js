@@ -32,7 +32,7 @@ window.SPL_DATA = {
       "id": "bench",
       "name": "世界一長いベンチ・増穂浦海岸",
       "area": "富来エリア",
-      "count": 52,
+      "count": 55,
       "image": "assets/img/lib/P0008-hero.jpg",
       "alt": "世界一長いベンチ・増穂浦海岸",
       "description": "海・貝・夕日、そして記憶に残る長さ"
@@ -50,7 +50,7 @@ window.SPL_DATA = {
       "id": "gate",
       "name": "巌門",
       "area": "富来エリア",
-      "count": 43,
+      "count": 62,
       "image": "assets/img/lib/P0020-hero.jpg",
       "alt": "巌門",
       "description": "日本海が作り上げた芸術"
@@ -111,9 +111,8 @@ window.SPL_DATA = {
       "area": "富来エリア",
       "season": "春,冬",
       "tags": [
-        "さくら貝",
-        "海",
-        "砂浜"
+        "砂浜",
+        "さくら貝"
       ],
       "image": "assets/img/lib/P0003-new.jpg",
       "alt": "増穂浦海岸で拾い集めたさくら貝"
