@@ -113,12 +113,12 @@ for i, p in enumerate(PHOTOS):
         </div>
 
         <button class="dlbtn" id="dlBtn" type="button"
-                data-src="../%s" data-credit="© 志賀町" data-filename="%s">
+                data-src="../%s" data-credit-ja="© 志賀町" data-credit-en="© Shika Town" data-filename="%s">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12M7 11l5 5 5-5M4 20h16"/></svg>
           <span>この写真をダウンロード</span>
         </button>
         <p class="dlnote">
-          ダウンロードした画像には、右下に「© 志賀町」のクレジットが入ります。<br>
+          ダウンロードした画像には、右下にクレジットが入ります（下の確認画面で日本語／英語を選べます）。<br>
           ご利用の前に<a href="../terms.html">利用規約</a>への同意が必要です。
         </p>
       </div>
@@ -143,6 +143,11 @@ for i, p in enumerate(PHOTOS):
   <div class="modal__panel">
     <h2 class="modal__title" id="termsTitle">写真の利用規約</h2>
     <ul class="modal__terms">%s</ul>
+    <div class="modal__lang">
+      <span class="modal__lang-label">クレジット表記</span>
+      <label class="modal__lang-opt"><input type="radio" name="creditLang" value="ja" checked> 日本語（© 志賀町）</label>
+      <label class="modal__lang-opt"><input type="radio" name="creditLang" value="en"> English（© Shika Town）</label>
+    </div>
     <label class="modal__check">
       <input type="checkbox" id="agreeCheck">
       <span>利用規約に同意します</span>

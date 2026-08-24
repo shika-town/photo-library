@@ -88,17 +88,17 @@
         <div class="photometa__rows"><div class="photometa__row"><p class="photometa__label">スポット</p><p class="photometa__value"><a href="../spots/bench.html">世界一長いベンチ・増穂浦海岸</a></p></div><div class="photometa__row"><p class="photometa__label">エリア</p><p class="photometa__value">富来エリア</p></div><div class="photometa__row"><p class="photometa__label">撮影・提供</p><p class="photometa__value">志賀町</p></div><div class="photometa__row"><p class="photometa__label">クレジット</p><p class="photometa__value">© 志賀町</p></div>
           <div class="photometa__row">
             <p class="photometa__label">タグ</p>
-            <div class="photometa__tags"><a class="tag" href="../search.html?q=%E6%B5%B7">#海</a><a class="tag" href="../search.html?q=%E3%83%99%E3%83%B3%E3%83%81">#ベンチ</a><a class="tag" href="../search.html?q=%E3%83%A9%E3%82%A4%E3%83%88%E3%82%A2%E3%83%83%E3%83%97">#ライトアップ</a><a class="tag" href="../search.html?q=%E5%A4%9C%E6%99%AF">#夜景</a><a class="tag" href="../search.html?q=%E3%82%A4%E3%83%AB%E3%83%9F%E3%83%8D%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3">#イルミネーション</a></div>
+            <div class="photometa__tags"><a class="tag" href="../search.html?tag=%E6%B5%B7">#海</a><a class="tag" href="../search.html?tag=%E3%83%99%E3%83%B3%E3%83%81">#ベンチ</a><a class="tag" href="../search.html?tag=%E3%83%A9%E3%82%A4%E3%83%88%E3%82%A2%E3%83%83%E3%83%97">#ライトアップ</a><a class="tag" href="../search.html?tag=%E5%A4%9C%E6%99%AF">#夜景</a><a class="tag" href="../search.html?tag=%E3%82%A4%E3%83%AB%E3%83%9F%E3%83%8D%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3">#イルミネーション</a></div>
           </div>
         </div>
 
         <button class="dlbtn" id="dlBtn" type="button"
-                data-src="../assets/img/lib/P0367-large.jpg" data-credit="© 志賀町" data-filename="P0367_bench.jpg">
+                data-src="../assets/img/lib/P0367-large.jpg" data-credit-ja="© 志賀町" data-credit-en="© Shika Town" data-filename="P0367_bench.jpg">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12M7 11l5 5 5-5M4 20h16"/></svg>
           <span>この写真をダウンロード</span>
         </button>
         <p class="dlnote">
-          ダウンロードした画像には、右下に「© 志賀町」のクレジットが入ります。<br>
+          ダウンロードした画像には、右下にクレジットが入ります（下の確認画面で日本語／英語を選べます）。<br>
           ご利用の前に<a href="../terms.html">利用規約</a>への同意が必要です。
         </p>
       </div>
@@ -151,6 +151,11 @@
   <div class="modal__panel">
     <h2 class="modal__title" id="termsTitle">写真の利用規約</h2>
     <ul class="modal__terms"><li>・掲載写真の著作権は志賀町に帰属します。</li><li>・観光PR・報道・教育・研究など、志賀町の魅力を紹介する目的でご利用いただけます。</li><li>・ダウンロードした画像には右下に「© 志賀町」のクレジットが入ります。クレジットの削除・改変はご遠慮ください。</li><li>・商用利用、および画像の内容を大きく変える加工を行う場合は、事前にご相談ください。</li><li>・公序良俗に反する用途、志賀町の名誉を損なう用途での使用は固くお断りします。</li><li>・人物が写り込んでいる写真の利用にあたっては、肖像権にご配慮ください。</li></ul>
+    <div class="modal__lang">
+      <span class="modal__lang-label">クレジット表記</span>
+      <label class="modal__lang-opt"><input type="radio" name="creditLang" value="ja" checked> 日本語（© 志賀町）</label>
+      <label class="modal__lang-opt"><input type="radio" name="creditLang" value="en"> English（© Shika Town）</label>
+    </div>
     <label class="modal__check">
       <input type="checkbox" id="agreeCheck">
       <span>利用規約に同意します</span>

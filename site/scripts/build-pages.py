@@ -290,6 +290,28 @@ for group, items in FAQ:
     faq_body += '</div>'
 faq_body += CONTACT_BOX
 
+# =====================================================================
+# Instagram投稿の埋め込み
+# =====================================================================
+INSTAGRAM_POST_URL = 'https://www.instagram.com/p/DZZyZOmmWZc/'
+
+instagram_body = '''
+<div class="doc__intro">志賀町の公式Instagramより、おすすめの投稿をご紹介します。</div>
+<div class="instagram-embed">
+  <blockquote class="instagram-media" data-instgrm-permalink="%s" data-instgrm-version="14"
+              style="background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%%;">
+    <div style="padding:16px;">
+      <a href="%s" style="background:#FFFFFF; line-height:0; padding:0; text-align:center; text-decoration:none; width:100%%;" target="_blank" rel="noopener">
+        Instagramでこの投稿を見る
+      </a>
+    </div>
+  </blockquote>
+</div>
+<script async src="//www.instagram.com/embed.js"></script>
+''' % (INSTAGRAM_POST_URL, INSTAGRAM_POST_URL)
+
+page('instagram', 'Instagram', '志賀町公式Instagramの投稿をご紹介します。', instagram_body)
+
 page('terms',   '利用規約',              '本サイトの写真をご利用いただく際の条件です。', terms)
 page('privacy', 'プライバシーポリシー',   '本サイトにおける個人情報の取り扱いについて。', privacy)
 page('credit',  '著作権・クレジットについて', '著作権の帰属と、クレジットの表記方法をご案内します。', credit)

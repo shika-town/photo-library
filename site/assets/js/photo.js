@@ -113,9 +113,10 @@
     var modal = $('#termsModal');
     var check = $('#agreeCheck');
     var start = $('#startDl');
-    var src    = btn.dataset.src;
-    var credit = btn.dataset.credit || '© 志賀町';
-    var name   = btn.dataset.filename || 'photo.jpg';
+    var src      = btn.dataset.src;
+    var creditJa = btn.dataset.creditJa || '© 志賀町';
+    var creditEn = btn.dataset.creditEn || '© Shika Town';
+    var name     = btn.dataset.filename || 'photo.jpg';
 
     var open  = function () {
       check.checked = false; start.disabled = true;
@@ -133,6 +134,8 @@
 
     start.addEventListener('click', function () {
       if (!check.checked) return;
+      var lang = (document.querySelector('input[name="creditLang"]:checked') || {}).value || 'ja';
+      var credit = lang === 'en' ? creditEn : creditJa;
       close();
       btn.disabled = true;
       var label = btn.querySelector('span');
@@ -148,7 +151,7 @@
           // ファイルを直接開いている（file://）ときは、ブラウザの制限で
           // クレジットの合成ができない。公開後は正常に動作する。
           alert('ファイルを直接開いているため、クレジットの合成ができません。\n\n'
-              + 'ウェブに公開した状態では、右下に「© 志賀町」が入った画像が保存されます。\n\n'
+              + 'ウェブに公開した状態では、右下に「' + credit + '」が入った画像が保存されます。\n\n'
               + 'このあと元の画像を別タブで開きます。中身を確認したい場合は、'
               + 'その画像を右クリックして保存してください。');
           window.open(src, '_blank');
