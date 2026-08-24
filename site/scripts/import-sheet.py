@@ -334,7 +334,15 @@ def main():
         sid = str(s['id']).strip()
         mine = sorted([p for p in photos if str(p.get('spot', '')).strip() == str(s['name']).strip()],
                       key=lambda x: (float(x.get('sortOrder') or 9999), x['id']))
-        hero_id = str(s.get('heroPhotoId', '')).strip() or (mine[0]['id'] if mine else '')
+        hero_id = str(s.get('heroPhotoId', '')).strip()
+        if hero_id and hero_id not in by_id:
+            # 指定された写真が削除・非公開化されていると、そのまま渡すと img() が
+            # 何も警告せず空文字を返してしまい、スポットページの見出し写真が
+            # 静かに消えてしまう。先頭の写真に自動で切り替え、必ず警告を出す。
+            print('  ！ スポット「%s」の heroPhotoId「%s」の写真が見つかりません'
+                  '（削除・非公開化された可能性）。先頭の写真を代わりに使います。' % (s['name'], hero_id))
+            hero_id = ''
+        hero_id = hero_id or (mine[0]['id'] if mine else '')
         _, hero = img(hero_id, 'hero')
         gal = []
         for p in mine:
