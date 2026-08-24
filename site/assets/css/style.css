@@ -1012,6 +1012,7 @@ h1, h2, h3, p { margin: 0; }
   background: var(--bg-soft); border: 1px solid var(--line); border-radius: var(--radius);
   font-size: 13.5px; line-height: 1.95; color: var(--ink-sub);
 }
+.instagram-embed { display: flex; justify-content: center; }
 .doc h2 {
   margin: 52px 0 18px; padding-bottom: 14px;
   font-size: 17px; font-weight: 700; letter-spacing: .1em;
