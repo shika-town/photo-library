@@ -1120,17 +1120,6 @@
           ]
         },
         {
-          "id": "P0592",
-          "thumb": "../assets/img/lib/P0592-thumb.jpg",
-          "large": "../assets/img/lib/P0592-large.jpg",
-          "caption": "巌門_22",
-          "tags": [
-            "岩",
-            "断崖",
-            "名所旧跡"
-          ]
-        },
-        {
           "id": "P0593",
           "thumb": "../assets/img/lib/P0593-thumb.jpg",
           "large": "../assets/img/lib/P0593-large.jpg",
@@ -1291,17 +1280,6 @@
           "tags": [
             "海",
             "岩"
-          ]
-        },
-        {
-          "id": "P0078",
-          "thumb": "../assets/img/lib/P0078-thumb.jpg",
-          "large": "../assets/img/lib/P0078-large.jpg",
-          "caption": "洞窟から望む遊覧船",
-          "tags": [
-            "海",
-            "岩",
-            "遊覧船"
           ]
         },
         {
@@ -1659,7 +1637,7 @@
           ]
         }
       ],
-      "count": 62
+      "count": 60
     },
     {
       "id": "benten",

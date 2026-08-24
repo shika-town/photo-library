@@ -50,7 +50,7 @@ window.SPL_DATA = {
       "id": "gate",
       "name": "巌門",
       "area": "富来エリア",
-      "count": 62,
+      "count": 60,
       "image": "assets/img/lib/P0020-hero.jpg",
       "alt": "巌門",
       "description": "日本海が作り上げた芸術"

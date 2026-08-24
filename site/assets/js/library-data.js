@@ -3,7 +3,7 @@
 window.SPL_LIBRARY = {
   "meta": {
     "note": "photos.json と spots.json から自動生成しています。直接編集せず、scripts/build-library.py を実行してください。",
-    "count": 279
+    "count": 277
   },
   "photos": [
     {
@@ -1797,25 +1797,6 @@ window.SPL_LIBRARY = {
       "id": "P0591"
     },
     {
-      "title": "巌門_22",
-      "spot": "巌門",
-      "spotId": "gate",
-      "area": "富来エリア",
-      "season": "",
-      "tags": [
-        "岩",
-        "断崖",
-        "名所旧跡"
-      ],
-      "thumb": "assets/img/lib/P0592-thumb.jpg",
-      "large": "assets/img/lib/P0592-large.jpg",
-      "alt": "巌門_22",
-      "credit": "© 志賀町",
-      "photographer": "志賀町",
-      "source": "巌門",
-      "id": "P0592"
-    },
-    {
       "title": "巌門_23",
       "spot": "巌門",
       "spotId": "gate",
@@ -2097,25 +2078,6 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "巌門",
       "id": "P0077"
-    },
-    {
-      "title": "洞窟から望む遊覧船",
-      "spot": "巌門",
-      "spotId": "gate",
-      "area": "富来エリア",
-      "season": "",
-      "tags": [
-        "海",
-        "岩",
-        "遊覧船"
-      ],
-      "thumb": "assets/img/lib/P0078-thumb.jpg",
-      "large": "assets/img/lib/P0078-large.jpg",
-      "alt": "洞窟から望む遊覧船",
-      "credit": "© 志賀町",
-      "photographer": "志賀町",
-      "source": "巌門",
-      "id": "P0078"
     },
     {
       "title": "緑に覆われた海岸線",
