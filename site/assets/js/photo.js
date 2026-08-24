@@ -193,9 +193,28 @@
     });
   }
 
+  /* ---------- シェア：Instagramはリンクをコピーするだけ（直接投稿する仕組みが無いため） ---------- */
+  function initShareCopy() {
+    document.addEventListener('click', function (e) {
+      var b = e.target.closest('.sharebtn--instagram');
+      if (!b) return;
+      var url = b.dataset.copyUrl || '';
+      var done = function () {
+        b.classList.add('is-done');
+        setTimeout(function () { b.classList.remove('is-done'); }, 1800);
+      };
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(url).then(done, function () { window.prompt('コピーしてInstagramに貼り付けてください', url); });
+      } else {
+        window.prompt('コピーしてInstagramに貼り付けてください', url);
+      }
+    });
+  }
+
   document.addEventListener('DOMContentLoaded', function () {
     initCopy();
     initDrawer();
     initDownload();
+    initShareCopy();
   });
 })();

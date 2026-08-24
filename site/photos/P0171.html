@@ -43,6 +43,10 @@
   <symbol id="i-compass" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m15.4 8.6-2.1 4.7-4.7 2.1 2.1-4.7z"/></symbol>
   <symbol id="i-instagram" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor" stroke="none"/></symbol>
   <symbol id="i-mail" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="m3.6 7 8.4 6 8.4-6"/></symbol>
+  <symbol id="i-heart" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-6.7-4.35-9.3-8.1C1 10 1.5 6.5 4.4 5.1 6.7 4 9.2 4.8 12 7.4 14.8 4.8 17.3 4 19.6 5.1c2.9 1.4 3.4 4.9 1.7 7.8C18.7 16.65 12 21 12 21z"/></symbol>
+  <symbol id="i-x" viewBox="0 0 24 24" fill="currentColor"><path d="M18.3 3h3l-6.6 7.5L22.5 21h-6.1l-4.8-6.3L5.9 21H2.9l7-8-7.6-10h6.2l4.4 5.8L18.3 3z"/></symbol>
+  <symbol id="i-line" viewBox="0 0 24 24" fill="currentColor"><path d="M12 3C6.5 3 2 6.6 2 11c0 3.9 3.5 7.2 8.3 7.9.3.1.8.2.9.5.1.3.1.7 0 1l-.2 1.2c0 .3-.2 1.1 1 .6 1.2-.5 6.4-3.8 8.7-6.5C22.2 13.9 22 12.5 22 11c0-4.4-4.5-8-10-8z"/></symbol>
+  <symbol id="i-facebook" viewBox="0 0 24 24" fill="currentColor"><path d="M14 9h2.5V5.5H14C11.8 5.5 10 7.3 10 9.5V12H8v3.5h2V22h3.5v-6.5H16l.5-3.5h-3V9.8c0-.5.4-.8.9-.8z"/></symbol>
 </svg>
 <a href="#main" class="sr-only">本文へスキップ</a>
 <header class="header header--solid" id="header">
@@ -55,6 +59,9 @@
       </span>
     </a>
     <nav class="nav" aria-label="メインナビゲーション"><ul class="nav__list"><li><a class="nav__link" href="../index.html">HOME</a></li><li><a class="nav__link" href="../spots/index.html">スポットから探す</a></li><li><a class="nav__link" href="../search.html" aria-current="page">写真から探す</a></li><li><a class="nav__link" href="../index.html#scenes">シーンで探す</a></li><li><a class="nav__link" href="../terms.html">ご利用について</a></li><li><a class="nav__link" href="../index.html#contact">お問い合わせ</a></li></ul></nav>
+    <a class="header__fav" href="../favorites.html" aria-label="あとで見るリスト">
+      <svg><use href="#i-heart"/></svg><span class="header__fav-badge" hidden>0</span>
+    </a>
     <a class="header__search" href="../search.html" aria-label="写真を検索"><svg><use href="#i-search"/></svg></a>
     <button class="burger" id="btnBurger" aria-label="メニューを開く" aria-expanded="false"><svg><use href="#i-menu"/></svg></button>
   </div>
@@ -62,7 +69,7 @@
 <div class="drawer" id="drawer">
   <nav class="drawer__panel" aria-label="モバイルメニュー">
     <button class="drawer__close" id="drawerClose" aria-label="メニューを閉じる"><svg><use href="#i-close"/></svg></button>
-    <a class="drawer__link" href="../index.html">HOME</a><a class="drawer__link" href="../spots/index.html">スポットから探す</a><a class="drawer__link" href="../search.html">写真から探す</a><a class="drawer__link" href="../index.html#scenes">シーンで探す</a><a class="drawer__link" href="../terms.html">ご利用について</a><a class="drawer__link" href="../index.html#contact">お問い合わせ</a>
+    <a class="drawer__link" href="../index.html">HOME</a><a class="drawer__link" href="../spots/index.html">スポットから探す</a><a class="drawer__link" href="../search.html">写真から探す</a><a class="drawer__link" href="../index.html#scenes">シーンで探す</a><a class="drawer__link" href="../terms.html">ご利用について</a><a class="drawer__link" href="../index.html#contact">お問い合わせ</a><a class="drawer__link" href="../favorites.html">❤ あとで見るリスト</a>
   </nav>
 </div>
 <main id="main">
@@ -101,6 +108,17 @@
           ダウンロードした画像には、右下にクレジットが入ります（下の確認画面で日本語／英語を選べます）。<br>
           ご利用の前に<a href="../terms.html">利用規約</a>への同意が必要です。
         </p>
+
+        <div class="sharebar">
+          <span class="sharebar__label">この写真をシェア</span>
+          <div class="sharebar__list">
+            <a class="sharebtn sharebtn--x" href="https://twitter.com/intent/tweet?text=%E5%A4%A7%E5%B3%B6%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%97%E5%A0%B4_5%EF%BD%9CSHIKA%20PHOTO%20LIBRARY&amp;url=https%3A%2F%2Fshika-town.github.io%2Fphoto-library%2Fphotos%2FP0171.html" target="_blank" rel="noopener" aria-label="Xでシェア"><svg><use href="#i-x"/></svg></a>
+            <a class="sharebtn sharebtn--line" href="https://social-plugins.line.me/lineit/share?url=https%3A%2F%2Fshika-town.github.io%2Fphoto-library%2Fphotos%2FP0171.html" target="_blank" rel="noopener" aria-label="LINEでシェア"><svg><use href="#i-line"/></svg></a>
+            <a class="sharebtn sharebtn--facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fshika-town.github.io%2Fphoto-library%2Fphotos%2FP0171.html" target="_blank" rel="noopener" aria-label="Facebookでシェア"><svg><use href="#i-facebook"/></svg></a>
+            <button class="sharebtn sharebtn--instagram" type="button" data-copy-url="https://shika-town.github.io/photo-library/photos/P0171.html" aria-label="リンクをコピー（Instagramに貼り付け用）"><svg><use href="#i-instagram"/></svg></button>
+          </div>
+          <p class="sharebar__note">Instagramへの直接投稿は仕組み上できないため、リンクをコピーしてキャプション等に貼り付けてください。</p>
+        </div>
       </div>
     </div>
   </section>
@@ -190,6 +208,7 @@
     </div>
   </div>
 </footer>
+<script src="../assets/js/favorites-widget.js"></script>
 <script src="../assets/js/photo.js"></script>
 </body>
 </html>

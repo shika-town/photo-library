@@ -117,13 +117,22 @@ h1, h2, h3, p { margin: 0; }
 }
 .nav__link:hover::after, .nav__link[aria-current="page"]::after { transform: scaleX(1); }
 
-.header__search {
+.header__search, .header__fav {
+  position: relative;
   display: grid; place-items: center; width: 38px; height: 38px;
   border-radius: var(--radius-pill); color: #fff;
   transition: background .2s var(--ease), color .3s var(--ease);
 }
-.header__search:hover { background: rgba(255, 255, 255, .18); }
-.header__search svg { width: 19px; height: 19px; }
+.header__search:hover, .header__fav:hover { background: rgba(255, 255, 255, .18); }
+.header__search svg, .header__fav svg { width: 19px; height: 19px; }
+.header__fav.has-items { color: #ff8a9a; }
+.header__fav-badge {
+  position: absolute; top: 2px; right: 2px;
+  min-width: 15px; height: 15px; padding: 0 3px; border-radius: 999px;
+  background: #e0455a; color: #fff; font-size: 9.5px; font-weight: 700;
+  display: flex; align-items: center; justify-content: center; line-height: 1;
+  box-shadow: 0 0 0 2px var(--bg);
+}
 .burger { display: none; width: 38px; height: 38px; place-items: center; color: #fff; }
 .burger svg { width: 22px; height: 22px; }
 
@@ -133,11 +142,11 @@ h1, h2, h3, p { margin: 0; }
   box-shadow: 0 1px 0 var(--line);
 }
 .header.is-scrolled .logo__text, .header.is-scrolled .burger,
-.header.is-scrolled .header__search { color: var(--ink); }
+.header.is-scrolled .header__search, .header.is-scrolled .header__fav { color: var(--ink); }
 .header.is-scrolled .nav__link { color: var(--ink-sub); }
 .header.is-scrolled .nav__link:hover { color: var(--accent); }
 .header.is-scrolled .logo__mark { background: var(--accent); border-color: var(--accent); color: #fff; }
-.header.is-scrolled .header__search:hover { background: var(--accent-soft); color: var(--accent); }
+.header.is-scrolled .header__search:hover, .header.is-scrolled .header__fav:hover { background: var(--accent-soft); color: var(--accent); }
 
 /* =====================================================================
    Hero
@@ -306,10 +315,24 @@ h1, h2, h3, p { margin: 0; }
    ===================================================================== */
 .photo-grid { display: grid; gap: var(--card-gap); grid-template-columns: repeat(3, minmax(0, 1fr)); }
 .photo-card {
+  position: relative;
   display: block; background: var(--bg); border: 1px solid var(--line);
   border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow-card);
   transition: box-shadow .4s var(--ease), border-color .4s var(--ease);
 }
+/* あとで見る（お気に入り）ボタン：写真カードの右上に重ねて表示 */
+.favbtn {
+  position: absolute; top: 10px; right: 10px; z-index: 2;
+  width: 34px; height: 34px; display: grid; place-items: center;
+  border-radius: var(--radius-pill); border: 0; cursor: pointer;
+  background: rgba(20, 24, 30, .38); color: #fff;
+  backdrop-filter: blur(4px);
+  transition: background .2s var(--ease), color .2s var(--ease), transform .15s var(--ease);
+}
+.favbtn svg { width: 18px; height: 18px; }
+.favbtn:hover { transform: scale(1.08); }
+.favbtn.is-active { background: #fff; color: #e0455a; }
+.favbtn.is-active svg { fill: currentColor; }
 .photo-card:hover { box-shadow: var(--shadow-float); border-color: var(--bg-tint); }
 .photo-card__media { aspect-ratio: 9 / 7; overflow: hidden; background: var(--bg-soft); }
 .photo-card__media img { width: 100%; height: 100%; object-fit: cover; transition: transform .7s var(--ease); }
@@ -495,7 +518,7 @@ h1, h2, h3, p { margin: 0; }
   body { font-size: 14px; line-height: 1.85; }
   .container, .header__inner, .hero__inner, .hero__caption { width: calc(100% - 32px); }
 
-  .nav, .header__search { display: none; }
+  .nav, .header__search, .header__fav { display: none; }
   .burger { display: grid; margin-left: auto; }
   .logo__en { font-size: 13.5px; letter-spacing: .13em; }
 
@@ -581,11 +604,11 @@ h1, h2, h3, p { margin: 0; }
 .header--solid {
   position: sticky; background: var(--bg); box-shadow: 0 1px 0 var(--line);
 }
-.header--solid .logo__text, .header--solid .burger, .header--solid .header__search { color: var(--ink); }
+.header--solid .logo__text, .header--solid .burger, .header--solid .header__search, .header--solid .header__fav { color: var(--ink); }
 .header--solid .nav__link { color: var(--ink-sub); }
 .header--solid .nav__link:hover { color: var(--accent); }
 .header--solid .logo__mark { background: var(--accent); border-color: var(--accent); color: #fff; }
-.header--solid .header__search:hover { background: var(--accent-soft); color: var(--accent); }
+.header--solid .header__search:hover, .header--solid .header__fav:hover { background: var(--accent-soft); color: var(--accent); }
 
 /* --- パンくず --- */
 .breadcrumb {
@@ -819,6 +842,28 @@ h1, h2, h3, p { margin: 0; }
 .dlbtn[disabled] { opacity: .55; cursor: progress; }
 .dlbtn svg { width: 17px; height: 17px; }
 .dlnote { margin-top: 12px; font-size: 11.5px; line-height: 1.85; color: var(--ink-mute); }
+
+.sharebar { margin-top: 22px; padding-top: 22px; border-top: 1px solid var(--line); }
+.sharebar__label { display: block; font-size: 12px; font-weight: 700; letter-spacing: .1em; color: var(--ink-sub); }
+.sharebar__list { display: flex; gap: 10px; margin-top: 10px; }
+.sharebtn {
+  position: relative;
+  display: grid; place-items: center; width: 40px; height: 40px;
+  border-radius: var(--radius-pill); background: var(--bg-soft); color: var(--ink-sub);
+  transition: background .2s var(--ease), color .2s var(--ease), transform .15s var(--ease);
+}
+.sharebtn svg { width: 18px; height: 18px; }
+.sharebtn:hover { transform: translateY(-2px); }
+.sharebtn--x:hover { background: #000; color: #fff; }
+.sharebtn--line:hover { background: #06C755; color: #fff; }
+.sharebtn--facebook:hover { background: #1877F2; color: #fff; }
+.sharebtn--instagram:hover { background: linear-gradient(45deg, #f9ce34, #ee2a7b, #6228d7); color: #fff; }
+.sharebtn--instagram.is-done::after {
+  content: "コピーしました"; position: absolute; bottom: calc(100% + 8px); left: 50%; transform: translateX(-50%);
+  background: var(--ink); color: #fff; font-size: 11px; letter-spacing: .05em;
+  padding: 5px 10px; border-radius: 6px; white-space: nowrap;
+}
+.sharebar__note { margin-top: 10px; font-size: 11px; line-height: 1.8; color: var(--ink-mute); }
 
 /* --- 利用規約の同意モーダル --- */
 .modal {

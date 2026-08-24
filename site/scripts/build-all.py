@@ -8,14 +8,15 @@
   3. build-spots.py    spots.json   → spots/*.html
   4. build-photos.py   library.json → photos/*.html
   5. build-search.py                → search.html
-  6. build-pages.py                 → terms/privacy/credit/faq/404.html
-  7. build-seo.py                   → robots.txt / sitemap.xml
+  6. build-favorites.py             → favorites.html
+  7. build-pages.py                 → terms/privacy/credit/faq/instagram/404.html
+  8. build-seo.py                   → robots.txt / sitemap.xml
 """
 import subprocess, sys, os
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 STEPS = ['build-data.py', 'build-library.py', 'build-spots.py', 'build-photos.py',
-         'build-search.py', 'build-pages.py', 'build-seo.py']
+         'build-search.py', 'build-favorites.py', 'build-pages.py', 'build-seo.py']
 
 for name in STEPS:
     print('\n── %s ' % name + '─' * (46 - len(name)))

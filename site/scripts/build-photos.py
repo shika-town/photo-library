@@ -23,6 +23,9 @@ SPOTS = {s['id']: s for s in bs.SPOTS}
 OUT = os.path.join(BASE, 'photos')
 os.makedirs(OUT, exist_ok=True)
 
+CFG = json.load(io.open(os.path.join(BASE, 'data', 'site-config.json'), encoding='utf-8'))
+BASE_URL = CFG.get('baseUrl', './').rstrip('/') + '/'
+
 TERMS = [
  '掲載写真の著作権は志賀町に帰属します。',
  '観光PR・報道・教育・研究など、志賀町の魅力を紹介する目的でご利用いただけます。',
@@ -70,6 +73,7 @@ for i, p in enumerate(PHOTOS):
 
     terms_html = ''.join('<li>・%s</li>' % E(t) for t in TERMS)
     fname = '%s_%s.jpg' % (p['id'], p['spotId'] or 'shika')
+    share_url = BASE_URL + 'photos/%s.html' % p['id']
 
     ld = json.dumps({
         "@context": "https://schema.org", "@type": "ImageObject",
@@ -121,6 +125,17 @@ for i, p in enumerate(PHOTOS):
           ダウンロードした画像には、右下にクレジットが入ります（下の確認画面で日本語／英語を選べます）。<br>
           ご利用の前に<a href="../terms.html">利用規約</a>への同意が必要です。
         </p>
+
+        <div class="sharebar">
+          <span class="sharebar__label">この写真をシェア</span>
+          <div class="sharebar__list">
+            <a class="sharebtn sharebtn--x" href="https://twitter.com/intent/tweet?text=%s&amp;url=%s" target="_blank" rel="noopener" aria-label="Xでシェア"><svg><use href="#i-x"/></svg></a>
+            <a class="sharebtn sharebtn--line" href="https://social-plugins.line.me/lineit/share?url=%s" target="_blank" rel="noopener" aria-label="LINEでシェア"><svg><use href="#i-line"/></svg></a>
+            <a class="sharebtn sharebtn--facebook" href="https://www.facebook.com/sharer/sharer.php?u=%s" target="_blank" rel="noopener" aria-label="Facebookでシェア"><svg><use href="#i-facebook"/></svg></a>
+            <button class="sharebtn sharebtn--instagram" type="button" data-copy-url="%s" aria-label="リンクをコピー（Instagramに貼り付け用）"><svg><use href="#i-instagram"/></svg></button>
+          </div>
+          <p class="sharebar__note">Instagramへの直接投稿は仕組み上できないため、リンクをコピーしてキャプション等に貼り付けてください。</p>
+        </div>
       </div>
     </div>
   </section>
@@ -161,6 +176,10 @@ for i, p in enumerate(PHOTOS):
 ''' % (('<li><a href="../spots/%s.html">%s</a></li>' % (E(p['spotId']), E(p['spot']))) if sp else '',
        E(p['title']), E(p['large']), E(p['alt']), E(p['id']), E(p['title']), rows_html, tags_html,
        E(p['large']), E(fname),
+       urllib.parse.quote(p['title'] + '｜SHIKA PHOTO LIBRARY'), urllib.parse.quote(share_url, safe=''),
+       urllib.parse.quote(share_url, safe=''),
+       urllib.parse.quote(share_url, safe=''),
+       E(share_url),
        ('<a class="section__more" href="../spots/%s.html">%sをすべて見る <svg><use href="#i-arrow"/></svg></a>'
         % (E(p['spotId']), E(p['spot']))) if sp else '',
        ''.join(photo_card(q) for q in related),
