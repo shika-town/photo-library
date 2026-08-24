@@ -3,7 +3,7 @@
 window.SPL_LIBRARY = {
   "meta": {
     "note": "photos.json と spots.json から自動生成しています。直接編集せず、scripts/build-library.py を実行してください。",
-    "count": 385
+    "count": 390
   },
   "photos": [
     {
@@ -1456,7 +1456,6 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "海",
-        "夕陽",
         "岩",
         "星空"
       ],
@@ -2769,6 +2768,101 @@ window.SPL_LIBRARY = {
       "id": "P0030"
     },
     {
+      "title": "弁天島_17",
+      "spot": "弁天島",
+      "spotId": "benten",
+      "area": "志賀エリア",
+      "season": "",
+      "tags": [
+        "海",
+        "夕陽",
+        "島"
+      ],
+      "thumb": "assets/img/lib/P0580-thumb.jpg",
+      "large": "assets/img/lib/P0580-large.jpg",
+      "alt": "弁天島_17",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "弁天島",
+      "id": "P0580"
+    },
+    {
+      "title": "弁天島_18",
+      "spot": "弁天島",
+      "spotId": "benten",
+      "area": "志賀エリア",
+      "season": "",
+      "tags": [
+        "海",
+        "夕陽",
+        "島"
+      ],
+      "thumb": "assets/img/lib/P0581-thumb.jpg",
+      "large": "assets/img/lib/P0581-large.jpg",
+      "alt": "弁天島_18",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "弁天島",
+      "id": "P0581"
+    },
+    {
+      "title": "弁天島_19",
+      "spot": "弁天島",
+      "spotId": "benten",
+      "area": "志賀エリア",
+      "season": "",
+      "tags": [
+        "海",
+        "夕陽",
+        "島"
+      ],
+      "thumb": "assets/img/lib/P0582-thumb.jpg",
+      "large": "assets/img/lib/P0582-large.jpg",
+      "alt": "弁天島_19",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "弁天島",
+      "id": "P0582"
+    },
+    {
+      "title": "弁天島_20",
+      "spot": "弁天島",
+      "spotId": "benten",
+      "area": "志賀エリア",
+      "season": "",
+      "tags": [
+        "海",
+        "夕陽",
+        "島"
+      ],
+      "thumb": "assets/img/lib/P0583-thumb.jpg",
+      "large": "assets/img/lib/P0583-large.jpg",
+      "alt": "弁天島_20",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "弁天島",
+      "id": "P0583"
+    },
+    {
+      "title": "弁天島_21",
+      "spot": "弁天島",
+      "spotId": "benten",
+      "area": "志賀エリア",
+      "season": "",
+      "tags": [
+        "海",
+        "夕陽",
+        "島"
+      ],
+      "thumb": "assets/img/lib/P0584-thumb.jpg",
+      "large": "assets/img/lib/P0584-large.jpg",
+      "alt": "弁天島_21",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "弁天島",
+      "id": "P0584"
+    },
+    {
       "title": "弁天島_1",
       "spot": "弁天島",
       "spotId": "benten",
@@ -3906,7 +4000,6 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "海",
-        "夕陽",
         "星空",
         "キャンプ"
       ],
@@ -3926,7 +4019,6 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "海",
-        "夕陽",
         "星空",
         "キャンプ"
       ],

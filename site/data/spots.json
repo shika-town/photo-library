@@ -887,7 +887,6 @@
           "caption": "機具岩_14",
           "tags": [
             "海",
-            "夕陽",
             "岩",
             "星空"
           ]
@@ -1730,6 +1729,61 @@
           ]
         },
         {
+          "id": "P0580",
+          "thumb": "../assets/img/lib/P0580-thumb.jpg",
+          "large": "../assets/img/lib/P0580-large.jpg",
+          "caption": "弁天島_17",
+          "tags": [
+            "海",
+            "夕陽",
+            "島"
+          ]
+        },
+        {
+          "id": "P0581",
+          "thumb": "../assets/img/lib/P0581-thumb.jpg",
+          "large": "../assets/img/lib/P0581-large.jpg",
+          "caption": "弁天島_18",
+          "tags": [
+            "海",
+            "夕陽",
+            "島"
+          ]
+        },
+        {
+          "id": "P0582",
+          "thumb": "../assets/img/lib/P0582-thumb.jpg",
+          "large": "../assets/img/lib/P0582-large.jpg",
+          "caption": "弁天島_19",
+          "tags": [
+            "海",
+            "夕陽",
+            "島"
+          ]
+        },
+        {
+          "id": "P0583",
+          "thumb": "../assets/img/lib/P0583-thumb.jpg",
+          "large": "../assets/img/lib/P0583-large.jpg",
+          "caption": "弁天島_20",
+          "tags": [
+            "海",
+            "夕陽",
+            "島"
+          ]
+        },
+        {
+          "id": "P0584",
+          "thumb": "../assets/img/lib/P0584-thumb.jpg",
+          "large": "../assets/img/lib/P0584-large.jpg",
+          "caption": "弁天島_21",
+          "tags": [
+            "海",
+            "夕陽",
+            "島"
+          ]
+        },
+        {
           "id": "P0193",
           "thumb": "../assets/img/lib/P0193-thumb.jpg",
           "large": "../assets/img/lib/P0193-large.jpg",
@@ -1894,7 +1948,7 @@
           ]
         }
       ],
-      "count": 20
+      "count": 25
     },
     {
       "id": "yase",
@@ -2556,7 +2610,6 @@
           "caption": "大島キャンプ場_4",
           "tags": [
             "海",
-            "夕陽",
             "星空",
             "キャンプ"
           ]
@@ -2568,7 +2621,6 @@
           "caption": "大島キャンプ場_5",
           "tags": [
             "海",
-            "夕陽",
             "星空",
             "キャンプ"
           ]
