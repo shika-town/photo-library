@@ -1456,7 +1456,6 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "海",
-        "夕陽",
         "岩",
         "星空"
       ],
@@ -3906,7 +3905,6 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "海",
-        "夕陽",
         "星空",
         "キャンプ"
       ],
@@ -3926,7 +3924,6 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "海",
-        "夕陽",
         "星空",
         "キャンプ"
       ],
