@@ -148,6 +148,7 @@ FOOTER_TPL = '''<footer class="footer">
         <li><a href="{PRE}privacy.html">プライバシーポリシー</a></li>
         <li><a href="{PRE}credit.html">著作権・クレジット</a></li>
         <li><a href="{PRE}faq.html">よくあるご質問</a></li>
+        <li><a href="{PRE}instagram.html">Instagramのご紹介</a></li>
       </ul>
       <p class="footer__copy">© 志賀町 All Rights Reserved.</p>
     </div>

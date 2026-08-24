@@ -267,6 +267,10 @@ window.SPL_DATA = {
       {
         "label": "よくあるご質問",
         "href": "faq.html"
+      },
+      {
+        "label": "Instagramのご紹介",
+        "href": "instagram.html"
       }
     ]
   }

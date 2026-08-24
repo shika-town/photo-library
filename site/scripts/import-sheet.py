@@ -428,7 +428,8 @@ def main():
                 {'label': '利用規約', 'href': 'terms.html'},
                 {'label': 'プライバシーポリシー', 'href': 'privacy.html'},
                 {'label': '著作権・クレジット', 'href': 'credit.html'},
-                {'label': 'よくあるご質問', 'href': 'faq.html'}],
+                {'label': 'よくあるご質問', 'href': 'faq.html'},
+                {'label': 'Instagramのご紹介', 'href': 'instagram.html'}],
         },
     }
     for sc in sorted(scenes, key=lambda x: float(x.get('sortOrder') or 0)):
