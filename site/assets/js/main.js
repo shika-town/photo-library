@@ -146,6 +146,15 @@
         (i === 0 ? 'fetchpriority="high"' : 'loading="lazy"') + ' width="2400" height="1350">';
     }).join('');
 
+    // スライドショーは写真ごとに場所が違うため、右下のキャプションも切り替わる
+    // スライドに合わせて表示する（キャプション欄が固定だと、違う場所の写真なのに
+    // 前の場所の名前が出続けてしまうため）。
+    var captionEl = $('#heroCaption').querySelector('span');
+    function setCaption(i) {
+      captionEl.textContent = (images[i] && images[i].alt) || hero.caption || '';
+    }
+    setCaption(0);
+
     if (heroTimer) { clearInterval(heroTimer); heroTimer = null; }
     if (images.length > 1) {
       var idx = 0;
@@ -154,6 +163,7 @@
         slides[idx].classList.remove('is-active');
         idx = (idx + 1) % slides.length;
         slides[idx].classList.add('is-active');
+        setCaption(idx);
       }, HERO_INTERVAL_MS);
     }
   }
@@ -164,7 +174,6 @@
   function render(d) {
     $('#heroTitle').innerHTML = d.hero.title.map(function (t) { return '<span>' + esc(t) + '</span>'; }).join('');
     renderHero(d.hero);
-    $('#heroCaption').querySelector('span').textContent = d.hero.caption;
     document.title = d.site.name + '｜' + d.site.nameJa;
 
     var chips = (d.heroTags || []).map(function (t) {

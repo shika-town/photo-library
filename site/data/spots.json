@@ -757,7 +757,6 @@
           "caption": "機具岩_2",
           "tags": [
             "海",
-            "夕陽",
             "岩"
           ]
         },
@@ -801,7 +800,6 @@
           "caption": "機具岩_6",
           "tags": [
             "海",
-            "夕陽",
             "岩"
           ]
         },
@@ -1934,7 +1932,7 @@
           "url": "https://shika-guide.jp/spot/id/1163/"
         }
       ],
-      "hero": "assets/img/lib/P0004-hero.jpg",
+      "hero": "",
       "photos": [
         {
           "id": "P0032",
@@ -1947,119 +1945,6 @@
             "空撮",
             "名所旧跡",
             "義経"
-          ]
-        },
-        {
-          "id": "P0033",
-          "thumb": "../assets/img/lib/P0033-thumb.jpg",
-          "large": "../assets/img/lib/P0033-large.jpg",
-          "caption": "断崖からの眺め",
-          "tags": [
-            "断崖",
-            "海",
-            "空撮",
-            "名所旧跡",
-            "義経"
-          ]
-        },
-        {
-          "id": "P0034",
-          "thumb": "../assets/img/lib/P0034-thumb.jpg",
-          "large": "../assets/img/lib/P0034-large.jpg",
-          "caption": "荒々しい岩肌",
-          "tags": [
-            "断崖",
-            "海",
-            "空撮",
-            "名所旧跡",
-            "義経"
-          ]
-        },
-        {
-          "id": "P0035",
-          "thumb": "../assets/img/lib/P0035-thumb.jpg",
-          "large": "../assets/img/lib/P0035-large.jpg",
-          "caption": "海岸線を望む",
-          "tags": [
-            "断崖",
-            "海",
-            "空撮",
-            "名所旧跡",
-            "義経"
-          ]
-        },
-        {
-          "id": "P0004",
-          "thumb": "../assets/img/lib/P0004-thumb.jpg",
-          "large": "../assets/img/lib/P0004-large.jpg",
-          "caption": "ヤセの断崖",
-          "tags": [
-            "断崖",
-            "海",
-            "空撮"
-          ]
-        },
-        {
-          "id": "P0534",
-          "thumb": "../assets/img/lib/P0534-thumb.jpg",
-          "large": "../assets/img/lib/P0534-large.jpg",
-          "caption": "ヤセの断崖_5",
-          "tags": [
-            "海",
-            "空撮",
-            "岩",
-            "断崖"
-          ]
-        },
-        {
-          "id": "P0535",
-          "thumb": "../assets/img/lib/P0535-thumb.jpg",
-          "large": "../assets/img/lib/P0535-large.jpg",
-          "caption": "ヤセの断崖_6",
-          "tags": [
-            "海",
-            "岩",
-            "断崖"
-          ]
-        },
-        {
-          "id": "P0536",
-          "thumb": "../assets/img/lib/P0536-thumb.jpg",
-          "large": "../assets/img/lib/P0536-large.jpg",
-          "caption": "ヤセの断崖_7",
-          "tags": [
-            "岩",
-            "断崖"
-          ]
-        },
-        {
-          "id": "P0537",
-          "thumb": "../assets/img/lib/P0537-thumb.jpg",
-          "large": "../assets/img/lib/P0537-large.jpg",
-          "caption": "ヤセの断崖_8",
-          "tags": [
-            "岩",
-            "断崖"
-          ]
-        },
-        {
-          "id": "P0538",
-          "thumb": "../assets/img/lib/P0538-thumb.jpg",
-          "large": "../assets/img/lib/P0538-large.jpg",
-          "caption": "ヤセの断崖_9",
-          "tags": [
-            "岩",
-            "断崖"
-          ]
-        },
-        {
-          "id": "P0539",
-          "thumb": "../assets/img/lib/P0539-thumb.jpg",
-          "large": "../assets/img/lib/P0539-large.jpg",
-          "caption": "ヤセの断崖_10",
-          "tags": [
-            "岩",
-            "断崖"
           ]
         },
         {
@@ -2105,32 +1990,10 @@
           ]
         },
         {
-          "id": "P0544",
-          "thumb": "../assets/img/lib/P0544-thumb.jpg",
-          "large": "../assets/img/lib/P0544-large.jpg",
-          "caption": "ヤセの断崖_15",
-          "tags": [
-            "海",
-            "岩",
-            "断崖"
-          ]
-        },
-        {
           "id": "P0545",
           "thumb": "../assets/img/lib/P0545-thumb.jpg",
           "large": "../assets/img/lib/P0545-large.jpg",
           "caption": "ヤセの断崖_16",
-          "tags": [
-            "海",
-            "岩",
-            "断崖"
-          ]
-        },
-        {
-          "id": "P0546",
-          "thumb": "../assets/img/lib/P0546-thumb.jpg",
-          "large": "../assets/img/lib/P0546-large.jpg",
-          "caption": "ヤセの断崖_17",
           "tags": [
             "海",
             "岩",
@@ -2160,63 +2023,6 @@
           ]
         },
         {
-          "id": "P0130",
-          "thumb": "../assets/img/lib/P0130-thumb.jpg",
-          "large": "../assets/img/lib/P0130-large.jpg",
-          "caption": "岬をめぐる遊歩道",
-          "tags": [
-            "海",
-            "空撮",
-            "岩",
-            "断崖"
-          ]
-        },
-        {
-          "id": "P0131",
-          "thumb": "../assets/img/lib/P0131-thumb.jpg",
-          "large": "../assets/img/lib/P0131-large.jpg",
-          "caption": "切り立つ岩壁を上空から",
-          "tags": [
-            "海",
-            "空撮",
-            "岩",
-            "断崖"
-          ]
-        },
-        {
-          "id": "P0132",
-          "thumb": "../assets/img/lib/P0132-thumb.jpg",
-          "large": "../assets/img/lib/P0132-large.jpg",
-          "caption": "上空から望む海岸の岩場",
-          "tags": [
-            "空撮",
-            "岩",
-            "断崖"
-          ]
-        },
-        {
-          "id": "P0133",
-          "thumb": "../assets/img/lib/P0133-thumb.jpg",
-          "large": "../assets/img/lib/P0133-large.jpg",
-          "caption": "断崖の上に立つ展望デッキ",
-          "tags": [
-            "空撮",
-            "岩",
-            "断崖"
-          ]
-        },
-        {
-          "id": "P0135",
-          "thumb": "../assets/img/lib/P0135-thumb.jpg",
-          "large": "../assets/img/lib/P0135-large.jpg",
-          "caption": "海に突き出す断崖",
-          "tags": [
-            "空撮",
-            "岩",
-            "断崖"
-          ]
-        },
-        {
           "id": "P0138",
           "thumb": "../assets/img/lib/P0138-thumb.jpg",
           "large": "../assets/img/lib/P0138-large.jpg",
@@ -2239,17 +2045,6 @@
           ]
         },
         {
-          "id": "P0423",
-          "thumb": "../assets/img/lib/P0423-thumb.jpg",
-          "large": "../assets/img/lib/P0423-large.jpg",
-          "caption": "ヤセの断崖_2",
-          "tags": [
-            "海",
-            "岩",
-            "断崖"
-          ]
-        },
-        {
           "id": "P0505",
           "thumb": "../assets/img/lib/P0505-thumb.jpg",
           "large": "../assets/img/lib/P0505-large.jpg",
@@ -2258,21 +2053,9 @@
             "岩",
             "断崖"
           ]
-        },
-        {
-          "id": "P0560",
-          "thumb": "../assets/img/lib/P0560-thumb.jpg",
-          "large": "../assets/img/lib/P0560-large.jpg",
-          "caption": "ヤセの断崖_19",
-          "tags": [
-            "海",
-            "空撮",
-            "岩",
-            "断崖"
-          ]
         }
       ],
-      "count": 30
+      "count": 11
     },
     {
       "id": "fukura",
