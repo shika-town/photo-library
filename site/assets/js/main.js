@@ -135,10 +135,34 @@
   var HERO_INTERVAL_MS = 5000;
   var heroTimer = null;
 
+  // 写真の明るさ（0〜255）をざっくり測る。縮小して描くのでコストは小さい。
+  // 読み取れない場合（file:// など）は null を返し、判定自体をあきらめる。
+  var HERO_LIGHT_THRESHOLD = 150;
+  function measureBrightness(img, done) {
+    function run() {
+      try {
+        var w = 16, h = 16;
+        var c = document.createElement('canvas');
+        c.width = w; c.height = h;
+        var ctx = c.getContext('2d');
+        ctx.drawImage(img, 0, 0, w, h);
+        var data = ctx.getImageData(0, 0, w, h).data;
+        var sum = 0, n = 0;
+        for (var i = 0; i < data.length; i += 4) {
+          sum += 0.299 * data[i] + 0.587 * data[i + 1] + 0.114 * data[i + 2];
+          n++;
+        }
+        done(sum / n);
+      } catch (e) { done(null); }
+    }
+    if (img.complete && img.naturalWidth) run(); else img.addEventListener('load', run);
+  }
+
   // ヒーロー画像：1枚だけならこれまで通りの静止画、2枚以上なら数秒おきに
   // クロスフェードで切り替わるスライドショーになる。
   function renderHero(hero) {
     var media = $('#heroMedia');
+    var heroSection = document.querySelector('.hero');
     var images = (hero.images && hero.images.length) ? hero.images : [{ image: hero.image, alt: hero.alt }];
     media.innerHTML = images.map(function (im, i) {
       return '<img class="hero__slide' + (i === 0 ? ' is-active' : '') + '" ' +
@@ -155,15 +179,31 @@
     }
     setCaption(0);
 
+    // 明るい写真では白文字だと読みにくいため、写真ごとに測った明るさに応じて
+    // 文字色（白／濃紺）を自動で切り替える。
+    var slides = $$('.hero__slide', media);
+    slides.forEach(function (s) {
+      measureBrightness(s, function (b) {
+        s.dataset.brightness = b == null ? '' : String(b);
+        if (s.classList.contains('is-active')) applyTextColor(s);
+      });
+    });
+    function applyTextColor(s) {
+      var b = s.dataset.brightness;
+      if (b === '' || b === undefined) return; // 測れなかった写真は今の配色のまま
+      heroSection.classList.toggle('is-light-photo', Number(b) > HERO_LIGHT_THRESHOLD);
+    }
+    applyTextColor(slides[0]);
+
     if (heroTimer) { clearInterval(heroTimer); heroTimer = null; }
     if (images.length > 1) {
       var idx = 0;
-      var slides = $$('.hero__slide', media);
       heroTimer = setInterval(function () {
         slides[idx].classList.remove('is-active');
         idx = (idx + 1) % slides.length;
         slides[idx].classList.add('is-active');
         setCaption(idx);
+        applyTextColor(slides[idx]);
       }, HERO_INTERVAL_MS);
     }
   }
@@ -172,7 +212,11 @@
      描画
      ===================================================================== */
   function render(d) {
-    $('#heroTitle').innerHTML = d.hero.title.map(function (t) { return '<span>' + esc(t) + '</span>'; }).join('');
+    // 1行目は大きく手書き風に、2行目以降は説明文として小さく添える。
+    $('#heroTitle').innerHTML = d.hero.title.map(function (t, i) {
+      var cls = i === 0 ? 'hero__title-main' : 'hero__title-sub';
+      return '<span class="' + cls + '">' + esc(t) + '</span>';
+    }).join('');
     renderHero(d.hero);
     document.title = d.site.name + '｜' + d.site.nameJa;
 
@@ -319,7 +363,8 @@
     }).catch(function (err) {
       console.error(err);
       var t = $('#heroTitle');
-      if (t) t.innerHTML = '<span>志賀町の風景を、</span><span>未来へ残す。</span>';
+      if (t) t.innerHTML = '<span class="hero__title-main">#しかたび</span>'
+        + '<span class="hero__title-sub">志賀町の、いまを写真に。\n未来へつなぐフォトライブラリー</span>';
     });
   });
 })();

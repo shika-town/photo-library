@@ -3,7 +3,7 @@
 window.SPL_LIBRARY = {
   "meta": {
     "note": "photos.json と spots.json から自動生成しています。直接編集せず、scripts/build-library.py を実行してください。",
-    "count": 390
+    "count": 391
   },
   "photos": [
     {
@@ -3453,6 +3453,24 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "旧福浦灯台",
       "id": "P0041"
+    },
+    {
+      "title": "日本燈台発祥の地の碑",
+      "spot": "旧福浦灯台",
+      "spotId": "fukura",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "灯台",
+        "名所旧跡"
+      ],
+      "thumb": "assets/img/lib/P0629-thumb.jpg",
+      "large": "assets/img/lib/P0629-large.jpg",
+      "alt": "日本燈台発祥の地の碑",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "旧福浦灯台",
+      "id": "P0629"
     },
     {
       "title": "旧福浦灯台_1",

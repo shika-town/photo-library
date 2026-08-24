@@ -2225,6 +2225,16 @@
           ]
         },
         {
+          "id": "P0629",
+          "thumb": "../assets/img/lib/P0629-thumb.jpg",
+          "large": "../assets/img/lib/P0629-large.jpg",
+          "caption": "日本燈台発祥の地の碑",
+          "tags": [
+            "灯台",
+            "名所旧跡"
+          ]
+        },
+        {
           "id": "P0089",
           "thumb": "../assets/img/lib/P0089-thumb.jpg",
           "large": "../assets/img/lib/P0089-large.jpg",
@@ -2359,7 +2369,7 @@
           ]
         }
       ],
-      "count": 17
+      "count": 18
     },
     {
       "id": "shogando",

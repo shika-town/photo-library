@@ -10,8 +10,8 @@ window.SPL_DATA = {
   },
   "hero": {
     "title": [
-      "志賀町フォトライブラリー",
-      "志賀町の風景を、未来へ残す。"
+      "#しかたび",
+      "志賀町の、いまを写真に。未来へつなぐフォトライブラリー"
     ],
     "image": "assets/img/lib/P0002-hero.jpg",
     "alt": "世界一長いベンチ／増穂浦海岸",
@@ -21,8 +21,8 @@ window.SPL_DATA = {
         "alt": "巌門の入り江"
       },
       {
-        "image": "assets/img/lib/P0032-hero.jpg",
-        "alt": "義経の舟隠しの入り江"
+        "image": "assets/img/lib/P0629-hero.jpg",
+        "alt": "日本燈台発祥の地の碑"
       },
       {
         "image": "assets/img/lib/P0001-hero.jpg",
