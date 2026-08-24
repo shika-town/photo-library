@@ -67,6 +67,15 @@ jobs:
         working-directory: site
         run: python scripts/build-all.py
 
+      - name: GA4のランキングを取得する（未設定ならスキップ）
+        env:
+          GA4_PROPERTY_ID: ${{ vars.GA4_PROPERTY_ID }}
+          GA4_SERVICE_ACCOUNT_JSON: ${{ secrets.GA4_SERVICE_ACCOUNT_JSON }}
+        working-directory: site
+        run: |
+          pip install google-analytics-data > /dev/null
+          python scripts/fetch-ga4-ranking.py
+
       - name: 変更をリポジトリに保存
         run: |
           git config user.name  "github-actions[bot]"

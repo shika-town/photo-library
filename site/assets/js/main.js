@@ -56,6 +56,24 @@
       });
   }
 
+  // 「先月人気だった写真」ランキング：GA4連携が未設定の間は data/ranking.json が
+  // 存在しない（またはfile:// で読めない）ので、その場合は静かに諦めて
+  // セクションを表示しないままにする（サイトの他の機能には影響しない）。
+  function renderRanking(d) {
+    if (!d || !d.photos || !d.photos.length) return;
+    var section = $('#ranking');
+    var grid = $('#rankingGrid');
+    if (!section || !grid) return;
+    grid.innerHTML = d.photos.map(rankingCard).join('');
+    section.hidden = false;
+  }
+  function loadRanking() {
+    fetch('data/ranking.json', { cache: 'no-cache' })
+      .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+      .then(renderRanking)
+      .catch(function () { /* 未設定・未生成なら何もしない */ });
+  }
+
   /* =====================================================================
      カード
      ===================================================================== */
@@ -75,6 +93,20 @@
     var tags = (p.tags || []).map(function (t) { return '<span class="tag">#' + esc(t) + '</span>'; }).join('');
     return '<a class="photo-card" href="photos/' + esc(p.id) + '.html">' +
       '<div class="photo-card__media"><img src="' + esc(p.image) + '" alt="' + esc(p.alt || p.title) +
+        '" loading="lazy" width="1080" height="840"></div>' +
+      '<div class="photo-card__body">' +
+        '<h3 class="photo-card__title">' + esc(p.title) + '</h3>' +
+        '<p class="photo-card__area">' + icon('i-pin') + esc(p.area) + '</p>' +
+        '<div class="photo-card__tags">' + tags + '</div>' +
+      '</div></a>';
+  }
+
+  // ランキング用カード：data/ranking.json は library.json と同じ命名（p.thumb）を使うため、
+  // photoCard（p.image）とは別に用意する。
+  function rankingCard(p) {
+    var tags = (p.tags || []).map(function (t) { return '<span class="tag">#' + esc(t) + '</span>'; }).join('');
+    return '<a class="photo-card" href="photos/' + esc(p.id) + '.html">' +
+      '<div class="photo-card__media"><img src="' + esc(p.thumb) + '" alt="' + esc(p.alt || p.title) +
         '" loading="lazy" width="1080" height="840"></div>' +
       '<div class="photo-card__body">' +
         '<h3 class="photo-card__title">' + esc(p.title) + '</h3>' +
@@ -251,6 +283,7 @@
     initHeader();
     initDrawer();
     var overlay = initOverlay();
+    loadRanking();
 
     loadData().then(function (d) {
       render(d);
