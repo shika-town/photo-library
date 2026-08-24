@@ -32,7 +32,7 @@ window.SPL_DATA = {
       "id": "bench",
       "name": "世界一長いベンチ・増穂浦海岸",
       "area": "富来エリア",
-      "count": 52,
+      "count": 55,
       "image": "assets/img/lib/P0008-hero.jpg",
       "alt": "世界一長いベンチ・増穂浦海岸",
       "description": "海・貝・夕日、そして記憶に残る長さ"
@@ -41,7 +41,7 @@ window.SPL_DATA = {
       "id": "hatago",
       "name": "機具岩",
       "area": "富来エリア",
-      "count": 26,
+      "count": 23,
       "image": "assets/img/lib/P0001-hero.jpg",
       "alt": "機具岩",
       "description": "二つの岩が寄り添う夫婦岩。能登屈指のマジックアワーポイント。"
@@ -50,7 +50,7 @@ window.SPL_DATA = {
       "id": "gate",
       "name": "巌門",
       "area": "富来エリア",
-      "count": 43,
+      "count": 60,
       "image": "assets/img/lib/P0020-hero.jpg",
       "alt": "巌門",
       "description": "日本海が作り上げた芸術"
@@ -70,37 +70,37 @@ window.SPL_DATA = {
       "label": "夕陽",
       "query": "夕陽",
       "image": "assets/img/lib/P0063-scene.jpg",
-      "alt": "岩の間に沈む夕陽"
+      "alt": "平家_12"
     },
     {
       "label": "海",
       "query": "海",
-      "image": "assets/img/lib/P0064-scene.jpg",
-      "alt": "エメラルドグリーンの入り江"
+      "image": "",
+      "alt": "海"
     },
     {
       "label": "空撮",
       "query": "空撮",
-      "image": "assets/img/lib/P0065-scene.jpg",
-      "alt": "上空から見た海岸線"
+      "image": "",
+      "alt": "空撮"
     },
     {
       "label": "春",
       "query": "春",
-      "image": "assets/img/lib/P0066-scene.jpg",
-      "alt": "満開の桜並木"
+      "image": "",
+      "alt": "春"
     },
     {
       "label": "秋",
       "query": "秋",
-      "image": "assets/img/lib/P0067-scene.jpg",
-      "alt": "紅葉に色づく山と棚田"
+      "image": "",
+      "alt": "秋"
     },
     {
       "label": "星空",
       "query": "星空",
-      "image": "assets/img/lib/P0068-scene.jpg",
-      "alt": "天の川と六角地蔵塔"
+      "image": "",
+      "alt": "星空"
     }
   ],
   "photos": [
@@ -111,9 +111,8 @@ window.SPL_DATA = {
       "area": "富来エリア",
       "season": "春,冬",
       "tags": [
-        "さくら貝",
-        "海",
-        "砂浜"
+        "砂浜",
+        "さくら貝"
       ],
       "image": "assets/img/lib/P0003-new.jpg",
       "alt": "増穂浦海岸で拾い集めたさくら貝"
@@ -192,13 +191,13 @@ window.SPL_DATA = {
     {
       "id": "P0007",
       "title": "尊保の桜並木",
-      "spot": "",
-      "area": "富来エリア",
+      "spot": "その他",
+      "area": "",
       "season": "春",
       "tags": [
-        "春",
         "桜",
-        "花"
+        "花",
+        "春"
       ],
       "image": "assets/img/lib/P0007-new.jpg",
       "alt": "満開の桜が続く春の並木道"
@@ -209,29 +208,29 @@ window.SPL_DATA = {
       "ja": "春",
       "en": "Spring",
       "query": "春",
-      "image": "assets/img/lib/P0069-season.jpg",
-      "alt": "満開の桜並木"
+      "image": "",
+      "alt": "春"
     },
     {
       "ja": "夏",
       "en": "Summer",
       "query": "夏",
-      "image": "assets/img/lib/P0070-season.jpg",
-      "alt": "青空に向かって咲くひまわり畑"
+      "image": "",
+      "alt": "夏"
     },
     {
       "ja": "秋",
       "en": "Autumn",
       "query": "秋",
-      "image": "assets/img/lib/P0071-season.jpg",
-      "alt": "紅葉に色づく高爪山と棚田"
+      "image": "",
+      "alt": "秋"
     },
     {
       "ja": "冬",
       "en": "Winter",
       "query": "冬",
-      "image": "assets/img/lib/P0072-season.jpg",
-      "alt": "青く光る世界一長いベンチのイルミネーション"
+      "image": "",
+      "alt": "冬"
     }
   ],
   "footer": {

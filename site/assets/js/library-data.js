@@ -3,7 +3,7 @@
 window.SPL_LIBRARY = {
   "meta": {
     "note": "photos.json と spots.json から自動生成しています。直接編集せず、scripts/build-library.py を実行してください。",
-    "count": 236
+    "count": 277
   },
   "photos": [
     {
@@ -13,9 +13,8 @@ window.SPL_LIBRARY = {
       "area": "富来エリア",
       "season": "春,冬",
       "tags": [
-        "さくら貝",
-        "海",
-        "砂浜"
+        "砂浜",
+        "さくら貝"
       ],
       "thumb": "assets/img/lib/P0003-thumb.jpg",
       "large": "assets/img/lib/P0003-large.jpg",
@@ -123,14 +122,14 @@ window.SPL_LIBRARY = {
     },
     {
       "title": "尊保の桜並木",
-      "spot": "",
+      "spot": "その他",
       "spotId": null,
-      "area": "富来エリア",
+      "area": "",
       "season": "春",
       "tags": [
-        "春",
         "桜",
-        "花"
+        "花",
+        "春"
       ],
       "thumb": "assets/img/lib/P0007-new.jpg",
       "large": "assets/img/lib/P0007-new.jpg",
@@ -148,9 +147,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "海",
-        "ベンチ",
-        "さくら貝",
-        "空撮"
+        "空撮",
+        "ベンチ"
       ],
       "thumb": "assets/img/lib/P0008-thumb.jpg",
       "large": "assets/img/lib/P0008-large.jpg",
@@ -168,8 +166,7 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "海",
-        "ベンチ",
-        "さくら貝"
+        "ベンチ"
       ],
       "thumb": "assets/img/lib/P0009-thumb.jpg",
       "large": "assets/img/lib/P0009-large.jpg",
@@ -186,9 +183,7 @@ window.SPL_LIBRARY = {
       "area": "富来エリア",
       "season": "",
       "tags": [
-        "海",
-        "ベンチ",
-        "さくら貝"
+        "ベンチ"
       ],
       "thumb": "assets/img/lib/P0010-thumb.jpg",
       "large": "assets/img/lib/P0010-large.jpg",
@@ -236,6 +231,44 @@ window.SPL_LIBRARY = {
       "id": "P0012"
     },
     {
+      "title": "上空から見た増穂浦海岸",
+      "spot": "世界一長いベンチ・増穂浦海岸",
+      "spotId": "bench",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "海",
+        "空撮",
+        "海岸線"
+      ],
+      "thumb": "assets/img/lib/P0146-thumb.jpg",
+      "large": "assets/img/lib/P0146-large.jpg",
+      "alt": "上空から見た増穂浦海岸",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "世界一長いベンチ・増穂浦海岸",
+      "id": "P0146"
+    },
+    {
+      "title": "上空から見た志賀町の海岸",
+      "spot": "世界一長いベンチ・増穂浦海岸",
+      "spotId": "bench",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "海",
+        "空撮",
+        "海岸線"
+      ],
+      "thumb": "assets/img/lib/P0147-thumb.jpg",
+      "large": "assets/img/lib/P0147-large.jpg",
+      "alt": "上空から見た志賀町の海岸",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "世界一長いベンチ・増穂浦海岸",
+      "id": "P0147"
+    },
+    {
       "title": "増穂浦海岸に伸びるベンチ",
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
@@ -255,15 +288,31 @@ window.SPL_LIBRARY = {
       "id": "P0148"
     },
     {
+      "title": "海を望む木製デッキ",
+      "spot": "世界一長いベンチ・増穂浦海岸",
+      "spotId": "bench",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "ベンチ"
+      ],
+      "thumb": "assets/img/lib/P0149-thumb.jpg",
+      "large": "assets/img/lib/P0149-large.jpg",
+      "alt": "海を望む木製デッキ",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "世界一長いベンチ・増穂浦海岸",
+      "id": "P0149"
+    },
+    {
       "title": "カラフルに続く世界一長いベンチ",
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
       "season": "",
       "tags": [
-        "世界一長いベンチ",
-        "海",
-        "青空"
+        "青空",
+        "世界一長いベンチ"
       ],
       "thumb": "assets/img/lib/P0150-thumb.jpg",
       "large": "assets/img/lib/P0150-large.jpg",
@@ -299,9 +348,8 @@ window.SPL_LIBRARY = {
       "area": "富来エリア",
       "season": "",
       "tags": [
-        "世界一長いベンチ",
-        "海",
-        "青空"
+        "青空",
+        "世界一長いベンチ"
       ],
       "thumb": "assets/img/lib/P0152-thumb.jpg",
       "large": "assets/img/lib/P0152-large.jpg",
@@ -318,8 +366,7 @@ window.SPL_LIBRARY = {
       "area": "富来エリア",
       "season": "",
       "tags": [
-        "世界一長いベンチ",
-        "海"
+        "世界一長いベンチ"
       ],
       "thumb": "assets/img/lib/P0153-thumb.jpg",
       "large": "assets/img/lib/P0153-large.jpg",
@@ -354,9 +401,8 @@ window.SPL_LIBRARY = {
       "area": "富来エリア",
       "season": "",
       "tags": [
-        "世界一長いベンチ",
-        "海",
-        "青空"
+        "青空",
+        "世界一長いベンチ"
       ],
       "thumb": "assets/img/lib/P0155-thumb.jpg",
       "large": "assets/img/lib/P0155-large.jpg",
@@ -765,7 +811,6 @@ window.SPL_LIBRARY = {
       "area": "富来エリア",
       "season": "",
       "tags": [
-        "海",
         "ベンチ",
         "ライトアップ",
         "夜景",
@@ -828,7 +873,6 @@ window.SPL_LIBRARY = {
       "area": "富来エリア",
       "season": "",
       "tags": [
-        "海",
         "ベンチ",
         "ライトアップ",
         "夜景",
@@ -870,7 +914,6 @@ window.SPL_LIBRARY = {
       "area": "富来エリア",
       "season": "",
       "tags": [
-        "海",
         "空撮",
         "砂浜",
         "ベンチ",
@@ -891,7 +934,6 @@ window.SPL_LIBRARY = {
       "area": "富来エリア",
       "season": "",
       "tags": [
-        "海",
         "ベンチ",
         "青空"
       ],
@@ -910,7 +952,6 @@ window.SPL_LIBRARY = {
       "area": "富来エリア",
       "season": "",
       "tags": [
-        "海",
         "ベンチ",
         "青空"
       ],
@@ -929,7 +970,6 @@ window.SPL_LIBRARY = {
       "area": "富来エリア",
       "season": "",
       "tags": [
-        "海",
         "ベンチ",
         "青空"
       ],
@@ -948,7 +988,6 @@ window.SPL_LIBRARY = {
       "area": "富来エリア",
       "season": "",
       "tags": [
-        "海",
         "ベンチ",
         "青空"
       ],
@@ -967,7 +1006,6 @@ window.SPL_LIBRARY = {
       "area": "富来エリア",
       "season": "",
       "tags": [
-        "海",
         "ベンチ",
         "青空"
       ],
@@ -1005,7 +1043,6 @@ window.SPL_LIBRARY = {
       "area": "富来エリア",
       "season": "",
       "tags": [
-        "海",
         "ベンチ",
         "青空"
       ],
@@ -1043,7 +1080,6 @@ window.SPL_LIBRARY = {
       "area": "富来エリア",
       "season": "",
       "tags": [
-        "海",
         "ベンチ",
         "青空"
       ],
@@ -1082,7 +1118,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "ベンチ",
-        "青空"
+        "青空",
+        "手形"
       ],
       "thumb": "assets/img/lib/P0430-thumb.jpg",
       "large": "assets/img/lib/P0430-large.jpg",
@@ -1099,7 +1136,6 @@ window.SPL_LIBRARY = {
       "area": "富来エリア",
       "season": "",
       "tags": [
-        "海",
         "ベンチ",
         "青空"
       ],
@@ -1530,51 +1566,6 @@ window.SPL_LIBRARY = {
       "id": "P0218"
     },
     {
-      "title": "DSC_4743",
-      "spot": "機具岩",
-      "spotId": "hatago",
-      "area": "富来エリア",
-      "season": "",
-      "tags": [],
-      "thumb": "assets/img/lib/P0267-thumb.jpg",
-      "large": "assets/img/lib/P0267-large.jpg",
-      "alt": "DSC_4743",
-      "credit": "© 志賀町",
-      "photographer": "志賀町",
-      "source": "機具岩",
-      "id": "P0267"
-    },
-    {
-      "title": "DSC_4749",
-      "spot": "機具岩",
-      "spotId": "hatago",
-      "area": "富来エリア",
-      "season": "",
-      "tags": [],
-      "thumb": "assets/img/lib/P0268-thumb.jpg",
-      "large": "assets/img/lib/P0268-large.jpg",
-      "alt": "DSC_4749",
-      "credit": "© 志賀町",
-      "photographer": "志賀町",
-      "source": "機具岩",
-      "id": "P0268"
-    },
-    {
-      "title": "DSC_4752",
-      "spot": "機具岩",
-      "spotId": "hatago",
-      "area": "富来エリア",
-      "season": "",
-      "tags": [],
-      "thumb": "assets/img/lib/P0269-thumb.jpg",
-      "large": "assets/img/lib/P0269-large.jpg",
-      "alt": "DSC_4752",
-      "credit": "© 志賀町",
-      "photographer": "志賀町",
-      "source": "機具岩",
-      "id": "P0269"
-    },
-    {
       "title": "海岸から望む巌門",
       "spot": "巌門",
       "spotId": "gate",
@@ -1670,6 +1661,332 @@ window.SPL_LIBRARY = {
       "id": "P0025"
     },
     {
+      "title": "巌門_15",
+      "spot": "巌門",
+      "spotId": "gate",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "岩",
+        "断崖",
+        "名所旧跡"
+      ],
+      "thumb": "assets/img/lib/P0585-thumb.jpg",
+      "large": "assets/img/lib/P0585-large.jpg",
+      "alt": "巌門_15",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "巌門",
+      "id": "P0585"
+    },
+    {
+      "title": "巌門_16",
+      "spot": "巌門",
+      "spotId": "gate",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "岩",
+        "断崖",
+        "名所旧跡"
+      ],
+      "thumb": "assets/img/lib/P0586-thumb.jpg",
+      "large": "assets/img/lib/P0586-large.jpg",
+      "alt": "巌門_16",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "巌門",
+      "id": "P0586"
+    },
+    {
+      "title": "巌門_17",
+      "spot": "巌門",
+      "spotId": "gate",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "岩",
+        "断崖",
+        "名所旧跡"
+      ],
+      "thumb": "assets/img/lib/P0587-thumb.jpg",
+      "large": "assets/img/lib/P0587-large.jpg",
+      "alt": "巌門_17",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "巌門",
+      "id": "P0587"
+    },
+    {
+      "title": "巌門_18",
+      "spot": "巌門",
+      "spotId": "gate",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "岩",
+        "断崖",
+        "名所旧跡",
+        "遊覧船"
+      ],
+      "thumb": "assets/img/lib/P0588-thumb.jpg",
+      "large": "assets/img/lib/P0588-large.jpg",
+      "alt": "巌門_18",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "巌門",
+      "id": "P0588"
+    },
+    {
+      "title": "巌門_19",
+      "spot": "巌門",
+      "spotId": "gate",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "空撮",
+        "岩",
+        "断崖",
+        "名所旧跡",
+        "遊覧船"
+      ],
+      "thumb": "assets/img/lib/P0589-thumb.jpg",
+      "large": "assets/img/lib/P0589-large.jpg",
+      "alt": "巌門_19",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "巌門",
+      "id": "P0589"
+    },
+    {
+      "title": "巌門_20",
+      "spot": "巌門",
+      "spotId": "gate",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "岩",
+        "断崖",
+        "名所旧跡"
+      ],
+      "thumb": "assets/img/lib/P0590-thumb.jpg",
+      "large": "assets/img/lib/P0590-large.jpg",
+      "alt": "巌門_20",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "巌門",
+      "id": "P0590"
+    },
+    {
+      "title": "巌門_21",
+      "spot": "巌門",
+      "spotId": "gate",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "岩",
+        "断崖",
+        "名所旧跡"
+      ],
+      "thumb": "assets/img/lib/P0591-thumb.jpg",
+      "large": "assets/img/lib/P0591-large.jpg",
+      "alt": "巌門_21",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "巌門",
+      "id": "P0591"
+    },
+    {
+      "title": "巌門_23",
+      "spot": "巌門",
+      "spotId": "gate",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "岩",
+        "断崖",
+        "名所旧跡"
+      ],
+      "thumb": "assets/img/lib/P0593-thumb.jpg",
+      "large": "assets/img/lib/P0593-large.jpg",
+      "alt": "巌門_23",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "巌門",
+      "id": "P0593"
+    },
+    {
+      "title": "巌門_24",
+      "spot": "巌門",
+      "spotId": "gate",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "岩",
+        "断崖",
+        "名所旧跡"
+      ],
+      "thumb": "assets/img/lib/P0594-thumb.jpg",
+      "large": "assets/img/lib/P0594-large.jpg",
+      "alt": "巌門_24",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "巌門",
+      "id": "P0594"
+    },
+    {
+      "title": "巌門_25",
+      "spot": "巌門",
+      "spotId": "gate",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "岩",
+        "断崖",
+        "名所旧跡"
+      ],
+      "thumb": "assets/img/lib/P0595-thumb.jpg",
+      "large": "assets/img/lib/P0595-large.jpg",
+      "alt": "巌門_25",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "巌門",
+      "id": "P0595"
+    },
+    {
+      "title": "巌門_26",
+      "spot": "巌門",
+      "spotId": "gate",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "岩",
+        "断崖",
+        "名所旧跡"
+      ],
+      "thumb": "assets/img/lib/P0596-thumb.jpg",
+      "large": "assets/img/lib/P0596-large.jpg",
+      "alt": "巌門_26",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "巌門",
+      "id": "P0596"
+    },
+    {
+      "title": "巌門_27",
+      "spot": "巌門",
+      "spotId": "gate",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "岩",
+        "断崖",
+        "名所旧跡"
+      ],
+      "thumb": "assets/img/lib/P0597-thumb.jpg",
+      "large": "assets/img/lib/P0597-large.jpg",
+      "alt": "巌門_27",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "巌門",
+      "id": "P0597"
+    },
+    {
+      "title": "巌門_28",
+      "spot": "巌門",
+      "spotId": "gate",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "岩",
+        "断崖",
+        "名所旧跡"
+      ],
+      "thumb": "assets/img/lib/P0598-thumb.jpg",
+      "large": "assets/img/lib/P0598-large.jpg",
+      "alt": "巌門_28",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "巌門",
+      "id": "P0598"
+    },
+    {
+      "title": "巌門_29",
+      "spot": "巌門",
+      "spotId": "gate",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "岩",
+        "断崖",
+        "名所旧跡"
+      ],
+      "thumb": "assets/img/lib/P0599-thumb.jpg",
+      "large": "assets/img/lib/P0599-large.jpg",
+      "alt": "巌門_29",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "巌門",
+      "id": "P0599"
+    },
+    {
+      "title": "巌門_30",
+      "spot": "巌門",
+      "spotId": "gate",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "岩",
+        "断崖",
+        "名所旧跡"
+      ],
+      "thumb": "assets/img/lib/P0600-thumb.jpg",
+      "large": "assets/img/lib/P0600-large.jpg",
+      "alt": "巌門_30",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "巌門",
+      "id": "P0600"
+    },
+    {
+      "title": "巌門_31",
+      "spot": "巌門",
+      "spotId": "gate",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "岩",
+        "断崖",
+        "名所旧跡"
+      ],
+      "thumb": "assets/img/lib/P0601-thumb.jpg",
+      "large": "assets/img/lib/P0601-large.jpg",
+      "alt": "巌門_31",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "巌門",
+      "id": "P0601"
+    },
+    {
+      "title": "巌門_32",
+      "spot": "巌門",
+      "spotId": "gate",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "岩",
+        "断崖",
+        "名所旧跡"
+      ],
+      "thumb": "assets/img/lib/P0603-thumb.jpg",
+      "large": "assets/img/lib/P0603-large.jpg",
+      "alt": "巌門_32",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "巌門",
+      "id": "P0603"
+    },
+    {
       "title": "巌門洞窟へ続く遊歩道",
       "spot": "巌門",
       "spotId": "gate",
@@ -1761,25 +2078,6 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "巌門",
       "id": "P0077"
-    },
-    {
-      "title": "洞窟から望む遊覧船",
-      "spot": "巌門",
-      "spotId": "gate",
-      "area": "富来エリア",
-      "season": "",
-      "tags": [
-        "海",
-        "岩",
-        "遊覧船"
-      ],
-      "thumb": "assets/img/lib/P0078-thumb.jpg",
-      "large": "assets/img/lib/P0078-large.jpg",
-      "alt": "洞窟から望む遊覧船",
-      "credit": "© 志賀町",
-      "photographer": "志賀町",
-      "source": "巌門",
-      "id": "P0078"
     },
     {
       "title": "緑に覆われた海岸線",
@@ -2373,6 +2671,25 @@ window.SPL_LIBRARY = {
       "id": "P0379"
     },
     {
+      "title": "巌門_33",
+      "spot": "巌門",
+      "spotId": "gate",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "岩",
+        "断崖",
+        "雪"
+      ],
+      "thumb": "assets/img/lib/P0510-thumb.jpg",
+      "large": "assets/img/lib/P0510-large.jpg",
+      "alt": "巌門_33",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "巌門",
+      "id": "P0510"
+    },
+    {
       "title": "島の向こうに沈む夕陽",
       "spot": "弁天島",
       "spotId": "benten",
@@ -2745,7 +3062,6 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "島",
-        "海",
         "神社",
         "天使のはしご"
       ],
@@ -2842,6 +3158,267 @@ window.SPL_LIBRARY = {
       "id": "P0035"
     },
     {
+      "title": "ヤセの断崖_5",
+      "spot": "ヤセの断崖・義経の舟隠し",
+      "spotId": "yase",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "海",
+        "空撮",
+        "岩",
+        "断崖"
+      ],
+      "thumb": "assets/img/lib/P0534-thumb.jpg",
+      "large": "assets/img/lib/P0534-large.jpg",
+      "alt": "ヤセの断崖_5",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "ヤセの断崖・義経の舟隠し",
+      "id": "P0534"
+    },
+    {
+      "title": "ヤセの断崖_6",
+      "spot": "ヤセの断崖・義経の舟隠し",
+      "spotId": "yase",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "海",
+        "岩",
+        "断崖"
+      ],
+      "thumb": "assets/img/lib/P0535-thumb.jpg",
+      "large": "assets/img/lib/P0535-large.jpg",
+      "alt": "ヤセの断崖_6",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "ヤセの断崖・義経の舟隠し",
+      "id": "P0535"
+    },
+    {
+      "title": "ヤセの断崖_7",
+      "spot": "ヤセの断崖・義経の舟隠し",
+      "spotId": "yase",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "岩",
+        "断崖"
+      ],
+      "thumb": "assets/img/lib/P0536-thumb.jpg",
+      "large": "assets/img/lib/P0536-large.jpg",
+      "alt": "ヤセの断崖_7",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "ヤセの断崖・義経の舟隠し",
+      "id": "P0536"
+    },
+    {
+      "title": "ヤセの断崖_8",
+      "spot": "ヤセの断崖・義経の舟隠し",
+      "spotId": "yase",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "岩",
+        "断崖"
+      ],
+      "thumb": "assets/img/lib/P0537-thumb.jpg",
+      "large": "assets/img/lib/P0537-large.jpg",
+      "alt": "ヤセの断崖_8",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "ヤセの断崖・義経の舟隠し",
+      "id": "P0537"
+    },
+    {
+      "title": "ヤセの断崖_9",
+      "spot": "ヤセの断崖・義経の舟隠し",
+      "spotId": "yase",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "岩",
+        "断崖"
+      ],
+      "thumb": "assets/img/lib/P0538-thumb.jpg",
+      "large": "assets/img/lib/P0538-large.jpg",
+      "alt": "ヤセの断崖_9",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "ヤセの断崖・義経の舟隠し",
+      "id": "P0538"
+    },
+    {
+      "title": "ヤセの断崖_10",
+      "spot": "ヤセの断崖・義経の舟隠し",
+      "spotId": "yase",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "岩",
+        "断崖"
+      ],
+      "thumb": "assets/img/lib/P0539-thumb.jpg",
+      "large": "assets/img/lib/P0539-large.jpg",
+      "alt": "ヤセの断崖_10",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "ヤセの断崖・義経の舟隠し",
+      "id": "P0539"
+    },
+    {
+      "title": "ヤセの断崖_11",
+      "spot": "ヤセの断崖・義経の舟隠し",
+      "spotId": "yase",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "海",
+        "岩",
+        "断崖"
+      ],
+      "thumb": "assets/img/lib/P0540-thumb.jpg",
+      "large": "assets/img/lib/P0540-large.jpg",
+      "alt": "ヤセの断崖_11",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "ヤセの断崖・義経の舟隠し",
+      "id": "P0540"
+    },
+    {
+      "title": "ヤセの断崖_12",
+      "spot": "ヤセの断崖・義経の舟隠し",
+      "spotId": "yase",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "断崖",
+        "景色"
+      ],
+      "thumb": "assets/img/lib/P0541-thumb.jpg",
+      "large": "assets/img/lib/P0541-large.jpg",
+      "alt": "ヤセの断崖_12",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "ヤセの断崖・義経の舟隠し",
+      "id": "P0541"
+    },
+    {
+      "title": "ヤセの断崖_13",
+      "spot": "ヤセの断崖・義経の舟隠し",
+      "spotId": "yase",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "断崖",
+        "景色"
+      ],
+      "thumb": "assets/img/lib/P0542-thumb.jpg",
+      "large": "assets/img/lib/P0542-large.jpg",
+      "alt": "ヤセの断崖_13",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "ヤセの断崖・義経の舟隠し",
+      "id": "P0542"
+    },
+    {
+      "title": "ヤセの断崖_14",
+      "spot": "ヤセの断崖・義経の舟隠し",
+      "spotId": "yase",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "岩",
+        "断崖",
+        "景色"
+      ],
+      "thumb": "assets/img/lib/P0543-thumb.jpg",
+      "large": "assets/img/lib/P0543-large.jpg",
+      "alt": "ヤセの断崖_14",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "ヤセの断崖・義経の舟隠し",
+      "id": "P0543"
+    },
+    {
+      "title": "ヤセの断崖_15",
+      "spot": "ヤセの断崖・義経の舟隠し",
+      "spotId": "yase",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "海",
+        "岩",
+        "断崖"
+      ],
+      "thumb": "assets/img/lib/P0544-thumb.jpg",
+      "large": "assets/img/lib/P0544-large.jpg",
+      "alt": "ヤセの断崖_15",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "ヤセの断崖・義経の舟隠し",
+      "id": "P0544"
+    },
+    {
+      "title": "ヤセの断崖_16",
+      "spot": "ヤセの断崖・義経の舟隠し",
+      "spotId": "yase",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "海",
+        "岩",
+        "断崖"
+      ],
+      "thumb": "assets/img/lib/P0545-thumb.jpg",
+      "large": "assets/img/lib/P0545-large.jpg",
+      "alt": "ヤセの断崖_16",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "ヤセの断崖・義経の舟隠し",
+      "id": "P0545"
+    },
+    {
+      "title": "ヤセの断崖_17",
+      "spot": "ヤセの断崖・義経の舟隠し",
+      "spotId": "yase",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "海",
+        "岩",
+        "断崖"
+      ],
+      "thumb": "assets/img/lib/P0546-thumb.jpg",
+      "large": "assets/img/lib/P0546-large.jpg",
+      "alt": "ヤセの断崖_17",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "ヤセの断崖・義経の舟隠し",
+      "id": "P0546"
+    },
+    {
+      "title": "ヤセの断崖_18",
+      "spot": "ヤセの断崖・義経の舟隠し",
+      "spotId": "yase",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "海",
+        "岩",
+        "断崖"
+      ],
+      "thumb": "assets/img/lib/P0547-thumb.jpg",
+      "large": "assets/img/lib/P0547-large.jpg",
+      "alt": "ヤセの断崖_18",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "ヤセの断崖・義経の舟隠し",
+      "id": "P0547"
+    },
+    {
       "title": "断崖から望む日本海",
       "spot": "ヤセの断崖・義経の舟隠し",
       "spotId": "yase",
@@ -2859,6 +3436,103 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "ヤセの断崖・義経の舟隠し",
       "id": "P0129"
+    },
+    {
+      "title": "岬をめぐる遊歩道",
+      "spot": "ヤセの断崖・義経の舟隠し",
+      "spotId": "yase",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "海",
+        "空撮",
+        "岩",
+        "断崖"
+      ],
+      "thumb": "assets/img/lib/P0130-thumb.jpg",
+      "large": "assets/img/lib/P0130-large.jpg",
+      "alt": "岬をめぐる遊歩道",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "ヤセの断崖・義経の舟隠し",
+      "id": "P0130"
+    },
+    {
+      "title": "切り立つ岩壁を上空から",
+      "spot": "ヤセの断崖・義経の舟隠し",
+      "spotId": "yase",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "海",
+        "空撮",
+        "岩",
+        "断崖"
+      ],
+      "thumb": "assets/img/lib/P0131-thumb.jpg",
+      "large": "assets/img/lib/P0131-large.jpg",
+      "alt": "切り立つ岩壁を上空から",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "ヤセの断崖・義経の舟隠し",
+      "id": "P0131"
+    },
+    {
+      "title": "上空から望む海岸の岩場",
+      "spot": "ヤセの断崖・義経の舟隠し",
+      "spotId": "yase",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "空撮",
+        "岩",
+        "断崖"
+      ],
+      "thumb": "assets/img/lib/P0132-thumb.jpg",
+      "large": "assets/img/lib/P0132-large.jpg",
+      "alt": "上空から望む海岸の岩場",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "ヤセの断崖・義経の舟隠し",
+      "id": "P0132"
+    },
+    {
+      "title": "断崖の上に立つ展望デッキ",
+      "spot": "ヤセの断崖・義経の舟隠し",
+      "spotId": "yase",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "空撮",
+        "岩",
+        "断崖"
+      ],
+      "thumb": "assets/img/lib/P0133-thumb.jpg",
+      "large": "assets/img/lib/P0133-large.jpg",
+      "alt": "断崖の上に立つ展望デッキ",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "ヤセの断崖・義経の舟隠し",
+      "id": "P0133"
+    },
+    {
+      "title": "海に突き出す断崖",
+      "spot": "ヤセの断崖・義経の舟隠し",
+      "spotId": "yase",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "空撮",
+        "岩",
+        "断崖"
+      ],
+      "thumb": "assets/img/lib/P0135-thumb.jpg",
+      "large": "assets/img/lib/P0135-large.jpg",
+      "alt": "海に突き出す断崖",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "ヤセの断崖・義経の舟隠し",
+      "id": "P0135"
     },
     {
       "title": "岩に切れ込む義経の舟隠し",
@@ -2916,6 +3590,44 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "ヤセの断崖・義経の舟隠し",
       "id": "P0423"
+    },
+    {
+      "title": "ヤセの断崖_3",
+      "spot": "ヤセの断崖・義経の舟隠し",
+      "spotId": "yase",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "岩",
+        "断崖"
+      ],
+      "thumb": "assets/img/lib/P0505-thumb.jpg",
+      "large": "assets/img/lib/P0505-large.jpg",
+      "alt": "ヤセの断崖_3",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "ヤセの断崖・義経の舟隠し",
+      "id": "P0505"
+    },
+    {
+      "title": "ヤセの断崖_19",
+      "spot": "ヤセの断崖・義経の舟隠し",
+      "spotId": "yase",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "海",
+        "空撮",
+        "岩",
+        "断崖"
+      ],
+      "thumb": "assets/img/lib/P0560-thumb.jpg",
+      "large": "assets/img/lib/P0560-large.jpg",
+      "alt": "ヤセの断崖_19",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "ヤセの断崖・義経の舟隠し",
+      "id": "P0560"
     },
     {
       "title": "木造灯台ライトアップ",
@@ -3697,11 +4409,10 @@ window.SPL_LIBRARY = {
       "area": "富来エリア",
       "season": "",
       "tags": [
-        "さくら貝",
         "文化施設",
+        "屋内",
         "体験",
-        "お土産",
-        "屋内"
+        "お土産"
       ],
       "thumb": "assets/img/lib/P0049-thumb.jpg",
       "large": "assets/img/lib/P0049-large.jpg",
@@ -3760,11 +4471,10 @@ window.SPL_LIBRARY = {
       "area": "富来エリア",
       "season": "",
       "tags": [
-        "さくら貝",
         "文化施設",
+        "屋内",
         "体験",
-        "お土産",
-        "屋内"
+        "お土産"
       ],
       "thumb": "assets/img/lib/P0052-thumb.jpg",
       "large": "assets/img/lib/P0052-large.jpg",
@@ -4077,7 +4787,6 @@ window.SPL_LIBRARY = {
       "area": "富来エリア",
       "season": "",
       "tags": [
-        "海",
         "夏",
         "道の駅"
       ],
@@ -4298,6 +5007,25 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "平家",
       "id": "P0059"
+    },
+    {
+      "title": "平家_12",
+      "spot": "平家",
+      "spotId": "taira",
+      "area": "志賀エリア",
+      "season": "",
+      "tags": [
+        "文化施設",
+        "名所旧跡",
+        "庭園"
+      ],
+      "thumb": "assets/img/lib/P0063-thumb.jpg",
+      "large": "assets/img/lib/P0063-large.jpg",
+      "alt": "平家_12",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "平家",
+      "id": "P0063"
     },
     {
       "title": "心字池と築山",
@@ -4531,26 +5259,44 @@ window.SPL_LIBRARY = {
       "id": "P0184"
     },
     {
-      "title": "平家",
+      "title": "平家_11",
       "spot": "平家",
       "spotId": "taira",
       "area": "志賀エリア",
       "season": "",
       "tags": [
-        "庭園",
+        "文化施設",
         "名所旧跡",
-        "文化施設"
+        "庭園"
       ],
       "thumb": "assets/img/lib/P0185-thumb.jpg",
       "large": "assets/img/lib/P0185-large.jpg",
-      "alt": "平家",
+      "alt": "平家_11",
       "credit": "© 志賀町",
       "photographer": "志賀町",
       "source": "平家",
       "id": "P0185"
     },
     {
-      "title": "白い鳥居の立つ境内",
+      "title": "松尾神社_3",
+      "spot": "松尾神社",
+      "spotId": "matsuo",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "神社",
+        "名所旧跡"
+      ],
+      "thumb": "assets/img/lib/P0566-thumb.jpg",
+      "large": "assets/img/lib/P0566-large.jpg",
+      "alt": "松尾神社_3",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "松尾神社",
+      "id": "P0566"
+    },
+    {
+      "title": "松尾神社_2",
       "spot": "松尾神社",
       "spotId": "matsuo",
       "area": "富来エリア",
@@ -4561,11 +5307,29 @@ window.SPL_LIBRARY = {
       ],
       "thumb": "assets/img/lib/P0144-thumb.jpg",
       "large": "assets/img/lib/P0144-large.jpg",
-      "alt": "白い鳥居の立つ境内",
+      "alt": "松尾神社_2",
       "credit": "© 志賀町",
       "photographer": "志賀町",
       "source": "松尾神社",
       "id": "P0144"
+    },
+    {
+      "title": "松尾神社",
+      "spot": "松尾神社",
+      "spotId": "matsuo",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "神社",
+        "名所旧跡"
+      ],
+      "thumb": "assets/img/lib/P0145-thumb.jpg",
+      "large": "assets/img/lib/P0145-large.jpg",
+      "alt": "松尾神社",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "松尾神社",
+      "id": "P0145"
     }
   ]
 };
