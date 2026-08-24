@@ -29,7 +29,8 @@ BASE_URL = CFG.get('baseUrl', './').rstrip('/') + '/'
 TERMS = [
  '掲載写真の著作権は志賀町に帰属します。',
  '観光PR・報道・教育・研究など、志賀町の魅力を紹介する目的でご利用いただけます。',
- 'ダウンロードした画像には右下に「© 志賀町」のクレジットが入ります。クレジットの削除・改変はご遠慮ください。',
+ 'ダウンロードした画像には右下に「© 志賀町」のクレジットが入ります。クレジットの削除・改変はご遠慮ください'
+ '（志賀町から利用の許可を得ている場合は、下の選択肢からクレジットを省略できます）。',
  '商用利用、および画像の内容を大きく変える加工を行う場合は、事前にご相談ください。',
  '公序良俗に反する用途、志賀町の名誉を損なう用途での使用は固くお断りします。',
  '人物が写り込んでいる写真の利用にあたっては、肖像権にご配慮ください。',
@@ -162,6 +163,10 @@ for i, p in enumerate(PHOTOS):
       <span class="modal__lang-label">クレジット表記</span>
       <label class="modal__lang-opt"><input type="radio" name="creditLang" value="ja" checked> 日本語（© 志賀町）</label>
       <label class="modal__lang-opt"><input type="radio" name="creditLang" value="en"> English（© Shika Town）</label>
+      <label class="modal__lang-opt modal__lang-opt--omit">
+        <input type="checkbox" id="omitCredit">
+        クレジット表記を省略する（志賀町から利用の許可を得ている場合のみ）
+      </label>
     </div>
     <label class="modal__check">
       <input type="checkbox" id="agreeCheck">

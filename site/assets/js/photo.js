@@ -39,29 +39,35 @@
 
     ctx.font = '500 ' + size + 'px "Noto Sans JP", "Hiragino Sans", sans-serif';
     ctx.textAlign = 'right';
-    ctx.textBaseline = 'alphabetic';
 
     var x = w - margin, y = h - margin;
     var tw = ctx.measureText(credit).width;
-    var padX = size * 0.6, padY = size * 0.42;
 
-    // 明るい写真でも読めるよう、半透明の黒帯を敷く
-    ctx.fillStyle = 'rgba(0, 0, 0, 0.42)';
-    var rx = x - tw - padX, ry = y - size - padY, rw = tw + padX * 2, rh = size + padY * 2;
-    var r = Math.round(size * 0.28);
-    ctx.beginPath();
-    ctx.moveTo(rx + r, ry);
-    ctx.arcTo(rx + rw, ry, rx + rw, ry + rh, r);
-    ctx.arcTo(rx + rw, ry + rh, rx, ry + rh, r);
-    ctx.arcTo(rx, ry + rh, rx, ry, r);
-    ctx.arcTo(rx, ry, rx + rw, ry, r);
-    ctx.closePath();
-    ctx.fill();
+    // 枠は付けず、文字だけを写真に重ねる。読みやすさは、文字が乗る場所の
+    // 明るさを測って白文字／黒文字を自動で切り替えることで確保する。
+    var sampleX = Math.max(0, Math.round(x - tw - margin * 0.3));
+    var sampleY = Math.max(0, Math.round(y - size - margin * 0.3));
+    var sampleW = Math.min(w - sampleX, Math.round(tw + margin * 0.6));
+    var sampleH = Math.min(h - sampleY, Math.round(size + margin * 0.6));
+    var isLight = false;
+    try {
+      var data = ctx.getImageData(sampleX, sampleY, Math.max(1, sampleW), Math.max(1, sampleH)).data;
+      var sum = 0, n = 0;
+      for (var i = 0; i < data.length; i += 4) {
+        sum += 0.299 * data[i] + 0.587 * data[i + 1] + 0.114 * data[i + 2];
+        n++;
+      }
+      isLight = (sum / n) > 150;
+    } catch (e) { /* 測れない場合は白文字のまま（従来どおり） */ }
 
-    ctx.fillStyle = 'rgba(255, 255, 255, 0.96)';
-    // バッジの幾何中心（ry + rh/2）に文字の視覚中心を合わせるため middle ベースラインで描画
-    ctx.textBaseline = 'middle';
-    ctx.fillText(credit, x - padX, ry + rh / 2);
+    ctx.textBaseline = 'alphabetic';
+    // 縁取りを薄く入れて、背景の明るさが混ざる場所でも読みやすくする
+    ctx.lineJoin = 'round';
+    ctx.lineWidth = Math.max(1, size * 0.1);
+    ctx.strokeStyle = isLight ? 'rgba(255, 255, 255, 0.6)' : 'rgba(0, 0, 0, 0.45)';
+    ctx.strokeText(credit, x, y);
+    ctx.fillStyle = isLight ? 'rgba(20, 20, 20, 0.92)' : 'rgba(255, 255, 255, 0.94)';
+    ctx.fillText(credit, x, y);
 
     return cv;
   }
@@ -113,6 +119,8 @@
     var modal = $('#termsModal');
     var check = $('#agreeCheck');
     var start = $('#startDl');
+    var omitCredit = $('#omitCredit');
+    var langRadios = $$('input[name="creditLang"]');
     var src      = btn.dataset.src;
     var creditJa = btn.dataset.creditJa || '© 志賀町';
     var creditEn = btn.dataset.creditEn || '© Shika Town';
@@ -120,6 +128,7 @@
 
     var open  = function () {
       check.checked = false; start.disabled = true;
+      if (omitCredit) omitCredit.checked = false;
       modal.classList.add('is-open'); document.body.style.overflow = 'hidden';
     };
     var close = function () {
@@ -131,22 +140,37 @@
     modal.addEventListener('click', function (e) { if (e.target === modal) close(); });
     document.addEventListener('keydown', function (e) { if (e.key === 'Escape') close(); });
     check.addEventListener('change', function () { start.disabled = !check.checked; });
+    // クレジット省略にチェックが入っている間は、言語の選択に意味が無いため触れなくする
+    if (omitCredit) {
+      omitCredit.addEventListener('change', function () {
+        langRadios.forEach(function (r) { r.disabled = omitCredit.checked; });
+      });
+    }
 
     start.addEventListener('click', function () {
       if (!check.checked) return;
-      var lang = (document.querySelector('input[name="creditLang"]:checked') || {}).value || 'ja';
-      var credit = lang === 'en' ? creditEn : creditJa;
       close();
       btn.disabled = true;
       var label = btn.querySelector('span');
       var before = label.textContent;
+      var done = function () { btn.disabled = false; label.textContent = before; };
+
+      if (omitCredit && omitCredit.checked) {
+        // 許可済み利用者向け：クレジットを合成せず、元画像をそのまま保存する
+        label.textContent = '書き出しています…';
+        saveOriginal(src, name);
+        done();
+        return;
+      }
+
+      var lang = (document.querySelector('input[name="creditLang"]:checked') || {}).value || 'ja';
+      var credit = lang === 'en' ? creditEn : creditJa;
       label.textContent = '書き出しています…';
 
       var isFile = (location.protocol === 'file:');
       var img = new Image();
       if (!isFile) img.crossOrigin = 'anonymous';
       img.onload = function () {
-        var done = function () { btn.disabled = false; label.textContent = before; };
         if (isFile) {
           // ファイルを直接開いている（file://）ときは、ブラウザの制限で
           // クレジットの合成ができない。公開後は正常に動作する。
