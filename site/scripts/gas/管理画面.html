@@ -1246,15 +1246,60 @@
       return new Promise((resolve, reject) => {
         const reader = new FileReader();
         reader.onload = () => resolve(reader.result);
-        reader.onerror = reject;
+        reader.onerror = () => reject(new Error('ファイルを読み込めませんでした'));
         reader.readAsDataURL(file);
       });
     }
 
-    function registerOne(payload) {
+    // スマホ・一眼カメラの高解像度写真をそのまま送ると、アップロードが不安定になったり
+    // （通信が細い環境で応答が返らないまま止まってしまう）、Googleドライブの容量を
+    // 圧迫したりするため、長辺が一定を超える場合は送信前に縮小する。
+    const MAX_UPLOAD_EDGE = 2400;
+    function loadImageFromFile(file) {
       return new Promise((resolve, reject) => {
-        google.script.run.withSuccessHandler(resolve).withFailureHandler(reject).写真を登録する(payload);
+        const url = URL.createObjectURL(file);
+        const img = new Image();
+        img.onload = () => { URL.revokeObjectURL(url); resolve(img); };
+        img.onerror = () => { URL.revokeObjectURL(url); reject(new Error('画像として読み込めませんでした')); };
+        img.src = url;
       });
+    }
+    async function prepareUploadFile(file) {
+      let img;
+      try {
+        img = await loadImageFromFile(file);
+      } catch (e) {
+        // 画像として開けない場合は、縮小せず元データのまま送る
+        return { name: file.name, mimeType: file.type || 'image/jpeg', bytes: await readAsDataURL(file) };
+      }
+      const longEdge = Math.max(img.naturalWidth, img.naturalHeight);
+      if (!longEdge || longEdge <= MAX_UPLOAD_EDGE) {
+        return { name: file.name, mimeType: file.type || 'image/jpeg', bytes: await readAsDataURL(file) };
+      }
+      const scale = MAX_UPLOAD_EDGE / longEdge;
+      const cv = document.createElement('canvas');
+      cv.width = Math.max(1, Math.round(img.naturalWidth * scale));
+      cv.height = Math.max(1, Math.round(img.naturalHeight * scale));
+      cv.getContext('2d').drawImage(img, 0, 0, cv.width, cv.height);
+      return { name: file.name.replace(/\.[^.]+$/, '') + '.jpg', mimeType: 'image/jpeg', bytes: cv.toDataURL('image/jpeg', 0.87) };
+    }
+
+    // google.script.run は、送信データが大きすぎる場合などに応答が返らないまま
+    // 固まることがある。一定時間で見切りをつけ、次のファイルへ進めるようにする。
+    function withTimeout(promise, ms, message) {
+      return new Promise((resolve, reject) => {
+        const timer = setTimeout(() => reject(new Error(message)), ms);
+        promise.then(
+          v => { clearTimeout(timer); resolve(v); },
+          e => { clearTimeout(timer); reject(e); }
+        );
+      });
+    }
+
+    function registerOne(payload) {
+      return withTimeout(new Promise((resolve, reject) => {
+        google.script.run.withSuccessHandler(resolve).withFailureHandler(reject).写真を登録する(payload);
+      }), 120000, '登録がタイムアウトしました（写真のサイズが大きすぎるか、通信が不安定な可能性があります）');
     }
 
     function sharedFields() {
@@ -1291,16 +1336,16 @@
             const titleInput = document.querySelector('[data-title-idx="' + i + '"]');
             const title = (titleInput && titleInput.value.trim()) || defaultTitleFromName(f.name);
             try {
-              const bytes = await readAsDataURL(f);
+              const fileData = await prepareUploadFile(f);
               await registerOne(Object.assign(sharedFields(), {
-                file: { name: f.name, mimeType: f.type, bytes: bytes },
+                file: fileData,
                 driveFileId: '',
                 title: title,
                 sortOrder: baseSortOrder + i
               }));
               ok++;
             } catch (e) {
-              fails.push(f.name + '：' + e.message);
+              fails.push(f.name + '：' + (e && e.message ? e.message : String(e)));
             }
           }
           notice(
@@ -1325,7 +1370,7 @@
           load();
         }
       } catch (e) {
-        notice(e.message, false);
+        notice(e && e.message ? e.message : String(e), false);
       } finally {
         $('addPhoto').disabled = false;
         renderFileList();
