@@ -2235,6 +2235,18 @@
           ]
         },
         {
+          "id": "P0630",
+          "thumb": "../assets/img/lib/P0630-thumb.jpg",
+          "large": "../assets/img/lib/P0630-large.jpg",
+          "caption": "旧福浦灯台_11",
+          "tags": [
+            "星空",
+            "ライトアップ",
+            "灯台",
+            "日本最古"
+          ]
+        },
+        {
           "id": "P0089",
           "thumb": "../assets/img/lib/P0089-thumb.jpg",
           "large": "../assets/img/lib/P0089-large.jpg",
@@ -2369,7 +2381,7 @@
           ]
         }
       ],
-      "count": 18
+      "count": 19
     },
     {
       "id": "shogando",

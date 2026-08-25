@@ -3,7 +3,7 @@
 window.SPL_LIBRARY = {
   "meta": {
     "note": "photos.json と spots.json から自動生成しています。直接編集せず、scripts/build-library.py を実行してください。",
-    "count": 391
+    "count": 392
   },
   "photos": [
     {
@@ -3471,6 +3471,26 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "旧福浦灯台",
       "id": "P0629"
+    },
+    {
+      "title": "旧福浦灯台_11",
+      "spot": "旧福浦灯台",
+      "spotId": "fukura",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "星空",
+        "ライトアップ",
+        "灯台",
+        "日本最古"
+      ],
+      "thumb": "assets/img/lib/P0630-thumb.jpg",
+      "large": "assets/img/lib/P0630-large.jpg",
+      "alt": "旧福浦灯台_11",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "旧福浦灯台",
+      "id": "P0630"
     },
     {
       "title": "旧福浦灯台_1",
