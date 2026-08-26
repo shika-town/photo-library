@@ -265,6 +265,13 @@
       width: 20px; height: 20px; display: flex; align-items: center; justify-content: center;
       font-size: 11px; box-shadow: var(--shadow);
     }
+    .photo-card__select {
+      position: absolute; top: 4px; left: 4px; z-index: 2;
+      width: 20px; height: 20px; cursor: pointer;
+      accent-color: var(--blue);
+      filter: drop-shadow(0 1px 2px rgba(0,0,0,0.35));
+    }
+    .photo-card.bulk-checked { border-color: var(--blue); background: var(--blue-soft); }
     .photo-card__img { width: 100%; height: 72px; object-fit: cover; display: block; background: var(--soft); }
     .photo-card__img.empty-img { display: flex; align-items: center; justify-content: center; color: var(--muted); font-size: 18px; }
     .photo-card__body { padding: 6px 7px 7px; }
@@ -561,6 +568,17 @@
         <label class="check filter-check"><input type="radio" name="pendingFilter" value="new">🆕 新規登録のみ</label>
         <label class="check filter-check"><input type="radio" name="pendingFilter" value="hidden">🙈 非公開のままのみ</label>
       </div>
+      <select id="pendingDateFilter" style="margin-top:8px;">
+        <option value="">登録日で絞り込み（すべて）</option>
+      </select>
+      <p class="hint">一覧は登録日が新しい順に並びます。自分で登録した写真だけ見たいときは、上の日付で絞り込んでください。</p>
+
+      <div class="summary-bar" id="pendingBulkBar" style="padding:10px 0 0;">
+        <label class="check" style="cursor:pointer;"><input type="checkbox" id="pendingSelectAll">表示中をすべて選択</label>
+        <span class="summary-chip" id="pendingSelectedCount">0件選択中</span>
+        <button type="button" class="secondary" id="bulkPublish" style="padding:6px 10px;font-size:12px;" disabled>✅ まとめて公開する</button>
+        <button type="button" class="secondary" id="bulkHide" style="padding:6px 10px;font-size:12px;" disabled>まとめて非公開のままにする</button>
+      </div>
 
       <div id="pendingGrid" class="photo-grid" style="margin-top:10px;"></div>
       <div class="empty" id="pendingEmpty" style="display:none;">承認待ちの写真はありません。🎉</div>
@@ -856,6 +874,21 @@
       return String(s || '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
     }
 
+    // 'yyyy-MM-dd' を和暦表示に変換する（並び替え・絞り込みの値は西暦のまま使い、表示だけ変える）
+    function toWareki(yyyyMMdd) {
+      const m = /^(\d{4})-(\d{2})-(\d{2})/.exec(String(yyyyMMdd || ''));
+      if (!m) return yyyyMMdd || '';
+      const d = new Date(Number(m[1]), Number(m[2]) - 1, Number(m[3]));
+      try {
+        const parts = new Intl.DateTimeFormat('ja-JP-u-ca-japanese', { era: 'long', year: 'numeric', month: 'numeric', day: 'numeric' }).formatToParts(d);
+        const get = t => (parts.find(p => p.type === t) || {}).value || '';
+        const year = get('year') === '1' ? '元' : get('year');
+        return get('era') + year + '年' + get('month') + '月' + get('day') + '日';
+      } catch (e) {
+        return yyyyMMdd;
+      }
+    }
+
     $('publishNow').addEventListener('click', () => {
       $('publishNow').disabled = true;
       const before = $('publishNow').textContent;
@@ -1005,23 +1038,44 @@
       if (idx !== -1 && idx < filteredPhotoIds.length - 1) selectPhotoById(filteredPhotoIds[idx + 1]);
     });
 
+    // 承認待ちの各件を、他のシート更新後も見失わないように識別するための鍵
+    function pendingKey(p) { return p.sheet + '|' + (p.id || ('row' + p.rowNumber)); }
+
     function pendingCardHtml(p, idx) {
       const img = p.previewUrl
         ? '<img class="photo-card__img" src="' + esc(p.previewUrl) + '" alt="" loading="lazy">'
         : '<div class="photo-card__img empty-img">🖼️</div>';
       const flag = p.isNew !== false ? '<span class="photo-card__flag" title="新規登録・未確認">🆕</span>' : '';
-      return '<button type="button" class="photo-card" data-idx="' + idx + '">' +
+      const key = pendingKey(p);
+      const checked = selectedPendingKeys.has(key) ? ' checked' : '';
+      return '<div class="photo-card' + (selectedPendingKeys.has(key) ? ' bulk-checked' : '') + '" data-idx="' + idx + '" tabindex="0" role="button">' +
+        '<input type="checkbox" class="photo-card__select" data-key="' + esc(key) + '"' + checked + ' title="まとめて操作する対象に選ぶ">' +
         flag + img +
         '<div class="photo-card__body">' +
-          '<div class="photo-card__id">' + esc(p.id || '新規') + '</div>' +
+          '<div class="photo-card__id">' + esc(p.id || '新規') + (p.updatedAt ? ' ・ ' + esc(toWareki(p.updatedAt)) : '') + '</div>' +
           '<div class="photo-card__title">' + esc(p.title || 'タイトル未入力') + '</div>' +
         '</div>' +
-      '</button>';
+      '</div>';
     }
 
     let pendingFilteredIdx = [];
     let currentPendingPos = 0;
     let pendingFallbackPos = null;
+    let selectedPendingKeys = new Set();
+
+    function updateBulkBar() {
+      const list = state.pending || [];
+      const visibleKeys = pendingFilteredIdx.map(i => pendingKey(list[i]));
+      const selectedVisible = visibleKeys.filter(k => selectedPendingKeys.has(k));
+      // 件数は絞り込みをまたいで選んだ分も含めた合計（見えていないものを忘れて操作しないように）
+      const total = selectedPendingKeys.size;
+      $('pendingSelectedCount').textContent = total + '件選択中' + (total !== selectedVisible.length ? '（表示中は' + selectedVisible.length + '件）' : '');
+      $('bulkPublish').disabled = total === 0;
+      $('bulkHide').disabled = total === 0;
+      const allCb = $('pendingSelectAll');
+      allCb.checked = visibleKeys.length > 0 && selectedVisible.length === visibleKeys.length;
+      allCb.indeterminate = selectedVisible.length > 0 && selectedVisible.length < visibleKeys.length;
+    }
 
     // 一覧に戻らなくても続けて承認できるよう、絞り込み後の並びの中で前後に移動する
     function renderPending() {
@@ -1034,18 +1088,47 @@
       else { badge.style.display = 'none'; }
       $('pendingSummary').textContent = '未確認 ' + newList.length + '件 ／ 非公開のまま ' + hiddenList.length + '件';
 
+      // 一覧は登録日の新しい順（サーバー側で並べ済み）。日付ごとに絞り込めるよう、実際にある日付だけを選択肢に出す。
+      const dateSelect = $('pendingDateFilter');
+      const dates = Array.from(new Set(list.map(p => p.updatedAt).filter(Boolean)))
+        .sort((a, b) => b.localeCompare(a)); // 新しい日付順（値はyyyy-MM-ddのまま、表示だけ和暦にする）
+      const keepDate = dates.indexOf(dateSelect.value) !== -1 ? dateSelect.value : '';
+      dateSelect.innerHTML = '<option value="">登録日で絞り込み（すべて）</option>' +
+        dates.map(d => '<option value="' + esc(d) + '">' + esc(toWareki(d)) + '</option>').join('');
+      dateSelect.value = keepDate;
+
       const filter = (document.querySelector('input[name="pendingFilter"]:checked') || {}).value || 'all';
+      const dateFilter = dateSelect.value;
       pendingFilteredIdx = list.map((p, i) => i).filter(i => {
-        if (filter === 'new') return list[i].isNew !== false;
-        if (filter === 'hidden') return list[i].isNew === false;
+        if (filter === 'new' && list[i].isNew === false) return false;
+        if (filter === 'hidden' && list[i].isNew !== false) return false;
+        if (dateFilter && list[i].updatedAt !== dateFilter) return false;
         return true;
       });
 
+      // 表示から外れた（絞り込みで隠れた）ものの選択は残るが、削除・承認されて一覧から消えたものは掃除する
+      const stillPending = new Set(list.map(pendingKey));
+      Array.from(selectedPendingKeys).forEach(k => { if (!stillPending.has(k)) selectedPendingKeys.delete(k); });
+
       $('pendingGrid').innerHTML = pendingFilteredIdx.map(i => pendingCardHtml(list[i], i)).join('');
       $('pendingEmpty').style.display = pendingFilteredIdx.length ? 'none' : 'block';
-      $('pendingGrid').querySelectorAll('[data-idx]').forEach(btn => {
-        btn.addEventListener('click', () => selectPendingByIndex(Number(btn.dataset.idx)));
+      $('pendingGrid').querySelectorAll('[data-idx]').forEach(card => {
+        card.addEventListener('click', () => selectPendingByIndex(Number(card.dataset.idx)));
+        card.addEventListener('keydown', e => {
+          if (e.key !== 'Enter' && e.key !== ' ') return;
+          e.preventDefault();
+          selectPendingByIndex(Number(card.dataset.idx));
+        });
       });
+      $('pendingGrid').querySelectorAll('.photo-card__select').forEach(cb => {
+        cb.addEventListener('click', e => e.stopPropagation());
+        cb.addEventListener('change', () => {
+          if (cb.checked) selectedPendingKeys.add(cb.dataset.key); else selectedPendingKeys.delete(cb.dataset.key);
+          cb.closest('.photo-card').classList.toggle('bulk-checked', cb.checked);
+          updateBulkBar();
+        });
+      });
+      updateBulkBar();
 
       if (!pendingFilteredIdx.length) {
         pendingFallbackPos = null;
@@ -1059,6 +1142,40 @@
       selectPendingByPos(pos);
     }
 
+    $('pendingSelectAll').addEventListener('change', () => {
+      const list = state.pending || [];
+      const checked = $('pendingSelectAll').checked;
+      pendingFilteredIdx.forEach(i => {
+        const key = pendingKey(list[i]);
+        if (checked) selectedPendingKeys.add(key); else selectedPendingKeys.delete(key);
+      });
+      $('pendingGrid').querySelectorAll('.photo-card__select').forEach(cb => {
+        cb.checked = selectedPendingKeys.has(cb.dataset.key);
+        cb.closest('.photo-card').classList.toggle('bulk-checked', cb.checked);
+      });
+      updateBulkBar();
+    });
+
+    function bulkApprove(approved) {
+      const list = state.pending || [];
+      const items = list.filter(p => selectedPendingKeys.has(pendingKey(p)))
+        .map(p => ({ sheet: p.sheet, rowNumber: p.rowNumber, id: p.id, approved: approved }));
+      if (!items.length) return;
+      if (!confirm(items.length + '件をまとめて' + (approved ? '公開' : '非公開のまま') + 'にします。よろしいですか？')) return;
+      $('bulkPublish').disabled = true;
+      $('bulkHide').disabled = true;
+      google.script.run.withSuccessHandler(res => {
+        notice(res.message, true);
+        selectedPendingKeys.clear();
+        load();
+      }).withFailureHandler(e => {
+        notice(e.message, false);
+        updateBulkBar();
+      }).複数の承認状態を変更する(items);
+    }
+    $('bulkPublish').addEventListener('click', () => bulkApprove(true));
+    $('bulkHide').addEventListener('click', () => bulkApprove(false));
+
     function selectPendingByPos(pos) {
       currentPendingPos = pos;
       const idx = pendingFilteredIdx[pos];
@@ -1071,7 +1188,7 @@
       else { box.classList.remove('active'); img.removeAttribute('src'); }
       $('pendingPreviewMeta').innerHTML =
         '<div><b>' + esc(p.title || 'タイトル未入力') + '</b></div>' +
-        '<div>' + esc([p.id || '新規', p.spot || 'スポット未設定'].join(' / ')) + '</div>' +
+        '<div>' + esc([p.id || '新規', p.spot || 'スポット未設定'].join(' / ')) + (p.updatedAt ? ' ・ ' + esc(toWareki(p.updatedAt)) + ' 登録' : '') + '</div>' +
         (p.note ? '<div class="hint" style="margin:4px 0 0;">' + esc(p.note) + '</div>' : '') +
         '<div class="status-line">' +
           '<span class="status ' + (p.isNew !== false ? 'warn' : 'off') + '">' + (p.isNew !== false ? '🆕 未確認' : '🙈 非公開のまま') + '</span>' +
@@ -1099,6 +1216,7 @@
     }
 
     document.querySelectorAll('input[name="pendingFilter"]').forEach(r => r.addEventListener('change', renderPending));
+    $('pendingDateFilter').addEventListener('change', renderPending);
     $('prevPending').addEventListener('click', () => { if (currentPendingPos > 0) selectPendingByPos(currentPendingPos - 1); });
     $('nextPending').addEventListener('click', () => { if (currentPendingPos < pendingFilteredIdx.length - 1) selectPendingByPos(currentPendingPos + 1); });
 

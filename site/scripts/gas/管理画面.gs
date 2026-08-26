@@ -208,9 +208,38 @@ function 写真を登録する(payload) {
 function 承認状態を変更する(payload) {
   payload = payload || {};
   var ss = _管理対象シート();
+  _承認状態を適用する(ss, {}, payload);
+  return { ok: true, message: payload.approved ? '公開待ちにしました。次回の自動更新で反映されます。' : '非公開にしました。' };
+}
+
+// 複数件をまとめて承認・非公開にする（承認タブでのチェックボックス一括操作用）。
+// シートごとにタブ・列番号をキャッシュして使い回すことで、件数が多くても1回の実行で終わらせる。
+function 複数の承認状態を変更する(items) {
+  items = items || [];
+  var ss = _管理対象シート();
+  var cache = {};
+  var ok = 0, fails = [];
+  items.forEach(function (item) {
+    try {
+      _承認状態を適用する(ss, cache, item);
+      ok++;
+    } catch (e) {
+      fails.push((item.id || item.rowNumber || '?') + '：' + e.message);
+    }
+  });
+  return {
+    ok: true,
+    message: ok + '件を更新しました。' + (fails.length ? '（失敗 ' + fails.length + '件：' + fails.join(' / ') + '）' : '次回の自動更新で反映されます。')
+  };
+}
+
+function _承認状態を適用する(ss, cache, payload) {
   var sheetName = String(payload.sheet || '');
-  var sh = _必須タブ(ss, sheetName);
-  var col = _列番号(sh);
+  if (!cache[sheetName]) {
+    var sh = _必須タブ(ss, sheetName);
+    cache[sheetName] = { sh: sh, col: _列番号(sh) };
+  }
+  var sh = cache[sheetName].sh, col = cache[sheetName].col;
   var id = String(payload.id || '').trim();
   // 「写真」タブはidが必ず入っているため、行番号のズレを避けて毎回探し直す。
   // 「フォーム回答」タブは回答者がidを入力しないため空のことが多く、その場合はやむを得ず
@@ -233,7 +262,6 @@ function 承認状態を変更する(payload) {
   } else {
     throw new Error('承認できないタブです。');
   }
-  return { ok: true, message: payload.approved ? '公開待ちにしました。次回の自動更新で反映されます。' : '非公開にしました。' };
 }
 
 function 写真を保存する(payload) {
@@ -573,7 +601,8 @@ function _承認待ち一覧(ss) {
         spot: String(r[pc.spot] || '').trim(),
         note: String(r[pc.description] || '').trim(),
         previewUrl: _写真プレビューURL(id, driveFileId),
-        isNew: isNew
+        isNew: isNew,
+        updatedAt: pc.updatedAt !== undefined ? String(r[pc.updatedAt] || '').trim() : ''
       });
     });
   }
@@ -596,11 +625,32 @@ function _承認待ち一覧(ss) {
         spot: String(r[spotCol] || '').trim(),
         note: String(r[fc['備考']] || '').trim(),
         previewUrl: driveCol !== undefined ? _写真プレビューURL('', String(r[driveCol] || '').trim()) : '',
-        isNew: isNewForm
+        isNew: isNewForm,
+        updatedAt: fc['タイムスタンプ'] !== undefined ? _日付文字列(r[fc['タイムスタンプ']]) : ''
       });
     });
   }
+  // 登録日の新しい順に並べる（同じ日付の中では元の並びを保つ）。日付が分からないものは末尾へ。
+  out.forEach(function (item, i) { item._order = i; });
+  out.sort(function (a, b) {
+    if (a.updatedAt !== b.updatedAt) {
+      if (!a.updatedAt) return 1;
+      if (!b.updatedAt) return -1;
+      return a.updatedAt < b.updatedAt ? 1 : -1;
+    }
+    return a._order - b._order;
+  });
+  out.forEach(function (item) { delete item._order; });
   return out;
+}
+
+// 日付らしき値（Dateオブジェクトまたは文字列）を yyyy-MM-dd の文字列に揃える
+function _日付文字列(v) {
+  if (!v) return '';
+  if (Object.prototype.toString.call(v) === '[object Date]') {
+    return Utilities.formatDate(v, 'JST', 'yyyy-MM-dd');
+  }
+  return String(v).trim().slice(0, 10);
 }
 
 function _スポット別エリア(ss) {
