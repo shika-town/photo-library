@@ -3,7 +3,7 @@
 window.SPL_LIBRARY = {
   "meta": {
     "note": "photos.json と spots.json から自動生成しています。直接編集せず、scripts/build-library.py を実行してください。",
-    "count": 391
+    "count": 398
   },
   "photos": [
     {
@@ -31,7 +31,7 @@ window.SPL_LIBRARY = {
       "area": "富来エリア",
       "season": "秋",
       "tags": [
-        "秋",
+        "ベンチ",
         "夜景",
         "イルミネーション"
       ],
@@ -88,7 +88,8 @@ window.SPL_LIBRARY = {
       "area": "富来エリア",
       "season": "夏",
       "tags": [
-        "海",
+        "名所旧跡",
+        "建築",
         "青空",
         "灯台",
         "日本最古"
@@ -3361,10 +3362,12 @@ window.SPL_LIBRARY = {
       "area": "富来エリア",
       "season": "",
       "tags": [
-        "建築",
         "海",
         "名所旧跡",
-        "ライトアップ"
+        "建築",
+        "ライトアップ",
+        "灯台",
+        "日本最古"
       ],
       "thumb": "assets/img/lib/P0037-thumb.jpg",
       "large": "assets/img/lib/P0037-large.jpg",
@@ -3381,10 +3384,12 @@ window.SPL_LIBRARY = {
       "area": "富来エリア",
       "season": "",
       "tags": [
-        "建築",
         "海",
         "名所旧跡",
-        "ライトアップ"
+        "建築",
+        "ライトアップ",
+        "灯台",
+        "日本最古"
       ],
       "thumb": "assets/img/lib/P0038-thumb.jpg",
       "large": "assets/img/lib/P0038-large.jpg",
@@ -3401,10 +3406,12 @@ window.SPL_LIBRARY = {
       "area": "富来エリア",
       "season": "",
       "tags": [
-        "建築",
         "海",
         "名所旧跡",
-        "ライトアップ"
+        "建築",
+        "ライトアップ",
+        "灯台",
+        "日本最古"
       ],
       "thumb": "assets/img/lib/P0039-thumb.jpg",
       "large": "assets/img/lib/P0039-large.jpg",
@@ -3421,10 +3428,12 @@ window.SPL_LIBRARY = {
       "area": "富来エリア",
       "season": "",
       "tags": [
-        "建築",
         "海",
         "名所旧跡",
-        "ライトアップ"
+        "建築",
+        "ライトアップ",
+        "灯台",
+        "日本最古"
       ],
       "thumb": "assets/img/lib/P0040-thumb.jpg",
       "large": "assets/img/lib/P0040-large.jpg",
@@ -3441,10 +3450,11 @@ window.SPL_LIBRARY = {
       "area": "富来エリア",
       "season": "",
       "tags": [
-        "建築",
         "海",
         "名所旧跡",
-        "ライトアップ"
+        "建築",
+        "灯台",
+        "日本最古"
       ],
       "thumb": "assets/img/lib/P0041-thumb.jpg",
       "large": "assets/img/lib/P0041-large.jpg",
@@ -3461,8 +3471,11 @@ window.SPL_LIBRARY = {
       "area": "富来エリア",
       "season": "",
       "tags": [
+        "名所旧跡",
+        "建築",
+        "青空",
         "灯台",
-        "名所旧跡"
+        "日本最古"
       ],
       "thumb": "assets/img/lib/P0629-thumb.jpg",
       "large": "assets/img/lib/P0629-large.jpg",
@@ -3473,6 +3486,94 @@ window.SPL_LIBRARY = {
       "id": "P0629"
     },
     {
+      "title": "旧福浦灯台_11",
+      "spot": "旧福浦灯台",
+      "spotId": "fukura",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "星空",
+        "名所旧跡",
+        "建築",
+        "ライトアップ",
+        "灯台",
+        "日本最古"
+      ],
+      "thumb": "assets/img/lib/P0630-thumb.jpg",
+      "large": "assets/img/lib/P0630-large.jpg",
+      "alt": "旧福浦灯台_11",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "旧福浦灯台",
+      "id": "P0630"
+    },
+    {
+      "title": "旧福浦灯台_13",
+      "spot": "旧福浦灯台",
+      "spotId": "fukura",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "名所旧跡",
+        "建築",
+        "花",
+        "青空",
+        "灯台",
+        "日本最古",
+        "あじさい"
+      ],
+      "thumb": "assets/img/lib/P0665-thumb.jpg",
+      "large": "assets/img/lib/P0665-large.jpg",
+      "alt": "旧福浦灯台_13",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "旧福浦灯台",
+      "id": "P0665"
+    },
+    {
+      "title": "旧福浦灯台_12",
+      "spot": "旧福浦灯台",
+      "spotId": "fukura",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "星空",
+        "名所旧跡",
+        "建築",
+        "ライトアップ",
+        "灯台",
+        "日本最古"
+      ],
+      "thumb": "assets/img/lib/P0631-thumb.jpg",
+      "large": "assets/img/lib/P0631-large.jpg",
+      "alt": "旧福浦灯台_12",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "旧福浦灯台",
+      "id": "P0631"
+    },
+    {
+      "title": "旧福浦灯台_14",
+      "spot": "旧福浦灯台",
+      "spotId": "fukura",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "名所旧跡",
+        "建築",
+        "青空",
+        "灯台",
+        "日本最古"
+      ],
+      "thumb": "assets/img/lib/P0666-thumb.jpg",
+      "large": "assets/img/lib/P0666-large.jpg",
+      "alt": "旧福浦灯台_14",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "旧福浦灯台",
+      "id": "P0666"
+    },
+    {
       "title": "旧福浦灯台_1",
       "spot": "旧福浦灯台",
       "spotId": "fukura",
@@ -3481,6 +3582,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "夕陽",
+        "名所旧跡",
+        "建築",
         "灯台",
         "日本最古"
       ],
@@ -3501,6 +3604,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "夕陽",
+        "名所旧跡",
+        "建築",
         "灯台",
         "日本最古"
       ],
@@ -3521,6 +3626,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "夕陽",
+        "名所旧跡",
+        "建築",
         "灯台",
         "日本最古"
       ],
@@ -3540,6 +3647,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "海",
+        "名所旧跡",
+        "建築",
         "ライトアップ",
         "灯台",
         "日本最古"
@@ -3560,6 +3669,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "海",
+        "名所旧跡",
+        "建築",
         "灯台",
         "日本最古",
         "あかりちゃん"
@@ -3580,6 +3691,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "海",
+        "名所旧跡",
+        "建築",
         "灯台",
         "日本最古",
         "あかりちゃん"
@@ -3599,7 +3712,8 @@ window.SPL_LIBRARY = {
       "area": "富来エリア",
       "season": "",
       "tags": [
-        "海",
+        "名所旧跡",
+        "建築",
         "ライトアップ",
         "灯台",
         "日本最古"
@@ -3619,7 +3733,8 @@ window.SPL_LIBRARY = {
       "area": "富来エリア",
       "season": "",
       "tags": [
-        "海",
+        "名所旧跡",
+        "建築",
         "花",
         "灯台",
         "日本最古",
@@ -3640,7 +3755,8 @@ window.SPL_LIBRARY = {
       "area": "富来エリア",
       "season": "",
       "tags": [
-        "海",
+        "名所旧跡",
+        "建築",
         "花",
         "灯台",
         "日本最古",
@@ -3661,8 +3777,9 @@ window.SPL_LIBRARY = {
       "area": "富来エリア",
       "season": "",
       "tags": [
-        "海",
         "夕陽",
+        "名所旧跡",
+        "建築",
         "灯台",
         "日本最古"
       ],
@@ -3681,7 +3798,6 @@ window.SPL_LIBRARY = {
       "area": "富来エリア",
       "season": "",
       "tags": [
-        "海",
         "夕陽",
         "灯台",
         "日本最古"
@@ -3693,6 +3809,28 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "旧福浦灯台",
       "id": "P0485"
+    },
+    {
+      "title": "旧福浦灯台_15",
+      "spot": "旧福浦灯台",
+      "spotId": "fukura",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "名所旧跡",
+        "建築",
+        "花",
+        "灯台",
+        "日本最古",
+        "あじさい"
+      ],
+      "thumb": "assets/img/lib/P0508-thumb.jpg",
+      "large": "assets/img/lib/P0508-large.jpg",
+      "alt": "旧福浦灯台_15",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "旧福浦灯台",
+      "id": "P0508"
     },
     {
       "title": "夕陽に照らされる六角地蔵塔",
@@ -5110,6 +5248,25 @@ window.SPL_LIBRARY = {
       "id": "P0548"
     },
     {
+      "title": "いこいの村_1",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "青空",
+        "村",
+        "公園"
+      ],
+      "thumb": "assets/img/lib/P0685-thumb.jpg",
+      "large": "assets/img/lib/P0685-large.jpg",
+      "alt": "いこいの村_1",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0685"
+    },
+    {
       "title": "高爪山_4",
       "spot": "その他",
       "spotId": "other",
@@ -5182,6 +5339,24 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "id": "P0552"
+    },
+    {
+      "title": "あじさい_12",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "花",
+        "あじさい"
+      ],
+      "thumb": "assets/img/lib/P0711-thumb.jpg",
+      "large": "assets/img/lib/P0711-large.jpg",
+      "alt": "あじさい_12",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0711"
     },
     {
       "title": "高爪山_8",

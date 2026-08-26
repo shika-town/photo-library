@@ -4,7 +4,7 @@
   "photos": [
     {
       "id": "(not set)",
-      "downloads": 9
+      "downloads": 10
     },
     {
       "id": "P0008",
@@ -17,6 +17,33 @@
         "海",
         "空撮",
         "ベンチ"
+      ]
+    },
+    {
+      "id": "P0136",
+      "downloads": 1,
+      "title": "高爪山_1",
+      "area": "",
+      "thumb": "assets/img/lib/P0136-thumb.jpg",
+      "alt": "高爪山_1",
+      "tags": [
+        "山",
+        "能登富士"
+      ]
+    },
+    {
+      "id": "P0629",
+      "downloads": 1,
+      "title": "日本燈台発祥の地の碑",
+      "area": "富来エリア",
+      "thumb": "assets/img/lib/P0629-thumb.jpg",
+      "alt": "日本燈台発祥の地の碑",
+      "tags": [
+        "名所旧跡",
+        "建築",
+        "青空",
+        "灯台",
+        "日本最古"
       ]
     }
   ]
