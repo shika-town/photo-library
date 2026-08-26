@@ -3,7 +3,7 @@
 window.SPL_LIBRARY = {
   "meta": {
     "note": "photos.json と spots.json から自動生成しています。直接編集せず、scripts/build-library.py を実行してください。",
-    "count": 396
+    "count": 397
   },
   "photos": [
     {
@@ -5246,6 +5246,25 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "id": "P0548"
+    },
+    {
+      "title": "いこいの村_1",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "青空",
+        "村",
+        "公園"
+      ],
+      "thumb": "assets/img/lib/P0685-thumb.jpg",
+      "large": "assets/img/lib/P0685-large.jpg",
+      "alt": "いこいの村_1",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0685"
     },
     {
       "title": "高爪山_4",
