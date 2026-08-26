@@ -3,7 +3,7 @@
 window.SPL_LIBRARY = {
   "meta": {
     "note": "photos.json と spots.json から自動生成しています。直接編集せず、scripts/build-library.py を実行してください。",
-    "count": 397
+    "count": 398
   },
   "photos": [
     {
@@ -5339,6 +5339,24 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "id": "P0552"
+    },
+    {
+      "title": "あじさい_12",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "花",
+        "あじさい"
+      ],
+      "thumb": "assets/img/lib/P0711-thumb.jpg",
+      "large": "assets/img/lib/P0711-large.jpg",
+      "alt": "あじさい_12",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0711"
     },
     {
       "title": "高爪山_8",

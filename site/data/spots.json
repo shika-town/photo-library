@@ -3563,6 +3563,16 @@
           ]
         },
         {
+          "id": "P0711",
+          "thumb": "../assets/img/lib/P0711-thumb.jpg",
+          "large": "../assets/img/lib/P0711-large.jpg",
+          "caption": "あじさい_12",
+          "tags": [
+            "花",
+            "あじさい"
+          ]
+        },
+        {
           "id": "P0553",
           "thumb": "../assets/img/lib/P0553-thumb.jpg",
           "large": "../assets/img/lib/P0553-large.jpg",
@@ -4868,7 +4878,7 @@
           ]
         }
       ],
-      "count": 129
+      "count": 130
     }
   ]
 }
