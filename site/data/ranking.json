@@ -7,6 +7,32 @@
       "downloads": 10
     },
     {
+      "id": "P0001",
+      "downloads": 2,
+      "title": "機具岩に沈む夕陽",
+      "area": "富来エリア",
+      "thumb": "assets/img/lib/P0001-thumb.jpg",
+      "alt": "岩の間から光が差す機具岩の夕景",
+      "tags": [
+        "夕陽",
+        "海",
+        "岩"
+      ]
+    },
+    {
+      "id": "P0002",
+      "downloads": 2,
+      "title": "巌門の入り江",
+      "area": "富来エリア",
+      "thumb": "assets/img/lib/P0002-thumb.jpg",
+      "alt": "上空から見たエメラルドグリーンの巌門の入り江",
+      "tags": [
+        "空撮",
+        "海",
+        "岩"
+      ]
+    },
+    {
       "id": "P0008",
       "downloads": 2,
       "title": "上空から見た増穂浦海岸とベンチ",
@@ -20,30 +46,56 @@
       ]
     },
     {
-      "id": "P0136",
+      "id": "P0003",
       "downloads": 1,
-      "title": "高爪山_1",
-      "area": "",
-      "thumb": "assets/img/lib/P0136-thumb.jpg",
-      "alt": "高爪山_1",
+      "title": "手のひらのさくら貝",
+      "area": "富来エリア",
+      "thumb": "assets/img/lib/P0003-thumb.jpg",
+      "alt": "増穂浦海岸で拾い集めたさくら貝",
       "tags": [
-        "山",
-        "能登富士"
+        "砂浜",
+        "さくら貝"
       ]
     },
     {
-      "id": "P0629",
+      "id": "P0005",
       "downloads": 1,
-      "title": "日本燈台発祥の地の碑",
+      "title": "旧福浦灯台_8",
       "area": "富来エリア",
-      "thumb": "assets/img/lib/P0629-thumb.jpg",
-      "alt": "日本燈台発祥の地の碑",
+      "thumb": "assets/img/lib/P0005-thumb.jpg",
+      "alt": "青空の下に建つ白い木造の旧福浦灯台",
       "tags": [
         "名所旧跡",
         "建築",
         "青空",
         "灯台",
         "日本最古"
+      ]
+    },
+    {
+      "id": "P0006",
+      "downloads": 1,
+      "title": "ベンチイルミネーション",
+      "area": "富来エリア",
+      "thumb": "assets/img/lib/P0006-thumb.jpg",
+      "alt": "青く光る世界一長いベンチのイルミネーション",
+      "tags": [
+        "ベンチ",
+        "夜景",
+        "イルミネーション"
+      ]
+    },
+    {
+      "id": "P0007",
+      "downloads": 1,
+      "title": "尊保の桜並木",
+      "area": "",
+      "thumb": "assets/img/lib/P0007-thumb.jpg",
+      "alt": "満開の桜が続く春の並木道",
+      "tags": [
+        "桜",
+        "花",
+        "春"
       ]
     }
   ]
