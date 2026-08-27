@@ -114,6 +114,39 @@
           ]
         },
         {
+          "id": "P0682",
+          "thumb": "../assets/img/lib/P0682-thumb.jpg",
+          "large": "../assets/img/lib/P0682-large.jpg",
+          "caption": "増穂浦海岸_6",
+          "tags": [
+            "海",
+            "青空",
+            "増穂浦"
+          ]
+        },
+        {
+          "id": "P0683",
+          "thumb": "../assets/img/lib/P0683-thumb.jpg",
+          "large": "../assets/img/lib/P0683-large.jpg",
+          "caption": "増穂浦海岸_7",
+          "tags": [
+            "海",
+            "青空",
+            "増穂浦"
+          ]
+        },
+        {
+          "id": "P0684",
+          "thumb": "../assets/img/lib/P0684-thumb.jpg",
+          "large": "../assets/img/lib/P0684-large.jpg",
+          "caption": "増穂浦海岸_8",
+          "tags": [
+            "海",
+            "青空",
+            "増穂浦"
+          ]
+        },
+        {
           "id": "P0146",
           "thumb": "../assets/img/lib/P0146-thumb.jpg",
           "large": "../assets/img/lib/P0146-large.jpg",
@@ -647,7 +680,7 @@
           ]
         }
       ],
-      "count": 55
+      "count": 58
     },
     {
       "id": "hatago",
@@ -2963,6 +2996,42 @@
           ]
         },
         {
+          "id": "P0577",
+          "thumb": "../assets/img/lib/P0577-thumb.jpg",
+          "large": "../assets/img/lib/P0577-large.jpg",
+          "caption": "縁結び石_1",
+          "tags": [
+            "岩",
+            "道の駅",
+            "縁結び",
+            "石"
+          ]
+        },
+        {
+          "id": "P0578",
+          "thumb": "../assets/img/lib/P0578-thumb.jpg",
+          "large": "../assets/img/lib/P0578-large.jpg",
+          "caption": "縁結び石_2",
+          "tags": [
+            "岩",
+            "道の駅",
+            "縁結び",
+            "石"
+          ]
+        },
+        {
+          "id": "P0579",
+          "thumb": "../assets/img/lib/P0579-thumb.jpg",
+          "large": "../assets/img/lib/P0579-large.jpg",
+          "caption": "縁結び石_3",
+          "tags": [
+            "岩",
+            "道の駅",
+            "縁結び",
+            "石"
+          ]
+        },
+        {
           "id": "P0335",
           "thumb": "../assets/img/lib/P0335-thumb.jpg",
           "large": "../assets/img/lib/P0335-large.jpg",
@@ -3196,7 +3265,7 @@
           ]
         }
       ],
-      "count": 30
+      "count": 33
     },
     {
       "id": "taira",
@@ -3442,6 +3511,16 @@
           ]
         },
         {
+          "id": "P0681",
+          "thumb": "../assets/img/lib/P0681-thumb.jpg",
+          "large": "../assets/img/lib/P0681-large.jpg",
+          "caption": "松尾神社_4",
+          "tags": [
+            "神社",
+            "名所旧跡"
+          ]
+        },
+        {
           "id": "P0144",
           "thumb": "../assets/img/lib/P0144-thumb.jpg",
           "large": "../assets/img/lib/P0144-large.jpg",
@@ -3462,7 +3541,7 @@
           ]
         }
       ],
-      "count": 3
+      "count": 4
     },
     {
       "id": "other",
@@ -3510,6 +3589,173 @@
           ]
         },
         {
+          "id": "P0567",
+          "thumb": "../assets/img/lib/P0567-thumb.jpg",
+          "large": "../assets/img/lib/P0567-large.jpg",
+          "caption": "大笹波水田_3",
+          "tags": [
+            "棚田",
+            "水田",
+            "大笹波"
+          ]
+        },
+        {
+          "id": "P0605",
+          "thumb": "../assets/img/lib/P0605-thumb.jpg",
+          "large": "../assets/img/lib/P0605-large.jpg",
+          "caption": "桜_1",
+          "tags": [
+            "桜",
+            "花"
+          ]
+        },
+        {
+          "id": "P0611",
+          "thumb": "../assets/img/lib/P0611-thumb.jpg",
+          "large": "../assets/img/lib/P0611-large.jpg",
+          "caption": "桜_7",
+          "tags": [
+            "桜",
+            "花"
+          ]
+        },
+        {
+          "id": "P0614",
+          "thumb": "../assets/img/lib/P0614-thumb.jpg",
+          "large": "../assets/img/lib/P0614-large.jpg",
+          "caption": "福野あじさい_1",
+          "tags": [
+            "花",
+            "あじさい"
+          ]
+        },
+        {
+          "id": "P0632",
+          "thumb": "../assets/img/lib/P0632-thumb.jpg",
+          "large": "../assets/img/lib/P0632-large.jpg",
+          "caption": "八朔祭礼_1",
+          "tags": [
+            "祭り",
+            "八朔",
+            "祭礼",
+            "キリコ"
+          ]
+        },
+        {
+          "id": "P0640",
+          "thumb": "../assets/img/lib/P0640-thumb.jpg",
+          "large": "../assets/img/lib/P0640-large.jpg",
+          "caption": "八朔祭礼_8",
+          "tags": [
+            "祭り",
+            "八朔",
+            "祭礼",
+            "キリコ"
+          ]
+        },
+        {
+          "id": "P0641",
+          "thumb": "../assets/img/lib/P0641-thumb.jpg",
+          "large": "../assets/img/lib/P0641-large.jpg",
+          "caption": "八朔祭礼_9",
+          "tags": [
+            "祭り",
+            "八朔",
+            "祭礼",
+            "キリコ"
+          ]
+        },
+        {
+          "id": "P0643",
+          "thumb": "../assets/img/lib/P0643-thumb.jpg",
+          "large": "../assets/img/lib/P0643-large.jpg",
+          "caption": "八朔祭礼_11",
+          "tags": [
+            "祭り",
+            "八朔",
+            "祭礼",
+            "キリコ"
+          ]
+        },
+        {
+          "id": "P0647",
+          "thumb": "../assets/img/lib/P0647-thumb.jpg",
+          "large": "../assets/img/lib/P0647-large.jpg",
+          "caption": "八朔祭礼_15",
+          "tags": [
+            "祭り",
+            "八朔",
+            "祭礼",
+            "キリコ"
+          ]
+        },
+        {
+          "id": "P0649",
+          "thumb": "../assets/img/lib/P0649-thumb.jpg",
+          "large": "../assets/img/lib/P0649-large.jpg",
+          "caption": "福浦祭り_1",
+          "tags": [
+            "祭り",
+            "福浦",
+            "祭礼"
+          ]
+        },
+        {
+          "id": "P0655",
+          "thumb": "../assets/img/lib/P0655-thumb.jpg",
+          "large": "../assets/img/lib/P0655-large.jpg",
+          "caption": "福浦祭り_7",
+          "tags": [
+            "祭り",
+            "福浦",
+            "祭礼"
+          ]
+        },
+        {
+          "id": "P0660",
+          "thumb": "../assets/img/lib/P0660-thumb.jpg",
+          "large": "../assets/img/lib/P0660-large.jpg",
+          "caption": "福浦祭り_12",
+          "tags": [
+            "祭り",
+            "福浦",
+            "祭礼"
+          ]
+        },
+        {
+          "id": "P0667",
+          "thumb": "../assets/img/lib/P0667-thumb.jpg",
+          "large": "../assets/img/lib/P0667-large.jpg",
+          "caption": "これでもか！太鼓_1",
+          "tags": [
+            "太鼓",
+            "これでもか",
+            "音楽"
+          ]
+        },
+        {
+          "id": "P0676",
+          "thumb": "../assets/img/lib/P0676-thumb.jpg",
+          "large": "../assets/img/lib/P0676-large.jpg",
+          "caption": "これでもか！太鼓_10",
+          "tags": [
+            "これでもか",
+            "太鼓",
+            "音楽"
+          ]
+        },
+        {
+          "id": "P0680",
+          "thumb": "../assets/img/lib/P0680-thumb.jpg",
+          "large": "../assets/img/lib/P0680-large.jpg",
+          "caption": "桜_10",
+          "tags": [
+            "桜",
+            "花",
+            "春"
+          ]
+        },
+        {
           "id": "P0685",
           "thumb": "../assets/img/lib/P0685-thumb.jpg",
           "large": "../assets/img/lib/P0685-large.jpg",
@@ -3518,6 +3764,60 @@
             "青空",
             "村",
             "公園"
+          ]
+        },
+        {
+          "id": "P0688",
+          "thumb": "../assets/img/lib/P0688-thumb.jpg",
+          "large": "../assets/img/lib/P0688-large.jpg",
+          "caption": "いこいの村_4",
+          "tags": [
+            "青空",
+            "公園",
+            "村"
+          ]
+        },
+        {
+          "id": "P0690",
+          "thumb": "../assets/img/lib/P0690-thumb.jpg",
+          "large": "../assets/img/lib/P0690-large.jpg",
+          "caption": "花火_9",
+          "tags": [
+            "夜景",
+            "祭り",
+            "花火"
+          ]
+        },
+        {
+          "id": "P0691",
+          "thumb": "../assets/img/lib/P0691-thumb.jpg",
+          "large": "../assets/img/lib/P0691-large.jpg",
+          "caption": "のとキリシマツツジ_14",
+          "tags": [
+            "花",
+            "庭",
+            "春"
+          ]
+        },
+        {
+          "id": "P0697",
+          "thumb": "../assets/img/lib/P0697-thumb.jpg",
+          "large": "../assets/img/lib/P0697-large.jpg",
+          "caption": "火打谷菊桜_1",
+          "tags": [
+            "桜",
+            "花",
+            "春"
+          ]
+        },
+        {
+          "id": "P0707",
+          "thumb": "../assets/img/lib/P0707-thumb.jpg",
+          "large": "../assets/img/lib/P0707-large.jpg",
+          "caption": "あじさい_9",
+          "tags": [
+            "花",
+            "あじさい"
           ]
         },
         {
@@ -3531,6 +3831,204 @@
           ]
         },
         {
+          "id": "P0568",
+          "thumb": "../assets/img/lib/P0568-thumb.jpg",
+          "large": "../assets/img/lib/P0568-large.jpg",
+          "caption": "大笹波水田_4",
+          "tags": [
+            "棚田",
+            "水田",
+            "大笹波"
+          ]
+        },
+        {
+          "id": "P0606",
+          "thumb": "../assets/img/lib/P0606-thumb.jpg",
+          "large": "../assets/img/lib/P0606-large.jpg",
+          "caption": "桜_2",
+          "tags": [
+            "桜",
+            "花"
+          ]
+        },
+        {
+          "id": "P0612",
+          "thumb": "../assets/img/lib/P0612-thumb.jpg",
+          "large": "../assets/img/lib/P0612-large.jpg",
+          "caption": "桜_8",
+          "tags": [
+            "桜",
+            "花"
+          ]
+        },
+        {
+          "id": "P0615",
+          "thumb": "../assets/img/lib/P0615-thumb.jpg",
+          "large": "../assets/img/lib/P0615-large.jpg",
+          "caption": "福野あじさい_2",
+          "tags": [
+            "花",
+            "あじさい"
+          ]
+        },
+        {
+          "id": "P0633",
+          "thumb": "../assets/img/lib/P0633-thumb.jpg",
+          "large": "../assets/img/lib/P0633-large.jpg",
+          "caption": "八朔祭礼_2",
+          "tags": [
+            "祭り",
+            "八朔",
+            "祭礼",
+            "キリコ"
+          ]
+        },
+        {
+          "id": "P0642",
+          "thumb": "../assets/img/lib/P0642-thumb.jpg",
+          "large": "../assets/img/lib/P0642-large.jpg",
+          "caption": "八朔祭礼_10",
+          "tags": [
+            "祭り",
+            "八朔",
+            "祭礼",
+            "キリコ"
+          ]
+        },
+        {
+          "id": "P0644",
+          "thumb": "../assets/img/lib/P0644-thumb.jpg",
+          "large": "../assets/img/lib/P0644-large.jpg",
+          "caption": "八朔祭礼_12",
+          "tags": [
+            "祭り",
+            "八朔",
+            "祭礼",
+            "キリコ"
+          ]
+        },
+        {
+          "id": "P0648",
+          "thumb": "../assets/img/lib/P0648-thumb.jpg",
+          "large": "../assets/img/lib/P0648-large.jpg",
+          "caption": "八朔祭礼_16",
+          "tags": [
+            "祭り",
+            "八朔",
+            "祭礼",
+            "キリコ"
+          ]
+        },
+        {
+          "id": "P0650",
+          "thumb": "../assets/img/lib/P0650-thumb.jpg",
+          "large": "../assets/img/lib/P0650-large.jpg",
+          "caption": "福浦祭り_2",
+          "tags": [
+            "祭り",
+            "福浦",
+            "祭礼"
+          ]
+        },
+        {
+          "id": "P0656",
+          "thumb": "../assets/img/lib/P0656-thumb.jpg",
+          "large": "../assets/img/lib/P0656-large.jpg",
+          "caption": "福浦祭り_8",
+          "tags": [
+            "祭り",
+            "福浦",
+            "祭礼"
+          ]
+        },
+        {
+          "id": "P0661",
+          "thumb": "../assets/img/lib/P0661-thumb.jpg",
+          "large": "../assets/img/lib/P0661-large.jpg",
+          "caption": "福浦祭り_13",
+          "tags": [
+            "祭り",
+            "福浦",
+            "祭礼"
+          ]
+        },
+        {
+          "id": "P0668",
+          "thumb": "../assets/img/lib/P0668-thumb.jpg",
+          "large": "../assets/img/lib/P0668-large.jpg",
+          "caption": "これでもか！太鼓_2",
+          "tags": [
+            "太鼓",
+            "これでもか",
+            "音楽"
+          ]
+        },
+        {
+          "id": "P0677",
+          "thumb": "../assets/img/lib/P0677-thumb.jpg",
+          "large": "../assets/img/lib/P0677-large.jpg",
+          "caption": "これでもか！太鼓_11",
+          "tags": [
+            "これでもか",
+            "太鼓",
+            "音楽"
+          ]
+        },
+        {
+          "id": "P0686",
+          "thumb": "../assets/img/lib/P0686-thumb.jpg",
+          "large": "../assets/img/lib/P0686-large.jpg",
+          "caption": "いこいの村_2",
+          "tags": [
+            "青空",
+            "村",
+            "公園"
+          ]
+        },
+        {
+          "id": "P0689",
+          "thumb": "../assets/img/lib/P0689-thumb.jpg",
+          "large": "../assets/img/lib/P0689-large.jpg",
+          "caption": "いこいの村_5",
+          "tags": [
+            "青空",
+            "公園",
+            "村"
+          ]
+        },
+        {
+          "id": "P0692",
+          "thumb": "../assets/img/lib/P0692-thumb.jpg",
+          "large": "../assets/img/lib/P0692-large.jpg",
+          "caption": "のとキリシマツツジ_15",
+          "tags": [
+            "花",
+            "庭",
+            "春"
+          ]
+        },
+        {
+          "id": "P0698",
+          "thumb": "../assets/img/lib/P0698-thumb.jpg",
+          "large": "../assets/img/lib/P0698-large.jpg",
+          "caption": "火打谷菊桜_2",
+          "tags": [
+            "桜",
+            "花",
+            "春"
+          ]
+        },
+        {
+          "id": "P0708",
+          "thumb": "../assets/img/lib/P0708-thumb.jpg",
+          "large": "../assets/img/lib/P0708-large.jpg",
+          "caption": "あじさい_10",
+          "tags": [
+            "花",
+            "あじさい"
+          ]
+        },
+        {
           "id": "P0550",
           "thumb": "../assets/img/lib/P0550-thumb.jpg",
           "large": "../assets/img/lib/P0550-large.jpg",
@@ -3538,6 +4036,169 @@
           "tags": [
             "能登富士",
             "山"
+          ]
+        },
+        {
+          "id": "P0569",
+          "thumb": "../assets/img/lib/P0569-thumb.jpg",
+          "large": "../assets/img/lib/P0569-large.jpg",
+          "caption": "大笹波水田_5",
+          "tags": [
+            "棚田",
+            "水田",
+            "大笹波"
+          ]
+        },
+        {
+          "id": "P0607",
+          "thumb": "../assets/img/lib/P0607-thumb.jpg",
+          "large": "../assets/img/lib/P0607-large.jpg",
+          "caption": "桜_3",
+          "tags": [
+            "桜",
+            "花"
+          ]
+        },
+        {
+          "id": "P0613",
+          "thumb": "../assets/img/lib/P0613-thumb.jpg",
+          "large": "../assets/img/lib/P0613-large.jpg",
+          "caption": "桜_9",
+          "tags": [
+            "桜",
+            "花"
+          ]
+        },
+        {
+          "id": "P0616",
+          "thumb": "../assets/img/lib/P0616-thumb.jpg",
+          "large": "../assets/img/lib/P0616-large.jpg",
+          "caption": "福野あじさい_3",
+          "tags": [
+            "花",
+            "あじさい"
+          ]
+        },
+        {
+          "id": "P0634",
+          "thumb": "../assets/img/lib/P0634-thumb.jpg",
+          "large": "../assets/img/lib/P0634-large.jpg",
+          "caption": "八朔祭礼_3",
+          "tags": [
+            "祭り",
+            "八朔",
+            "祭礼",
+            "キリコ"
+          ]
+        },
+        {
+          "id": "P0645",
+          "thumb": "../assets/img/lib/P0645-thumb.jpg",
+          "large": "../assets/img/lib/P0645-large.jpg",
+          "caption": "八朔祭礼_13",
+          "tags": [
+            "祭り",
+            "八朔",
+            "祭礼",
+            "キリコ"
+          ]
+        },
+        {
+          "id": "P0651",
+          "thumb": "../assets/img/lib/P0651-thumb.jpg",
+          "large": "../assets/img/lib/P0651-large.jpg",
+          "caption": "福浦祭り_3",
+          "tags": [
+            "祭り",
+            "福浦",
+            "祭礼"
+          ]
+        },
+        {
+          "id": "P0657",
+          "thumb": "../assets/img/lib/P0657-thumb.jpg",
+          "large": "../assets/img/lib/P0657-large.jpg",
+          "caption": "福浦祭り_9",
+          "tags": [
+            "祭り",
+            "福浦",
+            "祭礼"
+          ]
+        },
+        {
+          "id": "P0662",
+          "thumb": "../assets/img/lib/P0662-thumb.jpg",
+          "large": "../assets/img/lib/P0662-large.jpg",
+          "caption": "福浦祭り_14",
+          "tags": [
+            "祭り",
+            "福浦",
+            "祭礼"
+          ]
+        },
+        {
+          "id": "P0669",
+          "thumb": "../assets/img/lib/P0669-thumb.jpg",
+          "large": "../assets/img/lib/P0669-large.jpg",
+          "caption": "これでもか！太鼓_3",
+          "tags": [
+            "太鼓",
+            "これでもか",
+            "音楽"
+          ]
+        },
+        {
+          "id": "P0678",
+          "thumb": "../assets/img/lib/P0678-thumb.jpg",
+          "large": "../assets/img/lib/P0678-large.jpg",
+          "caption": "これでもか！太鼓_12",
+          "tags": [
+            "これでもか",
+            "太鼓",
+            "音楽"
+          ]
+        },
+        {
+          "id": "P0687",
+          "thumb": "../assets/img/lib/P0687-thumb.jpg",
+          "large": "../assets/img/lib/P0687-large.jpg",
+          "caption": "いこいの村_3",
+          "tags": [
+            "青空",
+            "村",
+            "公園"
+          ]
+        },
+        {
+          "id": "P0693",
+          "thumb": "../assets/img/lib/P0693-thumb.jpg",
+          "large": "../assets/img/lib/P0693-large.jpg",
+          "caption": "のとキリシマツツジ_16",
+          "tags": [
+            "花",
+            "庭",
+            "春"
+          ]
+        },
+        {
+          "id": "P0699",
+          "thumb": "../assets/img/lib/P0699-thumb.jpg",
+          "large": "../assets/img/lib/P0699-large.jpg",
+          "caption": "火打谷菊桜_3",
+          "tags": [
+            "桜",
+            "花",
+            "春"
+          ]
+        },
+        {
+          "id": "P0709",
+          "thumb": "../assets/img/lib/P0709-thumb.jpg",
+          "large": "../assets/img/lib/P0709-large.jpg",
+          "caption": "あじさい_11",
+          "tags": [
+            "花",
+            "あじさい"
           ]
         },
         {
@@ -3551,6 +4212,138 @@
           ]
         },
         {
+          "id": "P0570",
+          "thumb": "../assets/img/lib/P0570-thumb.jpg",
+          "large": "../assets/img/lib/P0570-large.jpg",
+          "caption": "大笹波水田_6",
+          "tags": [
+            "棚田",
+            "水田",
+            "大笹波"
+          ]
+        },
+        {
+          "id": "P0608",
+          "thumb": "../assets/img/lib/P0608-thumb.jpg",
+          "large": "../assets/img/lib/P0608-large.jpg",
+          "caption": "桜_4",
+          "tags": [
+            "桜",
+            "花"
+          ]
+        },
+        {
+          "id": "P0617",
+          "thumb": "../assets/img/lib/P0617-thumb.jpg",
+          "large": "../assets/img/lib/P0617-large.jpg",
+          "caption": "福野あじさい_4",
+          "tags": [
+            "花",
+            "あじさい"
+          ]
+        },
+        {
+          "id": "P0635",
+          "thumb": "../assets/img/lib/P0635-thumb.jpg",
+          "large": "../assets/img/lib/P0635-large.jpg",
+          "caption": "八朔祭礼_4",
+          "tags": [
+            "祭り",
+            "八朔",
+            "祭礼",
+            "キリコ"
+          ]
+        },
+        {
+          "id": "P0646",
+          "thumb": "../assets/img/lib/P0646-thumb.jpg",
+          "large": "../assets/img/lib/P0646-large.jpg",
+          "caption": "八朔祭礼_14",
+          "tags": [
+            "祭り",
+            "八朔",
+            "祭礼",
+            "キリコ"
+          ]
+        },
+        {
+          "id": "P0652",
+          "thumb": "../assets/img/lib/P0652-thumb.jpg",
+          "large": "../assets/img/lib/P0652-large.jpg",
+          "caption": "福浦祭り_4",
+          "tags": [
+            "祭り",
+            "福浦",
+            "祭礼"
+          ]
+        },
+        {
+          "id": "P0658",
+          "thumb": "../assets/img/lib/P0658-thumb.jpg",
+          "large": "../assets/img/lib/P0658-large.jpg",
+          "caption": "福浦祭り_10",
+          "tags": [
+            "祭り",
+            "福浦",
+            "祭礼"
+          ]
+        },
+        {
+          "id": "P0663",
+          "thumb": "../assets/img/lib/P0663-thumb.jpg",
+          "large": "../assets/img/lib/P0663-large.jpg",
+          "caption": "福浦祭り_15",
+          "tags": [
+            "祭り",
+            "福浦",
+            "祭礼"
+          ]
+        },
+        {
+          "id": "P0670",
+          "thumb": "../assets/img/lib/P0670-thumb.jpg",
+          "large": "../assets/img/lib/P0670-large.jpg",
+          "caption": "これでもか！太鼓_4",
+          "tags": [
+            "太鼓",
+            "これでもか",
+            "音楽"
+          ]
+        },
+        {
+          "id": "P0679",
+          "thumb": "../assets/img/lib/P0679-thumb.jpg",
+          "large": "../assets/img/lib/P0679-large.jpg",
+          "caption": "これでもか！太鼓_13",
+          "tags": [
+            "これでもか",
+            "太鼓",
+            "音楽"
+          ]
+        },
+        {
+          "id": "P0694",
+          "thumb": "../assets/img/lib/P0694-thumb.jpg",
+          "large": "../assets/img/lib/P0694-large.jpg",
+          "caption": "のとキリシマツツジ_17",
+          "tags": [
+            "花",
+            "庭",
+            "春"
+          ]
+        },
+        {
+          "id": "P0700",
+          "thumb": "../assets/img/lib/P0700-thumb.jpg",
+          "large": "../assets/img/lib/P0700-large.jpg",
+          "caption": "火打谷菊桜_4",
+          "tags": [
+            "桜",
+            "花",
+            "春"
+          ]
+        },
+        {
           "id": "P0552",
           "thumb": "../assets/img/lib/P0552-thumb.jpg",
           "large": "../assets/img/lib/P0552-large.jpg",
@@ -3560,6 +4353,115 @@
             "青空",
             "能登富士",
             "山"
+          ]
+        },
+        {
+          "id": "P0571",
+          "thumb": "../assets/img/lib/P0571-thumb.jpg",
+          "large": "../assets/img/lib/P0571-large.jpg",
+          "caption": "大笹波水田_7",
+          "tags": [
+            "棚田",
+            "水田",
+            "大笹波"
+          ]
+        },
+        {
+          "id": "P0609",
+          "thumb": "../assets/img/lib/P0609-thumb.jpg",
+          "large": "../assets/img/lib/P0609-large.jpg",
+          "caption": "桜_5",
+          "tags": [
+            "桜",
+            "花"
+          ]
+        },
+        {
+          "id": "P0618",
+          "thumb": "../assets/img/lib/P0618-thumb.jpg",
+          "large": "../assets/img/lib/P0618-large.jpg",
+          "caption": "福野あじさい_5",
+          "tags": [
+            "花",
+            "あじさい"
+          ]
+        },
+        {
+          "id": "P0636",
+          "thumb": "../assets/img/lib/P0636-thumb.jpg",
+          "large": "../assets/img/lib/P0636-large.jpg",
+          "caption": "八朔祭礼_5",
+          "tags": [
+            "祭り",
+            "八朔",
+            "祭礼",
+            "キリコ"
+          ]
+        },
+        {
+          "id": "P0653",
+          "thumb": "../assets/img/lib/P0653-thumb.jpg",
+          "large": "../assets/img/lib/P0653-large.jpg",
+          "caption": "福浦祭り_5",
+          "tags": [
+            "祭り",
+            "福浦",
+            "祭礼"
+          ]
+        },
+        {
+          "id": "P0659",
+          "thumb": "../assets/img/lib/P0659-thumb.jpg",
+          "large": "../assets/img/lib/P0659-large.jpg",
+          "caption": "福浦祭り_11",
+          "tags": [
+            "祭り",
+            "福浦",
+            "祭礼"
+          ]
+        },
+        {
+          "id": "P0664",
+          "thumb": "../assets/img/lib/P0664-thumb.jpg",
+          "large": "../assets/img/lib/P0664-large.jpg",
+          "caption": "福浦祭り_16",
+          "tags": [
+            "祭り",
+            "福浦",
+            "祭礼"
+          ]
+        },
+        {
+          "id": "P0671",
+          "thumb": "../assets/img/lib/P0671-thumb.jpg",
+          "large": "../assets/img/lib/P0671-large.jpg",
+          "caption": "これでもか！太鼓_5",
+          "tags": [
+            "太鼓",
+            "これでもか",
+            "音楽"
+          ]
+        },
+        {
+          "id": "P0695",
+          "thumb": "../assets/img/lib/P0695-thumb.jpg",
+          "large": "../assets/img/lib/P0695-large.jpg",
+          "caption": "のとキリシマツツジ_18",
+          "tags": [
+            "花",
+            "庭",
+            "春"
+          ]
+        },
+        {
+          "id": "P0701",
+          "thumb": "../assets/img/lib/P0701-thumb.jpg",
+          "large": "../assets/img/lib/P0701-large.jpg",
+          "caption": "火打谷菊桜_5",
+          "tags": [
+            "桜",
+            "花",
+            "春"
           ]
         },
         {
@@ -3579,6 +4481,288 @@
           "caption": "高爪山_8",
           "tags": [
             "花",
+            "能登富士",
+            "山"
+          ]
+        },
+        {
+          "id": "P0572",
+          "thumb": "../assets/img/lib/P0572-thumb.jpg",
+          "large": "../assets/img/lib/P0572-large.jpg",
+          "caption": "大笹波水田_8",
+          "tags": [
+            "棚田",
+            "水田",
+            "大笹波"
+          ]
+        },
+        {
+          "id": "P0610",
+          "thumb": "../assets/img/lib/P0610-thumb.jpg",
+          "large": "../assets/img/lib/P0610-large.jpg",
+          "caption": "桜_6",
+          "tags": [
+            "桜",
+            "花"
+          ]
+        },
+        {
+          "id": "P0619",
+          "thumb": "../assets/img/lib/P0619-thumb.jpg",
+          "large": "../assets/img/lib/P0619-large.jpg",
+          "caption": "福野あじさい_6",
+          "tags": [
+            "花",
+            "あじさい"
+          ]
+        },
+        {
+          "id": "P0637",
+          "thumb": "../assets/img/lib/P0637-thumb.jpg",
+          "large": "../assets/img/lib/P0637-large.jpg",
+          "caption": "八朔祭礼_6",
+          "tags": [
+            "祭り",
+            "八朔",
+            "祭礼",
+            "キリコ"
+          ]
+        },
+        {
+          "id": "P0654",
+          "thumb": "../assets/img/lib/P0654-thumb.jpg",
+          "large": "../assets/img/lib/P0654-large.jpg",
+          "caption": "福浦祭り_6",
+          "tags": [
+            "祭り",
+            "福浦",
+            "祭礼"
+          ]
+        },
+        {
+          "id": "P0672",
+          "thumb": "../assets/img/lib/P0672-thumb.jpg",
+          "large": "../assets/img/lib/P0672-large.jpg",
+          "caption": "これでもか！太鼓_6",
+          "tags": [
+            "太鼓",
+            "これでもか",
+            "音楽"
+          ]
+        },
+        {
+          "id": "P0696",
+          "thumb": "../assets/img/lib/P0696-thumb.jpg",
+          "large": "../assets/img/lib/P0696-large.jpg",
+          "caption": "のとキリシマツツジ_19",
+          "tags": [
+            "花",
+            "庭",
+            "春"
+          ]
+        },
+        {
+          "id": "P0702",
+          "thumb": "../assets/img/lib/P0702-thumb.jpg",
+          "large": "../assets/img/lib/P0702-large.jpg",
+          "caption": "火打谷菊桜_6",
+          "tags": [
+            "桜",
+            "花",
+            "春"
+          ]
+        },
+        {
+          "id": "P0573",
+          "thumb": "../assets/img/lib/P0573-thumb.jpg",
+          "large": "../assets/img/lib/P0573-large.jpg",
+          "caption": "大笹波水田_9",
+          "tags": [
+            "棚田",
+            "水田",
+            "大笹波"
+          ]
+        },
+        {
+          "id": "P0620",
+          "thumb": "../assets/img/lib/P0620-thumb.jpg",
+          "large": "../assets/img/lib/P0620-large.jpg",
+          "caption": "福野あじさい_7",
+          "tags": [
+            "花",
+            "あじさい"
+          ]
+        },
+        {
+          "id": "P0638",
+          "thumb": "../assets/img/lib/P0638-thumb.jpg",
+          "large": "../assets/img/lib/P0638-large.jpg",
+          "caption": "八朔祭礼_7",
+          "tags": [
+            "祭り",
+            "八朔",
+            "祭礼",
+            "キリコ"
+          ]
+        },
+        {
+          "id": "P0673",
+          "thumb": "../assets/img/lib/P0673-thumb.jpg",
+          "large": "../assets/img/lib/P0673-large.jpg",
+          "caption": "これでもか！太鼓_7",
+          "tags": [
+            "太鼓",
+            "これでもか",
+            "音楽"
+          ]
+        },
+        {
+          "id": "P0703",
+          "thumb": "../assets/img/lib/P0703-thumb.jpg",
+          "large": "../assets/img/lib/P0703-large.jpg",
+          "caption": "火打谷菊桜_7",
+          "tags": [
+            "桜",
+            "花",
+            "春"
+          ]
+        },
+        {
+          "id": "P0574",
+          "thumb": "../assets/img/lib/P0574-thumb.jpg",
+          "large": "../assets/img/lib/P0574-large.jpg",
+          "caption": "大笹波水田_10",
+          "tags": [
+            "棚田",
+            "水田",
+            "大笹波"
+          ]
+        },
+        {
+          "id": "P0621",
+          "thumb": "../assets/img/lib/P0621-thumb.jpg",
+          "large": "../assets/img/lib/P0621-large.jpg",
+          "caption": "福野あじさい_8",
+          "tags": [
+            "花",
+            "あじさい"
+          ]
+        },
+        {
+          "id": "P0674",
+          "thumb": "../assets/img/lib/P0674-thumb.jpg",
+          "large": "../assets/img/lib/P0674-large.jpg",
+          "caption": "これでもか！太鼓_8",
+          "tags": [
+            "太鼓",
+            "これでもか",
+            "音楽"
+          ]
+        },
+        {
+          "id": "P0704",
+          "thumb": "../assets/img/lib/P0704-thumb.jpg",
+          "large": "../assets/img/lib/P0704-large.jpg",
+          "caption": "火打谷菊桜_8",
+          "tags": [
+            "桜",
+            "花",
+            "春"
+          ]
+        },
+        {
+          "id": "P0556",
+          "thumb": "../assets/img/lib/P0556-thumb.jpg",
+          "large": "../assets/img/lib/P0556-large.jpg",
+          "caption": "高爪山_9",
+          "tags": [
+            "能登富士",
+            "山"
+          ]
+        },
+        {
+          "id": "P0575",
+          "thumb": "../assets/img/lib/P0575-thumb.jpg",
+          "large": "../assets/img/lib/P0575-large.jpg",
+          "caption": "大笹波水田_11",
+          "tags": [
+            "棚田",
+            "水田",
+            "大笹波"
+          ]
+        },
+        {
+          "id": "P0675",
+          "thumb": "../assets/img/lib/P0675-thumb.jpg",
+          "large": "../assets/img/lib/P0675-large.jpg",
+          "caption": "これでもか！太鼓_9",
+          "tags": [
+            "太鼓",
+            "これでもか",
+            "音楽"
+          ]
+        },
+        {
+          "id": "P0705",
+          "thumb": "../assets/img/lib/P0705-thumb.jpg",
+          "large": "../assets/img/lib/P0705-large.jpg",
+          "caption": "火打谷菊桜_9",
+          "tags": [
+            "桜",
+            "花",
+            "春"
+          ]
+        },
+        {
+          "id": "P0557",
+          "thumb": "../assets/img/lib/P0557-thumb.jpg",
+          "large": "../assets/img/lib/P0557-large.jpg",
+          "caption": "高爪山_10",
+          "tags": [
+            "雪",
+            "能登富士",
+            "山"
+          ]
+        },
+        {
+          "id": "P0576",
+          "thumb": "../assets/img/lib/P0576-thumb.jpg",
+          "large": "../assets/img/lib/P0576-large.jpg",
+          "caption": "大笹波水田_12",
+          "tags": [
+            "棚田",
+            "水田",
+            "大笹波"
+          ]
+        },
+        {
+          "id": "P0706",
+          "thumb": "../assets/img/lib/P0706-thumb.jpg",
+          "large": "../assets/img/lib/P0706-large.jpg",
+          "caption": "火打谷菊桜_10",
+          "tags": [
+            "桜",
+            "花",
+            "春"
+          ]
+        },
+        {
+          "id": "P0558",
+          "thumb": "../assets/img/lib/P0558-thumb.jpg",
+          "large": "../assets/img/lib/P0558-large.jpg",
+          "caption": "高爪山 1",
+          "tags": [
+            "能登富士",
+            "山"
+          ]
+        },
+        {
+          "id": "P0559",
+          "thumb": "../assets/img/lib/P0559-thumb.jpg",
+          "large": "../assets/img/lib/P0559-large.jpg",
+          "caption": "高爪山_11",
+          "tags": [
+            "雪",
             "能登富士",
             "山"
           ]
@@ -3851,6 +5035,17 @@
             "花",
             "寺",
             "太陽",
+            "ぼたん"
+          ]
+        },
+        {
+          "id": "P0241",
+          "thumb": "../assets/img/lib/P0241-thumb.jpg",
+          "large": "../assets/img/lib/P0241-large.jpg",
+          "caption": "遍行寺_2",
+          "tags": [
+            "花",
+            "寺",
             "ぼたん"
           ]
         },
@@ -4878,7 +6073,7 @@
           ]
         }
       ],
-      "count": 130
+      "count": 232
     }
   ]
 }
