@@ -39,7 +39,7 @@ function _管理画面HTML() {
 
 function 管理画面データを取得する() {
   var ss = _管理対象シート();
-  _写真列を保証(_必須タブ(ss, '写真'), ['downloadAllowed']);
+  _写真列を保証(_必須タブ(ss, '写真'), ['downloadAllowed', 'updatedAt', 'updatedBy']);
   return {
     spots: _スポット一覧(ss),
     photos: _写真一覧(ss),
@@ -78,7 +78,7 @@ function 今すぐ公開する() {
 function ダッシュボード情報を取得する() {
   var ss = _管理対象シート();
   var sh = _必須タブ(ss, '写真');
-  var col = _写真列を保証(sh, ['downloadAllowed']);
+  var col = _写真列を保証(sh, ['downloadAllowed', 'updatedAt', 'updatedBy']);
   var photos = _写真一覧(ss);
   var spots = _スポット一覧(ss);
   var pending = _承認待ち一覧(ss);
@@ -162,7 +162,7 @@ function 写真を登録する(payload) {
   payload = payload || {};
   var ss = _管理対象シート();
   var sh = _必須タブ(ss, '写真');
-  var col = _写真列を保証(sh, ['downloadAllowed']);
+  var col = _写真列を保証(sh, ['downloadAllowed', 'updatedAt', 'updatedBy']);
   ['id', 'title', 'spot', 'area', 'driveFileId', 'publish'].forEach(function (key) {
     if (col[key] === undefined) throw new Error('「写真」タブに ' + key + ' 列がありません。');
   });
@@ -268,7 +268,7 @@ function 写真を保存する(payload) {
   payload = payload || {};
   var ss = _管理対象シート();
   var sh = _必須タブ(ss, '写真');
-  var col = _写真列を保証(sh, ['downloadAllowed']);
+  var col = _写真列を保証(sh, ['downloadAllowed', 'updatedAt', 'updatedBy']);
   var id = String(payload.id || '').trim();
   // ブラウザが持っている行番号は、他の人の編集や時間経過でずれている可能性があるため信用しない。
   // idから毎回その場で正しい行を探し直す（idが渡された場合のみ、渡された行番号は最後の保険）。

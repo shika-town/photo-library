@@ -57,7 +57,10 @@ try:
             filter=Filter(field_name='eventName',
                            string_filter=Filter.StringFilter(value='photo_download'))),
         order_bys=[OrderBy(metric=OrderBy.MetricOrderBy(metric_name='eventCount'), desc=True)],
-        limit=TOP_N,
+        # GA4には photo_id が記録されていない行（"(not set)" など、計測コード導入前の
+        # イベントや不正なリクエスト由来）が混ざることがあるため、後段でそれらを除いても
+        # TOP_N件を確保できるよう多めに取得する。
+        limit=TOP_N * 3,
     )
     response = client.run_report(request)
 
@@ -75,14 +78,17 @@ try:
     for row in response.rows:
         photo_id = row.dimension_values[0].value.strip()
         count = int(row.metric_values[0].value)
-        if not photo_id:
+        if not photo_id or photo_id == '(not set)':
             continue
         p = lib_by_id.get(photo_id)
-        entry = {'id': photo_id, 'downloads': count}
-        if p:
-            entry.update({'title': p['title'], 'area': p['area'], 'thumb': p['thumb'],
-                          'alt': p.get('alt', p['title']), 'tags': p.get('tags', [])})
-        photos.append(entry)
+        if not p:
+            # library.jsonに存在しないID（削除済み写真、計測ミス等）は、サムネイルを
+            # 出せずフロントで画像が欠けて見えるため、ランキングに載せない。
+            continue
+        photos.append({'id': photo_id, 'downloads': count, 'title': p['title'], 'area': p['area'],
+                       'thumb': p['thumb'], 'alt': p.get('alt', p['title']), 'tags': p.get('tags', [])})
+        if len(photos) >= TOP_N:
+            break
 
     data = {
         'note': 'fetch-ga4-ranking.py が自動生成しています。直接編集しないでください。',

@@ -61,10 +61,14 @@
   // セクションを表示しないままにする（サイトの他の機能には影響しない）。
   function renderRanking(d) {
     if (!d || !d.photos || !d.photos.length) return;
+    // GA4側のイベントにphoto_idが記録されていない行（"(not set)" 等）は、
+    // library.jsonに紐づく情報（thumb/title）が無く画像を出せないため描画対象から外す。
+    var photos = d.photos.filter(function (p) { return p && p.thumb && p.title; });
+    if (!photos.length) return;
     var section = $('#ranking');
     var grid = $('#rankingGrid');
     if (!section || !grid) return;
-    grid.innerHTML = d.photos.map(rankingCard).join('');
+    grid.innerHTML = photos.map(rankingCard).join('');
     section.hidden = false;
   }
   function loadRanking() {
