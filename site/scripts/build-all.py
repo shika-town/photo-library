@@ -5,17 +5,18 @@
 
   1. build-data.py     photos.json  → assets/js/data.js
   2. build-library.py  photos.json + spots.json → data/library.json
-  3. build-spots.py    spots.json   → spots/*.html
-  4. build-photos.py   library.json → photos/*.html
-  5. build-search.py                → search.html
-  6. build-favorites.py             → favorites.html
-  7. build-pages.py                 → terms/privacy/credit/faq/instagram/404.html
-  8. build-seo.py                   → robots.txt / sitemap.xml
+  3. check-images.py   参照している画像ファイルが実際に揃っているか確認
+  4. build-spots.py    spots.json   → spots/*.html
+  5. build-photos.py   library.json → photos/*.html
+  6. build-search.py                → search.html
+  7. build-favorites.py             → favorites.html
+  8. build-pages.py                 → terms/privacy/credit/faq/instagram/404.html
+  9. build-seo.py                   → robots.txt / sitemap.xml
 """
 import subprocess, sys, os
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-STEPS = ['build-data.py', 'build-library.py', 'build-spots.py', 'build-photos.py',
+STEPS = ['build-data.py', 'build-library.py', 'check-images.py', 'build-spots.py', 'build-photos.py',
          'build-search.py', 'build-favorites.py', 'build-pages.py', 'build-seo.py']
 
 for name in STEPS:
