@@ -3821,19 +3821,6 @@
           ]
         },
         {
-          "id": "P0712",
-          "thumb": "../assets/img/lib/P0712-thumb.jpg",
-          "large": "../assets/img/lib/P0712-large.jpg",
-          "caption": "三十六歌仙貝_1",
-          "tags": [
-            "さくら貝",
-            "体験",
-            "36歌仙貝",
-            "貝",
-            "コレクション"
-          ]
-        },
-        {
           "id": "P0549",
           "thumb": "../assets/img/lib/P0549-thumb.jpg",
           "large": "../assets/img/lib/P0549-large.jpg",
@@ -4042,19 +4029,6 @@
           ]
         },
         {
-          "id": "P0713",
-          "thumb": "../assets/img/lib/P0713-thumb.jpg",
-          "large": "../assets/img/lib/P0713-large.jpg",
-          "caption": "三十六歌仙貝_2",
-          "tags": [
-            "さくら貝",
-            "体験",
-            "36歌仙貝",
-            "貝",
-            "コレクション"
-          ]
-        },
-        {
           "id": "P0550",
           "thumb": "../assets/img/lib/P0550-thumb.jpg",
           "large": "../assets/img/lib/P0550-large.jpg",
@@ -4228,19 +4202,6 @@
           ]
         },
         {
-          "id": "P0714",
-          "thumb": "../assets/img/lib/P0714-thumb.jpg",
-          "large": "../assets/img/lib/P0714-large.jpg",
-          "caption": "三十六歌仙貝コレクション_1",
-          "tags": [
-            "さくら貝",
-            "体験",
-            "36歌仙貝",
-            "貝",
-            "コレクション"
-          ]
-        },
-        {
           "id": "P0551",
           "thumb": "../assets/img/lib/P0551-thumb.jpg",
           "large": "../assets/img/lib/P0551-large.jpg",
@@ -4380,19 +4341,6 @@
             "桜",
             "花",
             "春"
-          ]
-        },
-        {
-          "id": "P0715",
-          "thumb": "../assets/img/lib/P0715-thumb.jpg",
-          "large": "../assets/img/lib/P0715-large.jpg",
-          "caption": "三十六歌仙貝コレクション_2",
-          "tags": [
-            "さくら貝",
-            "体験",
-            "36歌仙貝",
-            "貝",
-            "コレクション"
           ]
         },
         {
@@ -6125,7 +6073,7 @@
           ]
         }
       ],
-      "count": 236
+      "count": 232
     }
   ]
 }
