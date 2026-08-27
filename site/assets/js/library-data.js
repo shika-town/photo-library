@@ -3,7 +3,7 @@
 window.SPL_LIBRARY = {
   "meta": {
     "note": "photos.json と spots.json から自動生成しています。直接編集せず、scripts/build-library.py を実行してください。",
-    "count": 507
+    "count": 511
   },
   "photos": [
     {
@@ -5783,6 +5783,27 @@ window.SPL_LIBRARY = {
       "id": "P0707"
     },
     {
+      "title": "三十六歌仙貝_1",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "さくら貝",
+        "体験",
+        "36歌仙貝",
+        "貝",
+        "コレクション"
+      ],
+      "thumb": "assets/img/lib/P0712-thumb.jpg",
+      "large": "assets/img/lib/P0712-large.jpg",
+      "alt": "三十六歌仙貝_1",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0712"
+    },
+    {
       "title": "高爪山_4",
       "spot": "その他",
       "spotId": "other",
@@ -6143,6 +6164,27 @@ window.SPL_LIBRARY = {
       "id": "P0708"
     },
     {
+      "title": "三十六歌仙貝_2",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "さくら貝",
+        "体験",
+        "36歌仙貝",
+        "貝",
+        "コレクション"
+      ],
+      "thumb": "assets/img/lib/P0713-thumb.jpg",
+      "large": "assets/img/lib/P0713-large.jpg",
+      "alt": "三十六歌仙貝_2",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0713"
+    },
+    {
       "title": "高爪山_5",
       "spot": "その他",
       "spotId": "other",
@@ -6444,6 +6486,27 @@ window.SPL_LIBRARY = {
       "id": "P0709"
     },
     {
+      "title": "三十六歌仙貝コレクション_1",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "さくら貝",
+        "体験",
+        "36歌仙貝",
+        "貝",
+        "コレクション"
+      ],
+      "thumb": "assets/img/lib/P0714-thumb.jpg",
+      "large": "assets/img/lib/P0714-large.jpg",
+      "alt": "三十六歌仙貝コレクション_1",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0714"
+    },
+    {
       "title": "高爪山_6",
       "spot": "その他",
       "spotId": "other",
@@ -6688,6 +6751,27 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "id": "P0700"
+    },
+    {
+      "title": "三十六歌仙貝コレクション_2",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "さくら貝",
+        "体験",
+        "36歌仙貝",
+        "貝",
+        "コレクション"
+      ],
+      "thumb": "assets/img/lib/P0715-thumb.jpg",
+      "large": "assets/img/lib/P0715-large.jpg",
+      "alt": "三十六歌仙貝コレクション_2",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0715"
     },
     {
       "title": "高爪山_7",
