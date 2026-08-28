@@ -602,7 +602,7 @@ function _承認待ち一覧(ss) {
         note: String(r[pc.description] || '').trim(),
         previewUrl: _写真プレビューURL(id, driveFileId),
         isNew: isNew,
-        updatedAt: pc.updatedAt !== undefined ? String(r[pc.updatedAt] || '').trim() : ''
+        updatedAt: pc.updatedAt !== undefined ? _日付文字列(r[pc.updatedAt]) : ''
       });
     });
   }
