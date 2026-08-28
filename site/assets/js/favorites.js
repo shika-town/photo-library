@@ -95,9 +95,10 @@
   function card(p) {
     var tags = (p.tags || []).slice(0, 3)
       .map(function (t) { return '<span class="tag">#' + esc(t) + '</span>'; }).join('');
+    var flag = p.restricted ? '<span class="photo-card__flag" title="ダウンロードには事前のお問い合わせが必要です">要問合せ</span>' : '';
     return '<a class="photo-card" href="photos/' + esc(p.id) + '.html">' +
       '<div class="photo-card__media"><img src="' + esc(p.thumb) + '" alt="' + esc(p.alt) +
-        '" loading="lazy" width="640" height="480"></div>' +
+        '" loading="lazy" width="640" height="480">' + flag + '</div>' +
       '<div class="photo-card__body">' +
         '<h3 class="photo-card__title">' + esc(p.title) + '</h3>' +
         '<p class="photo-card__area"><svg aria-hidden="true"><use href="#i-pin"/></svg>' + esc(p.area) + '</p>' +
@@ -151,12 +152,19 @@
 
       var files = [];
       var fails = [];
+      var restricted = [];
       var total = list.length;
 
       function processOne(i) {
         if (i >= total) return Promise.resolve();
         var p = list[i];
         status.textContent = '写真を用意しています…（' + (i + 1) + ' / ' + total + '）';
+        // 祭りや人物が大きく写る写真など「ダウンロード制限」が付いている写真は、
+        // まとめてダウンロードの対象から外す（個別ページで問い合わせ案内を表示する）。
+        if (p.restricted) {
+          restricted.push(p.id);
+          return processOne(i + 1);
+        }
         var credit = lang === 'en' ? '© Shika Town' : (p.credit || '© 志賀町');
         var name = p.id + '_' + (p.spotId || 'shika') + '.jpg';
         var work = omit
@@ -171,8 +179,15 @@
         }).then(function () { return processOne(i + 1); });
       }
 
+      var emptyReasonMsg = null;
+
       processOne(0).then(function () {
-        if (!files.length) throw new Error('ダウンロードできる写真がありませんでした。');
+        if (!files.length) {
+          emptyReasonMsg = restricted.length
+            ? '選択した写真はダウンロードに事前のお問い合わせが必要なため、まとめてダウンロードできませんでした。'
+            : 'ダウンロードできる写真がありませんでした。';
+          throw new Error(emptyReasonMsg);
+        }
         status.textContent = 'ZIPファイルを作成しています…';
         return window.SPLZip.build(files);
       }).then(function (zipBlob) {
@@ -182,13 +197,14 @@
         document.body.appendChild(a); a.click(); document.body.removeChild(a);
         setTimeout(function () { URL.revokeObjectURL(url); }, 1000);
         close();
-        if (fails.length) {
-          alert(files.length + '件をダウンロードしました。' + fails.length + '件は読み込めなかったため含まれていません。');
-        }
+        var notes = [];
+        if (restricted.length) notes.push(restricted.length + '件は事前のお問い合わせが必要な写真のため含まれていません（各写真のページからお問い合わせください）。');
+        if (fails.length) notes.push(fails.length + '件は読み込めなかったため含まれていません。');
+        if (notes.length) alert(files.length + '件をダウンロードしました。' + notes.join(' '));
       }).catch(function (e) {
         console.error(e);
         status.textContent = '';
-        alert('ダウンロードに失敗しました。ページを再読み込みしてお試しください。');
+        alert(emptyReasonMsg || 'ダウンロードに失敗しました。ページを再読み込みしてお試しください。');
       }).then(function () {
         start.disabled = false; $('#bulkCancelDl').disabled = false;
       });

@@ -38,14 +38,15 @@ TERMS = [
 
 def photo_card(p):
     tags = ''.join('<span class="tag">#%s</span>' % E(t) for t in p['tags'][:3])
+    badge = '<span class="photo-card__flag" title="ダウンロードには事前のお問い合わせが必要です">要問合せ</span>' if p.get('restricted') else ''
     return '''<a class="photo-card" href="%s.html">
-  <div class="photo-card__media"><img src="../%s" alt="%s" loading="lazy" width="640" height="480"></div>
+  <div class="photo-card__media"><img src="../%s" alt="%s" loading="lazy" width="640" height="480">%s</div>
   <div class="photo-card__body">
     <h3 class="photo-card__title">%s</h3>
     <p class="photo-card__area"><svg><use href="#i-pin"/></svg>%s</p>
     <div class="photo-card__tags">%s</div>
   </div>
-</a>''' % (E(p['id']), E(p['thumb']), E(p['alt']), E(p['title']), E(p['area']), tags)
+</a>''' % (E(p['id']), E(p['thumb']), E(p['alt']), badge, E(p['title']), E(p['area']), tags)
 
 
 for i, p in enumerate(PHOTOS):
@@ -75,6 +76,31 @@ for i, p in enumerate(PHOTOS):
     terms_html = ''.join('<li>・%s</li>' % E(t) for t in TERMS)
     fname = '%s_%s.jpg' % (p['id'], p['spotId'] or 'shika')
     share_url = BASE_URL + 'photos/%s.html' % p['id']
+
+    # 祭りや人物が大きく写る写真など、無条件でのダウンロードを避けたい写真は
+    # 「表示場所」に「ダウンロード制限」を付けておくと、写真自体は通常どおり
+    # 掲載されたまま、ダウンロードボタンの代わりにお問い合わせ案内が出る。
+    if p.get('restricted'):
+        contact_subject = urllib.parse.quote('フォトライブラリーのダウンロードについて（%s）' % p['id'])
+        contact_body = urllib.parse.quote('写真ID: %s\n写真タイトル: %s\n\nご利用目的：\n' % (p['id'], p['title']))
+        dl_html = '''<a class="dlbtn dlbtn--contact" href="mailto:shokan@town.shika.lg.jp?subject=%s&body=%s">
+          <svg><use href="#i-mail"/></svg>
+          <span>ダウンロードについてお問い合わせ</span>
+        </a>
+        <p class="dlnote">
+          祭りや人物が写り込む写真のため、こちらの写真は直接ダウンロードいただけません。<br>
+          ご利用をご希望の場合は、上記からメールにてお問い合わせください。
+        </p>''' % (contact_subject, contact_body)
+    else:
+        dl_html = '''<button class="dlbtn" id="dlBtn" type="button"
+                data-src="../%s" data-credit-ja="© 志賀町" data-credit-en="© Shika Town" data-filename="%s">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12M7 11l5 5 5-5M4 20h16"/></svg>
+          <span>この写真をダウンロード</span>
+        </button>
+        <p class="dlnote">
+          ダウンロードした画像には、右下にクレジットが入ります（下の確認画面で日本語／英語を選べます）。<br>
+          ご利用の前に<a href="../terms.html">利用規約</a>への同意が必要です。
+        </p>''' % (E(p['large']), E(fname))
 
     ld = json.dumps({
         "@context": "https://schema.org", "@type": "ImageObject",
@@ -117,15 +143,7 @@ for i, p in enumerate(PHOTOS):
           </div>
         </div>
 
-        <button class="dlbtn" id="dlBtn" type="button"
-                data-src="../%s" data-credit-ja="© 志賀町" data-credit-en="© Shika Town" data-filename="%s">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12M7 11l5 5 5-5M4 20h16"/></svg>
-          <span>この写真をダウンロード</span>
-        </button>
-        <p class="dlnote">
-          ダウンロードした画像には、右下にクレジットが入ります（下の確認画面で日本語／英語を選べます）。<br>
-          ご利用の前に<a href="../terms.html">利用規約</a>への同意が必要です。
-        </p>
+        %s
 
         <div class="sharebar">
           <span class="sharebar__label">この写真をシェア</span>
@@ -180,7 +198,7 @@ for i, p in enumerate(PHOTOS):
 </div>
 ''' % (('<li><a href="../spots/%s.html">%s</a></li>' % (E(p['spotId']), E(p['spot']))) if sp else '',
        E(p['title']), E(p['large']), E(p['alt']), E(p['id']), E(p['title']), rows_html, tags_html,
-       E(p['large']), E(fname),
+       dl_html,
        urllib.parse.quote(p['title'] + '｜SHIKA PHOTO LIBRARY'), urllib.parse.quote(share_url, safe=''),
        urllib.parse.quote(share_url, safe=''),
        urllib.parse.quote(share_url, safe=''),

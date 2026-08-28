@@ -213,6 +213,11 @@ def make(src, name, size, fy=0.5):
 yes = lambda v: str(v).strip().upper() in ('TRUE', '1', 'YES', 'はい', '○')
 split = lambda v: [x.strip() for x in str(v or '').replace('、', ',').split(',') if x.strip()]
 
+# 「表示場所（roles）」に付けると、写真自体は公開されたまま、ダウンロードボタンの
+# 代わりにお問い合わせ案内を表示する（人物が大きく写る祭り・イベント写真などに使う）。
+RESTRICTED_ROLE = 'ダウンロード制限'
+restricted = lambda p: RESTRICTED_ROLE in split(p.get('roles'))
+
 def photo_visible(p):
     """公開サイトに出す写真だけを通す。
     publish は表示ON/OFF、downloadAllowed はダウンロード対象のON/OFF。
@@ -352,7 +357,8 @@ def main():
                 gal.append({'id': p['id'],
                             'thumb': '../' + make(f, 'lib/%s-thumb' % p['id'], SIZES['thumb'], fy),
                             'large': '../' + make(f, 'lib/%s-large' % p['id'], SIZES['large'], fy),
-                            'caption': p.get('title', ''), 'tags': split(p.get('tags'))})
+                            'caption': p.get('title', ''), 'tags': split(p.get('tags')),
+                            'restricted': restricted(p)})
             except Exception as e:
                 thumb = made_path('lib/%s-thumb' % p['id'])
                 large = made_path('lib/%s-large' % p['id'])
@@ -361,7 +367,8 @@ def main():
                     gal.append({'id': p['id'],
                                 'thumb': '../' + thumb,
                                 'large': '../' + large,
-                                'caption': p.get('title', ''), 'tags': split(p.get('tags'))})
+                                'caption': p.get('title', ''), 'tags': split(p.get('tags')),
+                                'restricted': restricted(p)})
                     continue
                 if not isinstance(e, (FileNotFoundError, UnidentifiedImageError)):
                     raise
@@ -407,6 +414,7 @@ def main():
             'season': p.get('season', ''), 'tags': split(p.get('tags')),
             'image': _img,
             'alt': p.get('description', p['title']),
+            'restricted': restricted(p),
         })
 
     # トップのヒーロー画像はスライドショー対応。heroPhotoId にカンマ区切りで

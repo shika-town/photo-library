@@ -26,9 +26,10 @@
   function card(p) {
     var tags = (p.tags || []).slice(0, 3)
       .map(function (t) { return '<span class="tag">#' + esc(t) + '</span>'; }).join('');
+    var flag = p.restricted ? '<span class="photo-card__flag" title="ダウンロードには事前のお問い合わせが必要です">要問合せ</span>' : '';
     return '<a class="photo-card" href="photos/' + esc(p.id) + '.html">' +
       '<div class="photo-card__media"><img src="' + esc(p.thumb) + '" alt="' + esc(p.alt) +
-        '" loading="lazy" width="640" height="480"></div>' +
+        '" loading="lazy" width="640" height="480">' + flag + '</div>' +
       '<div class="photo-card__body">' +
         '<h3 class="photo-card__title">' + esc(p.title) + '</h3>' +
         '<p class="photo-card__area"><svg aria-hidden="true"><use href="#i-pin"/></svg>' + esc(p.area) + '</p>' +

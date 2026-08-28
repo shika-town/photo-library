@@ -34,6 +34,8 @@ def add(_id=None, **kw):
             prev['thumb'] = kw['thumb']; prev['large'] = kw['large']
         if not prev.get('spotId') and kw.get('spotId'):
             prev['spotId'] = kw['spotId']; prev['spot'] = kw['spot']; prev['area'] = kw['area']
+        if kw.get('restricted'):
+            prev['restricted'] = True
         return
     _seen.add(kw['id'])
     photos.append(kw)
@@ -47,7 +49,7 @@ for p in top['photos']:
         area=p['area'], season=p.get('season', ''), tags=p.get('tags', []),
         thumb=norm(p['image']), large=norm(p['image']),
         alt=p.get('alt', p['title']), credit='© 志賀町', photographer='志賀町',
-        source='新着写真')
+        source='新着写真', restricted=bool(p.get('restricted')))
 
 # ---- 各スポットのギャラリー ----
 for s in spots['spots']:
@@ -58,7 +60,7 @@ for s in spots['spots']:
         add(_id=ph.get('id'), title=ph['caption'], spot=s['name'], spotId=s['id'], area=s['area'],
             season='', tags=ph.get('tags', []), thumb=norm(ph['thumb']), large=norm(ph['large']),
             alt=ph['caption'], credit='© 志賀町', photographer='志賀町',
-            source=s['name'])
+            source=s['name'], restricted=bool(ph.get('restricted')))
 
 data = {
     'meta': {
