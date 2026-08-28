@@ -375,7 +375,7 @@
             "イルミネーション",
             "花火"
           ],
-          "restricted": false
+          "restricted": true
         },
         {
           "id": "P0228",
@@ -3922,7 +3922,7 @@
             "祭礼",
             "キリコ"
           ],
-          "restricted": false
+          "restricted": true
         },
         {
           "id": "P0640",
