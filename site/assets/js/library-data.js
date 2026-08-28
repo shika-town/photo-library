@@ -3,7 +3,7 @@
 window.SPL_LIBRARY = {
   "meta": {
     "note": "photos.json と spots.json から自動生成しています。直接編集せず、scripts/build-library.py を実行してください。",
-    "count": 398
+    "count": 507
   },
   "photos": [
     {
@@ -211,6 +211,63 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "世界一長いベンチ・増穂浦海岸",
       "id": "P0012"
+    },
+    {
+      "title": "増穂浦海岸_6",
+      "spot": "世界一長いベンチ・増穂浦海岸",
+      "spotId": "bench",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "海",
+        "青空",
+        "増穂浦"
+      ],
+      "thumb": "assets/img/lib/P0682-thumb.jpg",
+      "large": "assets/img/lib/P0682-large.jpg",
+      "alt": "増穂浦海岸_6",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "世界一長いベンチ・増穂浦海岸",
+      "id": "P0682"
+    },
+    {
+      "title": "増穂浦海岸_7",
+      "spot": "世界一長いベンチ・増穂浦海岸",
+      "spotId": "bench",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "海",
+        "青空",
+        "増穂浦"
+      ],
+      "thumb": "assets/img/lib/P0683-thumb.jpg",
+      "large": "assets/img/lib/P0683-large.jpg",
+      "alt": "増穂浦海岸_7",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "世界一長いベンチ・増穂浦海岸",
+      "id": "P0683"
+    },
+    {
+      "title": "増穂浦海岸_8",
+      "spot": "世界一長いベンチ・増穂浦海岸",
+      "spotId": "bench",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "海",
+        "青空",
+        "増穂浦"
+      ],
+      "thumb": "assets/img/lib/P0684-thumb.jpg",
+      "large": "assets/img/lib/P0684-large.jpg",
+      "alt": "増穂浦海岸_8",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "世界一長いベンチ・増穂浦海岸",
+      "id": "P0684"
     },
     {
       "title": "上空から見た増穂浦海岸",
@@ -4467,6 +4524,66 @@ window.SPL_LIBRARY = {
       "id": "P0058"
     },
     {
+      "title": "縁結び石_1",
+      "spot": "道の駅とぎ海街道・さくら貝資料館",
+      "spotId": "sakuragai",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "岩",
+        "道の駅",
+        "縁結び",
+        "石"
+      ],
+      "thumb": "assets/img/lib/P0577-thumb.jpg",
+      "large": "assets/img/lib/P0577-large.jpg",
+      "alt": "縁結び石_1",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "道の駅とぎ海街道・さくら貝資料館",
+      "id": "P0577"
+    },
+    {
+      "title": "縁結び石_2",
+      "spot": "道の駅とぎ海街道・さくら貝資料館",
+      "spotId": "sakuragai",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "岩",
+        "道の駅",
+        "縁結び",
+        "石"
+      ],
+      "thumb": "assets/img/lib/P0578-thumb.jpg",
+      "large": "assets/img/lib/P0578-large.jpg",
+      "alt": "縁結び石_2",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "道の駅とぎ海街道・さくら貝資料館",
+      "id": "P0578"
+    },
+    {
+      "title": "縁結び石_3",
+      "spot": "道の駅とぎ海街道・さくら貝資料館",
+      "spotId": "sakuragai",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "岩",
+        "道の駅",
+        "縁結び",
+        "石"
+      ],
+      "thumb": "assets/img/lib/P0579-thumb.jpg",
+      "large": "assets/img/lib/P0579-large.jpg",
+      "alt": "縁結び石_3",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "道の駅とぎ海街道・さくら貝資料館",
+      "id": "P0579"
+    },
+    {
       "title": "さくら貝資料館_4",
       "spot": "道の駅とぎ海街道・さくら貝資料館",
       "spotId": "sakuragai",
@@ -5175,6 +5292,24 @@ window.SPL_LIBRARY = {
       "id": "P0566"
     },
     {
+      "title": "松尾神社_4",
+      "spot": "松尾神社",
+      "spotId": "matsuo",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "神社",
+        "名所旧跡"
+      ],
+      "thumb": "assets/img/lib/P0681-thumb.jpg",
+      "large": "assets/img/lib/P0681-large.jpg",
+      "alt": "松尾神社_4",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "松尾神社",
+      "id": "P0681"
+    },
+    {
       "title": "松尾神社_2",
       "spot": "松尾神社",
       "spotId": "matsuo",
@@ -5248,6 +5383,293 @@ window.SPL_LIBRARY = {
       "id": "P0548"
     },
     {
+      "title": "大笹波水田_3",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "棚田",
+        "水田",
+        "大笹波"
+      ],
+      "thumb": "assets/img/lib/P0567-thumb.jpg",
+      "large": "assets/img/lib/P0567-large.jpg",
+      "alt": "大笹波水田_3",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0567"
+    },
+    {
+      "title": "桜_1",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "桜",
+        "花"
+      ],
+      "thumb": "assets/img/lib/P0605-thumb.jpg",
+      "large": "assets/img/lib/P0605-large.jpg",
+      "alt": "桜_1",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0605"
+    },
+    {
+      "title": "桜_7",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "桜",
+        "花"
+      ],
+      "thumb": "assets/img/lib/P0611-thumb.jpg",
+      "large": "assets/img/lib/P0611-large.jpg",
+      "alt": "桜_7",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0611"
+    },
+    {
+      "title": "福野あじさい_1",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "花",
+        "あじさい"
+      ],
+      "thumb": "assets/img/lib/P0614-thumb.jpg",
+      "large": "assets/img/lib/P0614-large.jpg",
+      "alt": "福野あじさい_1",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0614"
+    },
+    {
+      "title": "八朔祭礼_1",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "祭り",
+        "八朔",
+        "祭礼",
+        "キリコ"
+      ],
+      "thumb": "assets/img/lib/P0632-thumb.jpg",
+      "large": "assets/img/lib/P0632-large.jpg",
+      "alt": "八朔祭礼_1",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0632"
+    },
+    {
+      "title": "八朔祭礼_8",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "祭り",
+        "八朔",
+        "祭礼",
+        "キリコ"
+      ],
+      "thumb": "assets/img/lib/P0640-thumb.jpg",
+      "large": "assets/img/lib/P0640-large.jpg",
+      "alt": "八朔祭礼_8",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0640"
+    },
+    {
+      "title": "八朔祭礼_9",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "祭り",
+        "八朔",
+        "祭礼",
+        "キリコ"
+      ],
+      "thumb": "assets/img/lib/P0641-thumb.jpg",
+      "large": "assets/img/lib/P0641-large.jpg",
+      "alt": "八朔祭礼_9",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0641"
+    },
+    {
+      "title": "八朔祭礼_11",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "祭り",
+        "八朔",
+        "祭礼",
+        "キリコ"
+      ],
+      "thumb": "assets/img/lib/P0643-thumb.jpg",
+      "large": "assets/img/lib/P0643-large.jpg",
+      "alt": "八朔祭礼_11",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0643"
+    },
+    {
+      "title": "八朔祭礼_15",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "祭り",
+        "八朔",
+        "祭礼",
+        "キリコ"
+      ],
+      "thumb": "assets/img/lib/P0647-thumb.jpg",
+      "large": "assets/img/lib/P0647-large.jpg",
+      "alt": "八朔祭礼_15",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0647"
+    },
+    {
+      "title": "福浦祭り_1",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "祭り",
+        "福浦",
+        "祭礼"
+      ],
+      "thumb": "assets/img/lib/P0649-thumb.jpg",
+      "large": "assets/img/lib/P0649-large.jpg",
+      "alt": "福浦祭り_1",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0649"
+    },
+    {
+      "title": "福浦祭り_7",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "祭り",
+        "福浦",
+        "祭礼"
+      ],
+      "thumb": "assets/img/lib/P0655-thumb.jpg",
+      "large": "assets/img/lib/P0655-large.jpg",
+      "alt": "福浦祭り_7",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0655"
+    },
+    {
+      "title": "福浦祭り_12",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "祭り",
+        "福浦",
+        "祭礼"
+      ],
+      "thumb": "assets/img/lib/P0660-thumb.jpg",
+      "large": "assets/img/lib/P0660-large.jpg",
+      "alt": "福浦祭り_12",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0660"
+    },
+    {
+      "title": "これでもか！太鼓_1",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "太鼓",
+        "これでもか",
+        "音楽"
+      ],
+      "thumb": "assets/img/lib/P0667-thumb.jpg",
+      "large": "assets/img/lib/P0667-large.jpg",
+      "alt": "これでもか！太鼓_1",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0667"
+    },
+    {
+      "title": "これでもか！太鼓_10",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "これでもか",
+        "太鼓",
+        "音楽"
+      ],
+      "thumb": "assets/img/lib/P0676-thumb.jpg",
+      "large": "assets/img/lib/P0676-large.jpg",
+      "alt": "これでもか！太鼓_10",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0676"
+    },
+    {
+      "title": "桜_10",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "桜",
+        "花",
+        "春"
+      ],
+      "thumb": "assets/img/lib/P0680-thumb.jpg",
+      "large": "assets/img/lib/P0680-large.jpg",
+      "alt": "桜_10",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0680"
+    },
+    {
       "title": "いこいの村_1",
       "spot": "その他",
       "spotId": "other",
@@ -5265,6 +5687,100 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "id": "P0685"
+    },
+    {
+      "title": "いこいの村_4",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "青空",
+        "公園",
+        "村"
+      ],
+      "thumb": "assets/img/lib/P0688-thumb.jpg",
+      "large": "assets/img/lib/P0688-large.jpg",
+      "alt": "いこいの村_4",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0688"
+    },
+    {
+      "title": "花火_9",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "夜景",
+        "祭り",
+        "花火"
+      ],
+      "thumb": "assets/img/lib/P0690-thumb.jpg",
+      "large": "assets/img/lib/P0690-large.jpg",
+      "alt": "花火_9",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0690"
+    },
+    {
+      "title": "のとキリシマツツジ_14",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "花",
+        "庭",
+        "春"
+      ],
+      "thumb": "assets/img/lib/P0691-thumb.jpg",
+      "large": "assets/img/lib/P0691-large.jpg",
+      "alt": "のとキリシマツツジ_14",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0691"
+    },
+    {
+      "title": "火打谷菊桜_1",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "桜",
+        "花",
+        "春"
+      ],
+      "thumb": "assets/img/lib/P0697-thumb.jpg",
+      "large": "assets/img/lib/P0697-large.jpg",
+      "alt": "火打谷菊桜_1",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0697"
+    },
+    {
+      "title": "あじさい_9",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "花",
+        "あじさい"
+      ],
+      "thumb": "assets/img/lib/P0707-thumb.jpg",
+      "large": "assets/img/lib/P0707-large.jpg",
+      "alt": "あじさい_9",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0707"
     },
     {
       "title": "高爪山_4",
@@ -5285,6 +5801,348 @@ window.SPL_LIBRARY = {
       "id": "P0549"
     },
     {
+      "title": "大笹波水田_4",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "棚田",
+        "水田",
+        "大笹波"
+      ],
+      "thumb": "assets/img/lib/P0568-thumb.jpg",
+      "large": "assets/img/lib/P0568-large.jpg",
+      "alt": "大笹波水田_4",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0568"
+    },
+    {
+      "title": "桜_2",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "桜",
+        "花"
+      ],
+      "thumb": "assets/img/lib/P0606-thumb.jpg",
+      "large": "assets/img/lib/P0606-large.jpg",
+      "alt": "桜_2",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0606"
+    },
+    {
+      "title": "桜_8",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "桜",
+        "花"
+      ],
+      "thumb": "assets/img/lib/P0612-thumb.jpg",
+      "large": "assets/img/lib/P0612-large.jpg",
+      "alt": "桜_8",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0612"
+    },
+    {
+      "title": "福野あじさい_2",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "花",
+        "あじさい"
+      ],
+      "thumb": "assets/img/lib/P0615-thumb.jpg",
+      "large": "assets/img/lib/P0615-large.jpg",
+      "alt": "福野あじさい_2",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0615"
+    },
+    {
+      "title": "八朔祭礼_2",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "祭り",
+        "八朔",
+        "祭礼",
+        "キリコ"
+      ],
+      "thumb": "assets/img/lib/P0633-thumb.jpg",
+      "large": "assets/img/lib/P0633-large.jpg",
+      "alt": "八朔祭礼_2",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0633"
+    },
+    {
+      "title": "八朔祭礼_10",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "祭り",
+        "八朔",
+        "祭礼",
+        "キリコ"
+      ],
+      "thumb": "assets/img/lib/P0642-thumb.jpg",
+      "large": "assets/img/lib/P0642-large.jpg",
+      "alt": "八朔祭礼_10",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0642"
+    },
+    {
+      "title": "八朔祭礼_12",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "祭り",
+        "八朔",
+        "祭礼",
+        "キリコ"
+      ],
+      "thumb": "assets/img/lib/P0644-thumb.jpg",
+      "large": "assets/img/lib/P0644-large.jpg",
+      "alt": "八朔祭礼_12",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0644"
+    },
+    {
+      "title": "八朔祭礼_16",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "祭り",
+        "八朔",
+        "祭礼",
+        "キリコ"
+      ],
+      "thumb": "assets/img/lib/P0648-thumb.jpg",
+      "large": "assets/img/lib/P0648-large.jpg",
+      "alt": "八朔祭礼_16",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0648"
+    },
+    {
+      "title": "福浦祭り_2",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "祭り",
+        "福浦",
+        "祭礼"
+      ],
+      "thumb": "assets/img/lib/P0650-thumb.jpg",
+      "large": "assets/img/lib/P0650-large.jpg",
+      "alt": "福浦祭り_2",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0650"
+    },
+    {
+      "title": "福浦祭り_8",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "祭り",
+        "福浦",
+        "祭礼"
+      ],
+      "thumb": "assets/img/lib/P0656-thumb.jpg",
+      "large": "assets/img/lib/P0656-large.jpg",
+      "alt": "福浦祭り_8",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0656"
+    },
+    {
+      "title": "福浦祭り_13",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "祭り",
+        "福浦",
+        "祭礼"
+      ],
+      "thumb": "assets/img/lib/P0661-thumb.jpg",
+      "large": "assets/img/lib/P0661-large.jpg",
+      "alt": "福浦祭り_13",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0661"
+    },
+    {
+      "title": "これでもか！太鼓_2",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "太鼓",
+        "これでもか",
+        "音楽"
+      ],
+      "thumb": "assets/img/lib/P0668-thumb.jpg",
+      "large": "assets/img/lib/P0668-large.jpg",
+      "alt": "これでもか！太鼓_2",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0668"
+    },
+    {
+      "title": "これでもか！太鼓_11",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "これでもか",
+        "太鼓",
+        "音楽"
+      ],
+      "thumb": "assets/img/lib/P0677-thumb.jpg",
+      "large": "assets/img/lib/P0677-large.jpg",
+      "alt": "これでもか！太鼓_11",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0677"
+    },
+    {
+      "title": "いこいの村_2",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "青空",
+        "村",
+        "公園"
+      ],
+      "thumb": "assets/img/lib/P0686-thumb.jpg",
+      "large": "assets/img/lib/P0686-large.jpg",
+      "alt": "いこいの村_2",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0686"
+    },
+    {
+      "title": "いこいの村_5",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "青空",
+        "公園",
+        "村"
+      ],
+      "thumb": "assets/img/lib/P0689-thumb.jpg",
+      "large": "assets/img/lib/P0689-large.jpg",
+      "alt": "いこいの村_5",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0689"
+    },
+    {
+      "title": "のとキリシマツツジ_15",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "花",
+        "庭",
+        "春"
+      ],
+      "thumb": "assets/img/lib/P0692-thumb.jpg",
+      "large": "assets/img/lib/P0692-large.jpg",
+      "alt": "のとキリシマツツジ_15",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0692"
+    },
+    {
+      "title": "火打谷菊桜_2",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "桜",
+        "花",
+        "春"
+      ],
+      "thumb": "assets/img/lib/P0698-thumb.jpg",
+      "large": "assets/img/lib/P0698-large.jpg",
+      "alt": "火打谷菊桜_2",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0698"
+    },
+    {
+      "title": "あじさい_10",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "花",
+        "あじさい"
+      ],
+      "thumb": "assets/img/lib/P0708-thumb.jpg",
+      "large": "assets/img/lib/P0708-large.jpg",
+      "alt": "あじさい_10",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0708"
+    },
+    {
       "title": "高爪山_5",
       "spot": "その他",
       "spotId": "other",
@@ -5301,6 +6159,289 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "id": "P0550"
+    },
+    {
+      "title": "大笹波水田_5",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "棚田",
+        "水田",
+        "大笹波"
+      ],
+      "thumb": "assets/img/lib/P0569-thumb.jpg",
+      "large": "assets/img/lib/P0569-large.jpg",
+      "alt": "大笹波水田_5",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0569"
+    },
+    {
+      "title": "桜_3",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "桜",
+        "花"
+      ],
+      "thumb": "assets/img/lib/P0607-thumb.jpg",
+      "large": "assets/img/lib/P0607-large.jpg",
+      "alt": "桜_3",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0607"
+    },
+    {
+      "title": "桜_9",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "桜",
+        "花"
+      ],
+      "thumb": "assets/img/lib/P0613-thumb.jpg",
+      "large": "assets/img/lib/P0613-large.jpg",
+      "alt": "桜_9",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0613"
+    },
+    {
+      "title": "福野あじさい_3",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "花",
+        "あじさい"
+      ],
+      "thumb": "assets/img/lib/P0616-thumb.jpg",
+      "large": "assets/img/lib/P0616-large.jpg",
+      "alt": "福野あじさい_3",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0616"
+    },
+    {
+      "title": "八朔祭礼_3",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "祭り",
+        "八朔",
+        "祭礼",
+        "キリコ"
+      ],
+      "thumb": "assets/img/lib/P0634-thumb.jpg",
+      "large": "assets/img/lib/P0634-large.jpg",
+      "alt": "八朔祭礼_3",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0634"
+    },
+    {
+      "title": "八朔祭礼_13",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "祭り",
+        "八朔",
+        "祭礼",
+        "キリコ"
+      ],
+      "thumb": "assets/img/lib/P0645-thumb.jpg",
+      "large": "assets/img/lib/P0645-large.jpg",
+      "alt": "八朔祭礼_13",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0645"
+    },
+    {
+      "title": "福浦祭り_3",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "祭り",
+        "福浦",
+        "祭礼"
+      ],
+      "thumb": "assets/img/lib/P0651-thumb.jpg",
+      "large": "assets/img/lib/P0651-large.jpg",
+      "alt": "福浦祭り_3",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0651"
+    },
+    {
+      "title": "福浦祭り_9",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "祭り",
+        "福浦",
+        "祭礼"
+      ],
+      "thumb": "assets/img/lib/P0657-thumb.jpg",
+      "large": "assets/img/lib/P0657-large.jpg",
+      "alt": "福浦祭り_9",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0657"
+    },
+    {
+      "title": "福浦祭り_14",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "祭り",
+        "福浦",
+        "祭礼"
+      ],
+      "thumb": "assets/img/lib/P0662-thumb.jpg",
+      "large": "assets/img/lib/P0662-large.jpg",
+      "alt": "福浦祭り_14",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0662"
+    },
+    {
+      "title": "これでもか！太鼓_3",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "太鼓",
+        "これでもか",
+        "音楽"
+      ],
+      "thumb": "assets/img/lib/P0669-thumb.jpg",
+      "large": "assets/img/lib/P0669-large.jpg",
+      "alt": "これでもか！太鼓_3",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0669"
+    },
+    {
+      "title": "これでもか！太鼓_12",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "これでもか",
+        "太鼓",
+        "音楽"
+      ],
+      "thumb": "assets/img/lib/P0678-thumb.jpg",
+      "large": "assets/img/lib/P0678-large.jpg",
+      "alt": "これでもか！太鼓_12",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0678"
+    },
+    {
+      "title": "いこいの村_3",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "青空",
+        "村",
+        "公園"
+      ],
+      "thumb": "assets/img/lib/P0687-thumb.jpg",
+      "large": "assets/img/lib/P0687-large.jpg",
+      "alt": "いこいの村_3",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0687"
+    },
+    {
+      "title": "のとキリシマツツジ_16",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "花",
+        "庭",
+        "春"
+      ],
+      "thumb": "assets/img/lib/P0693-thumb.jpg",
+      "large": "assets/img/lib/P0693-large.jpg",
+      "alt": "のとキリシマツツジ_16",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0693"
+    },
+    {
+      "title": "火打谷菊桜_3",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "桜",
+        "花",
+        "春"
+      ],
+      "thumb": "assets/img/lib/P0699-thumb.jpg",
+      "large": "assets/img/lib/P0699-large.jpg",
+      "alt": "火打谷菊桜_3",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0699"
+    },
+    {
+      "title": "あじさい_11",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "花",
+        "あじさい"
+      ],
+      "thumb": "assets/img/lib/P0709-thumb.jpg",
+      "large": "assets/img/lib/P0709-large.jpg",
+      "alt": "あじさい_11",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0709"
     },
     {
       "title": "高爪山_6",
@@ -5321,6 +6462,234 @@ window.SPL_LIBRARY = {
       "id": "P0551"
     },
     {
+      "title": "大笹波水田_6",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "棚田",
+        "水田",
+        "大笹波"
+      ],
+      "thumb": "assets/img/lib/P0570-thumb.jpg",
+      "large": "assets/img/lib/P0570-large.jpg",
+      "alt": "大笹波水田_6",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0570"
+    },
+    {
+      "title": "桜_4",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "桜",
+        "花"
+      ],
+      "thumb": "assets/img/lib/P0608-thumb.jpg",
+      "large": "assets/img/lib/P0608-large.jpg",
+      "alt": "桜_4",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0608"
+    },
+    {
+      "title": "福野あじさい_4",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "花",
+        "あじさい"
+      ],
+      "thumb": "assets/img/lib/P0617-thumb.jpg",
+      "large": "assets/img/lib/P0617-large.jpg",
+      "alt": "福野あじさい_4",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0617"
+    },
+    {
+      "title": "八朔祭礼_4",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "祭り",
+        "八朔",
+        "祭礼",
+        "キリコ"
+      ],
+      "thumb": "assets/img/lib/P0635-thumb.jpg",
+      "large": "assets/img/lib/P0635-large.jpg",
+      "alt": "八朔祭礼_4",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0635"
+    },
+    {
+      "title": "八朔祭礼_14",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "祭り",
+        "八朔",
+        "祭礼",
+        "キリコ"
+      ],
+      "thumb": "assets/img/lib/P0646-thumb.jpg",
+      "large": "assets/img/lib/P0646-large.jpg",
+      "alt": "八朔祭礼_14",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0646"
+    },
+    {
+      "title": "福浦祭り_4",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "祭り",
+        "福浦",
+        "祭礼"
+      ],
+      "thumb": "assets/img/lib/P0652-thumb.jpg",
+      "large": "assets/img/lib/P0652-large.jpg",
+      "alt": "福浦祭り_4",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0652"
+    },
+    {
+      "title": "福浦祭り_10",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "祭り",
+        "福浦",
+        "祭礼"
+      ],
+      "thumb": "assets/img/lib/P0658-thumb.jpg",
+      "large": "assets/img/lib/P0658-large.jpg",
+      "alt": "福浦祭り_10",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0658"
+    },
+    {
+      "title": "福浦祭り_15",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "祭り",
+        "福浦",
+        "祭礼"
+      ],
+      "thumb": "assets/img/lib/P0663-thumb.jpg",
+      "large": "assets/img/lib/P0663-large.jpg",
+      "alt": "福浦祭り_15",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0663"
+    },
+    {
+      "title": "これでもか！太鼓_4",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "太鼓",
+        "これでもか",
+        "音楽"
+      ],
+      "thumb": "assets/img/lib/P0670-thumb.jpg",
+      "large": "assets/img/lib/P0670-large.jpg",
+      "alt": "これでもか！太鼓_4",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0670"
+    },
+    {
+      "title": "これでもか！太鼓_13",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "これでもか",
+        "太鼓",
+        "音楽"
+      ],
+      "thumb": "assets/img/lib/P0679-thumb.jpg",
+      "large": "assets/img/lib/P0679-large.jpg",
+      "alt": "これでもか！太鼓_13",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0679"
+    },
+    {
+      "title": "のとキリシマツツジ_17",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "花",
+        "庭",
+        "春"
+      ],
+      "thumb": "assets/img/lib/P0694-thumb.jpg",
+      "large": "assets/img/lib/P0694-large.jpg",
+      "alt": "のとキリシマツツジ_17",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0694"
+    },
+    {
+      "title": "火打谷菊桜_4",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "桜",
+        "花",
+        "春"
+      ],
+      "thumb": "assets/img/lib/P0700-thumb.jpg",
+      "large": "assets/img/lib/P0700-large.jpg",
+      "alt": "火打谷菊桜_4",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0700"
+    },
+    {
       "title": "高爪山_7",
       "spot": "その他",
       "spotId": "other",
@@ -5339,6 +6708,195 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "id": "P0552"
+    },
+    {
+      "title": "大笹波水田_7",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "棚田",
+        "水田",
+        "大笹波"
+      ],
+      "thumb": "assets/img/lib/P0571-thumb.jpg",
+      "large": "assets/img/lib/P0571-large.jpg",
+      "alt": "大笹波水田_7",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0571"
+    },
+    {
+      "title": "桜_5",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "桜",
+        "花"
+      ],
+      "thumb": "assets/img/lib/P0609-thumb.jpg",
+      "large": "assets/img/lib/P0609-large.jpg",
+      "alt": "桜_5",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0609"
+    },
+    {
+      "title": "福野あじさい_5",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "花",
+        "あじさい"
+      ],
+      "thumb": "assets/img/lib/P0618-thumb.jpg",
+      "large": "assets/img/lib/P0618-large.jpg",
+      "alt": "福野あじさい_5",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0618"
+    },
+    {
+      "title": "八朔祭礼_5",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "祭り",
+        "八朔",
+        "祭礼",
+        "キリコ"
+      ],
+      "thumb": "assets/img/lib/P0636-thumb.jpg",
+      "large": "assets/img/lib/P0636-large.jpg",
+      "alt": "八朔祭礼_5",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0636"
+    },
+    {
+      "title": "福浦祭り_5",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "祭り",
+        "福浦",
+        "祭礼"
+      ],
+      "thumb": "assets/img/lib/P0653-thumb.jpg",
+      "large": "assets/img/lib/P0653-large.jpg",
+      "alt": "福浦祭り_5",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0653"
+    },
+    {
+      "title": "福浦祭り_11",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "祭り",
+        "福浦",
+        "祭礼"
+      ],
+      "thumb": "assets/img/lib/P0659-thumb.jpg",
+      "large": "assets/img/lib/P0659-large.jpg",
+      "alt": "福浦祭り_11",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0659"
+    },
+    {
+      "title": "福浦祭り_16",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "祭り",
+        "福浦",
+        "祭礼"
+      ],
+      "thumb": "assets/img/lib/P0664-thumb.jpg",
+      "large": "assets/img/lib/P0664-large.jpg",
+      "alt": "福浦祭り_16",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0664"
+    },
+    {
+      "title": "これでもか！太鼓_5",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "太鼓",
+        "これでもか",
+        "音楽"
+      ],
+      "thumb": "assets/img/lib/P0671-thumb.jpg",
+      "large": "assets/img/lib/P0671-large.jpg",
+      "alt": "これでもか！太鼓_5",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0671"
+    },
+    {
+      "title": "のとキリシマツツジ_18",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "花",
+        "庭",
+        "春"
+      ],
+      "thumb": "assets/img/lib/P0695-thumb.jpg",
+      "large": "assets/img/lib/P0695-large.jpg",
+      "alt": "のとキリシマツツジ_18",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0695"
+    },
+    {
+      "title": "火打谷菊桜_5",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "桜",
+        "花",
+        "春"
+      ],
+      "thumb": "assets/img/lib/P0701-thumb.jpg",
+      "large": "assets/img/lib/P0701-large.jpg",
+      "alt": "火打谷菊桜_5",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0701"
     },
     {
       "title": "あじさい_12",
@@ -5376,6 +6934,496 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "id": "P0553"
+    },
+    {
+      "title": "大笹波水田_8",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "棚田",
+        "水田",
+        "大笹波"
+      ],
+      "thumb": "assets/img/lib/P0572-thumb.jpg",
+      "large": "assets/img/lib/P0572-large.jpg",
+      "alt": "大笹波水田_8",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0572"
+    },
+    {
+      "title": "桜_6",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "桜",
+        "花"
+      ],
+      "thumb": "assets/img/lib/P0610-thumb.jpg",
+      "large": "assets/img/lib/P0610-large.jpg",
+      "alt": "桜_6",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0610"
+    },
+    {
+      "title": "福野あじさい_6",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "花",
+        "あじさい"
+      ],
+      "thumb": "assets/img/lib/P0619-thumb.jpg",
+      "large": "assets/img/lib/P0619-large.jpg",
+      "alt": "福野あじさい_6",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0619"
+    },
+    {
+      "title": "八朔祭礼_6",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "祭り",
+        "八朔",
+        "祭礼",
+        "キリコ"
+      ],
+      "thumb": "assets/img/lib/P0637-thumb.jpg",
+      "large": "assets/img/lib/P0637-large.jpg",
+      "alt": "八朔祭礼_6",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0637"
+    },
+    {
+      "title": "福浦祭り_6",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "祭り",
+        "福浦",
+        "祭礼"
+      ],
+      "thumb": "assets/img/lib/P0654-thumb.jpg",
+      "large": "assets/img/lib/P0654-large.jpg",
+      "alt": "福浦祭り_6",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0654"
+    },
+    {
+      "title": "これでもか！太鼓_6",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "太鼓",
+        "これでもか",
+        "音楽"
+      ],
+      "thumb": "assets/img/lib/P0672-thumb.jpg",
+      "large": "assets/img/lib/P0672-large.jpg",
+      "alt": "これでもか！太鼓_6",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0672"
+    },
+    {
+      "title": "のとキリシマツツジ_19",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "花",
+        "庭",
+        "春"
+      ],
+      "thumb": "assets/img/lib/P0696-thumb.jpg",
+      "large": "assets/img/lib/P0696-large.jpg",
+      "alt": "のとキリシマツツジ_19",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0696"
+    },
+    {
+      "title": "火打谷菊桜_6",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "桜",
+        "花",
+        "春"
+      ],
+      "thumb": "assets/img/lib/P0702-thumb.jpg",
+      "large": "assets/img/lib/P0702-large.jpg",
+      "alt": "火打谷菊桜_6",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0702"
+    },
+    {
+      "title": "大笹波水田_9",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "棚田",
+        "水田",
+        "大笹波"
+      ],
+      "thumb": "assets/img/lib/P0573-thumb.jpg",
+      "large": "assets/img/lib/P0573-large.jpg",
+      "alt": "大笹波水田_9",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0573"
+    },
+    {
+      "title": "福野あじさい_7",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "花",
+        "あじさい"
+      ],
+      "thumb": "assets/img/lib/P0620-thumb.jpg",
+      "large": "assets/img/lib/P0620-large.jpg",
+      "alt": "福野あじさい_7",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0620"
+    },
+    {
+      "title": "八朔祭礼_7",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "祭り",
+        "八朔",
+        "祭礼",
+        "キリコ"
+      ],
+      "thumb": "assets/img/lib/P0638-thumb.jpg",
+      "large": "assets/img/lib/P0638-large.jpg",
+      "alt": "八朔祭礼_7",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0638"
+    },
+    {
+      "title": "これでもか！太鼓_7",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "太鼓",
+        "これでもか",
+        "音楽"
+      ],
+      "thumb": "assets/img/lib/P0673-thumb.jpg",
+      "large": "assets/img/lib/P0673-large.jpg",
+      "alt": "これでもか！太鼓_7",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0673"
+    },
+    {
+      "title": "火打谷菊桜_7",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "桜",
+        "花",
+        "春"
+      ],
+      "thumb": "assets/img/lib/P0703-thumb.jpg",
+      "large": "assets/img/lib/P0703-large.jpg",
+      "alt": "火打谷菊桜_7",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0703"
+    },
+    {
+      "title": "大笹波水田_10",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "棚田",
+        "水田",
+        "大笹波"
+      ],
+      "thumb": "assets/img/lib/P0574-thumb.jpg",
+      "large": "assets/img/lib/P0574-large.jpg",
+      "alt": "大笹波水田_10",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0574"
+    },
+    {
+      "title": "福野あじさい_8",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "花",
+        "あじさい"
+      ],
+      "thumb": "assets/img/lib/P0621-thumb.jpg",
+      "large": "assets/img/lib/P0621-large.jpg",
+      "alt": "福野あじさい_8",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0621"
+    },
+    {
+      "title": "これでもか！太鼓_8",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "太鼓",
+        "これでもか",
+        "音楽"
+      ],
+      "thumb": "assets/img/lib/P0674-thumb.jpg",
+      "large": "assets/img/lib/P0674-large.jpg",
+      "alt": "これでもか！太鼓_8",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0674"
+    },
+    {
+      "title": "火打谷菊桜_8",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "桜",
+        "花",
+        "春"
+      ],
+      "thumb": "assets/img/lib/P0704-thumb.jpg",
+      "large": "assets/img/lib/P0704-large.jpg",
+      "alt": "火打谷菊桜_8",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0704"
+    },
+    {
+      "title": "高爪山_9",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "能登富士",
+        "山"
+      ],
+      "thumb": "assets/img/lib/P0556-thumb.jpg",
+      "large": "assets/img/lib/P0556-large.jpg",
+      "alt": "高爪山_9",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0556"
+    },
+    {
+      "title": "大笹波水田_11",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "棚田",
+        "水田",
+        "大笹波"
+      ],
+      "thumb": "assets/img/lib/P0575-thumb.jpg",
+      "large": "assets/img/lib/P0575-large.jpg",
+      "alt": "大笹波水田_11",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0575"
+    },
+    {
+      "title": "これでもか！太鼓_9",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "太鼓",
+        "これでもか",
+        "音楽"
+      ],
+      "thumb": "assets/img/lib/P0675-thumb.jpg",
+      "large": "assets/img/lib/P0675-large.jpg",
+      "alt": "これでもか！太鼓_9",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0675"
+    },
+    {
+      "title": "火打谷菊桜_9",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "桜",
+        "花",
+        "春"
+      ],
+      "thumb": "assets/img/lib/P0705-thumb.jpg",
+      "large": "assets/img/lib/P0705-large.jpg",
+      "alt": "火打谷菊桜_9",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0705"
+    },
+    {
+      "title": "高爪山_10",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "雪",
+        "能登富士",
+        "山"
+      ],
+      "thumb": "assets/img/lib/P0557-thumb.jpg",
+      "large": "assets/img/lib/P0557-large.jpg",
+      "alt": "高爪山_10",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0557"
+    },
+    {
+      "title": "大笹波水田_12",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "棚田",
+        "水田",
+        "大笹波"
+      ],
+      "thumb": "assets/img/lib/P0576-thumb.jpg",
+      "large": "assets/img/lib/P0576-large.jpg",
+      "alt": "大笹波水田_12",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0576"
+    },
+    {
+      "title": "火打谷菊桜_10",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "桜",
+        "花",
+        "春"
+      ],
+      "thumb": "assets/img/lib/P0706-thumb.jpg",
+      "large": "assets/img/lib/P0706-large.jpg",
+      "alt": "火打谷菊桜_10",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0706"
+    },
+    {
+      "title": "高爪山 1",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "能登富士",
+        "山"
+      ],
+      "thumb": "assets/img/lib/P0558-thumb.jpg",
+      "large": "assets/img/lib/P0558-large.jpg",
+      "alt": "高爪山 1",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0558"
+    },
+    {
+      "title": "高爪山_11",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "雪",
+        "能登富士",
+        "山"
+      ],
+      "thumb": "assets/img/lib/P0559-thumb.jpg",
+      "large": "assets/img/lib/P0559-large.jpg",
+      "alt": "高爪山_11",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0559"
     },
     {
       "title": "青空に泳ぐこいのぼり",
@@ -5847,6 +7895,25 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "id": "P0239"
+    },
+    {
+      "title": "遍行寺_2",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "花",
+        "寺",
+        "ぼたん"
+      ],
+      "thumb": "assets/img/lib/P0241-thumb.jpg",
+      "large": "assets/img/lib/P0241-large.jpg",
+      "alt": "遍行寺_2",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "id": "P0241"
     },
     {
       "title": "遍行寺_3",

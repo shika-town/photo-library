@@ -46,7 +46,7 @@ window.SPL_DATA = {
       "id": "bench",
       "name": "世界一長いベンチ・増穂浦海岸",
       "area": "富来エリア",
-      "count": 55,
+      "count": 58,
       "image": "assets/img/lib/P0008-hero.jpg",
       "alt": "世界一長いベンチ・増穂浦海岸",
       "description": "海・貝・夕日、そして記憶に残る長さ"
