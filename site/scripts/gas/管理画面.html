@@ -481,6 +481,7 @@
         <label class="check filter-check"><input type="radio" name="photoFilter" value="public">🟢 公開中のみ</label>
         <label class="check filter-check"><input type="radio" name="photoFilter" value="private">⚪ 非公開のみ</label>
         <label class="check filter-check"><input type="radio" name="photoFilter" value="nodownload">DL対象外のみ</label>
+        <label class="check filter-check"><input type="radio" name="photoFilter" value="restricted">🔒 DL制限のみ</label>
         <label class="check filter-check"><input type="radio" name="photoFilter" value="review">⚠️ 要確認のみ</label>
       </div>
       <select id="photoFilterSpot" style="margin-top:8px;">
@@ -532,7 +533,7 @@
       <label>タグ <span class="opt">(候補から選ぶか、右下の欄から追加できます)</span></label>
       <div id="photoTags"></div>
 
-      <label>表示場所 <span class="opt">(実際に効くのは「新着」のみ)</span></label>
+      <label>表示場所 <span class="opt">(実際に効くのは「新着」「ダウンロード制限」)</span></label>
       <div id="photoRoles"></div>
 
       <label>並び順</label>
@@ -844,17 +845,27 @@
       });
     }
 
-    // 「表示場所」は実際は「新着」だけがサイト表示に効く（トップページ新着欄）。
-    // 「シーン」「季節」はスプレッドシートの別タブで個別に管理されており、ここでのチェックは表示に影響しないメモ。
+    // 「表示場所」のうちサイト表示に実際に効くのは「新着」（トップページ新着欄）と
+    // 「ダウンロード制限」（ダウンロードボタン→問い合わせ案内への切り替え）の2つ。
+    // それ以外（「シーン」「季節」など）はスプレッドシートの別タブで個別に管理されており、
+    // ここでのチェックは表示に影響しないメモ。
+    var RESTRICTED_ROLE = 'ダウンロード制限';
     function renderRolesField(containerId, values, selected) {
       selected = selected || [];
       const hasNew = values.indexOf('新着') !== -1;
-      const others = values.filter(v => v !== '新着');
+      const hasRestricted = values.indexOf(RESTRICTED_ROLE) !== -1;
+      const others = values.filter(v => v !== '新着' && v !== RESTRICTED_ROLE);
       let html = '';
       if (hasNew) {
         html += '<label class="switch" style="margin-bottom:8px;">' +
           '<div>🆕 新着としてトップページに表示する<span>公開すると、トップページの「新着」欄に並びます（先頭6枚まで表示）。</span></div>' +
           '<input type="checkbox" value="新着"' + (selected.indexOf('新着') !== -1 ? ' checked' : '') + '>' +
+        '</label>';
+      }
+      if (hasRestricted) {
+        html += '<label class="switch" style="margin-bottom:8px;">' +
+          '<div>🔒 ダウンロードを制限する<span>写真は一覧・詳細ページに引き続き表示されますが、ダウンロードボタンが「メールで問い合わせる」案内に置き換わります。祭りや人物が大きく写る写真など、権利関係の確認が必要な写真に使います。</span></div>' +
+          '<input type="checkbox" value="' + esc(RESTRICTED_ROLE) + '"' + (selected.indexOf(RESTRICTED_ROLE) !== -1 ? ' checked' : '') + '>' +
         '</label>';
       }
       if (others.length) {
@@ -981,6 +992,7 @@
         if (filter === 'public' && !p.publish) return false;
         if (filter === 'private' && p.publish) return false;
         if (filter === 'nodownload' && p.downloadAllowed) return false;
+        if (filter === 'restricted' && String(p.roles || '').indexOf(RESTRICTED_ROLE) === -1) return false;
         if (filter === 'review' && !needsReview(p)) return false;
         return true;
       });
@@ -1566,6 +1578,7 @@
       const publish = $('photoPublish').checked;
       const download = $('photoDownload').checked;
       const isNew = checked('photoRoles').indexOf('新着') !== -1;
+      const isRestricted = checked('photoRoles').indexOf(RESTRICTED_ROLE) !== -1;
       img.src = p.previewUrl;
       img.alt = title;
       $('photoPreviewMeta').innerHTML =
@@ -1574,20 +1587,22 @@
         '<div class="status-line">' +
           '<span class="status ' + (publish ? 'on' : 'off') + '">' + (publish ? '表示中' : '非表示') + '</span>' +
           '<span class="status ' + (download ? 'on' : 'off') + '">' + (download ? 'ダウンロード対象' : '対象外') + '</span>' +
+          (isRestricted ? '<span class="status off">🔒 DL制限</span>' : '') +
         '</div>' +
-        '<p class="hint" style="margin:6px 0 0;">' + esc(whereShown(spotVal, publish, isNew)) + '</p>';
+        '<p class="hint" style="margin:6px 0 0;">' + esc(whereShown(spotVal, publish, isNew, isRestricted)) + '</p>';
       box.classList.add('active');
       $('photoPreviewHint').style.display = 'block';
     }
 
     // 「今どこに表示されるか」を1行で説明する（公開中の写真の管理をしやすくするため）
-    function whereShown(spotVal, publish, isNew) {
+    function whereShown(spotVal, publish, isNew, isRestricted) {
       if (!publish) return '非公開サイトには表示されません。';
       var places = [];
       if (spotVal === OTHER_SPOT) places.push('「写真から探す」でのみ見つかります（特定のスポットには属しません）');
       else if (spotVal === UNCLASSIFIED_SPOT || !spotVal) places.push('⚠️ スポットが未分類のため、公開されても一覧に出づらい状態です');
       else places.push('「' + spotVal + '」の写真一覧に表示されます');
       if (isNew) places.push('トップページの新着欄にも表示されます（先頭6枚まで）');
+      if (isRestricted) places.push('🔒 ダウンロードボタンがメール問い合わせ案内に置き換わります');
       return places.join(' ／ ');
     }
     function updateLivePreview() { renderPhotoPreview(currentPhoto()); }
