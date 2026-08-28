@@ -115,6 +115,12 @@ window.SPL_DATA = {
       "query": "星空",
       "image": "",
       "alt": "星空"
+    },
+    {
+      "label": "花",
+      "query": "花",
+      "image": "assets/img/lib/P0007-scene.jpg",
+      "alt": "尊保の桜並木"
     }
   ],
   "photos": [
@@ -129,7 +135,8 @@ window.SPL_DATA = {
         "さくら貝"
       ],
       "image": "assets/img/lib/P0003-new.jpg",
-      "alt": "増穂浦海岸で拾い集めたさくら貝"
+      "alt": "増穂浦海岸で拾い集めたさくら貝",
+      "restricted": false
     },
     {
       "id": "P0006",
@@ -143,7 +150,8 @@ window.SPL_DATA = {
         "イルミネーション"
       ],
       "image": "assets/img/lib/P0006-new.jpg",
-      "alt": "青く光る世界一長いベンチのイルミネーション"
+      "alt": "青く光る世界一長いベンチのイルミネーション",
+      "restricted": false
     },
     {
       "id": "P0001",
@@ -157,7 +165,8 @@ window.SPL_DATA = {
         "岩"
       ],
       "image": "assets/img/lib/P0001-new.jpg",
-      "alt": "岩の間から光が差す機具岩の夕景"
+      "alt": "岩の間から光が差す機具岩の夕景",
+      "restricted": false
     },
     {
       "id": "P0002",
@@ -171,7 +180,8 @@ window.SPL_DATA = {
         "岩"
       ],
       "image": "assets/img/lib/P0002-new.jpg",
-      "alt": "上空から見たエメラルドグリーンの巌門の入り江"
+      "alt": "上空から見たエメラルドグリーンの巌門の入り江",
+      "restricted": false
     },
     {
       "id": "P0005",
@@ -187,7 +197,8 @@ window.SPL_DATA = {
         "日本最古"
       ],
       "image": "assets/img/lib/P0005-new.jpg",
-      "alt": "青空の下に建つ白い木造の旧福浦灯台"
+      "alt": "青空の下に建つ白い木造の旧福浦灯台",
+      "restricted": false
     },
     {
       "id": "P0007",
@@ -201,7 +212,8 @@ window.SPL_DATA = {
         "春"
       ],
       "image": "assets/img/lib/P0007-new.jpg",
-      "alt": "満開の桜が続く春の並木道"
+      "alt": "満開の桜が続く春の並木道",
+      "restricted": false
     }
   ],
   "seasons": [
