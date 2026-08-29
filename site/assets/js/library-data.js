@@ -653,7 +653,7 @@ window.SPL_LIBRARY = {
       "credit": "© 志賀町",
       "photographer": "志賀町",
       "source": "世界一長いベンチ・増穂浦海岸",
-      "restricted": false,
+      "restricted": true,
       "id": "P0227"
     },
     {
@@ -5755,7 +5755,7 @@ window.SPL_LIBRARY = {
       "credit": "© 志賀町",
       "photographer": "志賀町",
       "source": "その他",
-      "restricted": false,
+      "restricted": true,
       "id": "P0632"
     },
     {
