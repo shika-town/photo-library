@@ -47,9 +47,13 @@ GA_SNIPPET = '''<script async src="https://www.googletagmanager.com/gtag/js?id=%
 ''' % (GA_MEASUREMENT_ID, GA_MEASUREMENT_ID)
 
 # {p} には階層に応じた接頭辞が入る（サイト直下なら '' 、1階層下なら '../'）
+# 「管理者ページ」だけは特別扱い：リンク先ページを持たず、クリックすると
+# assets/js/admin-gate.js が合言葉モーダルを開く（header() 内で判定）。
+ADMIN_LABEL = '🔒 管理者ページ'
 NAV = [('HOME', '{p}index.html'), ('スポットから探す', '{p}spots/index.html'),
        ('写真から探す', '{p}search.html'), ('シーンで探す', '{p}index.html#scenes'),
-       ('ご利用について', '{p}terms.html'), ('お問い合わせ', '{p}index.html#contact')]
+       ('ご利用について', '{p}terms.html'), ('お問い合わせ', '{p}index.html#contact'),
+       (ADMIN_LABEL, '#')]
 
 SPRITE = '''<svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true">
   <symbol id="i-camera" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
@@ -104,10 +108,14 @@ def head(title, desc, ogimg, canonical, pre='../'):
 def header(current, pre='../'):
     nav = [(l, h.replace('{p}', pre)) for l, h in NAV]
     items = ''.join(
-        '<li><a class="nav__link" href="%s"%s>%s</a></li>'
-        % (E(href), ' aria-current="page"' if label == current else '', E(label))
+        '<li><a class="nav__link" href="%s"%s%s>%s</a></li>'
+        % (E(href), ' aria-current="page"' if label == current else '',
+           ' data-admin-gate' if label == ADMIN_LABEL else '', E(label))
         for label, href in nav)
-    drawer = ''.join('<a class="drawer__link" href="%s">%s</a>' % (E(h), E(l)) for l, h in nav)
+    drawer = ''.join(
+        '<a class="drawer__link" href="%s"%s>%s</a>'
+        % (E(h), ' data-admin-gate' if l == ADMIN_LABEL else '', E(l))
+        for l, h in nav)
     drawer += '<a class="drawer__link" href="%sfavorites.html">❤ あとで見るリスト</a>' % pre
     return '''<header class="header header--solid" id="header">
   <div class="header__inner">
@@ -160,6 +168,7 @@ FOOTER_TPL = '''<footer class="footer">
   </div>
 </footer>
 <script src="{PRE}assets/js/favorites-widget.js"></script>
+<script src="{PRE}assets/js/admin-gate.js"></script>
 <script src="{PRE}assets/js/{JS}"></script>
 </body>
 </html>'''

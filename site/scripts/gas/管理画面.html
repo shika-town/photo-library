@@ -489,7 +489,14 @@
       </select>
       <p id="photoCount" class="hint"></p>
 
-      <div id="photoGrid" class="photo-grid"></div>
+      <div class="summary-bar" id="photoBulkBar" style="padding:10px 0 0;">
+        <label class="check" style="cursor:pointer;"><input type="checkbox" id="photoSelectAll">表示中をすべて選択</label>
+        <span class="summary-chip" id="photoSelectedCount">0件選択中</span>
+        <button type="button" class="secondary" id="bulkRestrictOn" style="padding:6px 10px;font-size:12px;" disabled>🔒 まとめてダウンロード制限にする</button>
+        <button type="button" class="secondary" id="bulkRestrictOff" style="padding:6px 10px;font-size:12px;" disabled>🔓 まとめて制限を解除する</button>
+      </div>
+
+      <div id="photoGrid" class="photo-grid" style="margin-top:10px;"></div>
       <select id="photoEdit" style="display:none;"></select>
 
       <div id="photoPreview" class="photo-preview">
@@ -967,7 +974,9 @@
         : '<div class="photo-card__img empty-img">🖼️</div>';
       const sel = p.id === selectedId ? ' selected' : '';
       const review = needsReview(p) ? '<span class="photo-card__flag" title="要確認">⚠️</span>' : '';
-      return '<button type="button" class="photo-card' + sel + '" data-id="' + esc(p.id) + '">' +
+      const checked = selectedPhotoKeys.has(p.id) ? ' checked' : '';
+      return '<div class="photo-card' + sel + (selectedPhotoKeys.has(p.id) ? ' bulk-checked' : '') + '" data-id="' + esc(p.id) + '" tabindex="0" role="button">' +
+        '<input type="checkbox" class="photo-card__select" data-id="' + esc(p.id) + '"' + checked + ' title="まとめて操作する対象に選ぶ">' +
         review + img +
         '<div class="photo-card__body">' +
           '<div class="photo-card__id">' + esc(p.id) + '</div>' +
@@ -977,10 +986,23 @@
             '<span class="dot ' + (p.downloadAllowed ? 'on' : 'off') + '" title="DL対象"></span>' +
           '</div>' +
         '</div>' +
-      '</button>';
+      '</div>';
     }
 
     let filteredPhotoIds = [];
+    let selectedPhotoKeys = new Set();
+
+    function updatePhotoBulkBar() {
+      const visible = filteredPhotoIds;
+      const selectedVisible = visible.filter(id => selectedPhotoKeys.has(id));
+      const total = selectedPhotoKeys.size;
+      $('photoSelectedCount').textContent = total + '件選択中' + (total !== selectedVisible.length ? '（表示中は' + selectedVisible.length + '件）' : '');
+      $('bulkRestrictOn').disabled = total === 0;
+      $('bulkRestrictOff').disabled = total === 0;
+      const allCb = $('photoSelectAll');
+      allCb.checked = visible.length > 0 && selectedVisible.length === visible.length;
+      allCb.indeterminate = selectedVisible.length > 0 && selectedVisible.length < visible.length;
+    }
 
     function renderPhotoChoices(keepId, fallbackIdx) {
       const q = String($('photoSearch').value || '').trim().toLowerCase();
@@ -1008,16 +1030,57 @@
       }
       $('photoCount').textContent = list.length ? list.length + '件から選べます。クリックして選んでください。' : '該当する写真がありません。検索語を変えてください。';
 
+      // 表示から外れた（絞り込みで隠れた）ものの選択は残るが、削除されて一覧から消えたものは掃除する
+      const stillExists = new Set((state.photos || []).map(p => p.id));
+      Array.from(selectedPhotoKeys).forEach(id => { if (!stillExists.has(id)) selectedPhotoKeys.delete(id); });
+
       const selectedId = $('photoEdit').value;
       $('photoGrid').innerHTML = list.length
         ? list.map(p => photoCardHtml(p, selectedId)).join('')
         : '<div class="empty" style="grid-column:1/-1;">該当する写真がありません。</div>';
-      $('photoGrid').querySelectorAll('[data-id]').forEach(btn => {
-        btn.addEventListener('click', () => selectPhotoById(btn.dataset.id, { scroll: true }));
+      $('photoGrid').querySelectorAll('[data-id].photo-card').forEach(card => {
+        card.addEventListener('click', () => selectPhotoById(card.dataset.id, { scroll: true }));
       });
+      $('photoGrid').querySelectorAll('.photo-card__select').forEach(cb => {
+        cb.addEventListener('click', e => e.stopPropagation());
+        cb.addEventListener('change', () => {
+          if (cb.checked) selectedPhotoKeys.add(cb.dataset.id); else selectedPhotoKeys.delete(cb.dataset.id);
+          cb.closest('.photo-card').classList.toggle('bulk-checked', cb.checked);
+          updatePhotoBulkBar();
+        });
+      });
+      updatePhotoBulkBar();
       if (!$('photoEdit').value) setPhotoFields();
       updatePhotoNav();
     }
+
+    $('photoSelectAll').addEventListener('change', () => {
+      const checked = $('photoSelectAll').checked;
+      filteredPhotoIds.forEach(id => { if (checked) selectedPhotoKeys.add(id); else selectedPhotoKeys.delete(id); });
+      $('photoGrid').querySelectorAll('.photo-card__select').forEach(cb => {
+        cb.checked = selectedPhotoKeys.has(cb.dataset.id);
+        cb.closest('.photo-card').classList.toggle('bulk-checked', cb.checked);
+      });
+      updatePhotoBulkBar();
+    });
+
+    function bulkSetRestricted(add) {
+      const ids = Array.from(selectedPhotoKeys);
+      if (!ids.length) return;
+      if (!confirm(ids.length + '件をまとめて「ダウンロード制限」' + (add ? 'にします' : 'を解除します') + '。よろしいですか？')) return;
+      $('bulkRestrictOn').disabled = true;
+      $('bulkRestrictOff').disabled = true;
+      google.script.run.withSuccessHandler(res => {
+        notice(res.message, true);
+        selectedPhotoKeys.clear();
+        load($('photoEdit').value);
+      }).withFailureHandler(e => {
+        notice(e.message, false);
+        updatePhotoBulkBar();
+      }).複数の写真の表示場所を変更する(ids, RESTRICTED_ROLE, add);
+    }
+    $('bulkRestrictOn').addEventListener('click', () => bulkSetRestricted(true));
+    $('bulkRestrictOff').addEventListener('click', () => bulkSetRestricted(false));
 
     // 一覧から選ぶ／前へ・次へで移動する、両方の入口をここに集約する
     function selectPhotoById(id, opts) {

@@ -233,6 +233,40 @@ function 複数の承認状態を変更する(items) {
   };
 }
 
+// 複数の写真の「表示場所」タグ（例：ダウンロード制限）をまとめて付ける・外す
+// （写真管理タブのチェックボックス一括操作用）。他のタグは触らず、指定した1つだけを増減する。
+function 複数の写真の表示場所を変更する(ids, role, add) {
+  ids = ids || [];
+  role = String(role || '').trim();
+  if (!role) throw new Error('対象のタグが指定されていません。');
+  var ss = _管理対象シート();
+  var sh = _必須タブ(ss, '写真');
+  var col = _写真列を保証(sh, ['downloadAllowed', 'updatedAt', 'updatedBy']);
+  if (col.roles === undefined) throw new Error('「写真」タブに roles 列がありません。');
+  var ok = 0, fails = [];
+  ids.forEach(function (id) {
+    try {
+      var rowNumber = _行を探す(sh, col.id, id);
+      if (!rowNumber) throw new Error('写真が見つかりません');
+      var current = String(sh.getRange(rowNumber, col.roles + 1).getValue() || '')
+        .split(',').map(function (s) { return s.trim(); }).filter(Boolean);
+      var has = current.indexOf(role) !== -1;
+      if (add && !has) current.push(role);
+      if (!add && has) current = current.filter(function (r) { return r !== role; });
+      sh.getRange(rowNumber, col.roles + 1).setValue(current.join(','));
+      if (col.updatedBy !== undefined) sh.getRange(rowNumber, col.updatedBy + 1).setValue(Session.getEffectiveUser().getEmail() || '管理画面');
+      if (col.updatedAt !== undefined) sh.getRange(rowNumber, col.updatedAt + 1).setValue(Utilities.formatDate(new Date(), 'JST', 'yyyy-MM-dd'));
+      ok++;
+    } catch (e) {
+      fails.push(id + '：' + e.message);
+    }
+  });
+  return {
+    ok: true,
+    message: ok + '件を更新しました。' + (fails.length ? '（失敗 ' + fails.length + '件：' + fails.join(' / ') + '）' : '次回の自動更新で反映されます。')
+  };
+}
+
 function _承認状態を適用する(ss, cache, payload) {
   var sheetName = String(payload.sheet || '');
   if (!cache[sheetName]) {
