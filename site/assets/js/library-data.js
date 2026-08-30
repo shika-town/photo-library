@@ -653,7 +653,7 @@ window.SPL_LIBRARY = {
       "credit": "© 志賀町",
       "photographer": "志賀町",
       "source": "世界一長いベンチ・増穂浦海岸",
-      "restricted": true,
+      "restricted": false,
       "id": "P0227"
     },
     {
@@ -5776,7 +5776,7 @@ window.SPL_LIBRARY = {
       "credit": "© 志賀町",
       "photographer": "志賀町",
       "source": "その他",
-      "restricted": false,
+      "restricted": true,
       "id": "P0640"
     },
     {
@@ -5797,7 +5797,7 @@ window.SPL_LIBRARY = {
       "credit": "© 志賀町",
       "photographer": "志賀町",
       "source": "その他",
-      "restricted": false,
+      "restricted": true,
       "id": "P0641"
     },
     {
@@ -5818,7 +5818,7 @@ window.SPL_LIBRARY = {
       "credit": "© 志賀町",
       "photographer": "志賀町",
       "source": "その他",
-      "restricted": false,
+      "restricted": true,
       "id": "P0643"
     },
     {
@@ -5839,7 +5839,7 @@ window.SPL_LIBRARY = {
       "credit": "© 志賀町",
       "photographer": "志賀町",
       "source": "その他",
-      "restricted": false,
+      "restricted": true,
       "id": "P0647"
     },
     {
@@ -5859,7 +5859,7 @@ window.SPL_LIBRARY = {
       "credit": "© 志賀町",
       "photographer": "志賀町",
       "source": "その他",
-      "restricted": false,
+      "restricted": true,
       "id": "P0649"
     },
     {
@@ -5879,7 +5879,7 @@ window.SPL_LIBRARY = {
       "credit": "© 志賀町",
       "photographer": "志賀町",
       "source": "その他",
-      "restricted": false,
+      "restricted": true,
       "id": "P0655"
     },
     {
@@ -5899,7 +5899,7 @@ window.SPL_LIBRARY = {
       "credit": "© 志賀町",
       "photographer": "志賀町",
       "source": "その他",
-      "restricted": false,
+      "restricted": true,
       "id": "P0660"
     },
     {
@@ -5919,7 +5919,7 @@ window.SPL_LIBRARY = {
       "credit": "© 志賀町",
       "photographer": "志賀町",
       "source": "その他",
-      "restricted": false,
+      "restricted": true,
       "id": "P0667"
     },
     {
@@ -5939,7 +5939,7 @@ window.SPL_LIBRARY = {
       "credit": "© 志賀町",
       "photographer": "志賀町",
       "source": "その他",
-      "restricted": false,
+      "restricted": true,
       "id": "P0676"
     },
     {
@@ -6195,7 +6195,7 @@ window.SPL_LIBRARY = {
       "credit": "© 志賀町",
       "photographer": "志賀町",
       "source": "その他",
-      "restricted": false,
+      "restricted": true,
       "id": "P0633"
     },
     {
@@ -6216,7 +6216,7 @@ window.SPL_LIBRARY = {
       "credit": "© 志賀町",
       "photographer": "志賀町",
       "source": "その他",
-      "restricted": false,
+      "restricted": true,
       "id": "P0642"
     },
     {
@@ -6237,7 +6237,7 @@ window.SPL_LIBRARY = {
       "credit": "© 志賀町",
       "photographer": "志賀町",
       "source": "その他",
-      "restricted": false,
+      "restricted": true,
       "id": "P0644"
     },
     {
@@ -6258,7 +6258,7 @@ window.SPL_LIBRARY = {
       "credit": "© 志賀町",
       "photographer": "志賀町",
       "source": "その他",
-      "restricted": false,
+      "restricted": true,
       "id": "P0648"
     },
     {
@@ -6278,7 +6278,7 @@ window.SPL_LIBRARY = {
       "credit": "© 志賀町",
       "photographer": "志賀町",
       "source": "その他",
-      "restricted": false,
+      "restricted": true,
       "id": "P0650"
     },
     {
@@ -6298,7 +6298,7 @@ window.SPL_LIBRARY = {
       "credit": "© 志賀町",
       "photographer": "志賀町",
       "source": "その他",
-      "restricted": false,
+      "restricted": true,
       "id": "P0656"
     },
     {
@@ -6318,7 +6318,7 @@ window.SPL_LIBRARY = {
       "credit": "© 志賀町",
       "photographer": "志賀町",
       "source": "その他",
-      "restricted": false,
+      "restricted": true,
       "id": "P0661"
     },
     {
@@ -6338,7 +6338,7 @@ window.SPL_LIBRARY = {
       "credit": "© 志賀町",
       "photographer": "志賀町",
       "source": "その他",
-      "restricted": false,
+      "restricted": true,
       "id": "P0668"
     },
     {
@@ -6358,7 +6358,7 @@ window.SPL_LIBRARY = {
       "credit": "© 志賀町",
       "photographer": "志賀町",
       "source": "その他",
-      "restricted": false,
+      "restricted": true,
       "id": "P0677"
     },
     {
@@ -6574,7 +6574,7 @@ window.SPL_LIBRARY = {
       "credit": "© 志賀町",
       "photographer": "志賀町",
       "source": "その他",
-      "restricted": false,
+      "restricted": true,
       "id": "P0634"
     },
     {
@@ -6595,7 +6595,7 @@ window.SPL_LIBRARY = {
       "credit": "© 志賀町",
       "photographer": "志賀町",
       "source": "その他",
-      "restricted": false,
+      "restricted": true,
       "id": "P0645"
     },
     {
@@ -6615,7 +6615,7 @@ window.SPL_LIBRARY = {
       "credit": "© 志賀町",
       "photographer": "志賀町",
       "source": "その他",
-      "restricted": false,
+      "restricted": true,
       "id": "P0651"
     },
     {
@@ -6635,7 +6635,7 @@ window.SPL_LIBRARY = {
       "credit": "© 志賀町",
       "photographer": "志賀町",
       "source": "その他",
-      "restricted": false,
+      "restricted": true,
       "id": "P0657"
     },
     {
@@ -6655,7 +6655,7 @@ window.SPL_LIBRARY = {
       "credit": "© 志賀町",
       "photographer": "志賀町",
       "source": "その他",
-      "restricted": false,
+      "restricted": true,
       "id": "P0662"
     },
     {
@@ -6675,7 +6675,7 @@ window.SPL_LIBRARY = {
       "credit": "© 志賀町",
       "photographer": "志賀町",
       "source": "その他",
-      "restricted": false,
+      "restricted": true,
       "id": "P0669"
     },
     {
@@ -6695,7 +6695,7 @@ window.SPL_LIBRARY = {
       "credit": "© 志賀町",
       "photographer": "志賀町",
       "source": "その他",
-      "restricted": false,
+      "restricted": true,
       "id": "P0678"
     },
     {
@@ -6872,7 +6872,7 @@ window.SPL_LIBRARY = {
       "credit": "© 志賀町",
       "photographer": "志賀町",
       "source": "その他",
-      "restricted": false,
+      "restricted": true,
       "id": "P0635"
     },
     {
@@ -6893,7 +6893,7 @@ window.SPL_LIBRARY = {
       "credit": "© 志賀町",
       "photographer": "志賀町",
       "source": "その他",
-      "restricted": false,
+      "restricted": true,
       "id": "P0646"
     },
     {
@@ -6913,7 +6913,7 @@ window.SPL_LIBRARY = {
       "credit": "© 志賀町",
       "photographer": "志賀町",
       "source": "その他",
-      "restricted": false,
+      "restricted": true,
       "id": "P0652"
     },
     {
@@ -6933,7 +6933,7 @@ window.SPL_LIBRARY = {
       "credit": "© 志賀町",
       "photographer": "志賀町",
       "source": "その他",
-      "restricted": false,
+      "restricted": true,
       "id": "P0658"
     },
     {
@@ -6953,7 +6953,7 @@ window.SPL_LIBRARY = {
       "credit": "© 志賀町",
       "photographer": "志賀町",
       "source": "その他",
-      "restricted": false,
+      "restricted": true,
       "id": "P0663"
     },
     {
@@ -6973,7 +6973,7 @@ window.SPL_LIBRARY = {
       "credit": "© 志賀町",
       "photographer": "志賀町",
       "source": "その他",
-      "restricted": false,
+      "restricted": true,
       "id": "P0670"
     },
     {
@@ -6993,7 +6993,7 @@ window.SPL_LIBRARY = {
       "credit": "© 志賀町",
       "photographer": "志賀町",
       "source": "その他",
-      "restricted": false,
+      "restricted": true,
       "id": "P0679"
     },
     {
@@ -7133,7 +7133,7 @@ window.SPL_LIBRARY = {
       "credit": "© 志賀町",
       "photographer": "志賀町",
       "source": "その他",
-      "restricted": false,
+      "restricted": true,
       "id": "P0636"
     },
     {
@@ -7153,7 +7153,7 @@ window.SPL_LIBRARY = {
       "credit": "© 志賀町",
       "photographer": "志賀町",
       "source": "その他",
-      "restricted": false,
+      "restricted": true,
       "id": "P0653"
     },
     {
@@ -7173,7 +7173,7 @@ window.SPL_LIBRARY = {
       "credit": "© 志賀町",
       "photographer": "志賀町",
       "source": "その他",
-      "restricted": false,
+      "restricted": true,
       "id": "P0659"
     },
     {
@@ -7193,7 +7193,7 @@ window.SPL_LIBRARY = {
       "credit": "© 志賀町",
       "photographer": "志賀町",
       "source": "その他",
-      "restricted": false,
+      "restricted": true,
       "id": "P0664"
     },
     {
@@ -7213,7 +7213,7 @@ window.SPL_LIBRARY = {
       "credit": "© 志賀町",
       "photographer": "志賀町",
       "source": "その他",
-      "restricted": false,
+      "restricted": true,
       "id": "P0671"
     },
     {
@@ -7371,7 +7371,7 @@ window.SPL_LIBRARY = {
       "credit": "© 志賀町",
       "photographer": "志賀町",
       "source": "その他",
-      "restricted": false,
+      "restricted": true,
       "id": "P0637"
     },
     {
@@ -7391,7 +7391,7 @@ window.SPL_LIBRARY = {
       "credit": "© 志賀町",
       "photographer": "志賀町",
       "source": "その他",
-      "restricted": false,
+      "restricted": true,
       "id": "P0654"
     },
     {
@@ -7411,7 +7411,7 @@ window.SPL_LIBRARY = {
       "credit": "© 志賀町",
       "photographer": "志賀町",
       "source": "その他",
-      "restricted": false,
+      "restricted": true,
       "id": "P0672"
     },
     {
@@ -7511,7 +7511,7 @@ window.SPL_LIBRARY = {
       "credit": "© 志賀町",
       "photographer": "志賀町",
       "source": "その他",
-      "restricted": false,
+      "restricted": true,
       "id": "P0638"
     },
     {
@@ -7531,7 +7531,7 @@ window.SPL_LIBRARY = {
       "credit": "© 志賀町",
       "photographer": "志賀町",
       "source": "その他",
-      "restricted": false,
+      "restricted": true,
       "id": "P0673"
     },
     {
@@ -7610,7 +7610,7 @@ window.SPL_LIBRARY = {
       "credit": "© 志賀町",
       "photographer": "志賀町",
       "source": "その他",
-      "restricted": false,
+      "restricted": true,
       "id": "P0674"
     },
     {
@@ -7689,7 +7689,7 @@ window.SPL_LIBRARY = {
       "credit": "© 志賀町",
       "photographer": "志賀町",
       "source": "その他",
-      "restricted": false,
+      "restricted": true,
       "id": "P0675"
     },
     {
