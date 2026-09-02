@@ -3,6 +3,19 @@
   "periodDays": 30,
   "photos": [
     {
+      "id": "P0008",
+      "downloads": 3,
+      "title": "上空から見た増穂浦海岸とベンチ",
+      "area": "富来エリア",
+      "thumb": "assets/img/lib/P0008-thumb.jpg",
+      "alt": "上空から見た増穂浦海岸とベンチ",
+      "tags": [
+        "海",
+        "空撮",
+        "ベンチ"
+      ]
+    },
+    {
       "id": "P0001",
       "downloads": 2,
       "title": "機具岩に沈む夕陽",
@@ -39,19 +52,6 @@
         "桜",
         "花",
         "春"
-      ]
-    },
-    {
-      "id": "P0008",
-      "downloads": 2,
-      "title": "上空から見た増穂浦海岸とベンチ",
-      "area": "富来エリア",
-      "thumb": "assets/img/lib/P0008-thumb.jpg",
-      "alt": "上空から見た増穂浦海岸とベンチ",
-      "tags": [
-        "海",
-        "空撮",
-        "ベンチ"
       ]
     },
     {
