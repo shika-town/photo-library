@@ -18,7 +18,7 @@ import io, os, json, sys, tempfile
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(BASE, 'data', 'ranking.json')
-TOP_N = 8
+TOP_N = 10
 DAYS = 30
 
 PROPERTY_ID = os.environ.get('GA4_PROPERTY_ID', '').strip()
