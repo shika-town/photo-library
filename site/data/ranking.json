@@ -3,6 +3,32 @@
   "periodDays": 30,
   "photos": [
     {
+      "id": "P0008",
+      "downloads": 3,
+      "title": "上空から見た増穂浦海岸とベンチ",
+      "area": "富来エリア",
+      "thumb": "assets/img/lib/P0008-thumb.jpg",
+      "alt": "上空から見た増穂浦海岸とベンチ",
+      "tags": [
+        "海",
+        "空撮",
+        "ベンチ"
+      ]
+    },
+    {
+      "id": "P0012",
+      "downloads": 3,
+      "title": "打ち寄せられた貝殻の浜",
+      "area": "富来エリア",
+      "thumb": "assets/img/lib/P0012-thumb.jpg",
+      "alt": "打ち寄せられた貝殻の浜",
+      "tags": [
+        "海",
+        "ベンチ",
+        "さくら貝"
+      ]
+    },
+    {
       "id": "P0001",
       "downloads": 2,
       "title": "機具岩に沈む夕陽",
@@ -29,6 +55,21 @@
       ]
     },
     {
+      "id": "P0005",
+      "downloads": 2,
+      "title": "旧福浦灯台_8",
+      "area": "富来エリア",
+      "thumb": "assets/img/lib/P0005-thumb.jpg",
+      "alt": "青空の下に建つ白い木造の旧福浦灯台",
+      "tags": [
+        "名所旧跡",
+        "建築",
+        "青空",
+        "灯台",
+        "日本最古"
+      ]
+    },
+    {
       "id": "P0007",
       "downloads": 2,
       "title": "尊保の桜並木",
@@ -42,32 +83,6 @@
       ]
     },
     {
-      "id": "P0008",
-      "downloads": 2,
-      "title": "上空から見た増穂浦海岸とベンチ",
-      "area": "富来エリア",
-      "thumb": "assets/img/lib/P0008-thumb.jpg",
-      "alt": "上空から見た増穂浦海岸とベンチ",
-      "tags": [
-        "海",
-        "空撮",
-        "ベンチ"
-      ]
-    },
-    {
-      "id": "P0012",
-      "downloads": 2,
-      "title": "打ち寄せられた貝殻の浜",
-      "area": "富来エリア",
-      "thumb": "assets/img/lib/P0012-thumb.jpg",
-      "alt": "打ち寄せられた貝殻の浜",
-      "tags": [
-        "海",
-        "ベンチ",
-        "さくら貝"
-      ]
-    },
-    {
       "id": "P0003",
       "downloads": 1,
       "title": "手のひらのさくら貝",
@@ -77,21 +92,6 @@
       "tags": [
         "砂浜",
         "さくら貝"
-      ]
-    },
-    {
-      "id": "P0005",
-      "downloads": 1,
-      "title": "旧福浦灯台_8",
-      "area": "富来エリア",
-      "thumb": "assets/img/lib/P0005-thumb.jpg",
-      "alt": "青空の下に建つ白い木造の旧福浦灯台",
-      "tags": [
-        "名所旧跡",
-        "建築",
-        "青空",
-        "灯台",
-        "日本最古"
       ]
     },
     {
