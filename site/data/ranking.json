@@ -106,6 +106,30 @@
         "夜景",
         "イルミネーション"
       ]
+    },
+    {
+      "id": "P0009",
+      "downloads": 1,
+      "title": "海沿いに続くベンチ",
+      "area": "富来エリア",
+      "thumb": "assets/img/lib/P0009-thumb.jpg",
+      "alt": "海沿いに続くベンチ",
+      "tags": [
+        "海",
+        "ベンチ"
+      ]
+    },
+    {
+      "id": "P0016",
+      "downloads": 1,
+      "title": "昼間の機具岩",
+      "area": "富来エリア",
+      "thumb": "assets/img/lib/P0016-thumb.jpg",
+      "alt": "昼間の機具岩",
+      "tags": [
+        "海",
+        "岩"
+      ]
     }
   ]
 }
