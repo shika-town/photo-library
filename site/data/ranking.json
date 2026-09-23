@@ -83,6 +83,19 @@
       ]
     },
     {
+      "id": "P0024",
+      "downloads": 2,
+      "title": "エメラルドグリーンの海",
+      "area": "富来エリア",
+      "thumb": "assets/img/lib/P0024-thumb.jpg",
+      "alt": "エメラルドグリーンの海",
+      "tags": [
+        "海",
+        "岩",
+        "遊覧船"
+      ]
+    },
+    {
       "id": "P0003",
       "downloads": 1,
       "title": "手のひらのさくら貝",
@@ -117,18 +130,6 @@
       "tags": [
         "海",
         "ベンチ"
-      ]
-    },
-    {
-      "id": "P0016",
-      "downloads": 1,
-      "title": "昼間の機具岩",
-      "area": "富来エリア",
-      "thumb": "assets/img/lib/P0016-thumb.jpg",
-      "alt": "昼間の機具岩",
-      "tags": [
-        "海",
-        "岩"
       ]
     }
   ]
