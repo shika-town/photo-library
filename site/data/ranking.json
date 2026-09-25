@@ -3,19 +3,6 @@
   "periodDays": 30,
   "photos": [
     {
-      "id": "P0008",
-      "downloads": 4,
-      "title": "上空から見た増穂浦海岸とベンチ",
-      "area": "富来エリア",
-      "thumb": "assets/img/lib/P0008-thumb.jpg",
-      "alt": "上空から見た増穂浦海岸とベンチ",
-      "tags": [
-        "海",
-        "空撮",
-        "ベンチ"
-      ]
-    },
-    {
       "id": "P0012",
       "downloads": 3,
       "title": "打ち寄せられた貝殻の浜",
@@ -80,6 +67,19 @@
         "桜",
         "花",
         "春"
+      ]
+    },
+    {
+      "id": "P0008",
+      "downloads": 2,
+      "title": "上空から見た増穂浦海岸とベンチ",
+      "area": "富来エリア",
+      "thumb": "assets/img/lib/P0008-thumb.jpg",
+      "alt": "上空から見た増穂浦海岸とベンチ",
+      "tags": [
+        "海",
+        "空撮",
+        "ベンチ"
       ]
     },
     {
