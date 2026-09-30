@@ -81,16 +81,20 @@ for i, p in enumerate(PHOTOS):
     # 「表示場所」に「ダウンロード制限」を付けておくと、写真自体は通常どおり
     # 掲載されたまま、ダウンロードボタンの代わりにお問い合わせ案内が出る。
     if p.get('restricted'):
+        contact_mail = 'shokan@town.shika.lg.jp'
         contact_subject = urllib.parse.quote('フォトライブラリーのダウンロードについて（%s）' % p['id'])
         contact_body = urllib.parse.quote('写真ID: %s\n写真タイトル: %s\n\nご利用目的：\n' % (p['id'], p['title']))
-        dl_html = '''<a class="dlbtn dlbtn--contact" href="mailto:shokan@town.shika.lg.jp?subject=%s&body=%s">
+        dl_html = '''<a class="dlbtn dlbtn--contact" href="mailto:%s?subject=%s&body=%s">
           <svg><use href="#i-mail"/></svg>
           <span>ダウンロードについてお問い合わせ</span>
         </a>
         <p class="dlnote">
           祭りや人物が写り込む写真のため、こちらの写真は直接ダウンロードいただけません。<br>
-          ご利用をご希望の場合は、上記からメールにてお問い合わせください。
-        </p>''' % (contact_subject, contact_body)
+          ご利用をご希望の場合は、上記からメールにてお問い合わせください。<br>
+          ボタンを押しても反応しない場合は、メールソフトが設定されていない可能性があります。
+          お手数ですが、アドレスをコピーしてお問い合わせください：<br>
+          %s　<button class="copybtn" type="button" data-copy="%s">アドレスをコピー</button>
+        </p>''' % (contact_mail, contact_subject, contact_body, E(contact_mail), E(contact_mail))
     else:
         dl_html = '''<button class="dlbtn" id="dlBtn" type="button"
                 data-src="../%s" data-credit-ja="© 志賀町" data-credit-en="© Shika Town" data-filename="%s">
