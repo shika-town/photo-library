@@ -3,6 +3,19 @@
   "periodDays": 30,
   "photos": [
     {
+      "id": "P0024",
+      "downloads": 4,
+      "title": "エメラルドグリーンの海",
+      "area": "富来エリア",
+      "thumb": "assets/img/lib/P0024-thumb.jpg",
+      "alt": "エメラルドグリーンの海",
+      "tags": [
+        "海",
+        "岩",
+        "遊覧船"
+      ]
+    },
+    {
       "id": "P0008",
       "downloads": 2,
       "title": "上空から見た増穂浦海岸とベンチ",
@@ -13,19 +26,6 @@
         "海",
         "空撮",
         "ベンチ"
-      ]
-    },
-    {
-      "id": "P0024",
-      "downloads": 2,
-      "title": "エメラルドグリーンの海",
-      "area": "富来エリア",
-      "thumb": "assets/img/lib/P0024-thumb.jpg",
-      "alt": "エメラルドグリーンの海",
-      "tags": [
-        "海",
-        "岩",
-        "遊覧船"
       ]
     },
     {
