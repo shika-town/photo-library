@@ -150,7 +150,8 @@
             "青空",
             "増穂浦"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0788",
@@ -163,7 +164,8 @@
             "さくら貝",
             "ベンチ"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0683",
@@ -188,7 +190,8 @@
             "青空",
             "増穂浦"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0789",
@@ -201,7 +204,8 @@
             "さくら貝",
             "ベンチ"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0684",
@@ -226,7 +230,8 @@
             "青空",
             "増穂浦"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0790",
@@ -239,7 +244,8 @@
             "さくら貝",
             "ベンチ"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0782",
@@ -251,7 +257,8 @@
             "青空",
             "増穂浦"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0791",
@@ -264,7 +271,8 @@
             "さくら貝",
             "ベンチ"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0146",
@@ -1367,7 +1375,8 @@
             "断崖",
             "遊覧船"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "F0001",
@@ -4566,7 +4575,8 @@
             "祭り",
             "福浦"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "祭り"
         },
         {
           "id": "P0735",
@@ -4577,7 +4587,8 @@
             "祭り",
             "福浦"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "祭り"
         },
         {
           "id": "P0763",
@@ -4588,7 +4599,8 @@
             "太鼓",
             "音楽"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "祭り"
         },
         {
           "id": "P0783",
@@ -4599,7 +4611,8 @@
             "空撮",
             "体育館"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0792",
@@ -4610,7 +4623,8 @@
             "村",
             "公園"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0798",
@@ -4621,7 +4635,8 @@
             "桜",
             "花"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0802",
@@ -4632,7 +4647,8 @@
             "桜",
             "花"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0549",
@@ -4889,7 +4905,8 @@
             "祭り",
             "福浦"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "祭り"
         },
         {
           "id": "P0736",
@@ -4900,7 +4917,8 @@
             "祭り",
             "福浦"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "祭り"
         },
         {
           "id": "P0764",
@@ -4911,7 +4929,8 @@
             "太鼓",
             "音楽"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "祭り"
         },
         {
           "id": "P0784",
@@ -4922,7 +4941,8 @@
             "空撮",
             "体育館"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0793",
@@ -4933,7 +4953,8 @@
             "村",
             "公園"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0799",
@@ -4944,7 +4965,8 @@
             "桜",
             "花"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0550",
@@ -5160,7 +5182,8 @@
             "祭り",
             "福浦"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "祭り"
         },
         {
           "id": "P0737",
@@ -5171,7 +5194,8 @@
             "祭り",
             "福浦"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "祭り"
         },
         {
           "id": "P0765",
@@ -5182,7 +5206,8 @@
             "太鼓",
             "音楽"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "祭り"
         },
         {
           "id": "P0785",
@@ -5193,7 +5218,8 @@
             "空撮",
             "体育館"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0794",
@@ -5204,7 +5230,8 @@
             "村",
             "公園"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0800",
@@ -5215,7 +5242,8 @@
             "桜",
             "花"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0551",
@@ -5394,7 +5422,8 @@
             "祭り",
             "福浦"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "祭り"
         },
         {
           "id": "P0738",
@@ -5405,7 +5434,8 @@
             "祭り",
             "福浦"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "祭り"
         },
         {
           "id": "P0766",
@@ -5416,7 +5446,8 @@
             "太鼓",
             "音楽"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "祭り"
         },
         {
           "id": "P0786",
@@ -5427,7 +5458,8 @@
             "空撮",
             "体育館"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0795",
@@ -5438,7 +5470,8 @@
             "村",
             "公園"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0801",
@@ -5449,7 +5482,8 @@
             "桜",
             "花"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0552",
@@ -5615,7 +5649,8 @@
             "祭り",
             "福浦"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "祭り"
         },
         {
           "id": "P0739",
@@ -5626,7 +5661,8 @@
             "祭り",
             "福浦"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "祭り"
         },
         {
           "id": "P0767",
@@ -5637,7 +5673,8 @@
             "太鼓",
             "音楽"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "祭り"
         },
         {
           "id": "P0787",
@@ -5648,7 +5685,8 @@
             "空撮",
             "体育館"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0796",
@@ -5659,7 +5697,8 @@
             "村",
             "公園"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0553",
@@ -5786,7 +5825,8 @@
             "祭り",
             "福浦"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "祭り"
         },
         {
           "id": "P0740",
@@ -5797,7 +5837,8 @@
             "祭り",
             "福浦"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "祭り"
         },
         {
           "id": "P0768",
@@ -5808,7 +5849,8 @@
             "太鼓",
             "音楽"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "祭り"
         },
         {
           "id": "P0797",
@@ -5819,7 +5861,8 @@
             "村",
             "公園"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0554",
@@ -5830,7 +5873,8 @@
             "能登富士",
             "山"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0573",
@@ -5906,7 +5950,8 @@
             "祭り",
             "福浦"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "祭り"
         },
         {
           "id": "P0741",
@@ -5917,7 +5962,8 @@
             "祭り",
             "福浦"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "祭り"
         },
         {
           "id": "P0769",
@@ -5928,7 +5974,8 @@
             "太鼓",
             "音楽"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "祭り"
         },
         {
           "id": "P0555",
@@ -5939,7 +5986,8 @@
             "能登富士",
             "山"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0574",
@@ -6001,7 +6049,8 @@
             "祭り",
             "福浦"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "祭り"
         },
         {
           "id": "P0742",
@@ -6012,7 +6061,8 @@
             "祭り",
             "福浦"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "祭り"
         },
         {
           "id": "P0770",
@@ -6023,7 +6073,8 @@
             "太鼓",
             "音楽"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "祭り"
         },
         {
           "id": "P0556",
@@ -6085,7 +6136,8 @@
             "祭り",
             "福浦"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "祭り"
         },
         {
           "id": "P0743",
@@ -6096,7 +6148,8 @@
             "祭り",
             "福浦"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "祭り"
         },
         {
           "id": "P0771",
@@ -6107,7 +6160,8 @@
             "太鼓",
             "音楽"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "祭り"
         },
         {
           "id": "P0557",
@@ -6157,7 +6211,8 @@
             "祭り",
             "福浦"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "祭り"
         },
         {
           "id": "P0744",
@@ -6168,7 +6223,8 @@
             "祭り",
             "福浦"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "祭り"
         },
         {
           "id": "P0772",
@@ -6179,7 +6235,8 @@
             "太鼓",
             "音楽"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "祭り"
         },
         {
           "id": "P0558",
@@ -6202,7 +6259,8 @@
             "祭り",
             "福浦"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "祭り"
         },
         {
           "id": "P0745",
@@ -6213,7 +6271,8 @@
             "祭り",
             "福浦"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "祭り"
         },
         {
           "id": "P0773",
@@ -6224,7 +6283,8 @@
             "太鼓",
             "音楽"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "祭り"
         },
         {
           "id": "P0559",
@@ -6248,7 +6308,8 @@
             "祭り",
             "福浦"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "祭り"
         },
         {
           "id": "P0746",
@@ -6259,7 +6320,8 @@
             "祭り",
             "福浦"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "祭り"
         },
         {
           "id": "P0774",
@@ -6270,7 +6332,8 @@
             "太鼓",
             "音楽"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "祭り"
         },
         {
           "id": "P0732",
@@ -6281,7 +6344,8 @@
             "祭り",
             "福浦"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "祭り"
         },
         {
           "id": "P0747",
@@ -6292,7 +6356,8 @@
             "祭り",
             "福浦"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "祭り"
         },
         {
           "id": "P0775",
@@ -6303,7 +6368,8 @@
             "太鼓",
             "音楽"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "祭り"
         },
         {
           "id": "P0733",
@@ -6314,7 +6380,8 @@
             "祭り",
             "福浦"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "祭り"
         },
         {
           "id": "P0748",
@@ -6325,7 +6392,8 @@
             "祭り",
             "福浦"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "祭り"
         },
         {
           "id": "P0776",
@@ -6336,7 +6404,8 @@
             "太鼓",
             "音楽"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "祭り"
         },
         {
           "id": "P0734",
@@ -6347,7 +6416,8 @@
             "祭り",
             "福浦"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "祭り"
         },
         {
           "id": "P0749",
@@ -6358,7 +6428,8 @@
             "祭り",
             "福浦"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "祭り"
         },
         {
           "id": "P0777",
@@ -6369,7 +6440,8 @@
             "太鼓",
             "音楽"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "祭り"
         },
         {
           "id": "P0750",
@@ -6380,7 +6452,8 @@
             "祭り",
             "福浦"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "祭り"
         },
         {
           "id": "P0778",
@@ -6391,7 +6464,8 @@
             "太鼓",
             "音楽"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "祭り"
         },
         {
           "id": "P0751",
@@ -6402,7 +6476,8 @@
             "祭り",
             "福浦"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "祭り"
         },
         {
           "id": "P0752",
@@ -6413,7 +6488,8 @@
             "祭り",
             "福浦"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "祭り"
         },
         {
           "id": "P0753",
@@ -6424,7 +6500,8 @@
             "祭り",
             "福浦"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "祭り"
         },
         {
           "id": "P0754",
@@ -6435,7 +6512,8 @@
             "祭り",
             "福浦"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "祭り"
         },
         {
           "id": "P0755",
@@ -6446,7 +6524,8 @@
             "祭り",
             "福浦"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "祭り"
         },
         {
           "id": "P0756",
@@ -6457,7 +6536,8 @@
             "祭り",
             "福浦"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "祭り"
         },
         {
           "id": "P0757",
@@ -6468,7 +6548,8 @@
             "祭り",
             "福浦"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "祭り"
         },
         {
           "id": "P0758",
@@ -6479,7 +6560,8 @@
             "祭り",
             "福浦"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "祭り"
         },
         {
           "id": "P0759",
@@ -6490,7 +6572,8 @@
             "祭り",
             "福浦"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "祭り"
         },
         {
           "id": "P0760",
@@ -6501,7 +6584,8 @@
             "祭り",
             "福浦"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "祭り"
         },
         {
           "id": "P0761",
@@ -6512,7 +6596,8 @@
             "祭り",
             "福浦"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "祭り"
         },
         {
           "id": "P0762",
@@ -6523,7 +6608,8 @@
             "祭り",
             "福浦"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "祭り"
         },
         {
           "id": "P0115",

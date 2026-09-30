@@ -235,7 +235,8 @@ window.SPL_DATA = {
       ],
       "image": "assets/img/lib/P0718-new.jpg",
       "alt": "",
-      "restricted": false
+      "restricted": false,
+      "genre": "観光地"
     },
     {
       "id": "P0719",
@@ -329,31 +330,31 @@ window.SPL_DATA = {
     {
       "label": "観光地",
       "query": "観光地",
-      "image": "assets/img/lib/P0002-thumb.jpg",
+      "image": "assets/img/lib/P0002-scene.jpg",
       "alt": "巌門の入り江"
     },
     {
       "label": "特産品",
       "query": "特産品",
-      "image": "assets/img/lib/P0056-thumb.jpg",
+      "image": "assets/img/lib/P0056-scene.jpg",
       "alt": "志賀町優良特産品_さくら貝華ブローチ"
     },
     {
       "label": "祭り",
       "query": "祭り",
-      "image": "assets/img/lib/P0634-thumb.jpg",
+      "image": "assets/img/lib/P0634-scene.jpg",
       "alt": "八朔祭礼_3"
     },
     {
       "label": "イベント",
       "query": "イベント",
-      "image": "assets/img/lib/P0228-thumb.jpg",
+      "image": "assets/img/lib/P0228-scene.jpg",
       "alt": "世界一長いベンチ_花火3"
     },
     {
       "label": "自然風景",
       "query": "自然風景",
-      "image": "assets/img/lib/P0007-thumb.jpg",
+      "image": "assets/img/lib/P0007-scene.jpg",
       "alt": "尊保の桜並木"
     }
   ]

@@ -150,6 +150,7 @@
       "photographer": "志賀町",
       "source": "新着写真",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0718"
     },
     {
@@ -313,6 +314,7 @@
       "photographer": "志賀町",
       "source": "世界一長いベンチ・増穂浦海岸",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0779"
     },
     {
@@ -334,6 +336,7 @@
       "photographer": "志賀町",
       "source": "世界一長いベンチ・増穂浦海岸",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0788"
     },
     {
@@ -375,6 +378,7 @@
       "photographer": "志賀町",
       "source": "世界一長いベンチ・増穂浦海岸",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0780"
     },
     {
@@ -396,6 +400,7 @@
       "photographer": "志賀町",
       "source": "世界一長いベンチ・増穂浦海岸",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0789"
     },
     {
@@ -437,6 +442,7 @@
       "photographer": "志賀町",
       "source": "世界一長いベンチ・増穂浦海岸",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0781"
     },
     {
@@ -458,6 +464,7 @@
       "photographer": "志賀町",
       "source": "世界一長いベンチ・増穂浦海岸",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0790"
     },
     {
@@ -478,6 +485,7 @@
       "photographer": "志賀町",
       "source": "世界一長いベンチ・増穂浦海岸",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0782"
     },
     {
@@ -499,6 +507,7 @@
       "photographer": "志賀町",
       "source": "世界一長いベンチ・増穂浦海岸",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0791"
     },
     {
@@ -6622,6 +6631,7 @@
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "祭り",
       "id": "P0720"
     },
     {
@@ -6641,6 +6651,7 @@
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "祭り",
       "id": "P0735"
     },
     {
@@ -6660,6 +6671,7 @@
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "祭り",
       "id": "P0763"
     },
     {
@@ -6679,6 +6691,7 @@
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0783"
     },
     {
@@ -6698,6 +6711,7 @@
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0792"
     },
     {
@@ -6717,6 +6731,7 @@
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0798"
     },
     {
@@ -6736,6 +6751,7 @@
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0802"
     },
     {
@@ -7153,6 +7169,7 @@
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "祭り",
       "id": "P0721"
     },
     {
@@ -7172,6 +7189,7 @@
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "祭り",
       "id": "P0736"
     },
     {
@@ -7191,6 +7209,7 @@
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "祭り",
       "id": "P0764"
     },
     {
@@ -7210,6 +7229,7 @@
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0784"
     },
     {
@@ -7229,6 +7249,7 @@
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0793"
     },
     {
@@ -7248,6 +7269,7 @@
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0799"
     },
     {
@@ -7600,6 +7622,7 @@
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "祭り",
       "id": "P0722"
     },
     {
@@ -7619,6 +7642,7 @@
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "祭り",
       "id": "P0737"
     },
     {
@@ -7638,6 +7662,7 @@
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "祭り",
       "id": "P0765"
     },
     {
@@ -7657,6 +7682,7 @@
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0785"
     },
     {
@@ -7676,6 +7702,7 @@
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0794"
     },
     {
@@ -7695,6 +7722,7 @@
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0800"
     },
     {
@@ -7986,6 +8014,7 @@
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "祭り",
       "id": "P0723"
     },
     {
@@ -8005,6 +8034,7 @@
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "祭り",
       "id": "P0738"
     },
     {
@@ -8024,6 +8054,7 @@
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "祭り",
       "id": "P0766"
     },
     {
@@ -8043,6 +8074,7 @@
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0786"
     },
     {
@@ -8062,6 +8094,7 @@
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0795"
     },
     {
@@ -8081,6 +8114,7 @@
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0801"
     },
     {
@@ -8351,6 +8385,7 @@
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "祭り",
       "id": "P0724"
     },
     {
@@ -8370,6 +8405,7 @@
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "祭り",
       "id": "P0739"
     },
     {
@@ -8389,6 +8425,7 @@
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "祭り",
       "id": "P0767"
     },
     {
@@ -8408,6 +8445,7 @@
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0787"
     },
     {
@@ -8427,6 +8465,7 @@
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0796"
     },
     {
@@ -8634,6 +8673,7 @@
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "祭り",
       "id": "P0725"
     },
     {
@@ -8653,6 +8693,7 @@
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "祭り",
       "id": "P0740"
     },
     {
@@ -8672,6 +8713,7 @@
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "祭り",
       "id": "P0768"
     },
     {
@@ -8691,6 +8733,7 @@
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0797"
     },
     {
@@ -8710,6 +8753,7 @@
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0554"
     },
     {
@@ -8834,6 +8878,7 @@
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "祭り",
       "id": "P0726"
     },
     {
@@ -8853,6 +8898,7 @@
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "祭り",
       "id": "P0741"
     },
     {
@@ -8872,6 +8918,7 @@
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "祭り",
       "id": "P0769"
     },
     {
@@ -8891,6 +8938,7 @@
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0555"
     },
     {
@@ -8993,6 +9041,7 @@
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "祭り",
       "id": "P0727"
     },
     {
@@ -9012,6 +9061,7 @@
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "祭り",
       "id": "P0742"
     },
     {
@@ -9031,6 +9081,7 @@
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "祭り",
       "id": "P0770"
     },
     {
@@ -9133,6 +9184,7 @@
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "祭り",
       "id": "P0728"
     },
     {
@@ -9152,6 +9204,7 @@
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "祭り",
       "id": "P0743"
     },
     {
@@ -9171,6 +9224,7 @@
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "祭り",
       "id": "P0771"
     },
     {
@@ -9253,6 +9307,7 @@
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "祭り",
       "id": "P0729"
     },
     {
@@ -9272,6 +9327,7 @@
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "祭り",
       "id": "P0744"
     },
     {
@@ -9291,6 +9347,7 @@
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "祭り",
       "id": "P0772"
     },
     {
@@ -9330,6 +9387,7 @@
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "祭り",
       "id": "P0730"
     },
     {
@@ -9349,6 +9407,7 @@
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "祭り",
       "id": "P0745"
     },
     {
@@ -9368,6 +9427,7 @@
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "祭り",
       "id": "P0773"
     },
     {
@@ -9408,6 +9468,7 @@
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "祭り",
       "id": "P0731"
     },
     {
@@ -9427,6 +9488,7 @@
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "祭り",
       "id": "P0746"
     },
     {
@@ -9446,6 +9508,7 @@
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "祭り",
       "id": "P0774"
     },
     {
@@ -9465,6 +9528,7 @@
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "祭り",
       "id": "P0732"
     },
     {
@@ -9484,6 +9548,7 @@
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "祭り",
       "id": "P0747"
     },
     {
@@ -9503,6 +9568,7 @@
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "祭り",
       "id": "P0775"
     },
     {
@@ -9522,6 +9588,7 @@
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "祭り",
       "id": "P0733"
     },
     {
@@ -9541,6 +9608,7 @@
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "祭り",
       "id": "P0748"
     },
     {
@@ -9560,6 +9628,7 @@
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "祭り",
       "id": "P0776"
     },
     {
@@ -9579,6 +9648,7 @@
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "祭り",
       "id": "P0734"
     },
     {
@@ -9598,6 +9668,7 @@
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "祭り",
       "id": "P0749"
     },
     {
@@ -9617,6 +9688,7 @@
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "祭り",
       "id": "P0777"
     },
     {
@@ -9636,6 +9708,7 @@
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "祭り",
       "id": "P0750"
     },
     {
@@ -9655,6 +9728,7 @@
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "祭り",
       "id": "P0778"
     },
     {
@@ -9674,6 +9748,7 @@
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "祭り",
       "id": "P0751"
     },
     {
@@ -9693,6 +9768,7 @@
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "祭り",
       "id": "P0752"
     },
     {
@@ -9712,6 +9788,7 @@
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "祭り",
       "id": "P0753"
     },
     {
@@ -9731,6 +9808,7 @@
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "祭り",
       "id": "P0754"
     },
     {
@@ -9750,6 +9828,7 @@
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "祭り",
       "id": "P0755"
     },
     {
@@ -9769,6 +9848,7 @@
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "祭り",
       "id": "P0756"
     },
     {
@@ -9788,6 +9868,7 @@
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "祭り",
       "id": "P0757"
     },
     {
@@ -9807,6 +9888,7 @@
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "祭り",
       "id": "P0758"
     },
     {
@@ -9826,6 +9908,7 @@
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "祭り",
       "id": "P0759"
     },
     {
@@ -9845,6 +9928,7 @@
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "祭り",
       "id": "P0760"
     },
     {
@@ -9864,6 +9948,7 @@
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "祭り",
       "id": "P0761"
     },
     {
@@ -9883,6 +9968,7 @@
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "祭り",
       "id": "P0762"
     },
     {
