@@ -50,7 +50,8 @@
             "砂浜",
             "さくら貝"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0006",
@@ -62,7 +63,8 @@
             "夜景",
             "イルミネーション"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "イベント"
         },
         {
           "id": "P0008",
@@ -74,7 +76,8 @@
             "空撮",
             "ベンチ"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0009",
@@ -85,7 +88,8 @@
             "海",
             "ベンチ"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0010",
@@ -95,7 +99,8 @@
           "tags": [
             "ベンチ"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0011",
@@ -106,7 +111,8 @@
             "ベンチ",
             "青空"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0012",
@@ -118,7 +124,8 @@
             "ベンチ",
             "さくら貝"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0682",
@@ -130,7 +137,8 @@
             "青空",
             "増穂浦"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0683",
@@ -142,7 +150,8 @@
             "青空",
             "増穂浦"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0684",
@@ -154,7 +163,8 @@
             "青空",
             "増穂浦"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0146",
@@ -166,7 +176,8 @@
             "空撮",
             "海岸線"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0147",
@@ -178,7 +189,8 @@
             "空撮",
             "海岸線"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0148",
@@ -190,7 +202,8 @@
             "海",
             "青空"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0149",
@@ -200,7 +213,8 @@
           "tags": [
             "ベンチ"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0150",
@@ -211,7 +225,8 @@
             "青空",
             "世界一長いベンチ"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0151",
@@ -223,7 +238,8 @@
             "青空",
             "砂浜"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0152",
@@ -234,7 +250,8 @@
             "青空",
             "世界一長いベンチ"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0153",
@@ -244,7 +261,8 @@
           "tags": [
             "世界一長いベンチ"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0154",
@@ -255,7 +273,8 @@
             "世界一長いベンチ",
             "アート"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0155",
@@ -266,7 +285,8 @@
             "青空",
             "世界一長いベンチ"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0156",
@@ -277,7 +297,8 @@
             "青空",
             "世界一長いベンチ"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0219",
@@ -290,7 +311,8 @@
             "イルミネーション",
             "花火"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "イベント"
         },
         {
           "id": "P0220",
@@ -301,7 +323,8 @@
             "ベンチ",
             "ポケモン"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0222",
@@ -313,7 +336,8 @@
             "砂浜",
             "青空"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0223",
@@ -325,7 +349,8 @@
             "砂浜",
             "青空"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0224",
@@ -337,7 +362,8 @@
             "砂浜",
             "さくら貝"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0225",
@@ -349,7 +375,8 @@
             "砂浜",
             "青空"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0226",
@@ -362,7 +389,8 @@
             "砂浜",
             "ベンチ"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0227",
@@ -375,7 +403,8 @@
             "イルミネーション",
             "花火"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "イベント"
         },
         {
           "id": "P0228",
@@ -388,7 +417,8 @@
             "イルミネーション",
             "花火"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "イベント"
         },
         {
           "id": "P0229",
@@ -402,7 +432,8 @@
             "イルミネーション",
             "花火"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "イベント"
         },
         {
           "id": "P0230",
@@ -416,7 +447,8 @@
             "イルミネーション",
             "花火"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "イベント"
         },
         {
           "id": "P0231",
@@ -430,7 +462,8 @@
             "イルミネーション",
             "花火"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "イベント"
         },
         {
           "id": "P0232",
@@ -442,7 +475,8 @@
             "夕陽",
             "ベンチ"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0233",
@@ -455,7 +489,8 @@
             "イルミネーション",
             "花火"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "イベント"
         },
         {
           "id": "P0234",
@@ -468,7 +503,8 @@
             "イルミネーション",
             "花火"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "イベント"
         },
         {
           "id": "P0235",
@@ -482,7 +518,8 @@
             "イルミネーション",
             "花火"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "イベント"
         },
         {
           "id": "P0236",
@@ -494,7 +531,8 @@
             "夕陽",
             "ベンチ"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0237",
@@ -506,7 +544,8 @@
             "夕陽",
             "ベンチ"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0238",
@@ -518,7 +557,8 @@
             "夕陽",
             "ベンチ"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0366",
@@ -531,7 +571,8 @@
             "夜景",
             "イルミネーション"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "イベント"
         },
         {
           "id": "P0367",
@@ -545,7 +586,8 @@
             "夜景",
             "イルミネーション"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "イベント"
         },
         {
           "id": "P0368",
@@ -559,7 +601,8 @@
             "夜景",
             "イルミネーション"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "イベント"
         },
         {
           "id": "P0369",
@@ -572,7 +615,8 @@
             "夜景",
             "イルミネーション"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "イベント"
         },
         {
           "id": "P0370",
@@ -586,7 +630,8 @@
             "夜景",
             "イルミネーション"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "イベント"
         },
         {
           "id": "P0404",
@@ -599,7 +644,8 @@
             "ベンチ",
             "青空"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0405",
@@ -610,7 +656,8 @@
             "ベンチ",
             "青空"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0406",
@@ -621,7 +668,8 @@
             "ベンチ",
             "青空"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0407",
@@ -632,7 +680,8 @@
             "ベンチ",
             "青空"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0408",
@@ -643,7 +692,8 @@
             "ベンチ",
             "青空"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0409",
@@ -654,7 +704,8 @@
             "ベンチ",
             "青空"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0424",
@@ -666,7 +717,8 @@
             "ベンチ",
             "青空"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0425",
@@ -677,7 +729,8 @@
             "ベンチ",
             "青空"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0426",
@@ -689,7 +742,8 @@
             "ベンチ",
             "青空"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0427",
@@ -700,7 +754,8 @@
             "ベンチ",
             "青空"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0429",
@@ -712,7 +767,8 @@
             "ベンチ",
             "青空"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0430",
@@ -724,7 +780,8 @@
             "青空",
             "手形"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0444",
@@ -735,7 +792,8 @@
             "ベンチ",
             "青空"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         }
       ],
       "count": 58
@@ -786,7 +844,8 @@
             "海",
             "岩"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0015",
@@ -798,7 +857,8 @@
             "海",
             "岩"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0016",
@@ -809,7 +869,8 @@
             "海",
             "岩"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0017",
@@ -821,7 +882,8 @@
             "海",
             "岩"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0018",
@@ -833,7 +895,8 @@
             "海",
             "岩"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0019",
@@ -845,7 +908,8 @@
             "岩",
             "ライトアップ"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "イベント"
         },
         {
           "id": "P0099",
@@ -856,7 +920,8 @@
             "海",
             "岩"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0100",
@@ -868,7 +933,8 @@
             "夕陽",
             "岩"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0101",
@@ -880,7 +946,8 @@
             "夕陽",
             "岩"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0102",
@@ -892,7 +959,8 @@
             "夕陽",
             "岩"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0103",
@@ -903,7 +971,8 @@
             "海",
             "岩"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0104",
@@ -915,7 +984,8 @@
             "岩",
             "青空"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0105",
@@ -927,7 +997,8 @@
             "夕陽",
             "岩"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0106",
@@ -939,7 +1010,8 @@
             "夕陽",
             "岩"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0107",
@@ -951,7 +1023,8 @@
             "夕陽",
             "岩"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0108",
@@ -963,7 +1036,8 @@
             "夕陽",
             "岩"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0109",
@@ -975,7 +1049,8 @@
             "夕陽",
             "岩"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0110",
@@ -987,7 +1062,8 @@
             "夕陽",
             "岩"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0111",
@@ -999,7 +1075,8 @@
             "岩",
             "星空"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0112",
@@ -1011,7 +1088,8 @@
             "夕陽",
             "岩"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0113",
@@ -1024,7 +1102,8 @@
             "ライトアップ",
             "夜景"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "イベント"
         },
         {
           "id": "P0114",
@@ -1036,7 +1115,8 @@
             "夕陽",
             "岩"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0218",
@@ -1047,7 +1127,8 @@
             "海",
             "岩"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         }
       ],
       "count": 23
@@ -1094,7 +1175,8 @@
             "岩",
             "遊覧船"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0021",
@@ -1106,7 +1188,8 @@
             "岩",
             "遊覧船"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0022",
@@ -1118,7 +1201,8 @@
             "岩",
             "遊覧船"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0002",
@@ -1130,7 +1214,8 @@
             "海",
             "岩"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0024",
@@ -1142,7 +1227,8 @@
             "岩",
             "遊覧船"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0025",
@@ -1154,7 +1240,8 @@
             "岩",
             "遊覧船"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0585",
@@ -1166,7 +1253,8 @@
             "断崖",
             "名所旧跡"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "F0001",
@@ -1178,7 +1266,8 @@
             "海",
             "岩"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0586",
@@ -1190,7 +1279,8 @@
             "断崖",
             "名所旧跡"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0587",
@@ -1202,7 +1292,8 @@
             "断崖",
             "名所旧跡"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0588",
@@ -1215,7 +1306,8 @@
             "名所旧跡",
             "遊覧船"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0589",
@@ -1229,7 +1321,8 @@
             "名所旧跡",
             "遊覧船"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0590",
@@ -1241,7 +1334,8 @@
             "断崖",
             "名所旧跡"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0591",
@@ -1253,7 +1347,8 @@
             "断崖",
             "名所旧跡"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0593",
@@ -1265,7 +1360,8 @@
             "断崖",
             "名所旧跡"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0594",
@@ -1277,7 +1373,8 @@
             "断崖",
             "名所旧跡"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0595",
@@ -1289,7 +1386,8 @@
             "断崖",
             "名所旧跡"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0596",
@@ -1301,7 +1399,8 @@
             "断崖",
             "名所旧跡"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0597",
@@ -1313,7 +1412,8 @@
             "断崖",
             "名所旧跡"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0598",
@@ -1325,7 +1425,8 @@
             "断崖",
             "名所旧跡"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0599",
@@ -1337,7 +1438,8 @@
             "断崖",
             "名所旧跡"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0600",
@@ -1349,7 +1451,8 @@
             "断崖",
             "名所旧跡"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0601",
@@ -1361,7 +1464,8 @@
             "断崖",
             "名所旧跡"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0603",
@@ -1373,7 +1477,8 @@
             "断崖",
             "名所旧跡"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0073",
@@ -1385,7 +1490,8 @@
             "岩",
             "遊歩道"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0074",
@@ -1397,7 +1503,8 @@
             "岩",
             "自然"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0075",
@@ -1408,7 +1515,8 @@
             "岩",
             "遊歩道"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0076",
@@ -1420,7 +1528,8 @@
             "海",
             "岩"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0077",
@@ -1431,7 +1540,8 @@
             "海",
             "岩"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0079",
@@ -1443,7 +1553,8 @@
             "岩",
             "青空"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0080",
@@ -1455,7 +1566,8 @@
             "岩",
             "遊覧船"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0081",
@@ -1467,7 +1579,8 @@
             "岩",
             "青空"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0082",
@@ -1478,7 +1591,8 @@
             "海",
             "岩"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0083",
@@ -1490,7 +1604,8 @@
             "岩",
             "自然"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0084",
@@ -1502,7 +1617,8 @@
             "岩",
             "遊覧船"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0085",
@@ -1514,7 +1630,8 @@
             "風車",
             "青空"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0086",
@@ -1525,7 +1642,8 @@
             "海",
             "遊覧船"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0087",
@@ -1536,7 +1654,8 @@
             "岩",
             "自然"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0088",
@@ -1547,7 +1666,8 @@
             "海",
             "岩"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0191",
@@ -1559,7 +1679,8 @@
             "岩",
             "遊覧船"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0205",
@@ -1571,7 +1692,8 @@
             "岩",
             "遊覧船"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0206",
@@ -1583,7 +1705,8 @@
             "岩",
             "遊覧船"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0207",
@@ -1595,7 +1718,8 @@
             "岩",
             "遊覧船"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0208",
@@ -1607,7 +1731,8 @@
             "岩",
             "遊覧船"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0209",
@@ -1619,7 +1744,8 @@
             "岩",
             "遊覧船"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0210",
@@ -1631,7 +1757,8 @@
             "岩",
             "遊覧船"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0211",
@@ -1643,7 +1770,8 @@
             "岩",
             "遊覧船"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0213",
@@ -1656,7 +1784,8 @@
             "雪",
             "冬"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0214",
@@ -1669,7 +1798,8 @@
             "雪",
             "冬"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0215",
@@ -1683,7 +1813,8 @@
             "遊覧船",
             "青空"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0216",
@@ -1697,7 +1828,8 @@
             "遊覧船",
             "青空"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0371",
@@ -1709,7 +1841,8 @@
             "岩",
             "遊覧船"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0372",
@@ -1721,7 +1854,8 @@
             "岩",
             "遊覧船"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0373",
@@ -1733,7 +1867,8 @@
             "岩",
             "遊覧船"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0374",
@@ -1745,7 +1880,8 @@
             "岩",
             "遊覧船"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0375",
@@ -1757,7 +1893,8 @@
             "岩",
             "遊覧船"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0376",
@@ -1769,7 +1906,8 @@
             "岩",
             "遊覧船"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0377",
@@ -1781,7 +1919,8 @@
             "岩",
             "遊覧船"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0378",
@@ -1793,7 +1932,8 @@
             "岩",
             "遊覧船"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0379",
@@ -1805,7 +1945,8 @@
             "岩",
             "遊覧船"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0510",
@@ -1817,7 +1958,8 @@
             "断崖",
             "雪"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         }
       ],
       "count": 61
@@ -1865,7 +2007,8 @@
             "島",
             "神社"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0027",
@@ -1878,7 +2021,8 @@
             "島",
             "神社"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0028",
@@ -1891,7 +2035,8 @@
             "島",
             "神社"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0029",
@@ -1904,7 +2049,8 @@
             "島",
             "神社"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0030",
@@ -1917,7 +2063,8 @@
             "島",
             "神社"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0580",
@@ -1929,7 +2076,8 @@
             "夕陽",
             "島"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0581",
@@ -1941,7 +2089,8 @@
             "夕陽",
             "島"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0582",
@@ -1953,7 +2102,8 @@
             "夕陽",
             "島"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0583",
@@ -1965,7 +2115,8 @@
             "夕陽",
             "島"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0584",
@@ -1977,7 +2128,8 @@
             "夕陽",
             "島"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0193",
@@ -1989,7 +2141,8 @@
             "夜",
             "星"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0194",
@@ -2001,7 +2154,8 @@
             "夜",
             "星"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0196",
@@ -2013,7 +2167,8 @@
             "海",
             "夕陽"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0197",
@@ -2025,7 +2180,8 @@
             "海",
             "夕陽"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0198",
@@ -2037,7 +2193,8 @@
             "海",
             "夕陽"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0199",
@@ -2049,7 +2206,8 @@
             "海",
             "夕陽"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0200",
@@ -2061,7 +2219,8 @@
             "海",
             "夕陽"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0201",
@@ -2073,7 +2232,8 @@
             "海",
             "夕陽"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0202",
@@ -2085,7 +2245,8 @@
             "海",
             "夕陽"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0203",
@@ -2097,7 +2258,8 @@
             "海",
             "夕陽"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0204",
@@ -2108,7 +2270,8 @@
             "海",
             "夕陽"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0264",
@@ -2120,7 +2283,8 @@
             "海",
             "夕陽"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0265",
@@ -2132,7 +2296,8 @@
             "海",
             "夕陽"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0402",
@@ -2144,7 +2309,8 @@
             "海",
             "神社"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0403",
@@ -2156,7 +2322,8 @@
             "神社",
             "天使のはしご"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         }
       ],
       "count": 25
@@ -2211,7 +2378,8 @@
             "名所旧跡",
             "義経"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0540",
@@ -2223,7 +2391,8 @@
             "岩",
             "断崖"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0541",
@@ -2234,7 +2403,8 @@
             "断崖",
             "景色"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0542",
@@ -2245,7 +2415,8 @@
             "断崖",
             "景色"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0543",
@@ -2257,7 +2428,8 @@
             "断崖",
             "景色"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0545",
@@ -2269,7 +2441,8 @@
             "岩",
             "断崖"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0547",
@@ -2281,7 +2454,8 @@
             "岩",
             "断崖"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0129",
@@ -2293,7 +2467,8 @@
             "岩",
             "断崖"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0138",
@@ -2305,7 +2480,8 @@
             "岩",
             "断崖"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0190",
@@ -2317,7 +2493,8 @@
             "岩",
             "断崖"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0505",
@@ -2328,7 +2505,8 @@
             "岩",
             "断崖"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         }
       ],
       "count": 11
@@ -2386,7 +2564,8 @@
             "灯台",
             "日本最古"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0037",
@@ -2401,7 +2580,8 @@
             "灯台",
             "日本最古"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "イベント"
         },
         {
           "id": "P0038",
@@ -2416,7 +2596,8 @@
             "灯台",
             "日本最古"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "イベント"
         },
         {
           "id": "P0039",
@@ -2431,7 +2612,8 @@
             "灯台",
             "日本最古"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "イベント"
         },
         {
           "id": "P0040",
@@ -2446,7 +2628,8 @@
             "灯台",
             "日本最古"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "イベント"
         },
         {
           "id": "P0041",
@@ -2460,7 +2643,8 @@
             "灯台",
             "日本最古"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0629",
@@ -2474,7 +2658,8 @@
             "灯台",
             "日本最古"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0630",
@@ -2489,7 +2674,8 @@
             "灯台",
             "日本最古"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "イベント"
         },
         {
           "id": "P0665",
@@ -2505,7 +2691,8 @@
             "日本最古",
             "あじさい"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0719",
@@ -2517,7 +2704,8 @@
             "文化施設",
             "建築"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0631",
@@ -2532,7 +2720,8 @@
             "灯台",
             "日本最古"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "イベント"
         },
         {
           "id": "P0666",
@@ -2546,7 +2735,8 @@
             "灯台",
             "日本最古"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0089",
@@ -2561,7 +2751,8 @@
             "灯台",
             "日本最古"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0090",
@@ -2576,7 +2767,8 @@
             "灯台",
             "日本最古"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0092",
@@ -2591,7 +2783,8 @@
             "灯台",
             "日本最古"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0093",
@@ -2606,7 +2799,8 @@
             "灯台",
             "日本最古"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "イベント"
         },
         {
           "id": "P0095",
@@ -2621,7 +2815,8 @@
             "日本最古",
             "あかりちゃん"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0096",
@@ -2636,7 +2831,8 @@
             "日本最古",
             "あかりちゃん"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0097",
@@ -2650,7 +2846,8 @@
             "灯台",
             "日本最古"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "イベント"
         },
         {
           "id": "P0186",
@@ -2665,7 +2862,8 @@
             "日本最古",
             "あじさい"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0189",
@@ -2680,7 +2878,8 @@
             "日本最古",
             "あじさい"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0484",
@@ -2694,7 +2893,8 @@
             "灯台",
             "日本最古"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0485",
@@ -2706,7 +2906,8 @@
             "灯台",
             "日本最古"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0508",
@@ -2721,7 +2922,8 @@
             "日本最古",
             "あじさい"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         }
       ],
       "count": 24
@@ -2791,7 +2993,8 @@
             "名所旧跡",
             "キャンプ"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0043",
@@ -2804,7 +3007,8 @@
             "キャンプ",
             "青空"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0044",
@@ -2817,7 +3021,8 @@
             "キャンプ",
             "青空"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0045",
@@ -2830,7 +3035,8 @@
             "星空",
             "キャンプ"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0046",
@@ -2843,7 +3049,8 @@
             "星空",
             "キャンプ"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0047",
@@ -2854,7 +3061,8 @@
             "キャンプ",
             "青空"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0048",
@@ -2867,7 +3075,8 @@
             "キャンプ",
             "青空"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0157",
@@ -2880,7 +3089,8 @@
             "名所旧跡",
             "指定文化財"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0158",
@@ -2893,7 +3103,8 @@
             "名所旧跡",
             "指定文化財"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0159",
@@ -2906,7 +3117,8 @@
             "名所旧跡",
             "指定文化財"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0160",
@@ -2919,7 +3131,8 @@
             "名所旧跡",
             "指定文化財"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0161",
@@ -2931,7 +3144,8 @@
             "夕陽",
             "キャンプ"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0162",
@@ -2943,7 +3157,8 @@
             "夕陽",
             "キャンプ"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0163",
@@ -2956,7 +3171,8 @@
             "名所旧跡",
             "指定文化財"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0164",
@@ -2969,7 +3185,8 @@
             "名所旧跡",
             "指定文化財"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0168",
@@ -2982,7 +3199,8 @@
             "星空",
             "キャンプ"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0169",
@@ -2994,7 +3212,8 @@
             "星空",
             "キャンプ"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0171",
@@ -3006,7 +3225,8 @@
             "星空",
             "キャンプ"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0172",
@@ -3018,7 +3238,8 @@
             "星空",
             "キャンプ"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0174",
@@ -3030,7 +3251,8 @@
             "星空",
             "キャンプ"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0399",
@@ -3042,7 +3264,8 @@
             "名所旧跡",
             "指定文化財"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0400",
@@ -3054,7 +3277,8 @@
             "名所旧跡",
             "指定文化財"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0401",
@@ -3066,7 +3290,8 @@
             "名所旧跡",
             "指定文化財"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         }
       ],
       "count": 23
@@ -3140,7 +3365,8 @@
             "体験",
             "お土産"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "特産品"
         },
         {
           "id": "P0050",
@@ -3154,7 +3380,8 @@
             "体験",
             "お土産"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "特産品"
         },
         {
           "id": "P0051",
@@ -3168,7 +3395,8 @@
             "お土産",
             "屋内"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "特産品"
         },
         {
           "id": "P0052",
@@ -3181,7 +3409,8 @@
             "体験",
             "お土産"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "特産品"
         },
         {
           "id": "P0053",
@@ -3195,7 +3424,8 @@
             "お土産",
             "屋内"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "特産品"
         },
         {
           "id": "P0054",
@@ -3209,7 +3439,8 @@
             "お土産",
             "屋内"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "特産品"
         },
         {
           "id": "P0056",
@@ -3221,7 +3452,8 @@
             "お土産",
             "特産品"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "特産品"
         },
         {
           "id": "P0057",
@@ -3235,7 +3467,8 @@
             "お土産",
             "屋内"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "特産品"
         },
         {
           "id": "P0058",
@@ -3249,7 +3482,8 @@
             "お土産",
             "屋内"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "特産品"
         },
         {
           "id": "P0577",
@@ -3262,7 +3496,8 @@
             "縁結び",
             "石"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0578",
@@ -3275,7 +3510,8 @@
             "縁結び",
             "石"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0579",
@@ -3288,7 +3524,8 @@
             "縁結び",
             "石"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0335",
@@ -3302,7 +3539,8 @@
             "お土産",
             "屋内"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "特産品"
         },
         {
           "id": "P0336",
@@ -3316,7 +3554,8 @@
             "お土産",
             "屋内"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "特産品"
         },
         {
           "id": "P0337",
@@ -3328,7 +3567,8 @@
             "海の幸",
             "カニ"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0339",
@@ -3340,7 +3580,8 @@
             "えび",
             "食事"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0340",
@@ -3352,7 +3593,8 @@
             "えび",
             "食事"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0341",
@@ -3364,7 +3606,8 @@
             "海鮮",
             "食事"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0342",
@@ -3375,7 +3618,8 @@
             "道の駅",
             "お土産"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "特産品"
         },
         {
           "id": "P0343",
@@ -3387,7 +3631,8 @@
             "お土産",
             "道の駅"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "祭り"
         },
         {
           "id": "P0344",
@@ -3399,7 +3644,8 @@
             "お土産",
             "特産品"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "特産品"
         },
         {
           "id": "P0345",
@@ -3411,7 +3657,8 @@
             "海鮮",
             "食事"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0347",
@@ -3422,7 +3669,8 @@
             "夏",
             "道の駅"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0349",
@@ -3434,7 +3682,8 @@
             "お土産",
             "道の駅"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "特産品"
         },
         {
           "id": "P0351",
@@ -3446,7 +3695,8 @@
             "屋内",
             "道の駅"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0352",
@@ -3458,7 +3708,8 @@
             "屋内",
             "道の駅"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0353",
@@ -3470,7 +3721,8 @@
             "屋内",
             "道の駅"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0354",
@@ -3482,7 +3734,8 @@
             "屋内",
             "道の駅"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0355",
@@ -3494,7 +3747,8 @@
             "屋内",
             "道の駅"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0356",
@@ -3506,7 +3760,8 @@
             "屋内",
             "道の駅"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0358",
@@ -3518,7 +3773,8 @@
             "屋内",
             "道の駅"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0360",
@@ -3530,7 +3786,8 @@
             "屋内",
             "道の駅"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0361",
@@ -3542,7 +3799,8 @@
             "屋内",
             "道の駅"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         }
       ],
       "count": 33
@@ -3606,7 +3864,8 @@
             "文化施設",
             "屋内"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0063",
@@ -3618,7 +3877,8 @@
             "名所旧跡",
             "庭園"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0060",
@@ -3631,7 +3891,8 @@
             "文化施設",
             "屋内"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0061",
@@ -3644,7 +3905,8 @@
             "文化施設",
             "屋内"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0062",
@@ -3657,7 +3919,8 @@
             "文化施設",
             "屋内"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0175",
@@ -3669,7 +3932,8 @@
             "名所旧跡",
             "文化施設"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0176",
@@ -3681,7 +3945,8 @@
             "名所旧跡",
             "文化施設"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0178",
@@ -3693,7 +3958,8 @@
             "名所旧跡",
             "文化施設"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0179",
@@ -3705,7 +3971,8 @@
             "名所旧跡",
             "文化施設"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0180",
@@ -3717,7 +3984,8 @@
             "名所旧跡",
             "文化施設"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0181",
@@ -3729,7 +3997,8 @@
             "名所旧跡",
             "文化施設"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0182",
@@ -3741,7 +4010,8 @@
             "名所旧跡",
             "文化施設"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0183",
@@ -3753,7 +4023,8 @@
             "名所旧跡",
             "文化施設"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0184",
@@ -3765,7 +4036,8 @@
             "名所旧跡",
             "文化施設"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0185",
@@ -3777,7 +4049,8 @@
             "名所旧跡",
             "庭園"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         }
       ],
       "count": 15
@@ -3804,7 +4077,8 @@
             "神社",
             "名所旧跡"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0681",
@@ -3815,7 +4089,8 @@
             "神社",
             "名所旧跡"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0144",
@@ -3826,7 +4101,8 @@
             "神社",
             "名所旧跡"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0145",
@@ -3837,7 +4113,8 @@
             "神社",
             "名所旧跡"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "観光地"
         }
       ],
       "count": 4
@@ -3865,7 +4142,8 @@
             "花",
             "春"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0533",
@@ -3877,7 +4155,8 @@
             "岩",
             "断崖"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0548",
@@ -3888,7 +4167,8 @@
             "能登富士",
             "山"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0567",
@@ -3900,7 +4180,8 @@
             "水田",
             "大笹波"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0605",
@@ -3911,7 +4192,8 @@
             "桜",
             "花"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0611",
@@ -3922,7 +4204,8 @@
             "桜",
             "花"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0614",
@@ -3933,7 +4216,8 @@
             "花",
             "あじさい"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0632",
@@ -3946,7 +4230,8 @@
             "祭礼",
             "キリコ"
           ],
-          "restricted": true
+          "restricted": true,
+          "genre": "祭り"
         },
         {
           "id": "P0640",
@@ -3959,7 +4244,8 @@
             "祭礼",
             "キリコ"
           ],
-          "restricted": true
+          "restricted": true,
+          "genre": "祭り"
         },
         {
           "id": "P0641",
@@ -3972,7 +4258,8 @@
             "祭礼",
             "キリコ"
           ],
-          "restricted": true
+          "restricted": true,
+          "genre": "祭り"
         },
         {
           "id": "P0643",
@@ -3985,7 +4272,8 @@
             "祭礼",
             "キリコ"
           ],
-          "restricted": true
+          "restricted": true,
+          "genre": "祭り"
         },
         {
           "id": "P0647",
@@ -3998,7 +4286,8 @@
             "祭礼",
             "キリコ"
           ],
-          "restricted": true
+          "restricted": true,
+          "genre": "祭り"
         },
         {
           "id": "P0649",
@@ -4010,7 +4299,8 @@
             "福浦",
             "祭礼"
           ],
-          "restricted": true
+          "restricted": true,
+          "genre": "祭り"
         },
         {
           "id": "P0655",
@@ -4022,7 +4312,8 @@
             "福浦",
             "祭礼"
           ],
-          "restricted": true
+          "restricted": true,
+          "genre": "祭り"
         },
         {
           "id": "P0660",
@@ -4034,7 +4325,8 @@
             "福浦",
             "祭礼"
           ],
-          "restricted": true
+          "restricted": true,
+          "genre": "祭り"
         },
         {
           "id": "P0667",
@@ -4046,7 +4338,8 @@
             "これでもか",
             "音楽"
           ],
-          "restricted": true
+          "restricted": true,
+          "genre": "祭り"
         },
         {
           "id": "P0676",
@@ -4058,7 +4351,8 @@
             "太鼓",
             "音楽"
           ],
-          "restricted": true
+          "restricted": true,
+          "genre": "祭り"
         },
         {
           "id": "P0680",
@@ -4070,7 +4364,8 @@
             "花",
             "春"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0685",
@@ -4082,7 +4377,8 @@
             "村",
             "公園"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0688",
@@ -4094,7 +4390,8 @@
             "公園",
             "村"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0690",
@@ -4106,7 +4403,8 @@
             "祭り",
             "花火"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "祭り"
         },
         {
           "id": "P0691",
@@ -4118,7 +4416,8 @@
             "庭",
             "春"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0697",
@@ -4130,7 +4429,8 @@
             "花",
             "春"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0707",
@@ -4141,7 +4441,8 @@
             "花",
             "あじさい"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0549",
@@ -4152,7 +4453,8 @@
             "能登富士",
             "山"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0568",
@@ -4164,7 +4466,8 @@
             "水田",
             "大笹波"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0606",
@@ -4175,7 +4478,8 @@
             "桜",
             "花"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0612",
@@ -4186,7 +4490,8 @@
             "桜",
             "花"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0615",
@@ -4197,7 +4502,8 @@
             "花",
             "あじさい"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0633",
@@ -4210,7 +4516,8 @@
             "祭礼",
             "キリコ"
           ],
-          "restricted": true
+          "restricted": true,
+          "genre": "祭り"
         },
         {
           "id": "P0642",
@@ -4223,7 +4530,8 @@
             "祭礼",
             "キリコ"
           ],
-          "restricted": true
+          "restricted": true,
+          "genre": "祭り"
         },
         {
           "id": "P0644",
@@ -4236,7 +4544,8 @@
             "祭礼",
             "キリコ"
           ],
-          "restricted": true
+          "restricted": true,
+          "genre": "祭り"
         },
         {
           "id": "P0648",
@@ -4249,7 +4558,8 @@
             "祭礼",
             "キリコ"
           ],
-          "restricted": true
+          "restricted": true,
+          "genre": "祭り"
         },
         {
           "id": "P0650",
@@ -4261,7 +4571,8 @@
             "福浦",
             "祭礼"
           ],
-          "restricted": true
+          "restricted": true,
+          "genre": "祭り"
         },
         {
           "id": "P0656",
@@ -4273,7 +4584,8 @@
             "福浦",
             "祭礼"
           ],
-          "restricted": true
+          "restricted": true,
+          "genre": "祭り"
         },
         {
           "id": "P0661",
@@ -4285,7 +4597,8 @@
             "福浦",
             "祭礼"
           ],
-          "restricted": true
+          "restricted": true,
+          "genre": "祭り"
         },
         {
           "id": "P0668",
@@ -4297,7 +4610,8 @@
             "これでもか",
             "音楽"
           ],
-          "restricted": true
+          "restricted": true,
+          "genre": "祭り"
         },
         {
           "id": "P0677",
@@ -4309,7 +4623,8 @@
             "太鼓",
             "音楽"
           ],
-          "restricted": true
+          "restricted": true,
+          "genre": "祭り"
         },
         {
           "id": "P0686",
@@ -4321,7 +4636,8 @@
             "村",
             "公園"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0689",
@@ -4333,7 +4649,8 @@
             "公園",
             "村"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0692",
@@ -4345,7 +4662,8 @@
             "庭",
             "春"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0698",
@@ -4357,7 +4675,8 @@
             "花",
             "春"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0708",
@@ -4368,7 +4687,8 @@
             "花",
             "あじさい"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0550",
@@ -4379,7 +4699,8 @@
             "能登富士",
             "山"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0569",
@@ -4391,7 +4712,8 @@
             "水田",
             "大笹波"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0607",
@@ -4402,7 +4724,8 @@
             "桜",
             "花"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0613",
@@ -4413,7 +4736,8 @@
             "桜",
             "花"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0616",
@@ -4424,7 +4748,8 @@
             "花",
             "あじさい"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0634",
@@ -4437,7 +4762,8 @@
             "祭礼",
             "キリコ"
           ],
-          "restricted": true
+          "restricted": true,
+          "genre": "祭り"
         },
         {
           "id": "P0645",
@@ -4450,7 +4776,8 @@
             "祭礼",
             "キリコ"
           ],
-          "restricted": true
+          "restricted": true,
+          "genre": "祭り"
         },
         {
           "id": "P0651",
@@ -4462,7 +4789,8 @@
             "福浦",
             "祭礼"
           ],
-          "restricted": true
+          "restricted": true,
+          "genre": "祭り"
         },
         {
           "id": "P0657",
@@ -4474,7 +4802,8 @@
             "福浦",
             "祭礼"
           ],
-          "restricted": true
+          "restricted": true,
+          "genre": "祭り"
         },
         {
           "id": "P0662",
@@ -4486,7 +4815,8 @@
             "福浦",
             "祭礼"
           ],
-          "restricted": true
+          "restricted": true,
+          "genre": "祭り"
         },
         {
           "id": "P0669",
@@ -4498,7 +4828,8 @@
             "これでもか",
             "音楽"
           ],
-          "restricted": true
+          "restricted": true,
+          "genre": "祭り"
         },
         {
           "id": "P0678",
@@ -4510,7 +4841,8 @@
             "太鼓",
             "音楽"
           ],
-          "restricted": true
+          "restricted": true,
+          "genre": "祭り"
         },
         {
           "id": "P0687",
@@ -4522,7 +4854,8 @@
             "村",
             "公園"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0693",
@@ -4534,7 +4867,8 @@
             "庭",
             "春"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0699",
@@ -4546,7 +4880,8 @@
             "花",
             "春"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0709",
@@ -4557,7 +4892,8 @@
             "花",
             "あじさい"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0551",
@@ -4568,7 +4904,8 @@
             "能登富士",
             "山"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0570",
@@ -4580,7 +4917,8 @@
             "水田",
             "大笹波"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0608",
@@ -4591,7 +4929,8 @@
             "桜",
             "花"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0617",
@@ -4602,7 +4941,8 @@
             "花",
             "あじさい"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0635",
@@ -4615,7 +4955,8 @@
             "祭礼",
             "キリコ"
           ],
-          "restricted": true
+          "restricted": true,
+          "genre": "祭り"
         },
         {
           "id": "P0646",
@@ -4628,7 +4969,8 @@
             "祭礼",
             "キリコ"
           ],
-          "restricted": true
+          "restricted": true,
+          "genre": "祭り"
         },
         {
           "id": "P0652",
@@ -4640,7 +4982,8 @@
             "福浦",
             "祭礼"
           ],
-          "restricted": true
+          "restricted": true,
+          "genre": "祭り"
         },
         {
           "id": "P0658",
@@ -4652,7 +4995,8 @@
             "福浦",
             "祭礼"
           ],
-          "restricted": true
+          "restricted": true,
+          "genre": "祭り"
         },
         {
           "id": "P0663",
@@ -4664,7 +5008,8 @@
             "福浦",
             "祭礼"
           ],
-          "restricted": true
+          "restricted": true,
+          "genre": "祭り"
         },
         {
           "id": "P0670",
@@ -4676,7 +5021,8 @@
             "これでもか",
             "音楽"
           ],
-          "restricted": true
+          "restricted": true,
+          "genre": "祭り"
         },
         {
           "id": "P0679",
@@ -4688,7 +5034,8 @@
             "太鼓",
             "音楽"
           ],
-          "restricted": true
+          "restricted": true,
+          "genre": "祭り"
         },
         {
           "id": "P0694",
@@ -4700,7 +5047,8 @@
             "庭",
             "春"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0700",
@@ -4712,7 +5060,8 @@
             "花",
             "春"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0552",
@@ -4725,7 +5074,8 @@
             "能登富士",
             "山"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0571",
@@ -4737,7 +5087,8 @@
             "水田",
             "大笹波"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0609",
@@ -4748,7 +5099,8 @@
             "桜",
             "花"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0618",
@@ -4759,7 +5111,8 @@
             "花",
             "あじさい"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0636",
@@ -4772,7 +5125,8 @@
             "祭礼",
             "キリコ"
           ],
-          "restricted": true
+          "restricted": true,
+          "genre": "祭り"
         },
         {
           "id": "P0653",
@@ -4784,7 +5138,8 @@
             "福浦",
             "祭礼"
           ],
-          "restricted": true
+          "restricted": true,
+          "genre": "祭り"
         },
         {
           "id": "P0659",
@@ -4796,7 +5151,8 @@
             "福浦",
             "祭礼"
           ],
-          "restricted": true
+          "restricted": true,
+          "genre": "祭り"
         },
         {
           "id": "P0664",
@@ -4808,7 +5164,8 @@
             "福浦",
             "祭礼"
           ],
-          "restricted": true
+          "restricted": true,
+          "genre": "祭り"
         },
         {
           "id": "P0671",
@@ -4820,7 +5177,8 @@
             "これでもか",
             "音楽"
           ],
-          "restricted": true
+          "restricted": true,
+          "genre": "祭り"
         },
         {
           "id": "P0695",
@@ -4832,7 +5190,8 @@
             "庭",
             "春"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0701",
@@ -4844,7 +5203,8 @@
             "花",
             "春"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0711",
@@ -4855,7 +5215,8 @@
             "花",
             "あじさい"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0553",
@@ -4867,7 +5228,8 @@
             "能登富士",
             "山"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0572",
@@ -4879,7 +5241,8 @@
             "水田",
             "大笹波"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0610",
@@ -4890,7 +5253,8 @@
             "桜",
             "花"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0619",
@@ -4901,7 +5265,8 @@
             "花",
             "あじさい"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0637",
@@ -4914,7 +5279,8 @@
             "祭礼",
             "キリコ"
           ],
-          "restricted": true
+          "restricted": true,
+          "genre": "祭り"
         },
         {
           "id": "P0654",
@@ -4926,7 +5292,8 @@
             "福浦",
             "祭礼"
           ],
-          "restricted": true
+          "restricted": true,
+          "genre": "祭り"
         },
         {
           "id": "P0672",
@@ -4938,7 +5305,8 @@
             "これでもか",
             "音楽"
           ],
-          "restricted": true
+          "restricted": true,
+          "genre": "祭り"
         },
         {
           "id": "P0696",
@@ -4950,7 +5318,8 @@
             "庭",
             "春"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0702",
@@ -4962,7 +5331,8 @@
             "花",
             "春"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0573",
@@ -4974,7 +5344,8 @@
             "水田",
             "大笹波"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0620",
@@ -4985,7 +5356,8 @@
             "花",
             "あじさい"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0638",
@@ -4998,7 +5370,8 @@
             "祭礼",
             "キリコ"
           ],
-          "restricted": true
+          "restricted": true,
+          "genre": "祭り"
         },
         {
           "id": "P0673",
@@ -5010,7 +5383,8 @@
             "これでもか",
             "音楽"
           ],
-          "restricted": true
+          "restricted": true,
+          "genre": "祭り"
         },
         {
           "id": "P0703",
@@ -5022,7 +5396,8 @@
             "花",
             "春"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0574",
@@ -5034,7 +5409,8 @@
             "水田",
             "大笹波"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0621",
@@ -5045,7 +5421,8 @@
             "花",
             "あじさい"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0674",
@@ -5057,7 +5434,8 @@
             "これでもか",
             "音楽"
           ],
-          "restricted": true
+          "restricted": true,
+          "genre": "祭り"
         },
         {
           "id": "P0704",
@@ -5069,7 +5447,8 @@
             "花",
             "春"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0556",
@@ -5080,7 +5459,8 @@
             "能登富士",
             "山"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0575",
@@ -5092,7 +5472,8 @@
             "水田",
             "大笹波"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0675",
@@ -5104,7 +5485,8 @@
             "これでもか",
             "音楽"
           ],
-          "restricted": true
+          "restricted": true,
+          "genre": "祭り"
         },
         {
           "id": "P0705",
@@ -5116,7 +5498,8 @@
             "花",
             "春"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0557",
@@ -5128,7 +5511,8 @@
             "能登富士",
             "山"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0576",
@@ -5140,7 +5524,8 @@
             "水田",
             "大笹波"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0706",
@@ -5152,7 +5537,8 @@
             "花",
             "春"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0558",
@@ -5163,7 +5549,8 @@
             "能登富士",
             "山"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0559",
@@ -5175,7 +5562,8 @@
             "能登富士",
             "山"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0115",
@@ -5187,7 +5575,8 @@
             "春",
             "こいのぼり"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0116",
@@ -5199,7 +5588,8 @@
             "春",
             "こいのぼり"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0117",
@@ -5211,7 +5601,8 @@
             "春",
             "こいのぼり"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0118",
@@ -5223,7 +5614,8 @@
             "春",
             "つつじ"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0119",
@@ -5235,7 +5627,8 @@
             "春",
             "つつじ"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0120",
@@ -5247,7 +5640,8 @@
             "春",
             "つつじ"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0121",
@@ -5259,7 +5653,8 @@
             "春",
             "つつじ"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0122",
@@ -5271,7 +5666,8 @@
             "春",
             "つつじ"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0123",
@@ -5283,7 +5679,8 @@
             "春",
             "つつじ"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0124",
@@ -5295,7 +5692,8 @@
             "春",
             "つつじ"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0125",
@@ -5307,7 +5705,8 @@
             "春",
             "つつじ"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0126",
@@ -5319,7 +5718,8 @@
             "春",
             "つつじ"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0127",
@@ -5331,7 +5731,8 @@
             "春",
             "つつじ"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0128",
@@ -5343,7 +5744,8 @@
             "春",
             "つつじ"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0136",
@@ -5354,7 +5756,8 @@
             "山",
             "能登富士"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0137",
@@ -5365,7 +5768,8 @@
             "山",
             "能登富士"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0139",
@@ -5377,7 +5781,8 @@
             "花",
             "春"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0140",
@@ -5389,7 +5794,8 @@
             "花",
             "春"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0141",
@@ -5401,7 +5807,8 @@
             "花",
             "春"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0142",
@@ -5413,7 +5820,8 @@
             "花",
             "春"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0143",
@@ -5425,7 +5833,8 @@
             "花",
             "春"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0165",
@@ -5435,7 +5844,8 @@
           "tags": [
             "空撮"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0166",
@@ -5447,7 +5857,8 @@
             "空撮",
             "港"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0188",
@@ -5458,7 +5869,8 @@
             "花",
             "あじさい"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0239",
@@ -5471,7 +5883,8 @@
             "太陽",
             "ぼたん"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0241",
@@ -5483,7 +5896,8 @@
             "寺",
             "ぼたん"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0243",
@@ -5496,7 +5910,8 @@
             "ぼたん",
             "鐘"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0244",
@@ -5508,7 +5923,8 @@
             "寺",
             "ぼたん"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0245",
@@ -5520,7 +5936,8 @@
             "寺",
             "ぼたん"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0246",
@@ -5532,7 +5949,8 @@
             "寺",
             "ぼたん"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0247",
@@ -5544,7 +5962,8 @@
             "寺",
             "ぼたん"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0249",
@@ -5555,7 +5974,8 @@
             "トンネル",
             "アート"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0250",
@@ -5566,7 +5986,8 @@
             "青空",
             "水田"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0251",
@@ -5577,7 +5998,8 @@
             "青空",
             "水田"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0252",
@@ -5588,7 +6010,8 @@
             "福浦",
             "寺"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0253",
@@ -5599,7 +6022,8 @@
             "福浦",
             "寺"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0254",
@@ -5610,7 +6034,8 @@
             "福浦",
             "寺"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0255",
@@ -5621,7 +6046,8 @@
             "福浦",
             "寺"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0256",
@@ -5632,7 +6058,8 @@
             "福浦",
             "寺"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0257",
@@ -5643,7 +6070,8 @@
             "福浦",
             "寺"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0258",
@@ -5654,7 +6082,8 @@
             "海",
             "青空"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0259",
@@ -5665,7 +6094,8 @@
             "海",
             "青空"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0260",
@@ -5676,7 +6106,8 @@
             "海",
             "青空"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0261",
@@ -5687,7 +6118,8 @@
             "海",
             "青空"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0263",
@@ -5698,7 +6130,8 @@
             "海",
             "青空"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0267",
@@ -5709,7 +6142,8 @@
             "海",
             "夕陽"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0268",
@@ -5720,7 +6154,8 @@
             "海",
             "夕陽"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0269",
@@ -5731,7 +6166,8 @@
             "海",
             "夕陽"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0272",
@@ -5742,7 +6178,8 @@
             "海",
             "夕陽"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0275",
@@ -5754,7 +6191,8 @@
             "祭り",
             "花火"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "祭り"
         },
         {
           "id": "P0276",
@@ -5765,7 +6203,8 @@
             "夜景",
             "花火"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "イベント"
         },
         {
           "id": "P0277",
@@ -5777,7 +6216,8 @@
             "祭り",
             "花火"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "祭り"
         },
         {
           "id": "P0278",
@@ -5789,7 +6229,8 @@
             "祭り",
             "花火"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "祭り"
         },
         {
           "id": "P0279",
@@ -5801,7 +6242,8 @@
             "祭り",
             "花火"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "祭り"
         },
         {
           "id": "P0281",
@@ -5813,7 +6255,8 @@
             "祭り",
             "花火"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "祭り"
         },
         {
           "id": "P0282",
@@ -5825,7 +6268,8 @@
             "イルミネーション",
             "祭り"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "祭り"
         },
         {
           "id": "P0283",
@@ -5837,7 +6281,8 @@
             "祭り",
             "花火"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "祭り"
         },
         {
           "id": "P0284",
@@ -5849,7 +6294,8 @@
             "イルミネーション",
             "祭り"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "祭り"
         },
         {
           "id": "P0285",
@@ -5861,7 +6307,8 @@
             "イルミネーション",
             "祭り"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "祭り"
         },
         {
           "id": "P0286",
@@ -5873,7 +6320,8 @@
             "祭り",
             "花火"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "祭り"
         },
         {
           "id": "P0287",
@@ -5885,7 +6333,8 @@
             "食",
             "特産品"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "特産品"
         },
         {
           "id": "P0288",
@@ -5897,7 +6346,8 @@
             "特産品",
             "工芸"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "特産品"
         },
         {
           "id": "P0289",
@@ -5909,7 +6359,8 @@
             "食",
             "特産品"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "特産品"
         },
         {
           "id": "P0290",
@@ -5921,7 +6372,8 @@
             "食",
             "特産品"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "特産品"
         },
         {
           "id": "P0291",
@@ -5933,7 +6385,8 @@
             "食",
             "特産品"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "特産品"
         },
         {
           "id": "P0292",
@@ -5945,7 +6398,8 @@
             "食",
             "特産品"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "特産品"
         },
         {
           "id": "P0293",
@@ -5957,7 +6411,8 @@
             "食",
             "特産品"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "特産品"
         },
         {
           "id": "P0294",
@@ -5969,7 +6424,8 @@
             "食",
             "特産品"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "特産品"
         },
         {
           "id": "P0295",
@@ -5981,7 +6437,8 @@
             "食",
             "特産品"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "特産品"
         },
         {
           "id": "P0298",
@@ -5992,7 +6449,8 @@
             "さくら貝",
             "お土産"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "特産品"
         },
         {
           "id": "P0299",
@@ -6003,7 +6461,8 @@
             "さくら貝",
             "お土産"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "特産品"
         },
         {
           "id": "P0301",
@@ -6014,7 +6473,8 @@
             "さくら貝",
             "お土産"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "特産品"
         },
         {
           "id": "P0302",
@@ -6026,7 +6486,8 @@
             "食",
             "特産品"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "特産品"
         },
         {
           "id": "P0303",
@@ -6037,7 +6498,8 @@
             "さくら貝",
             "お土産"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "特産品"
         },
         {
           "id": "P0306",
@@ -6048,7 +6510,8 @@
             "さくら貝",
             "お土産"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "特産品"
         },
         {
           "id": "P0307",
@@ -6060,7 +6523,8 @@
             "食",
             "特産品"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "特産品"
         },
         {
           "id": "P0309",
@@ -6072,7 +6536,8 @@
             "食",
             "特産品"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "特産品"
         },
         {
           "id": "P0310",
@@ -6084,7 +6549,8 @@
             "食",
             "特産品"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "特産品"
         },
         {
           "id": "P0313",
@@ -6096,7 +6562,8 @@
             "食",
             "特産品"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "特産品"
         },
         {
           "id": "P0314",
@@ -6108,7 +6575,8 @@
             "食",
             "特産品"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "特産品"
         },
         {
           "id": "P0315",
@@ -6120,7 +6588,8 @@
             "食",
             "特産品"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "特産品"
         },
         {
           "id": "P0319",
@@ -6132,7 +6601,8 @@
             "食",
             "特産品"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "特産品"
         },
         {
           "id": "P0321",
@@ -6144,7 +6614,8 @@
             "食",
             "特産品"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "特産品"
         },
         {
           "id": "P0322",
@@ -6156,7 +6627,8 @@
             "食",
             "特産品"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "特産品"
         },
         {
           "id": "P0323",
@@ -6168,7 +6640,8 @@
             "食",
             "特産品"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "特産品"
         },
         {
           "id": "P0326",
@@ -6180,7 +6653,8 @@
             "食",
             "特産品"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "特産品"
         },
         {
           "id": "P0328",
@@ -6192,7 +6666,8 @@
             "食",
             "特産品"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "特産品"
         },
         {
           "id": "P0330",
@@ -6204,7 +6679,8 @@
             "食",
             "特産品"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "特産品"
         },
         {
           "id": "P0331",
@@ -6216,7 +6692,8 @@
             "食",
             "特産品"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "特産品"
         },
         {
           "id": "P0332",
@@ -6228,7 +6705,8 @@
             "食",
             "特産品"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "特産品"
         },
         {
           "id": "P0333",
@@ -6240,7 +6718,8 @@
             "食",
             "特産品"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "特産品"
         },
         {
           "id": "P0380",
@@ -6252,7 +6731,8 @@
             "能登富士",
             "高爪山"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0381",
@@ -6264,7 +6744,8 @@
             "能登富士",
             "高爪山"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0382",
@@ -6276,7 +6757,8 @@
             "能登富士",
             "高爪山"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0383",
@@ -6288,7 +6770,8 @@
             "高爪山",
             "能登富士"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0384",
@@ -6300,7 +6783,8 @@
             "高爪山",
             "能登富士"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0385",
@@ -6312,7 +6796,8 @@
             "高爪山",
             "能登富士"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0386",
@@ -6324,7 +6809,8 @@
             "高爪山",
             "能登富士"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0387",
@@ -6336,7 +6822,8 @@
             "高爪山",
             "能登富士"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0390",
@@ -6349,7 +6836,8 @@
             "漁港",
             "旗"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0391",
@@ -6362,7 +6850,8 @@
             "漁港",
             "旗"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0392",
@@ -6375,7 +6864,8 @@
             "漁港",
             "旗"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0394",
@@ -6387,7 +6877,8 @@
             "西海",
             "漁港"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0396",
@@ -6399,7 +6890,8 @@
             "西海",
             "漁港"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0397",
@@ -6411,7 +6903,8 @@
             "西海",
             "漁港"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0398",
@@ -6423,7 +6916,8 @@
             "西海",
             "漁港"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0410",
@@ -6435,7 +6929,8 @@
             "庭",
             "春"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0411",
@@ -6447,7 +6942,8 @@
             "庭",
             "春"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0412",
@@ -6459,7 +6955,8 @@
             "庭",
             "春"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0413",
@@ -6471,7 +6968,8 @@
             "庭",
             "春"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0414",
@@ -6483,7 +6981,8 @@
             "庭",
             "春"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0415",
@@ -6495,7 +6994,8 @@
             "庭",
             "春"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0416",
@@ -6507,7 +7007,8 @@
             "庭",
             "春"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0417",
@@ -6519,7 +7020,8 @@
             "庭",
             "春"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0418",
@@ -6531,7 +7033,8 @@
             "庭",
             "春"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0419",
@@ -6543,7 +7046,8 @@
             "庭",
             "春"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0420",
@@ -6555,7 +7059,8 @@
             "庭",
             "春"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0421",
@@ -6567,7 +7072,8 @@
             "庭",
             "春"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0422",
@@ -6579,7 +7085,8 @@
             "庭",
             "春"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0432",
@@ -6590,7 +7097,8 @@
             "花",
             "水芭蕉"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0504",
@@ -6601,7 +7109,8 @@
             "神社",
             "名所旧跡"
           ],
-          "restricted": false
+          "restricted": false,
+          "genre": "自然風景"
         }
       ],
       "count": 232

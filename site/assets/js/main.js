@@ -126,6 +126,13 @@
       '<span class="scene-card__label">' + esc(s.label) + '</span></button>';
   }
 
+  function genreCard(g) {
+    var image = withFallback(g.image, FALLBACK_IMAGES.hero);
+    return '<button class="scene-card genre-card" type="button" data-query="' + esc(g.query) + '">' +
+      '<img src="' + esc(image) + '" alt="' + esc(g.alt || g.label) + '" loading="lazy" width="600" height="600">' +
+      '<span class="scene-card__label">' + esc(g.label) + '</span></button>';
+  }
+
   function seasonCard(s) {
     var image = withFallback(s.image, FALLBACK_IMAGES.seasons[s.ja] || FALLBACK_IMAGES.hero);
     return '<a class="season-card" href="#season-' + esc(s.en) + '" data-query="' + esc(s.query) + '">' +
@@ -230,6 +237,7 @@
     $('#heroTags').innerHTML = chips;
 
     $('#spotGrid').innerHTML   = d.spots.map(spotCard).join('');
+    $('#genreGrid').innerHTML  = (d.genres || []).map(genreCard).join('');
     $('#sceneGrid').innerHTML  = (d.scenes || []).map(sceneCard).join('');
     $('#photoGrid').innerHTML  = d.photos.slice(0, 6).map(photoCard).join('');  // 新着は6件（3列×2行）
     $('#seasonGrid').innerHTML = d.seasons.map(seasonCard).join('');
@@ -266,6 +274,17 @@
   function goSeasonSearch(season) {
     if (!season || !season.trim()) return;
     location.href = 'search.html?season=' + encodeURIComponent(season.trim());
+  }
+  function goGenreSearch(genre) {
+    if (!genre || !genre.trim()) return;
+    location.href = 'search.html?genre=' + encodeURIComponent(genre.trim());
+  }
+  // 「目的で写真を探す」：用途・雰囲気の2つを両方満たす写真だけに絞り込む（AND検索）。
+  // どちらか片方だけ選んだ場合は、そのタグ1つだけの絞り込みになる。
+  function goTagsSearch(tags) {
+    tags = (tags || []).map(function (t) { return t.trim(); }).filter(Boolean);
+    if (!tags.length) return;
+    location.href = 'search.html?tags=' + tags.map(encodeURIComponent).join(',');
   }
 
   /* =====================================================================
@@ -354,6 +373,13 @@
         e.preventDefault();
         goSearch($('#overlayInput').value);
       });
+      var pf = $('#purposeFinder');
+      if (pf) {
+        pf.addEventListener('submit', function (e) {
+          e.preventDefault();
+          goTagsSearch([$('#purposeUse').value, $('#purposeMood').value]);
+        });
+      }
 
       // タグ・シーン・季節のクリックで検索結果ページへ
       document.addEventListener('click', function (e) {
@@ -361,6 +387,7 @@
         if (!t) return;
         e.preventDefault();
         if (t.classList.contains('season-card')) goSeasonSearch(t.dataset.query);
+        else if (t.classList.contains('genre-card')) goGenreSearch(t.dataset.query);
         else goTagSearch(t.dataset.query);
       });
 

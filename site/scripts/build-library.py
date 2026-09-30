@@ -49,7 +49,7 @@ for p in top['photos']:
         area=p['area'], season=p.get('season', ''), tags=p.get('tags', []),
         thumb=norm(p['image']), large=norm(p['image']),
         alt=p.get('alt', p['title']), credit='© 志賀町', photographer='志賀町',
-        source='新着写真', restricted=bool(p.get('restricted')))
+        source='新着写真', restricted=bool(p.get('restricted')), genre=p.get('genre', ''))
 
 # ---- 各スポットのギャラリー ----
 for s in spots['spots']:
@@ -60,7 +60,7 @@ for s in spots['spots']:
         add(_id=ph.get('id'), title=ph['caption'], spot=s['name'], spotId=s['id'], area=s['area'],
             season='', tags=ph.get('tags', []), thumb=norm(ph['thumb']), large=norm(ph['large']),
             alt=ph['caption'], credit='© 志賀町', photographer='志賀町',
-            source=s['name'], restricted=bool(ph.get('restricted')))
+            source=s['name'], restricted=bool(ph.get('restricted')), genre=ph.get('genre', ''))
 
 data = {
     'meta': {

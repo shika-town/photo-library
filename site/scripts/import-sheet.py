@@ -218,6 +218,32 @@ split = lambda v: [x.strip() for x in str(v or '').replace('、', ',').split(','
 RESTRICTED_ROLE = 'ダウンロード制限'
 restricted = lambda p: RESTRICTED_ROLE in split(p.get('roles'))
 
+# 「ジャンル」は、写真が属する観光スポットとは別の、探しやすさのための分類軸。
+# シートに genre 列があってそこに値が入っていればそれを優先し、
+# 空欄の場合はタグ・スポット名から自動で振り分ける（スポットの無い祭り・特産品・
+# 自然風景の写真が、すべて「その他」に埋もれてしまうのを防ぐため）。
+GENRE_VALUES = ('観光地', '特産品', '祭り', 'イベント', '自然風景')
+_GENRE_MATSURI = {'祭り', '祭礼', '八朔', 'キリコ', 'これでもか', '太鼓'}
+_GENRE_EVENT   = {'花火', 'イルミネーション', 'ライトアップ'}
+_GENRE_PRODUCT = {'特産品', 'お土産', '食'}
+
+def classify_genre(p, spot_name):
+    manual = str(p.get('genre', '')).strip()
+    if manual in GENRE_VALUES:
+        return manual
+    raw_tags = p.get('tags')
+    tags = set(raw_tags) if isinstance(raw_tags, list) else set(split(raw_tags))
+    title = str(p.get('title') or p.get('caption') or '')
+    if tags & _GENRE_MATSURI or any(k in title for k in _GENRE_MATSURI):
+        return '祭り'
+    if tags & _GENRE_EVENT or any(k in title for k in _GENRE_EVENT):
+        return 'イベント'
+    if tags & _GENRE_PRODUCT or any(k in title for k in _GENRE_PRODUCT):
+        return '特産品'
+    if str(spot_name or '').strip() and str(spot_name).strip() != 'その他':
+        return '観光地'
+    return '自然風景'
+
 def photo_visible(p):
     """公開サイトに出す写真だけを通す。
     publish は表示ON/OFF、downloadAllowed はダウンロード対象のON/OFF。
@@ -358,7 +384,7 @@ def main():
                             'thumb': '../' + make(f, 'lib/%s-thumb' % p['id'], SIZES['thumb'], fy),
                             'large': '../' + make(f, 'lib/%s-large' % p['id'], SIZES['large'], fy),
                             'caption': p.get('title', ''), 'tags': split(p.get('tags')),
-                            'restricted': restricted(p)})
+                            'restricted': restricted(p), 'genre': classify_genre(p, s['name'])})
             except Exception as e:
                 thumb = made_path('lib/%s-thumb' % p['id'])
                 large = made_path('lib/%s-large' % p['id'])
@@ -368,7 +394,7 @@ def main():
                                 'thumb': '../' + thumb,
                                 'large': '../' + large,
                                 'caption': p.get('title', ''), 'tags': split(p.get('tags')),
-                                'restricted': restricted(p)})
+                                'restricted': restricted(p), 'genre': classify_genre(p, s['name'])})
                     continue
                 if not isinstance(e, (FileNotFoundError, UnidentifiedImageError)):
                     raise
@@ -415,6 +441,7 @@ def main():
             'image': _img,
             'alt': p.get('description', p['title']),
             'restricted': restricted(p),
+            'genre': classify_genre(p, p.get('spot', '')),
         })
 
     # トップのヒーロー画像はスライドショー対応。heroPhotoId にカンマ区切りで
@@ -461,6 +488,34 @@ def main():
         p, path = img(se.get('photoId', ''), 'season')
         top['seasons'].append({'ja': se['ja'], 'en': se.get('en', ''), 'query': se.get('query', se['ja']),
                                'image': path or '', 'alt': (p or {}).get('title', se['ja'])})
+
+    # ---- ジャンルで探す ----
+    # 「ジャンル」はスポットとは別の分類軸（祭り・特産品など、特定の観光スポットに
+    # 属さない写真も見つけやすくするため）。代表写真は固定で指定し、無ければ同じ
+    # ジャンルの写真から自動で補う。
+    GENRE_REPRESENTATIVE = {
+        '観光地': 'P0002', '自然風景': 'P0007', '祭り': 'P0634', 'イベント': 'P0228', '特産品': 'P0056',
+    }
+    _genre_fallback = {}
+    for p in new_photos:
+        g = p.get('genre')
+        if g and g not in _genre_fallback:
+            _genre_fallback[g] = p['id']
+    for s in spots_out:
+        for ph in s['photos']:
+            g = ph.get('genre')
+            if g and g not in _genre_fallback:
+                _genre_fallback[g] = ph['id']
+
+    top['genres'] = []
+    for label in GENRE_VALUES:
+        pid = GENRE_REPRESENTATIVE.get(label)
+        if pid not in by_id:
+            pid = _genre_fallback.get(label)
+        if not pid:
+            continue
+        p, path = img(pid, 'scene')
+        top['genres'].append({'label': label, 'query': label, 'image': path or '', 'alt': (p or {}).get('title', label)})
 
     io.open(os.path.join(BASE, 'data', 'photos.json'), 'w', encoding='utf-8').write(
         json.dumps(top, ensure_ascii=False, indent=2))

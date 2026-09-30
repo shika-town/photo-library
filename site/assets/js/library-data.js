@@ -23,6 +23,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "新着写真",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0003"
     },
     {
@@ -43,6 +44,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "新着写真",
       "restricted": false,
+      "genre": "イベント",
       "id": "P0006"
     },
     {
@@ -63,6 +65,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "新着写真",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0001"
     },
     {
@@ -83,6 +86,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "新着写真",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0002"
     },
     {
@@ -105,6 +109,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "新着写真",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0005"
     },
     {
@@ -125,6 +130,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "新着写真",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0007"
     },
     {
@@ -145,6 +151,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "新着写真",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0719"
     },
     {
@@ -165,6 +172,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "世界一長いベンチ・増穂浦海岸",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0008"
     },
     {
@@ -184,6 +192,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "世界一長いベンチ・増穂浦海岸",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0009"
     },
     {
@@ -202,6 +211,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "世界一長いベンチ・増穂浦海岸",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0010"
     },
     {
@@ -221,6 +231,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "世界一長いベンチ・増穂浦海岸",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0011"
     },
     {
@@ -241,6 +252,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "世界一長いベンチ・増穂浦海岸",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0012"
     },
     {
@@ -261,6 +273,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "世界一長いベンチ・増穂浦海岸",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0682"
     },
     {
@@ -281,6 +294,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "世界一長いベンチ・増穂浦海岸",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0683"
     },
     {
@@ -301,6 +315,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "世界一長いベンチ・増穂浦海岸",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0684"
     },
     {
@@ -321,6 +336,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "世界一長いベンチ・増穂浦海岸",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0146"
     },
     {
@@ -341,6 +357,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "世界一長いベンチ・増穂浦海岸",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0147"
     },
     {
@@ -361,6 +378,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "世界一長いベンチ・増穂浦海岸",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0148"
     },
     {
@@ -379,6 +397,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "世界一長いベンチ・増穂浦海岸",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0149"
     },
     {
@@ -398,6 +417,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "世界一長いベンチ・増穂浦海岸",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0150"
     },
     {
@@ -418,6 +438,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "世界一長いベンチ・増穂浦海岸",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0151"
     },
     {
@@ -437,6 +458,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "世界一長いベンチ・増穂浦海岸",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0152"
     },
     {
@@ -455,6 +477,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "世界一長いベンチ・増穂浦海岸",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0153"
     },
     {
@@ -474,6 +497,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "世界一長いベンチ・増穂浦海岸",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0154"
     },
     {
@@ -493,6 +517,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "世界一長いベンチ・増穂浦海岸",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0155"
     },
     {
@@ -512,6 +537,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "世界一長いベンチ・増穂浦海岸",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0156"
     },
     {
@@ -533,6 +559,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "世界一長いベンチ・増穂浦海岸",
       "restricted": false,
+      "genre": "イベント",
       "id": "P0219"
     },
     {
@@ -552,6 +579,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "世界一長いベンチ・増穂浦海岸",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0220"
     },
     {
@@ -572,6 +600,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "世界一長いベンチ・増穂浦海岸",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0222"
     },
     {
@@ -592,6 +621,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "世界一長いベンチ・増穂浦海岸",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0223"
     },
     {
@@ -612,6 +642,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "世界一長いベンチ・増穂浦海岸",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0224"
     },
     {
@@ -632,6 +663,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "世界一長いベンチ・増穂浦海岸",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0225"
     },
     {
@@ -653,6 +685,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "世界一長いベンチ・増穂浦海岸",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0226"
     },
     {
@@ -674,6 +707,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "世界一長いベンチ・増穂浦海岸",
       "restricted": false,
+      "genre": "イベント",
       "id": "P0227"
     },
     {
@@ -695,6 +729,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "世界一長いベンチ・増穂浦海岸",
       "restricted": false,
+      "genre": "イベント",
       "id": "P0228"
     },
     {
@@ -717,6 +752,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "世界一長いベンチ・増穂浦海岸",
       "restricted": false,
+      "genre": "イベント",
       "id": "P0229"
     },
     {
@@ -739,6 +775,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "世界一長いベンチ・増穂浦海岸",
       "restricted": false,
+      "genre": "イベント",
       "id": "P0230"
     },
     {
@@ -761,6 +798,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "世界一長いベンチ・増穂浦海岸",
       "restricted": false,
+      "genre": "イベント",
       "id": "P0231"
     },
     {
@@ -781,6 +819,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "世界一長いベンチ・増穂浦海岸",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0232"
     },
     {
@@ -802,6 +841,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "世界一長いベンチ・増穂浦海岸",
       "restricted": false,
+      "genre": "イベント",
       "id": "P0233"
     },
     {
@@ -823,6 +863,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "世界一長いベンチ・増穂浦海岸",
       "restricted": false,
+      "genre": "イベント",
       "id": "P0234"
     },
     {
@@ -845,6 +886,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "世界一長いベンチ・増穂浦海岸",
       "restricted": false,
+      "genre": "イベント",
       "id": "P0235"
     },
     {
@@ -865,6 +907,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "世界一長いベンチ・増穂浦海岸",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0236"
     },
     {
@@ -885,6 +928,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "世界一長いベンチ・増穂浦海岸",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0237"
     },
     {
@@ -905,6 +949,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "世界一長いベンチ・増穂浦海岸",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0238"
     },
     {
@@ -926,6 +971,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "世界一長いベンチ・増穂浦海岸",
       "restricted": false,
+      "genre": "イベント",
       "id": "P0366"
     },
     {
@@ -948,6 +994,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "世界一長いベンチ・増穂浦海岸",
       "restricted": false,
+      "genre": "イベント",
       "id": "P0367"
     },
     {
@@ -970,6 +1017,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "世界一長いベンチ・増穂浦海岸",
       "restricted": false,
+      "genre": "イベント",
       "id": "P0368"
     },
     {
@@ -991,6 +1039,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "世界一長いベンチ・増穂浦海岸",
       "restricted": false,
+      "genre": "イベント",
       "id": "P0369"
     },
     {
@@ -1013,6 +1062,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "世界一長いベンチ・増穂浦海岸",
       "restricted": false,
+      "genre": "イベント",
       "id": "P0370"
     },
     {
@@ -1034,6 +1084,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "世界一長いベンチ・増穂浦海岸",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0404"
     },
     {
@@ -1053,6 +1104,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "世界一長いベンチ・増穂浦海岸",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0405"
     },
     {
@@ -1072,6 +1124,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "世界一長いベンチ・増穂浦海岸",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0406"
     },
     {
@@ -1091,6 +1144,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "世界一長いベンチ・増穂浦海岸",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0407"
     },
     {
@@ -1110,6 +1164,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "世界一長いベンチ・増穂浦海岸",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0408"
     },
     {
@@ -1129,6 +1184,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "世界一長いベンチ・増穂浦海岸",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0409"
     },
     {
@@ -1149,6 +1205,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "世界一長いベンチ・増穂浦海岸",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0424"
     },
     {
@@ -1168,6 +1225,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "世界一長いベンチ・増穂浦海岸",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0425"
     },
     {
@@ -1188,6 +1246,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "世界一長いベンチ・増穂浦海岸",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0426"
     },
     {
@@ -1207,6 +1266,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "世界一長いベンチ・増穂浦海岸",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0427"
     },
     {
@@ -1227,6 +1287,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "世界一長いベンチ・増穂浦海岸",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0429"
     },
     {
@@ -1247,6 +1308,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "世界一長いベンチ・増穂浦海岸",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0430"
     },
     {
@@ -1266,6 +1328,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "世界一長いベンチ・増穂浦海岸",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0444"
     },
     {
@@ -1286,6 +1349,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "機具岩",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0015"
     },
     {
@@ -1305,6 +1369,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "機具岩",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0016"
     },
     {
@@ -1325,6 +1390,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "機具岩",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0017"
     },
     {
@@ -1345,6 +1411,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "機具岩",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0018"
     },
     {
@@ -1365,6 +1432,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "機具岩",
       "restricted": false,
+      "genre": "イベント",
       "id": "P0019"
     },
     {
@@ -1384,6 +1452,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "機具岩",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0099"
     },
     {
@@ -1404,6 +1473,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "機具岩",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0100"
     },
     {
@@ -1424,6 +1494,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "機具岩",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0101"
     },
     {
@@ -1444,6 +1515,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "機具岩",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0102"
     },
     {
@@ -1463,6 +1535,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "機具岩",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0103"
     },
     {
@@ -1483,6 +1556,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "機具岩",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0104"
     },
     {
@@ -1503,6 +1577,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "機具岩",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0105"
     },
     {
@@ -1523,6 +1598,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "機具岩",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0106"
     },
     {
@@ -1543,6 +1619,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "機具岩",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0107"
     },
     {
@@ -1563,6 +1640,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "機具岩",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0108"
     },
     {
@@ -1583,6 +1661,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "機具岩",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0109"
     },
     {
@@ -1603,6 +1682,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "機具岩",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0110"
     },
     {
@@ -1623,6 +1703,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "機具岩",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0111"
     },
     {
@@ -1643,6 +1724,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "機具岩",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0112"
     },
     {
@@ -1664,6 +1746,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "機具岩",
       "restricted": false,
+      "genre": "イベント",
       "id": "P0113"
     },
     {
@@ -1684,6 +1767,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "機具岩",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0114"
     },
     {
@@ -1703,6 +1787,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "機具岩",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0218"
     },
     {
@@ -1723,6 +1808,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "巌門",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0020"
     },
     {
@@ -1743,6 +1829,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "巌門",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0021"
     },
     {
@@ -1763,6 +1850,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "巌門",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0022"
     },
     {
@@ -1783,6 +1871,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "巌門",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0024"
     },
     {
@@ -1803,6 +1892,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "巌門",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0025"
     },
     {
@@ -1823,6 +1913,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "巌門",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0585"
     },
     {
@@ -1843,6 +1934,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "巌門",
       "restricted": false,
+      "genre": "観光地",
       "id": "F0001"
     },
     {
@@ -1863,6 +1955,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "巌門",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0586"
     },
     {
@@ -1883,6 +1976,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "巌門",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0587"
     },
     {
@@ -1904,6 +1998,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "巌門",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0588"
     },
     {
@@ -1926,6 +2021,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "巌門",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0589"
     },
     {
@@ -1946,6 +2042,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "巌門",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0590"
     },
     {
@@ -1966,6 +2063,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "巌門",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0591"
     },
     {
@@ -1986,6 +2084,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "巌門",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0593"
     },
     {
@@ -2006,6 +2105,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "巌門",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0594"
     },
     {
@@ -2026,6 +2126,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "巌門",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0595"
     },
     {
@@ -2046,6 +2147,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "巌門",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0596"
     },
     {
@@ -2066,6 +2168,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "巌門",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0597"
     },
     {
@@ -2086,6 +2189,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "巌門",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0598"
     },
     {
@@ -2106,6 +2210,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "巌門",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0599"
     },
     {
@@ -2126,6 +2231,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "巌門",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0600"
     },
     {
@@ -2146,6 +2252,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "巌門",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0601"
     },
     {
@@ -2166,6 +2273,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "巌門",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0603"
     },
     {
@@ -2186,6 +2294,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "巌門",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0073"
     },
     {
@@ -2206,6 +2315,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "巌門",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0074"
     },
     {
@@ -2225,6 +2335,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "巌門",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0075"
     },
     {
@@ -2245,6 +2356,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "巌門",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0076"
     },
     {
@@ -2264,6 +2376,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "巌門",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0077"
     },
     {
@@ -2284,6 +2397,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "巌門",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0079"
     },
     {
@@ -2304,6 +2418,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "巌門",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0080"
     },
     {
@@ -2324,6 +2439,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "巌門",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0081"
     },
     {
@@ -2343,6 +2459,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "巌門",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0082"
     },
     {
@@ -2363,6 +2480,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "巌門",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0083"
     },
     {
@@ -2383,6 +2501,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "巌門",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0084"
     },
     {
@@ -2403,6 +2522,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "巌門",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0085"
     },
     {
@@ -2422,6 +2542,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "巌門",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0086"
     },
     {
@@ -2441,6 +2562,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "巌門",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0087"
     },
     {
@@ -2460,6 +2582,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "巌門",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0088"
     },
     {
@@ -2480,6 +2603,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "巌門",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0191"
     },
     {
@@ -2500,6 +2624,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "巌門",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0205"
     },
     {
@@ -2520,6 +2645,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "巌門",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0206"
     },
     {
@@ -2540,6 +2666,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "巌門",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0207"
     },
     {
@@ -2560,6 +2687,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "巌門",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0208"
     },
     {
@@ -2580,6 +2708,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "巌門",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0209"
     },
     {
@@ -2600,6 +2729,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "巌門",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0210"
     },
     {
@@ -2620,6 +2750,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "巌門",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0211"
     },
     {
@@ -2641,6 +2772,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "巌門",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0213"
     },
     {
@@ -2662,6 +2794,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "巌門",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0214"
     },
     {
@@ -2684,6 +2817,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "巌門",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0215"
     },
     {
@@ -2706,6 +2840,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "巌門",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0216"
     },
     {
@@ -2726,6 +2861,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "巌門",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0371"
     },
     {
@@ -2746,6 +2882,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "巌門",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0372"
     },
     {
@@ -2766,6 +2903,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "巌門",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0373"
     },
     {
@@ -2786,6 +2924,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "巌門",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0374"
     },
     {
@@ -2806,6 +2945,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "巌門",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0375"
     },
     {
@@ -2826,6 +2966,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "巌門",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0376"
     },
     {
@@ -2846,6 +2987,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "巌門",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0377"
     },
     {
@@ -2866,6 +3008,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "巌門",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0378"
     },
     {
@@ -2886,6 +3029,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "巌門",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0379"
     },
     {
@@ -2906,6 +3050,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "巌門",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0510"
     },
     {
@@ -2927,6 +3072,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "弁天島",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0026"
     },
     {
@@ -2948,6 +3094,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "弁天島",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0027"
     },
     {
@@ -2969,6 +3116,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "弁天島",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0028"
     },
     {
@@ -2990,6 +3138,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "弁天島",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0029"
     },
     {
@@ -3011,6 +3160,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "弁天島",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0030"
     },
     {
@@ -3031,6 +3181,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "弁天島",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0580"
     },
     {
@@ -3051,6 +3202,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "弁天島",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0581"
     },
     {
@@ -3071,6 +3223,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "弁天島",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0582"
     },
     {
@@ -3091,6 +3244,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "弁天島",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0583"
     },
     {
@@ -3111,6 +3265,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "弁天島",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0584"
     },
     {
@@ -3131,6 +3286,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "弁天島",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0193"
     },
     {
@@ -3151,6 +3307,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "弁天島",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0194"
     },
     {
@@ -3171,6 +3328,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "弁天島",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0196"
     },
     {
@@ -3191,6 +3349,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "弁天島",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0197"
     },
     {
@@ -3211,6 +3370,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "弁天島",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0198"
     },
     {
@@ -3231,6 +3391,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "弁天島",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0199"
     },
     {
@@ -3251,6 +3412,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "弁天島",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0200"
     },
     {
@@ -3271,6 +3433,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "弁天島",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0201"
     },
     {
@@ -3291,6 +3454,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "弁天島",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0202"
     },
     {
@@ -3311,6 +3475,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "弁天島",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0203"
     },
     {
@@ -3330,6 +3495,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "弁天島",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0204"
     },
     {
@@ -3350,6 +3516,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "弁天島",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0264"
     },
     {
@@ -3370,6 +3537,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "弁天島",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0265"
     },
     {
@@ -3390,6 +3558,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "弁天島",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0402"
     },
     {
@@ -3410,6 +3579,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "弁天島",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0403"
     },
     {
@@ -3432,6 +3602,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "ヤセの断崖・義経の舟隠し",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0032"
     },
     {
@@ -3452,6 +3623,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "ヤセの断崖・義経の舟隠し",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0540"
     },
     {
@@ -3471,6 +3643,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "ヤセの断崖・義経の舟隠し",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0541"
     },
     {
@@ -3490,6 +3663,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "ヤセの断崖・義経の舟隠し",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0542"
     },
     {
@@ -3510,6 +3684,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "ヤセの断崖・義経の舟隠し",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0543"
     },
     {
@@ -3530,6 +3705,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "ヤセの断崖・義経の舟隠し",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0545"
     },
     {
@@ -3550,6 +3726,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "ヤセの断崖・義経の舟隠し",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0547"
     },
     {
@@ -3570,6 +3747,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "ヤセの断崖・義経の舟隠し",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0129"
     },
     {
@@ -3590,6 +3768,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "ヤセの断崖・義経の舟隠し",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0138"
     },
     {
@@ -3610,6 +3789,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "ヤセの断崖・義経の舟隠し",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0190"
     },
     {
@@ -3629,6 +3809,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "ヤセの断崖・義経の舟隠し",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0505"
     },
     {
@@ -3652,6 +3833,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "旧福浦灯台",
       "restricted": false,
+      "genre": "イベント",
       "id": "P0037"
     },
     {
@@ -3675,6 +3857,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "旧福浦灯台",
       "restricted": false,
+      "genre": "イベント",
       "id": "P0038"
     },
     {
@@ -3698,6 +3881,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "旧福浦灯台",
       "restricted": false,
+      "genre": "イベント",
       "id": "P0039"
     },
     {
@@ -3721,6 +3905,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "旧福浦灯台",
       "restricted": false,
+      "genre": "イベント",
       "id": "P0040"
     },
     {
@@ -3743,6 +3928,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "旧福浦灯台",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0041"
     },
     {
@@ -3765,6 +3951,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "旧福浦灯台",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0629"
     },
     {
@@ -3788,6 +3975,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "旧福浦灯台",
       "restricted": false,
+      "genre": "イベント",
       "id": "P0630"
     },
     {
@@ -3812,6 +4000,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "旧福浦灯台",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0665"
     },
     {
@@ -3835,6 +4024,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "旧福浦灯台",
       "restricted": false,
+      "genre": "イベント",
       "id": "P0631"
     },
     {
@@ -3857,6 +4047,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "旧福浦灯台",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0666"
     },
     {
@@ -3880,6 +4071,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "旧福浦灯台",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0089"
     },
     {
@@ -3903,6 +4095,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "旧福浦灯台",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0090"
     },
     {
@@ -3926,6 +4119,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "旧福浦灯台",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0092"
     },
     {
@@ -3949,6 +4143,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "旧福浦灯台",
       "restricted": false,
+      "genre": "イベント",
       "id": "P0093"
     },
     {
@@ -3972,6 +4167,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "旧福浦灯台",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0095"
     },
     {
@@ -3995,6 +4191,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "旧福浦灯台",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0096"
     },
     {
@@ -4017,6 +4214,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "旧福浦灯台",
       "restricted": false,
+      "genre": "イベント",
       "id": "P0097"
     },
     {
@@ -4040,6 +4238,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "旧福浦灯台",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0186"
     },
     {
@@ -4063,6 +4262,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "旧福浦灯台",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0189"
     },
     {
@@ -4085,6 +4285,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "旧福浦灯台",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0484"
     },
     {
@@ -4105,6 +4306,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "旧福浦灯台",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0485"
     },
     {
@@ -4128,6 +4330,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "旧福浦灯台",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0508"
     },
     {
@@ -4149,6 +4352,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "大島諸願堂・大島キャンプ場",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0042"
     },
     {
@@ -4170,6 +4374,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "大島諸願堂・大島キャンプ場",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0043"
     },
     {
@@ -4191,6 +4396,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "大島諸願堂・大島キャンプ場",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0044"
     },
     {
@@ -4212,6 +4418,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "大島諸願堂・大島キャンプ場",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0045"
     },
     {
@@ -4233,6 +4440,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "大島諸願堂・大島キャンプ場",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0046"
     },
     {
@@ -4252,6 +4460,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "大島諸願堂・大島キャンプ場",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0047"
     },
     {
@@ -4273,6 +4482,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "大島諸願堂・大島キャンプ場",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0048"
     },
     {
@@ -4294,6 +4504,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "大島諸願堂・大島キャンプ場",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0157"
     },
     {
@@ -4315,6 +4526,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "大島諸願堂・大島キャンプ場",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0158"
     },
     {
@@ -4336,6 +4548,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "大島諸願堂・大島キャンプ場",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0159"
     },
     {
@@ -4357,6 +4570,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "大島諸願堂・大島キャンプ場",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0160"
     },
     {
@@ -4377,6 +4591,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "大島諸願堂・大島キャンプ場",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0161"
     },
     {
@@ -4397,6 +4612,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "大島諸願堂・大島キャンプ場",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0162"
     },
     {
@@ -4418,6 +4634,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "大島諸願堂・大島キャンプ場",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0163"
     },
     {
@@ -4439,6 +4656,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "大島諸願堂・大島キャンプ場",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0164"
     },
     {
@@ -4460,6 +4678,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "大島諸願堂・大島キャンプ場",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0168"
     },
     {
@@ -4480,6 +4699,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "大島諸願堂・大島キャンプ場",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0169"
     },
     {
@@ -4500,6 +4720,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "大島諸願堂・大島キャンプ場",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0171"
     },
     {
@@ -4520,6 +4741,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "大島諸願堂・大島キャンプ場",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0172"
     },
     {
@@ -4540,6 +4762,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "大島諸願堂・大島キャンプ場",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0174"
     },
     {
@@ -4560,6 +4783,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "大島諸願堂・大島キャンプ場",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0399"
     },
     {
@@ -4580,6 +4804,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "大島諸願堂・大島キャンプ場",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0400"
     },
     {
@@ -4600,6 +4825,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "大島諸願堂・大島キャンプ場",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0401"
     },
     {
@@ -4621,6 +4847,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "道の駅とぎ海街道・さくら貝資料館",
       "restricted": false,
+      "genre": "特産品",
       "id": "P0049"
     },
     {
@@ -4643,6 +4870,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "道の駅とぎ海街道・さくら貝資料館",
       "restricted": false,
+      "genre": "特産品",
       "id": "P0050"
     },
     {
@@ -4665,6 +4893,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "道の駅とぎ海街道・さくら貝資料館",
       "restricted": false,
+      "genre": "特産品",
       "id": "P0051"
     },
     {
@@ -4686,6 +4915,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "道の駅とぎ海街道・さくら貝資料館",
       "restricted": false,
+      "genre": "特産品",
       "id": "P0052"
     },
     {
@@ -4708,6 +4938,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "道の駅とぎ海街道・さくら貝資料館",
       "restricted": false,
+      "genre": "特産品",
       "id": "P0053"
     },
     {
@@ -4730,6 +4961,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "道の駅とぎ海街道・さくら貝資料館",
       "restricted": false,
+      "genre": "特産品",
       "id": "P0054"
     },
     {
@@ -4750,6 +4982,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "道の駅とぎ海街道・さくら貝資料館",
       "restricted": false,
+      "genre": "特産品",
       "id": "P0056"
     },
     {
@@ -4772,6 +5005,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "道の駅とぎ海街道・さくら貝資料館",
       "restricted": false,
+      "genre": "特産品",
       "id": "P0057"
     },
     {
@@ -4794,6 +5028,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "道の駅とぎ海街道・さくら貝資料館",
       "restricted": false,
+      "genre": "特産品",
       "id": "P0058"
     },
     {
@@ -4815,6 +5050,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "道の駅とぎ海街道・さくら貝資料館",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0577"
     },
     {
@@ -4836,6 +5072,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "道の駅とぎ海街道・さくら貝資料館",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0578"
     },
     {
@@ -4857,6 +5094,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "道の駅とぎ海街道・さくら貝資料館",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0579"
     },
     {
@@ -4879,6 +5117,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "道の駅とぎ海街道・さくら貝資料館",
       "restricted": false,
+      "genre": "特産品",
       "id": "P0335"
     },
     {
@@ -4901,6 +5140,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "道の駅とぎ海街道・さくら貝資料館",
       "restricted": false,
+      "genre": "特産品",
       "id": "P0336"
     },
     {
@@ -4921,6 +5161,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "道の駅とぎ海街道・さくら貝資料館",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0337"
     },
     {
@@ -4941,6 +5182,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "道の駅とぎ海街道・さくら貝資料館",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0339"
     },
     {
@@ -4961,6 +5203,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "道の駅とぎ海街道・さくら貝資料館",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0340"
     },
     {
@@ -4981,6 +5224,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "道の駅とぎ海街道・さくら貝資料館",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0341"
     },
     {
@@ -5000,6 +5244,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "道の駅とぎ海街道・さくら貝資料館",
       "restricted": false,
+      "genre": "特産品",
       "id": "P0342"
     },
     {
@@ -5020,6 +5265,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "道の駅とぎ海街道・さくら貝資料館",
       "restricted": false,
+      "genre": "祭り",
       "id": "P0343"
     },
     {
@@ -5040,6 +5286,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "道の駅とぎ海街道・さくら貝資料館",
       "restricted": false,
+      "genre": "特産品",
       "id": "P0344"
     },
     {
@@ -5060,6 +5307,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "道の駅とぎ海街道・さくら貝資料館",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0345"
     },
     {
@@ -5079,6 +5327,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "道の駅とぎ海街道・さくら貝資料館",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0347"
     },
     {
@@ -5099,6 +5348,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "道の駅とぎ海街道・さくら貝資料館",
       "restricted": false,
+      "genre": "特産品",
       "id": "P0349"
     },
     {
@@ -5119,6 +5369,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "道の駅とぎ海街道・さくら貝資料館",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0351"
     },
     {
@@ -5139,6 +5390,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "道の駅とぎ海街道・さくら貝資料館",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0352"
     },
     {
@@ -5159,6 +5411,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "道の駅とぎ海街道・さくら貝資料館",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0353"
     },
     {
@@ -5179,6 +5432,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "道の駅とぎ海街道・さくら貝資料館",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0354"
     },
     {
@@ -5199,6 +5453,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "道の駅とぎ海街道・さくら貝資料館",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0355"
     },
     {
@@ -5219,6 +5474,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "道の駅とぎ海街道・さくら貝資料館",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0356"
     },
     {
@@ -5239,6 +5495,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "道の駅とぎ海街道・さくら貝資料館",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0358"
     },
     {
@@ -5259,6 +5516,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "道の駅とぎ海街道・さくら貝資料館",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0360"
     },
     {
@@ -5279,6 +5537,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "道の駅とぎ海街道・さくら貝資料館",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0361"
     },
     {
@@ -5300,6 +5559,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "平家",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0059"
     },
     {
@@ -5320,6 +5580,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "平家",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0063"
     },
     {
@@ -5341,6 +5602,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "平家",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0060"
     },
     {
@@ -5362,6 +5624,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "平家",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0061"
     },
     {
@@ -5383,6 +5646,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "平家",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0062"
     },
     {
@@ -5403,6 +5667,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "平家",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0175"
     },
     {
@@ -5423,6 +5688,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "平家",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0176"
     },
     {
@@ -5443,6 +5709,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "平家",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0178"
     },
     {
@@ -5463,6 +5730,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "平家",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0179"
     },
     {
@@ -5483,6 +5751,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "平家",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0180"
     },
     {
@@ -5503,6 +5772,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "平家",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0181"
     },
     {
@@ -5523,6 +5793,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "平家",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0182"
     },
     {
@@ -5543,6 +5814,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "平家",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0183"
     },
     {
@@ -5563,6 +5835,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "平家",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0184"
     },
     {
@@ -5583,6 +5856,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "平家",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0185"
     },
     {
@@ -5602,6 +5876,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "松尾神社",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0566"
     },
     {
@@ -5621,6 +5896,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "松尾神社",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0681"
     },
     {
@@ -5640,6 +5916,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "松尾神社",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0144"
     },
     {
@@ -5659,6 +5936,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "松尾神社",
       "restricted": false,
+      "genre": "観光地",
       "id": "P0145"
     },
     {
@@ -5679,6 +5957,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0533"
     },
     {
@@ -5698,6 +5977,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0548"
     },
     {
@@ -5718,6 +5998,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0567"
     },
     {
@@ -5737,6 +6018,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0605"
     },
     {
@@ -5756,6 +6038,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0611"
     },
     {
@@ -5775,6 +6058,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0614"
     },
     {
@@ -5796,6 +6080,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": true,
+      "genre": "祭り",
       "id": "P0632"
     },
     {
@@ -5817,6 +6102,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": true,
+      "genre": "祭り",
       "id": "P0640"
     },
     {
@@ -5838,6 +6124,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": true,
+      "genre": "祭り",
       "id": "P0641"
     },
     {
@@ -5859,6 +6146,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": true,
+      "genre": "祭り",
       "id": "P0643"
     },
     {
@@ -5880,6 +6168,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": true,
+      "genre": "祭り",
       "id": "P0647"
     },
     {
@@ -5900,6 +6189,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": true,
+      "genre": "祭り",
       "id": "P0649"
     },
     {
@@ -5920,6 +6210,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": true,
+      "genre": "祭り",
       "id": "P0655"
     },
     {
@@ -5940,6 +6231,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": true,
+      "genre": "祭り",
       "id": "P0660"
     },
     {
@@ -5960,6 +6252,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": true,
+      "genre": "祭り",
       "id": "P0667"
     },
     {
@@ -5980,6 +6273,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": true,
+      "genre": "祭り",
       "id": "P0676"
     },
     {
@@ -6000,6 +6294,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0680"
     },
     {
@@ -6020,6 +6315,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0685"
     },
     {
@@ -6040,6 +6336,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0688"
     },
     {
@@ -6060,6 +6357,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "祭り",
       "id": "P0690"
     },
     {
@@ -6080,6 +6378,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0691"
     },
     {
@@ -6100,6 +6399,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0697"
     },
     {
@@ -6119,6 +6419,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0707"
     },
     {
@@ -6138,6 +6439,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0549"
     },
     {
@@ -6158,6 +6460,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0568"
     },
     {
@@ -6177,6 +6480,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0606"
     },
     {
@@ -6196,6 +6500,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0612"
     },
     {
@@ -6215,6 +6520,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0615"
     },
     {
@@ -6236,6 +6542,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": true,
+      "genre": "祭り",
       "id": "P0633"
     },
     {
@@ -6257,6 +6564,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": true,
+      "genre": "祭り",
       "id": "P0642"
     },
     {
@@ -6278,6 +6586,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": true,
+      "genre": "祭り",
       "id": "P0644"
     },
     {
@@ -6299,6 +6608,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": true,
+      "genre": "祭り",
       "id": "P0648"
     },
     {
@@ -6319,6 +6629,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": true,
+      "genre": "祭り",
       "id": "P0650"
     },
     {
@@ -6339,6 +6650,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": true,
+      "genre": "祭り",
       "id": "P0656"
     },
     {
@@ -6359,6 +6671,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": true,
+      "genre": "祭り",
       "id": "P0661"
     },
     {
@@ -6379,6 +6692,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": true,
+      "genre": "祭り",
       "id": "P0668"
     },
     {
@@ -6399,6 +6713,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": true,
+      "genre": "祭り",
       "id": "P0677"
     },
     {
@@ -6419,6 +6734,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0686"
     },
     {
@@ -6439,6 +6755,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0689"
     },
     {
@@ -6459,6 +6776,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0692"
     },
     {
@@ -6479,6 +6797,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0698"
     },
     {
@@ -6498,6 +6817,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0708"
     },
     {
@@ -6517,6 +6837,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0550"
     },
     {
@@ -6537,6 +6858,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0569"
     },
     {
@@ -6556,6 +6878,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0607"
     },
     {
@@ -6575,6 +6898,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0613"
     },
     {
@@ -6594,6 +6918,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0616"
     },
     {
@@ -6615,6 +6940,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": true,
+      "genre": "祭り",
       "id": "P0634"
     },
     {
@@ -6636,6 +6962,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": true,
+      "genre": "祭り",
       "id": "P0645"
     },
     {
@@ -6656,6 +6983,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": true,
+      "genre": "祭り",
       "id": "P0651"
     },
     {
@@ -6676,6 +7004,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": true,
+      "genre": "祭り",
       "id": "P0657"
     },
     {
@@ -6696,6 +7025,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": true,
+      "genre": "祭り",
       "id": "P0662"
     },
     {
@@ -6716,6 +7046,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": true,
+      "genre": "祭り",
       "id": "P0669"
     },
     {
@@ -6736,6 +7067,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": true,
+      "genre": "祭り",
       "id": "P0678"
     },
     {
@@ -6756,6 +7088,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0687"
     },
     {
@@ -6776,6 +7109,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0693"
     },
     {
@@ -6796,6 +7130,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0699"
     },
     {
@@ -6815,6 +7150,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0709"
     },
     {
@@ -6834,6 +7170,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0551"
     },
     {
@@ -6854,6 +7191,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0570"
     },
     {
@@ -6873,6 +7211,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0608"
     },
     {
@@ -6892,6 +7231,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0617"
     },
     {
@@ -6913,6 +7253,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": true,
+      "genre": "祭り",
       "id": "P0635"
     },
     {
@@ -6934,6 +7275,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": true,
+      "genre": "祭り",
       "id": "P0646"
     },
     {
@@ -6954,6 +7296,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": true,
+      "genre": "祭り",
       "id": "P0652"
     },
     {
@@ -6974,6 +7317,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": true,
+      "genre": "祭り",
       "id": "P0658"
     },
     {
@@ -6994,6 +7338,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": true,
+      "genre": "祭り",
       "id": "P0663"
     },
     {
@@ -7014,6 +7359,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": true,
+      "genre": "祭り",
       "id": "P0670"
     },
     {
@@ -7034,6 +7380,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": true,
+      "genre": "祭り",
       "id": "P0679"
     },
     {
@@ -7054,6 +7401,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0694"
     },
     {
@@ -7074,6 +7422,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0700"
     },
     {
@@ -7095,6 +7444,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0552"
     },
     {
@@ -7115,6 +7465,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0571"
     },
     {
@@ -7134,6 +7485,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0609"
     },
     {
@@ -7153,6 +7505,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0618"
     },
     {
@@ -7174,6 +7527,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": true,
+      "genre": "祭り",
       "id": "P0636"
     },
     {
@@ -7194,6 +7548,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": true,
+      "genre": "祭り",
       "id": "P0653"
     },
     {
@@ -7214,6 +7569,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": true,
+      "genre": "祭り",
       "id": "P0659"
     },
     {
@@ -7234,6 +7590,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": true,
+      "genre": "祭り",
       "id": "P0664"
     },
     {
@@ -7254,6 +7611,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": true,
+      "genre": "祭り",
       "id": "P0671"
     },
     {
@@ -7274,6 +7632,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0695"
     },
     {
@@ -7294,6 +7653,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0701"
     },
     {
@@ -7313,6 +7673,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0711"
     },
     {
@@ -7333,6 +7694,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0553"
     },
     {
@@ -7353,6 +7715,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0572"
     },
     {
@@ -7372,6 +7735,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0610"
     },
     {
@@ -7391,6 +7755,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0619"
     },
     {
@@ -7412,6 +7777,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": true,
+      "genre": "祭り",
       "id": "P0637"
     },
     {
@@ -7432,6 +7798,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": true,
+      "genre": "祭り",
       "id": "P0654"
     },
     {
@@ -7452,6 +7819,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": true,
+      "genre": "祭り",
       "id": "P0672"
     },
     {
@@ -7472,6 +7840,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0696"
     },
     {
@@ -7492,6 +7861,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0702"
     },
     {
@@ -7512,6 +7882,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0573"
     },
     {
@@ -7531,6 +7902,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0620"
     },
     {
@@ -7552,6 +7924,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": true,
+      "genre": "祭り",
       "id": "P0638"
     },
     {
@@ -7572,6 +7945,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": true,
+      "genre": "祭り",
       "id": "P0673"
     },
     {
@@ -7592,6 +7966,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0703"
     },
     {
@@ -7612,6 +7987,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0574"
     },
     {
@@ -7631,6 +8007,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0621"
     },
     {
@@ -7651,6 +8028,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": true,
+      "genre": "祭り",
       "id": "P0674"
     },
     {
@@ -7671,6 +8049,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0704"
     },
     {
@@ -7690,6 +8069,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0556"
     },
     {
@@ -7710,6 +8090,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0575"
     },
     {
@@ -7730,6 +8111,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": true,
+      "genre": "祭り",
       "id": "P0675"
     },
     {
@@ -7750,6 +8132,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0705"
     },
     {
@@ -7770,6 +8153,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0557"
     },
     {
@@ -7790,6 +8174,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0576"
     },
     {
@@ -7810,6 +8195,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0706"
     },
     {
@@ -7829,6 +8215,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0558"
     },
     {
@@ -7849,6 +8236,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0559"
     },
     {
@@ -7869,6 +8257,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0115"
     },
     {
@@ -7889,6 +8278,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0116"
     },
     {
@@ -7909,6 +8299,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0117"
     },
     {
@@ -7929,6 +8320,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0118"
     },
     {
@@ -7949,6 +8341,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0119"
     },
     {
@@ -7969,6 +8362,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0120"
     },
     {
@@ -7989,6 +8383,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0121"
     },
     {
@@ -8009,6 +8404,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0122"
     },
     {
@@ -8029,6 +8425,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0123"
     },
     {
@@ -8049,6 +8446,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0124"
     },
     {
@@ -8069,6 +8467,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0125"
     },
     {
@@ -8089,6 +8488,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0126"
     },
     {
@@ -8109,6 +8509,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0127"
     },
     {
@@ -8129,6 +8530,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0128"
     },
     {
@@ -8148,6 +8550,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0136"
     },
     {
@@ -8167,6 +8570,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0137"
     },
     {
@@ -8187,6 +8591,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0139"
     },
     {
@@ -8207,6 +8612,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0140"
     },
     {
@@ -8227,6 +8633,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0141"
     },
     {
@@ -8247,6 +8654,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0142"
     },
     {
@@ -8267,6 +8675,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0143"
     },
     {
@@ -8285,6 +8694,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0165"
     },
     {
@@ -8305,6 +8715,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0166"
     },
     {
@@ -8324,6 +8735,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0188"
     },
     {
@@ -8345,6 +8757,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0239"
     },
     {
@@ -8365,6 +8778,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0241"
     },
     {
@@ -8386,6 +8800,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0243"
     },
     {
@@ -8406,6 +8821,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0244"
     },
     {
@@ -8426,6 +8842,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0245"
     },
     {
@@ -8446,6 +8863,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0246"
     },
     {
@@ -8466,6 +8884,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0247"
     },
     {
@@ -8485,6 +8904,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0249"
     },
     {
@@ -8504,6 +8924,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0250"
     },
     {
@@ -8523,6 +8944,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0251"
     },
     {
@@ -8542,6 +8964,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0252"
     },
     {
@@ -8561,6 +8984,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0253"
     },
     {
@@ -8580,6 +9004,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0254"
     },
     {
@@ -8599,6 +9024,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0255"
     },
     {
@@ -8618,6 +9044,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0256"
     },
     {
@@ -8637,6 +9064,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0257"
     },
     {
@@ -8656,6 +9084,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0258"
     },
     {
@@ -8675,6 +9104,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0259"
     },
     {
@@ -8694,6 +9124,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0260"
     },
     {
@@ -8713,6 +9144,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0261"
     },
     {
@@ -8732,6 +9164,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0263"
     },
     {
@@ -8751,6 +9184,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0267"
     },
     {
@@ -8770,6 +9204,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0268"
     },
     {
@@ -8789,6 +9224,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0269"
     },
     {
@@ -8808,6 +9244,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0272"
     },
     {
@@ -8828,6 +9265,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "祭り",
       "id": "P0275"
     },
     {
@@ -8847,6 +9285,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "イベント",
       "id": "P0276"
     },
     {
@@ -8867,6 +9306,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "祭り",
       "id": "P0277"
     },
     {
@@ -8887,6 +9327,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "祭り",
       "id": "P0278"
     },
     {
@@ -8907,6 +9348,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "祭り",
       "id": "P0279"
     },
     {
@@ -8927,6 +9369,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "祭り",
       "id": "P0281"
     },
     {
@@ -8947,6 +9390,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "祭り",
       "id": "P0282"
     },
     {
@@ -8967,6 +9411,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "祭り",
       "id": "P0283"
     },
     {
@@ -8987,6 +9432,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "祭り",
       "id": "P0284"
     },
     {
@@ -9007,6 +9453,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "祭り",
       "id": "P0285"
     },
     {
@@ -9027,6 +9474,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "祭り",
       "id": "P0286"
     },
     {
@@ -9047,6 +9495,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "特産品",
       "id": "P0287"
     },
     {
@@ -9067,6 +9516,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "特産品",
       "id": "P0288"
     },
     {
@@ -9087,6 +9537,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "特産品",
       "id": "P0289"
     },
     {
@@ -9107,6 +9558,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "特産品",
       "id": "P0290"
     },
     {
@@ -9127,6 +9579,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "特産品",
       "id": "P0291"
     },
     {
@@ -9147,6 +9600,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "特産品",
       "id": "P0292"
     },
     {
@@ -9167,6 +9621,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "特産品",
       "id": "P0293"
     },
     {
@@ -9187,6 +9642,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "特産品",
       "id": "P0294"
     },
     {
@@ -9207,6 +9663,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "特産品",
       "id": "P0295"
     },
     {
@@ -9226,6 +9683,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "特産品",
       "id": "P0298"
     },
     {
@@ -9245,6 +9703,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "特産品",
       "id": "P0299"
     },
     {
@@ -9264,6 +9723,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "特産品",
       "id": "P0301"
     },
     {
@@ -9284,6 +9744,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "特産品",
       "id": "P0302"
     },
     {
@@ -9303,6 +9764,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "特産品",
       "id": "P0303"
     },
     {
@@ -9322,6 +9784,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "特産品",
       "id": "P0306"
     },
     {
@@ -9342,6 +9805,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "特産品",
       "id": "P0307"
     },
     {
@@ -9362,6 +9826,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "特産品",
       "id": "P0309"
     },
     {
@@ -9382,6 +9847,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "特産品",
       "id": "P0310"
     },
     {
@@ -9402,6 +9868,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "特産品",
       "id": "P0313"
     },
     {
@@ -9422,6 +9889,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "特産品",
       "id": "P0314"
     },
     {
@@ -9442,6 +9910,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "特産品",
       "id": "P0315"
     },
     {
@@ -9462,6 +9931,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "特産品",
       "id": "P0319"
     },
     {
@@ -9482,6 +9952,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "特産品",
       "id": "P0321"
     },
     {
@@ -9502,6 +9973,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "特産品",
       "id": "P0322"
     },
     {
@@ -9522,6 +9994,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "特産品",
       "id": "P0323"
     },
     {
@@ -9542,6 +10015,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "特産品",
       "id": "P0326"
     },
     {
@@ -9562,6 +10036,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "特産品",
       "id": "P0328"
     },
     {
@@ -9582,6 +10057,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "特産品",
       "id": "P0330"
     },
     {
@@ -9602,6 +10078,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "特産品",
       "id": "P0331"
     },
     {
@@ -9622,6 +10099,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "特産品",
       "id": "P0332"
     },
     {
@@ -9642,6 +10120,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "特産品",
       "id": "P0333"
     },
     {
@@ -9662,6 +10141,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0380"
     },
     {
@@ -9682,6 +10162,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0381"
     },
     {
@@ -9702,6 +10183,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0382"
     },
     {
@@ -9722,6 +10204,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0383"
     },
     {
@@ -9742,6 +10225,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0384"
     },
     {
@@ -9762,6 +10246,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0385"
     },
     {
@@ -9782,6 +10267,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0386"
     },
     {
@@ -9802,6 +10288,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0387"
     },
     {
@@ -9823,6 +10310,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0390"
     },
     {
@@ -9844,6 +10332,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0391"
     },
     {
@@ -9865,6 +10354,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0392"
     },
     {
@@ -9885,6 +10375,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0394"
     },
     {
@@ -9905,6 +10396,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0396"
     },
     {
@@ -9925,6 +10417,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0397"
     },
     {
@@ -9945,6 +10438,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0398"
     },
     {
@@ -9965,6 +10459,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0410"
     },
     {
@@ -9985,6 +10480,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0411"
     },
     {
@@ -10005,6 +10501,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0412"
     },
     {
@@ -10025,6 +10522,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0413"
     },
     {
@@ -10045,6 +10543,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0414"
     },
     {
@@ -10065,6 +10564,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0415"
     },
     {
@@ -10085,6 +10585,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0416"
     },
     {
@@ -10105,6 +10606,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0417"
     },
     {
@@ -10125,6 +10627,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0418"
     },
     {
@@ -10145,6 +10648,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0419"
     },
     {
@@ -10165,6 +10669,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0420"
     },
     {
@@ -10185,6 +10690,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0421"
     },
     {
@@ -10205,6 +10711,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0422"
     },
     {
@@ -10224,6 +10731,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0432"
     },
     {
@@ -10243,6 +10751,7 @@ window.SPL_LIBRARY = {
       "photographer": "志賀町",
       "source": "その他",
       "restricted": false,
+      "genre": "自然風景",
       "id": "P0504"
     }
   ]

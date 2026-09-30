@@ -165,6 +165,58 @@
     </div>
   </section>
 
+  <!-- ================= ジャンルで探す ================= -->
+  <section class="section section--soft" id="genres">
+    <div class="container">
+      <div class="section__head">
+        <div>
+          <span class="section__eyebrow">GENRES</span>
+          <h2 class="section__title">ジャンルで探す</h2>
+          <p class="section__lead">観光地だけでなく、祭り・特産品・自然風景からも写真を探せます。</p>
+        </div>
+      </div>
+      <div class="scene-grid reveal" id="genreGrid"></div>
+    </div>
+  </section>
+
+  <!-- ================= 目的で写真を探す ================= -->
+  <section class="section section--tight" id="purpose">
+    <div class="container">
+      <div class="section__head">
+        <div>
+          <span class="section__eyebrow">FIND</span>
+          <h2 class="section__title">目的で写真を探す</h2>
+          <p class="section__lead">使いたい場面や欲しい雰囲気を選ぶと、候補の写真をまとめて表示します。</p>
+        </div>
+      </div>
+      <form class="purpose-finder reveal" id="purposeFinder">
+        <div class="purpose-finder__field">
+          <label for="purposeUse">使いたい場面</label>
+          <select id="purposeUse">
+            <option value="">指定しない</option>
+            <option value="チラシ・ポスター向き">チラシ・ポスター</option>
+            <option value="SNS向き">SNS投稿</option>
+            <option value="印刷物向き">印刷物・広報誌</option>
+          </select>
+        </div>
+        <div class="purpose-finder__field">
+          <label for="purposeMood">欲しい雰囲気</label>
+          <select id="purposeMood">
+            <option value="">指定しない</option>
+            <option value="夕陽">夕陽</option>
+            <option value="海">海</option>
+            <option value="桜">桜</option>
+            <option value="星空">星空</option>
+            <option value="花">花</option>
+            <option value="祭り">祭り</option>
+            <option value="空撮">空撮</option>
+          </select>
+        </div>
+        <button class="purpose-finder__btn" type="submit">この条件で写真を探す</button>
+      </form>
+    </div>
+  </section>
+
   <!-- ================= 人気の写真（GA4のダウンロード数ランキング） ================= -->
   <section class="section" id="ranking" hidden>
     <div class="container">
@@ -318,6 +370,7 @@
     <a class="drawer__link" href="index.html">HOME</a>
     <a class="drawer__link" href="spots/index.html">スポットから探す</a>
     <a class="drawer__link" href="search.html">写真から探す</a>
+    <a class="drawer__link" href="#genres">ジャンルで探す</a>
     <a class="drawer__link" href="#scenes">シーンで探す</a>
     <a class="drawer__link" href="#seasons">季節から探す</a>
     <a class="drawer__link" href="terms.html">ご利用について</a>

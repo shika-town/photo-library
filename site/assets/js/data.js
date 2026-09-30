@@ -136,7 +136,8 @@ window.SPL_DATA = {
       ],
       "image": "assets/img/lib/P0003-new.jpg",
       "alt": "増穂浦海岸で拾い集めたさくら貝",
-      "restricted": false
+      "restricted": false,
+      "genre": "観光地"
     },
     {
       "id": "P0006",
@@ -151,7 +152,8 @@ window.SPL_DATA = {
       ],
       "image": "assets/img/lib/P0006-new.jpg",
       "alt": "青く光る世界一長いベンチのイルミネーション",
-      "restricted": false
+      "restricted": false,
+      "genre": "イベント"
     },
     {
       "id": "P0001",
@@ -166,7 +168,8 @@ window.SPL_DATA = {
       ],
       "image": "assets/img/lib/P0001-new.jpg",
       "alt": "岩の間から光が差す機具岩の夕景",
-      "restricted": false
+      "restricted": false,
+      "genre": "観光地"
     },
     {
       "id": "P0002",
@@ -181,7 +184,8 @@ window.SPL_DATA = {
       ],
       "image": "assets/img/lib/P0002-new.jpg",
       "alt": "上空から見たエメラルドグリーンの巌門の入り江",
-      "restricted": false
+      "restricted": false,
+      "genre": "観光地"
     },
     {
       "id": "P0005",
@@ -198,7 +202,8 @@ window.SPL_DATA = {
       ],
       "image": "assets/img/lib/P0005-new.jpg",
       "alt": "青空の下に建つ白い木造の旧福浦灯台",
-      "restricted": false
+      "restricted": false,
+      "genre": "観光地"
     },
     {
       "id": "P0007",
@@ -213,7 +218,8 @@ window.SPL_DATA = {
       ],
       "image": "assets/img/lib/P0007-new.jpg",
       "alt": "満開の桜が続く春の並木道",
-      "restricted": false
+      "restricted": false,
+      "genre": "自然風景"
     },
     {
       "id": "P0719",
@@ -228,7 +234,8 @@ window.SPL_DATA = {
       ],
       "image": "assets/img/lib/P0719-new.jpg",
       "alt": "",
-      "restricted": false
+      "restricted": false,
+      "genre": "観光地"
     }
   ],
   "seasons": [
@@ -301,5 +308,37 @@ window.SPL_DATA = {
         "href": "instagram.html"
       }
     ]
-  }
+  },
+  "genres": [
+    {
+      "label": "観光地",
+      "query": "観光地",
+      "image": "assets/img/lib/P0002-thumb.jpg",
+      "alt": "巌門の入り江"
+    },
+    {
+      "label": "特産品",
+      "query": "特産品",
+      "image": "assets/img/lib/P0056-thumb.jpg",
+      "alt": "志賀町優良特産品_さくら貝華ブローチ"
+    },
+    {
+      "label": "祭り",
+      "query": "祭り",
+      "image": "assets/img/lib/P0634-thumb.jpg",
+      "alt": "八朔祭礼_3"
+    },
+    {
+      "label": "イベント",
+      "query": "イベント",
+      "image": "assets/img/lib/P0228-thumb.jpg",
+      "alt": "世界一長いベンチ_花火3"
+    },
+    {
+      "label": "自然風景",
+      "query": "自然風景",
+      "image": "assets/img/lib/P0007-thumb.jpg",
+      "alt": "尊保の桜並木"
+    }
+  ]
 };

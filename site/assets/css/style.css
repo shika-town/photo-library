@@ -320,6 +320,7 @@ h1, h2, h3, p { margin: 0; }
    おすすめシーン（写真カード）
    ===================================================================== */
 .scene-grid { display: grid; gap: 20px; grid-template-columns: repeat(6, minmax(0, 1fr)); }
+#genreGrid.scene-grid { grid-template-columns: repeat(5, minmax(0, 1fr)); }
 .scene-card {
   position: relative; display: block; width: 100%; aspect-ratio: 1 / 1;
   border-radius: var(--radius); overflow: hidden; padding: 0;
@@ -339,6 +340,33 @@ h1, h2, h3, p { margin: 0; }
   font-size: 14px; font-weight: 700; letter-spacing: .14em;
   text-shadow: 0 1px 10px rgba(0, 0, 0, .45);
 }
+
+/* =====================================================================
+   目的で写真を探す（用途・雰囲気のプルダウン検索）
+   ===================================================================== */
+.purpose-finder {
+  display: flex; flex-wrap: wrap; align-items: flex-end; gap: 20px;
+  background: var(--bg-soft); border: 1px solid var(--line); border-radius: var(--radius);
+  padding: 28px 32px;
+}
+.purpose-finder__field { flex: 1 1 220px; display: flex; flex-direction: column; gap: 8px; }
+.purpose-finder__field label {
+  font-size: 12px; font-weight: 700; letter-spacing: .1em; color: var(--ink-sub);
+}
+.purpose-finder__field select {
+  width: 100%; padding: 13px 16px; box-sizing: border-box;
+  border: 1px solid var(--line); border-radius: var(--radius-sm);
+  background: var(--bg);
+  font-size: 14.5px; color: var(--ink); cursor: pointer;
+  transition: border-color .2s var(--ease);
+}
+.purpose-finder__field select:focus { outline: none; border-color: var(--accent); }
+.purpose-finder__btn {
+  flex: 0 0 auto; padding: 14px 28px; border-radius: var(--radius-sm);
+  background: var(--accent); color: #fff; font-size: 14px; font-weight: 500; letter-spacing: .08em;
+  transition: background .25s var(--ease);
+}
+.purpose-finder__btn:hover { background: var(--accent-dark); }
 
 /* =====================================================================
    写真から探す（3列 / 360x280）
@@ -543,7 +571,7 @@ h1, h2, h3, p { margin: 0; }
   .nav__list { gap: 22px; }
   .nav__link { font-size: 12px; letter-spacing: .06em; }
   .spot-grid, .photo-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .scene-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .scene-grid, #genreGrid.scene-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 }
 
 /* =====================================================================
@@ -582,8 +610,10 @@ h1, h2, h3, p { margin: 0; }
   .photo-card__title { font-size: 13.5px; }
   .photo-card__tags { gap: 5px; margin-top: 9px; }
   .tag { font-size: 10.5px; padding: 3px 10px; }
-  .scene-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+  .scene-grid, #genreGrid.scene-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
   .scene-card__label { font-size: 12px; letter-spacing: .1em; bottom: 10px; }
+  .purpose-finder { flex-direction: column; align-items: stretch; padding: 20px; }
+  .purpose-finder__btn { width: 100%; }
 
   .season { padding-block: 52px; }
   .season__title { font-size: 17px; letter-spacing: .1em; }

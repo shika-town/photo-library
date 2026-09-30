@@ -49,6 +49,14 @@
   function matchSeason(p, season) {
     return String(p.season || '') === season;
   }
+  function matchGenre(p, genre) {
+    return String(p.genre || '') === genre;
+  }
+  // 「目的で写真を探す」用：指定したタグを全部持っている写真だけに絞り込む（AND）。
+  function matchAllTags(p, tagList) {
+    var have = p.tags || [];
+    return tagList.every(function (t) { return have.indexOf(t) !== -1; });
+  }
 
   function pager(page, total) {
     if (total <= 1) return '';
@@ -88,10 +96,13 @@
     var q = (params.get('q') || '').trim();
     var tag = (params.get('tag') || '').trim();
     var season = (params.get('season') || '').trim();
+    var genre = (params.get('genre') || '').trim();
+    var tagsParam = (params.get('tags') || '').trim();
+    var tagList = tagsParam ? tagsParam.split(',').map(function (s) { return s.trim(); }).filter(Boolean) : [];
     var page = Math.max(1, parseInt(params.get('page') || '1', 10) || 1);
     var area = params.get('area') || 'all';
-    // 表示・検索欄への反映用（タグ／季節で来た場合もそのキーワードを見せる）
-    var displayQuery = tag || season || q;
+    // 表示・検索欄への反映用（タグ／季節／ジャンル／複数タグで来た場合もそのキーワードを見せる）
+    var displayQuery = tag || season || genre || tagList.join(' × ') || q;
 
     $('#searchInput').value = displayQuery;
     document.title = (displayQuery ? '「' + displayQuery + '」の検索結果' : '写真から探す') + '｜SHIKA PHOTO LIBRARY';
@@ -104,10 +115,12 @@
 
     loadLibrary().then(function (lib) {
       var all = lib.photos;
-      // タグ・季節はそのタグ／季節が実際に付いている写真だけに絞る完全一致、
+      // タグ・季節・ジャンルはそれが実際に付いている写真だけに絞る完全一致、
       // 自由文検索（q）はタイトル・スポット名なども含めたあいまい検索。
       var hits = tag ? all.filter(function (p) { return matchTag(p, tag); })
         : season ? all.filter(function (p) { return matchSeason(p, season); })
+        : genre ? all.filter(function (p) { return matchGenre(p, genre); })
+        : tagList.length ? all.filter(function (p) { return matchAllTags(p, tagList); })
         : q ? all.filter(function (p) { return match(p, q.toLowerCase()); })
         : all.slice();
       var areas = [];
@@ -145,6 +158,8 @@
         var u = new URLSearchParams();
         if (tag) u.set('tag', tag);
         else if (season) u.set('season', season);
+        else if (genre) u.set('genre', genre);
+        else if (tagList.length) u.set('tags', tagList.join(','));
         else if (q) u.set('q', q);
         if (next.area !== undefined ? next.area !== 'all' : area !== 'all') u.set('area', next.area !== undefined ? next.area : area);
         if (next.page && next.page > 1) u.set('page', next.page);
