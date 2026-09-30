@@ -1,7 +1,7 @@
 {
   "meta": {
     "note": "photos.json と spots.json から自動生成しています。直接編集せず、scripts/build-library.py を実行してください。",
-    "count": 507
+    "count": 509
   },
   "photos": [
     {
@@ -124,6 +124,26 @@
       "source": "新着写真",
       "restricted": false,
       "id": "P0007"
+    },
+    {
+      "title": "遠くから眺める旧福浦灯台",
+      "spot": "旧福浦灯台",
+      "spotId": "fukura",
+      "area": "富来エリア",
+      "season": "夏",
+      "tags": [
+        "海",
+        "文化施設",
+        "建築"
+      ],
+      "thumb": "assets/img/lib/P0719-thumb.jpg",
+      "large": "assets/img/lib/P0719-large.jpg",
+      "alt": "",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "新着写真",
+      "restricted": false,
+      "id": "P0719"
     },
     {
       "title": "上空から見た増穂浦海岸とベンチ",
@@ -1802,6 +1822,26 @@
       "source": "巌門",
       "restricted": false,
       "id": "P0585"
+    },
+    {
+      "title": "（記入例）夕暮れの巌門",
+      "spot": "巌門",
+      "spotId": "gate",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "夕陽",
+        "海",
+        "岩"
+      ],
+      "thumb": "assets/img/lib/F0001-thumb.jpg",
+      "large": "assets/img/lib/F0001-large.jpg",
+      "alt": "（記入例）夕暮れの巌門",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "巌門",
+      "restricted": false,
+      "id": "F0001"
     },
     {
       "title": "巌門_16",

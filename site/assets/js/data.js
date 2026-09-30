@@ -64,7 +64,7 @@ window.SPL_DATA = {
       "id": "gate",
       "name": "巌門",
       "area": "富来エリア",
-      "count": 60,
+      "count": 61,
       "image": "assets/img/lib/P0020-hero.jpg",
       "alt": "巌門",
       "description": "日本海が作り上げた芸術"
@@ -213,6 +213,21 @@ window.SPL_DATA = {
       ],
       "image": "assets/img/lib/P0007-new.jpg",
       "alt": "満開の桜が続く春の並木道",
+      "restricted": false
+    },
+    {
+      "id": "P0719",
+      "title": "遠くから眺める旧福浦灯台",
+      "spot": "旧福浦灯台",
+      "area": "富来エリア",
+      "season": "夏",
+      "tags": [
+        "海",
+        "文化施設",
+        "建築"
+      ],
+      "image": "assets/img/lib/P0719-new.jpg",
+      "alt": "",
       "restricted": false
     }
   ],
