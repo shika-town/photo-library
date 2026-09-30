@@ -1,7 +1,7 @@
 {
   "meta": {
     "note": "photos.json と spots.json から自動生成しています。直接編集せず、scripts/build-library.py を実行してください。",
-    "count": 509
+    "count": 595
   },
   "photos": [
     {
@@ -130,6 +130,27 @@
       "restricted": false,
       "genre": "自然風景",
       "id": "P0007"
+    },
+    {
+      "title": "巌門と遊覧船正面から",
+      "spot": "巌門",
+      "spotId": "gate",
+      "area": "富来エリア",
+      "season": "夏",
+      "tags": [
+        "海",
+        "岩",
+        "断崖",
+        "遊覧船"
+      ],
+      "thumb": "assets/img/lib/P0718-thumb.jpg",
+      "large": "assets/img/lib/P0718-large.jpg",
+      "alt": "",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "新着写真",
+      "restricted": false,
+      "id": "P0718"
     },
     {
       "title": "遠くから眺める旧福浦灯台",
@@ -275,6 +296,47 @@
       "id": "P0682"
     },
     {
+      "title": "増穂浦海岸_9",
+      "spot": "世界一長いベンチ・増穂浦海岸",
+      "spotId": "bench",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "空撮",
+        "青空",
+        "増穂浦"
+      ],
+      "thumb": "assets/img/lib/P0779-thumb.jpg",
+      "large": "assets/img/lib/P0779-large.jpg",
+      "alt": "増穂浦海岸_9",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "世界一長いベンチ・増穂浦海岸",
+      "restricted": false,
+      "id": "P0779"
+    },
+    {
+      "title": "さくら貝_5",
+      "spot": "世界一長いベンチ・増穂浦海岸",
+      "spotId": "bench",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "海",
+        "砂浜",
+        "さくら貝",
+        "ベンチ"
+      ],
+      "thumb": "assets/img/lib/P0788-thumb.jpg",
+      "large": "assets/img/lib/P0788-large.jpg",
+      "alt": "さくら貝_5",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "世界一長いベンチ・増穂浦海岸",
+      "restricted": false,
+      "id": "P0788"
+    },
+    {
       "title": "増穂浦海岸_7",
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
@@ -296,6 +358,47 @@
       "id": "P0683"
     },
     {
+      "title": "増穂浦海岸_10",
+      "spot": "世界一長いベンチ・増穂浦海岸",
+      "spotId": "bench",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "空撮",
+        "青空",
+        "増穂浦"
+      ],
+      "thumb": "assets/img/lib/P0780-thumb.jpg",
+      "large": "assets/img/lib/P0780-large.jpg",
+      "alt": "増穂浦海岸_10",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "世界一長いベンチ・増穂浦海岸",
+      "restricted": false,
+      "id": "P0780"
+    },
+    {
+      "title": "さくら貝_6",
+      "spot": "世界一長いベンチ・増穂浦海岸",
+      "spotId": "bench",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "海",
+        "砂浜",
+        "さくら貝",
+        "ベンチ"
+      ],
+      "thumb": "assets/img/lib/P0789-thumb.jpg",
+      "large": "assets/img/lib/P0789-large.jpg",
+      "alt": "さくら貝_6",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "世界一長いベンチ・増穂浦海岸",
+      "restricted": false,
+      "id": "P0789"
+    },
+    {
       "title": "増穂浦海岸_8",
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
@@ -315,6 +418,88 @@
       "restricted": false,
       "genre": "観光地",
       "id": "P0684"
+    },
+    {
+      "title": "増穂浦海岸_11",
+      "spot": "世界一長いベンチ・増穂浦海岸",
+      "spotId": "bench",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "空撮",
+        "青空",
+        "増穂浦"
+      ],
+      "thumb": "assets/img/lib/P0781-thumb.jpg",
+      "large": "assets/img/lib/P0781-large.jpg",
+      "alt": "増穂浦海岸_11",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "世界一長いベンチ・増穂浦海岸",
+      "restricted": false,
+      "id": "P0781"
+    },
+    {
+      "title": "さくら貝_7",
+      "spot": "世界一長いベンチ・増穂浦海岸",
+      "spotId": "bench",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "海",
+        "砂浜",
+        "さくら貝",
+        "ベンチ"
+      ],
+      "thumb": "assets/img/lib/P0790-thumb.jpg",
+      "large": "assets/img/lib/P0790-large.jpg",
+      "alt": "さくら貝_7",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "世界一長いベンチ・増穂浦海岸",
+      "restricted": false,
+      "id": "P0790"
+    },
+    {
+      "title": "増穂浦海岸_12",
+      "spot": "世界一長いベンチ・増穂浦海岸",
+      "spotId": "bench",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "空撮",
+        "青空",
+        "増穂浦"
+      ],
+      "thumb": "assets/img/lib/P0782-thumb.jpg",
+      "large": "assets/img/lib/P0782-large.jpg",
+      "alt": "増穂浦海岸_12",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "世界一長いベンチ・増穂浦海岸",
+      "restricted": false,
+      "id": "P0782"
+    },
+    {
+      "title": "さくら貝_8",
+      "spot": "世界一長いベンチ・増穂浦海岸",
+      "spotId": "bench",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "海",
+        "砂浜",
+        "さくら貝",
+        "ベンチ"
+      ],
+      "thumb": "assets/img/lib/P0791-thumb.jpg",
+      "large": "assets/img/lib/P0791-large.jpg",
+      "alt": "さくら貝_8",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "世界一長いベンチ・増穂浦海岸",
+      "restricted": false,
+      "id": "P0791"
     },
     {
       "title": "上空から見た増穂浦海岸",
@@ -6421,6 +6606,139 @@
       "id": "P0707"
     },
     {
+      "title": "福浦祭り_17",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "祭り",
+        "福浦"
+      ],
+      "thumb": "assets/img/lib/P0720-thumb.jpg",
+      "large": "assets/img/lib/P0720-large.jpg",
+      "alt": "福浦祭り_17",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "id": "P0720"
+    },
+    {
+      "title": "福浦祭り_32",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "祭り",
+        "福浦"
+      ],
+      "thumb": "assets/img/lib/P0735-thumb.jpg",
+      "large": "assets/img/lib/P0735-large.jpg",
+      "alt": "福浦祭り_32",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "id": "P0735"
+    },
+    {
+      "title": "太鼓_1",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "太鼓",
+        "音楽"
+      ],
+      "thumb": "assets/img/lib/P0763-thumb.jpg",
+      "large": "assets/img/lib/P0763-large.jpg",
+      "alt": "太鼓_1",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "id": "P0763"
+    },
+    {
+      "title": "志賀町総合体育館上空_1",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "空撮",
+        "体育館"
+      ],
+      "thumb": "assets/img/lib/P0783-thumb.jpg",
+      "large": "assets/img/lib/P0783-large.jpg",
+      "alt": "志賀町総合体育館上空_1",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "id": "P0783"
+    },
+    {
+      "title": "いこいの村_6",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "村",
+        "公園"
+      ],
+      "thumb": "assets/img/lib/P0792-thumb.jpg",
+      "large": "assets/img/lib/P0792-large.jpg",
+      "alt": "いこいの村_6",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "id": "P0792"
+    },
+    {
+      "title": "桜_11",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "桜",
+        "花"
+      ],
+      "thumb": "assets/img/lib/P0798-thumb.jpg",
+      "large": "assets/img/lib/P0798-large.jpg",
+      "alt": "桜_11",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "id": "P0798"
+    },
+    {
+      "title": "桜_15",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "桜",
+        "花"
+      ],
+      "thumb": "assets/img/lib/P0802-thumb.jpg",
+      "large": "assets/img/lib/P0802-large.jpg",
+      "alt": "桜_15",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "id": "P0802"
+    },
+    {
       "title": "高爪山_4",
       "spot": "その他",
       "spotId": "other",
@@ -6819,6 +7137,120 @@
       "id": "P0708"
     },
     {
+      "title": "福浦祭り_18",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "祭り",
+        "福浦"
+      ],
+      "thumb": "assets/img/lib/P0721-thumb.jpg",
+      "large": "assets/img/lib/P0721-large.jpg",
+      "alt": "福浦祭り_18",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "id": "P0721"
+    },
+    {
+      "title": "福浦祭り_33",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "祭り",
+        "福浦"
+      ],
+      "thumb": "assets/img/lib/P0736-thumb.jpg",
+      "large": "assets/img/lib/P0736-large.jpg",
+      "alt": "福浦祭り_33",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "id": "P0736"
+    },
+    {
+      "title": "太鼓_2",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "太鼓",
+        "音楽"
+      ],
+      "thumb": "assets/img/lib/P0764-thumb.jpg",
+      "large": "assets/img/lib/P0764-large.jpg",
+      "alt": "太鼓_2",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "id": "P0764"
+    },
+    {
+      "title": "志賀町総合体育館上空_2",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "空撮",
+        "体育館"
+      ],
+      "thumb": "assets/img/lib/P0784-thumb.jpg",
+      "large": "assets/img/lib/P0784-large.jpg",
+      "alt": "志賀町総合体育館上空_2",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "id": "P0784"
+    },
+    {
+      "title": "いこいの村_7",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "村",
+        "公園"
+      ],
+      "thumb": "assets/img/lib/P0793-thumb.jpg",
+      "large": "assets/img/lib/P0793-large.jpg",
+      "alt": "いこいの村_7",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "id": "P0793"
+    },
+    {
+      "title": "桜_12",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "桜",
+        "花"
+      ],
+      "thumb": "assets/img/lib/P0799-thumb.jpg",
+      "large": "assets/img/lib/P0799-large.jpg",
+      "alt": "桜_12",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "id": "P0799"
+    },
+    {
       "title": "高爪山_5",
       "spot": "その他",
       "spotId": "other",
@@ -7152,6 +7584,120 @@
       "id": "P0709"
     },
     {
+      "title": "福浦祭り_19",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "祭り",
+        "福浦"
+      ],
+      "thumb": "assets/img/lib/P0722-thumb.jpg",
+      "large": "assets/img/lib/P0722-large.jpg",
+      "alt": "福浦祭り_19",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "id": "P0722"
+    },
+    {
+      "title": "福浦祭り_34",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "祭り",
+        "福浦"
+      ],
+      "thumb": "assets/img/lib/P0737-thumb.jpg",
+      "large": "assets/img/lib/P0737-large.jpg",
+      "alt": "福浦祭り_34",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "id": "P0737"
+    },
+    {
+      "title": "太鼓_3",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "太鼓",
+        "音楽"
+      ],
+      "thumb": "assets/img/lib/P0765-thumb.jpg",
+      "large": "assets/img/lib/P0765-large.jpg",
+      "alt": "太鼓_3",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "id": "P0765"
+    },
+    {
+      "title": "志賀町総合体育館上空_3",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "空撮",
+        "体育館"
+      ],
+      "thumb": "assets/img/lib/P0785-thumb.jpg",
+      "large": "assets/img/lib/P0785-large.jpg",
+      "alt": "志賀町総合体育館上空_3",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "id": "P0785"
+    },
+    {
+      "title": "いこいの村_8",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "村",
+        "公園"
+      ],
+      "thumb": "assets/img/lib/P0794-thumb.jpg",
+      "large": "assets/img/lib/P0794-large.jpg",
+      "alt": "いこいの村_8",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "id": "P0794"
+    },
+    {
+      "title": "桜_13",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "桜",
+        "花"
+      ],
+      "thumb": "assets/img/lib/P0800-thumb.jpg",
+      "large": "assets/img/lib/P0800-large.jpg",
+      "alt": "桜_13",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "id": "P0800"
+    },
+    {
       "title": "高爪山_6",
       "spot": "その他",
       "spotId": "other",
@@ -7424,6 +7970,120 @@
       "id": "P0700"
     },
     {
+      "title": "福浦祭り_20",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "祭り",
+        "福浦"
+      ],
+      "thumb": "assets/img/lib/P0723-thumb.jpg",
+      "large": "assets/img/lib/P0723-large.jpg",
+      "alt": "福浦祭り_20",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "id": "P0723"
+    },
+    {
+      "title": "福浦祭り_35",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "祭り",
+        "福浦"
+      ],
+      "thumb": "assets/img/lib/P0738-thumb.jpg",
+      "large": "assets/img/lib/P0738-large.jpg",
+      "alt": "福浦祭り_35",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "id": "P0738"
+    },
+    {
+      "title": "太鼓_4",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "太鼓",
+        "音楽"
+      ],
+      "thumb": "assets/img/lib/P0766-thumb.jpg",
+      "large": "assets/img/lib/P0766-large.jpg",
+      "alt": "太鼓_4",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "id": "P0766"
+    },
+    {
+      "title": "志賀町総合体育館上空_4",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "空撮",
+        "体育館"
+      ],
+      "thumb": "assets/img/lib/P0786-thumb.jpg",
+      "large": "assets/img/lib/P0786-large.jpg",
+      "alt": "志賀町総合体育館上空_4",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "id": "P0786"
+    },
+    {
+      "title": "いこいの村_9",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "村",
+        "公園"
+      ],
+      "thumb": "assets/img/lib/P0795-thumb.jpg",
+      "large": "assets/img/lib/P0795-large.jpg",
+      "alt": "いこいの村_9",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "id": "P0795"
+    },
+    {
+      "title": "桜_14",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "桜",
+        "花"
+      ],
+      "thumb": "assets/img/lib/P0801-thumb.jpg",
+      "large": "assets/img/lib/P0801-large.jpg",
+      "alt": "桜_14",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "id": "P0801"
+    },
+    {
       "title": "高爪山_7",
       "spot": "その他",
       "spotId": "other",
@@ -7675,6 +8335,101 @@
       "id": "P0711"
     },
     {
+      "title": "福浦祭り_21",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "祭り",
+        "福浦"
+      ],
+      "thumb": "assets/img/lib/P0724-thumb.jpg",
+      "large": "assets/img/lib/P0724-large.jpg",
+      "alt": "福浦祭り_21",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "id": "P0724"
+    },
+    {
+      "title": "福浦祭り_36",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "祭り",
+        "福浦"
+      ],
+      "thumb": "assets/img/lib/P0739-thumb.jpg",
+      "large": "assets/img/lib/P0739-large.jpg",
+      "alt": "福浦祭り_36",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "id": "P0739"
+    },
+    {
+      "title": "太鼓_5",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "太鼓",
+        "音楽"
+      ],
+      "thumb": "assets/img/lib/P0767-thumb.jpg",
+      "large": "assets/img/lib/P0767-large.jpg",
+      "alt": "太鼓_5",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "id": "P0767"
+    },
+    {
+      "title": "志賀町総合体育館上空_5",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "空撮",
+        "体育館"
+      ],
+      "thumb": "assets/img/lib/P0787-thumb.jpg",
+      "large": "assets/img/lib/P0787-large.jpg",
+      "alt": "志賀町総合体育館上空_5",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "id": "P0787"
+    },
+    {
+      "title": "いこいの村_10",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "村",
+        "公園"
+      ],
+      "thumb": "assets/img/lib/P0796-thumb.jpg",
+      "large": "assets/img/lib/P0796-large.jpg",
+      "alt": "いこいの村_10",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "id": "P0796"
+    },
+    {
       "title": "高爪山_8",
       "spot": "その他",
       "spotId": "other",
@@ -7863,6 +8618,101 @@
       "id": "P0702"
     },
     {
+      "title": "福浦祭り_22",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "祭り",
+        "福浦"
+      ],
+      "thumb": "assets/img/lib/P0725-thumb.jpg",
+      "large": "assets/img/lib/P0725-large.jpg",
+      "alt": "福浦祭り_22",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "id": "P0725"
+    },
+    {
+      "title": "福浦祭り_37",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "祭り",
+        "福浦"
+      ],
+      "thumb": "assets/img/lib/P0740-thumb.jpg",
+      "large": "assets/img/lib/P0740-large.jpg",
+      "alt": "福浦祭り_37",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "id": "P0740"
+    },
+    {
+      "title": "太鼓_6",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "太鼓",
+        "音楽"
+      ],
+      "thumb": "assets/img/lib/P0768-thumb.jpg",
+      "large": "assets/img/lib/P0768-large.jpg",
+      "alt": "太鼓_6",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "id": "P0768"
+    },
+    {
+      "title": "いこいの村_11",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "村",
+        "公園"
+      ],
+      "thumb": "assets/img/lib/P0797-thumb.jpg",
+      "large": "assets/img/lib/P0797-large.jpg",
+      "alt": "いこいの村_11",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "id": "P0797"
+    },
+    {
+      "title": "imgsion156",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "能登富士",
+        "山"
+      ],
+      "thumb": "assets/img/lib/P0554-thumb.jpg",
+      "large": "assets/img/lib/P0554-large.jpg",
+      "alt": "imgsion156",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "id": "P0554"
+    },
+    {
       "title": "大笹波水田_9",
       "spot": "その他",
       "spotId": "other",
@@ -7968,6 +8818,82 @@
       "id": "P0703"
     },
     {
+      "title": "福浦祭り_23",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "祭り",
+        "福浦"
+      ],
+      "thumb": "assets/img/lib/P0726-thumb.jpg",
+      "large": "assets/img/lib/P0726-large.jpg",
+      "alt": "福浦祭り_23",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "id": "P0726"
+    },
+    {
+      "title": "福浦祭り_38",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "祭り",
+        "福浦"
+      ],
+      "thumb": "assets/img/lib/P0741-thumb.jpg",
+      "large": "assets/img/lib/P0741-large.jpg",
+      "alt": "福浦祭り_38",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "id": "P0741"
+    },
+    {
+      "title": "太鼓_7",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "太鼓",
+        "音楽"
+      ],
+      "thumb": "assets/img/lib/P0769-thumb.jpg",
+      "large": "assets/img/lib/P0769-large.jpg",
+      "alt": "太鼓_7",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "id": "P0769"
+    },
+    {
+      "title": "コピー ～ 高爪山 1",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "能登富士",
+        "山"
+      ],
+      "thumb": "assets/img/lib/P0555-thumb.jpg",
+      "large": "assets/img/lib/P0555-large.jpg",
+      "alt": "コピー ～ 高爪山 1",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "id": "P0555"
+    },
+    {
       "title": "大笹波水田_10",
       "spot": "その他",
       "spotId": "other",
@@ -8049,6 +8975,63 @@
       "restricted": false,
       "genre": "自然風景",
       "id": "P0704"
+    },
+    {
+      "title": "福浦祭り_24",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "祭り",
+        "福浦"
+      ],
+      "thumb": "assets/img/lib/P0727-thumb.jpg",
+      "large": "assets/img/lib/P0727-large.jpg",
+      "alt": "福浦祭り_24",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "id": "P0727"
+    },
+    {
+      "title": "福浦祭り_39",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "祭り",
+        "福浦"
+      ],
+      "thumb": "assets/img/lib/P0742-thumb.jpg",
+      "large": "assets/img/lib/P0742-large.jpg",
+      "alt": "福浦祭り_39",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "id": "P0742"
+    },
+    {
+      "title": "太鼓_8",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "太鼓",
+        "音楽"
+      ],
+      "thumb": "assets/img/lib/P0770-thumb.jpg",
+      "large": "assets/img/lib/P0770-large.jpg",
+      "alt": "太鼓_8",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "id": "P0770"
     },
     {
       "title": "高爪山_9",
@@ -8134,6 +9117,63 @@
       "id": "P0705"
     },
     {
+      "title": "福浦祭り_25",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "祭り",
+        "福浦"
+      ],
+      "thumb": "assets/img/lib/P0728-thumb.jpg",
+      "large": "assets/img/lib/P0728-large.jpg",
+      "alt": "福浦祭り_25",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "id": "P0728"
+    },
+    {
+      "title": "福浦祭り_40",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "祭り",
+        "福浦"
+      ],
+      "thumb": "assets/img/lib/P0743-thumb.jpg",
+      "large": "assets/img/lib/P0743-large.jpg",
+      "alt": "福浦祭り_40",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "id": "P0743"
+    },
+    {
+      "title": "太鼓_9",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "太鼓",
+        "音楽"
+      ],
+      "thumb": "assets/img/lib/P0771-thumb.jpg",
+      "large": "assets/img/lib/P0771-large.jpg",
+      "alt": "太鼓_9",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "id": "P0771"
+    },
+    {
       "title": "高爪山_10",
       "spot": "その他",
       "spotId": "other",
@@ -8197,6 +9237,63 @@
       "id": "P0706"
     },
     {
+      "title": "福浦祭り_26",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "祭り",
+        "福浦"
+      ],
+      "thumb": "assets/img/lib/P0729-thumb.jpg",
+      "large": "assets/img/lib/P0729-large.jpg",
+      "alt": "福浦祭り_26",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "id": "P0729"
+    },
+    {
+      "title": "福浦祭り_41",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "祭り",
+        "福浦"
+      ],
+      "thumb": "assets/img/lib/P0744-thumb.jpg",
+      "large": "assets/img/lib/P0744-large.jpg",
+      "alt": "福浦祭り_41",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "id": "P0744"
+    },
+    {
+      "title": "太鼓_10",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "太鼓",
+        "音楽"
+      ],
+      "thumb": "assets/img/lib/P0772-thumb.jpg",
+      "large": "assets/img/lib/P0772-large.jpg",
+      "alt": "太鼓_10",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "id": "P0772"
+    },
+    {
       "title": "高爪山 1",
       "spot": "その他",
       "spotId": "other",
@@ -8215,6 +9312,63 @@
       "restricted": false,
       "genre": "自然風景",
       "id": "P0558"
+    },
+    {
+      "title": "福浦祭り_27",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "祭り",
+        "福浦"
+      ],
+      "thumb": "assets/img/lib/P0730-thumb.jpg",
+      "large": "assets/img/lib/P0730-large.jpg",
+      "alt": "福浦祭り_27",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "id": "P0730"
+    },
+    {
+      "title": "福浦祭り_42",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "祭り",
+        "福浦"
+      ],
+      "thumb": "assets/img/lib/P0745-thumb.jpg",
+      "large": "assets/img/lib/P0745-large.jpg",
+      "alt": "福浦祭り_42",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "id": "P0745"
+    },
+    {
+      "title": "太鼓_11",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "太鼓",
+        "音楽"
+      ],
+      "thumb": "assets/img/lib/P0773-thumb.jpg",
+      "large": "assets/img/lib/P0773-large.jpg",
+      "alt": "太鼓_11",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "id": "P0773"
     },
     {
       "title": "高爪山_11",
@@ -8236,6 +9390,500 @@
       "restricted": false,
       "genre": "自然風景",
       "id": "P0559"
+    },
+    {
+      "title": "福浦祭り_28",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "祭り",
+        "福浦"
+      ],
+      "thumb": "assets/img/lib/P0731-thumb.jpg",
+      "large": "assets/img/lib/P0731-large.jpg",
+      "alt": "福浦祭り_28",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "id": "P0731"
+    },
+    {
+      "title": "福浦祭り_43",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "祭り",
+        "福浦"
+      ],
+      "thumb": "assets/img/lib/P0746-thumb.jpg",
+      "large": "assets/img/lib/P0746-large.jpg",
+      "alt": "福浦祭り_43",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "id": "P0746"
+    },
+    {
+      "title": "太鼓_12",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "太鼓",
+        "音楽"
+      ],
+      "thumb": "assets/img/lib/P0774-thumb.jpg",
+      "large": "assets/img/lib/P0774-large.jpg",
+      "alt": "太鼓_12",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "id": "P0774"
+    },
+    {
+      "title": "福浦祭り_29",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "祭り",
+        "福浦"
+      ],
+      "thumb": "assets/img/lib/P0732-thumb.jpg",
+      "large": "assets/img/lib/P0732-large.jpg",
+      "alt": "福浦祭り_29",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "id": "P0732"
+    },
+    {
+      "title": "福浦祭り_44",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "祭り",
+        "福浦"
+      ],
+      "thumb": "assets/img/lib/P0747-thumb.jpg",
+      "large": "assets/img/lib/P0747-large.jpg",
+      "alt": "福浦祭り_44",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "id": "P0747"
+    },
+    {
+      "title": "太鼓_13",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "太鼓",
+        "音楽"
+      ],
+      "thumb": "assets/img/lib/P0775-thumb.jpg",
+      "large": "assets/img/lib/P0775-large.jpg",
+      "alt": "太鼓_13",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "id": "P0775"
+    },
+    {
+      "title": "福浦祭り_30",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "祭り",
+        "福浦"
+      ],
+      "thumb": "assets/img/lib/P0733-thumb.jpg",
+      "large": "assets/img/lib/P0733-large.jpg",
+      "alt": "福浦祭り_30",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "id": "P0733"
+    },
+    {
+      "title": "福浦祭り_45",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "祭り",
+        "福浦"
+      ],
+      "thumb": "assets/img/lib/P0748-thumb.jpg",
+      "large": "assets/img/lib/P0748-large.jpg",
+      "alt": "福浦祭り_45",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "id": "P0748"
+    },
+    {
+      "title": "太鼓_14",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "太鼓",
+        "音楽"
+      ],
+      "thumb": "assets/img/lib/P0776-thumb.jpg",
+      "large": "assets/img/lib/P0776-large.jpg",
+      "alt": "太鼓_14",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "id": "P0776"
+    },
+    {
+      "title": "福浦祭り_31",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "祭り",
+        "福浦"
+      ],
+      "thumb": "assets/img/lib/P0734-thumb.jpg",
+      "large": "assets/img/lib/P0734-large.jpg",
+      "alt": "福浦祭り_31",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "id": "P0734"
+    },
+    {
+      "title": "福浦祭り_46",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "祭り",
+        "福浦"
+      ],
+      "thumb": "assets/img/lib/P0749-thumb.jpg",
+      "large": "assets/img/lib/P0749-large.jpg",
+      "alt": "福浦祭り_46",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "id": "P0749"
+    },
+    {
+      "title": "太鼓_15",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "太鼓",
+        "音楽"
+      ],
+      "thumb": "assets/img/lib/P0777-thumb.jpg",
+      "large": "assets/img/lib/P0777-large.jpg",
+      "alt": "太鼓_15",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "id": "P0777"
+    },
+    {
+      "title": "福浦祭り_47",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "祭り",
+        "福浦"
+      ],
+      "thumb": "assets/img/lib/P0750-thumb.jpg",
+      "large": "assets/img/lib/P0750-large.jpg",
+      "alt": "福浦祭り_47",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "id": "P0750"
+    },
+    {
+      "title": "太鼓_16",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "太鼓",
+        "音楽"
+      ],
+      "thumb": "assets/img/lib/P0778-thumb.jpg",
+      "large": "assets/img/lib/P0778-large.jpg",
+      "alt": "太鼓_16",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "id": "P0778"
+    },
+    {
+      "title": "福浦祭り_48",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "祭り",
+        "福浦"
+      ],
+      "thumb": "assets/img/lib/P0751-thumb.jpg",
+      "large": "assets/img/lib/P0751-large.jpg",
+      "alt": "福浦祭り_48",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "id": "P0751"
+    },
+    {
+      "title": "福浦祭り_49",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "祭り",
+        "福浦"
+      ],
+      "thumb": "assets/img/lib/P0752-thumb.jpg",
+      "large": "assets/img/lib/P0752-large.jpg",
+      "alt": "福浦祭り_49",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "id": "P0752"
+    },
+    {
+      "title": "福浦祭り_50",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "祭り",
+        "福浦"
+      ],
+      "thumb": "assets/img/lib/P0753-thumb.jpg",
+      "large": "assets/img/lib/P0753-large.jpg",
+      "alt": "福浦祭り_50",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "id": "P0753"
+    },
+    {
+      "title": "福浦祭り_51",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "祭り",
+        "福浦"
+      ],
+      "thumb": "assets/img/lib/P0754-thumb.jpg",
+      "large": "assets/img/lib/P0754-large.jpg",
+      "alt": "福浦祭り_51",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "id": "P0754"
+    },
+    {
+      "title": "福浦祭り_52",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "祭り",
+        "福浦"
+      ],
+      "thumb": "assets/img/lib/P0755-thumb.jpg",
+      "large": "assets/img/lib/P0755-large.jpg",
+      "alt": "福浦祭り_52",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "id": "P0755"
+    },
+    {
+      "title": "福浦祭り_53",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "祭り",
+        "福浦"
+      ],
+      "thumb": "assets/img/lib/P0756-thumb.jpg",
+      "large": "assets/img/lib/P0756-large.jpg",
+      "alt": "福浦祭り_53",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "id": "P0756"
+    },
+    {
+      "title": "福浦祭り_54",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "祭り",
+        "福浦"
+      ],
+      "thumb": "assets/img/lib/P0757-thumb.jpg",
+      "large": "assets/img/lib/P0757-large.jpg",
+      "alt": "福浦祭り_54",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "id": "P0757"
+    },
+    {
+      "title": "福浦祭り_55",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "祭り",
+        "福浦"
+      ],
+      "thumb": "assets/img/lib/P0758-thumb.jpg",
+      "large": "assets/img/lib/P0758-large.jpg",
+      "alt": "福浦祭り_55",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "id": "P0758"
+    },
+    {
+      "title": "福浦祭り_56",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "祭り",
+        "福浦"
+      ],
+      "thumb": "assets/img/lib/P0759-thumb.jpg",
+      "large": "assets/img/lib/P0759-large.jpg",
+      "alt": "福浦祭り_56",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "id": "P0759"
+    },
+    {
+      "title": "福浦祭り_57",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "祭り",
+        "福浦"
+      ],
+      "thumb": "assets/img/lib/P0760-thumb.jpg",
+      "large": "assets/img/lib/P0760-large.jpg",
+      "alt": "福浦祭り_57",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "id": "P0760"
+    },
+    {
+      "title": "福浦祭り_58",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "祭り",
+        "福浦"
+      ],
+      "thumb": "assets/img/lib/P0761-thumb.jpg",
+      "large": "assets/img/lib/P0761-large.jpg",
+      "alt": "福浦祭り_58",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "id": "P0761"
+    },
+    {
+      "title": "福浦祭り_59",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "祭り",
+        "福浦"
+      ],
+      "thumb": "assets/img/lib/P0762-thumb.jpg",
+      "large": "assets/img/lib/P0762-large.jpg",
+      "alt": "福浦祭り_59",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "id": "P0762"
     },
     {
       "title": "青空に泳ぐこいのぼり",

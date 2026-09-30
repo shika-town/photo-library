@@ -46,7 +46,7 @@ window.SPL_DATA = {
       "id": "bench",
       "name": "世界一長いベンチ・増穂浦海岸",
       "area": "富来エリア",
-      "count": 58,
+      "count": 66,
       "image": "assets/img/lib/P0008-hero.jpg",
       "alt": "世界一長いベンチ・増穂浦海岸",
       "description": "海・貝・夕日、そして記憶に残る長さ"
@@ -64,7 +64,7 @@ window.SPL_DATA = {
       "id": "gate",
       "name": "巌門",
       "area": "富来エリア",
-      "count": 61,
+      "count": 62,
       "image": "assets/img/lib/P0020-hero.jpg",
       "alt": "巌門",
       "description": "日本海が作り上げた芸術"
@@ -220,6 +220,22 @@ window.SPL_DATA = {
       "alt": "満開の桜が続く春の並木道",
       "restricted": false,
       "genre": "自然風景"
+    },
+    {
+      "id": "P0718",
+      "title": "巌門と遊覧船正面から",
+      "spot": "巌門",
+      "area": "富来エリア",
+      "season": "夏",
+      "tags": [
+        "海",
+        "岩",
+        "断崖",
+        "遊覧船"
+      ],
+      "image": "assets/img/lib/P0718-new.jpg",
+      "alt": "",
+      "restricted": false
     },
     {
       "id": "P0719",
