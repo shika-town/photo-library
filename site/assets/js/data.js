@@ -132,7 +132,8 @@ window.SPL_DATA = {
       "season": "春,冬",
       "tags": [
         "砂浜",
-        "さくら貝"
+        "さくら貝",
+        "チラシ・ポスター向き"
       ],
       "image": "assets/img/lib/P0003-new.jpg",
       "alt": "増穂浦海岸で拾い集めたさくら貝",
@@ -148,7 +149,8 @@ window.SPL_DATA = {
       "tags": [
         "ベンチ",
         "夜景",
-        "イルミネーション"
+        "イルミネーション",
+        "SNS向き"
       ],
       "image": "assets/img/lib/P0006-new.jpg",
       "alt": "青く光る世界一長いベンチのイルミネーション",
@@ -164,7 +166,8 @@ window.SPL_DATA = {
       "tags": [
         "夕陽",
         "海",
-        "岩"
+        "岩",
+        "チラシ・ポスター向き"
       ],
       "image": "assets/img/lib/P0001-new.jpg",
       "alt": "岩の間から光が差す機具岩の夕景",
@@ -180,7 +183,8 @@ window.SPL_DATA = {
       "tags": [
         "空撮",
         "海",
-        "岩"
+        "岩",
+        "チラシ・ポスター向き"
       ],
       "image": "assets/img/lib/P0002-new.jpg",
       "alt": "上空から見たエメラルドグリーンの巌門の入り江",
@@ -198,7 +202,8 @@ window.SPL_DATA = {
         "建築",
         "青空",
         "灯台",
-        "日本最古"
+        "日本最古",
+        "チラシ・ポスター向き"
       ],
       "image": "assets/img/lib/P0005-new.jpg",
       "alt": "青空の下に建つ白い木造の旧福浦灯台",
@@ -214,7 +219,8 @@ window.SPL_DATA = {
       "tags": [
         "桜",
         "花",
-        "春"
+        "春",
+        "チラシ・ポスター向き"
       ],
       "image": "assets/img/lib/P0007-new.jpg",
       "alt": "満開の桜が続く春の並木道",
@@ -231,7 +237,8 @@ window.SPL_DATA = {
         "海",
         "岩",
         "断崖",
-        "遊覧船"
+        "遊覧船",
+        "チラシ・ポスター向き"
       ],
       "image": "assets/img/lib/P0718-new.jpg",
       "alt": "",
@@ -247,7 +254,8 @@ window.SPL_DATA = {
       "tags": [
         "海",
         "文化施設",
-        "建築"
+        "建築",
+        "チラシ・ポスター向き"
       ],
       "image": "assets/img/lib/P0719-new.jpg",
       "alt": "",

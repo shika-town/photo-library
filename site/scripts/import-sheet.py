@@ -244,6 +244,23 @@ def classify_genre(p, spot_name):
         return '観光地'
     return '自然風景'
 
+# 「目的で写真を探す」の“使いたい場面”タグ。写真1枚1枚に手作業で付けていくと
+# 数百枚分の作業になってしまうため、まずはジャンルから妥当な初期値を自動で付けておき、
+# 個別に直したい場合は管理画面のタグ欄で普通に編集・追加できるようにする。
+PURPOSE_BY_GENRE = {
+    '観光地':   'チラシ・ポスター向き',
+    '自然風景': 'チラシ・ポスター向き',
+    '祭り':     'SNS向き',
+    'イベント': 'SNS向き',
+    '特産品':   '印刷物向き',
+}
+def with_purpose_tag(tag_list, genre):
+    """タグ一覧に、ジャンルに応じた「使いたい場面」タグを（無ければ）追加する。"""
+    purpose = PURPOSE_BY_GENRE.get(genre)
+    if purpose and purpose not in tag_list:
+        return tag_list + [purpose]
+    return tag_list
+
 def photo_visible(p):
     """公開サイトに出す写真だけを通す。
     publish は表示ON/OFF、downloadAllowed はダウンロード対象のON/OFF。
@@ -378,13 +395,14 @@ def main():
         gal = []
         for p in mine:
             fy = FOCUS.get(str(p.get('focus', '')).strip(), 0.5)
+            _genre = classify_genre(p, s['name'])
             try:
                 f = fetch(p)
                 gal.append({'id': p['id'],
                             'thumb': '../' + make(f, 'lib/%s-thumb' % p['id'], SIZES['thumb'], fy),
                             'large': '../' + make(f, 'lib/%s-large' % p['id'], SIZES['large'], fy),
-                            'caption': p.get('title', ''), 'tags': split(p.get('tags')),
-                            'restricted': restricted(p), 'genre': classify_genre(p, s['name'])})
+                            'caption': p.get('title', ''), 'tags': with_purpose_tag(split(p.get('tags')), _genre),
+                            'restricted': restricted(p), 'genre': _genre})
             except Exception as e:
                 thumb = made_path('lib/%s-thumb' % p['id'])
                 large = made_path('lib/%s-large' % p['id'])
@@ -393,8 +411,8 @@ def main():
                     gal.append({'id': p['id'],
                                 'thumb': '../' + thumb,
                                 'large': '../' + large,
-                                'caption': p.get('title', ''), 'tags': split(p.get('tags')),
-                                'restricted': restricted(p), 'genre': classify_genre(p, s['name'])})
+                                'caption': p.get('title', ''), 'tags': with_purpose_tag(split(p.get('tags')), _genre),
+                                'restricted': restricted(p), 'genre': _genre})
                     continue
                 if not isinstance(e, (FileNotFoundError, UnidentifiedImageError)):
                     raise
@@ -435,13 +453,14 @@ def main():
                 if p['id'] not in skipped:
                     skipped.append(p['id']); print('  ！ %s' % e)
                 continue
+        _genre = classify_genre(p, p.get('spot', ''))
         new_photos.append({
             'id': p['id'], 'title': p['title'], 'spot': p.get('spot', ''), 'area': p.get('area', ''),
-            'season': p.get('season', ''), 'tags': split(p.get('tags')),
+            'season': p.get('season', ''), 'tags': with_purpose_tag(split(p.get('tags')), _genre),
             'image': _img,
             'alt': p.get('description', p['title']),
             'restricted': restricted(p),
-            'genre': classify_genre(p, p.get('spot', '')),
+            'genre': _genre,
         })
 
     # トップのヒーロー画像はスライドショー対応。heroPhotoId にカンマ区切りで

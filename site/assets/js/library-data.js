@@ -14,7 +14,8 @@ window.SPL_LIBRARY = {
       "season": "春,冬",
       "tags": [
         "砂浜",
-        "さくら貝"
+        "さくら貝",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0003-thumb.jpg",
       "large": "assets/img/lib/P0003-large.jpg",
@@ -35,7 +36,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "ベンチ",
         "夜景",
-        "イルミネーション"
+        "イルミネーション",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0006-thumb.jpg",
       "large": "assets/img/lib/P0006-large.jpg",
@@ -56,7 +58,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "夕陽",
         "海",
-        "岩"
+        "岩",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0001-thumb.jpg",
       "large": "assets/img/lib/P0001-large.jpg",
@@ -77,7 +80,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "空撮",
         "海",
-        "岩"
+        "岩",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0002-thumb.jpg",
       "large": "assets/img/lib/P0002-large.jpg",
@@ -100,7 +104,8 @@ window.SPL_LIBRARY = {
         "建築",
         "青空",
         "灯台",
-        "日本最古"
+        "日本最古",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0005-thumb.jpg",
       "large": "assets/img/lib/P0005-large.jpg",
@@ -121,7 +126,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "桜",
         "花",
-        "春"
+        "春",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0007-thumb.jpg",
       "large": "assets/img/lib/P0007-large.jpg",
@@ -143,7 +149,8 @@ window.SPL_LIBRARY = {
         "海",
         "岩",
         "断崖",
-        "遊覧船"
+        "遊覧船",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0718-thumb.jpg",
       "large": "assets/img/lib/P0718-large.jpg",
@@ -164,7 +171,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "文化施設",
-        "建築"
+        "建築",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0719-thumb.jpg",
       "large": "assets/img/lib/P0719-large.jpg",
@@ -185,7 +193,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "空撮",
-        "ベンチ"
+        "ベンチ",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0008-thumb.jpg",
       "large": "assets/img/lib/P0008-large.jpg",
@@ -205,7 +214,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "海",
-        "ベンチ"
+        "ベンチ",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0009-thumb.jpg",
       "large": "assets/img/lib/P0009-large.jpg",
@@ -224,7 +234,8 @@ window.SPL_LIBRARY = {
       "area": "富来エリア",
       "season": "",
       "tags": [
-        "ベンチ"
+        "ベンチ",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0010-thumb.jpg",
       "large": "assets/img/lib/P0010-large.jpg",
@@ -244,7 +255,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "ベンチ",
-        "青空"
+        "青空",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0011-thumb.jpg",
       "large": "assets/img/lib/P0011-large.jpg",
@@ -265,7 +277,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "ベンチ",
-        "さくら貝"
+        "さくら貝",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0012-thumb.jpg",
       "large": "assets/img/lib/P0012-large.jpg",
@@ -286,7 +299,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "青空",
-        "増穂浦"
+        "増穂浦",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0682-thumb.jpg",
       "large": "assets/img/lib/P0682-large.jpg",
@@ -307,7 +321,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "空撮",
         "青空",
-        "増穂浦"
+        "増穂浦",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0779-thumb.jpg",
       "large": "assets/img/lib/P0779-large.jpg",
@@ -329,7 +344,8 @@ window.SPL_LIBRARY = {
         "海",
         "砂浜",
         "さくら貝",
-        "ベンチ"
+        "ベンチ",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0788-thumb.jpg",
       "large": "assets/img/lib/P0788-large.jpg",
@@ -350,7 +366,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "青空",
-        "増穂浦"
+        "増穂浦",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0683-thumb.jpg",
       "large": "assets/img/lib/P0683-large.jpg",
@@ -371,7 +388,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "空撮",
         "青空",
-        "増穂浦"
+        "増穂浦",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0780-thumb.jpg",
       "large": "assets/img/lib/P0780-large.jpg",
@@ -393,7 +411,8 @@ window.SPL_LIBRARY = {
         "海",
         "砂浜",
         "さくら貝",
-        "ベンチ"
+        "ベンチ",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0789-thumb.jpg",
       "large": "assets/img/lib/P0789-large.jpg",
@@ -414,7 +433,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "青空",
-        "増穂浦"
+        "増穂浦",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0684-thumb.jpg",
       "large": "assets/img/lib/P0684-large.jpg",
@@ -435,7 +455,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "空撮",
         "青空",
-        "増穂浦"
+        "増穂浦",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0781-thumb.jpg",
       "large": "assets/img/lib/P0781-large.jpg",
@@ -457,7 +478,8 @@ window.SPL_LIBRARY = {
         "海",
         "砂浜",
         "さくら貝",
-        "ベンチ"
+        "ベンチ",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0790-thumb.jpg",
       "large": "assets/img/lib/P0790-large.jpg",
@@ -478,7 +500,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "空撮",
         "青空",
-        "増穂浦"
+        "増穂浦",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0782-thumb.jpg",
       "large": "assets/img/lib/P0782-large.jpg",
@@ -500,7 +523,8 @@ window.SPL_LIBRARY = {
         "海",
         "砂浜",
         "さくら貝",
-        "ベンチ"
+        "ベンチ",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0791-thumb.jpg",
       "large": "assets/img/lib/P0791-large.jpg",
@@ -521,7 +545,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "空撮",
-        "海岸線"
+        "海岸線",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0146-thumb.jpg",
       "large": "assets/img/lib/P0146-large.jpg",
@@ -542,7 +567,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "空撮",
-        "海岸線"
+        "海岸線",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0147-thumb.jpg",
       "large": "assets/img/lib/P0147-large.jpg",
@@ -563,7 +589,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "世界一長いベンチ",
         "海",
-        "青空"
+        "青空",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0148-thumb.jpg",
       "large": "assets/img/lib/P0148-large.jpg",
@@ -582,7 +609,8 @@ window.SPL_LIBRARY = {
       "area": "富来エリア",
       "season": "",
       "tags": [
-        "ベンチ"
+        "ベンチ",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0149-thumb.jpg",
       "large": "assets/img/lib/P0149-large.jpg",
@@ -602,7 +630,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "青空",
-        "世界一長いベンチ"
+        "世界一長いベンチ",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0150-thumb.jpg",
       "large": "assets/img/lib/P0150-large.jpg",
@@ -623,7 +652,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "青空",
-        "砂浜"
+        "砂浜",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0151-thumb.jpg",
       "large": "assets/img/lib/P0151-large.jpg",
@@ -643,7 +673,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "青空",
-        "世界一長いベンチ"
+        "世界一長いベンチ",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0152-thumb.jpg",
       "large": "assets/img/lib/P0152-large.jpg",
@@ -662,7 +693,8 @@ window.SPL_LIBRARY = {
       "area": "富来エリア",
       "season": "",
       "tags": [
-        "世界一長いベンチ"
+        "世界一長いベンチ",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0153-thumb.jpg",
       "large": "assets/img/lib/P0153-large.jpg",
@@ -682,7 +714,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "世界一長いベンチ",
-        "アート"
+        "アート",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0154-thumb.jpg",
       "large": "assets/img/lib/P0154-large.jpg",
@@ -702,7 +735,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "青空",
-        "世界一長いベンチ"
+        "世界一長いベンチ",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0155-thumb.jpg",
       "large": "assets/img/lib/P0155-large.jpg",
@@ -722,7 +756,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "青空",
-        "世界一長いベンチ"
+        "世界一長いベンチ",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0156-thumb.jpg",
       "large": "assets/img/lib/P0156-large.jpg",
@@ -744,7 +779,8 @@ window.SPL_LIBRARY = {
         "海",
         "ベンチ",
         "イルミネーション",
-        "花火"
+        "花火",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0219-thumb.jpg",
       "large": "assets/img/lib/P0219-large.jpg",
@@ -764,7 +800,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "ベンチ",
-        "ポケモン"
+        "ポケモン",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0220-thumb.jpg",
       "large": "assets/img/lib/P0220-large.jpg",
@@ -785,7 +822,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "砂浜",
-        "青空"
+        "青空",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0222-thumb.jpg",
       "large": "assets/img/lib/P0222-large.jpg",
@@ -806,7 +844,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "砂浜",
-        "青空"
+        "青空",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0223-thumb.jpg",
       "large": "assets/img/lib/P0223-large.jpg",
@@ -827,7 +866,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "砂浜",
-        "さくら貝"
+        "さくら貝",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0224-thumb.jpg",
       "large": "assets/img/lib/P0224-large.jpg",
@@ -848,7 +888,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "砂浜",
-        "青空"
+        "青空",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0225-thumb.jpg",
       "large": "assets/img/lib/P0225-large.jpg",
@@ -870,7 +911,8 @@ window.SPL_LIBRARY = {
         "海",
         "空撮",
         "砂浜",
-        "ベンチ"
+        "ベンチ",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0226-thumb.jpg",
       "large": "assets/img/lib/P0226-large.jpg",
@@ -892,7 +934,8 @@ window.SPL_LIBRARY = {
         "海",
         "夜景",
         "イルミネーション",
-        "花火"
+        "花火",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0227-thumb.jpg",
       "large": "assets/img/lib/P0227-large.jpg",
@@ -914,7 +957,8 @@ window.SPL_LIBRARY = {
         "海",
         "夜景",
         "イルミネーション",
-        "花火"
+        "花火",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0228-thumb.jpg",
       "large": "assets/img/lib/P0228-large.jpg",
@@ -937,7 +981,8 @@ window.SPL_LIBRARY = {
         "ベンチ",
         "夜景",
         "イルミネーション",
-        "花火"
+        "花火",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0229-thumb.jpg",
       "large": "assets/img/lib/P0229-large.jpg",
@@ -960,7 +1005,8 @@ window.SPL_LIBRARY = {
         "ベンチ",
         "夜景",
         "イルミネーション",
-        "花火"
+        "花火",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0230-thumb.jpg",
       "large": "assets/img/lib/P0230-large.jpg",
@@ -983,7 +1029,8 @@ window.SPL_LIBRARY = {
         "ベンチ",
         "夜景",
         "イルミネーション",
-        "花火"
+        "花火",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0231-thumb.jpg",
       "large": "assets/img/lib/P0231-large.jpg",
@@ -1004,7 +1051,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "夕陽",
-        "ベンチ"
+        "ベンチ",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0232-thumb.jpg",
       "large": "assets/img/lib/P0232-large.jpg",
@@ -1026,7 +1074,8 @@ window.SPL_LIBRARY = {
         "海",
         "夜景",
         "イルミネーション",
-        "花火"
+        "花火",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0233-thumb.jpg",
       "large": "assets/img/lib/P0233-large.jpg",
@@ -1048,7 +1097,8 @@ window.SPL_LIBRARY = {
         "海",
         "夜景",
         "イルミネーション",
-        "花火"
+        "花火",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0234-thumb.jpg",
       "large": "assets/img/lib/P0234-large.jpg",
@@ -1071,7 +1121,8 @@ window.SPL_LIBRARY = {
         "ベンチ",
         "夜景",
         "イルミネーション",
-        "花火"
+        "花火",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0235-thumb.jpg",
       "large": "assets/img/lib/P0235-large.jpg",
@@ -1092,7 +1143,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "夕陽",
-        "ベンチ"
+        "ベンチ",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0236-thumb.jpg",
       "large": "assets/img/lib/P0236-large.jpg",
@@ -1113,7 +1165,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "夕陽",
-        "ベンチ"
+        "ベンチ",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0237-thumb.jpg",
       "large": "assets/img/lib/P0237-large.jpg",
@@ -1134,7 +1187,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "夕陽",
-        "ベンチ"
+        "ベンチ",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0238-thumb.jpg",
       "large": "assets/img/lib/P0238-large.jpg",
@@ -1156,7 +1210,8 @@ window.SPL_LIBRARY = {
         "ベンチ",
         "ライトアップ",
         "夜景",
-        "イルミネーション"
+        "イルミネーション",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0366-thumb.jpg",
       "large": "assets/img/lib/P0366-large.jpg",
@@ -1179,7 +1234,8 @@ window.SPL_LIBRARY = {
         "ベンチ",
         "ライトアップ",
         "夜景",
-        "イルミネーション"
+        "イルミネーション",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0367-thumb.jpg",
       "large": "assets/img/lib/P0367-large.jpg",
@@ -1202,7 +1258,8 @@ window.SPL_LIBRARY = {
         "ベンチ",
         "ライトアップ",
         "夜景",
-        "イルミネーション"
+        "イルミネーション",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0368-thumb.jpg",
       "large": "assets/img/lib/P0368-large.jpg",
@@ -1224,7 +1281,8 @@ window.SPL_LIBRARY = {
         "ベンチ",
         "ライトアップ",
         "夜景",
-        "イルミネーション"
+        "イルミネーション",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0369-thumb.jpg",
       "large": "assets/img/lib/P0369-large.jpg",
@@ -1247,7 +1305,8 @@ window.SPL_LIBRARY = {
         "ベンチ",
         "ライトアップ",
         "夜景",
-        "イルミネーション"
+        "イルミネーション",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0370-thumb.jpg",
       "large": "assets/img/lib/P0370-large.jpg",
@@ -1269,7 +1328,8 @@ window.SPL_LIBRARY = {
         "空撮",
         "砂浜",
         "ベンチ",
-        "青空"
+        "青空",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0404-thumb.jpg",
       "large": "assets/img/lib/P0404-large.jpg",
@@ -1289,7 +1349,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "ベンチ",
-        "青空"
+        "青空",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0405-thumb.jpg",
       "large": "assets/img/lib/P0405-large.jpg",
@@ -1309,7 +1370,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "ベンチ",
-        "青空"
+        "青空",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0406-thumb.jpg",
       "large": "assets/img/lib/P0406-large.jpg",
@@ -1329,7 +1391,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "ベンチ",
-        "青空"
+        "青空",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0407-thumb.jpg",
       "large": "assets/img/lib/P0407-large.jpg",
@@ -1349,7 +1412,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "ベンチ",
-        "青空"
+        "青空",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0408-thumb.jpg",
       "large": "assets/img/lib/P0408-large.jpg",
@@ -1369,7 +1433,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "ベンチ",
-        "青空"
+        "青空",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0409-thumb.jpg",
       "large": "assets/img/lib/P0409-large.jpg",
@@ -1390,7 +1455,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "ベンチ",
-        "青空"
+        "青空",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0424-thumb.jpg",
       "large": "assets/img/lib/P0424-large.jpg",
@@ -1410,7 +1476,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "ベンチ",
-        "青空"
+        "青空",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0425-thumb.jpg",
       "large": "assets/img/lib/P0425-large.jpg",
@@ -1431,7 +1498,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "ベンチ",
-        "青空"
+        "青空",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0426-thumb.jpg",
       "large": "assets/img/lib/P0426-large.jpg",
@@ -1451,7 +1519,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "ベンチ",
-        "青空"
+        "青空",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0427-thumb.jpg",
       "large": "assets/img/lib/P0427-large.jpg",
@@ -1472,7 +1541,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "ベンチ",
-        "青空"
+        "青空",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0429-thumb.jpg",
       "large": "assets/img/lib/P0429-large.jpg",
@@ -1493,7 +1563,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "ベンチ",
         "青空",
-        "手形"
+        "手形",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0430-thumb.jpg",
       "large": "assets/img/lib/P0430-large.jpg",
@@ -1513,7 +1584,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "ベンチ",
-        "青空"
+        "青空",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0444-thumb.jpg",
       "large": "assets/img/lib/P0444-large.jpg",
@@ -1534,7 +1606,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "夕陽",
         "海",
-        "岩"
+        "岩",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0015-thumb.jpg",
       "large": "assets/img/lib/P0015-large.jpg",
@@ -1554,7 +1627,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "海",
-        "岩"
+        "岩",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0016-thumb.jpg",
       "large": "assets/img/lib/P0016-large.jpg",
@@ -1575,7 +1649,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "夕陽",
         "海",
-        "岩"
+        "岩",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0017-thumb.jpg",
       "large": "assets/img/lib/P0017-large.jpg",
@@ -1596,7 +1671,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "夕陽",
         "海",
-        "岩"
+        "岩",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0018-thumb.jpg",
       "large": "assets/img/lib/P0018-large.jpg",
@@ -1617,7 +1693,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "岩",
-        "ライトアップ"
+        "ライトアップ",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0019-thumb.jpg",
       "large": "assets/img/lib/P0019-large.jpg",
@@ -1637,7 +1714,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "海",
-        "岩"
+        "岩",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0099-thumb.jpg",
       "large": "assets/img/lib/P0099-large.jpg",
@@ -1658,7 +1736,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "夕陽",
-        "岩"
+        "岩",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0100-thumb.jpg",
       "large": "assets/img/lib/P0100-large.jpg",
@@ -1679,7 +1758,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "夕陽",
-        "岩"
+        "岩",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0101-thumb.jpg",
       "large": "assets/img/lib/P0101-large.jpg",
@@ -1700,7 +1780,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "夕陽",
-        "岩"
+        "岩",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0102-thumb.jpg",
       "large": "assets/img/lib/P0102-large.jpg",
@@ -1720,7 +1801,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "海",
-        "岩"
+        "岩",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0103-thumb.jpg",
       "large": "assets/img/lib/P0103-large.jpg",
@@ -1741,7 +1823,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "岩",
-        "青空"
+        "青空",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0104-thumb.jpg",
       "large": "assets/img/lib/P0104-large.jpg",
@@ -1762,7 +1845,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "夕陽",
-        "岩"
+        "岩",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0105-thumb.jpg",
       "large": "assets/img/lib/P0105-large.jpg",
@@ -1783,7 +1867,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "夕陽",
-        "岩"
+        "岩",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0106-thumb.jpg",
       "large": "assets/img/lib/P0106-large.jpg",
@@ -1804,7 +1889,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "夕陽",
-        "岩"
+        "岩",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0107-thumb.jpg",
       "large": "assets/img/lib/P0107-large.jpg",
@@ -1825,7 +1911,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "夕陽",
-        "岩"
+        "岩",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0108-thumb.jpg",
       "large": "assets/img/lib/P0108-large.jpg",
@@ -1846,7 +1933,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "夕陽",
-        "岩"
+        "岩",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0109-thumb.jpg",
       "large": "assets/img/lib/P0109-large.jpg",
@@ -1867,7 +1955,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "夕陽",
-        "岩"
+        "岩",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0110-thumb.jpg",
       "large": "assets/img/lib/P0110-large.jpg",
@@ -1888,7 +1977,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "岩",
-        "星空"
+        "星空",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0111-thumb.jpg",
       "large": "assets/img/lib/P0111-large.jpg",
@@ -1909,7 +1999,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "夕陽",
-        "岩"
+        "岩",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0112-thumb.jpg",
       "large": "assets/img/lib/P0112-large.jpg",
@@ -1931,7 +2022,8 @@ window.SPL_LIBRARY = {
         "海",
         "岩",
         "ライトアップ",
-        "夜景"
+        "夜景",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0113-thumb.jpg",
       "large": "assets/img/lib/P0113-large.jpg",
@@ -1952,7 +2044,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "夕陽",
-        "岩"
+        "岩",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0114-thumb.jpg",
       "large": "assets/img/lib/P0114-large.jpg",
@@ -1972,7 +2065,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "海",
-        "岩"
+        "岩",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0218-thumb.jpg",
       "large": "assets/img/lib/P0218-large.jpg",
@@ -1993,7 +2087,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "岩",
-        "遊覧船"
+        "遊覧船",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0020-thumb.jpg",
       "large": "assets/img/lib/P0020-large.jpg",
@@ -2014,7 +2109,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "岩",
-        "遊覧船"
+        "遊覧船",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0021-thumb.jpg",
       "large": "assets/img/lib/P0021-large.jpg",
@@ -2035,7 +2131,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "岩",
-        "遊覧船"
+        "遊覧船",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0022-thumb.jpg",
       "large": "assets/img/lib/P0022-large.jpg",
@@ -2056,7 +2153,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "岩",
-        "遊覧船"
+        "遊覧船",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0024-thumb.jpg",
       "large": "assets/img/lib/P0024-large.jpg",
@@ -2077,7 +2175,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "岩",
-        "遊覧船"
+        "遊覧船",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0025-thumb.jpg",
       "large": "assets/img/lib/P0025-large.jpg",
@@ -2098,7 +2197,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "岩",
         "断崖",
-        "名所旧跡"
+        "名所旧跡",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0585-thumb.jpg",
       "large": "assets/img/lib/P0585-large.jpg",
@@ -2119,7 +2219,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "夕陽",
         "海",
-        "岩"
+        "岩",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/F0001-thumb.jpg",
       "large": "assets/img/lib/F0001-large.jpg",
@@ -2140,7 +2241,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "岩",
         "断崖",
-        "名所旧跡"
+        "名所旧跡",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0586-thumb.jpg",
       "large": "assets/img/lib/P0586-large.jpg",
@@ -2161,7 +2263,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "岩",
         "断崖",
-        "名所旧跡"
+        "名所旧跡",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0587-thumb.jpg",
       "large": "assets/img/lib/P0587-large.jpg",
@@ -2183,7 +2286,8 @@ window.SPL_LIBRARY = {
         "岩",
         "断崖",
         "名所旧跡",
-        "遊覧船"
+        "遊覧船",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0588-thumb.jpg",
       "large": "assets/img/lib/P0588-large.jpg",
@@ -2206,7 +2310,8 @@ window.SPL_LIBRARY = {
         "岩",
         "断崖",
         "名所旧跡",
-        "遊覧船"
+        "遊覧船",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0589-thumb.jpg",
       "large": "assets/img/lib/P0589-large.jpg",
@@ -2227,7 +2332,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "岩",
         "断崖",
-        "名所旧跡"
+        "名所旧跡",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0590-thumb.jpg",
       "large": "assets/img/lib/P0590-large.jpg",
@@ -2248,7 +2354,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "岩",
         "断崖",
-        "名所旧跡"
+        "名所旧跡",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0591-thumb.jpg",
       "large": "assets/img/lib/P0591-large.jpg",
@@ -2269,7 +2376,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "岩",
         "断崖",
-        "名所旧跡"
+        "名所旧跡",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0593-thumb.jpg",
       "large": "assets/img/lib/P0593-large.jpg",
@@ -2290,7 +2398,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "岩",
         "断崖",
-        "名所旧跡"
+        "名所旧跡",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0594-thumb.jpg",
       "large": "assets/img/lib/P0594-large.jpg",
@@ -2311,7 +2420,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "岩",
         "断崖",
-        "名所旧跡"
+        "名所旧跡",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0595-thumb.jpg",
       "large": "assets/img/lib/P0595-large.jpg",
@@ -2332,7 +2442,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "岩",
         "断崖",
-        "名所旧跡"
+        "名所旧跡",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0596-thumb.jpg",
       "large": "assets/img/lib/P0596-large.jpg",
@@ -2353,7 +2464,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "岩",
         "断崖",
-        "名所旧跡"
+        "名所旧跡",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0597-thumb.jpg",
       "large": "assets/img/lib/P0597-large.jpg",
@@ -2374,7 +2486,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "岩",
         "断崖",
-        "名所旧跡"
+        "名所旧跡",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0598-thumb.jpg",
       "large": "assets/img/lib/P0598-large.jpg",
@@ -2395,7 +2508,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "岩",
         "断崖",
-        "名所旧跡"
+        "名所旧跡",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0599-thumb.jpg",
       "large": "assets/img/lib/P0599-large.jpg",
@@ -2416,7 +2530,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "岩",
         "断崖",
-        "名所旧跡"
+        "名所旧跡",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0600-thumb.jpg",
       "large": "assets/img/lib/P0600-large.jpg",
@@ -2437,7 +2552,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "岩",
         "断崖",
-        "名所旧跡"
+        "名所旧跡",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0601-thumb.jpg",
       "large": "assets/img/lib/P0601-large.jpg",
@@ -2458,7 +2574,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "岩",
         "断崖",
-        "名所旧跡"
+        "名所旧跡",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0603-thumb.jpg",
       "large": "assets/img/lib/P0603-large.jpg",
@@ -2479,7 +2596,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "岩",
-        "遊歩道"
+        "遊歩道",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0073-thumb.jpg",
       "large": "assets/img/lib/P0073-large.jpg",
@@ -2500,7 +2618,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "滝",
         "岩",
-        "自然"
+        "自然",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0074-thumb.jpg",
       "large": "assets/img/lib/P0074-large.jpg",
@@ -2520,7 +2639,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "岩",
-        "遊歩道"
+        "遊歩道",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0075-thumb.jpg",
       "large": "assets/img/lib/P0075-large.jpg",
@@ -2541,7 +2661,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "夕陽",
         "海",
-        "岩"
+        "岩",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0076-thumb.jpg",
       "large": "assets/img/lib/P0076-large.jpg",
@@ -2561,7 +2682,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "海",
-        "岩"
+        "岩",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0077-thumb.jpg",
       "large": "assets/img/lib/P0077-large.jpg",
@@ -2582,7 +2704,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "岩",
-        "青空"
+        "青空",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0079-thumb.jpg",
       "large": "assets/img/lib/P0079-large.jpg",
@@ -2603,7 +2726,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "岩",
-        "遊覧船"
+        "遊覧船",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0080-thumb.jpg",
       "large": "assets/img/lib/P0080-large.jpg",
@@ -2624,7 +2748,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "岩",
-        "青空"
+        "青空",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0081-thumb.jpg",
       "large": "assets/img/lib/P0081-large.jpg",
@@ -2644,7 +2769,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "海",
-        "岩"
+        "岩",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0082-thumb.jpg",
       "large": "assets/img/lib/P0082-large.jpg",
@@ -2665,7 +2791,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "滝",
         "岩",
-        "自然"
+        "自然",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0083-thumb.jpg",
       "large": "assets/img/lib/P0083-large.jpg",
@@ -2686,7 +2813,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "岩",
-        "遊覧船"
+        "遊覧船",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0084-thumb.jpg",
       "large": "assets/img/lib/P0084-large.jpg",
@@ -2707,7 +2835,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "風車",
-        "青空"
+        "青空",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0085-thumb.jpg",
       "large": "assets/img/lib/P0085-large.jpg",
@@ -2727,7 +2856,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "海",
-        "遊覧船"
+        "遊覧船",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0086-thumb.jpg",
       "large": "assets/img/lib/P0086-large.jpg",
@@ -2747,7 +2877,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "岩",
-        "自然"
+        "自然",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0087-thumb.jpg",
       "large": "assets/img/lib/P0087-large.jpg",
@@ -2767,7 +2898,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "海",
-        "岩"
+        "岩",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0088-thumb.jpg",
       "large": "assets/img/lib/P0088-large.jpg",
@@ -2788,7 +2920,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "岩",
-        "遊覧船"
+        "遊覧船",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0191-thumb.jpg",
       "large": "assets/img/lib/P0191-large.jpg",
@@ -2809,7 +2942,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "岩",
-        "遊覧船"
+        "遊覧船",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0205-thumb.jpg",
       "large": "assets/img/lib/P0205-large.jpg",
@@ -2830,7 +2964,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "岩",
-        "遊覧船"
+        "遊覧船",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0206-thumb.jpg",
       "large": "assets/img/lib/P0206-large.jpg",
@@ -2851,7 +2986,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "岩",
-        "遊覧船"
+        "遊覧船",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0207-thumb.jpg",
       "large": "assets/img/lib/P0207-large.jpg",
@@ -2872,7 +3008,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "岩",
-        "遊覧船"
+        "遊覧船",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0208-thumb.jpg",
       "large": "assets/img/lib/P0208-large.jpg",
@@ -2893,7 +3030,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "岩",
-        "遊覧船"
+        "遊覧船",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0209-thumb.jpg",
       "large": "assets/img/lib/P0209-large.jpg",
@@ -2914,7 +3052,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "岩",
-        "遊覧船"
+        "遊覧船",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0210-thumb.jpg",
       "large": "assets/img/lib/P0210-large.jpg",
@@ -2935,7 +3074,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "岩",
-        "遊覧船"
+        "遊覧船",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0211-thumb.jpg",
       "large": "assets/img/lib/P0211-large.jpg",
@@ -2957,7 +3097,8 @@ window.SPL_LIBRARY = {
         "海",
         "岩",
         "雪",
-        "冬"
+        "冬",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0213-thumb.jpg",
       "large": "assets/img/lib/P0213-large.jpg",
@@ -2979,7 +3120,8 @@ window.SPL_LIBRARY = {
         "海",
         "岩",
         "雪",
-        "冬"
+        "冬",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0214-thumb.jpg",
       "large": "assets/img/lib/P0214-large.jpg",
@@ -3002,7 +3144,8 @@ window.SPL_LIBRARY = {
         "空撮",
         "岩",
         "遊覧船",
-        "青空"
+        "青空",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0215-thumb.jpg",
       "large": "assets/img/lib/P0215-large.jpg",
@@ -3025,7 +3168,8 @@ window.SPL_LIBRARY = {
         "空撮",
         "岩",
         "遊覧船",
-        "青空"
+        "青空",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0216-thumb.jpg",
       "large": "assets/img/lib/P0216-large.jpg",
@@ -3046,7 +3190,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "岩",
-        "遊覧船"
+        "遊覧船",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0371-thumb.jpg",
       "large": "assets/img/lib/P0371-large.jpg",
@@ -3067,7 +3212,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "岩",
-        "遊覧船"
+        "遊覧船",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0372-thumb.jpg",
       "large": "assets/img/lib/P0372-large.jpg",
@@ -3088,7 +3234,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "岩",
-        "遊覧船"
+        "遊覧船",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0373-thumb.jpg",
       "large": "assets/img/lib/P0373-large.jpg",
@@ -3109,7 +3256,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "岩",
-        "遊覧船"
+        "遊覧船",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0374-thumb.jpg",
       "large": "assets/img/lib/P0374-large.jpg",
@@ -3130,7 +3278,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "岩",
-        "遊覧船"
+        "遊覧船",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0375-thumb.jpg",
       "large": "assets/img/lib/P0375-large.jpg",
@@ -3151,7 +3300,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "岩",
-        "遊覧船"
+        "遊覧船",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0376-thumb.jpg",
       "large": "assets/img/lib/P0376-large.jpg",
@@ -3172,7 +3322,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "岩",
-        "遊覧船"
+        "遊覧船",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0377-thumb.jpg",
       "large": "assets/img/lib/P0377-large.jpg",
@@ -3193,7 +3344,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "岩",
-        "遊覧船"
+        "遊覧船",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0378-thumb.jpg",
       "large": "assets/img/lib/P0378-large.jpg",
@@ -3214,7 +3366,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "岩",
-        "遊覧船"
+        "遊覧船",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0379-thumb.jpg",
       "large": "assets/img/lib/P0379-large.jpg",
@@ -3235,7 +3388,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "岩",
         "断崖",
-        "雪"
+        "雪",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0510-thumb.jpg",
       "large": "assets/img/lib/P0510-large.jpg",
@@ -3257,7 +3411,8 @@ window.SPL_LIBRARY = {
         "夕陽",
         "海",
         "島",
-        "神社"
+        "神社",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0026-thumb.jpg",
       "large": "assets/img/lib/P0026-large.jpg",
@@ -3279,7 +3434,8 @@ window.SPL_LIBRARY = {
         "夕陽",
         "海",
         "島",
-        "神社"
+        "神社",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0027-thumb.jpg",
       "large": "assets/img/lib/P0027-large.jpg",
@@ -3301,7 +3457,8 @@ window.SPL_LIBRARY = {
         "夕陽",
         "海",
         "島",
-        "神社"
+        "神社",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0028-thumb.jpg",
       "large": "assets/img/lib/P0028-large.jpg",
@@ -3323,7 +3480,8 @@ window.SPL_LIBRARY = {
         "夕陽",
         "海",
         "島",
-        "神社"
+        "神社",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0029-thumb.jpg",
       "large": "assets/img/lib/P0029-large.jpg",
@@ -3345,7 +3503,8 @@ window.SPL_LIBRARY = {
         "夕陽",
         "海",
         "島",
-        "神社"
+        "神社",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0030-thumb.jpg",
       "large": "assets/img/lib/P0030-large.jpg",
@@ -3366,7 +3525,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "夕陽",
-        "島"
+        "島",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0580-thumb.jpg",
       "large": "assets/img/lib/P0580-large.jpg",
@@ -3387,7 +3547,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "夕陽",
-        "島"
+        "島",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0581-thumb.jpg",
       "large": "assets/img/lib/P0581-large.jpg",
@@ -3408,7 +3569,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "夕陽",
-        "島"
+        "島",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0582-thumb.jpg",
       "large": "assets/img/lib/P0582-large.jpg",
@@ -3429,7 +3591,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "夕陽",
-        "島"
+        "島",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0583-thumb.jpg",
       "large": "assets/img/lib/P0583-large.jpg",
@@ -3450,7 +3613,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "夕陽",
-        "島"
+        "島",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0584-thumb.jpg",
       "large": "assets/img/lib/P0584-large.jpg",
@@ -3471,7 +3635,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "島",
         "夜",
-        "星"
+        "星",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0193-thumb.jpg",
       "large": "assets/img/lib/P0193-large.jpg",
@@ -3492,7 +3657,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "島",
         "夜",
-        "星"
+        "星",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0194-thumb.jpg",
       "large": "assets/img/lib/P0194-large.jpg",
@@ -3513,7 +3679,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "島",
         "海",
-        "夕陽"
+        "夕陽",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0196-thumb.jpg",
       "large": "assets/img/lib/P0196-large.jpg",
@@ -3534,7 +3701,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "島",
         "海",
-        "夕陽"
+        "夕陽",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0197-thumb.jpg",
       "large": "assets/img/lib/P0197-large.jpg",
@@ -3555,7 +3723,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "島",
         "海",
-        "夕陽"
+        "夕陽",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0198-thumb.jpg",
       "large": "assets/img/lib/P0198-large.jpg",
@@ -3576,7 +3745,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "島",
         "海",
-        "夕陽"
+        "夕陽",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0199-thumb.jpg",
       "large": "assets/img/lib/P0199-large.jpg",
@@ -3597,7 +3767,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "島",
         "海",
-        "夕陽"
+        "夕陽",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0200-thumb.jpg",
       "large": "assets/img/lib/P0200-large.jpg",
@@ -3618,7 +3789,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "島",
         "海",
-        "夕陽"
+        "夕陽",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0201-thumb.jpg",
       "large": "assets/img/lib/P0201-large.jpg",
@@ -3639,7 +3811,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "島",
         "海",
-        "夕陽"
+        "夕陽",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0202-thumb.jpg",
       "large": "assets/img/lib/P0202-large.jpg",
@@ -3660,7 +3833,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "島",
         "海",
-        "夕陽"
+        "夕陽",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0203-thumb.jpg",
       "large": "assets/img/lib/P0203-large.jpg",
@@ -3680,7 +3854,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "海",
-        "夕陽"
+        "夕陽",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0204-thumb.jpg",
       "large": "assets/img/lib/P0204-large.jpg",
@@ -3701,7 +3876,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "島",
         "海",
-        "夕陽"
+        "夕陽",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0264-thumb.jpg",
       "large": "assets/img/lib/P0264-large.jpg",
@@ -3722,7 +3898,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "島",
         "海",
-        "夕陽"
+        "夕陽",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0265-thumb.jpg",
       "large": "assets/img/lib/P0265-large.jpg",
@@ -3743,7 +3920,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "島",
         "海",
-        "神社"
+        "神社",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0402-thumb.jpg",
       "large": "assets/img/lib/P0402-large.jpg",
@@ -3764,7 +3942,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "島",
         "神社",
-        "天使のはしご"
+        "天使のはしご",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0403-thumb.jpg",
       "large": "assets/img/lib/P0403-large.jpg",
@@ -3787,7 +3966,8 @@ window.SPL_LIBRARY = {
         "海",
         "空撮",
         "名所旧跡",
-        "義経"
+        "義経",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0032-thumb.jpg",
       "large": "assets/img/lib/P0032-large.jpg",
@@ -3808,7 +3988,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "岩",
-        "断崖"
+        "断崖",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0540-thumb.jpg",
       "large": "assets/img/lib/P0540-large.jpg",
@@ -3828,7 +4009,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "断崖",
-        "景色"
+        "景色",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0541-thumb.jpg",
       "large": "assets/img/lib/P0541-large.jpg",
@@ -3848,7 +4030,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "断崖",
-        "景色"
+        "景色",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0542-thumb.jpg",
       "large": "assets/img/lib/P0542-large.jpg",
@@ -3869,7 +4052,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "岩",
         "断崖",
-        "景色"
+        "景色",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0543-thumb.jpg",
       "large": "assets/img/lib/P0543-large.jpg",
@@ -3890,7 +4074,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "岩",
-        "断崖"
+        "断崖",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0545-thumb.jpg",
       "large": "assets/img/lib/P0545-large.jpg",
@@ -3911,7 +4096,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "岩",
-        "断崖"
+        "断崖",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0547-thumb.jpg",
       "large": "assets/img/lib/P0547-large.jpg",
@@ -3932,7 +4118,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "岩",
-        "断崖"
+        "断崖",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0129-thumb.jpg",
       "large": "assets/img/lib/P0129-large.jpg",
@@ -3953,7 +4140,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "岩",
-        "断崖"
+        "断崖",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0138-thumb.jpg",
       "large": "assets/img/lib/P0138-large.jpg",
@@ -3974,7 +4162,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "岩",
-        "断崖"
+        "断崖",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0190-thumb.jpg",
       "large": "assets/img/lib/P0190-large.jpg",
@@ -3994,7 +4183,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "岩",
-        "断崖"
+        "断崖",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0505-thumb.jpg",
       "large": "assets/img/lib/P0505-large.jpg",
@@ -4018,7 +4208,8 @@ window.SPL_LIBRARY = {
         "建築",
         "ライトアップ",
         "灯台",
-        "日本最古"
+        "日本最古",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0037-thumb.jpg",
       "large": "assets/img/lib/P0037-large.jpg",
@@ -4042,7 +4233,8 @@ window.SPL_LIBRARY = {
         "建築",
         "ライトアップ",
         "灯台",
-        "日本最古"
+        "日本最古",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0038-thumb.jpg",
       "large": "assets/img/lib/P0038-large.jpg",
@@ -4066,7 +4258,8 @@ window.SPL_LIBRARY = {
         "建築",
         "ライトアップ",
         "灯台",
-        "日本最古"
+        "日本最古",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0039-thumb.jpg",
       "large": "assets/img/lib/P0039-large.jpg",
@@ -4090,7 +4283,8 @@ window.SPL_LIBRARY = {
         "建築",
         "ライトアップ",
         "灯台",
-        "日本最古"
+        "日本最古",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0040-thumb.jpg",
       "large": "assets/img/lib/P0040-large.jpg",
@@ -4113,7 +4307,8 @@ window.SPL_LIBRARY = {
         "名所旧跡",
         "建築",
         "灯台",
-        "日本最古"
+        "日本最古",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0041-thumb.jpg",
       "large": "assets/img/lib/P0041-large.jpg",
@@ -4136,7 +4331,8 @@ window.SPL_LIBRARY = {
         "建築",
         "青空",
         "灯台",
-        "日本最古"
+        "日本最古",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0629-thumb.jpg",
       "large": "assets/img/lib/P0629-large.jpg",
@@ -4160,7 +4356,8 @@ window.SPL_LIBRARY = {
         "建築",
         "ライトアップ",
         "灯台",
-        "日本最古"
+        "日本最古",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0630-thumb.jpg",
       "large": "assets/img/lib/P0630-large.jpg",
@@ -4185,7 +4382,8 @@ window.SPL_LIBRARY = {
         "青空",
         "灯台",
         "日本最古",
-        "あじさい"
+        "あじさい",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0665-thumb.jpg",
       "large": "assets/img/lib/P0665-large.jpg",
@@ -4209,7 +4407,8 @@ window.SPL_LIBRARY = {
         "建築",
         "ライトアップ",
         "灯台",
-        "日本最古"
+        "日本最古",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0631-thumb.jpg",
       "large": "assets/img/lib/P0631-large.jpg",
@@ -4232,7 +4431,8 @@ window.SPL_LIBRARY = {
         "建築",
         "青空",
         "灯台",
-        "日本最古"
+        "日本最古",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0666-thumb.jpg",
       "large": "assets/img/lib/P0666-large.jpg",
@@ -4256,7 +4456,8 @@ window.SPL_LIBRARY = {
         "名所旧跡",
         "建築",
         "灯台",
-        "日本最古"
+        "日本最古",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0089-thumb.jpg",
       "large": "assets/img/lib/P0089-large.jpg",
@@ -4280,7 +4481,8 @@ window.SPL_LIBRARY = {
         "名所旧跡",
         "建築",
         "灯台",
-        "日本最古"
+        "日本最古",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0090-thumb.jpg",
       "large": "assets/img/lib/P0090-large.jpg",
@@ -4304,7 +4506,8 @@ window.SPL_LIBRARY = {
         "名所旧跡",
         "建築",
         "灯台",
-        "日本最古"
+        "日本最古",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0092-thumb.jpg",
       "large": "assets/img/lib/P0092-large.jpg",
@@ -4328,7 +4531,8 @@ window.SPL_LIBRARY = {
         "建築",
         "ライトアップ",
         "灯台",
-        "日本最古"
+        "日本最古",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0093-thumb.jpg",
       "large": "assets/img/lib/P0093-large.jpg",
@@ -4352,7 +4556,8 @@ window.SPL_LIBRARY = {
         "建築",
         "灯台",
         "日本最古",
-        "あかりちゃん"
+        "あかりちゃん",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0095-thumb.jpg",
       "large": "assets/img/lib/P0095-large.jpg",
@@ -4376,7 +4581,8 @@ window.SPL_LIBRARY = {
         "建築",
         "灯台",
         "日本最古",
-        "あかりちゃん"
+        "あかりちゃん",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0096-thumb.jpg",
       "large": "assets/img/lib/P0096-large.jpg",
@@ -4399,7 +4605,8 @@ window.SPL_LIBRARY = {
         "建築",
         "ライトアップ",
         "灯台",
-        "日本最古"
+        "日本最古",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0097-thumb.jpg",
       "large": "assets/img/lib/P0097-large.jpg",
@@ -4423,7 +4630,8 @@ window.SPL_LIBRARY = {
         "花",
         "灯台",
         "日本最古",
-        "あじさい"
+        "あじさい",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0186-thumb.jpg",
       "large": "assets/img/lib/P0186-large.jpg",
@@ -4447,7 +4655,8 @@ window.SPL_LIBRARY = {
         "花",
         "灯台",
         "日本最古",
-        "あじさい"
+        "あじさい",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0189-thumb.jpg",
       "large": "assets/img/lib/P0189-large.jpg",
@@ -4470,7 +4679,8 @@ window.SPL_LIBRARY = {
         "名所旧跡",
         "建築",
         "灯台",
-        "日本最古"
+        "日本最古",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0484-thumb.jpg",
       "large": "assets/img/lib/P0484-large.jpg",
@@ -4491,7 +4701,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "夕陽",
         "灯台",
-        "日本最古"
+        "日本最古",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0485-thumb.jpg",
       "large": "assets/img/lib/P0485-large.jpg",
@@ -4515,7 +4726,8 @@ window.SPL_LIBRARY = {
         "花",
         "灯台",
         "日本最古",
-        "あじさい"
+        "あじさい",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0508-thumb.jpg",
       "large": "assets/img/lib/P0508-large.jpg",
@@ -4537,7 +4749,8 @@ window.SPL_LIBRARY = {
         "海",
         "夕陽",
         "名所旧跡",
-        "キャンプ"
+        "キャンプ",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0042-thumb.jpg",
       "large": "assets/img/lib/P0042-large.jpg",
@@ -4559,7 +4772,8 @@ window.SPL_LIBRARY = {
         "海",
         "名所旧跡",
         "キャンプ",
-        "青空"
+        "青空",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0043-thumb.jpg",
       "large": "assets/img/lib/P0043-large.jpg",
@@ -4581,7 +4795,8 @@ window.SPL_LIBRARY = {
         "海",
         "名所旧跡",
         "キャンプ",
-        "青空"
+        "青空",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0044-thumb.jpg",
       "large": "assets/img/lib/P0044-large.jpg",
@@ -4603,7 +4818,8 @@ window.SPL_LIBRARY = {
         "名所旧跡",
         "海",
         "星空",
-        "キャンプ"
+        "キャンプ",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0045-thumb.jpg",
       "large": "assets/img/lib/P0045-large.jpg",
@@ -4625,7 +4841,8 @@ window.SPL_LIBRARY = {
         "名所旧跡",
         "海",
         "星空",
-        "キャンプ"
+        "キャンプ",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0046-thumb.jpg",
       "large": "assets/img/lib/P0046-large.jpg",
@@ -4645,7 +4862,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "キャンプ",
-        "青空"
+        "青空",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0047-thumb.jpg",
       "large": "assets/img/lib/P0047-large.jpg",
@@ -4667,7 +4885,8 @@ window.SPL_LIBRARY = {
         "海",
         "名所旧跡",
         "キャンプ",
-        "青空"
+        "青空",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0048-thumb.jpg",
       "large": "assets/img/lib/P0048-large.jpg",
@@ -4689,7 +4908,8 @@ window.SPL_LIBRARY = {
         "海",
         "夕陽",
         "名所旧跡",
-        "指定文化財"
+        "指定文化財",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0157-thumb.jpg",
       "large": "assets/img/lib/P0157-large.jpg",
@@ -4711,7 +4931,8 @@ window.SPL_LIBRARY = {
         "海",
         "夕陽",
         "名所旧跡",
-        "指定文化財"
+        "指定文化財",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0158-thumb.jpg",
       "large": "assets/img/lib/P0158-large.jpg",
@@ -4733,7 +4954,8 @@ window.SPL_LIBRARY = {
         "海",
         "夕陽",
         "名所旧跡",
-        "指定文化財"
+        "指定文化財",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0159-thumb.jpg",
       "large": "assets/img/lib/P0159-large.jpg",
@@ -4755,7 +4977,8 @@ window.SPL_LIBRARY = {
         "海",
         "夕陽",
         "名所旧跡",
-        "指定文化財"
+        "指定文化財",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0160-thumb.jpg",
       "large": "assets/img/lib/P0160-large.jpg",
@@ -4776,7 +4999,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "夕陽",
-        "キャンプ"
+        "キャンプ",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0161-thumb.jpg",
       "large": "assets/img/lib/P0161-large.jpg",
@@ -4797,7 +5021,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "夕陽",
-        "キャンプ"
+        "キャンプ",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0162-thumb.jpg",
       "large": "assets/img/lib/P0162-large.jpg",
@@ -4819,7 +5044,8 @@ window.SPL_LIBRARY = {
         "海",
         "夕陽",
         "名所旧跡",
-        "指定文化財"
+        "指定文化財",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0163-thumb.jpg",
       "large": "assets/img/lib/P0163-large.jpg",
@@ -4841,7 +5067,8 @@ window.SPL_LIBRARY = {
         "海",
         "夕陽",
         "名所旧跡",
-        "指定文化財"
+        "指定文化財",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0164-thumb.jpg",
       "large": "assets/img/lib/P0164-large.jpg",
@@ -4863,7 +5090,8 @@ window.SPL_LIBRARY = {
         "海",
         "夕陽",
         "星空",
-        "キャンプ"
+        "キャンプ",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0168-thumb.jpg",
       "large": "assets/img/lib/P0168-large.jpg",
@@ -4884,7 +5112,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "星空",
-        "キャンプ"
+        "キャンプ",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0169-thumb.jpg",
       "large": "assets/img/lib/P0169-large.jpg",
@@ -4905,7 +5134,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "星空",
-        "キャンプ"
+        "キャンプ",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0171-thumb.jpg",
       "large": "assets/img/lib/P0171-large.jpg",
@@ -4926,7 +5156,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "星空",
-        "キャンプ"
+        "キャンプ",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0172-thumb.jpg",
       "large": "assets/img/lib/P0172-large.jpg",
@@ -4947,7 +5178,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "星空",
-        "キャンプ"
+        "キャンプ",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0174-thumb.jpg",
       "large": "assets/img/lib/P0174-large.jpg",
@@ -4968,7 +5200,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "名所旧跡",
-        "指定文化財"
+        "指定文化財",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0399-thumb.jpg",
       "large": "assets/img/lib/P0399-large.jpg",
@@ -4989,7 +5222,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "名所旧跡",
-        "指定文化財"
+        "指定文化財",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0400-thumb.jpg",
       "large": "assets/img/lib/P0400-large.jpg",
@@ -5010,7 +5244,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "名所旧跡",
-        "指定文化財"
+        "指定文化財",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0401-thumb.jpg",
       "large": "assets/img/lib/P0401-large.jpg",
@@ -5032,7 +5267,8 @@ window.SPL_LIBRARY = {
         "文化施設",
         "屋内",
         "体験",
-        "お土産"
+        "お土産",
+        "印刷物向き"
       ],
       "thumb": "assets/img/lib/P0049-thumb.jpg",
       "large": "assets/img/lib/P0049-large.jpg",
@@ -5055,7 +5291,8 @@ window.SPL_LIBRARY = {
         "文化施設",
         "屋内",
         "体験",
-        "お土産"
+        "お土産",
+        "印刷物向き"
       ],
       "thumb": "assets/img/lib/P0050-thumb.jpg",
       "large": "assets/img/lib/P0050-large.jpg",
@@ -5078,7 +5315,8 @@ window.SPL_LIBRARY = {
         "文化施設",
         "体験",
         "お土産",
-        "屋内"
+        "屋内",
+        "印刷物向き"
       ],
       "thumb": "assets/img/lib/P0051-thumb.jpg",
       "large": "assets/img/lib/P0051-large.jpg",
@@ -5100,7 +5338,8 @@ window.SPL_LIBRARY = {
         "文化施設",
         "屋内",
         "体験",
-        "お土産"
+        "お土産",
+        "印刷物向き"
       ],
       "thumb": "assets/img/lib/P0052-thumb.jpg",
       "large": "assets/img/lib/P0052-large.jpg",
@@ -5123,7 +5362,8 @@ window.SPL_LIBRARY = {
         "文化施設",
         "体験",
         "お土産",
-        "屋内"
+        "屋内",
+        "印刷物向き"
       ],
       "thumb": "assets/img/lib/P0053-thumb.jpg",
       "large": "assets/img/lib/P0053-large.jpg",
@@ -5146,7 +5386,8 @@ window.SPL_LIBRARY = {
         "文化施設",
         "体験",
         "お土産",
-        "屋内"
+        "屋内",
+        "印刷物向き"
       ],
       "thumb": "assets/img/lib/P0054-thumb.jpg",
       "large": "assets/img/lib/P0054-large.jpg",
@@ -5167,7 +5408,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "さくら貝",
         "お土産",
-        "特産品"
+        "特産品",
+        "印刷物向き"
       ],
       "thumb": "assets/img/lib/P0056-thumb.jpg",
       "large": "assets/img/lib/P0056-large.jpg",
@@ -5190,7 +5432,8 @@ window.SPL_LIBRARY = {
         "文化施設",
         "体験",
         "お土産",
-        "屋内"
+        "屋内",
+        "印刷物向き"
       ],
       "thumb": "assets/img/lib/P0057-thumb.jpg",
       "large": "assets/img/lib/P0057-large.jpg",
@@ -5213,7 +5456,8 @@ window.SPL_LIBRARY = {
         "文化施設",
         "体験",
         "お土産",
-        "屋内"
+        "屋内",
+        "印刷物向き"
       ],
       "thumb": "assets/img/lib/P0058-thumb.jpg",
       "large": "assets/img/lib/P0058-large.jpg",
@@ -5235,7 +5479,8 @@ window.SPL_LIBRARY = {
         "岩",
         "道の駅",
         "縁結び",
-        "石"
+        "石",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0577-thumb.jpg",
       "large": "assets/img/lib/P0577-large.jpg",
@@ -5257,7 +5502,8 @@ window.SPL_LIBRARY = {
         "岩",
         "道の駅",
         "縁結び",
-        "石"
+        "石",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0578-thumb.jpg",
       "large": "assets/img/lib/P0578-large.jpg",
@@ -5279,7 +5525,8 @@ window.SPL_LIBRARY = {
         "岩",
         "道の駅",
         "縁結び",
-        "石"
+        "石",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0579-thumb.jpg",
       "large": "assets/img/lib/P0579-large.jpg",
@@ -5302,7 +5549,8 @@ window.SPL_LIBRARY = {
         "文化施設",
         "体験",
         "お土産",
-        "屋内"
+        "屋内",
+        "印刷物向き"
       ],
       "thumb": "assets/img/lib/P0335-thumb.jpg",
       "large": "assets/img/lib/P0335-large.jpg",
@@ -5325,7 +5573,8 @@ window.SPL_LIBRARY = {
         "文化施設",
         "体験",
         "お土産",
-        "屋内"
+        "屋内",
+        "印刷物向き"
       ],
       "thumb": "assets/img/lib/P0336-thumb.jpg",
       "large": "assets/img/lib/P0336-large.jpg",
@@ -5346,7 +5595,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "道の駅",
         "海の幸",
-        "カニ"
+        "カニ",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0337-thumb.jpg",
       "large": "assets/img/lib/P0337-large.jpg",
@@ -5367,7 +5617,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "道の駅",
         "えび",
-        "食事"
+        "食事",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0339-thumb.jpg",
       "large": "assets/img/lib/P0339-large.jpg",
@@ -5388,7 +5639,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "道の駅",
         "えび",
-        "食事"
+        "食事",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0340-thumb.jpg",
       "large": "assets/img/lib/P0340-large.jpg",
@@ -5409,7 +5661,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "道の駅",
         "海鮮",
-        "食事"
+        "食事",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0341-thumb.jpg",
       "large": "assets/img/lib/P0341-large.jpg",
@@ -5429,7 +5682,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "道の駅",
-        "お土産"
+        "お土産",
+        "印刷物向き"
       ],
       "thumb": "assets/img/lib/P0342-thumb.jpg",
       "large": "assets/img/lib/P0342-large.jpg",
@@ -5450,7 +5704,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "屋内",
         "お土産",
-        "道の駅"
+        "道の駅",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0343-thumb.jpg",
       "large": "assets/img/lib/P0343-large.jpg",
@@ -5471,7 +5726,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "道の駅",
         "お土産",
-        "特産品"
+        "特産品",
+        "印刷物向き"
       ],
       "thumb": "assets/img/lib/P0344-thumb.jpg",
       "large": "assets/img/lib/P0344-large.jpg",
@@ -5492,7 +5748,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "道の駅",
         "海鮮",
-        "食事"
+        "食事",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0345-thumb.jpg",
       "large": "assets/img/lib/P0345-large.jpg",
@@ -5512,7 +5769,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "夏",
-        "道の駅"
+        "道の駅",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0347-thumb.jpg",
       "large": "assets/img/lib/P0347-large.jpg",
@@ -5533,7 +5791,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "屋内",
         "お土産",
-        "道の駅"
+        "道の駅",
+        "印刷物向き"
       ],
       "thumb": "assets/img/lib/P0349-thumb.jpg",
       "large": "assets/img/lib/P0349-large.jpg",
@@ -5554,7 +5813,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "さくら貝",
         "屋内",
-        "道の駅"
+        "道の駅",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0351-thumb.jpg",
       "large": "assets/img/lib/P0351-large.jpg",
@@ -5575,7 +5835,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "さくら貝",
         "屋内",
-        "道の駅"
+        "道の駅",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0352-thumb.jpg",
       "large": "assets/img/lib/P0352-large.jpg",
@@ -5596,7 +5857,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "さくら貝",
         "屋内",
-        "道の駅"
+        "道の駅",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0353-thumb.jpg",
       "large": "assets/img/lib/P0353-large.jpg",
@@ -5617,7 +5879,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "さくら貝",
         "屋内",
-        "道の駅"
+        "道の駅",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0354-thumb.jpg",
       "large": "assets/img/lib/P0354-large.jpg",
@@ -5638,7 +5901,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "さくら貝",
         "屋内",
-        "道の駅"
+        "道の駅",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0355-thumb.jpg",
       "large": "assets/img/lib/P0355-large.jpg",
@@ -5659,7 +5923,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "さくら貝",
         "屋内",
-        "道の駅"
+        "道の駅",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0356-thumb.jpg",
       "large": "assets/img/lib/P0356-large.jpg",
@@ -5680,7 +5945,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "さくら貝",
         "屋内",
-        "道の駅"
+        "道の駅",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0358-thumb.jpg",
       "large": "assets/img/lib/P0358-large.jpg",
@@ -5701,7 +5967,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "さくら貝",
         "屋内",
-        "道の駅"
+        "道の駅",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0360-thumb.jpg",
       "large": "assets/img/lib/P0360-large.jpg",
@@ -5722,7 +5989,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "さくら貝",
         "屋内",
-        "道の駅"
+        "道の駅",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0361-thumb.jpg",
       "large": "assets/img/lib/P0361-large.jpg",
@@ -5744,7 +6012,8 @@ window.SPL_LIBRARY = {
         "庭園",
         "名所旧跡",
         "文化施設",
-        "屋内"
+        "屋内",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0059-thumb.jpg",
       "large": "assets/img/lib/P0059-large.jpg",
@@ -5765,7 +6034,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "文化施設",
         "名所旧跡",
-        "庭園"
+        "庭園",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0063-thumb.jpg",
       "large": "assets/img/lib/P0063-large.jpg",
@@ -5787,7 +6057,8 @@ window.SPL_LIBRARY = {
         "庭園",
         "名所旧跡",
         "文化施設",
-        "屋内"
+        "屋内",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0060-thumb.jpg",
       "large": "assets/img/lib/P0060-large.jpg",
@@ -5809,7 +6080,8 @@ window.SPL_LIBRARY = {
         "庭園",
         "名所旧跡",
         "文化施設",
-        "屋内"
+        "屋内",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0061-thumb.jpg",
       "large": "assets/img/lib/P0061-large.jpg",
@@ -5831,7 +6103,8 @@ window.SPL_LIBRARY = {
         "庭園",
         "名所旧跡",
         "文化施設",
-        "屋内"
+        "屋内",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0062-thumb.jpg",
       "large": "assets/img/lib/P0062-large.jpg",
@@ -5852,7 +6125,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "庭園",
         "名所旧跡",
-        "文化施設"
+        "文化施設",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0175-thumb.jpg",
       "large": "assets/img/lib/P0175-large.jpg",
@@ -5873,7 +6147,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "庭園",
         "名所旧跡",
-        "文化施設"
+        "文化施設",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0176-thumb.jpg",
       "large": "assets/img/lib/P0176-large.jpg",
@@ -5894,7 +6169,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "庭園",
         "名所旧跡",
-        "文化施設"
+        "文化施設",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0178-thumb.jpg",
       "large": "assets/img/lib/P0178-large.jpg",
@@ -5915,7 +6191,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "庭園",
         "名所旧跡",
-        "文化施設"
+        "文化施設",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0179-thumb.jpg",
       "large": "assets/img/lib/P0179-large.jpg",
@@ -5936,7 +6213,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "庭園",
         "名所旧跡",
-        "文化施設"
+        "文化施設",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0180-thumb.jpg",
       "large": "assets/img/lib/P0180-large.jpg",
@@ -5957,7 +6235,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "庭園",
         "名所旧跡",
-        "文化施設"
+        "文化施設",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0181-thumb.jpg",
       "large": "assets/img/lib/P0181-large.jpg",
@@ -5978,7 +6257,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "庭園",
         "名所旧跡",
-        "文化施設"
+        "文化施設",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0182-thumb.jpg",
       "large": "assets/img/lib/P0182-large.jpg",
@@ -5999,7 +6279,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "庭園",
         "名所旧跡",
-        "文化施設"
+        "文化施設",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0183-thumb.jpg",
       "large": "assets/img/lib/P0183-large.jpg",
@@ -6020,7 +6301,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "庭園",
         "名所旧跡",
-        "文化施設"
+        "文化施設",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0184-thumb.jpg",
       "large": "assets/img/lib/P0184-large.jpg",
@@ -6041,7 +6323,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "文化施設",
         "名所旧跡",
-        "庭園"
+        "庭園",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0185-thumb.jpg",
       "large": "assets/img/lib/P0185-large.jpg",
@@ -6061,7 +6344,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "神社",
-        "名所旧跡"
+        "名所旧跡",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0566-thumb.jpg",
       "large": "assets/img/lib/P0566-large.jpg",
@@ -6081,7 +6365,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "神社",
-        "名所旧跡"
+        "名所旧跡",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0681-thumb.jpg",
       "large": "assets/img/lib/P0681-large.jpg",
@@ -6101,7 +6386,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "神社",
-        "名所旧跡"
+        "名所旧跡",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0144-thumb.jpg",
       "large": "assets/img/lib/P0144-large.jpg",
@@ -6121,7 +6407,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "神社",
-        "名所旧跡"
+        "名所旧跡",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0145-thumb.jpg",
       "large": "assets/img/lib/P0145-large.jpg",
@@ -6142,7 +6429,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "岩",
-        "断崖"
+        "断崖",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0533-thumb.jpg",
       "large": "assets/img/lib/P0533-large.jpg",
@@ -6162,7 +6450,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "能登富士",
-        "山"
+        "山",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0548-thumb.jpg",
       "large": "assets/img/lib/P0548-large.jpg",
@@ -6183,7 +6472,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "棚田",
         "水田",
-        "大笹波"
+        "大笹波",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0567-thumb.jpg",
       "large": "assets/img/lib/P0567-large.jpg",
@@ -6203,7 +6493,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "桜",
-        "花"
+        "花",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0605-thumb.jpg",
       "large": "assets/img/lib/P0605-large.jpg",
@@ -6223,7 +6514,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "桜",
-        "花"
+        "花",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0611-thumb.jpg",
       "large": "assets/img/lib/P0611-large.jpg",
@@ -6243,7 +6535,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "花",
-        "あじさい"
+        "あじさい",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0614-thumb.jpg",
       "large": "assets/img/lib/P0614-large.jpg",
@@ -6265,7 +6558,8 @@ window.SPL_LIBRARY = {
         "祭り",
         "八朔",
         "祭礼",
-        "キリコ"
+        "キリコ",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0632-thumb.jpg",
       "large": "assets/img/lib/P0632-large.jpg",
@@ -6287,7 +6581,8 @@ window.SPL_LIBRARY = {
         "祭り",
         "八朔",
         "祭礼",
-        "キリコ"
+        "キリコ",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0640-thumb.jpg",
       "large": "assets/img/lib/P0640-large.jpg",
@@ -6309,7 +6604,8 @@ window.SPL_LIBRARY = {
         "祭り",
         "八朔",
         "祭礼",
-        "キリコ"
+        "キリコ",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0641-thumb.jpg",
       "large": "assets/img/lib/P0641-large.jpg",
@@ -6331,7 +6627,8 @@ window.SPL_LIBRARY = {
         "祭り",
         "八朔",
         "祭礼",
-        "キリコ"
+        "キリコ",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0643-thumb.jpg",
       "large": "assets/img/lib/P0643-large.jpg",
@@ -6353,7 +6650,8 @@ window.SPL_LIBRARY = {
         "祭り",
         "八朔",
         "祭礼",
-        "キリコ"
+        "キリコ",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0647-thumb.jpg",
       "large": "assets/img/lib/P0647-large.jpg",
@@ -6374,7 +6672,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "祭り",
         "福浦",
-        "祭礼"
+        "祭礼",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0649-thumb.jpg",
       "large": "assets/img/lib/P0649-large.jpg",
@@ -6395,7 +6694,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "祭り",
         "福浦",
-        "祭礼"
+        "祭礼",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0655-thumb.jpg",
       "large": "assets/img/lib/P0655-large.jpg",
@@ -6416,7 +6716,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "祭り",
         "福浦",
-        "祭礼"
+        "祭礼",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0660-thumb.jpg",
       "large": "assets/img/lib/P0660-large.jpg",
@@ -6437,7 +6738,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "太鼓",
         "これでもか",
-        "音楽"
+        "音楽",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0667-thumb.jpg",
       "large": "assets/img/lib/P0667-large.jpg",
@@ -6458,7 +6760,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "これでもか",
         "太鼓",
-        "音楽"
+        "音楽",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0676-thumb.jpg",
       "large": "assets/img/lib/P0676-large.jpg",
@@ -6479,7 +6782,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "桜",
         "花",
-        "春"
+        "春",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0680-thumb.jpg",
       "large": "assets/img/lib/P0680-large.jpg",
@@ -6500,7 +6804,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "青空",
         "村",
-        "公園"
+        "公園",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0685-thumb.jpg",
       "large": "assets/img/lib/P0685-large.jpg",
@@ -6521,7 +6826,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "青空",
         "公園",
-        "村"
+        "村",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0688-thumb.jpg",
       "large": "assets/img/lib/P0688-large.jpg",
@@ -6542,7 +6848,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "夜景",
         "祭り",
-        "花火"
+        "花火",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0690-thumb.jpg",
       "large": "assets/img/lib/P0690-large.jpg",
@@ -6563,7 +6870,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "花",
         "庭",
-        "春"
+        "春",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0691-thumb.jpg",
       "large": "assets/img/lib/P0691-large.jpg",
@@ -6584,7 +6892,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "桜",
         "花",
-        "春"
+        "春",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0697-thumb.jpg",
       "large": "assets/img/lib/P0697-large.jpg",
@@ -6604,7 +6913,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "花",
-        "あじさい"
+        "あじさい",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0707-thumb.jpg",
       "large": "assets/img/lib/P0707-large.jpg",
@@ -6624,7 +6934,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "祭り",
-        "福浦"
+        "福浦",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0720-thumb.jpg",
       "large": "assets/img/lib/P0720-large.jpg",
@@ -6644,7 +6955,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "祭り",
-        "福浦"
+        "福浦",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0735-thumb.jpg",
       "large": "assets/img/lib/P0735-large.jpg",
@@ -6664,7 +6976,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "太鼓",
-        "音楽"
+        "音楽",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0763-thumb.jpg",
       "large": "assets/img/lib/P0763-large.jpg",
@@ -6684,7 +6997,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "空撮",
-        "体育館"
+        "体育館",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0783-thumb.jpg",
       "large": "assets/img/lib/P0783-large.jpg",
@@ -6704,7 +7018,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "村",
-        "公園"
+        "公園",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0792-thumb.jpg",
       "large": "assets/img/lib/P0792-large.jpg",
@@ -6724,7 +7039,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "桜",
-        "花"
+        "花",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0798-thumb.jpg",
       "large": "assets/img/lib/P0798-large.jpg",
@@ -6744,7 +7060,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "桜",
-        "花"
+        "花",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0802-thumb.jpg",
       "large": "assets/img/lib/P0802-large.jpg",
@@ -6764,7 +7081,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "能登富士",
-        "山"
+        "山",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0549-thumb.jpg",
       "large": "assets/img/lib/P0549-large.jpg",
@@ -6785,7 +7103,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "棚田",
         "水田",
-        "大笹波"
+        "大笹波",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0568-thumb.jpg",
       "large": "assets/img/lib/P0568-large.jpg",
@@ -6805,7 +7124,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "桜",
-        "花"
+        "花",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0606-thumb.jpg",
       "large": "assets/img/lib/P0606-large.jpg",
@@ -6825,7 +7145,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "桜",
-        "花"
+        "花",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0612-thumb.jpg",
       "large": "assets/img/lib/P0612-large.jpg",
@@ -6845,7 +7166,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "花",
-        "あじさい"
+        "あじさい",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0615-thumb.jpg",
       "large": "assets/img/lib/P0615-large.jpg",
@@ -6867,7 +7189,8 @@ window.SPL_LIBRARY = {
         "祭り",
         "八朔",
         "祭礼",
-        "キリコ"
+        "キリコ",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0633-thumb.jpg",
       "large": "assets/img/lib/P0633-large.jpg",
@@ -6889,7 +7212,8 @@ window.SPL_LIBRARY = {
         "祭り",
         "八朔",
         "祭礼",
-        "キリコ"
+        "キリコ",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0642-thumb.jpg",
       "large": "assets/img/lib/P0642-large.jpg",
@@ -6911,7 +7235,8 @@ window.SPL_LIBRARY = {
         "祭り",
         "八朔",
         "祭礼",
-        "キリコ"
+        "キリコ",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0644-thumb.jpg",
       "large": "assets/img/lib/P0644-large.jpg",
@@ -6933,7 +7258,8 @@ window.SPL_LIBRARY = {
         "祭り",
         "八朔",
         "祭礼",
-        "キリコ"
+        "キリコ",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0648-thumb.jpg",
       "large": "assets/img/lib/P0648-large.jpg",
@@ -6954,7 +7280,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "祭り",
         "福浦",
-        "祭礼"
+        "祭礼",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0650-thumb.jpg",
       "large": "assets/img/lib/P0650-large.jpg",
@@ -6975,7 +7302,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "祭り",
         "福浦",
-        "祭礼"
+        "祭礼",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0656-thumb.jpg",
       "large": "assets/img/lib/P0656-large.jpg",
@@ -6996,7 +7324,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "祭り",
         "福浦",
-        "祭礼"
+        "祭礼",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0661-thumb.jpg",
       "large": "assets/img/lib/P0661-large.jpg",
@@ -7017,7 +7346,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "太鼓",
         "これでもか",
-        "音楽"
+        "音楽",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0668-thumb.jpg",
       "large": "assets/img/lib/P0668-large.jpg",
@@ -7038,7 +7368,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "これでもか",
         "太鼓",
-        "音楽"
+        "音楽",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0677-thumb.jpg",
       "large": "assets/img/lib/P0677-large.jpg",
@@ -7059,7 +7390,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "青空",
         "村",
-        "公園"
+        "公園",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0686-thumb.jpg",
       "large": "assets/img/lib/P0686-large.jpg",
@@ -7080,7 +7412,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "青空",
         "公園",
-        "村"
+        "村",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0689-thumb.jpg",
       "large": "assets/img/lib/P0689-large.jpg",
@@ -7101,7 +7434,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "花",
         "庭",
-        "春"
+        "春",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0692-thumb.jpg",
       "large": "assets/img/lib/P0692-large.jpg",
@@ -7122,7 +7456,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "桜",
         "花",
-        "春"
+        "春",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0698-thumb.jpg",
       "large": "assets/img/lib/P0698-large.jpg",
@@ -7142,7 +7477,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "花",
-        "あじさい"
+        "あじさい",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0708-thumb.jpg",
       "large": "assets/img/lib/P0708-large.jpg",
@@ -7162,7 +7498,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "祭り",
-        "福浦"
+        "福浦",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0721-thumb.jpg",
       "large": "assets/img/lib/P0721-large.jpg",
@@ -7182,7 +7519,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "祭り",
-        "福浦"
+        "福浦",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0736-thumb.jpg",
       "large": "assets/img/lib/P0736-large.jpg",
@@ -7202,7 +7540,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "太鼓",
-        "音楽"
+        "音楽",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0764-thumb.jpg",
       "large": "assets/img/lib/P0764-large.jpg",
@@ -7222,7 +7561,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "空撮",
-        "体育館"
+        "体育館",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0784-thumb.jpg",
       "large": "assets/img/lib/P0784-large.jpg",
@@ -7242,7 +7582,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "村",
-        "公園"
+        "公園",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0793-thumb.jpg",
       "large": "assets/img/lib/P0793-large.jpg",
@@ -7262,7 +7603,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "桜",
-        "花"
+        "花",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0799-thumb.jpg",
       "large": "assets/img/lib/P0799-large.jpg",
@@ -7282,7 +7624,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "能登富士",
-        "山"
+        "山",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0550-thumb.jpg",
       "large": "assets/img/lib/P0550-large.jpg",
@@ -7303,7 +7646,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "棚田",
         "水田",
-        "大笹波"
+        "大笹波",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0569-thumb.jpg",
       "large": "assets/img/lib/P0569-large.jpg",
@@ -7323,7 +7667,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "桜",
-        "花"
+        "花",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0607-thumb.jpg",
       "large": "assets/img/lib/P0607-large.jpg",
@@ -7343,7 +7688,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "桜",
-        "花"
+        "花",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0613-thumb.jpg",
       "large": "assets/img/lib/P0613-large.jpg",
@@ -7363,7 +7709,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "花",
-        "あじさい"
+        "あじさい",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0616-thumb.jpg",
       "large": "assets/img/lib/P0616-large.jpg",
@@ -7385,7 +7732,8 @@ window.SPL_LIBRARY = {
         "祭り",
         "八朔",
         "祭礼",
-        "キリコ"
+        "キリコ",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0634-thumb.jpg",
       "large": "assets/img/lib/P0634-large.jpg",
@@ -7407,7 +7755,8 @@ window.SPL_LIBRARY = {
         "祭り",
         "八朔",
         "祭礼",
-        "キリコ"
+        "キリコ",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0645-thumb.jpg",
       "large": "assets/img/lib/P0645-large.jpg",
@@ -7428,7 +7777,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "祭り",
         "福浦",
-        "祭礼"
+        "祭礼",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0651-thumb.jpg",
       "large": "assets/img/lib/P0651-large.jpg",
@@ -7449,7 +7799,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "祭り",
         "福浦",
-        "祭礼"
+        "祭礼",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0657-thumb.jpg",
       "large": "assets/img/lib/P0657-large.jpg",
@@ -7470,7 +7821,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "祭り",
         "福浦",
-        "祭礼"
+        "祭礼",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0662-thumb.jpg",
       "large": "assets/img/lib/P0662-large.jpg",
@@ -7491,7 +7843,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "太鼓",
         "これでもか",
-        "音楽"
+        "音楽",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0669-thumb.jpg",
       "large": "assets/img/lib/P0669-large.jpg",
@@ -7512,7 +7865,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "これでもか",
         "太鼓",
-        "音楽"
+        "音楽",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0678-thumb.jpg",
       "large": "assets/img/lib/P0678-large.jpg",
@@ -7533,7 +7887,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "青空",
         "村",
-        "公園"
+        "公園",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0687-thumb.jpg",
       "large": "assets/img/lib/P0687-large.jpg",
@@ -7554,7 +7909,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "花",
         "庭",
-        "春"
+        "春",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0693-thumb.jpg",
       "large": "assets/img/lib/P0693-large.jpg",
@@ -7575,7 +7931,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "桜",
         "花",
-        "春"
+        "春",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0699-thumb.jpg",
       "large": "assets/img/lib/P0699-large.jpg",
@@ -7595,7 +7952,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "花",
-        "あじさい"
+        "あじさい",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0709-thumb.jpg",
       "large": "assets/img/lib/P0709-large.jpg",
@@ -7615,7 +7973,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "祭り",
-        "福浦"
+        "福浦",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0722-thumb.jpg",
       "large": "assets/img/lib/P0722-large.jpg",
@@ -7635,7 +7994,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "祭り",
-        "福浦"
+        "福浦",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0737-thumb.jpg",
       "large": "assets/img/lib/P0737-large.jpg",
@@ -7655,7 +8015,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "太鼓",
-        "音楽"
+        "音楽",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0765-thumb.jpg",
       "large": "assets/img/lib/P0765-large.jpg",
@@ -7675,7 +8036,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "空撮",
-        "体育館"
+        "体育館",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0785-thumb.jpg",
       "large": "assets/img/lib/P0785-large.jpg",
@@ -7695,7 +8057,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "村",
-        "公園"
+        "公園",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0794-thumb.jpg",
       "large": "assets/img/lib/P0794-large.jpg",
@@ -7715,7 +8078,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "桜",
-        "花"
+        "花",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0800-thumb.jpg",
       "large": "assets/img/lib/P0800-large.jpg",
@@ -7735,7 +8099,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "能登富士",
-        "山"
+        "山",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0551-thumb.jpg",
       "large": "assets/img/lib/P0551-large.jpg",
@@ -7756,7 +8121,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "棚田",
         "水田",
-        "大笹波"
+        "大笹波",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0570-thumb.jpg",
       "large": "assets/img/lib/P0570-large.jpg",
@@ -7776,7 +8142,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "桜",
-        "花"
+        "花",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0608-thumb.jpg",
       "large": "assets/img/lib/P0608-large.jpg",
@@ -7796,7 +8163,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "花",
-        "あじさい"
+        "あじさい",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0617-thumb.jpg",
       "large": "assets/img/lib/P0617-large.jpg",
@@ -7818,7 +8186,8 @@ window.SPL_LIBRARY = {
         "祭り",
         "八朔",
         "祭礼",
-        "キリコ"
+        "キリコ",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0635-thumb.jpg",
       "large": "assets/img/lib/P0635-large.jpg",
@@ -7840,7 +8209,8 @@ window.SPL_LIBRARY = {
         "祭り",
         "八朔",
         "祭礼",
-        "キリコ"
+        "キリコ",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0646-thumb.jpg",
       "large": "assets/img/lib/P0646-large.jpg",
@@ -7861,7 +8231,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "祭り",
         "福浦",
-        "祭礼"
+        "祭礼",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0652-thumb.jpg",
       "large": "assets/img/lib/P0652-large.jpg",
@@ -7882,7 +8253,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "祭り",
         "福浦",
-        "祭礼"
+        "祭礼",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0658-thumb.jpg",
       "large": "assets/img/lib/P0658-large.jpg",
@@ -7903,7 +8275,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "祭り",
         "福浦",
-        "祭礼"
+        "祭礼",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0663-thumb.jpg",
       "large": "assets/img/lib/P0663-large.jpg",
@@ -7924,7 +8297,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "太鼓",
         "これでもか",
-        "音楽"
+        "音楽",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0670-thumb.jpg",
       "large": "assets/img/lib/P0670-large.jpg",
@@ -7945,7 +8319,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "これでもか",
         "太鼓",
-        "音楽"
+        "音楽",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0679-thumb.jpg",
       "large": "assets/img/lib/P0679-large.jpg",
@@ -7966,7 +8341,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "花",
         "庭",
-        "春"
+        "春",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0694-thumb.jpg",
       "large": "assets/img/lib/P0694-large.jpg",
@@ -7987,7 +8363,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "桜",
         "花",
-        "春"
+        "春",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0700-thumb.jpg",
       "large": "assets/img/lib/P0700-large.jpg",
@@ -8007,7 +8384,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "祭り",
-        "福浦"
+        "福浦",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0723-thumb.jpg",
       "large": "assets/img/lib/P0723-large.jpg",
@@ -8027,7 +8405,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "祭り",
-        "福浦"
+        "福浦",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0738-thumb.jpg",
       "large": "assets/img/lib/P0738-large.jpg",
@@ -8047,7 +8426,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "太鼓",
-        "音楽"
+        "音楽",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0766-thumb.jpg",
       "large": "assets/img/lib/P0766-large.jpg",
@@ -8067,7 +8447,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "空撮",
-        "体育館"
+        "体育館",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0786-thumb.jpg",
       "large": "assets/img/lib/P0786-large.jpg",
@@ -8087,7 +8468,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "村",
-        "公園"
+        "公園",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0795-thumb.jpg",
       "large": "assets/img/lib/P0795-large.jpg",
@@ -8107,7 +8489,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "桜",
-        "花"
+        "花",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0801-thumb.jpg",
       "large": "assets/img/lib/P0801-large.jpg",
@@ -8129,7 +8512,8 @@ window.SPL_LIBRARY = {
         "花",
         "青空",
         "能登富士",
-        "山"
+        "山",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0552-thumb.jpg",
       "large": "assets/img/lib/P0552-large.jpg",
@@ -8150,7 +8534,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "棚田",
         "水田",
-        "大笹波"
+        "大笹波",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0571-thumb.jpg",
       "large": "assets/img/lib/P0571-large.jpg",
@@ -8170,7 +8555,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "桜",
-        "花"
+        "花",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0609-thumb.jpg",
       "large": "assets/img/lib/P0609-large.jpg",
@@ -8190,7 +8576,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "花",
-        "あじさい"
+        "あじさい",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0618-thumb.jpg",
       "large": "assets/img/lib/P0618-large.jpg",
@@ -8212,7 +8599,8 @@ window.SPL_LIBRARY = {
         "祭り",
         "八朔",
         "祭礼",
-        "キリコ"
+        "キリコ",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0636-thumb.jpg",
       "large": "assets/img/lib/P0636-large.jpg",
@@ -8233,7 +8621,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "祭り",
         "福浦",
-        "祭礼"
+        "祭礼",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0653-thumb.jpg",
       "large": "assets/img/lib/P0653-large.jpg",
@@ -8254,7 +8643,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "祭り",
         "福浦",
-        "祭礼"
+        "祭礼",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0659-thumb.jpg",
       "large": "assets/img/lib/P0659-large.jpg",
@@ -8275,7 +8665,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "祭り",
         "福浦",
-        "祭礼"
+        "祭礼",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0664-thumb.jpg",
       "large": "assets/img/lib/P0664-large.jpg",
@@ -8296,7 +8687,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "太鼓",
         "これでもか",
-        "音楽"
+        "音楽",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0671-thumb.jpg",
       "large": "assets/img/lib/P0671-large.jpg",
@@ -8317,7 +8709,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "花",
         "庭",
-        "春"
+        "春",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0695-thumb.jpg",
       "large": "assets/img/lib/P0695-large.jpg",
@@ -8338,7 +8731,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "桜",
         "花",
-        "春"
+        "春",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0701-thumb.jpg",
       "large": "assets/img/lib/P0701-large.jpg",
@@ -8358,7 +8752,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "花",
-        "あじさい"
+        "あじさい",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0711-thumb.jpg",
       "large": "assets/img/lib/P0711-large.jpg",
@@ -8378,7 +8773,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "祭り",
-        "福浦"
+        "福浦",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0724-thumb.jpg",
       "large": "assets/img/lib/P0724-large.jpg",
@@ -8398,7 +8794,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "祭り",
-        "福浦"
+        "福浦",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0739-thumb.jpg",
       "large": "assets/img/lib/P0739-large.jpg",
@@ -8418,7 +8815,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "太鼓",
-        "音楽"
+        "音楽",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0767-thumb.jpg",
       "large": "assets/img/lib/P0767-large.jpg",
@@ -8438,7 +8836,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "空撮",
-        "体育館"
+        "体育館",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0787-thumb.jpg",
       "large": "assets/img/lib/P0787-large.jpg",
@@ -8458,7 +8857,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "村",
-        "公園"
+        "公園",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0796-thumb.jpg",
       "large": "assets/img/lib/P0796-large.jpg",
@@ -8479,7 +8879,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "花",
         "能登富士",
-        "山"
+        "山",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0553-thumb.jpg",
       "large": "assets/img/lib/P0553-large.jpg",
@@ -8500,7 +8901,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "棚田",
         "水田",
-        "大笹波"
+        "大笹波",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0572-thumb.jpg",
       "large": "assets/img/lib/P0572-large.jpg",
@@ -8520,7 +8922,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "桜",
-        "花"
+        "花",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0610-thumb.jpg",
       "large": "assets/img/lib/P0610-large.jpg",
@@ -8540,7 +8943,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "花",
-        "あじさい"
+        "あじさい",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0619-thumb.jpg",
       "large": "assets/img/lib/P0619-large.jpg",
@@ -8562,7 +8966,8 @@ window.SPL_LIBRARY = {
         "祭り",
         "八朔",
         "祭礼",
-        "キリコ"
+        "キリコ",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0637-thumb.jpg",
       "large": "assets/img/lib/P0637-large.jpg",
@@ -8583,7 +8988,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "祭り",
         "福浦",
-        "祭礼"
+        "祭礼",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0654-thumb.jpg",
       "large": "assets/img/lib/P0654-large.jpg",
@@ -8604,7 +9010,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "太鼓",
         "これでもか",
-        "音楽"
+        "音楽",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0672-thumb.jpg",
       "large": "assets/img/lib/P0672-large.jpg",
@@ -8625,7 +9032,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "花",
         "庭",
-        "春"
+        "春",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0696-thumb.jpg",
       "large": "assets/img/lib/P0696-large.jpg",
@@ -8646,7 +9054,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "桜",
         "花",
-        "春"
+        "春",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0702-thumb.jpg",
       "large": "assets/img/lib/P0702-large.jpg",
@@ -8666,7 +9075,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "祭り",
-        "福浦"
+        "福浦",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0725-thumb.jpg",
       "large": "assets/img/lib/P0725-large.jpg",
@@ -8686,7 +9096,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "祭り",
-        "福浦"
+        "福浦",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0740-thumb.jpg",
       "large": "assets/img/lib/P0740-large.jpg",
@@ -8706,7 +9117,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "太鼓",
-        "音楽"
+        "音楽",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0768-thumb.jpg",
       "large": "assets/img/lib/P0768-large.jpg",
@@ -8726,7 +9138,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "村",
-        "公園"
+        "公園",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0797-thumb.jpg",
       "large": "assets/img/lib/P0797-large.jpg",
@@ -8746,7 +9159,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "能登富士",
-        "山"
+        "山",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0554-thumb.jpg",
       "large": "assets/img/lib/P0554-large.jpg",
@@ -8767,7 +9181,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "棚田",
         "水田",
-        "大笹波"
+        "大笹波",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0573-thumb.jpg",
       "large": "assets/img/lib/P0573-large.jpg",
@@ -8787,7 +9202,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "花",
-        "あじさい"
+        "あじさい",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0620-thumb.jpg",
       "large": "assets/img/lib/P0620-large.jpg",
@@ -8809,7 +9225,8 @@ window.SPL_LIBRARY = {
         "祭り",
         "八朔",
         "祭礼",
-        "キリコ"
+        "キリコ",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0638-thumb.jpg",
       "large": "assets/img/lib/P0638-large.jpg",
@@ -8830,7 +9247,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "太鼓",
         "これでもか",
-        "音楽"
+        "音楽",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0673-thumb.jpg",
       "large": "assets/img/lib/P0673-large.jpg",
@@ -8851,7 +9269,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "桜",
         "花",
-        "春"
+        "春",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0703-thumb.jpg",
       "large": "assets/img/lib/P0703-large.jpg",
@@ -8871,7 +9290,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "祭り",
-        "福浦"
+        "福浦",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0726-thumb.jpg",
       "large": "assets/img/lib/P0726-large.jpg",
@@ -8891,7 +9311,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "祭り",
-        "福浦"
+        "福浦",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0741-thumb.jpg",
       "large": "assets/img/lib/P0741-large.jpg",
@@ -8911,7 +9332,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "太鼓",
-        "音楽"
+        "音楽",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0769-thumb.jpg",
       "large": "assets/img/lib/P0769-large.jpg",
@@ -8931,7 +9353,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "能登富士",
-        "山"
+        "山",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0555-thumb.jpg",
       "large": "assets/img/lib/P0555-large.jpg",
@@ -8952,7 +9375,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "棚田",
         "水田",
-        "大笹波"
+        "大笹波",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0574-thumb.jpg",
       "large": "assets/img/lib/P0574-large.jpg",
@@ -8972,7 +9396,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "花",
-        "あじさい"
+        "あじさい",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0621-thumb.jpg",
       "large": "assets/img/lib/P0621-large.jpg",
@@ -8993,7 +9418,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "太鼓",
         "これでもか",
-        "音楽"
+        "音楽",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0674-thumb.jpg",
       "large": "assets/img/lib/P0674-large.jpg",
@@ -9014,7 +9440,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "桜",
         "花",
-        "春"
+        "春",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0704-thumb.jpg",
       "large": "assets/img/lib/P0704-large.jpg",
@@ -9034,7 +9461,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "祭り",
-        "福浦"
+        "福浦",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0727-thumb.jpg",
       "large": "assets/img/lib/P0727-large.jpg",
@@ -9054,7 +9482,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "祭り",
-        "福浦"
+        "福浦",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0742-thumb.jpg",
       "large": "assets/img/lib/P0742-large.jpg",
@@ -9074,7 +9503,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "太鼓",
-        "音楽"
+        "音楽",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0770-thumb.jpg",
       "large": "assets/img/lib/P0770-large.jpg",
@@ -9094,7 +9524,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "能登富士",
-        "山"
+        "山",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0556-thumb.jpg",
       "large": "assets/img/lib/P0556-large.jpg",
@@ -9115,7 +9546,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "棚田",
         "水田",
-        "大笹波"
+        "大笹波",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0575-thumb.jpg",
       "large": "assets/img/lib/P0575-large.jpg",
@@ -9136,7 +9568,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "太鼓",
         "これでもか",
-        "音楽"
+        "音楽",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0675-thumb.jpg",
       "large": "assets/img/lib/P0675-large.jpg",
@@ -9157,7 +9590,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "桜",
         "花",
-        "春"
+        "春",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0705-thumb.jpg",
       "large": "assets/img/lib/P0705-large.jpg",
@@ -9177,7 +9611,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "祭り",
-        "福浦"
+        "福浦",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0728-thumb.jpg",
       "large": "assets/img/lib/P0728-large.jpg",
@@ -9197,7 +9632,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "祭り",
-        "福浦"
+        "福浦",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0743-thumb.jpg",
       "large": "assets/img/lib/P0743-large.jpg",
@@ -9217,7 +9653,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "太鼓",
-        "音楽"
+        "音楽",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0771-thumb.jpg",
       "large": "assets/img/lib/P0771-large.jpg",
@@ -9238,7 +9675,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "雪",
         "能登富士",
-        "山"
+        "山",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0557-thumb.jpg",
       "large": "assets/img/lib/P0557-large.jpg",
@@ -9259,7 +9697,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "棚田",
         "水田",
-        "大笹波"
+        "大笹波",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0576-thumb.jpg",
       "large": "assets/img/lib/P0576-large.jpg",
@@ -9280,7 +9719,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "桜",
         "花",
-        "春"
+        "春",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0706-thumb.jpg",
       "large": "assets/img/lib/P0706-large.jpg",
@@ -9300,7 +9740,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "祭り",
-        "福浦"
+        "福浦",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0729-thumb.jpg",
       "large": "assets/img/lib/P0729-large.jpg",
@@ -9320,7 +9761,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "祭り",
-        "福浦"
+        "福浦",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0744-thumb.jpg",
       "large": "assets/img/lib/P0744-large.jpg",
@@ -9340,7 +9782,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "太鼓",
-        "音楽"
+        "音楽",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0772-thumb.jpg",
       "large": "assets/img/lib/P0772-large.jpg",
@@ -9360,7 +9803,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "能登富士",
-        "山"
+        "山",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0558-thumb.jpg",
       "large": "assets/img/lib/P0558-large.jpg",
@@ -9380,7 +9824,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "祭り",
-        "福浦"
+        "福浦",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0730-thumb.jpg",
       "large": "assets/img/lib/P0730-large.jpg",
@@ -9400,7 +9845,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "祭り",
-        "福浦"
+        "福浦",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0745-thumb.jpg",
       "large": "assets/img/lib/P0745-large.jpg",
@@ -9420,7 +9866,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "太鼓",
-        "音楽"
+        "音楽",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0773-thumb.jpg",
       "large": "assets/img/lib/P0773-large.jpg",
@@ -9441,7 +9888,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "雪",
         "能登富士",
-        "山"
+        "山",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0559-thumb.jpg",
       "large": "assets/img/lib/P0559-large.jpg",
@@ -9461,7 +9909,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "祭り",
-        "福浦"
+        "福浦",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0731-thumb.jpg",
       "large": "assets/img/lib/P0731-large.jpg",
@@ -9481,7 +9930,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "祭り",
-        "福浦"
+        "福浦",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0746-thumb.jpg",
       "large": "assets/img/lib/P0746-large.jpg",
@@ -9501,7 +9951,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "太鼓",
-        "音楽"
+        "音楽",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0774-thumb.jpg",
       "large": "assets/img/lib/P0774-large.jpg",
@@ -9521,7 +9972,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "祭り",
-        "福浦"
+        "福浦",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0732-thumb.jpg",
       "large": "assets/img/lib/P0732-large.jpg",
@@ -9541,7 +9993,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "祭り",
-        "福浦"
+        "福浦",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0747-thumb.jpg",
       "large": "assets/img/lib/P0747-large.jpg",
@@ -9561,7 +10014,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "太鼓",
-        "音楽"
+        "音楽",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0775-thumb.jpg",
       "large": "assets/img/lib/P0775-large.jpg",
@@ -9581,7 +10035,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "祭り",
-        "福浦"
+        "福浦",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0733-thumb.jpg",
       "large": "assets/img/lib/P0733-large.jpg",
@@ -9601,7 +10056,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "祭り",
-        "福浦"
+        "福浦",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0748-thumb.jpg",
       "large": "assets/img/lib/P0748-large.jpg",
@@ -9621,7 +10077,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "太鼓",
-        "音楽"
+        "音楽",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0776-thumb.jpg",
       "large": "assets/img/lib/P0776-large.jpg",
@@ -9641,7 +10098,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "祭り",
-        "福浦"
+        "福浦",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0734-thumb.jpg",
       "large": "assets/img/lib/P0734-large.jpg",
@@ -9661,7 +10119,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "祭り",
-        "福浦"
+        "福浦",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0749-thumb.jpg",
       "large": "assets/img/lib/P0749-large.jpg",
@@ -9681,7 +10140,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "太鼓",
-        "音楽"
+        "音楽",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0777-thumb.jpg",
       "large": "assets/img/lib/P0777-large.jpg",
@@ -9701,7 +10161,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "祭り",
-        "福浦"
+        "福浦",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0750-thumb.jpg",
       "large": "assets/img/lib/P0750-large.jpg",
@@ -9721,7 +10182,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "太鼓",
-        "音楽"
+        "音楽",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0778-thumb.jpg",
       "large": "assets/img/lib/P0778-large.jpg",
@@ -9741,7 +10203,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "祭り",
-        "福浦"
+        "福浦",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0751-thumb.jpg",
       "large": "assets/img/lib/P0751-large.jpg",
@@ -9761,7 +10224,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "祭り",
-        "福浦"
+        "福浦",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0752-thumb.jpg",
       "large": "assets/img/lib/P0752-large.jpg",
@@ -9781,7 +10245,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "祭り",
-        "福浦"
+        "福浦",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0753-thumb.jpg",
       "large": "assets/img/lib/P0753-large.jpg",
@@ -9801,7 +10266,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "祭り",
-        "福浦"
+        "福浦",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0754-thumb.jpg",
       "large": "assets/img/lib/P0754-large.jpg",
@@ -9821,7 +10287,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "祭り",
-        "福浦"
+        "福浦",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0755-thumb.jpg",
       "large": "assets/img/lib/P0755-large.jpg",
@@ -9841,7 +10308,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "祭り",
-        "福浦"
+        "福浦",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0756-thumb.jpg",
       "large": "assets/img/lib/P0756-large.jpg",
@@ -9861,7 +10329,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "祭り",
-        "福浦"
+        "福浦",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0757-thumb.jpg",
       "large": "assets/img/lib/P0757-large.jpg",
@@ -9881,7 +10350,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "祭り",
-        "福浦"
+        "福浦",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0758-thumb.jpg",
       "large": "assets/img/lib/P0758-large.jpg",
@@ -9901,7 +10371,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "祭り",
-        "福浦"
+        "福浦",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0759-thumb.jpg",
       "large": "assets/img/lib/P0759-large.jpg",
@@ -9921,7 +10392,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "祭り",
-        "福浦"
+        "福浦",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0760-thumb.jpg",
       "large": "assets/img/lib/P0760-large.jpg",
@@ -9941,7 +10413,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "祭り",
-        "福浦"
+        "福浦",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0761-thumb.jpg",
       "large": "assets/img/lib/P0761-large.jpg",
@@ -9961,7 +10434,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "祭り",
-        "福浦"
+        "福浦",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0762-thumb.jpg",
       "large": "assets/img/lib/P0762-large.jpg",
@@ -9982,7 +10456,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "青空",
         "春",
-        "こいのぼり"
+        "こいのぼり",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0115-thumb.jpg",
       "large": "assets/img/lib/P0115-large.jpg",
@@ -10003,7 +10478,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "青空",
         "春",
-        "こいのぼり"
+        "こいのぼり",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0116-thumb.jpg",
       "large": "assets/img/lib/P0116-large.jpg",
@@ -10024,7 +10500,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "青空",
         "春",
-        "こいのぼり"
+        "こいのぼり",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0117-thumb.jpg",
       "large": "assets/img/lib/P0117-large.jpg",
@@ -10045,7 +10522,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "花",
         "春",
-        "つつじ"
+        "つつじ",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0118-thumb.jpg",
       "large": "assets/img/lib/P0118-large.jpg",
@@ -10066,7 +10544,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "花",
         "春",
-        "つつじ"
+        "つつじ",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0119-thumb.jpg",
       "large": "assets/img/lib/P0119-large.jpg",
@@ -10087,7 +10566,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "庭園",
         "春",
-        "つつじ"
+        "つつじ",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0120-thumb.jpg",
       "large": "assets/img/lib/P0120-large.jpg",
@@ -10108,7 +10588,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "庭園",
         "春",
-        "つつじ"
+        "つつじ",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0121-thumb.jpg",
       "large": "assets/img/lib/P0121-large.jpg",
@@ -10129,7 +10610,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "庭園",
         "春",
-        "つつじ"
+        "つつじ",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0122-thumb.jpg",
       "large": "assets/img/lib/P0122-large.jpg",
@@ -10150,7 +10632,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "花",
         "春",
-        "つつじ"
+        "つつじ",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0123-thumb.jpg",
       "large": "assets/img/lib/P0123-large.jpg",
@@ -10171,7 +10654,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "花",
         "春",
-        "つつじ"
+        "つつじ",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0124-thumb.jpg",
       "large": "assets/img/lib/P0124-large.jpg",
@@ -10192,7 +10676,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "庭園",
         "春",
-        "つつじ"
+        "つつじ",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0125-thumb.jpg",
       "large": "assets/img/lib/P0125-large.jpg",
@@ -10213,7 +10698,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "花",
         "春",
-        "つつじ"
+        "つつじ",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0126-thumb.jpg",
       "large": "assets/img/lib/P0126-large.jpg",
@@ -10234,7 +10720,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "花",
         "春",
-        "つつじ"
+        "つつじ",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0127-thumb.jpg",
       "large": "assets/img/lib/P0127-large.jpg",
@@ -10255,7 +10742,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "花",
         "春",
-        "つつじ"
+        "つつじ",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0128-thumb.jpg",
       "large": "assets/img/lib/P0128-large.jpg",
@@ -10275,7 +10763,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "山",
-        "能登富士"
+        "能登富士",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0136-thumb.jpg",
       "large": "assets/img/lib/P0136-large.jpg",
@@ -10295,7 +10784,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "山",
-        "能登富士"
+        "能登富士",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0137-thumb.jpg",
       "large": "assets/img/lib/P0137-large.jpg",
@@ -10316,7 +10806,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "桜",
         "花",
-        "春"
+        "春",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0139-thumb.jpg",
       "large": "assets/img/lib/P0139-large.jpg",
@@ -10337,7 +10828,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "桜",
         "花",
-        "春"
+        "春",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0140-thumb.jpg",
       "large": "assets/img/lib/P0140-large.jpg",
@@ -10358,7 +10850,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "桜",
         "花",
-        "春"
+        "春",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0141-thumb.jpg",
       "large": "assets/img/lib/P0141-large.jpg",
@@ -10379,7 +10872,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "桜",
         "花",
-        "春"
+        "春",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0142-thumb.jpg",
       "large": "assets/img/lib/P0142-large.jpg",
@@ -10400,7 +10894,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "桜",
         "花",
-        "春"
+        "春",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0143-thumb.jpg",
       "large": "assets/img/lib/P0143-large.jpg",
@@ -10419,7 +10914,8 @@ window.SPL_LIBRARY = {
       "area": "",
       "season": "",
       "tags": [
-        "空撮"
+        "空撮",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0165-thumb.jpg",
       "large": "assets/img/lib/P0165-large.jpg",
@@ -10440,7 +10936,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "空撮",
-        "港"
+        "港",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0166-thumb.jpg",
       "large": "assets/img/lib/P0166-large.jpg",
@@ -10460,7 +10957,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "花",
-        "あじさい"
+        "あじさい",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0188-thumb.jpg",
       "large": "assets/img/lib/P0188-large.jpg",
@@ -10482,7 +10980,8 @@ window.SPL_LIBRARY = {
         "花",
         "寺",
         "太陽",
-        "ぼたん"
+        "ぼたん",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0239-thumb.jpg",
       "large": "assets/img/lib/P0239-large.jpg",
@@ -10503,7 +11002,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "花",
         "寺",
-        "ぼたん"
+        "ぼたん",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0241-thumb.jpg",
       "large": "assets/img/lib/P0241-large.jpg",
@@ -10525,7 +11025,8 @@ window.SPL_LIBRARY = {
         "花",
         "寺",
         "ぼたん",
-        "鐘"
+        "鐘",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0243-thumb.jpg",
       "large": "assets/img/lib/P0243-large.jpg",
@@ -10546,7 +11047,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "花",
         "寺",
-        "ぼたん"
+        "ぼたん",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0244-thumb.jpg",
       "large": "assets/img/lib/P0244-large.jpg",
@@ -10567,7 +11069,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "花",
         "寺",
-        "ぼたん"
+        "ぼたん",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0245-thumb.jpg",
       "large": "assets/img/lib/P0245-large.jpg",
@@ -10588,7 +11091,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "花",
         "寺",
-        "ぼたん"
+        "ぼたん",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0246-thumb.jpg",
       "large": "assets/img/lib/P0246-large.jpg",
@@ -10609,7 +11113,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "花",
         "寺",
-        "ぼたん"
+        "ぼたん",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0247-thumb.jpg",
       "large": "assets/img/lib/P0247-large.jpg",
@@ -10629,7 +11134,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "トンネル",
-        "アート"
+        "アート",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0249-thumb.jpg",
       "large": "assets/img/lib/P0249-large.jpg",
@@ -10649,7 +11155,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "青空",
-        "水田"
+        "水田",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0250-thumb.jpg",
       "large": "assets/img/lib/P0250-large.jpg",
@@ -10669,7 +11176,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "青空",
-        "水田"
+        "水田",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0251-thumb.jpg",
       "large": "assets/img/lib/P0251-large.jpg",
@@ -10689,7 +11197,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "福浦",
-        "寺"
+        "寺",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0252-thumb.jpg",
       "large": "assets/img/lib/P0252-large.jpg",
@@ -10709,7 +11218,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "福浦",
-        "寺"
+        "寺",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0253-thumb.jpg",
       "large": "assets/img/lib/P0253-large.jpg",
@@ -10729,7 +11239,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "福浦",
-        "寺"
+        "寺",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0254-thumb.jpg",
       "large": "assets/img/lib/P0254-large.jpg",
@@ -10749,7 +11260,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "福浦",
-        "寺"
+        "寺",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0255-thumb.jpg",
       "large": "assets/img/lib/P0255-large.jpg",
@@ -10769,7 +11281,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "福浦",
-        "寺"
+        "寺",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0256-thumb.jpg",
       "large": "assets/img/lib/P0256-large.jpg",
@@ -10789,7 +11302,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "福浦",
-        "寺"
+        "寺",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0257-thumb.jpg",
       "large": "assets/img/lib/P0257-large.jpg",
@@ -10809,7 +11323,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "海",
-        "青空"
+        "青空",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0258-thumb.jpg",
       "large": "assets/img/lib/P0258-large.jpg",
@@ -10829,7 +11344,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "海",
-        "青空"
+        "青空",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0259-thumb.jpg",
       "large": "assets/img/lib/P0259-large.jpg",
@@ -10849,7 +11365,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "海",
-        "青空"
+        "青空",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0260-thumb.jpg",
       "large": "assets/img/lib/P0260-large.jpg",
@@ -10869,7 +11386,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "海",
-        "青空"
+        "青空",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0261-thumb.jpg",
       "large": "assets/img/lib/P0261-large.jpg",
@@ -10889,7 +11407,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "海",
-        "青空"
+        "青空",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0263-thumb.jpg",
       "large": "assets/img/lib/P0263-large.jpg",
@@ -10909,7 +11428,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "海",
-        "夕陽"
+        "夕陽",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0267-thumb.jpg",
       "large": "assets/img/lib/P0267-large.jpg",
@@ -10929,7 +11449,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "海",
-        "夕陽"
+        "夕陽",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0268-thumb.jpg",
       "large": "assets/img/lib/P0268-large.jpg",
@@ -10949,7 +11470,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "海",
-        "夕陽"
+        "夕陽",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0269-thumb.jpg",
       "large": "assets/img/lib/P0269-large.jpg",
@@ -10969,7 +11491,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "海",
-        "夕陽"
+        "夕陽",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0272-thumb.jpg",
       "large": "assets/img/lib/P0272-large.jpg",
@@ -10990,7 +11513,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "夜景",
         "祭り",
-        "花火"
+        "花火",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0275-thumb.jpg",
       "large": "assets/img/lib/P0275-large.jpg",
@@ -11010,7 +11534,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "夜景",
-        "花火"
+        "花火",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0276-thumb.jpg",
       "large": "assets/img/lib/P0276-large.jpg",
@@ -11031,7 +11556,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "夜景",
         "祭り",
-        "花火"
+        "花火",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0277-thumb.jpg",
       "large": "assets/img/lib/P0277-large.jpg",
@@ -11052,7 +11578,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "夜景",
         "祭り",
-        "花火"
+        "花火",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0278-thumb.jpg",
       "large": "assets/img/lib/P0278-large.jpg",
@@ -11073,7 +11600,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "夜景",
         "祭り",
-        "花火"
+        "花火",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0279-thumb.jpg",
       "large": "assets/img/lib/P0279-large.jpg",
@@ -11094,7 +11622,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "イルミネーション",
         "祭り",
-        "花火"
+        "花火",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0281-thumb.jpg",
       "large": "assets/img/lib/P0281-large.jpg",
@@ -11115,7 +11644,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "夜景",
         "イルミネーション",
-        "祭り"
+        "祭り",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0282-thumb.jpg",
       "large": "assets/img/lib/P0282-large.jpg",
@@ -11136,7 +11666,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "夜景",
         "祭り",
-        "花火"
+        "花火",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0283-thumb.jpg",
       "large": "assets/img/lib/P0283-large.jpg",
@@ -11157,7 +11688,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "夜景",
         "イルミネーション",
-        "祭り"
+        "祭り",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0284-thumb.jpg",
       "large": "assets/img/lib/P0284-large.jpg",
@@ -11178,7 +11710,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "夜景",
         "イルミネーション",
-        "祭り"
+        "祭り",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0285-thumb.jpg",
       "large": "assets/img/lib/P0285-large.jpg",
@@ -11199,7 +11732,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "夜景",
         "祭り",
-        "花火"
+        "花火",
+        "SNS向き"
       ],
       "thumb": "assets/img/lib/P0286-thumb.jpg",
       "large": "assets/img/lib/P0286-large.jpg",
@@ -11220,7 +11754,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "お土産",
         "食",
-        "特産品"
+        "特産品",
+        "印刷物向き"
       ],
       "thumb": "assets/img/lib/P0287-thumb.jpg",
       "large": "assets/img/lib/P0287-large.jpg",
@@ -11241,7 +11776,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "さくら貝",
         "特産品",
-        "工芸"
+        "工芸",
+        "印刷物向き"
       ],
       "thumb": "assets/img/lib/P0288-thumb.jpg",
       "large": "assets/img/lib/P0288-large.jpg",
@@ -11262,7 +11798,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "お土産",
         "食",
-        "特産品"
+        "特産品",
+        "印刷物向き"
       ],
       "thumb": "assets/img/lib/P0289-thumb.jpg",
       "large": "assets/img/lib/P0289-large.jpg",
@@ -11283,7 +11820,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "お土産",
         "食",
-        "特産品"
+        "特産品",
+        "印刷物向き"
       ],
       "thumb": "assets/img/lib/P0290-thumb.jpg",
       "large": "assets/img/lib/P0290-large.jpg",
@@ -11304,7 +11842,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "お土産",
         "食",
-        "特産品"
+        "特産品",
+        "印刷物向き"
       ],
       "thumb": "assets/img/lib/P0291-thumb.jpg",
       "large": "assets/img/lib/P0291-large.jpg",
@@ -11325,7 +11864,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "お土産",
         "食",
-        "特産品"
+        "特産品",
+        "印刷物向き"
       ],
       "thumb": "assets/img/lib/P0292-thumb.jpg",
       "large": "assets/img/lib/P0292-large.jpg",
@@ -11346,7 +11886,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "お土産",
         "食",
-        "特産品"
+        "特産品",
+        "印刷物向き"
       ],
       "thumb": "assets/img/lib/P0293-thumb.jpg",
       "large": "assets/img/lib/P0293-large.jpg",
@@ -11367,7 +11908,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "お土産",
         "食",
-        "特産品"
+        "特産品",
+        "印刷物向き"
       ],
       "thumb": "assets/img/lib/P0294-thumb.jpg",
       "large": "assets/img/lib/P0294-large.jpg",
@@ -11388,7 +11930,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "お土産",
         "食",
-        "特産品"
+        "特産品",
+        "印刷物向き"
       ],
       "thumb": "assets/img/lib/P0295-thumb.jpg",
       "large": "assets/img/lib/P0295-large.jpg",
@@ -11408,7 +11951,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "さくら貝",
-        "お土産"
+        "お土産",
+        "印刷物向き"
       ],
       "thumb": "assets/img/lib/P0298-thumb.jpg",
       "large": "assets/img/lib/P0298-large.jpg",
@@ -11428,7 +11972,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "さくら貝",
-        "お土産"
+        "お土産",
+        "印刷物向き"
       ],
       "thumb": "assets/img/lib/P0299-thumb.jpg",
       "large": "assets/img/lib/P0299-large.jpg",
@@ -11448,7 +11993,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "さくら貝",
-        "お土産"
+        "お土産",
+        "印刷物向き"
       ],
       "thumb": "assets/img/lib/P0301-thumb.jpg",
       "large": "assets/img/lib/P0301-large.jpg",
@@ -11469,7 +12015,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "お土産",
         "食",
-        "特産品"
+        "特産品",
+        "印刷物向き"
       ],
       "thumb": "assets/img/lib/P0302-thumb.jpg",
       "large": "assets/img/lib/P0302-large.jpg",
@@ -11489,7 +12036,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "さくら貝",
-        "お土産"
+        "お土産",
+        "印刷物向き"
       ],
       "thumb": "assets/img/lib/P0303-thumb.jpg",
       "large": "assets/img/lib/P0303-large.jpg",
@@ -11509,7 +12057,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "さくら貝",
-        "お土産"
+        "お土産",
+        "印刷物向き"
       ],
       "thumb": "assets/img/lib/P0306-thumb.jpg",
       "large": "assets/img/lib/P0306-large.jpg",
@@ -11530,7 +12079,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "お土産",
         "食",
-        "特産品"
+        "特産品",
+        "印刷物向き"
       ],
       "thumb": "assets/img/lib/P0307-thumb.jpg",
       "large": "assets/img/lib/P0307-large.jpg",
@@ -11551,7 +12101,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "お土産",
         "食",
-        "特産品"
+        "特産品",
+        "印刷物向き"
       ],
       "thumb": "assets/img/lib/P0309-thumb.jpg",
       "large": "assets/img/lib/P0309-large.jpg",
@@ -11572,7 +12123,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "お土産",
         "食",
-        "特産品"
+        "特産品",
+        "印刷物向き"
       ],
       "thumb": "assets/img/lib/P0310-thumb.jpg",
       "large": "assets/img/lib/P0310-large.jpg",
@@ -11593,7 +12145,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "お土産",
         "食",
-        "特産品"
+        "特産品",
+        "印刷物向き"
       ],
       "thumb": "assets/img/lib/P0313-thumb.jpg",
       "large": "assets/img/lib/P0313-large.jpg",
@@ -11614,7 +12167,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "お土産",
         "食",
-        "特産品"
+        "特産品",
+        "印刷物向き"
       ],
       "thumb": "assets/img/lib/P0314-thumb.jpg",
       "large": "assets/img/lib/P0314-large.jpg",
@@ -11635,7 +12189,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "お土産",
         "食",
-        "特産品"
+        "特産品",
+        "印刷物向き"
       ],
       "thumb": "assets/img/lib/P0315-thumb.jpg",
       "large": "assets/img/lib/P0315-large.jpg",
@@ -11656,7 +12211,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "お土産",
         "食",
-        "特産品"
+        "特産品",
+        "印刷物向き"
       ],
       "thumb": "assets/img/lib/P0319-thumb.jpg",
       "large": "assets/img/lib/P0319-large.jpg",
@@ -11677,7 +12233,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "お土産",
         "食",
-        "特産品"
+        "特産品",
+        "印刷物向き"
       ],
       "thumb": "assets/img/lib/P0321-thumb.jpg",
       "large": "assets/img/lib/P0321-large.jpg",
@@ -11698,7 +12255,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "お土産",
         "食",
-        "特産品"
+        "特産品",
+        "印刷物向き"
       ],
       "thumb": "assets/img/lib/P0322-thumb.jpg",
       "large": "assets/img/lib/P0322-large.jpg",
@@ -11719,7 +12277,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "お土産",
         "食",
-        "特産品"
+        "特産品",
+        "印刷物向き"
       ],
       "thumb": "assets/img/lib/P0323-thumb.jpg",
       "large": "assets/img/lib/P0323-large.jpg",
@@ -11740,7 +12299,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "お土産",
         "食",
-        "特産品"
+        "特産品",
+        "印刷物向き"
       ],
       "thumb": "assets/img/lib/P0326-thumb.jpg",
       "large": "assets/img/lib/P0326-large.jpg",
@@ -11761,7 +12321,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "お土産",
         "食",
-        "特産品"
+        "特産品",
+        "印刷物向き"
       ],
       "thumb": "assets/img/lib/P0328-thumb.jpg",
       "large": "assets/img/lib/P0328-large.jpg",
@@ -11782,7 +12343,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "お土産",
         "食",
-        "特産品"
+        "特産品",
+        "印刷物向き"
       ],
       "thumb": "assets/img/lib/P0330-thumb.jpg",
       "large": "assets/img/lib/P0330-large.jpg",
@@ -11803,7 +12365,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "お土産",
         "食",
-        "特産品"
+        "特産品",
+        "印刷物向き"
       ],
       "thumb": "assets/img/lib/P0331-thumb.jpg",
       "large": "assets/img/lib/P0331-large.jpg",
@@ -11824,7 +12387,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "お土産",
         "食",
-        "特産品"
+        "特産品",
+        "印刷物向き"
       ],
       "thumb": "assets/img/lib/P0332-thumb.jpg",
       "large": "assets/img/lib/P0332-large.jpg",
@@ -11845,7 +12409,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "お土産",
         "食",
-        "特産品"
+        "特産品",
+        "印刷物向き"
       ],
       "thumb": "assets/img/lib/P0333-thumb.jpg",
       "large": "assets/img/lib/P0333-large.jpg",
@@ -11866,7 +12431,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "神社",
         "能登富士",
-        "高爪山"
+        "高爪山",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0380-thumb.jpg",
       "large": "assets/img/lib/P0380-large.jpg",
@@ -11887,7 +12453,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "神社",
         "能登富士",
-        "高爪山"
+        "高爪山",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0381-thumb.jpg",
       "large": "assets/img/lib/P0381-large.jpg",
@@ -11908,7 +12475,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "神社",
         "能登富士",
-        "高爪山"
+        "高爪山",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0382-thumb.jpg",
       "large": "assets/img/lib/P0382-large.jpg",
@@ -11929,7 +12497,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "神社",
         "高爪山",
-        "能登富士"
+        "能登富士",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0383-thumb.jpg",
       "large": "assets/img/lib/P0383-large.jpg",
@@ -11950,7 +12519,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "神社",
         "高爪山",
-        "能登富士"
+        "能登富士",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0384-thumb.jpg",
       "large": "assets/img/lib/P0384-large.jpg",
@@ -11971,7 +12541,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "神社",
         "高爪山",
-        "能登富士"
+        "能登富士",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0385-thumb.jpg",
       "large": "assets/img/lib/P0385-large.jpg",
@@ -11992,7 +12563,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "神社",
         "高爪山",
-        "能登富士"
+        "能登富士",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0386-thumb.jpg",
       "large": "assets/img/lib/P0386-large.jpg",
@@ -12013,7 +12585,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "神社",
         "高爪山",
-        "能登富士"
+        "能登富士",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0387-thumb.jpg",
       "large": "assets/img/lib/P0387-large.jpg",
@@ -12035,7 +12608,8 @@ window.SPL_LIBRARY = {
         "海",
         "西海",
         "漁港",
-        "旗"
+        "旗",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0390-thumb.jpg",
       "large": "assets/img/lib/P0390-large.jpg",
@@ -12057,7 +12631,8 @@ window.SPL_LIBRARY = {
         "海",
         "西海",
         "漁港",
-        "旗"
+        "旗",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0391-thumb.jpg",
       "large": "assets/img/lib/P0391-large.jpg",
@@ -12079,7 +12654,8 @@ window.SPL_LIBRARY = {
         "海",
         "西海",
         "漁港",
-        "旗"
+        "旗",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0392-thumb.jpg",
       "large": "assets/img/lib/P0392-large.jpg",
@@ -12100,7 +12676,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "西海",
-        "漁港"
+        "漁港",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0394-thumb.jpg",
       "large": "assets/img/lib/P0394-large.jpg",
@@ -12121,7 +12698,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "西海",
-        "漁港"
+        "漁港",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0396-thumb.jpg",
       "large": "assets/img/lib/P0396-large.jpg",
@@ -12142,7 +12720,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "西海",
-        "漁港"
+        "漁港",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0397-thumb.jpg",
       "large": "assets/img/lib/P0397-large.jpg",
@@ -12163,7 +12742,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "海",
         "西海",
-        "漁港"
+        "漁港",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0398-thumb.jpg",
       "large": "assets/img/lib/P0398-large.jpg",
@@ -12184,7 +12764,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "花",
         "庭",
-        "春"
+        "春",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0410-thumb.jpg",
       "large": "assets/img/lib/P0410-large.jpg",
@@ -12205,7 +12786,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "花",
         "庭",
-        "春"
+        "春",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0411-thumb.jpg",
       "large": "assets/img/lib/P0411-large.jpg",
@@ -12226,7 +12808,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "花",
         "庭",
-        "春"
+        "春",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0412-thumb.jpg",
       "large": "assets/img/lib/P0412-large.jpg",
@@ -12247,7 +12830,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "花",
         "庭",
-        "春"
+        "春",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0413-thumb.jpg",
       "large": "assets/img/lib/P0413-large.jpg",
@@ -12268,7 +12852,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "花",
         "庭",
-        "春"
+        "春",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0414-thumb.jpg",
       "large": "assets/img/lib/P0414-large.jpg",
@@ -12289,7 +12874,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "花",
         "庭",
-        "春"
+        "春",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0415-thumb.jpg",
       "large": "assets/img/lib/P0415-large.jpg",
@@ -12310,7 +12896,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "花",
         "庭",
-        "春"
+        "春",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0416-thumb.jpg",
       "large": "assets/img/lib/P0416-large.jpg",
@@ -12331,7 +12918,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "花",
         "庭",
-        "春"
+        "春",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0417-thumb.jpg",
       "large": "assets/img/lib/P0417-large.jpg",
@@ -12352,7 +12940,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "花",
         "庭",
-        "春"
+        "春",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0418-thumb.jpg",
       "large": "assets/img/lib/P0418-large.jpg",
@@ -12373,7 +12962,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "花",
         "庭",
-        "春"
+        "春",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0419-thumb.jpg",
       "large": "assets/img/lib/P0419-large.jpg",
@@ -12394,7 +12984,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "花",
         "庭",
-        "春"
+        "春",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0420-thumb.jpg",
       "large": "assets/img/lib/P0420-large.jpg",
@@ -12415,7 +13006,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "花",
         "庭",
-        "春"
+        "春",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0421-thumb.jpg",
       "large": "assets/img/lib/P0421-large.jpg",
@@ -12436,7 +13028,8 @@ window.SPL_LIBRARY = {
       "tags": [
         "花",
         "庭",
-        "春"
+        "春",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0422-thumb.jpg",
       "large": "assets/img/lib/P0422-large.jpg",
@@ -12456,7 +13049,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "花",
-        "水芭蕉"
+        "水芭蕉",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0432-thumb.jpg",
       "large": "assets/img/lib/P0432-large.jpg",
@@ -12476,7 +13070,8 @@ window.SPL_LIBRARY = {
       "season": "",
       "tags": [
         "神社",
-        "名所旧跡"
+        "名所旧跡",
+        "チラシ・ポスター向き"
       ],
       "thumb": "assets/img/lib/P0504-thumb.jpg",
       "large": "assets/img/lib/P0504-large.jpg",
