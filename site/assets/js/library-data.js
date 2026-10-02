@@ -3,7 +3,7 @@
 window.SPL_LIBRARY = {
   "meta": {
     "note": "photos.json と spots.json から自動生成しています。直接編集せず、scripts/build-library.py を実行してください。",
-    "count": 639
+    "count": 660
   },
   "photos": [
     {
@@ -2172,6 +2172,27 @@ window.SPL_LIBRARY = {
       "id": "P0846"
     },
     {
+      "title": "機具岩_24",
+      "spot": "機具岩",
+      "spotId": "hatago",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "海",
+        "岩",
+        "チラシ・ポスター向き"
+      ],
+      "thumb": "assets/img/lib/P0857-thumb.jpg",
+      "large": "assets/img/lib/P0857-large.jpg",
+      "alt": "機具岩_24",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "機具岩",
+      "restricted": false,
+      "genre": "観光地",
+      "id": "P0857"
+    },
+    {
       "title": "機具岩_19",
       "spot": "機具岩",
       "spotId": "hatago",
@@ -2191,6 +2212,27 @@ window.SPL_LIBRARY = {
       "restricted": false,
       "genre": "観光地",
       "id": "P0807"
+    },
+    {
+      "title": "機具岩_25",
+      "spot": "機具岩",
+      "spotId": "hatago",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "海",
+        "岩",
+        "チラシ・ポスター向き"
+      ],
+      "thumb": "assets/img/lib/P0858-thumb.jpg",
+      "large": "assets/img/lib/P0858-large.jpg",
+      "alt": "機具岩_25",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "機具岩",
+      "restricted": false,
+      "genre": "観光地",
+      "id": "P0858"
     },
     {
       "title": "機具岩_20",
@@ -2214,6 +2256,27 @@ window.SPL_LIBRARY = {
       "id": "P0808"
     },
     {
+      "title": "機具岩_26",
+      "spot": "機具岩",
+      "spotId": "hatago",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "海",
+        "岩",
+        "チラシ・ポスター向き"
+      ],
+      "thumb": "assets/img/lib/P0859-thumb.jpg",
+      "large": "assets/img/lib/P0859-large.jpg",
+      "alt": "機具岩_26",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "機具岩",
+      "restricted": false,
+      "genre": "観光地",
+      "id": "P0859"
+    },
+    {
       "title": "機具岩_21",
       "spot": "機具岩",
       "spotId": "hatago",
@@ -2235,6 +2298,27 @@ window.SPL_LIBRARY = {
       "id": "P0809"
     },
     {
+      "title": "機具岩_27",
+      "spot": "機具岩",
+      "spotId": "hatago",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "海",
+        "岩",
+        "チラシ・ポスター向き"
+      ],
+      "thumb": "assets/img/lib/P0860-thumb.jpg",
+      "large": "assets/img/lib/P0860-large.jpg",
+      "alt": "機具岩_27",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "機具岩",
+      "restricted": false,
+      "genre": "観光地",
+      "id": "P0860"
+    },
+    {
       "title": "機具岩_22",
       "spot": "機具岩",
       "spotId": "hatago",
@@ -2254,6 +2338,174 @@ window.SPL_LIBRARY = {
       "restricted": false,
       "genre": "観光地",
       "id": "P0810"
+    },
+    {
+      "title": "機具岩_28",
+      "spot": "機具岩",
+      "spotId": "hatago",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "海",
+        "岩",
+        "チラシ・ポスター向き"
+      ],
+      "thumb": "assets/img/lib/P0861-thumb.jpg",
+      "large": "assets/img/lib/P0861-large.jpg",
+      "alt": "機具岩_28",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "機具岩",
+      "restricted": false,
+      "genre": "観光地",
+      "id": "P0861"
+    },
+    {
+      "title": "機具岩_29",
+      "spot": "機具岩",
+      "spotId": "hatago",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "海",
+        "岩",
+        "チラシ・ポスター向き"
+      ],
+      "thumb": "assets/img/lib/P0862-thumb.jpg",
+      "large": "assets/img/lib/P0862-large.jpg",
+      "alt": "機具岩_29",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "機具岩",
+      "restricted": false,
+      "genre": "観光地",
+      "id": "P0862"
+    },
+    {
+      "title": "機具岩_30",
+      "spot": "機具岩",
+      "spotId": "hatago",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "海",
+        "岩",
+        "チラシ・ポスター向き"
+      ],
+      "thumb": "assets/img/lib/P0863-thumb.jpg",
+      "large": "assets/img/lib/P0863-large.jpg",
+      "alt": "機具岩_30",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "機具岩",
+      "restricted": false,
+      "genre": "観光地",
+      "id": "P0863"
+    },
+    {
+      "title": "機具岩_31",
+      "spot": "機具岩",
+      "spotId": "hatago",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "海",
+        "岩",
+        "チラシ・ポスター向き"
+      ],
+      "thumb": "assets/img/lib/P0864-thumb.jpg",
+      "large": "assets/img/lib/P0864-large.jpg",
+      "alt": "機具岩_31",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "機具岩",
+      "restricted": false,
+      "genre": "観光地",
+      "id": "P0864"
+    },
+    {
+      "title": "機具岩_32",
+      "spot": "機具岩",
+      "spotId": "hatago",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "海",
+        "岩",
+        "チラシ・ポスター向き"
+      ],
+      "thumb": "assets/img/lib/P0865-thumb.jpg",
+      "large": "assets/img/lib/P0865-large.jpg",
+      "alt": "機具岩_32",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "機具岩",
+      "restricted": false,
+      "genre": "観光地",
+      "id": "P0865"
+    },
+    {
+      "title": "機具岩_33",
+      "spot": "機具岩",
+      "spotId": "hatago",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "海",
+        "岩",
+        "チラシ・ポスター向き"
+      ],
+      "thumb": "assets/img/lib/P0866-thumb.jpg",
+      "large": "assets/img/lib/P0866-large.jpg",
+      "alt": "機具岩_33",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "機具岩",
+      "restricted": false,
+      "genre": "観光地",
+      "id": "P0866"
+    },
+    {
+      "title": "機具岩_34",
+      "spot": "機具岩",
+      "spotId": "hatago",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "海",
+        "岩",
+        "チラシ・ポスター向き"
+      ],
+      "thumb": "assets/img/lib/P0867-thumb.jpg",
+      "large": "assets/img/lib/P0867-large.jpg",
+      "alt": "機具岩_34",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "機具岩",
+      "restricted": false,
+      "genre": "観光地",
+      "id": "P0867"
+    },
+    {
+      "title": "機具岩_35",
+      "spot": "機具岩",
+      "spotId": "hatago",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "海",
+        "岩",
+        "チラシ・ポスター向き"
+      ],
+      "thumb": "assets/img/lib/P0868-thumb.jpg",
+      "large": "assets/img/lib/P0868-large.jpg",
+      "alt": "機具岩_35",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "機具岩",
+      "restricted": false,
+      "genre": "観光地",
+      "id": "P0868"
     },
     {
       "title": "機具岩_2",
@@ -4945,6 +5197,50 @@ window.SPL_LIBRARY = {
       "id": "P0665"
     },
     {
+      "title": "旧福浦灯台_16",
+      "spot": "旧福浦灯台",
+      "spotId": "fukura",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "名所旧跡",
+        "建築",
+        "灯台",
+        "チラシ・ポスター向き"
+      ],
+      "thumb": "assets/img/lib/P0847-thumb.jpg",
+      "large": "assets/img/lib/P0847-large.jpg",
+      "alt": "旧福浦灯台_16",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "旧福浦灯台",
+      "restricted": false,
+      "genre": "観光地",
+      "id": "P0847"
+    },
+    {
+      "title": "旧福浦灯台_22",
+      "spot": "旧福浦灯台",
+      "spotId": "fukura",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "名所旧跡",
+        "建築",
+        "灯台",
+        "チラシ・ポスター向き"
+      ],
+      "thumb": "assets/img/lib/P0854-thumb.jpg",
+      "large": "assets/img/lib/P0854-large.jpg",
+      "alt": "旧福浦灯台_22",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "旧福浦灯台",
+      "restricted": false,
+      "genre": "観光地",
+      "id": "P0854"
+    },
+    {
       "title": "旧福浦灯台_12",
       "spot": "旧福浦灯台",
       "spotId": "fukura",
@@ -4992,6 +5288,160 @@ window.SPL_LIBRARY = {
       "restricted": false,
       "genre": "観光地",
       "id": "P0666"
+    },
+    {
+      "title": "旧福浦灯台_17",
+      "spot": "旧福浦灯台",
+      "spotId": "fukura",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "名所旧跡",
+        "建築",
+        "灯台",
+        "チラシ・ポスター向き"
+      ],
+      "thumb": "assets/img/lib/P0848-thumb.jpg",
+      "large": "assets/img/lib/P0848-large.jpg",
+      "alt": "旧福浦灯台_17",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "旧福浦灯台",
+      "restricted": false,
+      "genre": "観光地",
+      "id": "P0848"
+    },
+    {
+      "title": "旧福浦灯台_23",
+      "spot": "旧福浦灯台",
+      "spotId": "fukura",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "名所旧跡",
+        "建築",
+        "灯台",
+        "チラシ・ポスター向き"
+      ],
+      "thumb": "assets/img/lib/P0855-thumb.jpg",
+      "large": "assets/img/lib/P0855-large.jpg",
+      "alt": "旧福浦灯台_23",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "旧福浦灯台",
+      "restricted": false,
+      "genre": "観光地",
+      "id": "P0855"
+    },
+    {
+      "title": "旧福浦灯台_18",
+      "spot": "旧福浦灯台",
+      "spotId": "fukura",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "名所旧跡",
+        "建築",
+        "灯台",
+        "チラシ・ポスター向き"
+      ],
+      "thumb": "assets/img/lib/P0849-thumb.jpg",
+      "large": "assets/img/lib/P0849-large.jpg",
+      "alt": "旧福浦灯台_18",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "旧福浦灯台",
+      "restricted": false,
+      "genre": "観光地",
+      "id": "P0849"
+    },
+    {
+      "title": "旧福浦灯台_24",
+      "spot": "旧福浦灯台",
+      "spotId": "fukura",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "名所旧跡",
+        "建築",
+        "灯台",
+        "チラシ・ポスター向き"
+      ],
+      "thumb": "assets/img/lib/P0856-thumb.jpg",
+      "large": "assets/img/lib/P0856-large.jpg",
+      "alt": "旧福浦灯台_24",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "旧福浦灯台",
+      "restricted": false,
+      "genre": "観光地",
+      "id": "P0856"
+    },
+    {
+      "title": "旧福浦灯台_19",
+      "spot": "旧福浦灯台",
+      "spotId": "fukura",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "名所旧跡",
+        "建築",
+        "灯台",
+        "チラシ・ポスター向き"
+      ],
+      "thumb": "assets/img/lib/P0850-thumb.jpg",
+      "large": "assets/img/lib/P0850-large.jpg",
+      "alt": "旧福浦灯台_19",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "旧福浦灯台",
+      "restricted": false,
+      "genre": "観光地",
+      "id": "P0850"
+    },
+    {
+      "title": "旧福浦灯台_20",
+      "spot": "旧福浦灯台",
+      "spotId": "fukura",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "名所旧跡",
+        "建築",
+        "灯台",
+        "チラシ・ポスター向き"
+      ],
+      "thumb": "assets/img/lib/P0851-thumb.jpg",
+      "large": "assets/img/lib/P0851-large.jpg",
+      "alt": "旧福浦灯台_20",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "旧福浦灯台",
+      "restricted": false,
+      "genre": "観光地",
+      "id": "P0851"
+    },
+    {
+      "title": "旧福浦灯台_21",
+      "spot": "旧福浦灯台",
+      "spotId": "fukura",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "名所旧跡",
+        "建築",
+        "灯台",
+        "チラシ・ポスター向き"
+      ],
+      "thumb": "assets/img/lib/P0852-thumb.jpg",
+      "large": "assets/img/lib/P0852-large.jpg",
+      "alt": "旧福浦灯台_21",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "旧福浦灯台",
+      "restricted": false,
+      "genre": "観光地",
+      "id": "P0852"
     },
     {
       "title": "旧福浦灯台_1",
@@ -5469,27 +5919,6 @@ window.SPL_LIBRARY = {
       "restricted": false,
       "genre": "観光地",
       "id": "P0826"
-    },
-    {
-      "title": "世界一長いベンチ_33",
-      "spot": "大島諸願堂・大島キャンプ場",
-      "spotId": "shogando",
-      "area": "志賀エリア",
-      "season": "",
-      "tags": [
-        "空撮",
-        "ベンチ",
-        "チラシ・ポスター向き"
-      ],
-      "thumb": "assets/img/lib/P0840-thumb.jpg",
-      "large": "assets/img/lib/P0840-large.jpg",
-      "alt": "世界一長いベンチ_33",
-      "credit": "© 志賀町",
-      "photographer": "志賀町",
-      "source": "大島諸願堂・大島キャンプ場",
-      "restricted": false,
-      "genre": "観光地",
-      "id": "P0840"
     },
     {
       "title": "大島地引網_1",
@@ -7985,6 +8414,27 @@ window.SPL_LIBRARY = {
       "restricted": false,
       "genre": "自然風景",
       "id": "P0812"
+    },
+    {
+      "title": "あかりちゃん",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "あかりちゃん",
+        "灯台",
+        "チラシ・ポスター向き"
+      ],
+      "thumb": "assets/img/lib/P0853-thumb.jpg",
+      "large": "assets/img/lib/P0853-large.jpg",
+      "alt": "あかりちゃん",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "genre": "自然風景",
+      "id": "P0853"
     },
     {
       "title": "高爪山_4",
