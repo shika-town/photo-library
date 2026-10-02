@@ -3,7 +3,7 @@
 window.SPL_LIBRARY = {
   "meta": {
     "note": "photos.json と spots.json から自動生成しています。直接編集せず、scripts/build-library.py を実行してください。",
-    "count": 595
+    "count": 639
   },
   "photos": [
     {
@@ -358,6 +358,72 @@ window.SPL_LIBRARY = {
       "id": "P0788"
     },
     {
+      "title": "増穂浦海岸_13",
+      "spot": "世界一長いベンチ・増穂浦海岸",
+      "spotId": "bench",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "海",
+        "砂浜",
+        "さくら貝",
+        "チラシ・ポスター向き"
+      ],
+      "thumb": "assets/img/lib/P0803-thumb.jpg",
+      "large": "assets/img/lib/P0803-large.jpg",
+      "alt": "増穂浦海岸_13",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "世界一長いベンチ・増穂浦海岸",
+      "restricted": false,
+      "genre": "観光地",
+      "id": "P0803"
+    },
+    {
+      "title": "いろいろな貝",
+      "spot": "世界一長いベンチ・増穂浦海岸",
+      "spotId": "bench",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "砂浜",
+        "さくら貝",
+        "チラシ・ポスター向き"
+      ],
+      "thumb": "assets/img/lib/P0811-thumb.jpg",
+      "large": "assets/img/lib/P0811-large.jpg",
+      "alt": "いろいろな貝",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "世界一長いベンチ・増穂浦海岸",
+      "restricted": false,
+      "genre": "観光地",
+      "id": "P0811"
+    },
+    {
+      "title": "世界一長いベンチ_23",
+      "spot": "世界一長いベンチ・増穂浦海岸",
+      "spotId": "bench",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "ベンチ",
+        "ライトアップ",
+        "夜景",
+        "イルミネーション",
+        "SNS向き"
+      ],
+      "thumb": "assets/img/lib/P0816-thumb.jpg",
+      "large": "assets/img/lib/P0816-large.jpg",
+      "alt": "世界一長いベンチ_23",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "世界一長いベンチ・増穂浦海岸",
+      "restricted": false,
+      "genre": "イベント",
+      "id": "P0816"
+    },
+    {
       "title": "増穂浦海岸_7",
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
@@ -423,6 +489,72 @@ window.SPL_LIBRARY = {
       "restricted": false,
       "genre": "観光地",
       "id": "P0789"
+    },
+    {
+      "title": "増穂浦海岸_14",
+      "spot": "世界一長いベンチ・増穂浦海岸",
+      "spotId": "bench",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "海",
+        "砂浜",
+        "さくら貝",
+        "チラシ・ポスター向き"
+      ],
+      "thumb": "assets/img/lib/P0804-thumb.jpg",
+      "large": "assets/img/lib/P0804-large.jpg",
+      "alt": "増穂浦海岸_14",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "世界一長いベンチ・増穂浦海岸",
+      "restricted": false,
+      "genre": "観光地",
+      "id": "P0804"
+    },
+    {
+      "title": "世界一長いベンチ_24",
+      "spot": "世界一長いベンチ・増穂浦海岸",
+      "spotId": "bench",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "ベンチ",
+        "ライトアップ",
+        "夜景",
+        "イルミネーション",
+        "SNS向き"
+      ],
+      "thumb": "assets/img/lib/P0817-thumb.jpg",
+      "large": "assets/img/lib/P0817-large.jpg",
+      "alt": "世界一長いベンチ_24",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "世界一長いベンチ・増穂浦海岸",
+      "restricted": false,
+      "genre": "イベント",
+      "id": "P0817"
+    },
+    {
+      "title": "世界一長いベンチ_34",
+      "spot": "世界一長いベンチ・増穂浦海岸",
+      "spotId": "bench",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "空撮",
+        "ベンチ",
+        "チラシ・ポスター向き"
+      ],
+      "thumb": "assets/img/lib/P0841-thumb.jpg",
+      "large": "assets/img/lib/P0841-large.jpg",
+      "alt": "世界一長いベンチ_34",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "世界一長いベンチ・増穂浦海岸",
+      "restricted": false,
+      "genre": "観光地",
+      "id": "P0841"
     },
     {
       "title": "増穂浦海岸_8",
@@ -492,6 +624,72 @@ window.SPL_LIBRARY = {
       "id": "P0790"
     },
     {
+      "title": "さくら貝_9",
+      "spot": "世界一長いベンチ・増穂浦海岸",
+      "spotId": "bench",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "海",
+        "砂浜",
+        "さくら貝",
+        "チラシ・ポスター向き"
+      ],
+      "thumb": "assets/img/lib/P0805-thumb.jpg",
+      "large": "assets/img/lib/P0805-large.jpg",
+      "alt": "さくら貝_9",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "世界一長いベンチ・増穂浦海岸",
+      "restricted": false,
+      "genre": "観光地",
+      "id": "P0805"
+    },
+    {
+      "title": "世界一長いベンチ_25",
+      "spot": "世界一長いベンチ・増穂浦海岸",
+      "spotId": "bench",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "ベンチ",
+        "ライトアップ",
+        "夜景",
+        "イルミネーション",
+        "SNS向き"
+      ],
+      "thumb": "assets/img/lib/P0818-thumb.jpg",
+      "large": "assets/img/lib/P0818-large.jpg",
+      "alt": "世界一長いベンチ_25",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "世界一長いベンチ・増穂浦海岸",
+      "restricted": false,
+      "genre": "イベント",
+      "id": "P0818"
+    },
+    {
+      "title": "世界一長いベンチ_35",
+      "spot": "世界一長いベンチ・増穂浦海岸",
+      "spotId": "bench",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "空撮",
+        "ベンチ",
+        "チラシ・ポスター向き"
+      ],
+      "thumb": "assets/img/lib/P0842-thumb.jpg",
+      "large": "assets/img/lib/P0842-large.jpg",
+      "alt": "世界一長いベンチ_35",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "世界一長いベンチ・増穂浦海岸",
+      "restricted": false,
+      "genre": "観光地",
+      "id": "P0842"
+    },
+    {
       "title": "増穂浦海岸_12",
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
@@ -535,6 +733,230 @@ window.SPL_LIBRARY = {
       "restricted": false,
       "genre": "観光地",
       "id": "P0791"
+    },
+    {
+      "title": "世界一長いベンチ_26",
+      "spot": "世界一長いベンチ・増穂浦海岸",
+      "spotId": "bench",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "ベンチ",
+        "ライトアップ",
+        "夜景",
+        "イルミネーション",
+        "SNS向き"
+      ],
+      "thumb": "assets/img/lib/P0819-thumb.jpg",
+      "large": "assets/img/lib/P0819-large.jpg",
+      "alt": "世界一長いベンチ_26",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "世界一長いベンチ・増穂浦海岸",
+      "restricted": false,
+      "genre": "イベント",
+      "id": "P0819"
+    },
+    {
+      "title": "世界一長いベンチ_36",
+      "spot": "世界一長いベンチ・増穂浦海岸",
+      "spotId": "bench",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "空撮",
+        "ベンチ",
+        "チラシ・ポスター向き"
+      ],
+      "thumb": "assets/img/lib/P0843-thumb.jpg",
+      "large": "assets/img/lib/P0843-large.jpg",
+      "alt": "世界一長いベンチ_36",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "世界一長いベンチ・増穂浦海岸",
+      "restricted": false,
+      "genre": "観光地",
+      "id": "P0843"
+    },
+    {
+      "title": "世界一長いベンチ_27",
+      "spot": "世界一長いベンチ・増穂浦海岸",
+      "spotId": "bench",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "ベンチ",
+        "ライトアップ",
+        "夜景",
+        "イルミネーション",
+        "SNS向き"
+      ],
+      "thumb": "assets/img/lib/P0820-thumb.jpg",
+      "large": "assets/img/lib/P0820-large.jpg",
+      "alt": "世界一長いベンチ_27",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "世界一長いベンチ・増穂浦海岸",
+      "restricted": false,
+      "genre": "イベント",
+      "id": "P0820"
+    },
+    {
+      "title": "世界一長いベンチ_37",
+      "spot": "世界一長いベンチ・増穂浦海岸",
+      "spotId": "bench",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "空撮",
+        "ベンチ",
+        "チラシ・ポスター向き"
+      ],
+      "thumb": "assets/img/lib/P0844-thumb.jpg",
+      "large": "assets/img/lib/P0844-large.jpg",
+      "alt": "世界一長いベンチ_37",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "世界一長いベンチ・増穂浦海岸",
+      "restricted": false,
+      "genre": "観光地",
+      "id": "P0844"
+    },
+    {
+      "title": "世界一長いベンチ_28",
+      "spot": "世界一長いベンチ・増穂浦海岸",
+      "spotId": "bench",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "ベンチ",
+        "ライトアップ",
+        "夜景",
+        "イルミネーション",
+        "SNS向き"
+      ],
+      "thumb": "assets/img/lib/P0821-thumb.jpg",
+      "large": "assets/img/lib/P0821-large.jpg",
+      "alt": "世界一長いベンチ_28",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "世界一長いベンチ・増穂浦海岸",
+      "restricted": false,
+      "genre": "イベント",
+      "id": "P0821"
+    },
+    {
+      "title": "世界一長いベンチ_38",
+      "spot": "世界一長いベンチ・増穂浦海岸",
+      "spotId": "bench",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "空撮",
+        "ベンチ",
+        "チラシ・ポスター向き"
+      ],
+      "thumb": "assets/img/lib/P0845-thumb.jpg",
+      "large": "assets/img/lib/P0845-large.jpg",
+      "alt": "世界一長いベンチ_38",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "世界一長いベンチ・増穂浦海岸",
+      "restricted": false,
+      "genre": "観光地",
+      "id": "P0845"
+    },
+    {
+      "title": "世界一長いベンチ_29",
+      "spot": "世界一長いベンチ・増穂浦海岸",
+      "spotId": "bench",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "ベンチ",
+        "ライトアップ",
+        "夜景",
+        "イルミネーション",
+        "SNS向き"
+      ],
+      "thumb": "assets/img/lib/P0822-thumb.jpg",
+      "large": "assets/img/lib/P0822-large.jpg",
+      "alt": "世界一長いベンチ_29",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "世界一長いベンチ・増穂浦海岸",
+      "restricted": false,
+      "genre": "イベント",
+      "id": "P0822"
+    },
+    {
+      "title": "世界一長いベンチ_30",
+      "spot": "世界一長いベンチ・増穂浦海岸",
+      "spotId": "bench",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "ベンチ",
+        "ライトアップ",
+        "夜景",
+        "イルミネーション",
+        "SNS向き"
+      ],
+      "thumb": "assets/img/lib/P0823-thumb.jpg",
+      "large": "assets/img/lib/P0823-large.jpg",
+      "alt": "世界一長いベンチ_30",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "世界一長いベンチ・増穂浦海岸",
+      "restricted": false,
+      "genre": "イベント",
+      "id": "P0823"
+    },
+    {
+      "title": "世界一長いベンチ_31",
+      "spot": "世界一長いベンチ・増穂浦海岸",
+      "spotId": "bench",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "ベンチ",
+        "ライトアップ",
+        "夜景",
+        "イルミネーション",
+        "SNS向き"
+      ],
+      "thumb": "assets/img/lib/P0824-thumb.jpg",
+      "large": "assets/img/lib/P0824-large.jpg",
+      "alt": "世界一長いベンチ_31",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "世界一長いベンチ・増穂浦海岸",
+      "restricted": false,
+      "genre": "イベント",
+      "id": "P0824"
+    },
+    {
+      "title": "世界一長いベンチ_32",
+      "spot": "世界一長いベンチ・増穂浦海岸",
+      "spotId": "bench",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "ベンチ",
+        "ライトアップ",
+        "夜景",
+        "イルミネーション",
+        "SNS向き"
+      ],
+      "thumb": "assets/img/lib/P0825-thumb.jpg",
+      "large": "assets/img/lib/P0825-large.jpg",
+      "alt": "世界一長いベンチ_32",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "世界一長いベンチ・増穂浦海岸",
+      "restricted": false,
+      "genre": "イベント",
+      "id": "P0825"
     },
     {
       "title": "上空から見た増穂浦海岸",
@@ -1705,6 +2127,133 @@ window.SPL_LIBRARY = {
       "restricted": false,
       "genre": "イベント",
       "id": "P0019"
+    },
+    {
+      "title": "機具岩_18",
+      "spot": "機具岩",
+      "spotId": "hatago",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "海",
+        "岩",
+        "チラシ・ポスター向き"
+      ],
+      "thumb": "assets/img/lib/P0806-thumb.jpg",
+      "large": "assets/img/lib/P0806-large.jpg",
+      "alt": "機具岩_18",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "機具岩",
+      "restricted": false,
+      "genre": "観光地",
+      "id": "P0806"
+    },
+    {
+      "title": "機具岩_23",
+      "spot": "機具岩",
+      "spotId": "hatago",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "海",
+        "夕陽",
+        "岩",
+        "チラシ・ポスター向き"
+      ],
+      "thumb": "assets/img/lib/P0846-thumb.jpg",
+      "large": "assets/img/lib/P0846-large.jpg",
+      "alt": "機具岩_23",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "機具岩",
+      "restricted": false,
+      "genre": "観光地",
+      "id": "P0846"
+    },
+    {
+      "title": "機具岩_19",
+      "spot": "機具岩",
+      "spotId": "hatago",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "海",
+        "岩",
+        "チラシ・ポスター向き"
+      ],
+      "thumb": "assets/img/lib/P0807-thumb.jpg",
+      "large": "assets/img/lib/P0807-large.jpg",
+      "alt": "機具岩_19",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "機具岩",
+      "restricted": false,
+      "genre": "観光地",
+      "id": "P0807"
+    },
+    {
+      "title": "機具岩_20",
+      "spot": "機具岩",
+      "spotId": "hatago",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "海",
+        "岩",
+        "チラシ・ポスター向き"
+      ],
+      "thumb": "assets/img/lib/P0808-thumb.jpg",
+      "large": "assets/img/lib/P0808-large.jpg",
+      "alt": "機具岩_20",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "機具岩",
+      "restricted": false,
+      "genre": "観光地",
+      "id": "P0808"
+    },
+    {
+      "title": "機具岩_21",
+      "spot": "機具岩",
+      "spotId": "hatago",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "海",
+        "岩",
+        "チラシ・ポスター向き"
+      ],
+      "thumb": "assets/img/lib/P0809-thumb.jpg",
+      "large": "assets/img/lib/P0809-large.jpg",
+      "alt": "機具岩_21",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "機具岩",
+      "restricted": false,
+      "genre": "観光地",
+      "id": "P0809"
+    },
+    {
+      "title": "機具岩_22",
+      "spot": "機具岩",
+      "spotId": "hatago",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "海",
+        "岩",
+        "チラシ・ポスター向き"
+      ],
+      "thumb": "assets/img/lib/P0810-thumb.jpg",
+      "large": "assets/img/lib/P0810-large.jpg",
+      "alt": "機具岩_22",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "機具岩",
+      "restricted": false,
+      "genre": "観光地",
+      "id": "P0810"
     },
     {
       "title": "機具岩_2",
@@ -4899,6 +5448,349 @@ window.SPL_LIBRARY = {
       "id": "P0048"
     },
     {
+      "title": "大島地引網_イカリモンハンミョウ",
+      "spot": "大島諸願堂・大島キャンプ場",
+      "spotId": "shogando",
+      "area": "志賀エリア",
+      "season": "",
+      "tags": [
+        "砂浜",
+        "地引網",
+        "虫",
+        "絶滅危惧昆虫",
+        "チラシ・ポスター向き"
+      ],
+      "thumb": "assets/img/lib/P0826-thumb.jpg",
+      "large": "assets/img/lib/P0826-large.jpg",
+      "alt": "大島地引網_イカリモンハンミョウ",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "大島諸願堂・大島キャンプ場",
+      "restricted": false,
+      "genre": "観光地",
+      "id": "P0826"
+    },
+    {
+      "title": "世界一長いベンチ_33",
+      "spot": "大島諸願堂・大島キャンプ場",
+      "spotId": "shogando",
+      "area": "志賀エリア",
+      "season": "",
+      "tags": [
+        "空撮",
+        "ベンチ",
+        "チラシ・ポスター向き"
+      ],
+      "thumb": "assets/img/lib/P0840-thumb.jpg",
+      "large": "assets/img/lib/P0840-large.jpg",
+      "alt": "世界一長いベンチ_33",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "大島諸願堂・大島キャンプ場",
+      "restricted": false,
+      "genre": "観光地",
+      "id": "P0840"
+    },
+    {
+      "title": "大島地引網_1",
+      "spot": "大島諸願堂・大島キャンプ場",
+      "spotId": "shogando",
+      "area": "志賀エリア",
+      "season": "",
+      "tags": [
+        "海",
+        "砂浜",
+        "地引網",
+        "魚",
+        "チラシ・ポスター向き"
+      ],
+      "thumb": "assets/img/lib/P0827-thumb.jpg",
+      "large": "assets/img/lib/P0827-large.jpg",
+      "alt": "大島地引網_1",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "大島諸願堂・大島キャンプ場",
+      "restricted": false,
+      "genre": "観光地",
+      "id": "P0827"
+    },
+    {
+      "title": "大島地引網_2",
+      "spot": "大島諸願堂・大島キャンプ場",
+      "spotId": "shogando",
+      "area": "志賀エリア",
+      "season": "",
+      "tags": [
+        "海",
+        "砂浜",
+        "地引網",
+        "魚",
+        "チラシ・ポスター向き"
+      ],
+      "thumb": "assets/img/lib/P0828-thumb.jpg",
+      "large": "assets/img/lib/P0828-large.jpg",
+      "alt": "大島地引網_2",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "大島諸願堂・大島キャンプ場",
+      "restricted": false,
+      "genre": "観光地",
+      "id": "P0828"
+    },
+    {
+      "title": "大島地引網_3",
+      "spot": "大島諸願堂・大島キャンプ場",
+      "spotId": "shogando",
+      "area": "志賀エリア",
+      "season": "",
+      "tags": [
+        "海",
+        "砂浜",
+        "地引網",
+        "魚",
+        "チラシ・ポスター向き"
+      ],
+      "thumb": "assets/img/lib/P0829-thumb.jpg",
+      "large": "assets/img/lib/P0829-large.jpg",
+      "alt": "大島地引網_3",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "大島諸願堂・大島キャンプ場",
+      "restricted": false,
+      "genre": "観光地",
+      "id": "P0829"
+    },
+    {
+      "title": "大島地引網_4",
+      "spot": "大島諸願堂・大島キャンプ場",
+      "spotId": "shogando",
+      "area": "志賀エリア",
+      "season": "",
+      "tags": [
+        "海",
+        "砂浜",
+        "地引網",
+        "魚",
+        "チラシ・ポスター向き"
+      ],
+      "thumb": "assets/img/lib/P0830-thumb.jpg",
+      "large": "assets/img/lib/P0830-large.jpg",
+      "alt": "大島地引網_4",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "大島諸願堂・大島キャンプ場",
+      "restricted": false,
+      "genre": "観光地",
+      "id": "P0830"
+    },
+    {
+      "title": "大島地引網_5",
+      "spot": "大島諸願堂・大島キャンプ場",
+      "spotId": "shogando",
+      "area": "志賀エリア",
+      "season": "",
+      "tags": [
+        "海",
+        "砂浜",
+        "地引網",
+        "魚",
+        "チラシ・ポスター向き"
+      ],
+      "thumb": "assets/img/lib/P0831-thumb.jpg",
+      "large": "assets/img/lib/P0831-large.jpg",
+      "alt": "大島地引網_5",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "大島諸願堂・大島キャンプ場",
+      "restricted": false,
+      "genre": "観光地",
+      "id": "P0831"
+    },
+    {
+      "title": "大島地引網_6",
+      "spot": "大島諸願堂・大島キャンプ場",
+      "spotId": "shogando",
+      "area": "志賀エリア",
+      "season": "",
+      "tags": [
+        "海",
+        "砂浜",
+        "地引網",
+        "魚",
+        "チラシ・ポスター向き"
+      ],
+      "thumb": "assets/img/lib/P0832-thumb.jpg",
+      "large": "assets/img/lib/P0832-large.jpg",
+      "alt": "大島地引網_6",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "大島諸願堂・大島キャンプ場",
+      "restricted": false,
+      "genre": "観光地",
+      "id": "P0832"
+    },
+    {
+      "title": "大島地引網_7",
+      "spot": "大島諸願堂・大島キャンプ場",
+      "spotId": "shogando",
+      "area": "志賀エリア",
+      "season": "",
+      "tags": [
+        "海",
+        "砂浜",
+        "地引網",
+        "魚",
+        "チラシ・ポスター向き"
+      ],
+      "thumb": "assets/img/lib/P0833-thumb.jpg",
+      "large": "assets/img/lib/P0833-large.jpg",
+      "alt": "大島地引網_7",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "大島諸願堂・大島キャンプ場",
+      "restricted": false,
+      "genre": "観光地",
+      "id": "P0833"
+    },
+    {
+      "title": "大島地引網_8",
+      "spot": "大島諸願堂・大島キャンプ場",
+      "spotId": "shogando",
+      "area": "志賀エリア",
+      "season": "",
+      "tags": [
+        "海",
+        "砂浜",
+        "地引網",
+        "魚",
+        "チラシ・ポスター向き"
+      ],
+      "thumb": "assets/img/lib/P0834-thumb.jpg",
+      "large": "assets/img/lib/P0834-large.jpg",
+      "alt": "大島地引網_8",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "大島諸願堂・大島キャンプ場",
+      "restricted": false,
+      "genre": "観光地",
+      "id": "P0834"
+    },
+    {
+      "title": "大島地引網_9",
+      "spot": "大島諸願堂・大島キャンプ場",
+      "spotId": "shogando",
+      "area": "志賀エリア",
+      "season": "",
+      "tags": [
+        "海",
+        "砂浜",
+        "地引網",
+        "魚",
+        "チラシ・ポスター向き"
+      ],
+      "thumb": "assets/img/lib/P0835-thumb.jpg",
+      "large": "assets/img/lib/P0835-large.jpg",
+      "alt": "大島地引網_9",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "大島諸願堂・大島キャンプ場",
+      "restricted": false,
+      "genre": "観光地",
+      "id": "P0835"
+    },
+    {
+      "title": "大島地引網_10",
+      "spot": "大島諸願堂・大島キャンプ場",
+      "spotId": "shogando",
+      "area": "志賀エリア",
+      "season": "",
+      "tags": [
+        "海",
+        "砂浜",
+        "地引網",
+        "魚",
+        "チラシ・ポスター向き"
+      ],
+      "thumb": "assets/img/lib/P0836-thumb.jpg",
+      "large": "assets/img/lib/P0836-large.jpg",
+      "alt": "大島地引網_10",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "大島諸願堂・大島キャンプ場",
+      "restricted": false,
+      "genre": "観光地",
+      "id": "P0836"
+    },
+    {
+      "title": "大島地引網_11",
+      "spot": "大島諸願堂・大島キャンプ場",
+      "spotId": "shogando",
+      "area": "志賀エリア",
+      "season": "",
+      "tags": [
+        "海",
+        "砂浜",
+        "地引網",
+        "魚",
+        "チラシ・ポスター向き"
+      ],
+      "thumb": "assets/img/lib/P0837-thumb.jpg",
+      "large": "assets/img/lib/P0837-large.jpg",
+      "alt": "大島地引網_11",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "大島諸願堂・大島キャンプ場",
+      "restricted": false,
+      "genre": "観光地",
+      "id": "P0837"
+    },
+    {
+      "title": "大島地引網_12",
+      "spot": "大島諸願堂・大島キャンプ場",
+      "spotId": "shogando",
+      "area": "志賀エリア",
+      "season": "",
+      "tags": [
+        "海",
+        "砂浜",
+        "地引網",
+        "魚",
+        "チラシ・ポスター向き"
+      ],
+      "thumb": "assets/img/lib/P0838-thumb.jpg",
+      "large": "assets/img/lib/P0838-large.jpg",
+      "alt": "大島地引網_12",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "大島諸願堂・大島キャンプ場",
+      "restricted": false,
+      "genre": "観光地",
+      "id": "P0838"
+    },
+    {
+      "title": "大島地引網_13",
+      "spot": "大島諸願堂・大島キャンプ場",
+      "spotId": "shogando",
+      "area": "志賀エリア",
+      "season": "",
+      "tags": [
+        "海",
+        "砂浜",
+        "地引網",
+        "魚",
+        "チラシ・ポスター向き"
+      ],
+      "thumb": "assets/img/lib/P0839-thumb.jpg",
+      "large": "assets/img/lib/P0839-large.jpg",
+      "alt": "大島地引網_13",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "大島諸願堂・大島キャンプ場",
+      "restricted": false,
+      "genre": "観光地",
+      "id": "P0839"
+    },
+    {
       "title": "大島諸願堂_1",
       "spot": "大島諸願堂・大島キャンプ場",
       "spotId": "shogando",
@@ -7074,6 +7966,27 @@ window.SPL_LIBRARY = {
       "id": "P0802"
     },
     {
+      "title": "彼岸花_1",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "花",
+        "彼岸花",
+        "チラシ・ポスター向き"
+      ],
+      "thumb": "assets/img/lib/P0812-thumb.jpg",
+      "large": "assets/img/lib/P0812-large.jpg",
+      "alt": "彼岸花_1",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "genre": "自然風景",
+      "id": "P0812"
+    },
+    {
       "title": "高爪山_4",
       "spot": "その他",
       "spotId": "other",
@@ -7617,6 +8530,27 @@ window.SPL_LIBRARY = {
       "id": "P0799"
     },
     {
+      "title": "彼岸花_2",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "花",
+        "彼岸花",
+        "チラシ・ポスター向き"
+      ],
+      "thumb": "assets/img/lib/P0813-thumb.jpg",
+      "large": "assets/img/lib/P0813-large.jpg",
+      "alt": "彼岸花_2",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "genre": "自然風景",
+      "id": "P0813"
+    },
+    {
       "title": "高爪山_5",
       "spot": "その他",
       "spotId": "other",
@@ -8092,6 +9026,27 @@ window.SPL_LIBRARY = {
       "id": "P0800"
     },
     {
+      "title": "彼岸花_3",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "花",
+        "彼岸花",
+        "チラシ・ポスター向き"
+      ],
+      "thumb": "assets/img/lib/P0814-thumb.jpg",
+      "large": "assets/img/lib/P0814-large.jpg",
+      "alt": "彼岸花_3",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "genre": "自然風景",
+      "id": "P0814"
+    },
+    {
       "title": "高爪山_6",
       "spot": "その他",
       "spotId": "other",
@@ -8501,6 +9456,27 @@ window.SPL_LIBRARY = {
       "restricted": false,
       "genre": "自然風景",
       "id": "P0801"
+    },
+    {
+      "title": "彼岸花_4",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "花",
+        "彼岸花",
+        "チラシ・ポスター向き"
+      ],
+      "thumb": "assets/img/lib/P0815-thumb.jpg",
+      "large": "assets/img/lib/P0815-large.jpg",
+      "alt": "彼岸花_4",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "genre": "自然風景",
+      "id": "P0815"
     },
     {
       "title": "高爪山_7",

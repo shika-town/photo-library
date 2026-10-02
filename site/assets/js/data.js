@@ -46,7 +46,7 @@ window.SPL_DATA = {
       "id": "bench",
       "name": "世界一長いベンチ・増穂浦海岸",
       "area": "富来エリア",
-      "count": 66,
+      "count": 85,
       "image": "assets/img/lib/P0008-hero.jpg",
       "alt": "世界一長いベンチ・増穂浦海岸",
       "description": "海・貝・夕日、そして記憶に残る長さ"
@@ -55,7 +55,7 @@ window.SPL_DATA = {
       "id": "hatago",
       "name": "機具岩",
       "area": "富来エリア",
-      "count": 23,
+      "count": 29,
       "image": "assets/img/lib/P0001-hero.jpg",
       "alt": "機具岩",
       "description": "二つの岩が寄り添う夫婦岩。能登屈指のマジックアワーポイント。"

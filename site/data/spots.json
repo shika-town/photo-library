@@ -178,6 +178,48 @@
           "genre": "観光地"
         },
         {
+          "id": "P0803",
+          "thumb": "../assets/img/lib/P0803-thumb.jpg",
+          "large": "../assets/img/lib/P0803-large.jpg",
+          "caption": "増穂浦海岸_13",
+          "tags": [
+            "海",
+            "砂浜",
+            "さくら貝",
+            "チラシ・ポスター向き"
+          ],
+          "restricted": false,
+          "genre": "観光地"
+        },
+        {
+          "id": "P0811",
+          "thumb": "../assets/img/lib/P0811-thumb.jpg",
+          "large": "../assets/img/lib/P0811-large.jpg",
+          "caption": "いろいろな貝",
+          "tags": [
+            "砂浜",
+            "さくら貝",
+            "チラシ・ポスター向き"
+          ],
+          "restricted": false,
+          "genre": "観光地"
+        },
+        {
+          "id": "P0816",
+          "thumb": "../assets/img/lib/P0816-thumb.jpg",
+          "large": "../assets/img/lib/P0816-large.jpg",
+          "caption": "世界一長いベンチ_23",
+          "tags": [
+            "ベンチ",
+            "ライトアップ",
+            "夜景",
+            "イルミネーション",
+            "SNS向き"
+          ],
+          "restricted": false,
+          "genre": "イベント"
+        },
+        {
           "id": "P0683",
           "thumb": "../assets/img/lib/P0683-thumb.jpg",
           "large": "../assets/img/lib/P0683-large.jpg",
@@ -214,6 +256,48 @@
             "海",
             "砂浜",
             "さくら貝",
+            "ベンチ",
+            "チラシ・ポスター向き"
+          ],
+          "restricted": false,
+          "genre": "観光地"
+        },
+        {
+          "id": "P0804",
+          "thumb": "../assets/img/lib/P0804-thumb.jpg",
+          "large": "../assets/img/lib/P0804-large.jpg",
+          "caption": "増穂浦海岸_14",
+          "tags": [
+            "海",
+            "砂浜",
+            "さくら貝",
+            "チラシ・ポスター向き"
+          ],
+          "restricted": false,
+          "genre": "観光地"
+        },
+        {
+          "id": "P0817",
+          "thumb": "../assets/img/lib/P0817-thumb.jpg",
+          "large": "../assets/img/lib/P0817-large.jpg",
+          "caption": "世界一長いベンチ_24",
+          "tags": [
+            "ベンチ",
+            "ライトアップ",
+            "夜景",
+            "イルミネーション",
+            "SNS向き"
+          ],
+          "restricted": false,
+          "genre": "イベント"
+        },
+        {
+          "id": "P0841",
+          "thumb": "../assets/img/lib/P0841-thumb.jpg",
+          "large": "../assets/img/lib/P0841-large.jpg",
+          "caption": "世界一長いベンチ_34",
+          "tags": [
+            "空撮",
             "ベンチ",
             "チラシ・ポスター向き"
           ],
@@ -264,6 +348,48 @@
           "genre": "観光地"
         },
         {
+          "id": "P0805",
+          "thumb": "../assets/img/lib/P0805-thumb.jpg",
+          "large": "../assets/img/lib/P0805-large.jpg",
+          "caption": "さくら貝_9",
+          "tags": [
+            "海",
+            "砂浜",
+            "さくら貝",
+            "チラシ・ポスター向き"
+          ],
+          "restricted": false,
+          "genre": "観光地"
+        },
+        {
+          "id": "P0818",
+          "thumb": "../assets/img/lib/P0818-thumb.jpg",
+          "large": "../assets/img/lib/P0818-large.jpg",
+          "caption": "世界一長いベンチ_25",
+          "tags": [
+            "ベンチ",
+            "ライトアップ",
+            "夜景",
+            "イルミネーション",
+            "SNS向き"
+          ],
+          "restricted": false,
+          "genre": "イベント"
+        },
+        {
+          "id": "P0842",
+          "thumb": "../assets/img/lib/P0842-thumb.jpg",
+          "large": "../assets/img/lib/P0842-large.jpg",
+          "caption": "世界一長いベンチ_35",
+          "tags": [
+            "空撮",
+            "ベンチ",
+            "チラシ・ポスター向き"
+          ],
+          "restricted": false,
+          "genre": "観光地"
+        },
+        {
           "id": "P0782",
           "thumb": "../assets/img/lib/P0782-thumb.jpg",
           "large": "../assets/img/lib/P0782-large.jpg",
@@ -291,6 +417,150 @@
           ],
           "restricted": false,
           "genre": "観光地"
+        },
+        {
+          "id": "P0819",
+          "thumb": "../assets/img/lib/P0819-thumb.jpg",
+          "large": "../assets/img/lib/P0819-large.jpg",
+          "caption": "世界一長いベンチ_26",
+          "tags": [
+            "ベンチ",
+            "ライトアップ",
+            "夜景",
+            "イルミネーション",
+            "SNS向き"
+          ],
+          "restricted": false,
+          "genre": "イベント"
+        },
+        {
+          "id": "P0843",
+          "thumb": "../assets/img/lib/P0843-thumb.jpg",
+          "large": "../assets/img/lib/P0843-large.jpg",
+          "caption": "世界一長いベンチ_36",
+          "tags": [
+            "空撮",
+            "ベンチ",
+            "チラシ・ポスター向き"
+          ],
+          "restricted": false,
+          "genre": "観光地"
+        },
+        {
+          "id": "P0820",
+          "thumb": "../assets/img/lib/P0820-thumb.jpg",
+          "large": "../assets/img/lib/P0820-large.jpg",
+          "caption": "世界一長いベンチ_27",
+          "tags": [
+            "ベンチ",
+            "ライトアップ",
+            "夜景",
+            "イルミネーション",
+            "SNS向き"
+          ],
+          "restricted": false,
+          "genre": "イベント"
+        },
+        {
+          "id": "P0844",
+          "thumb": "../assets/img/lib/P0844-thumb.jpg",
+          "large": "../assets/img/lib/P0844-large.jpg",
+          "caption": "世界一長いベンチ_37",
+          "tags": [
+            "空撮",
+            "ベンチ",
+            "チラシ・ポスター向き"
+          ],
+          "restricted": false,
+          "genre": "観光地"
+        },
+        {
+          "id": "P0821",
+          "thumb": "../assets/img/lib/P0821-thumb.jpg",
+          "large": "../assets/img/lib/P0821-large.jpg",
+          "caption": "世界一長いベンチ_28",
+          "tags": [
+            "ベンチ",
+            "ライトアップ",
+            "夜景",
+            "イルミネーション",
+            "SNS向き"
+          ],
+          "restricted": false,
+          "genre": "イベント"
+        },
+        {
+          "id": "P0845",
+          "thumb": "../assets/img/lib/P0845-thumb.jpg",
+          "large": "../assets/img/lib/P0845-large.jpg",
+          "caption": "世界一長いベンチ_38",
+          "tags": [
+            "空撮",
+            "ベンチ",
+            "チラシ・ポスター向き"
+          ],
+          "restricted": false,
+          "genre": "観光地"
+        },
+        {
+          "id": "P0822",
+          "thumb": "../assets/img/lib/P0822-thumb.jpg",
+          "large": "../assets/img/lib/P0822-large.jpg",
+          "caption": "世界一長いベンチ_29",
+          "tags": [
+            "ベンチ",
+            "ライトアップ",
+            "夜景",
+            "イルミネーション",
+            "SNS向き"
+          ],
+          "restricted": false,
+          "genre": "イベント"
+        },
+        {
+          "id": "P0823",
+          "thumb": "../assets/img/lib/P0823-thumb.jpg",
+          "large": "../assets/img/lib/P0823-large.jpg",
+          "caption": "世界一長いベンチ_30",
+          "tags": [
+            "ベンチ",
+            "ライトアップ",
+            "夜景",
+            "イルミネーション",
+            "SNS向き"
+          ],
+          "restricted": false,
+          "genre": "イベント"
+        },
+        {
+          "id": "P0824",
+          "thumb": "../assets/img/lib/P0824-thumb.jpg",
+          "large": "../assets/img/lib/P0824-large.jpg",
+          "caption": "世界一長いベンチ_31",
+          "tags": [
+            "ベンチ",
+            "ライトアップ",
+            "夜景",
+            "イルミネーション",
+            "SNS向き"
+          ],
+          "restricted": false,
+          "genre": "イベント"
+        },
+        {
+          "id": "P0825",
+          "thumb": "../assets/img/lib/P0825-thumb.jpg",
+          "large": "../assets/img/lib/P0825-large.jpg",
+          "caption": "世界一長いベンチ_32",
+          "tags": [
+            "ベンチ",
+            "ライトアップ",
+            "夜景",
+            "イルミネーション",
+            "SNS向き"
+          ],
+          "restricted": false,
+          "genre": "イベント"
         },
         {
           "id": "P0146",
@@ -970,7 +1240,7 @@
           "genre": "観光地"
         }
       ],
-      "count": 66
+      "count": 85
     },
     {
       "id": "hatago",
@@ -1090,6 +1360,85 @@
           ],
           "restricted": false,
           "genre": "イベント"
+        },
+        {
+          "id": "P0806",
+          "thumb": "../assets/img/lib/P0806-thumb.jpg",
+          "large": "../assets/img/lib/P0806-large.jpg",
+          "caption": "機具岩_18",
+          "tags": [
+            "海",
+            "岩",
+            "チラシ・ポスター向き"
+          ],
+          "restricted": false,
+          "genre": "観光地"
+        },
+        {
+          "id": "P0846",
+          "thumb": "../assets/img/lib/P0846-thumb.jpg",
+          "large": "../assets/img/lib/P0846-large.jpg",
+          "caption": "機具岩_23",
+          "tags": [
+            "海",
+            "夕陽",
+            "岩",
+            "チラシ・ポスター向き"
+          ],
+          "restricted": false,
+          "genre": "観光地"
+        },
+        {
+          "id": "P0807",
+          "thumb": "../assets/img/lib/P0807-thumb.jpg",
+          "large": "../assets/img/lib/P0807-large.jpg",
+          "caption": "機具岩_19",
+          "tags": [
+            "海",
+            "岩",
+            "チラシ・ポスター向き"
+          ],
+          "restricted": false,
+          "genre": "観光地"
+        },
+        {
+          "id": "P0808",
+          "thumb": "../assets/img/lib/P0808-thumb.jpg",
+          "large": "../assets/img/lib/P0808-large.jpg",
+          "caption": "機具岩_20",
+          "tags": [
+            "海",
+            "岩",
+            "チラシ・ポスター向き"
+          ],
+          "restricted": false,
+          "genre": "観光地"
+        },
+        {
+          "id": "P0809",
+          "thumb": "../assets/img/lib/P0809-thumb.jpg",
+          "large": "../assets/img/lib/P0809-large.jpg",
+          "caption": "機具岩_21",
+          "tags": [
+            "海",
+            "岩",
+            "チラシ・ポスター向き"
+          ],
+          "restricted": false,
+          "genre": "観光地"
+        },
+        {
+          "id": "P0810",
+          "thumb": "../assets/img/lib/P0810-thumb.jpg",
+          "large": "../assets/img/lib/P0810-large.jpg",
+          "caption": "機具岩_22",
+          "tags": [
+            "海",
+            "岩",
+            "チラシ・ポスター向き"
+          ],
+          "restricted": false,
+          "genre": "観光地"
         },
         {
           "id": "P0099",
@@ -1328,7 +1677,7 @@
           "genre": "観光地"
         }
       ],
-      "count": 23
+      "count": 29
     },
     {
       "id": "gate",
@@ -3419,6 +3768,229 @@
           "genre": "観光地"
         },
         {
+          "id": "P0826",
+          "thumb": "../assets/img/lib/P0826-thumb.jpg",
+          "large": "../assets/img/lib/P0826-large.jpg",
+          "caption": "大島地引網_イカリモンハンミョウ",
+          "tags": [
+            "砂浜",
+            "地引網",
+            "虫",
+            "絶滅危惧昆虫",
+            "チラシ・ポスター向き"
+          ],
+          "restricted": false,
+          "genre": "観光地"
+        },
+        {
+          "id": "P0840",
+          "thumb": "../assets/img/lib/P0840-thumb.jpg",
+          "large": "../assets/img/lib/P0840-large.jpg",
+          "caption": "世界一長いベンチ_33",
+          "tags": [
+            "空撮",
+            "ベンチ",
+            "チラシ・ポスター向き"
+          ],
+          "restricted": false,
+          "genre": "観光地"
+        },
+        {
+          "id": "P0827",
+          "thumb": "../assets/img/lib/P0827-thumb.jpg",
+          "large": "../assets/img/lib/P0827-large.jpg",
+          "caption": "大島地引網_1",
+          "tags": [
+            "海",
+            "砂浜",
+            "地引網",
+            "魚",
+            "チラシ・ポスター向き"
+          ],
+          "restricted": false,
+          "genre": "観光地"
+        },
+        {
+          "id": "P0828",
+          "thumb": "../assets/img/lib/P0828-thumb.jpg",
+          "large": "../assets/img/lib/P0828-large.jpg",
+          "caption": "大島地引網_2",
+          "tags": [
+            "海",
+            "砂浜",
+            "地引網",
+            "魚",
+            "チラシ・ポスター向き"
+          ],
+          "restricted": false,
+          "genre": "観光地"
+        },
+        {
+          "id": "P0829",
+          "thumb": "../assets/img/lib/P0829-thumb.jpg",
+          "large": "../assets/img/lib/P0829-large.jpg",
+          "caption": "大島地引網_3",
+          "tags": [
+            "海",
+            "砂浜",
+            "地引網",
+            "魚",
+            "チラシ・ポスター向き"
+          ],
+          "restricted": false,
+          "genre": "観光地"
+        },
+        {
+          "id": "P0830",
+          "thumb": "../assets/img/lib/P0830-thumb.jpg",
+          "large": "../assets/img/lib/P0830-large.jpg",
+          "caption": "大島地引網_4",
+          "tags": [
+            "海",
+            "砂浜",
+            "地引網",
+            "魚",
+            "チラシ・ポスター向き"
+          ],
+          "restricted": false,
+          "genre": "観光地"
+        },
+        {
+          "id": "P0831",
+          "thumb": "../assets/img/lib/P0831-thumb.jpg",
+          "large": "../assets/img/lib/P0831-large.jpg",
+          "caption": "大島地引網_5",
+          "tags": [
+            "海",
+            "砂浜",
+            "地引網",
+            "魚",
+            "チラシ・ポスター向き"
+          ],
+          "restricted": false,
+          "genre": "観光地"
+        },
+        {
+          "id": "P0832",
+          "thumb": "../assets/img/lib/P0832-thumb.jpg",
+          "large": "../assets/img/lib/P0832-large.jpg",
+          "caption": "大島地引網_6",
+          "tags": [
+            "海",
+            "砂浜",
+            "地引網",
+            "魚",
+            "チラシ・ポスター向き"
+          ],
+          "restricted": false,
+          "genre": "観光地"
+        },
+        {
+          "id": "P0833",
+          "thumb": "../assets/img/lib/P0833-thumb.jpg",
+          "large": "../assets/img/lib/P0833-large.jpg",
+          "caption": "大島地引網_7",
+          "tags": [
+            "海",
+            "砂浜",
+            "地引網",
+            "魚",
+            "チラシ・ポスター向き"
+          ],
+          "restricted": false,
+          "genre": "観光地"
+        },
+        {
+          "id": "P0834",
+          "thumb": "../assets/img/lib/P0834-thumb.jpg",
+          "large": "../assets/img/lib/P0834-large.jpg",
+          "caption": "大島地引網_8",
+          "tags": [
+            "海",
+            "砂浜",
+            "地引網",
+            "魚",
+            "チラシ・ポスター向き"
+          ],
+          "restricted": false,
+          "genre": "観光地"
+        },
+        {
+          "id": "P0835",
+          "thumb": "../assets/img/lib/P0835-thumb.jpg",
+          "large": "../assets/img/lib/P0835-large.jpg",
+          "caption": "大島地引網_9",
+          "tags": [
+            "海",
+            "砂浜",
+            "地引網",
+            "魚",
+            "チラシ・ポスター向き"
+          ],
+          "restricted": false,
+          "genre": "観光地"
+        },
+        {
+          "id": "P0836",
+          "thumb": "../assets/img/lib/P0836-thumb.jpg",
+          "large": "../assets/img/lib/P0836-large.jpg",
+          "caption": "大島地引網_10",
+          "tags": [
+            "海",
+            "砂浜",
+            "地引網",
+            "魚",
+            "チラシ・ポスター向き"
+          ],
+          "restricted": false,
+          "genre": "観光地"
+        },
+        {
+          "id": "P0837",
+          "thumb": "../assets/img/lib/P0837-thumb.jpg",
+          "large": "../assets/img/lib/P0837-large.jpg",
+          "caption": "大島地引網_11",
+          "tags": [
+            "海",
+            "砂浜",
+            "地引網",
+            "魚",
+            "チラシ・ポスター向き"
+          ],
+          "restricted": false,
+          "genre": "観光地"
+        },
+        {
+          "id": "P0838",
+          "thumb": "../assets/img/lib/P0838-thumb.jpg",
+          "large": "../assets/img/lib/P0838-large.jpg",
+          "caption": "大島地引網_12",
+          "tags": [
+            "海",
+            "砂浜",
+            "地引網",
+            "魚",
+            "チラシ・ポスター向き"
+          ],
+          "restricted": false,
+          "genre": "観光地"
+        },
+        {
+          "id": "P0839",
+          "thumb": "../assets/img/lib/P0839-thumb.jpg",
+          "large": "../assets/img/lib/P0839-large.jpg",
+          "caption": "大島地引網_13",
+          "tags": [
+            "海",
+            "砂浜",
+            "地引網",
+            "魚",
+            "チラシ・ポスター向き"
+          ],
+          "restricted": false,
+          "genre": "観光地"
+        },
+        {
           "id": "P0157",
           "thumb": "../assets/img/lib/P0157-thumb.jpg",
           "large": "../assets/img/lib/P0157-large.jpg",
@@ -3650,7 +4222,7 @@
           "genre": "観光地"
         }
       ],
-      "count": 23
+      "count": 38
     },
     {
       "id": "sakuragai",
@@ -4968,6 +5540,19 @@
           "genre": "自然風景"
         },
         {
+          "id": "P0812",
+          "thumb": "../assets/img/lib/P0812-thumb.jpg",
+          "large": "../assets/img/lib/P0812-large.jpg",
+          "caption": "彼岸花_1",
+          "tags": [
+            "花",
+            "彼岸花",
+            "チラシ・ポスター向き"
+          ],
+          "restricted": false,
+          "genre": "自然風景"
+        },
+        {
           "id": "P0549",
           "thumb": "../assets/img/lib/P0549-thumb.jpg",
           "large": "../assets/img/lib/P0549-large.jpg",
@@ -5311,6 +5896,19 @@
           "genre": "自然風景"
         },
         {
+          "id": "P0813",
+          "thumb": "../assets/img/lib/P0813-thumb.jpg",
+          "large": "../assets/img/lib/P0813-large.jpg",
+          "caption": "彼岸花_2",
+          "tags": [
+            "花",
+            "彼岸花",
+            "チラシ・ポスター向き"
+          ],
+          "restricted": false,
+          "genre": "自然風景"
+        },
+        {
           "id": "P0550",
           "thumb": "../assets/img/lib/P0550-thumb.jpg",
           "large": "../assets/img/lib/P0550-large.jpg",
@@ -5610,6 +6208,19 @@
           "genre": "自然風景"
         },
         {
+          "id": "P0814",
+          "thumb": "../assets/img/lib/P0814-thumb.jpg",
+          "large": "../assets/img/lib/P0814-large.jpg",
+          "caption": "彼岸花_3",
+          "tags": [
+            "花",
+            "彼岸花",
+            "チラシ・ポスター向き"
+          ],
+          "restricted": false,
+          "genre": "自然風景"
+        },
+        {
           "id": "P0551",
           "thumb": "../assets/img/lib/P0551-thumb.jpg",
           "large": "../assets/img/lib/P0551-large.jpg",
@@ -5863,6 +6474,19 @@
           "tags": [
             "桜",
             "花",
+            "チラシ・ポスター向き"
+          ],
+          "restricted": false,
+          "genre": "自然風景"
+        },
+        {
+          "id": "P0815",
+          "thumb": "../assets/img/lib/P0815-thumb.jpg",
+          "large": "../assets/img/lib/P0815-large.jpg",
+          "caption": "彼岸花_4",
+          "tags": [
+            "花",
+            "彼岸花",
             "チラシ・ポスター向き"
           ],
           "restricted": false,
@@ -8754,7 +9378,7 @@
           "genre": "自然風景"
         }
       ],
-      "count": 309
+      "count": 313
     }
   ]
 }
