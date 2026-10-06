@@ -18,7 +18,7 @@
     },
     {
       "id": "P0008",
-      "downloads": 1,
+      "downloads": 2,
       "title": "上空から見た増穂浦海岸とベンチ",
       "area": "富来エリア",
       "thumb": "assets/img/lib/P0008-thumb.jpg",
@@ -28,6 +28,19 @@
         "空撮",
         "ベンチ",
         "チラシ・ポスター向き"
+      ]
+    },
+    {
+      "id": "P0773",
+      "downloads": 1,
+      "title": "太鼓_11",
+      "area": "",
+      "thumb": "assets/img/lib/P0773-thumb.jpg",
+      "alt": "太鼓_11",
+      "tags": [
+        "太鼓",
+        "音楽",
+        "SNS向き"
       ]
     }
   ]
