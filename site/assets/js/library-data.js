@@ -3,7 +3,7 @@
 window.SPL_LIBRARY = {
   "meta": {
     "note": "photos.json と spots.json から自動生成しています。直接編集せず、scripts/build-library.py を実行してください。",
-    "count": 665
+    "count": 678
   },
   "photos": [
     {
@@ -8481,6 +8481,49 @@ window.SPL_LIBRARY = {
       "id": "P0870"
     },
     {
+      "title": "ころ柿_1",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "お土産",
+        "特産品",
+        "食",
+        "印刷物向き"
+      ],
+      "thumb": "assets/img/lib/P0874-thumb.jpg",
+      "large": "assets/img/lib/P0874-large.jpg",
+      "alt": "ころ柿_1",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "genre": "特産品",
+      "id": "P0874"
+    },
+    {
+      "title": "志賀町優良特産品_甘エビ1",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "特産品",
+        "食",
+        "印刷物向き"
+      ],
+      "thumb": "assets/img/lib/P0879-thumb.jpg",
+      "large": "assets/img/lib/P0879-large.jpg",
+      "alt": "志賀町優良特産品_甘エビ1",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "genre": "特産品",
+      "id": "P0879"
+    },
+    {
       "title": "高爪山_4",
       "spot": "その他",
       "spotId": "other",
@@ -9067,6 +9110,49 @@ window.SPL_LIBRARY = {
       "id": "P0871"
     },
     {
+      "title": "ころ柿_2",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "お土産",
+        "特産品",
+        "食",
+        "印刷物向き"
+      ],
+      "thumb": "assets/img/lib/P0875-thumb.jpg",
+      "large": "assets/img/lib/P0875-large.jpg",
+      "alt": "ころ柿_2",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "genre": "特産品",
+      "id": "P0875"
+    },
+    {
+      "title": "志賀町優良特産品_甘エビ2",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "特産品",
+        "食",
+        "印刷物向き"
+      ],
+      "thumb": "assets/img/lib/P0880-thumb.jpg",
+      "large": "assets/img/lib/P0880-large.jpg",
+      "alt": "志賀町優良特産品_甘エビ2",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "genre": "特産品",
+      "id": "P0880"
+    },
+    {
       "title": "高爪山_5",
       "spot": "その他",
       "spotId": "other",
@@ -9585,6 +9671,49 @@ window.SPL_LIBRARY = {
       "id": "P0872"
     },
     {
+      "title": "ころ柿_3",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "お土産",
+        "特産品",
+        "食",
+        "印刷物向き"
+      ],
+      "thumb": "assets/img/lib/P0876-thumb.jpg",
+      "large": "assets/img/lib/P0876-large.jpg",
+      "alt": "ころ柿_3",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "genre": "特産品",
+      "id": "P0876"
+    },
+    {
+      "title": "志賀町優良特産品_甘エビ3",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "特産品",
+        "食",
+        "印刷物向き"
+      ],
+      "thumb": "assets/img/lib/P0881-thumb.jpg",
+      "large": "assets/img/lib/P0881-large.jpg",
+      "alt": "志賀町優良特産品_甘エビ3",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "genre": "特産品",
+      "id": "P0881"
+    },
+    {
       "title": "高爪山_6",
       "spot": "その他",
       "spotId": "other",
@@ -10039,6 +10168,49 @@ window.SPL_LIBRARY = {
       "id": "P0873"
     },
     {
+      "title": "ころ柿_4",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "お土産",
+        "特産品",
+        "食",
+        "印刷物向き"
+      ],
+      "thumb": "assets/img/lib/P0877-thumb.jpg",
+      "large": "assets/img/lib/P0877-large.jpg",
+      "alt": "ころ柿_4",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "genre": "特産品",
+      "id": "P0877"
+    },
+    {
+      "title": "志賀町優良特産品_甘エビ4",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "特産品",
+        "食",
+        "印刷物向き"
+      ],
+      "thumb": "assets/img/lib/P0882-thumb.jpg",
+      "large": "assets/img/lib/P0882-large.jpg",
+      "alt": "志賀町優良特産品_甘エビ4",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "genre": "特産品",
+      "id": "P0882"
+    },
+    {
       "title": "高爪山_7",
       "spot": "その他",
       "spotId": "other",
@@ -10407,6 +10579,49 @@ window.SPL_LIBRARY = {
       "id": "P0796"
     },
     {
+      "title": "ころ柿_5",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "お土産",
+        "特産品",
+        "食",
+        "印刷物向き"
+      ],
+      "thumb": "assets/img/lib/P0878-thumb.jpg",
+      "large": "assets/img/lib/P0878-large.jpg",
+      "alt": "ころ柿_5",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "genre": "特産品",
+      "id": "P0878"
+    },
+    {
+      "title": "志賀町優良特産品_甘エビ5",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "特産品",
+        "食",
+        "印刷物向き"
+      ],
+      "thumb": "assets/img/lib/P0883-thumb.jpg",
+      "large": "assets/img/lib/P0883-large.jpg",
+      "alt": "志賀町優良特産品_甘エビ5",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "genre": "特産品",
+      "id": "P0883"
+    },
+    {
       "title": "高爪山_8",
       "spot": "その他",
       "spotId": "other",
@@ -10688,6 +10903,27 @@ window.SPL_LIBRARY = {
       "id": "P0797"
     },
     {
+      "title": "志賀町優良特産品_甘エビ6",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "特産品",
+        "食",
+        "印刷物向き"
+      ],
+      "thumb": "assets/img/lib/P0884-thumb.jpg",
+      "large": "assets/img/lib/P0884-large.jpg",
+      "alt": "志賀町優良特産品_甘エビ6",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "genre": "特産品",
+      "id": "P0884"
+    },
+    {
       "title": "imgsion156",
       "spot": "その他",
       "spotId": "other",
@@ -10882,6 +11118,27 @@ window.SPL_LIBRARY = {
       "id": "P0769"
     },
     {
+      "title": "志賀町優良特産品_甘エビ7",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "特産品",
+        "食",
+        "印刷物向き"
+      ],
+      "thumb": "assets/img/lib/P0885-thumb.jpg",
+      "large": "assets/img/lib/P0885-large.jpg",
+      "alt": "志賀町優良特産品_甘エビ7",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "genre": "特産品",
+      "id": "P0885"
+    },
+    {
       "title": "コピー ～ 高爪山 1",
       "spot": "その他",
       "spotId": "other",
@@ -11051,6 +11308,27 @@ window.SPL_LIBRARY = {
       "restricted": false,
       "genre": "祭り",
       "id": "P0770"
+    },
+    {
+      "title": "志賀町優良特産品_甘エビ8",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "特産品",
+        "食",
+        "印刷物向き"
+      ],
+      "thumb": "assets/img/lib/P0886-thumb.jpg",
+      "large": "assets/img/lib/P0886-large.jpg",
+      "alt": "志賀町優良特産品_甘エビ8",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "genre": "特産品",
+      "id": "P0886"
     },
     {
       "title": "高爪山_9",

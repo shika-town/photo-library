@@ -5863,6 +5863,33 @@
           "genre": "自然風景"
         },
         {
+          "id": "P0874",
+          "thumb": "../assets/img/lib/P0874-thumb.jpg",
+          "large": "../assets/img/lib/P0874-large.jpg",
+          "caption": "ころ柿_1",
+          "tags": [
+            "お土産",
+            "特産品",
+            "食",
+            "印刷物向き"
+          ],
+          "restricted": false,
+          "genre": "特産品"
+        },
+        {
+          "id": "P0879",
+          "thumb": "../assets/img/lib/P0879-thumb.jpg",
+          "large": "../assets/img/lib/P0879-large.jpg",
+          "caption": "志賀町優良特産品_甘エビ1",
+          "tags": [
+            "特産品",
+            "食",
+            "印刷物向き"
+          ],
+          "restricted": false,
+          "genre": "特産品"
+        },
+        {
           "id": "P0549",
           "thumb": "../assets/img/lib/P0549-thumb.jpg",
           "large": "../assets/img/lib/P0549-large.jpg",
@@ -6233,6 +6260,33 @@
           "genre": "自然風景"
         },
         {
+          "id": "P0875",
+          "thumb": "../assets/img/lib/P0875-thumb.jpg",
+          "large": "../assets/img/lib/P0875-large.jpg",
+          "caption": "ころ柿_2",
+          "tags": [
+            "お土産",
+            "特産品",
+            "食",
+            "印刷物向き"
+          ],
+          "restricted": false,
+          "genre": "特産品"
+        },
+        {
+          "id": "P0880",
+          "thumb": "../assets/img/lib/P0880-thumb.jpg",
+          "large": "../assets/img/lib/P0880-large.jpg",
+          "caption": "志賀町優良特産品_甘エビ2",
+          "tags": [
+            "特産品",
+            "食",
+            "印刷物向き"
+          ],
+          "restricted": false,
+          "genre": "特産品"
+        },
+        {
           "id": "P0550",
           "thumb": "../assets/img/lib/P0550-thumb.jpg",
           "large": "../assets/img/lib/P0550-large.jpg",
@@ -6559,6 +6613,33 @@
           "genre": "自然風景"
         },
         {
+          "id": "P0876",
+          "thumb": "../assets/img/lib/P0876-thumb.jpg",
+          "large": "../assets/img/lib/P0876-large.jpg",
+          "caption": "ころ柿_3",
+          "tags": [
+            "お土産",
+            "特産品",
+            "食",
+            "印刷物向き"
+          ],
+          "restricted": false,
+          "genre": "特産品"
+        },
+        {
+          "id": "P0881",
+          "thumb": "../assets/img/lib/P0881-thumb.jpg",
+          "large": "../assets/img/lib/P0881-large.jpg",
+          "caption": "志賀町優良特産品_甘エビ3",
+          "tags": [
+            "特産品",
+            "食",
+            "印刷物向き"
+          ],
+          "restricted": false,
+          "genre": "特産品"
+        },
+        {
           "id": "P0551",
           "thumb": "../assets/img/lib/P0551-thumb.jpg",
           "large": "../assets/img/lib/P0551-large.jpg",
@@ -6845,6 +6926,33 @@
           "genre": "自然風景"
         },
         {
+          "id": "P0877",
+          "thumb": "../assets/img/lib/P0877-thumb.jpg",
+          "large": "../assets/img/lib/P0877-large.jpg",
+          "caption": "ころ柿_4",
+          "tags": [
+            "お土産",
+            "特産品",
+            "食",
+            "印刷物向き"
+          ],
+          "restricted": false,
+          "genre": "特産品"
+        },
+        {
+          "id": "P0882",
+          "thumb": "../assets/img/lib/P0882-thumb.jpg",
+          "large": "../assets/img/lib/P0882-large.jpg",
+          "caption": "志賀町優良特産品_甘エビ4",
+          "tags": [
+            "特産品",
+            "食",
+            "印刷物向き"
+          ],
+          "restricted": false,
+          "genre": "特産品"
+        },
+        {
           "id": "P0552",
           "thumb": "../assets/img/lib/P0552-thumb.jpg",
           "large": "../assets/img/lib/P0552-large.jpg",
@@ -7077,6 +7185,33 @@
           "genre": "自然風景"
         },
         {
+          "id": "P0878",
+          "thumb": "../assets/img/lib/P0878-thumb.jpg",
+          "large": "../assets/img/lib/P0878-large.jpg",
+          "caption": "ころ柿_5",
+          "tags": [
+            "お土産",
+            "特産品",
+            "食",
+            "印刷物向き"
+          ],
+          "restricted": false,
+          "genre": "特産品"
+        },
+        {
+          "id": "P0883",
+          "thumb": "../assets/img/lib/P0883-thumb.jpg",
+          "large": "../assets/img/lib/P0883-large.jpg",
+          "caption": "志賀町優良特産品_甘エビ5",
+          "tags": [
+            "特産品",
+            "食",
+            "印刷物向き"
+          ],
+          "restricted": false,
+          "genre": "特産品"
+        },
+        {
           "id": "P0553",
           "thumb": "../assets/img/lib/P0553-thumb.jpg",
           "large": "../assets/img/lib/P0553-large.jpg",
@@ -7254,6 +7389,19 @@
           "genre": "自然風景"
         },
         {
+          "id": "P0884",
+          "thumb": "../assets/img/lib/P0884-thumb.jpg",
+          "large": "../assets/img/lib/P0884-large.jpg",
+          "caption": "志賀町優良特産品_甘エビ6",
+          "tags": [
+            "特産品",
+            "食",
+            "印刷物向き"
+          ],
+          "restricted": false,
+          "genre": "特産品"
+        },
+        {
           "id": "P0554",
           "thumb": "../assets/img/lib/P0554-thumb.jpg",
           "large": "../assets/img/lib/P0554-large.jpg",
@@ -7376,6 +7524,19 @@
           "genre": "祭り"
         },
         {
+          "id": "P0885",
+          "thumb": "../assets/img/lib/P0885-thumb.jpg",
+          "large": "../assets/img/lib/P0885-large.jpg",
+          "caption": "志賀町優良特産品_甘エビ7",
+          "tags": [
+            "特産品",
+            "食",
+            "印刷物向き"
+          ],
+          "restricted": false,
+          "genre": "特産品"
+        },
+        {
           "id": "P0555",
           "thumb": "../assets/img/lib/P0555-thumb.jpg",
           "large": "../assets/img/lib/P0555-large.jpg",
@@ -7481,6 +7642,19 @@
           ],
           "restricted": false,
           "genre": "祭り"
+        },
+        {
+          "id": "P0886",
+          "thumb": "../assets/img/lib/P0886-thumb.jpg",
+          "large": "../assets/img/lib/P0886-large.jpg",
+          "caption": "志賀町優良特産品_甘エビ8",
+          "tags": [
+            "特産品",
+            "食",
+            "印刷物向き"
+          ],
+          "restricted": false,
+          "genre": "特産品"
         },
         {
           "id": "P0556",
@@ -9730,7 +9904,7 @@
           "genre": "自然風景"
         }
       ],
-      "count": 318
+      "count": 331
     }
   ]
 }
