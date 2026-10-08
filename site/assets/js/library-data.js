@@ -3,7 +3,7 @@
 window.SPL_LIBRARY = {
   "meta": {
     "note": "photos.json と spots.json から自動生成しています。直接編集せず、scripts/build-library.py を実行してください。",
-    "count": 660
+    "count": 665
   },
   "photos": [
     {
@@ -2191,6 +2191,28 @@ window.SPL_LIBRARY = {
       "restricted": false,
       "genre": "観光地",
       "id": "P0857"
+    },
+    {
+      "title": "機具岩_36",
+      "spot": "機具岩",
+      "spotId": "hatago",
+      "area": "富来エリア",
+      "season": "",
+      "tags": [
+        "海",
+        "夕陽",
+        "岩",
+        "チラシ・ポスター向き"
+      ],
+      "thumb": "assets/img/lib/P0869-thumb.jpg",
+      "large": "assets/img/lib/P0869-large.jpg",
+      "alt": "機具岩_36",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "機具岩",
+      "restricted": false,
+      "genre": "観光地",
+      "id": "P0869"
     },
     {
       "title": "機具岩_19",
@@ -8437,6 +8459,28 @@ window.SPL_LIBRARY = {
       "id": "P0853"
     },
     {
+      "title": "不動の滝_1",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "岩",
+        "雪",
+        "滝",
+        "チラシ・ポスター向き"
+      ],
+      "thumb": "assets/img/lib/P0870-thumb.jpg",
+      "large": "assets/img/lib/P0870-large.jpg",
+      "alt": "不動の滝_1",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "genre": "自然風景",
+      "id": "P0870"
+    },
+    {
       "title": "高爪山_4",
       "spot": "その他",
       "spotId": "other",
@@ -9001,6 +9045,28 @@ window.SPL_LIBRARY = {
       "id": "P0813"
     },
     {
+      "title": "不動の滝_2",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "岩",
+        "雪",
+        "滝",
+        "チラシ・ポスター向き"
+      ],
+      "thumb": "assets/img/lib/P0871-thumb.jpg",
+      "large": "assets/img/lib/P0871-large.jpg",
+      "alt": "不動の滝_2",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "genre": "自然風景",
+      "id": "P0871"
+    },
+    {
       "title": "高爪山_5",
       "spot": "その他",
       "spotId": "other",
@@ -9497,6 +9563,28 @@ window.SPL_LIBRARY = {
       "id": "P0814"
     },
     {
+      "title": "不動の滝_3",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "岩",
+        "雪",
+        "滝",
+        "チラシ・ポスター向き"
+      ],
+      "thumb": "assets/img/lib/P0872-thumb.jpg",
+      "large": "assets/img/lib/P0872-large.jpg",
+      "alt": "不動の滝_3",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "genre": "自然風景",
+      "id": "P0872"
+    },
+    {
       "title": "高爪山_6",
       "spot": "その他",
       "spotId": "other",
@@ -9927,6 +10015,28 @@ window.SPL_LIBRARY = {
       "restricted": false,
       "genre": "自然風景",
       "id": "P0815"
+    },
+    {
+      "title": "不動の滝_4",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": "",
+      "tags": [
+        "岩",
+        "雪",
+        "滝",
+        "チラシ・ポスター向き"
+      ],
+      "thumb": "assets/img/lib/P0873-thumb.jpg",
+      "large": "assets/img/lib/P0873-large.jpg",
+      "alt": "不動の滝_4",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "genre": "自然風景",
+      "id": "P0873"
     },
     {
       "title": "高爪山_7",

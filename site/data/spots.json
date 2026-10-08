@@ -1402,6 +1402,20 @@
           "genre": "観光地"
         },
         {
+          "id": "P0869",
+          "thumb": "../assets/img/lib/P0869-thumb.jpg",
+          "large": "../assets/img/lib/P0869-large.jpg",
+          "caption": "機具岩_36",
+          "tags": [
+            "海",
+            "夕陽",
+            "岩",
+            "チラシ・ポスター向き"
+          ],
+          "restricted": false,
+          "genre": "観光地"
+        },
+        {
           "id": "P0807",
           "thumb": "../assets/img/lib/P0807-thumb.jpg",
           "large": "../assets/img/lib/P0807-large.jpg",
@@ -1833,7 +1847,7 @@
           "genre": "観光地"
         }
       ],
-      "count": 41
+      "count": 42
     },
     {
       "id": "gate",
@@ -5835,6 +5849,20 @@
           "genre": "自然風景"
         },
         {
+          "id": "P0870",
+          "thumb": "../assets/img/lib/P0870-thumb.jpg",
+          "large": "../assets/img/lib/P0870-large.jpg",
+          "caption": "不動の滝_1",
+          "tags": [
+            "岩",
+            "雪",
+            "滝",
+            "チラシ・ポスター向き"
+          ],
+          "restricted": false,
+          "genre": "自然風景"
+        },
+        {
           "id": "P0549",
           "thumb": "../assets/img/lib/P0549-thumb.jpg",
           "large": "../assets/img/lib/P0549-large.jpg",
@@ -6191,6 +6219,20 @@
           "genre": "自然風景"
         },
         {
+          "id": "P0871",
+          "thumb": "../assets/img/lib/P0871-thumb.jpg",
+          "large": "../assets/img/lib/P0871-large.jpg",
+          "caption": "不動の滝_2",
+          "tags": [
+            "岩",
+            "雪",
+            "滝",
+            "チラシ・ポスター向き"
+          ],
+          "restricted": false,
+          "genre": "自然風景"
+        },
+        {
           "id": "P0550",
           "thumb": "../assets/img/lib/P0550-thumb.jpg",
           "large": "../assets/img/lib/P0550-large.jpg",
@@ -6503,6 +6545,20 @@
           "genre": "自然風景"
         },
         {
+          "id": "P0872",
+          "thumb": "../assets/img/lib/P0872-thumb.jpg",
+          "large": "../assets/img/lib/P0872-large.jpg",
+          "caption": "不動の滝_3",
+          "tags": [
+            "岩",
+            "雪",
+            "滝",
+            "チラシ・ポスター向き"
+          ],
+          "restricted": false,
+          "genre": "自然風景"
+        },
+        {
           "id": "P0551",
           "thumb": "../assets/img/lib/P0551-thumb.jpg",
           "large": "../assets/img/lib/P0551-large.jpg",
@@ -6769,6 +6825,20 @@
           "tags": [
             "花",
             "彼岸花",
+            "チラシ・ポスター向き"
+          ],
+          "restricted": false,
+          "genre": "自然風景"
+        },
+        {
+          "id": "P0873",
+          "thumb": "../assets/img/lib/P0873-thumb.jpg",
+          "large": "../assets/img/lib/P0873-large.jpg",
+          "caption": "不動の滝_4",
+          "tags": [
+            "岩",
+            "雪",
+            "滝",
             "チラシ・ポスター向き"
           ],
           "restricted": false,
@@ -9660,7 +9730,7 @@
           "genre": "自然風景"
         }
       ],
-      "count": 314
+      "count": 318
     }
   ]
 }
