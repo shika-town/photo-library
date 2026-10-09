@@ -5890,6 +5890,59 @@
           "genre": "特産品"
         },
         {
+          "id": "P0887",
+          "thumb": "../assets/img/lib/P0887-thumb.jpg",
+          "large": "../assets/img/lib/P0887-large.jpg",
+          "caption": "志賀町優良特産品_スイカ5",
+          "tags": [
+            "お土産",
+            "食",
+            "特産品",
+            "印刷物向き"
+          ],
+          "restricted": false,
+          "genre": "特産品"
+        },
+        {
+          "id": "P0895",
+          "thumb": "../assets/img/lib/P0895-thumb.jpg",
+          "large": "../assets/img/lib/P0895-large.jpg",
+          "caption": "志賀町優良特産品_能登牛1",
+          "tags": [
+            "お土産",
+            "食",
+            "特産品",
+            "印刷物向き"
+          ],
+          "restricted": false,
+          "genre": "特産品"
+        },
+        {
+          "id": "P0898",
+          "thumb": "../assets/img/lib/P0898-thumb.jpg",
+          "large": "../assets/img/lib/P0898-large.jpg",
+          "caption": "矢駄獅子舞_１",
+          "tags": [
+            "祭り",
+            "獅子舞",
+            "SNS向き"
+          ],
+          "restricted": false,
+          "genre": "祭り"
+        },
+        {
+          "id": "P0904",
+          "thumb": "../assets/img/lib/P0904-thumb.jpg",
+          "large": "../assets/img/lib/P0904-large.jpg",
+          "caption": "萬燈祭_1",
+          "tags": [
+            "祭り",
+            "SNS向き"
+          ],
+          "restricted": false,
+          "genre": "祭り"
+        },
+        {
           "id": "P0549",
           "thumb": "../assets/img/lib/P0549-thumb.jpg",
           "large": "../assets/img/lib/P0549-large.jpg",
@@ -6287,6 +6340,59 @@
           "genre": "特産品"
         },
         {
+          "id": "P0888",
+          "thumb": "../assets/img/lib/P0888-thumb.jpg",
+          "large": "../assets/img/lib/P0888-large.jpg",
+          "caption": "志賀町優良特産品_スイカ6",
+          "tags": [
+            "お土産",
+            "食",
+            "特産品",
+            "印刷物向き"
+          ],
+          "restricted": false,
+          "genre": "特産品"
+        },
+        {
+          "id": "P0896",
+          "thumb": "../assets/img/lib/P0896-thumb.jpg",
+          "large": "../assets/img/lib/P0896-large.jpg",
+          "caption": "志賀町優良特産品_能登牛2",
+          "tags": [
+            "お土産",
+            "食",
+            "特産品",
+            "印刷物向き"
+          ],
+          "restricted": false,
+          "genre": "特産品"
+        },
+        {
+          "id": "P0899",
+          "thumb": "../assets/img/lib/P0899-thumb.jpg",
+          "large": "../assets/img/lib/P0899-large.jpg",
+          "caption": "矢駄獅子舞_２",
+          "tags": [
+            "祭り",
+            "獅子舞",
+            "SNS向き"
+          ],
+          "restricted": false,
+          "genre": "祭り"
+        },
+        {
+          "id": "P0905",
+          "thumb": "../assets/img/lib/P0905-thumb.jpg",
+          "large": "../assets/img/lib/P0905-large.jpg",
+          "caption": "萬燈祭_2",
+          "tags": [
+            "祭り",
+            "SNS向き"
+          ],
+          "restricted": false,
+          "genre": "祭り"
+        },
+        {
           "id": "P0550",
           "thumb": "../assets/img/lib/P0550-thumb.jpg",
           "large": "../assets/img/lib/P0550-large.jpg",
@@ -6640,6 +6746,59 @@
           "genre": "特産品"
         },
         {
+          "id": "P0889",
+          "thumb": "../assets/img/lib/P0889-thumb.jpg",
+          "large": "../assets/img/lib/P0889-large.jpg",
+          "caption": "志賀町優良特産品_スイカ7",
+          "tags": [
+            "お土産",
+            "食",
+            "特産品",
+            "印刷物向き"
+          ],
+          "restricted": false,
+          "genre": "特産品"
+        },
+        {
+          "id": "P0897",
+          "thumb": "../assets/img/lib/P0897-thumb.jpg",
+          "large": "../assets/img/lib/P0897-large.jpg",
+          "caption": "志賀町優良特産品_能登牛3",
+          "tags": [
+            "お土産",
+            "食",
+            "特産品",
+            "印刷物向き"
+          ],
+          "restricted": false,
+          "genre": "特産品"
+        },
+        {
+          "id": "P0900",
+          "thumb": "../assets/img/lib/P0900-thumb.jpg",
+          "large": "../assets/img/lib/P0900-large.jpg",
+          "caption": "矢駄獅子舞_３",
+          "tags": [
+            "祭り",
+            "獅子舞",
+            "SNS向き"
+          ],
+          "restricted": false,
+          "genre": "祭り"
+        },
+        {
+          "id": "P0906",
+          "thumb": "../assets/img/lib/P0906-thumb.jpg",
+          "large": "../assets/img/lib/P0906-large.jpg",
+          "caption": "萬燈祭_3",
+          "tags": [
+            "祭り",
+            "SNS向き"
+          ],
+          "restricted": false,
+          "genre": "祭り"
+        },
+        {
           "id": "P0551",
           "thumb": "../assets/img/lib/P0551-thumb.jpg",
           "large": "../assets/img/lib/P0551-large.jpg",
@@ -6953,6 +7112,45 @@
           "genre": "特産品"
         },
         {
+          "id": "P0890",
+          "thumb": "../assets/img/lib/P0890-thumb.jpg",
+          "large": "../assets/img/lib/P0890-large.jpg",
+          "caption": "志賀町優良特産品_スイカ8",
+          "tags": [
+            "お土産",
+            "食",
+            "特産品",
+            "印刷物向き"
+          ],
+          "restricted": false,
+          "genre": "特産品"
+        },
+        {
+          "id": "P0901",
+          "thumb": "../assets/img/lib/P0901-thumb.jpg",
+          "large": "../assets/img/lib/P0901-large.jpg",
+          "caption": "矢駄獅子舞_４",
+          "tags": [
+            "祭り",
+            "獅子舞",
+            "SNS向き"
+          ],
+          "restricted": false,
+          "genre": "祭り"
+        },
+        {
+          "id": "P0907",
+          "thumb": "../assets/img/lib/P0907-thumb.jpg",
+          "large": "../assets/img/lib/P0907-large.jpg",
+          "caption": "萬燈祭_4",
+          "tags": [
+            "祭り",
+            "SNS向き"
+          ],
+          "restricted": false,
+          "genre": "祭り"
+        },
+        {
           "id": "P0552",
           "thumb": "../assets/img/lib/P0552-thumb.jpg",
           "large": "../assets/img/lib/P0552-large.jpg",
@@ -7212,6 +7410,45 @@
           "genre": "特産品"
         },
         {
+          "id": "P0891",
+          "thumb": "../assets/img/lib/P0891-thumb.jpg",
+          "large": "../assets/img/lib/P0891-large.jpg",
+          "caption": "志賀町優良特産品_スイカ1",
+          "tags": [
+            "お土産",
+            "食",
+            "特産品",
+            "印刷物向き"
+          ],
+          "restricted": false,
+          "genre": "特産品"
+        },
+        {
+          "id": "P0902",
+          "thumb": "../assets/img/lib/P0902-thumb.jpg",
+          "large": "../assets/img/lib/P0902-large.jpg",
+          "caption": "矢駄獅子舞_５",
+          "tags": [
+            "祭り",
+            "獅子舞",
+            "SNS向き"
+          ],
+          "restricted": false,
+          "genre": "祭り"
+        },
+        {
+          "id": "P0908",
+          "thumb": "../assets/img/lib/P0908-thumb.jpg",
+          "large": "../assets/img/lib/P0908-large.jpg",
+          "caption": "萬燈祭_5",
+          "tags": [
+            "祭り",
+            "SNS向き"
+          ],
+          "restricted": false,
+          "genre": "祭り"
+        },
+        {
           "id": "P0553",
           "thumb": "../assets/img/lib/P0553-thumb.jpg",
           "large": "../assets/img/lib/P0553-large.jpg",
@@ -7402,6 +7639,45 @@
           "genre": "特産品"
         },
         {
+          "id": "P0892",
+          "thumb": "../assets/img/lib/P0892-thumb.jpg",
+          "large": "../assets/img/lib/P0892-large.jpg",
+          "caption": "志賀町優良特産品_スイカ2",
+          "tags": [
+            "お土産",
+            "食",
+            "特産品",
+            "印刷物向き"
+          ],
+          "restricted": false,
+          "genre": "特産品"
+        },
+        {
+          "id": "P0903",
+          "thumb": "../assets/img/lib/P0903-thumb.jpg",
+          "large": "../assets/img/lib/P0903-large.jpg",
+          "caption": "矢駄獅子舞_６",
+          "tags": [
+            "祭り",
+            "獅子舞",
+            "SNS向き"
+          ],
+          "restricted": false,
+          "genre": "祭り"
+        },
+        {
+          "id": "P0909",
+          "thumb": "../assets/img/lib/P0909-thumb.jpg",
+          "large": "../assets/img/lib/P0909-large.jpg",
+          "caption": "萬燈祭_6",
+          "tags": [
+            "祭り",
+            "SNS向き"
+          ],
+          "restricted": false,
+          "genre": "祭り"
+        },
+        {
           "id": "P0554",
           "thumb": "../assets/img/lib/P0554-thumb.jpg",
           "large": "../assets/img/lib/P0554-large.jpg",
@@ -7537,6 +7813,32 @@
           "genre": "特産品"
         },
         {
+          "id": "P0893",
+          "thumb": "../assets/img/lib/P0893-thumb.jpg",
+          "large": "../assets/img/lib/P0893-large.jpg",
+          "caption": "志賀町優良特産品_スイカ3",
+          "tags": [
+            "お土産",
+            "食",
+            "特産品",
+            "印刷物向き"
+          ],
+          "restricted": false,
+          "genre": "特産品"
+        },
+        {
+          "id": "P0910",
+          "thumb": "../assets/img/lib/P0910-thumb.jpg",
+          "large": "../assets/img/lib/P0910-large.jpg",
+          "caption": "萬燈祭_7",
+          "tags": [
+            "祭り",
+            "SNS向き"
+          ],
+          "restricted": false,
+          "genre": "祭り"
+        },
+        {
           "id": "P0555",
           "thumb": "../assets/img/lib/P0555-thumb.jpg",
           "large": "../assets/img/lib/P0555-large.jpg",
@@ -7657,6 +7959,32 @@
           "genre": "特産品"
         },
         {
+          "id": "P0894",
+          "thumb": "../assets/img/lib/P0894-thumb.jpg",
+          "large": "../assets/img/lib/P0894-large.jpg",
+          "caption": "志賀町優良特産品_スイカ4",
+          "tags": [
+            "お土産",
+            "食",
+            "特産品",
+            "印刷物向き"
+          ],
+          "restricted": false,
+          "genre": "特産品"
+        },
+        {
+          "id": "P0911",
+          "thumb": "../assets/img/lib/P0911-thumb.jpg",
+          "large": "../assets/img/lib/P0911-large.jpg",
+          "caption": "萬燈祭_8",
+          "tags": [
+            "祭り",
+            "SNS向き"
+          ],
+          "restricted": false,
+          "genre": "祭り"
+        },
+        {
           "id": "P0556",
           "thumb": "../assets/img/lib/P0556-thumb.jpg",
           "large": "../assets/img/lib/P0556-large.jpg",
@@ -7751,6 +8079,18 @@
           "genre": "祭り"
         },
         {
+          "id": "P0912",
+          "thumb": "../assets/img/lib/P0912-thumb.jpg",
+          "large": "../assets/img/lib/P0912-large.jpg",
+          "caption": "萬燈祭_9",
+          "tags": [
+            "祭り",
+            "SNS向き"
+          ],
+          "restricted": false,
+          "genre": "祭り"
+        },
+        {
           "id": "P0557",
           "thumb": "../assets/img/lib/P0557-thumb.jpg",
           "large": "../assets/img/lib/P0557-large.jpg",
@@ -7832,6 +8172,18 @@
           "genre": "祭り"
         },
         {
+          "id": "P0913",
+          "thumb": "../assets/img/lib/P0913-thumb.jpg",
+          "large": "../assets/img/lib/P0913-large.jpg",
+          "caption": "萬燈祭_10",
+          "tags": [
+            "祭り",
+            "SNS向き"
+          ],
+          "restricted": false,
+          "genre": "祭り"
+        },
+        {
           "id": "P0558",
           "thumb": "../assets/img/lib/P0558-thumb.jpg",
           "large": "../assets/img/lib/P0558-large.jpg",
@@ -7878,6 +8230,18 @@
           "tags": [
             "太鼓",
             "音楽",
+            "SNS向き"
+          ],
+          "restricted": false,
+          "genre": "祭り"
+        },
+        {
+          "id": "P0914",
+          "thumb": "../assets/img/lib/P0914-thumb.jpg",
+          "large": "../assets/img/lib/P0914-large.jpg",
+          "caption": "萬燈祭_11",
+          "tags": [
+            "祭り",
             "SNS向き"
           ],
           "restricted": false,
@@ -7937,6 +8301,18 @@
           "genre": "祭り"
         },
         {
+          "id": "P0915",
+          "thumb": "../assets/img/lib/P0915-thumb.jpg",
+          "large": "../assets/img/lib/P0915-large.jpg",
+          "caption": "萬燈祭_12",
+          "tags": [
+            "祭り",
+            "SNS向き"
+          ],
+          "restricted": false,
+          "genre": "祭り"
+        },
+        {
           "id": "P0732",
           "thumb": "../assets/img/lib/P0732-thumb.jpg",
           "large": "../assets/img/lib/P0732-large.jpg",
@@ -7970,6 +8346,18 @@
           "tags": [
             "太鼓",
             "音楽",
+            "SNS向き"
+          ],
+          "restricted": false,
+          "genre": "祭り"
+        },
+        {
+          "id": "P0916",
+          "thumb": "../assets/img/lib/P0916-thumb.jpg",
+          "large": "../assets/img/lib/P0916-large.jpg",
+          "caption": "萬燈祭_13",
+          "tags": [
+            "祭り",
             "SNS向き"
           ],
           "restricted": false,
@@ -8015,6 +8403,18 @@
           "genre": "祭り"
         },
         {
+          "id": "P0917",
+          "thumb": "../assets/img/lib/P0917-thumb.jpg",
+          "large": "../assets/img/lib/P0917-large.jpg",
+          "caption": "萬燈祭_14",
+          "tags": [
+            "祭り",
+            "SNS向き"
+          ],
+          "restricted": false,
+          "genre": "祭り"
+        },
+        {
           "id": "P0734",
           "thumb": "../assets/img/lib/P0734-thumb.jpg",
           "large": "../assets/img/lib/P0734-large.jpg",
@@ -8054,6 +8454,18 @@
           "genre": "祭り"
         },
         {
+          "id": "P0918",
+          "thumb": "../assets/img/lib/P0918-thumb.jpg",
+          "large": "../assets/img/lib/P0918-large.jpg",
+          "caption": "萬燈祭_15",
+          "tags": [
+            "祭り",
+            "SNS向き"
+          ],
+          "restricted": false,
+          "genre": "祭り"
+        },
+        {
           "id": "P0750",
           "thumb": "../assets/img/lib/P0750-thumb.jpg",
           "large": "../assets/img/lib/P0750-large.jpg",
@@ -8080,6 +8492,18 @@
           "genre": "祭り"
         },
         {
+          "id": "P0919",
+          "thumb": "../assets/img/lib/P0919-thumb.jpg",
+          "large": "../assets/img/lib/P0919-large.jpg",
+          "caption": "萬燈祭_16",
+          "tags": [
+            "祭り",
+            "SNS向き"
+          ],
+          "restricted": false,
+          "genre": "祭り"
+        },
+        {
           "id": "P0751",
           "thumb": "../assets/img/lib/P0751-thumb.jpg",
           "large": "../assets/img/lib/P0751-large.jpg",
@@ -8087,6 +8511,18 @@
           "tags": [
             "祭り",
             "福浦",
+            "SNS向き"
+          ],
+          "restricted": false,
+          "genre": "祭り"
+        },
+        {
+          "id": "P0920",
+          "thumb": "../assets/img/lib/P0920-thumb.jpg",
+          "large": "../assets/img/lib/P0920-large.jpg",
+          "caption": "萬燈祭_17",
+          "tags": [
+            "祭り",
             "SNS向き"
           ],
           "restricted": false,
@@ -8106,6 +8542,18 @@
           "genre": "祭り"
         },
         {
+          "id": "P0921",
+          "thumb": "../assets/img/lib/P0921-thumb.jpg",
+          "large": "../assets/img/lib/P0921-large.jpg",
+          "caption": "萬燈祭_18",
+          "tags": [
+            "祭り",
+            "SNS向き"
+          ],
+          "restricted": false,
+          "genre": "祭り"
+        },
+        {
           "id": "P0753",
           "thumb": "../assets/img/lib/P0753-thumb.jpg",
           "large": "../assets/img/lib/P0753-large.jpg",
@@ -8113,6 +8561,18 @@
           "tags": [
             "祭り",
             "福浦",
+            "SNS向き"
+          ],
+          "restricted": false,
+          "genre": "祭り"
+        },
+        {
+          "id": "P0922",
+          "thumb": "../assets/img/lib/P0922-thumb.jpg",
+          "large": "../assets/img/lib/P0922-large.jpg",
+          "caption": "萬燈祭_19",
+          "tags": [
+            "祭り",
             "SNS向き"
           ],
           "restricted": false,
@@ -8132,6 +8592,18 @@
           "genre": "祭り"
         },
         {
+          "id": "P0923",
+          "thumb": "../assets/img/lib/P0923-thumb.jpg",
+          "large": "../assets/img/lib/P0923-large.jpg",
+          "caption": "萬燈祭_20",
+          "tags": [
+            "祭り",
+            "SNS向き"
+          ],
+          "restricted": false,
+          "genre": "祭り"
+        },
+        {
           "id": "P0755",
           "thumb": "../assets/img/lib/P0755-thumb.jpg",
           "large": "../assets/img/lib/P0755-large.jpg",
@@ -8139,6 +8611,18 @@
           "tags": [
             "祭り",
             "福浦",
+            "SNS向き"
+          ],
+          "restricted": false,
+          "genre": "祭り"
+        },
+        {
+          "id": "P0924",
+          "thumb": "../assets/img/lib/P0924-thumb.jpg",
+          "large": "../assets/img/lib/P0924-large.jpg",
+          "caption": "萬燈祭_21",
+          "tags": [
+            "祭り",
             "SNS向き"
           ],
           "restricted": false,
@@ -9904,7 +10388,7 @@
           "genre": "自然風景"
         }
       ],
-      "count": 331
+      "count": 369
     }
   ]
 }
