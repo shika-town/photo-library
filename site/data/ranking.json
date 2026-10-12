@@ -4,7 +4,7 @@
   "photos": [
     {
       "id": "P0024",
-      "downloads": 4,
+      "downloads": 6,
       "title": "エメラルドグリーンの海",
       "area": "富来エリア",
       "thumb": "assets/img/lib/P0024-thumb.jpg",
@@ -56,6 +56,21 @@
       ]
     },
     {
+      "id": "P0219",
+      "downloads": 1,
+      "title": "世界一長いベンチ_花火1",
+      "area": "富来エリア",
+      "thumb": "assets/img/lib/P0219-thumb.jpg",
+      "alt": "世界一長いベンチ_花火1",
+      "tags": [
+        "海",
+        "ベンチ",
+        "イルミネーション",
+        "花火",
+        "SNS向き"
+      ]
+    },
+    {
       "id": "P0235",
       "downloads": 1,
       "title": "世界一長いベンチ_花火8",
@@ -69,6 +84,47 @@
         "イルミネーション",
         "花火",
         "SNS向き"
+      ]
+    },
+    {
+      "id": "P0276",
+      "downloads": 1,
+      "title": "花火_2",
+      "area": "",
+      "thumb": "assets/img/lib/P0276-thumb.jpg",
+      "alt": "花火_2",
+      "tags": [
+        "夜景",
+        "花火",
+        "SNS向き"
+      ]
+    },
+    {
+      "id": "P0788",
+      "downloads": 1,
+      "title": "さくら貝_5",
+      "area": "富来エリア",
+      "thumb": "assets/img/lib/P0788-thumb.jpg",
+      "alt": "さくら貝_5",
+      "tags": [
+        "海",
+        "砂浜",
+        "さくら貝",
+        "ベンチ",
+        "チラシ・ポスター向き"
+      ]
+    },
+    {
+      "id": "P0815",
+      "downloads": 1,
+      "title": "彼岸花_4",
+      "area": "",
+      "thumb": "assets/img/lib/P0815-thumb.jpg",
+      "alt": "彼岸花_4",
+      "tags": [
+        "花",
+        "彼岸花",
+        "チラシ・ポスター向き"
       ]
     }
   ]
