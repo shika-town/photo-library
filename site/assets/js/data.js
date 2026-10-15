@@ -83,8 +83,8 @@ window.SPL_DATA = {
     {
       "label": "夕陽",
       "query": "夕陽",
-      "image": "assets/img/lib/P0063-scene.jpg",
-      "alt": "平家_12"
+      "image": "",
+      "alt": "夕陽"
     },
     {
       "label": "海",

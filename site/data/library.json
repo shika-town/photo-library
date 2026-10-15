@@ -1,7 +1,7 @@
 {
   "meta": {
     "note": "photos.json と spots.json から自動生成しています。直接編集せず、scripts/build-library.py を実行してください。",
-    "count": 716
+    "count": 715
   },
   "photos": [
     {
@@ -7365,28 +7365,6 @@
       "restricted": false,
       "genre": "観光地",
       "id": "P0059"
-    },
-    {
-      "title": "平家_12",
-      "spot": "平家",
-      "spotId": "taira",
-      "area": "志賀エリア",
-      "season": "",
-      "tags": [
-        "文化施設",
-        "名所旧跡",
-        "庭園",
-        "チラシ・ポスター向き"
-      ],
-      "thumb": "assets/img/lib/P0063-thumb.jpg",
-      "large": "assets/img/lib/P0063-large.jpg",
-      "alt": "平家_12",
-      "credit": "© 志賀町",
-      "photographer": "志賀町",
-      "source": "平家",
-      "restricted": false,
-      "genre": "観光地",
-      "id": "P0063"
     },
     {
       "title": "心字池と築山",

@@ -5113,20 +5113,6 @@
           "genre": "観光地"
         },
         {
-          "id": "P0063",
-          "thumb": "../assets/img/lib/P0063-thumb.jpg",
-          "large": "../assets/img/lib/P0063-large.jpg",
-          "caption": "平家_12",
-          "tags": [
-            "文化施設",
-            "名所旧跡",
-            "庭園",
-            "チラシ・ポスター向き"
-          ],
-          "restricted": false,
-          "genre": "観光地"
-        },
-        {
           "id": "P0060",
           "thumb": "../assets/img/lib/P0060-thumb.jpg",
           "large": "../assets/img/lib/P0060-large.jpg",
@@ -5312,7 +5298,7 @@
           "genre": "観光地"
         }
       ],
-      "count": 15
+      "count": 14
     },
     {
       "id": "matsuo",
