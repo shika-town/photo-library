@@ -31,9 +31,12 @@
 <link rel="canonical" href="./index.html">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&family=Noto+Sans+JP:wght@400;500;700&family=Klee+One:wght@400;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500&family=Shippori+Mincho:wght@400&display=swap" rel="stylesheet">
+<!-- 表紙の「しかたび」4文字だけを読み込む（Tsukimi Rounded Light / SIL OFL） -->
+<link href="https://fonts.googleapis.com/css2?family=Tsukimi+Rounded:wght@300&display=swap&text=%E3%81%97%E3%81%8B%E3%81%9F%E3%81%B3" rel="stylesheet">
 <link rel="stylesheet" href="assets/css/style.css">
-<link rel="preload" as="image" href="assets/img/hero-bench.jpg">
+<link rel="stylesheet" href="assets/css/top.css">
+<link rel="preload" as="image" href="assets/img/lib/P0009-hero.jpg" fetchpriority="high">
 
 <script type="application/ld+json">
 {
@@ -46,7 +49,7 @@
 }
 </script>
 </head>
-<body>
+<body class="tp">
 
 <!-- ================= SVG icon sprite ================= -->
 <svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true">
@@ -86,288 +89,238 @@
 
 <a href="#main" class="sr-only">本文へスキップ</a>
 
-<!-- ================= Header ================= -->
-<header class="header" id="header">
-  <div class="header__inner">
-    <a href="index.html" class="logo" aria-label="SHIKA PHOTO LIBRARY ホーム">
-      <span class="logo__mark"><svg><use href="#i-camera"/></svg></span>
-      <span class="logo__text">
-        <span class="logo__en">SHIKA PHOTO LIBRARY</span>
-        <span class="logo__ja">能登・志賀町 公式フォトライブラリー</span>
-      </span>
-    </a>
-
-    <nav class="nav" aria-label="メインナビゲーション">
-      <ul class="nav__list">
-        <li><a class="nav__link" href="index.html" aria-current="page">HOME</a></li>
-        <li><a class="nav__link" href="spots/index.html">スポットから探す</a></li>
-        <li><a class="nav__link" href="search.html">写真から探す</a></li>
-        <li><a class="nav__link" href="#scenes">シーンで探す</a></li>
-        <li><a class="nav__link" href="terms.html">ご利用について</a></li>
-        <li><a class="nav__link" href="#contact">お問い合わせ</a></li>
-        <li><a class="nav__link" href="#" data-admin-gate>🔒 管理者ページ</a></li>
-      </ul>
-    </nav>
-
-    <a class="header__fav" href="favorites.html" aria-label="あとで見るリスト">
-      <svg><use href="#i-heart"/></svg><span class="header__fav-badge" hidden>0</span>
-    </a>
-    <button class="header__search" id="btnSearch" aria-label="サイト内を検索"><svg><use href="#i-search"/></svg></button>
-    <button class="burger" id="btnBurger" aria-label="メニューを開く" aria-expanded="false"><svg><use href="#i-menu"/></svg></button>
-  </div>
-</header>
-
 <main id="main">
 
-  <!-- ================= Hero ================= -->
-  <section class="hero">
-    <div class="hero__media" id="heroMedia">
-      <img class="hero__slide is-active" src="assets/img/hero-bench.jpg" alt="" fetchpriority="high" width="2400" height="1350">
-    </div>
-
-    <div class="hero__body">
-      <div class="hero__inner">
-        <h1 class="hero__title" id="heroTitle"></h1>
-        <p class="hero__sub">
-          <span class="hero__sub-en">SHIKA PHOTO LIBRARY</span><br>
-          <span class="hero__sub-ja">志賀町公式フォトライブラリー</span>
-        </p>
-
-        <form class="searchbox" id="heroForm" role="search">
-          <span class="searchbox__icon"><svg><use href="#i-search"/></svg></span>
-          <label class="sr-only" for="heroInput">写真・スポット・タグで検索</label>
-          <input class="searchbox__input" id="heroInput" type="search" placeholder="写真・スポット・タグで検索" autocomplete="off">
-          <button class="searchbox__btn" type="submit">検索</button>
-        </form>
-
-        <div class="herotags">
-          <span class="herotags__label">人気のタグ</span>
-          <span id="heroTags"></span>
-        </div>
+  <!-- ================= 表紙 =================
+       表紙の写真・文言はこのHTMLに直接書いています（シートの heroPhotoId / heroTitle は
+       この表紙では使いません）。写真を替えるときは下の img の src と alt、
+       右下の場所名（.tp-hero__place）を書き換えてください。 -->
+  <section class="tp-hero" aria-label="志賀町の風景">
+    <img class="tp-hero__img" src="assets/img/lib/P0009-hero.jpg" alt="日本海の青い海に沿って続く世界一長いベンチ" width="1400" height="787" fetchpriority="high" decoding="async">
+    <div class="tp-hero__bar">
+      <a class="tp-brand" href="index.html" aria-label="能登・志賀町 公式フォトライブラリー ホーム">能登・志賀町<span>公式フォトライブラリー</span></a>
+      <div class="tp-hero__nav">
+        <a href="#find">写真を探す <span aria-hidden="true">↓</span></a>
+        <a href="favorites.html">あとで見るリスト <span class="header__fav-badge" hidden>0</span></a>
+        <button type="button" id="btnBurger" aria-expanded="false" aria-controls="drawer"><i class="tp-menu-icon" aria-hidden="true"></i><span>メニュー</span></button>
       </div>
     </div>
-
-    <p class="hero__caption" id="heroCaption"><svg><use href="#i-pin"/></svg><span></span></p>
+    <h1 class="tp-wordmark"><span class="tp-wordmark__hash">#</span>しかたび<span class="sr-only">　志賀町公式フォトライブラリー</span><small aria-hidden="true">NOTO / SHIKA</small></h1>
+    <p class="tp-copy"><span>志賀町の、</span><span>いまを写真に。</span></p>
+    <p class="tp-hero__place">世界一長いベンチ<span>増穂浦海岸</span></p>
+    <p class="tp-hero__mark" aria-hidden="true">SHIKA PHOTO LIBRARY</p>
   </section>
 
-  <!-- ================= 人気のスポット ================= -->
-  <section class="section" id="spots">
-    <div class="container">
-      <div class="section__head">
-        <div>
-          <span class="section__eyebrow">SPOTS</span>
-          <h2 class="section__title">人気のスポット</h2>
-          <p class="section__lead">志賀町を代表する観光地を、写真からたどれます。</p>
-        </div>
-        <a class="section__more" href="spots/index.html">すべて見る <svg><use href="#i-arrow"/></svg></a>
-      </div>
-      <div class="spot-grid reveal" id="spotGrid"></div>
+  <!-- ================= 写真を、見つける。（常時表示の検索） ================= -->
+  <section class="tp-search" id="find" aria-labelledby="tpFindTitle">
+    <div class="tp-search__head">
+      <h2 id="tpFindTitle">写真を、見つける。</h2>
+      <span class="tp-total" id="tpTotal"></span>
     </div>
+    <form id="tpForm" role="search">
+      <div class="tp-field">
+        <label for="tpQuery"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><span class="sr-only">キーワード</span></label>
+        <input id="tpQuery" type="search" placeholder="巌門、海 夕日、さくら貝" autocomplete="off" enterkeyhint="search">
+        <button class="tp-btn" type="submit">検索</button>
+      </div>
+      <div class="tp-examples"><span>たとえば</span>
+        <button type="button" data-q="海 夕日">海と夕日</button>
+        <button type="button" data-q="さくら貝">さくら貝</button>
+        <button type="button" data-q="巌門">巌門</button>
+      </div>
+      <div class="tp-filters">
+        <div class="tp-filter"><label for="tpSpot">撮影スポット</label><select id="tpSpot"><option value="">すべての場所</option></select></div>
+        <div class="tp-filter"><label for="tpGenre">ジャンル</label><select id="tpGenre"><option value="">すべてのジャンル</option></select></div>
+        <div class="tp-filter"><label for="tpUse">用途タグ</label>
+          <select id="tpUse"><option value="">すべての用途</option><option>チラシ・ポスター向き</option><option>SNS向き</option><option>印刷物向き</option></select></div>
+        <div class="tp-filter"><label for="tpSeason">季節</label>
+          <select id="tpSeason"><option value="">すべて</option><option>春</option><option>夏</option><option>秋</option><option>冬</option></select></div>
+        <button type="button" class="tp-clear" id="tpClear">条件をすべて解除</button>
+      </div>
+      <div class="tp-active" id="tpActive" aria-label="選択中の条件"></div>
+    </form>
+  </section>
+
+  <section class="tp-results" id="tpResults" aria-label="検索結果" hidden tabindex="-1">
+    <p class="tp-status" id="tpStatus" role="status" aria-live="polite"></p>
+    <p class="tp-note" id="tpNote" hidden></p>
+    <div class="tp-empty" id="tpEmpty" hidden></div>
+    <div class="tp-grid tp-cards" id="tpCards"></div>
+    <button class="tp-more" id="tpMore" type="button" hidden></button>
+  </section>
+
+  <nav class="tp-jump" aria-label="トップページの各コーナー">
+    <a href="#spots">スポット</a><a href="#genres">ジャンル</a><a href="#purpose">目的から</a><a href="#ranking" id="tpJumpRanking" hidden>人気の写真</a><a href="#scenes">シーン</a><a href="#photos">新着写真</a><a href="#seasons">季節</a><a href="#contact">お問い合わせ</a>
+  </nav>
+
+  <!-- ================= 人気のスポット ================= -->
+  <section class="tp-section" id="spots">
+    <div class="tp-head">
+      <div>
+        <span class="tp-eyebrow">SPOTS</span>
+        <h2>人気のスポット</h2>
+        <p class="tp-lead">志賀町を代表する景色を、写真からたどる。</p>
+      </div>
+      <a class="tp-link" href="spots/index.html">すべてのスポット <span aria-hidden="true">↗</span></a>
+    </div>
+    <div class="tp-grid tp-spots" id="spotGrid"></div>
   </section>
 
   <!-- ================= ジャンルで探す ================= -->
-  <section class="section section--soft" id="genres">
-    <div class="container">
-      <div class="section__head">
-        <div>
-          <span class="section__eyebrow">GENRES</span>
-          <h2 class="section__title">ジャンルで探す</h2>
-          <p class="section__lead">観光地だけでなく、祭り・特産品・自然風景からも写真を探せます。</p>
-        </div>
+  <section class="tp-section tp-section--soft" id="genres">
+    <div class="tp-head">
+      <div>
+        <span class="tp-eyebrow">GENRES</span>
+        <h2>ジャンルで探す</h2>
+        <p class="tp-lead">風景も、祭りも、このまちの魅力。</p>
       </div>
-      <div class="scene-grid reveal" id="genreGrid"></div>
     </div>
+    <div class="tp-grid tp-genres" id="genreGrid"></div>
   </section>
 
   <!-- ================= 目的で写真を探す ================= -->
-  <section class="section section--tight" id="purpose">
-    <div class="container">
-      <div class="section__head">
-        <div>
-          <span class="section__eyebrow">FIND</span>
-          <h2 class="section__title">目的で写真を探す</h2>
-          <p class="section__lead">使いたい場面や欲しい雰囲気を選ぶと、候補の写真をまとめて表示します。</p>
-        </div>
+  <section class="tp-section" id="purpose">
+    <div class="tp-head">
+      <div>
+        <span class="tp-eyebrow">FIND</span>
+        <h2>目的で写真を探す</h2>
+        <p class="tp-lead">使いたい場面と、伝えたい雰囲気から。</p>
       </div>
-      <form class="purpose-finder reveal" id="purposeFinder">
-        <div class="purpose-finder__field">
-          <label for="purposeUse">使いたい場面</label>
-          <select id="purposeUse">
-            <option value="">指定しない</option>
-            <option value="チラシ・ポスター向き">チラシ・ポスター</option>
-            <option value="SNS向き">SNS投稿</option>
-            <option value="印刷物向き">印刷物・広報誌</option>
-          </select>
-        </div>
-        <div class="purpose-finder__field">
-          <label for="purposeMood">欲しい雰囲気</label>
-          <select id="purposeMood">
-            <option value="">指定しない</option>
-            <option value="夕陽">夕陽</option>
-            <option value="海">海</option>
-            <option value="桜">桜</option>
-            <option value="星空">星空</option>
-            <option value="花">花</option>
-            <option value="祭り">祭り</option>
-            <option value="空撮">空撮</option>
-          </select>
-        </div>
-        <button class="purpose-finder__btn" type="submit">この条件で写真を探す</button>
-      </form>
     </div>
+    <form class="tp-purpose" id="purposeFinder">
+      <div>
+        <label for="purposeUse">使いたい場面</label>
+        <select id="purposeUse">
+          <option value="">指定しない</option>
+          <option value="チラシ・ポスター向き">チラシ・ポスター</option>
+          <option value="SNS向き">SNS投稿</option>
+          <option value="印刷物向き">印刷物・広報誌</option>
+        </select>
+      </div>
+      <div>
+        <label for="purposeMood">欲しい雰囲気</label>
+        <select id="purposeMood">
+          <option value="">指定しない</option>
+          <option value="夕陽">夕陽</option>
+          <option value="海">海</option>
+          <option value="桜">桜</option>
+          <option value="星空">星空</option>
+          <option value="花">花</option>
+          <option value="祭り">祭り</option>
+          <option value="空撮">空撮</option>
+        </select>
+      </div>
+      <button class="tp-btn" type="submit">この条件で探す</button>
+    </form>
   </section>
 
   <!-- ================= 人気の写真（GA4のダウンロード数ランキング） ================= -->
-  <section class="section" id="ranking" hidden>
-    <div class="container">
-      <div class="section__head">
-        <div>
-          <span class="section__eyebrow">RANKING</span>
-          <h2 class="section__title">人気の写真TOP10</h2>
-          <p class="section__lead">直近30日間で、ダウンロードが多かった写真です。</p>
-        </div>
+  <section class="tp-section tp-section--soft" id="ranking" hidden>
+    <div class="tp-head">
+      <div>
+        <span class="tp-eyebrow">POPULAR PHOTOS</span>
+        <h2>人気の写真</h2>
+        <p class="tp-lead" id="rankingLead">よくダウンロードされている写真です。</p>
       </div>
-      <div class="photo-grid reveal" id="rankingGrid"></div>
     </div>
+    <ol class="tp-grid tp-ranking" id="rankingGrid"></ol>
+    <ol class="tp-grid tp-ranking tp-ranking--rest" id="rankingRest" start="4" hidden></ol>
+    <button class="tp-link tp-ranking-more" id="rankingMore" type="button" aria-expanded="false" aria-controls="rankingRest" hidden>もっと見る <span aria-hidden="true">↓</span></button>
+    <p class="tp-note-small" id="rankingNote"></p>
   </section>
 
   <!-- ================= おすすめシーン ================= -->
-  <section class="section section--tight" id="scenes">
-    <div class="container">
-      <div class="section__head">
-        <div>
-          <span class="section__eyebrow">SCENES</span>
-          <h2 class="section__title">おすすめシーン</h2>
-          <p class="section__lead">探したい風景から、写真を絞り込めます。</p>
-        </div>
+  <section class="tp-section tp-scene" id="scenes">
+    <div class="tp-head">
+      <div>
+        <span class="tp-eyebrow">SCENES</span>
+        <h2>おすすめシーン</h2>
       </div>
-      <div class="scene-grid reveal" id="sceneGrid"></div>
     </div>
+    <div class="tp-scene-links" id="sceneGrid"></div>
   </section>
 
   <!-- ================= 新着写真 ================= -->
-  <section class="section section--soft" id="photos">
-    <div class="container">
-      <div class="section__head">
-        <div>
-          <span class="section__eyebrow">PHOTOS</span>
-          <h2 class="section__title">写真から探す</h2>
-          <p class="section__lead">新着順に表示しています。</p>
-        </div>
-        <a class="section__more" href="search.html">すべて見る <svg><use href="#i-arrow"/></svg></a>
+  <section class="tp-section tp-section--soft" id="photos">
+    <div class="tp-head">
+      <div>
+        <span class="tp-eyebrow">NEW PHOTOS</span>
+        <h2>写真から探す</h2>
+        <p class="tp-lead">新着写真から、気になる一枚を。</p>
       </div>
-      <div class="photo-grid reveal" id="photoGrid"></div>
+      <a class="tp-link" href="search.html">すべての写真 <span aria-hidden="true">↗</span></a>
     </div>
+    <div class="tp-grid tp-new" id="photoGrid"></div>
   </section>
 
   <!-- ================= 季節から探す ================= -->
-  <section class="season" id="seasons">
-    <div class="container">
-      <span class="season__eyebrow">SEASONS</span>
-      <h2 class="season__title">四季折々の志賀町</h2>
-      <p class="season__lead">季節をクリックすると、その時期の写真を探せます。</p>
-      <div class="season__grid reveal" id="seasonGrid"></div>
+  <section class="tp-section" id="seasons">
+    <div class="tp-head">
+      <div>
+        <span class="tp-eyebrow">SEASONS</span>
+        <h2>四季折々の志賀町</h2>
+        <p class="tp-lead">季節とともに変わる、まちの表情。</p>
+      </div>
     </div>
+    <div class="tp-grid tp-seasons" id="seasonGrid"></div>
+    <p class="tp-note-small" id="seasonNote"></p>
   </section>
 
-
   <!-- ================= Instagram ================= -->
-  <section class="section section--soft" id="instagram">
-    <div class="container">
-      <div class="section__head">
+  <section class="tp-section tp-section--soft tp-instagram" id="instagram">
+    <div class="tp-instagram__row">
+      <div class="tp-head">
         <div>
-          <span class="section__eyebrow">INSTAGRAM</span>
-          <h2 class="section__title">最新の投稿をチェック</h2>
-          <p class="section__lead">志賀町公式Instagramより、おすすめの投稿をご紹介します。</p>
+          <span class="tp-eyebrow">INSTAGRAM</span>
+          <h2>最新の投稿をチェック</h2>
+          <p class="tp-lead">志賀町公式Instagram　@shikatown_official</p>
         </div>
-        <a class="section__more" href="https://www.instagram.com/shikatown_official/" target="_blank" rel="noopener">Instagramで見る <svg><use href="#i-arrow"/></svg></a>
       </div>
-      <div class="instagram-embed">
-        <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DZZyZOmmWZc/" data-instgrm-version="14"
-                    style="background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px auto; max-width:540px; min-width:326px; padding:0; width:99.375%;">
-          <div style="padding:16px;">
-            <a href="https://www.instagram.com/p/DZZyZOmmWZc/" style="background:#FFFFFF; line-height:0; padding:0; text-align:center; text-decoration:none; width:100%;" target="_blank" rel="noopener">
-              Instagramでこの投稿を見る
-            </a>
-          </div>
-        </blockquote>
-      </div>
+      <a class="tp-link" href="https://www.instagram.com/shikatown_official/" target="_blank" rel="noopener">Instagramで見る <span aria-hidden="true">↗</span></a>
+    </div>
+    <div class="tp-instagram-embed">
+      <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DZZyZOmmWZc/" data-instgrm-version="14"
+                  style="background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px auto; max-width:540px; min-width:326px; padding:0; width:99.375%;">
+        <div style="padding:16px;">
+          <a href="https://www.instagram.com/p/DZZyZOmmWZc/" style="background:#FFFFFF; line-height:0; padding:0; text-align:center; text-decoration:none; width:100%;" target="_blank" rel="noopener">
+            Instagramでこの投稿を見る
+          </a>
+        </div>
+      </blockquote>
     </div>
   </section>
   <script async src="//www.instagram.com/embed.js"></script>
 
   <!-- ================= お問い合わせ ================= -->
-  <section class="contact" id="contact">
-    <div class="container">
-      <div class="contact__head">
-        <span class="section__eyebrow">CONTACT</span>
-        <h2 class="contact__title">お問い合わせ</h2>
-        <p class="contact__lead">写真の利用・提供、掲載内容についてのご相談はこちらから。</p>
-      </div>
-
-      <div class="contact__panel">
-        <!-- Google フォームを公開したら、下の <div> を丸ごと次の1行に置き換えてください。
-             <iframe class="contact__frame" src="【フォームのURL】?embedded=true" loading="lazy" title="お問い合わせフォーム">読み込んでいます…</iframe> -->
-        <div class="contact__placeholder">
-          <p>
-            お問い合わせはメールで承っております。<br>
-            画像の元データなど、より高解像度の画像をご希望の場合は、<strong>使用する写真の番号</strong>を
-            お書き添えのうえご連絡ください。
-          </p>
-          <a class="contact__mail" href="mailto:shokan@town.shika.lg.jp?subject=%E3%83%95%E3%82%A9%E3%83%88%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA%E3%83%BC%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%81%AE%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B">
-            <svg><use href="#i-mail"/></svg>メールでお問い合わせ
-          </a>
-        </div>
-      </div>
-
-      <p class="contact__note">
-        志賀町役場 商工観光課　shokan@town.shika.lg.jp
-        <button class="copybtn" type="button" data-copy="shokan@town.shika.lg.jp">アドレスをコピー</button>
-      </p>
-    </div>
+  <section class="tp-contact" id="contact">
+    <span class="tp-eyebrow">CONTACT</span>
+    <h2>お問い合わせ</h2>
+    <p>写真の利用・提供、掲載内容について。<br>高解像度の画像をご希望の場合は、写真番号をお知らせください。</p>
+    <!-- Google フォームを公開したら、この <a> を次の1行に置き換えてください。
+         <iframe class="contact__frame" src="【フォームのURL】?embedded=true" loading="lazy" title="お問い合わせフォーム">読み込んでいます…</iframe> -->
+    <a class="tp-btn" href="mailto:shokan@town.shika.lg.jp?subject=%E3%83%95%E3%82%A9%E3%83%88%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA%E3%83%BC%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%81%AE%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B">メールでお問い合わせ <span aria-hidden="true">↗</span></a>
+    <small>志賀町役場 商工観光課<br>shokan@town.shika.lg.jp
+      <button class="copybtn" type="button" data-copy="shokan@town.shika.lg.jp">アドレスをコピー</button></small>
   </section>
 
 </main>
 
 <!-- ================= Footer ================= -->
-<footer class="footer">
-  <div class="container">
-    <div class="footer__top">
-      <a href="index.html" class="logo">
-        <span class="logo__mark"><svg><use href="#i-camera"/></svg></span>
-        <span class="logo__text">
-          <span class="logo__en">志賀町</span>
-          <span class="logo__ja">SHIKA TOWN</span>
-        </span>
-      </a>
-      <div class="footer__primary" id="footerPrimary"></div>
-    </div>
-    <div class="footer__bottom">
-      <ul class="footer__links" id="footerLinks"></ul>
-      <p class="footer__copy" id="footerCopy"></p>
-    </div>
+<footer class="tp-footer">
+  <div class="tp-footer__top">
+    <div class="tp-footer__logo">#しかたび<small>志賀町公式フォトライブラリー</small></div>
+    <div class="tp-footer__links" id="footerPrimary"></div>
   </div>
+  <ul class="tp-footer__links" id="footerLinks" aria-label="ご利用案内"></ul>
+  <p class="tp-footer__copy" id="footerCopy"></p>
 </footer>
 
-<!-- ================= Search overlay ================= -->
-<div class="overlay" id="overlay" role="dialog" aria-modal="true" aria-label="サイト内検索">
-  <div class="overlay__panel">
-    <form class="searchbox" id="overlayForm" role="search">
-      <span class="searchbox__icon"><svg><use href="#i-search"/></svg></span>
-      <label class="sr-only" for="overlayInput">写真・スポット・タグで検索</label>
-      <input class="searchbox__input" id="overlayInput" type="search" placeholder="写真・スポット・タグで検索" autocomplete="off">
-      <button class="searchbox__btn" type="submit">検索</button>
-    </form>
-    <p class="overlay__hint">人気のタグ</p>
-    <div class="tagchips" id="tagChips"></div>
-  </div>
-</div>
-
-<!-- ================= Mobile drawer ================= -->
+<!-- ================= メニュー（既存のナビをここに集約） ================= -->
 <div class="drawer" id="drawer">
-  <nav class="drawer__panel" aria-label="モバイルメニュー">
+  <nav class="drawer__panel" aria-label="メニュー">
     <button class="drawer__close" id="drawerClose" aria-label="メニューを閉じる"><svg><use href="#i-close"/></svg></button>
     <a class="drawer__link" href="index.html">HOME</a>
+    <a class="drawer__link" href="#find">写真を探す</a>
     <a class="drawer__link" href="spots/index.html">スポットから探す</a>
     <a class="drawer__link" href="search.html">写真から探す</a>
     <a class="drawer__link" href="#genres">ジャンルで探す</a>
@@ -383,6 +336,8 @@
 <script src="assets/js/data.js"></script>
 <script src="assets/js/favorites-widget.js"></script>
 <script src="assets/js/admin-gate.js"></script>
+<script src="assets/js/search-core.js"></script>
 <script src="assets/js/main.js"></script>
+<script src="assets/js/home-search.js"></script>
 </body>
 </html>

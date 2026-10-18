@@ -1,0 +1,297 @@
+/* =====================================================================
+   SHIKA PHOTO LIBRARY  ―  top.css
+   トップページ（index.html）専用のデザイン。<body class="tp"> のページだけに効きます。
+   共通部品（.drawer .modal .favbtn .copybtn .photo-card__flag など）は style.css のものを使います。
+
+   書体
+     表紙の「しかたび」  … Tsukimi Rounded Light（300）※4文字だけのサブセットで読み込み
+     縦書きコピー・見出し … Shippori Mincho 400
+     本文・検索・ボタン   … Noto Sans JP 400（必要箇所 500）
+   ===================================================================== */
+body.tp {
+  --tp-paper: #fcfdfc;
+  --tp-ink:   #21434c;
+  --tp-muted: #586e73;
+  --tp-line:  #d3dedf;
+  --tp-sea:   #205563;
+  --tp-soft:  #edf4f4;
+  --tp-shade: rgba(8, 51, 75, .4);
+  --tp-mincho: 'Shippori Mincho', 'Hiragino Mincho ProN', 'Yu Mincho', serif;
+  --tp-pad: 6%;
+  --font: 'Noto Sans JP', -apple-system, BlinkMacSystemFont, 'Hiragino Sans', 'Yu Gothic', Meiryo, sans-serif;
+  background: var(--tp-paper);
+  color: var(--tp-ink);
+  font: 400 14px/1.8 var(--font);
+}
+/* 色の指定は部品ごとのクラスで上書きできるよう、詳細度を0にしておく */
+:where(body.tp) a { color: inherit; text-decoration: none; }
+body.tp :where(button, input, select) { font: inherit; }
+body.tp :where(button, a, select) { touch-action: manipulation; }
+body.tp :where(a, button, input, select):focus-visible { outline: 2px solid var(--tp-sea); outline-offset: 3px; }
+body.tp [hidden] { display: none !important; }
+
+/* ---------- 表紙 ---------- */
+.tp-hero {
+  position: relative; isolation: isolate; overflow: hidden;
+  height: 520px; color: #fff;
+}
+.tp-hero__img {
+  position: absolute; inset: 0; z-index: -2;
+  width: 100%; height: 100%; object-fit: cover; object-position: 50% 50%;
+}
+.tp-hero::before {
+  content: ''; position: absolute; inset: 0; z-index: -1;
+  background: linear-gradient(180deg, var(--tp-shade), transparent 65%, var(--tp-shade));
+}
+.tp-hero__bar {
+  position: absolute; left: 5%; right: 5%; top: 27px;
+  display: flex; align-items: center; justify-content: space-between; gap: 24px;
+}
+.tp-brand { font-size: 11px; line-height: 1.8; letter-spacing: .12em; }
+.tp-brand span { display: block; letter-spacing: .03em; }
+.tp-hero__nav { display: flex; align-items: center; gap: 20px; }
+.tp-hero__nav a, .tp-hero__nav button {
+  min-height: 44px; min-width: 44px; display: inline-flex; align-items: center; gap: 8px;
+  font-size: 12px; letter-spacing: .08em; color: #fff;
+}
+.tp-hero__nav button { background: none; border: 0; cursor: pointer; padding: 0 2px; }
+.tp-hero a:focus-visible, .tp-hero button:focus-visible { outline-color: #fff; }
+.tp-menu-icon { display: block; width: 20px; height: 10px; border-block: 1px solid currentColor; position: relative; }
+.tp-menu-icon::after { content: ''; position: absolute; left: 0; right: 0; top: 50%; border-top: 1px solid currentColor; }
+.tp-hero__nav .header__fav-badge {
+  position: static; box-shadow: none; margin-left: -2px;
+  background: #fff; color: var(--tp-sea);
+}
+
+.tp-wordmark {
+  position: absolute; top: 119px; left: 6%; margin: 0; white-space: nowrap;
+  font: 300 clamp(62px, 10vw, 102px)/1.3 'Tsukimi Rounded', 'Shippori Mincho', serif;
+  letter-spacing: .045em; font-feature-settings: 'palt'; font-synthesis: none;
+}
+.tp-wordmark__hash { font: 400 .27em/1 'Noto Sans JP', sans-serif; vertical-align: middle; margin-right: .5em; }
+.tp-wordmark small {
+  display: block; font: 400 11px/1.5 'Noto Sans JP', sans-serif;
+  letter-spacing: .24em; margin: 17px 0 0 3.8em;
+}
+.tp-copy {
+  position: absolute; right: 15%; top: 144px; margin: 0;
+  display: flex; flex-direction: row-reverse; gap: 17px;
+  font: 400 22px/1.6 var(--tp-mincho); letter-spacing: .12em; font-synthesis: none;
+}
+.tp-copy span { writing-mode: vertical-rl; }
+.tp-copy span + span { padding-top: 31px; }
+.tp-hero__place { position: absolute; bottom: 27px; left: 5%; margin: 0; font-size: 11px; letter-spacing: .08em; }
+.tp-hero__place span { display: block; letter-spacing: .03em; }
+.tp-hero__mark { position: absolute; right: 5%; bottom: 27px; margin: 0; font-size: 11px; letter-spacing: .12em; }
+
+/* ---------- 検索 ---------- */
+.tp-search { padding: 33px var(--tp-pad) 25px; }
+.tp-search__head { display: flex; flex-wrap: wrap; gap: 18px; justify-content: space-between; align-items: baseline; margin-bottom: 18px; }
+.tp-search h2 { font-size: 18px; font-weight: 400; letter-spacing: .07em; line-height: 1.6; margin: 0; }
+.tp-total { font-size: 12px; color: var(--tp-muted); }
+.tp-field { display: flex; align-items: center; gap: 12px; padding-bottom: 10px; border-bottom: 1px solid var(--tp-ink); }
+.tp-field label { display: flex; align-items: center; min-width: 24px; }
+.tp-field input {
+  flex: 1; min-width: 0; width: 0; min-height: 52px; padding: 12px 0;
+  font-size: 16px; border: 0; border-radius: 0; background: var(--tp-paper); color: var(--tp-ink);
+}
+.tp-field input::placeholder { color: var(--tp-muted); opacity: 1; }
+.tp-btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 20px;
+  min-height: 48px; padding: 10px 28px; border: 0; border-radius: 3px; cursor: pointer;
+  background: var(--tp-sea); color: #fff; font-size: 14px; white-space: nowrap;
+}
+.tp-btn:hover { background: #17404b; }
+.tp-examples { display: flex; flex-wrap: wrap; align-items: center; gap: 18px; margin: 7px 0 12px; font-size: 12px; color: var(--tp-muted); }
+.tp-examples button { min-width: 44px; min-height: 44px; padding: 4px 0; border: 0; background: none; color: var(--tp-ink); font-size: 12px; cursor: pointer; }
+.tp-filters { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1fr auto; gap: 18px; align-items: end; }
+.tp-filter { min-width: 0; }
+.tp-filter label { display: block; margin-bottom: 5px; font-size: 11px; color: var(--tp-muted); }
+.tp-filter select, .tp-purpose select {
+  width: 100%; min-height: 44px; padding: 7px 20px 7px 0;
+  font-size: 14px; color: var(--tp-ink); background: var(--tp-paper);
+  border: 0; border-bottom: 1px solid var(--tp-line); border-radius: 0;
+}
+.tp-clear { min-height: 44px; padding: 7px 0; border: 0; background: none; font-size: 12px; color: var(--tp-muted); white-space: nowrap; cursor: pointer; }
+.tp-active { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 10px; margin-top: 14px; }
+.tp-chip {
+  display: inline-flex; align-items: center; gap: 8px; min-height: 44px; padding: 0 4px 0 0;
+  border: 0; border-bottom: 1px solid var(--tp-sea); background: none; cursor: pointer;
+  font-size: 13px; color: var(--tp-ink);
+}
+.tp-chip b { font-weight: 400; font-size: 11px; color: var(--tp-muted); margin-right: 2px; }
+.tp-chip span[aria-hidden] { font-size: 15px; color: var(--tp-muted); }
+
+/* ---------- 検索結果 ---------- */
+.tp-results { padding: 12px var(--tp-pad) 35px; background: var(--tp-soft); }
+.tp-status { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 18px; margin: 0 0 15px; font-size: 14px; line-height: 1.9; }
+.tp-status strong { font-weight: 500; font-size: 16px; }
+.tp-note { margin: 0 0 14px; font-size: 12px; line-height: 1.8; color: var(--tp-muted); }
+.tp-empty { padding: 6px 0 4px; }
+.tp-empty p { margin: 0 0 10px; font-size: 14px; }
+.tp-empty .tp-chip { margin-right: 14px; }
+.tp-more { display: block; min-height: 44px; margin-top: 22px; padding: 6px 0; border: 0; border-bottom: 1px solid var(--tp-line); background: none; font-size: 13px; color: var(--tp-ink); cursor: pointer; }
+
+/* ---------- 写真カード（style.css の .photo-card を、枠・影なしの控えめな見た目に上書き） ---------- */
+.tp-grid { display: grid; gap: 24px; list-style: none; margin: 0; padding: 0; }
+.photo-card.tp-card {
+  display: block; min-width: 0; background: none; border: 0; border-radius: 0; box-shadow: none; overflow: visible;
+}
+.photo-card.tp-card:hover { box-shadow: none; }
+.tp-card .photo-card__media { aspect-ratio: 4 / 3; border-radius: 0; overflow: hidden; background: #dbe7e8; position: relative; }
+.tp-card .photo-card__media img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.tp-card__name { display: block; margin-top: 12px; font-size: 14px; line-height: 1.85; overflow-wrap: anywhere; }
+.tp-card__meta { display: block; margin-top: 4px; font-size: 11px; line-height: 1.8; color: var(--tp-muted); }
+.tp-card__lock { display: inline-block; margin-left: 6px; padding: 0 6px; border: 1px solid #b86c18; border-radius: 2px; font-size: 10px; line-height: 1.6; color: #8a4b0c; }
+.tp-cards { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 26px 22px; }
+.tp-cards .tp-card__name { font-size: 13px; line-height: 1.7; margin-top: 9px; }
+
+/* ---------- 各コーナー ---------- */
+.tp-jump {
+  display: flex; flex-wrap: wrap; justify-content: center; gap: 0 28px;
+  padding: 11px var(--tp-pad); border-block: 1px solid var(--tp-line); background: var(--tp-paper);
+}
+.tp-jump a { display: inline-flex; align-items: center; justify-content: center; min-width: 44px; min-height: 44px; font-size: 12px; }
+.tp-section { padding: 54px var(--tp-pad); }
+.tp-section--soft { background: var(--tp-soft); }
+.tp-head { display: flex; justify-content: space-between; align-items: end; gap: 24px; margin-bottom: 26px; }
+.tp-eyebrow { display: block; margin-bottom: 8px; font-size: 11px; letter-spacing: .19em; color: var(--tp-muted); }
+.tp-head h2, .tp-contact h2 { margin: 0; font: 400 28px/1.6 var(--tp-mincho); letter-spacing: .05em; }
+.tp-lead { margin: 10px 0 0; font-size: 13px; line-height: 1.9; color: var(--tp-muted); }
+.tp-link {
+  display: inline-flex; align-items: center; gap: 18px; min-height: 44px; padding: 8px 0;
+  border: 0; border-bottom: 1px solid var(--tp-line); background: none;
+  font-size: 12px; white-space: nowrap; color: var(--tp-ink); cursor: pointer;
+}
+.tp-photo-button { display: flex; flex-direction: column; align-items: stretch; justify-content: flex-start; align-self: start; width: 100%; min-width: 0; padding: 0; border: 0; background: none; text-align: left; color: inherit; cursor: pointer; }
+.tp-photo-button img { display: block; width: 100%; height: auto; object-fit: cover; }
+
+.tp-spots { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.tp-spots .photo-card__media, .tp-spots img { aspect-ratio: 3 / 4; }
+.tp-spot { display: flex; flex-direction: column; min-width: 0; align-self: start; }
+.tp-spot img { display: block; width: 100%; aspect-ratio: 3 / 4; object-fit: cover; }
+
+.tp-genres { grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 18px; }
+.tp-genres img { aspect-ratio: 1; border-radius: 50%; }
+.tp-genres .tp-photo-button { text-align: center; }
+.tp-genres .tp-card__name { font-size: 13px; letter-spacing: .08em; }
+
+.tp-purpose { display: grid; grid-template-columns: 1.15fr 1fr auto; gap: 24px; align-items: end; padding-top: 4px; }
+.tp-purpose label { display: block; margin-bottom: 8px; font-size: 12px; color: var(--tp-muted); }
+.tp-purpose select { min-height: 48px; padding: 8px 22px 8px 0; font-size: 15px; }
+
+.tp-ranking { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 32px 28px; }
+.tp-ranking .tp-rank { min-width: 0; }
+.tp-rank__num { display: block; margin-top: 10px; font: 400 30px/1.3 var(--tp-mincho); color: var(--tp-muted); }
+.tp-rank .tp-card__name { margin-top: 0; }
+.tp-rank__dl { display: block; margin-top: 2px; font-size: 11px; color: var(--tp-muted); }
+.tp-ranking--rest { margin-top: 32px; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 26px 20px; }
+.tp-ranking--rest .tp-rank__num { font-size: 22px; }
+.tp-ranking-more { margin-top: 26px; }
+.tp-note-small { margin: 18px 0 0; font-size: 11px; color: var(--tp-muted); }
+
+.tp-scene { display: grid; grid-template-columns: 1fr 2fr; gap: 40px; align-items: center; }
+.tp-scene .tp-head { margin: 0; }
+.tp-scene-links { display: flex; flex-wrap: wrap; gap: 12px 25px; }
+.tp-scene-links button {
+  min-width: 44px; min-height: 44px; padding: 6px 2px; border: 0; border-bottom: 1px solid var(--tp-line);
+  background: none; font-size: 15px; letter-spacing: .04em; color: var(--tp-ink); cursor: pointer;
+}
+
+.tp-new { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.tp-seasons { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px; }
+.tp-season { min-width: 0; padding: 0; border: 0; background: none; text-align: left; color: var(--tp-ink); cursor: pointer; }
+.tp-season img { display: block; width: 100%; height: auto; aspect-ratio: 3 / 4; object-fit: cover; }
+.tp-season__title { display: flex; align-items: baseline; gap: 12px; margin-top: 15px; font: 400 33px/1.4 var(--tp-mincho); }
+.tp-season__title small { font: 400 11px/1.4 var(--font); letter-spacing: .07em; color: var(--tp-muted); }
+.tp-season__count { margin-left: auto; font: 400 11px/1.4 var(--font); letter-spacing: .06em; color: var(--tp-muted); }
+
+.tp-instagram .tp-head { margin: 0; }
+.tp-instagram__row { display: flex; justify-content: space-between; align-items: center; gap: 28px; }
+.tp-instagram-embed { max-width: 540px; margin: 30px auto 0; }
+.tp-contact { padding: 60px var(--tp-pad); text-align: center; }
+.tp-contact p { margin: 13px 0 20px; font-size: 13px; line-height: 2; color: var(--tp-muted); }
+.tp-contact small { display: block; margin-top: 18px; font-size: 11px; color: var(--tp-muted); }
+.tp-contact .copybtn { margin-left: 8px; min-height: 44px; }
+
+.tp-footer { padding: 35px var(--tp-pad) 24px; background: var(--tp-soft); }
+.tp-footer__top { display: flex; justify-content: space-between; align-items: center; gap: 30px; margin-bottom: 25px; }
+.tp-footer__logo { font: 400 34px/1.5 var(--tp-mincho); letter-spacing: .05em; }
+.tp-footer__logo small { display: block; margin-top: 6px; font: 400 11px/1.8 var(--font); letter-spacing: .08em; }
+.tp-footer__links { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 22px; list-style: none; margin: 0; padding: 0; }
+.tp-footer__links a { display: inline-flex; align-items: center; min-height: 44px; font-size: 11px; }
+.tp-footer__copy { margin: 18px 0 0; padding-top: 18px; border-top: 1px solid var(--tp-line); font-size: 11px; color: var(--tp-muted); }
+
+/* ---------- 画面幅が狭いとき ---------- */
+@media (max-width: 1100px) {
+  .tp-filters { grid-template-columns: 1fr 1fr 1fr 1fr; }
+  .tp-clear { grid-column: 1 / -1; justify-self: end; }
+  .tp-cards { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .tp-ranking--rest { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+}
+@media (max-width: 700px) {
+  .tp-hero { height: 490px; }
+  .tp-hero__img { object-position: 25% 50%; }
+  .tp-hero__bar { left: 24px; right: 24px; top: 25px; gap: 12px; }
+  .tp-hero__nav a { display: none; }
+  .tp-wordmark { left: 24px; top: 126px; font-size: clamp(58px, 13vw, 82px); }
+  .tp-wordmark small { margin-top: 15px; }
+  .tp-copy { top: 257px; right: 27%; font-size: 19px; gap: 13px; }
+  .tp-copy span + span { padding-top: 24px; }
+  .tp-hero__place { left: 24px; bottom: 22px; }
+  .tp-hero__mark { right: 24px; bottom: 22px; }
+  .tp-search { padding: 28px 24px 20px; }
+  .tp-search__head { margin-bottom: 12px; gap: 10px; }
+  .tp-field { gap: 8px; }
+  .tp-btn { padding: 10px 17px; }
+  .tp-examples { gap: 16px; margin-bottom: 10px; }
+  .tp-filters { grid-template-columns: 1fr 1fr; gap: 13px 20px; }
+  .tp-filter:first-child { grid-column: 1 / -1; }
+  .tp-clear { grid-column: 1 / -1; justify-self: end; margin-top: -3px; }
+  .tp-results { padding: 5px 24px 30px; }
+  .tp-cards { grid-template-columns: 1fr 1fr; gap: 22px 16px; }
+  .tp-section { padding: 36px 24px; }
+  .tp-head { gap: 15px; margin-bottom: 22px; align-items: start; }
+  .tp-head h2, .tp-contact h2 { font-size: 25px; }
+  .tp-lead { font-size: 12px; }
+  .tp-spots { grid-template-columns: 1fr 1fr; gap: 24px 18px; }
+  .tp-spots img, .tp-spot img { aspect-ratio: 4 / 3; }
+  .tp-genres { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 22px 20px; }
+  .tp-purpose { grid-template-columns: 1fr 1fr; gap: 20px; }
+  .tp-purpose button { grid-column: 1 / -1; justify-self: start; }
+  .tp-ranking { grid-template-columns: 1fr 1fr; gap: 26px 16px; }
+  .tp-ranking > li:first-child { grid-column: 1 / -1; }
+  .tp-ranking--rest { grid-template-columns: 1fr 1fr; gap: 24px 16px; }
+  .tp-rank__num { font-size: 24px; }
+  .tp-card__name { font-size: 13px; }
+  .tp-scene { grid-template-columns: 1fr; gap: 18px; }
+  .tp-scene-links { gap: 8px 22px; }
+  .tp-new { grid-template-columns: 1fr 1fr; gap: 24px 18px; }
+  .tp-seasons { grid-template-columns: 1fr 1fr; gap: 25px 18px; }
+  .tp-season img { aspect-ratio: 4 / 3; }
+  .tp-season__title { font-size: 29px; }
+  .tp-jump { gap: 3px 24px; justify-content: flex-start; padding: 10px 24px; }
+  .tp-instagram__row { flex-direction: column; align-items: flex-start; gap: 18px; }
+  .tp-footer { padding: 30px 24px 24px; }
+  .tp-footer__top { flex-direction: column; align-items: flex-start; gap: 18px; }
+}
+@media (max-width: 370px) {
+  .tp-wordmark { left: 20px; font-size: 58px; letter-spacing: .025em; }
+  .tp-copy { right: 12%; font-size: 18px; }
+  .tp-hero__mark { display: none; }
+  .tp-field label { display: none; }
+  .tp-search, .tp-section { padding-left: 20px; padding-right: 20px; }
+  .tp-results { padding-left: 20px; padding-right: 20px; }
+  .tp-total { font-size: 11px; }
+  .tp-head { flex-wrap: wrap; gap: 6px; }
+  .tp-genres { gap: 20px 14px; }
+  .tp-purpose { grid-template-columns: 1fr; }
+  .tp-cards { gap: 20px 12px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}
+.tp-field svg { display: block; width: 20px; height: 20px; flex: none; }
+.tp-brand { display: block; min-height: 44px; }
+/* Instagram埋め込みが 326px を最小幅にするため、320px幅の端末では横にはみ出していた */
+@media (max-width: 370px) { .tp-instagram-embed .instagram-media { min-width: 0 !important; } }
