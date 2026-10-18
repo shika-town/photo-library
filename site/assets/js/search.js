@@ -1,6 +1,9 @@
 /* =====================================================================
    SHIKA PHOTO LIBRARY  ―  search.js
-   検索結果ページ：URLの ?q= を読み、library.json から絞り込んで表示します。
+   検索結果ページ：URLのパラメーターを読み、library.json から絞り込んで表示します。
+   照合のルール（表記ゆれ・複数語AND・季節の複数指定など）は search-core.js と共通です。
+   受け付けるパラメーター: q（自由文）／spot／genre／use（用途タグ）／season／
+                           tag（1タグ）／tags（カンマ区切りで複数タグ・AND）
    ===================================================================== */
 (function () {
   'use strict';
@@ -35,27 +38,6 @@
         '<p class="photo-card__area"><svg aria-hidden="true"><use href="#i-pin"/></svg>' + esc(p.area) + '</p>' +
         '<div class="photo-card__tags">' + tags + '</div>' +
       '</div></a>';
-  }
-
-  function match(p, q) {
-    var hay = [p.title, p.spot, p.area, p.season].concat(p.tags || []).join(' ').toLowerCase();
-    return hay.indexOf(q) !== -1;
-  }
-  // タグ・季節での絞り込みは、タイトルやスポット名にたまたま同じ文字が含まれるだけの
-  // 無関係な写真を拾わないよう、完全一致でのみ判定する（自由文検索の match() とは別）。
-  function matchTag(p, tag) {
-    return (p.tags || []).indexOf(tag) !== -1;
-  }
-  function matchSeason(p, season) {
-    return String(p.season || '') === season;
-  }
-  function matchGenre(p, genre) {
-    return String(p.genre || '') === genre;
-  }
-  // 「目的で写真を探す」用：指定したタグを全部持っている写真だけに絞り込む（AND）。
-  function matchAllTags(p, tagList) {
-    var have = p.tags || [];
-    return tagList.every(function (t) { return have.indexOf(t) !== -1; });
   }
 
   function pager(page, total) {
@@ -97,12 +79,14 @@
     var tag = (params.get('tag') || '').trim();
     var season = (params.get('season') || '').trim();
     var genre = (params.get('genre') || '').trim();
+    var spot = (params.get('spot') || '').trim();
+    var use = (params.get('use') || '').trim();
     var tagsParam = (params.get('tags') || '').trim();
     var tagList = tagsParam ? tagsParam.split(',').map(function (s) { return s.trim(); }).filter(Boolean) : [];
     var page = Math.max(1, parseInt(params.get('page') || '1', 10) || 1);
     var area = params.get('area') || 'all';
     // 表示・検索欄への反映用（タグ／季節／ジャンル／複数タグで来た場合もそのキーワードを見せる）
-    var displayQuery = tag || season || genre || tagList.join(' × ') || q;
+    var displayQuery = [q, spot, genre, use, season, tag, tagList.join(' × ')].filter(Boolean).join(' × ');
 
     $('#searchInput').value = displayQuery;
     document.title = (displayQuery ? '「' + displayQuery + '」の検索結果' : '写真から探す') + '｜SHIKA PHOTO LIBRARY';
@@ -115,14 +99,8 @@
 
     loadLibrary().then(function (lib) {
       var all = lib.photos;
-      // タグ・季節・ジャンルはそれが実際に付いている写真だけに絞る完全一致、
-      // 自由文検索（q）はタイトル・スポット名なども含めたあいまい検索。
-      var hits = tag ? all.filter(function (p) { return matchTag(p, tag); })
-        : season ? all.filter(function (p) { return matchSeason(p, season); })
-        : genre ? all.filter(function (p) { return matchGenre(p, genre); })
-        : tagList.length ? all.filter(function (p) { return matchAllTags(p, tagList); })
-        : q ? all.filter(function (p) { return match(p, q.toLowerCase()); })
-        : all.slice();
+      // 語（q）と各絞り込みは、すべて AND で組み合わせる（照合ルールは SPLSearch）。
+      var hits = SPLSearch.filter(all, { q: q, spot: spot, genre: genre, use: use, season: season, tag: tag, tags: tagList });
       var areas = [];
       hits.forEach(function (p) { if (areas.indexOf(p.area) === -1) areas.push(p.area); });
 
@@ -143,6 +121,12 @@
       $('#searchCount').innerHTML = '<strong>' + list.length + '</strong>枚の写真' +
         (totalPages > 1 ? '（' + page + ' / ' + totalPages + ' ページ）' : '');
       $('#resetLink').hidden = !displayQuery && area === 'all';
+      var seasonNote = $('#seasonNote');
+      if (seasonNote) {
+        var registered = all.filter(function (p) { return SPLSearch.seasonsOf(p).length; }).length;
+        seasonNote.hidden = !season;
+        seasonNote.textContent = '季節の情報は、登録済みの' + registered + '枚が対象です。未登録の写真はこの絞り込みに含まれません。';
+      }
 
       if (!list.length) {
         $('#photoGrid').innerHTML = '';
@@ -156,11 +140,13 @@
 
       function go(next) {
         var u = new URLSearchParams();
+        if (q) u.set('q', q);
+        if (spot) u.set('spot', spot);
+        if (genre) u.set('genre', genre);
+        if (use) u.set('use', use);
+        if (season) u.set('season', season);
         if (tag) u.set('tag', tag);
-        else if (season) u.set('season', season);
-        else if (genre) u.set('genre', genre);
-        else if (tagList.length) u.set('tags', tagList.join(','));
-        else if (q) u.set('q', q);
+        if (tagList.length) u.set('tags', tagList.join(','));
         if (next.area !== undefined ? next.area !== 'all' : area !== 'all') u.set('area', next.area !== undefined ? next.area : area);
         if (next.page && next.page > 1) u.set('page', next.page);
         location.search = u.toString() ? '?' + u.toString() : '';

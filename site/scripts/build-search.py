@@ -48,6 +48,7 @@ page += '''
         <p class="searchmeta__count" id="searchCount">読み込んでいます…</p>
         <a class="searchmeta__reset" id="resetLink" href="search.html" hidden>検索条件をクリア</a>
       </div>
+      <p class="searchmeta__note" id="seasonNote" hidden></p>
 
       <div class="photo-grid" id="photoGrid"></div>
       <p class="results__empty" id="noResult" hidden>条件に一致する写真が見つかりませんでした。<br>キーワードを変えてお試しください。</p>
@@ -59,7 +60,7 @@ page += '''
 '''
 page += bs.footer(pre=PRE, js='search.js').replace(
     '<script src="assets/js/search.js"></script>',
-    '<script src="assets/js/library-data.js"></script>\n<script src="assets/js/search.js"></script>')
+    '<script src="assets/js/library-data.js"></script>\n<script src="assets/js/search-core.js"></script>\n<script src="assets/js/search.js"></script>')
 
 io.open(os.path.join(BASE, 'search.html'), 'w', encoding='utf-8').write(page)
 print('search.html を生成しました')

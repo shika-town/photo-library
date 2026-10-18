@@ -1015,6 +1015,7 @@ h1, h2, h3, p { margin: 0; }
 .searchmeta__count strong { font-family: "Jost", sans-serif; font-size: 20px; color: var(--ink); margin-inline: 4px; }
 .searchmeta__reset { font-size: 12px; letter-spacing: .1em; color: var(--ink-sub); text-decoration: underline; text-underline-offset: 4px; }
 .searchmeta__reset:hover { color: var(--accent); }
+.searchmeta__note { margin: -6px 0 18px; font-size: 12px; line-height: 1.8; color: var(--ink-sub); }
 
 .pager { display: flex; justify-content: center; align-items: center; gap: 8px; margin-top: 48px; }
 .pager__btn {
