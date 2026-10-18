@@ -65,10 +65,10 @@ body.tp [hidden] { display: none !important; }
 
 .tp-wordmark {
   position: absolute; top: 119px; left: 6%; margin: 0; white-space: nowrap;
-  font: 300 clamp(62px, 10vw, 102px)/1.3 'Tsukimi Rounded', 'Shippori Mincho', serif;
+  font: 300 clamp(54px, 8.4vw, 90px)/1.3 'Tsukimi Rounded', 'Shippori Mincho', serif;
   letter-spacing: .045em; font-feature-settings: 'palt'; font-synthesis: none;
 }
-.tp-wordmark__hash { font: 400 .27em/1 'Noto Sans JP', sans-serif; vertical-align: middle; margin-right: .5em; }
+.tp-wordmark__hash { font: 400 .42em/1 'Noto Sans JP', sans-serif; vertical-align: middle; margin-right: .35em; }
 .tp-wordmark small {
   display: block; font: 400 11px/1.5 'Noto Sans JP', sans-serif;
   letter-spacing: .24em; margin: 17px 0 0 3.8em;
@@ -212,7 +212,9 @@ body.tp [hidden] { display: none !important; }
 .tp-contact { padding: 60px var(--tp-pad); text-align: center; }
 .tp-contact p { margin: 13px 0 20px; font-size: 13px; line-height: 2; color: var(--tp-muted); }
 .tp-contact small { display: block; margin-top: 18px; font-size: 11px; color: var(--tp-muted); }
-.tp-contact .copybtn { margin-left: 8px; min-height: 44px; }
+.tp-contact .tp-contact__mail { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 10px 14px; margin: 0 0 4px; font-size: inherit; }
+.tp-contact__addr { font-size: 20px; letter-spacing: .06em; color: var(--tp-ink); user-select: all; overflow-wrap: anywhere; }
+.tp-contact .copybtn { min-height: 44px; }
 
 .tp-footer { padding: 35px var(--tp-pad) 24px; background: var(--tp-soft); }
 .tp-footer__top { display: flex; justify-content: space-between; align-items: center; gap: 30px; margin-bottom: 25px; }
@@ -234,7 +236,7 @@ body.tp [hidden] { display: none !important; }
   .tp-hero__img { object-position: 25% 50%; }
   .tp-hero__bar { left: 24px; right: 24px; top: 25px; gap: 12px; }
   .tp-hero__nav a { display: none; }
-  .tp-wordmark { left: 24px; top: 126px; font-size: clamp(58px, 13vw, 82px); }
+  .tp-wordmark { left: 24px; top: 126px; font-size: clamp(52px, 11.5vw, 72px); }
   .tp-wordmark small { margin-top: 15px; }
   .tp-copy { top: 257px; right: 27%; font-size: 19px; gap: 13px; }
   .tp-copy span + span { padding-top: 24px; }
@@ -276,7 +278,7 @@ body.tp [hidden] { display: none !important; }
   .tp-footer__top { flex-direction: column; align-items: flex-start; gap: 18px; }
 }
 @media (max-width: 370px) {
-  .tp-wordmark { left: 20px; font-size: 58px; letter-spacing: .025em; }
+  .tp-wordmark { left: 20px; font-size: 50px; letter-spacing: .025em; }
   .tp-copy { right: 12%; font-size: 18px; }
   .tp-hero__mark { display: none; }
   .tp-field label { display: none; }
