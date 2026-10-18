@@ -65,7 +65,7 @@ body.tp [hidden] { display: none !important; }
 
 .tp-wordmark {
   position: absolute; top: 119px; left: 6%; margin: 0; white-space: nowrap;
-  font: 300 clamp(54px, 8.4vw, 90px)/1.3 'Tsukimi Rounded', 'Shippori Mincho', serif;
+  font: 300 clamp(46px, 6.4vw, 76px)/1.3 'Tsukimi Rounded', 'Shippori Mincho', serif;
   letter-spacing: .045em; font-feature-settings: 'palt'; font-synthesis: none;
 }
 .tp-wordmark__hash { font: 400 .42em/1 'Noto Sans JP', sans-serif; vertical-align: middle; margin-right: .35em; }
@@ -154,9 +154,9 @@ body.tp [hidden] { display: none !important; }
   padding: 11px var(--tp-pad); border-block: 1px solid var(--tp-line); background: var(--tp-paper);
 }
 .tp-jump a { display: inline-flex; align-items: center; justify-content: center; min-width: 44px; min-height: 44px; font-size: 12px; }
-.tp-section { padding: 54px var(--tp-pad); }
+.tp-section { padding: 42px var(--tp-pad); }
 .tp-section--soft { background: var(--tp-soft); }
-.tp-head { display: flex; justify-content: space-between; align-items: end; gap: 24px; margin-bottom: 26px; }
+.tp-head { display: flex; justify-content: space-between; align-items: end; gap: 24px; margin-bottom: 20px; }
 .tp-eyebrow { display: block; margin-bottom: 8px; font-size: 11px; letter-spacing: .19em; color: var(--tp-muted); }
 .tp-head h2, .tp-contact h2 { margin: 0; font: 400 28px/1.6 var(--tp-mincho); letter-spacing: .05em; }
 .tp-lead { margin: 10px 0 0; font-size: 13px; line-height: 1.9; color: var(--tp-muted); }
@@ -169,14 +169,14 @@ body.tp [hidden] { display: none !important; }
 .tp-photo-button img { display: block; width: 100%; height: auto; object-fit: cover; }
 
 .tp-spots { grid-template-columns: repeat(4, minmax(0, 1fr)); }
-.tp-spots .photo-card__media, .tp-spots img { aspect-ratio: 3 / 4; }
+.tp-spots .photo-card__media, .tp-spots img { aspect-ratio: 3 / 2; }
 .tp-spot {
   display: flex; flex-direction: column; align-items: stretch; align-self: start; width: 100%; min-width: 0;
   padding: 0; border: 0; background: none; text-align: left; color: inherit; cursor: pointer;
 }
-.tp-spot img { display: block; width: 100%; aspect-ratio: 3 / 4; object-fit: cover; }
+.tp-spot img { display: block; width: 100%; aspect-ratio: 3 / 2; object-fit: cover; }
 
-.tp-genres { grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 18px; }
+.tp-genres { grid-template-columns: repeat(5, minmax(0, 140px)); justify-content: space-between; gap: 18px; }
 .tp-genres img { aspect-ratio: 1; border-radius: 50%; }
 .tp-genres .tp-photo-button { text-align: center; }
 .tp-genres .tp-card__name { font-size: 13px; letter-spacing: .08em; }
@@ -185,13 +185,14 @@ body.tp [hidden] { display: none !important; }
 .tp-purpose label { display: block; margin-bottom: 8px; font-size: 12px; color: var(--tp-muted); }
 .tp-purpose select { min-height: 48px; padding: 8px 22px 8px 0; font-size: 15px; }
 
-.tp-ranking { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 32px 28px; }
+.tp-ranking { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px 24px; }
+.tp-ranking .photo-card__media { aspect-ratio: 3 / 2; }
 .tp-ranking .tp-rank { min-width: 0; }
-.tp-rank__num { display: block; margin-top: 10px; font: 400 30px/1.3 var(--tp-mincho); color: var(--tp-muted); }
+.tp-rank__num { display: block; margin-top: 8px; font: 400 26px/1.3 var(--tp-mincho); color: var(--tp-muted); }
 .tp-rank .tp-card__name { margin-top: 0; }
 .tp-rank__dl { display: block; margin-top: 2px; font-size: 11px; color: var(--tp-muted); }
-.tp-ranking--rest { margin-top: 32px; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 26px 20px; }
-.tp-ranking--rest .tp-rank__num { font-size: 22px; }
+.tp-ranking--rest { margin-top: 24px; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 26px 20px; }
+.tp-ranking--rest .tp-rank__num { font-size: 20px; }
 .tp-ranking-more { margin-top: 26px; }
 .tp-note-small { margin: 18px 0 0; font-size: 11px; color: var(--tp-muted); }
 
@@ -206,8 +207,8 @@ body.tp [hidden] { display: none !important; }
 .tp-new { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 .tp-seasons { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px; }
 .tp-season { min-width: 0; padding: 0; border: 0; background: none; text-align: left; color: var(--tp-ink); cursor: pointer; }
-.tp-season img { display: block; width: 100%; height: auto; aspect-ratio: 3 / 4; object-fit: cover; }
-.tp-season__title { display: flex; align-items: baseline; gap: 12px; margin-top: 15px; font: 400 33px/1.4 var(--tp-mincho); }
+.tp-season img { display: block; width: 100%; height: auto; aspect-ratio: 3 / 2; object-fit: cover; }
+.tp-season__title { display: flex; align-items: baseline; gap: 12px; margin-top: 10px; font: 400 28px/1.4 var(--tp-mincho); }
 .tp-season__title small { font: 400 11px/1.4 var(--font); letter-spacing: .07em; color: var(--tp-muted); }
 .tp-season__count { margin-left: auto; font: 400 11px/1.4 var(--font); letter-spacing: .06em; color: var(--tp-muted); }
 
@@ -241,7 +242,7 @@ body.tp [hidden] { display: none !important; }
   .tp-hero__img { object-position: 25% 50%; }
   .tp-hero__bar { left: 24px; right: 24px; top: 25px; gap: 12px; }
   .tp-hero__nav a { display: none; }
-  .tp-wordmark { left: 24px; top: 126px; font-size: clamp(52px, 11.5vw, 72px); }
+  .tp-wordmark { left: 24px; top: 126px; font-size: clamp(44px, 10vw, 58px); }
   .tp-wordmark small { margin-top: 15px; }
   .tp-copy { top: 257px; right: 27%; font-size: 19px; gap: 13px; }
   .tp-copy span + span { padding-top: 24px; }
@@ -283,7 +284,7 @@ body.tp [hidden] { display: none !important; }
   .tp-footer__top { flex-direction: column; align-items: flex-start; gap: 18px; }
 }
 @media (max-width: 370px) {
-  .tp-wordmark { left: 20px; font-size: 50px; letter-spacing: .025em; }
+  .tp-wordmark { left: 20px; font-size: 44px; letter-spacing: .025em; }
   .tp-copy { right: 12%; font-size: 18px; }
   .tp-hero__mark { display: none; }
   .tp-field label { display: none; }
@@ -302,3 +303,28 @@ body.tp [hidden] { display: none !important; }
 .tp-brand { display: block; min-height: 44px; }
 /* Instagram埋め込みが 326px を最小幅にするため、320px幅の端末では横にはみ出していた */
 @media (max-width: 370px) { .tp-instagram-embed .instagram-media { min-width: 0 !important; } }
+
+.tp-new .photo-card__media, .tp-cards .photo-card__media { aspect-ratio: 3 / 2; }
+/* Instagram：PCは文章と埋め込みを横に並べ、スマホは埋め込みを出さずリンクだけにして縦の長さを抑える */
+.tp-instagram { display: grid; grid-template-columns: 1fr minmax(0, 540px); gap: 24px 48px; align-items: start; }
+.tp-instagram__row { display: block; }
+.tp-instagram__row .tp-link { margin-top: 4px; }
+.tp-instagram-embed { max-width: none; margin: 0; }
+
+@media (max-width: 700px) {
+  .tp-section { padding: 30px 24px; }
+  .tp-head { margin-bottom: 16px; }
+  .tp-spots img, .tp-spot img { aspect-ratio: 3 / 2; }
+  .tp-season img { aspect-ratio: 3 / 2; }
+  .tp-season__title { font-size: 24px; margin-top: 8px; }
+  .tp-new > :nth-child(n+5) { display: none; }
+  /* 人気の写真TOP3は、スマホでは写真を小さく横に置いた一覧にして縦の長さを抑える */
+  .tp-ranking { grid-template-columns: 1fr; gap: 14px; }
+  .tp-ranking .tp-rank { display: grid; grid-template-columns: 128px 1fr; column-gap: 14px; align-items: start; }
+  .tp-ranking .tp-rank .photo-card__media { grid-row: 1 / span 4; aspect-ratio: 3 / 2 !important; }
+  .tp-ranking .tp-rank__num { margin-top: 0; font-size: 22px; }
+  .tp-instagram { display: block; }
+  .tp-instagram-embed { display: none; }
+}
+@media (max-width: 370px) { .tp-section { padding-left: 20px; padding-right: 20px; } }
+@media (max-width: 700px) { .tp-ranking .tp-rank .favbtn { right: auto; left: 94px; top: 6px; width: 30px; height: 30px; } }
