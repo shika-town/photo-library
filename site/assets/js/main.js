@@ -128,7 +128,10 @@
       });
     }
     $('#genreGrid').innerHTML  = (d.genres || []).map(genreCard).join('');
-    $('#sceneGrid').innerHTML  = (d.scenes || []).map(sceneButton).join('');
+    // 春・秋などの季節は、下の「四季折々の志賀町」で紹介しているため、おすすめシーンには出さない
+    $('#sceneGrid').innerHTML  = (d.scenes || []).filter(function (s) {
+      return SEASONS.indexOf(s.query || s.label) === -1;
+    }).map(sceneButton).join('');
     $('#photoGrid').innerHTML  = d.photos.slice(0, 8).map(photoCard).join('');   // 新着は8件（PC4列×2行）
     $('#seasonGrid').innerHTML = d.seasons.map(seasonCard).join('');
 

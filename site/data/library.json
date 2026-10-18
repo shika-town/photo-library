@@ -5,6 +5,166 @@
   },
   "photos": [
     {
+      "title": "萬燈祭_21",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": [],
+      "tags": [
+        "祭り",
+        "SNS向き"
+      ],
+      "thumb": "assets/img/lib/P0924-thumb.jpg",
+      "large": "assets/img/lib/P0924-large.jpg",
+      "alt": "萬燈祭_21",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "新着写真",
+      "restricted": false,
+      "genre": "祭り",
+      "id": "P0924"
+    },
+    {
+      "title": "萬燈祭_20",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": [],
+      "tags": [
+        "祭り",
+        "SNS向き"
+      ],
+      "thumb": "assets/img/lib/P0923-thumb.jpg",
+      "large": "assets/img/lib/P0923-large.jpg",
+      "alt": "萬燈祭_20",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "新着写真",
+      "restricted": false,
+      "genre": "祭り",
+      "id": "P0923"
+    },
+    {
+      "title": "萬燈祭_19",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": [],
+      "tags": [
+        "祭り",
+        "SNS向き"
+      ],
+      "thumb": "assets/img/lib/P0922-thumb.jpg",
+      "large": "assets/img/lib/P0922-large.jpg",
+      "alt": "萬燈祭_19",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "新着写真",
+      "restricted": false,
+      "genre": "祭り",
+      "id": "P0922"
+    },
+    {
+      "title": "萬燈祭_18",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": [],
+      "tags": [
+        "祭り",
+        "SNS向き"
+      ],
+      "thumb": "assets/img/lib/P0921-thumb.jpg",
+      "large": "assets/img/lib/P0921-large.jpg",
+      "alt": "萬燈祭_18",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "新着写真",
+      "restricted": false,
+      "genre": "祭り",
+      "id": "P0921"
+    },
+    {
+      "title": "萬燈祭_17",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": [],
+      "tags": [
+        "祭り",
+        "SNS向き"
+      ],
+      "thumb": "assets/img/lib/P0920-thumb.jpg",
+      "large": "assets/img/lib/P0920-large.jpg",
+      "alt": "萬燈祭_17",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "新着写真",
+      "restricted": false,
+      "genre": "祭り",
+      "id": "P0920"
+    },
+    {
+      "title": "萬燈祭_16",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": [],
+      "tags": [
+        "祭り",
+        "SNS向き"
+      ],
+      "thumb": "assets/img/lib/P0919-thumb.jpg",
+      "large": "assets/img/lib/P0919-large.jpg",
+      "alt": "萬燈祭_16",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "新着写真",
+      "restricted": false,
+      "genre": "祭り",
+      "id": "P0919"
+    },
+    {
+      "title": "萬燈祭_15",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": [],
+      "tags": [
+        "祭り",
+        "SNS向き"
+      ],
+      "thumb": "assets/img/lib/P0918-thumb.jpg",
+      "large": "assets/img/lib/P0918-large.jpg",
+      "alt": "萬燈祭_15",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "新着写真",
+      "restricted": false,
+      "genre": "祭り",
+      "id": "P0918"
+    },
+    {
+      "title": "萬燈祭_14",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": [],
+      "tags": [
+        "祭り",
+        "SNS向き"
+      ],
+      "thumb": "assets/img/lib/P0917-thumb.jpg",
+      "large": "assets/img/lib/P0917-large.jpg",
+      "alt": "萬燈祭_14",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "新着写真",
+      "restricted": false,
+      "genre": "祭り",
+      "id": "P0917"
+    },
+    {
       "title": "ベンチイルミネーション",
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
@@ -20,160 +180,13 @@
       ],
       "thumb": "assets/img/lib/P0006-thumb.jpg",
       "large": "assets/img/lib/P0006-large.jpg",
-      "alt": "青く光る世界一長いベンチのイルミネーション",
+      "alt": "ベンチイルミネーション",
       "credit": "© 志賀町",
       "photographer": "志賀町",
-      "source": "新着写真",
+      "source": "世界一長いベンチ・増穂浦海岸",
       "restricted": false,
       "genre": "イベント",
       "id": "P0006"
-    },
-    {
-      "title": "機具岩に沈む夕陽",
-      "spot": "機具岩",
-      "spotId": "hatago",
-      "area": "富来エリア",
-      "season": [
-        "秋"
-      ],
-      "tags": [
-        "夕陽",
-        "海",
-        "岩",
-        "チラシ・ポスター向き"
-      ],
-      "thumb": "assets/img/lib/P0001-thumb.jpg",
-      "large": "assets/img/lib/P0001-large.jpg",
-      "alt": "岩の間から光が差す機具岩の夕景",
-      "credit": "© 志賀町",
-      "photographer": "志賀町",
-      "source": "新着写真",
-      "restricted": false,
-      "genre": "観光地",
-      "id": "P0001"
-    },
-    {
-      "title": "巌門の入り江",
-      "spot": "巌門",
-      "spotId": "gate",
-      "area": "富来エリア",
-      "season": [
-        "夏"
-      ],
-      "tags": [
-        "空撮",
-        "海",
-        "岩",
-        "チラシ・ポスター向き"
-      ],
-      "thumb": "assets/img/lib/P0002-thumb.jpg",
-      "large": "assets/img/lib/P0002-large.jpg",
-      "alt": "上空から見たエメラルドグリーンの巌門の入り江",
-      "credit": "© 志賀町",
-      "photographer": "志賀町",
-      "source": "新着写真",
-      "restricted": false,
-      "genre": "観光地",
-      "id": "P0002"
-    },
-    {
-      "title": "旧福浦灯台_8",
-      "spot": "旧福浦灯台",
-      "spotId": "fukura",
-      "area": "富来エリア",
-      "season": [
-        "夏"
-      ],
-      "tags": [
-        "名所旧跡",
-        "建築",
-        "青空",
-        "灯台",
-        "日本最古",
-        "チラシ・ポスター向き"
-      ],
-      "thumb": "assets/img/lib/P0005-thumb.jpg",
-      "large": "assets/img/lib/P0005-large.jpg",
-      "alt": "青空の下に建つ白い木造の旧福浦灯台",
-      "credit": "© 志賀町",
-      "photographer": "志賀町",
-      "source": "新着写真",
-      "restricted": false,
-      "genre": "観光地",
-      "id": "P0005"
-    },
-    {
-      "title": "尊保の桜並木",
-      "spot": "その他",
-      "spotId": "other",
-      "area": "",
-      "season": [
-        "春"
-      ],
-      "tags": [
-        "桜",
-        "花",
-        "春",
-        "チラシ・ポスター向き"
-      ],
-      "thumb": "assets/img/lib/P0007-thumb.jpg",
-      "large": "assets/img/lib/P0007-large.jpg",
-      "alt": "満開の桜が続く春の並木道",
-      "credit": "© 志賀町",
-      "photographer": "志賀町",
-      "source": "新着写真",
-      "restricted": false,
-      "genre": "自然風景",
-      "id": "P0007"
-    },
-    {
-      "title": "巌門と遊覧船正面から",
-      "spot": "巌門",
-      "spotId": "gate",
-      "area": "富来エリア",
-      "season": [
-        "夏"
-      ],
-      "tags": [
-        "海",
-        "岩",
-        "断崖",
-        "遊覧船",
-        "チラシ・ポスター向き"
-      ],
-      "thumb": "assets/img/lib/P0718-thumb.jpg",
-      "large": "assets/img/lib/P0718-large.jpg",
-      "alt": "",
-      "credit": "© 志賀町",
-      "photographer": "志賀町",
-      "source": "新着写真",
-      "restricted": false,
-      "genre": "観光地",
-      "id": "P0718"
-    },
-    {
-      "title": "遠くから眺める旧福浦灯台",
-      "spot": "旧福浦灯台",
-      "spotId": "fukura",
-      "area": "富来エリア",
-      "season": [
-        "夏"
-      ],
-      "tags": [
-        "海",
-        "文化施設",
-        "建築",
-        "チラシ・ポスター向き"
-      ],
-      "thumb": "assets/img/lib/P0719-thumb.jpg",
-      "large": "assets/img/lib/P0719-large.jpg",
-      "alt": "",
-      "credit": "© 志賀町",
-      "photographer": "志賀町",
-      "source": "新着写真",
-      "restricted": false,
-      "genre": "観光地",
-      "id": "P0719"
     },
     {
       "title": "上空から見た増穂浦海岸とベンチ",
@@ -2011,6 +2024,30 @@
       "id": "P0444"
     },
     {
+      "title": "機具岩に沈む夕陽",
+      "spot": "機具岩",
+      "spotId": "hatago",
+      "area": "富来エリア",
+      "season": [
+        "秋"
+      ],
+      "tags": [
+        "夕陽",
+        "海",
+        "岩",
+        "チラシ・ポスター向き"
+      ],
+      "thumb": "assets/img/lib/P0001-thumb.jpg",
+      "large": "assets/img/lib/P0001-large.jpg",
+      "alt": "機具岩に沈む夕陽",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "機具岩",
+      "restricted": false,
+      "genre": "観光地",
+      "id": "P0001"
+    },
+    {
       "title": "マジックアワーの機具岩",
       "spot": "機具岩",
       "spotId": "hatago",
@@ -2959,6 +2996,30 @@
       "id": "P0022"
     },
     {
+      "title": "巌門の入り江",
+      "spot": "巌門",
+      "spotId": "gate",
+      "area": "富来エリア",
+      "season": [
+        "夏"
+      ],
+      "tags": [
+        "空撮",
+        "海",
+        "岩",
+        "チラシ・ポスター向き"
+      ],
+      "thumb": "assets/img/lib/P0002-thumb.jpg",
+      "large": "assets/img/lib/P0002-large.jpg",
+      "alt": "巌門の入り江",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "巌門",
+      "restricted": false,
+      "genre": "観光地",
+      "id": "P0002"
+    },
+    {
       "title": "エメラルドグリーンの海",
       "spot": "巌門",
       "spotId": "gate",
@@ -3023,6 +3084,31 @@
       "restricted": false,
       "genre": "観光地",
       "id": "P0585"
+    },
+    {
+      "title": "巌門と遊覧船正面から",
+      "spot": "巌門",
+      "spotId": "gate",
+      "area": "富来エリア",
+      "season": [
+        "夏"
+      ],
+      "tags": [
+        "海",
+        "岩",
+        "断崖",
+        "遊覧船",
+        "チラシ・ポスター向き"
+      ],
+      "thumb": "assets/img/lib/P0718-thumb.jpg",
+      "large": "assets/img/lib/P0718-large.jpg",
+      "alt": "巌門と遊覧船正面から",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "巌門",
+      "restricted": false,
+      "genre": "観光地",
+      "id": "P0718"
     },
     {
       "title": "（記入例）夕暮れの巌門",
@@ -5013,6 +5099,32 @@
       "id": "P0505"
     },
     {
+      "title": "旧福浦灯台_8",
+      "spot": "旧福浦灯台",
+      "spotId": "fukura",
+      "area": "富来エリア",
+      "season": [
+        "夏"
+      ],
+      "tags": [
+        "名所旧跡",
+        "建築",
+        "青空",
+        "灯台",
+        "日本最古",
+        "チラシ・ポスター向き"
+      ],
+      "thumb": "assets/img/lib/P0005-thumb.jpg",
+      "large": "assets/img/lib/P0005-large.jpg",
+      "alt": "旧福浦灯台_8",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "旧福浦灯台",
+      "restricted": false,
+      "genre": "観光地",
+      "id": "P0005"
+    },
+    {
       "title": "木造灯台ライトアップ",
       "spot": "旧福浦灯台",
       "spotId": "fukura",
@@ -5210,6 +5322,30 @@
       "restricted": false,
       "genre": "観光地",
       "id": "P0665"
+    },
+    {
+      "title": "遠くから眺める旧福浦灯台",
+      "spot": "旧福浦灯台",
+      "spotId": "fukura",
+      "area": "富来エリア",
+      "season": [
+        "夏"
+      ],
+      "tags": [
+        "海",
+        "文化施設",
+        "建築",
+        "チラシ・ポスター向き"
+      ],
+      "thumb": "assets/img/lib/P0719-thumb.jpg",
+      "large": "assets/img/lib/P0719-large.jpg",
+      "alt": "遠くから眺める旧福浦灯台",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "旧福浦灯台",
+      "restricted": false,
+      "genre": "観光地",
+      "id": "P0719"
     },
     {
       "title": "旧福浦灯台_16",
@@ -7686,6 +7822,30 @@
       "restricted": false,
       "genre": "観光地",
       "id": "P0145"
+    },
+    {
+      "title": "尊保の桜並木",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": [
+        "春"
+      ],
+      "tags": [
+        "桜",
+        "花",
+        "春",
+        "チラシ・ポスター向き"
+      ],
+      "thumb": "assets/img/lib/P0007-thumb.jpg",
+      "large": "assets/img/lib/P0007-large.jpg",
+      "alt": "尊保の桜並木",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "genre": "自然風景",
+      "id": "P0007"
     },
     {
       "title": "ヤセの断崖_4",
@@ -12549,26 +12709,6 @@
       "id": "P0776"
     },
     {
-      "title": "萬燈祭_14",
-      "spot": "その他",
-      "spotId": "other",
-      "area": "",
-      "season": [],
-      "tags": [
-        "祭り",
-        "SNS向き"
-      ],
-      "thumb": "assets/img/lib/P0917-thumb.jpg",
-      "large": "assets/img/lib/P0917-large.jpg",
-      "alt": "萬燈祭_14",
-      "credit": "© 志賀町",
-      "photographer": "志賀町",
-      "source": "その他",
-      "restricted": false,
-      "genre": "祭り",
-      "id": "P0917"
-    },
-    {
       "title": "福浦祭り_31",
       "spot": "その他",
       "spotId": "other",
@@ -12632,26 +12772,6 @@
       "id": "P0777"
     },
     {
-      "title": "萬燈祭_15",
-      "spot": "その他",
-      "spotId": "other",
-      "area": "",
-      "season": [],
-      "tags": [
-        "祭り",
-        "SNS向き"
-      ],
-      "thumb": "assets/img/lib/P0918-thumb.jpg",
-      "large": "assets/img/lib/P0918-large.jpg",
-      "alt": "萬燈祭_15",
-      "credit": "© 志賀町",
-      "photographer": "志賀町",
-      "source": "その他",
-      "restricted": false,
-      "genre": "祭り",
-      "id": "P0918"
-    },
-    {
       "title": "福浦祭り_47",
       "spot": "その他",
       "spotId": "other",
@@ -12694,26 +12814,6 @@
       "id": "P0778"
     },
     {
-      "title": "萬燈祭_16",
-      "spot": "その他",
-      "spotId": "other",
-      "area": "",
-      "season": [],
-      "tags": [
-        "祭り",
-        "SNS向き"
-      ],
-      "thumb": "assets/img/lib/P0919-thumb.jpg",
-      "large": "assets/img/lib/P0919-large.jpg",
-      "alt": "萬燈祭_16",
-      "credit": "© 志賀町",
-      "photographer": "志賀町",
-      "source": "その他",
-      "restricted": false,
-      "genre": "祭り",
-      "id": "P0919"
-    },
-    {
       "title": "福浦祭り_48",
       "spot": "その他",
       "spotId": "other",
@@ -12733,26 +12833,6 @@
       "restricted": false,
       "genre": "祭り",
       "id": "P0751"
-    },
-    {
-      "title": "萬燈祭_17",
-      "spot": "その他",
-      "spotId": "other",
-      "area": "",
-      "season": [],
-      "tags": [
-        "祭り",
-        "SNS向き"
-      ],
-      "thumb": "assets/img/lib/P0920-thumb.jpg",
-      "large": "assets/img/lib/P0920-large.jpg",
-      "alt": "萬燈祭_17",
-      "credit": "© 志賀町",
-      "photographer": "志賀町",
-      "source": "その他",
-      "restricted": false,
-      "genre": "祭り",
-      "id": "P0920"
     },
     {
       "title": "福浦祭り_49",
@@ -12776,26 +12856,6 @@
       "id": "P0752"
     },
     {
-      "title": "萬燈祭_18",
-      "spot": "その他",
-      "spotId": "other",
-      "area": "",
-      "season": [],
-      "tags": [
-        "祭り",
-        "SNS向き"
-      ],
-      "thumb": "assets/img/lib/P0921-thumb.jpg",
-      "large": "assets/img/lib/P0921-large.jpg",
-      "alt": "萬燈祭_18",
-      "credit": "© 志賀町",
-      "photographer": "志賀町",
-      "source": "その他",
-      "restricted": false,
-      "genre": "祭り",
-      "id": "P0921"
-    },
-    {
       "title": "福浦祭り_50",
       "spot": "その他",
       "spotId": "other",
@@ -12815,26 +12875,6 @@
       "restricted": false,
       "genre": "祭り",
       "id": "P0753"
-    },
-    {
-      "title": "萬燈祭_19",
-      "spot": "その他",
-      "spotId": "other",
-      "area": "",
-      "season": [],
-      "tags": [
-        "祭り",
-        "SNS向き"
-      ],
-      "thumb": "assets/img/lib/P0922-thumb.jpg",
-      "large": "assets/img/lib/P0922-large.jpg",
-      "alt": "萬燈祭_19",
-      "credit": "© 志賀町",
-      "photographer": "志賀町",
-      "source": "その他",
-      "restricted": false,
-      "genre": "祭り",
-      "id": "P0922"
     },
     {
       "title": "福浦祭り_51",
@@ -12858,26 +12898,6 @@
       "id": "P0754"
     },
     {
-      "title": "萬燈祭_20",
-      "spot": "その他",
-      "spotId": "other",
-      "area": "",
-      "season": [],
-      "tags": [
-        "祭り",
-        "SNS向き"
-      ],
-      "thumb": "assets/img/lib/P0923-thumb.jpg",
-      "large": "assets/img/lib/P0923-large.jpg",
-      "alt": "萬燈祭_20",
-      "credit": "© 志賀町",
-      "photographer": "志賀町",
-      "source": "その他",
-      "restricted": false,
-      "genre": "祭り",
-      "id": "P0923"
-    },
-    {
       "title": "福浦祭り_52",
       "spot": "その他",
       "spotId": "other",
@@ -12897,26 +12917,6 @@
       "restricted": false,
       "genre": "祭り",
       "id": "P0755"
-    },
-    {
-      "title": "萬燈祭_21",
-      "spot": "その他",
-      "spotId": "other",
-      "area": "",
-      "season": [],
-      "tags": [
-        "祭り",
-        "SNS向き"
-      ],
-      "thumb": "assets/img/lib/P0924-thumb.jpg",
-      "large": "assets/img/lib/P0924-large.jpg",
-      "alt": "萬燈祭_21",
-      "credit": "© 志賀町",
-      "photographer": "志賀町",
-      "source": "その他",
-      "restricted": false,
-      "genre": "祭り",
-      "id": "P0924"
     },
     {
       "title": "福浦祭り_53",

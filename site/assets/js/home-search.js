@@ -11,6 +11,8 @@
   'use strict';
 
   var PAGE = 12;                 // 検索結果は12枚ずつ
+  // 人気の写真ランキングは、ダウンロード数が増えるまで非表示にしている（true にすると表示される）
+  var SHOW_RANKING = false;
   var FIELDS = [                 // [URLパラメーター, 入力欄のid, 画面に出すラベル]
     ['q', 'tpQuery', 'キーワード'], ['spot', 'tpSpot', '場所'], ['genre', 'tpGenre', 'ジャンル'],
     ['use', 'tpUse', '用途'], ['season', 'tpSeason', '季節'],
@@ -81,7 +83,7 @@
       return '<button type="button" class="tp-chip" data-remove="' + esc(c.key) + '" aria-label="' +
         esc(c.label + '「' + c.value + '」を解除') + '"><b>' + esc(c.label) + '</b>' + esc(c.value) +
         '<span aria-hidden="true"> ×</span></button>';
-    }).join('');
+    }).join('') + (cs.length ? '<button type="button" class="tp-chip tp-chip--clear" data-clear-all>すべて解除</button>' : '');
     if (!searched) return;
 
     var n = matches.length;
@@ -178,6 +180,7 @@
       '<span class="tp-rank__dl">ダウンロード ' + esc(r.downloads) + '回</span></a></li>';
   }
   function renderRanking(rk) {
+    if (!SHOW_RANKING) return;
     // ライブラリに無い写真（GA4側のIDが空の行など）は画像を出せないので外す
     var byId = {};
     library.forEach(function (p) { byId[p.id] = p; });
@@ -197,9 +200,7 @@
       more.innerHTML = open ? '閉じる <span aria-hidden="true">↑</span>'
                             : 'もっと見る（' + rest.length + '件） <span aria-hidden="true">↓</span>';
     });
-    var days = rk.periodDays || 30;
     $('#rankingLead').textContent = 'よくダウンロードされている写真 TOP' + rows.length + '。';
-    $('#rankingNote').textContent = '過去' + days + '日間のダウンロード数にもとづく順位です。';
     $('#ranking').hidden = false;
     $('#tpJumpRanking').hidden = false;
   }
@@ -223,7 +224,20 @@
 
     $('#tpTotal').textContent = num(library.length) + '件の写真から';
     renderSeasonInfo();
+
+    // 詳細検索（撮影スポット・ジャンル・用途・季節）は、最初は閉じておき、使いたい人だけ開く
+    function setFilters(open) {
+      $('#tpFilters').hidden = !open;
+      var t = $('#tpFilterToggle');
+      t.setAttribute('aria-expanded', String(open));
+      t.innerHTML = '詳細検索 <span aria-hidden="true">' + (open ? '▴' : '▾') + '</span>';
+    }
+    $('#tpFilterToggle').addEventListener('click', function () {
+      setFilters($('#tpFilters').hidden);
+    });
     fromURL();
+    // URL で絞り込みを指定して来たときは、いま何で絞っているか分かるよう、開いた状態にする
+    if (['spot', 'genre', 'use', 'season'].some(function (k) { return field(k).value; })) setFilters(true);
 
     $('#tpForm').addEventListener('submit', function (e) { e.preventDefault(); search(); });
     ['tpSpot', 'tpGenre', 'tpUse', 'tpSeason'].forEach(function (id) {
@@ -246,13 +260,6 @@
       else if (t.hasAttribute('data-spot')) vals.spot = t.getAttribute('data-spot');
       else vals.season = t.getAttribute('data-season');
       setAll(vals);
-      search({ scroll: true });
-    });
-
-    // 目的で写真を探す：使いたい場面（用途タグ）× 欲しい雰囲気（キーワード）
-    $('#purposeFinder').addEventListener('submit', function (e) {
-      e.preventDefault();
-      setAll({ use: $('#purposeUse').value, q: $('#purposeMood').value });
       search({ scroll: true });
     });
 

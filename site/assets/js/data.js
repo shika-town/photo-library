@@ -217,140 +217,124 @@ window.SPL_DATA = {
   ],
   "photos": [
     {
-      "id": "P0006",
-      "title": "ベンチイルミネーション",
-      "spot": "世界一長いベンチ・増穂浦海岸",
-      "area": "富来エリア",
-      "season": [
-        "秋"
-      ],
-      "tags": [
-        "ベンチ",
-        "夜景",
-        "イルミネーション",
-        "SNS向き"
-      ],
-      "image": "assets/img/lib/P0006-new.jpg",
-      "alt": "青く光る世界一長いベンチのイルミネーション",
-      "restricted": false,
-      "genre": "イベント"
-    },
-    {
-      "id": "P0001",
-      "title": "機具岩に沈む夕陽",
-      "spot": "機具岩",
-      "area": "富来エリア",
-      "season": [
-        "秋"
-      ],
-      "tags": [
-        "夕陽",
-        "海",
-        "岩",
-        "チラシ・ポスター向き"
-      ],
-      "image": "assets/img/lib/P0001-new.jpg",
-      "alt": "岩の間から光が差す機具岩の夕景",
-      "restricted": false,
-      "genre": "観光地"
-    },
-    {
-      "id": "P0002",
-      "title": "巌門の入り江",
-      "spot": "巌門",
-      "area": "富来エリア",
-      "season": [
-        "夏"
-      ],
-      "tags": [
-        "空撮",
-        "海",
-        "岩",
-        "チラシ・ポスター向き"
-      ],
-      "image": "assets/img/lib/P0002-new.jpg",
-      "alt": "上空から見たエメラルドグリーンの巌門の入り江",
-      "restricted": false,
-      "genre": "観光地"
-    },
-    {
-      "id": "P0005",
-      "title": "旧福浦灯台_8",
-      "spot": "旧福浦灯台",
-      "area": "富来エリア",
-      "season": [
-        "夏"
-      ],
-      "tags": [
-        "名所旧跡",
-        "建築",
-        "青空",
-        "灯台",
-        "日本最古",
-        "チラシ・ポスター向き"
-      ],
-      "image": "assets/img/lib/P0005-new.jpg",
-      "alt": "青空の下に建つ白い木造の旧福浦灯台",
-      "restricted": false,
-      "genre": "観光地"
-    },
-    {
-      "id": "P0007",
-      "title": "尊保の桜並木",
+      "id": "P0924",
+      "title": "萬燈祭_21",
       "spot": "その他",
       "area": "",
-      "season": [
-        "春"
-      ],
+      "season": [],
       "tags": [
-        "桜",
-        "花",
-        "春",
-        "チラシ・ポスター向き"
+        "祭り",
+        "SNS向き"
       ],
-      "image": "assets/img/lib/P0007-new.jpg",
-      "alt": "満開の桜が続く春の並木道",
+      "image": "assets/img/lib/P0924-thumb.jpg",
+      "alt": "萬燈祭_21",
       "restricted": false,
-      "genre": "自然風景"
+      "genre": "祭り"
     },
     {
-      "id": "P0718",
-      "title": "巌門と遊覧船正面から",
-      "spot": "巌門",
-      "area": "富来エリア",
-      "season": [
-        "夏"
-      ],
+      "id": "P0923",
+      "title": "萬燈祭_20",
+      "spot": "その他",
+      "area": "",
+      "season": [],
       "tags": [
-        "海",
-        "岩",
-        "断崖",
-        "遊覧船",
-        "チラシ・ポスター向き"
+        "祭り",
+        "SNS向き"
       ],
-      "image": "assets/img/lib/P0718-new.jpg",
-      "alt": "",
+      "image": "assets/img/lib/P0923-thumb.jpg",
+      "alt": "萬燈祭_20",
       "restricted": false,
-      "genre": "観光地"
+      "genre": "祭り"
     },
     {
-      "id": "P0719",
-      "title": "遠くから眺める旧福浦灯台",
-      "spot": "旧福浦灯台",
-      "area": "富来エリア",
-      "season": [
-        "夏"
-      ],
+      "id": "P0922",
+      "title": "萬燈祭_19",
+      "spot": "その他",
+      "area": "",
+      "season": [],
       "tags": [
-        "海",
-        "文化施設",
-        "建築",
-        "チラシ・ポスター向き"
+        "祭り",
+        "SNS向き"
       ],
-      "image": "assets/img/lib/P0719-new.jpg",
-      "alt": "",
+      "image": "assets/img/lib/P0922-thumb.jpg",
+      "alt": "萬燈祭_19",
       "restricted": false,
-      "genre": "観光地"
+      "genre": "祭り"
+    },
+    {
+      "id": "P0921",
+      "title": "萬燈祭_18",
+      "spot": "その他",
+      "area": "",
+      "season": [],
+      "tags": [
+        "祭り",
+        "SNS向き"
+      ],
+      "image": "assets/img/lib/P0921-thumb.jpg",
+      "alt": "萬燈祭_18",
+      "restricted": false,
+      "genre": "祭り"
+    },
+    {
+      "id": "P0920",
+      "title": "萬燈祭_17",
+      "spot": "その他",
+      "area": "",
+      "season": [],
+      "tags": [
+        "祭り",
+        "SNS向き"
+      ],
+      "image": "assets/img/lib/P0920-thumb.jpg",
+      "alt": "萬燈祭_17",
+      "restricted": false,
+      "genre": "祭り"
+    },
+    {
+      "id": "P0919",
+      "title": "萬燈祭_16",
+      "spot": "その他",
+      "area": "",
+      "season": [],
+      "tags": [
+        "祭り",
+        "SNS向き"
+      ],
+      "image": "assets/img/lib/P0919-thumb.jpg",
+      "alt": "萬燈祭_16",
+      "restricted": false,
+      "genre": "祭り"
+    },
+    {
+      "id": "P0918",
+      "title": "萬燈祭_15",
+      "spot": "その他",
+      "area": "",
+      "season": [],
+      "tags": [
+        "祭り",
+        "SNS向き"
+      ],
+      "image": "assets/img/lib/P0918-thumb.jpg",
+      "alt": "萬燈祭_15",
+      "restricted": false,
+      "genre": "祭り"
+    },
+    {
+      "id": "P0917",
+      "title": "萬燈祭_14",
+      "spot": "その他",
+      "area": "",
+      "season": [],
+      "tags": [
+        "祭り",
+        "SNS向き"
+      ],
+      "image": "assets/img/lib/P0917-thumb.jpg",
+      "alt": "萬燈祭_14",
+      "restricted": false,
+      "genre": "祭り"
     }
   ],
   "seasons": [

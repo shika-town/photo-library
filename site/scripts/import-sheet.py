@@ -215,6 +215,7 @@ split = lambda v: [x.strip() for x in str(v or '').replace('、', ',').split(','
 
 # 「表示場所（roles）」に付けると、写真自体は公開されたまま、ダウンロードボタンの
 # 代わりにお問い合わせ案内を表示する（人物が大きく写る祭り・イベント写真などに使う）。
+NEW_PHOTO_COUNT = 8      # トップの「新着写真から探す」に出す枚数
 RESTRICTED_ROLE = 'ダウンロード制限'
 restricted = lambda p: RESTRICTED_ROLE in split(p.get('roles'))
 
@@ -461,9 +462,11 @@ def main():
 
     # ---- トップページ ----
     # 新着写真はシートの行の並び順をそのまま使う（行をドラッグすれば順番が変わる）
+    # 「新着写真」は、シートの下の行（＝あとから登録した写真）から順に、自動で NEW_PHOTO_COUNT 枚を選ぶ。
+    # （以前は roles に「新着」と手で書いた写真だけを出していたため、古い写真が並んでいた。）
     new_photos = []
-    for p in photos:
-        if '新着' not in split(p.get('roles')): continue
+    for p in reversed(photos):
+        if len(new_photos) >= NEW_PHOTO_COUNT: break
         fy = FOCUS.get(str(p.get('focus', '')).strip(), 0.5)
         try:
             _img = make(fetch(p), 'lib/%s-new' % p['id'], SIZES['new'], fy)
