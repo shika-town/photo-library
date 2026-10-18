@@ -91,12 +91,15 @@
 
 <main id="main">
 
-  <!-- ================= 表紙 =================
-       表紙の写真・文言はこのHTMLに直接書いています（シートの heroPhotoId / heroTitle は
-       この表紙では使いません）。写真を替えるときは下の img の src と alt、
-       右下の場所名（.tp-hero__place）を書き換えてください。 -->
-  <section class="tp-hero" aria-label="志賀町の風景">
-    <img class="tp-hero__img" src="assets/img/lib/P0009-hero.jpg" alt="日本海の青い海に沿って続く世界一長いベンチ" width="1400" height="787" fetchpriority="high" decoding="async">
+  <!-- ================= 表紙（写真が切り替わるスライドショー） =================
+       1枚目だけHTMLに直接書き、2枚目以降は data/hero-slides.json から hero.js が読み込みます
+       （写真・文言の変更は hero-slides.json を編集。シートの heroPhotoId / heroTitle は使いません）。
+       写真をクリックすると、その写真の詳細・ダウンロードのページが開きます。 -->
+  <section class="tp-hero" id="tpHero" aria-label="志賀町の風景" aria-roledescription="カルーセル">
+    <div class="tp-hero__slides" id="tpSlides">
+      <img class="tp-hero__img is-active" src="assets/img/lib/P0009-hero.jpg" alt="日本海の青い海に沿って続く世界一長いベンチ" width="1600" height="900" fetchpriority="high" decoding="async" style="--pos: 25% 50%">
+    </div>
+    <a class="tp-hero__link" id="tpHeroLink" href="photos/P0009.html" tabindex="-1" aria-hidden="true"></a>
     <div class="tp-hero__bar">
       <a class="tp-brand" href="index.html" aria-label="能登・志賀町 公式フォトライブラリー ホーム">能登・志賀町<span>公式フォトライブラリー</span></a>
       <div class="tp-hero__nav">
@@ -107,8 +110,16 @@
     </div>
     <h1 class="tp-wordmark"><span class="tp-wordmark__hash">#</span>しかたび<span class="sr-only">　志賀町公式フォトライブラリー</span><small aria-hidden="true">NOTO / SHIKA</small></h1>
     <p class="tp-copy"><span>志賀町の、</span><span>いまを写真に。</span></p>
-    <p class="tp-hero__place">世界一長いベンチ<span>増穂浦海岸</span></p>
-    <p class="tp-hero__mark" aria-hidden="true">SHIKA PHOTO LIBRARY</p>
+    <div class="tp-hero__place">
+      <p id="tpPlace"><span>世界一長いベンチ</span><span>増穂浦海岸</span></p>
+      <a class="tp-hero__more" id="tpHeroMore" href="photos/P0009.html">この写真の詳細・ダウンロード <span aria-hidden="true">→</span></a>
+    </div>
+    <div class="tp-hero__ctrl" id="tpCtrl" role="group" aria-label="表紙の写真の切り替え" hidden>
+      <button type="button" id="tpPrev" aria-label="前の写真"><span aria-hidden="true">‹</span></button>
+      <span class="tp-hero__dots" id="tpDots"></span>
+      <button type="button" id="tpNext" aria-label="次の写真"><span aria-hidden="true">›</span></button>
+      <button type="button" id="tpPause" aria-pressed="false" aria-label="自動で切り替えを止める"><span aria-hidden="true">Ⅱ</span></button>
+    </div>
   </section>
 
   <!-- ================= 写真を、見つける。（常時表示の検索） ================= -->
@@ -342,6 +353,7 @@
 <script src="assets/js/admin-gate.js"></script>
 <script src="assets/js/search-core.js"></script>
 <script src="assets/js/main.js"></script>
+<script src="assets/js/hero.js"></script>
 <script src="assets/js/home-search.js"></script>
 </body>
 </html>
