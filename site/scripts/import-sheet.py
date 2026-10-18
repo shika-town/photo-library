@@ -12,6 +12,19 @@ Googleスプレッドシートは「リンクを知っている全員が閲覧�
 import json, io, os, sys, csv, re, time, urllib.request, urllib.parse, unicodedata
 from PIL import Image, ImageEnhance, UnidentifiedImageError
 
+# iPhone で撮った写真（HEIC形式）も読めるようにする。入っていなければ、その場で入れる。
+try:
+    import pillow_heif
+except ImportError:
+    import subprocess
+    subprocess.run([sys.executable, '-m', 'pip', 'install', '-q', 'pillow-heif'], check=False)
+    try:
+        import pillow_heif
+    except ImportError:
+        pillow_heif = None
+if pillow_heif:
+    pillow_heif.register_heif_opener()
+
 BASE  = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 IMG   = os.path.join(BASE, 'assets', 'img')
 CACHE = os.path.join(BASE, '..', '_source', 'cache')   # ドライブから取得した元画像（再取得を避ける）
@@ -467,18 +480,20 @@ def main():
     new_photos = []
     for p in reversed(photos):
         if len(new_photos) >= NEW_PHOTO_COUNT: break
+        if str(p.get('title', '')).startswith('（記入例）'): continue     # フォームの記入例の行は新着に出さない
         fy = FOCUS.get(str(p.get('focus', '')).strip(), 0.5)
         try:
             _img = make(fetch(p), 'lib/%s-new' % p['id'], SIZES['new'], fy)
         except Exception as e:
-            _img = made_path('lib/%s-new' % p['id'])
+            # 新着は「下の行から順に」選ぶため、登録したばかりの行（ドライブの指定ミスなど）に当たりやすい。
+            # 1枚の不備でサイト全体の更新を止めないよう、どんなエラーでも「その写真を飛ばして次へ」にする。
+            _img = made_path('lib/%s-new' % p['id']) or made_path('lib/%s-thumb' % p['id'])
             if _img:
-                print('  ！ %s（生成済み画像を再利用します）' % e)
+                print('  ！ 新着写真 %s：%s（生成済み画像を再利用します）' % (p['id'], str(e)[:80]))
             else:
-                if not isinstance(e, (FileNotFoundError, UnidentifiedImageError)):
-                    raise
+                print('  ！ 新着写真 %s は画像を用意できないため飛ばしました：%s' % (p['id'], str(e)[:80]))
                 if p['id'] not in skipped:
-                    skipped.append(p['id']); print('  ！ %s' % e)
+                    skipped.append(p['id'])
                 continue
         _genre = classify_genre(p, p.get('spot', ''))
         new_photos.append({
