@@ -60,11 +60,13 @@
      ===================================================================== */
   function spotCard(s) {
     var image = lightImage(withFallback(s.image, FALLBACK_IMAGES.spots[s.id] || FALLBACK_IMAGES.base));
-    return '<a class="tp-spot" href="spots/' + esc(s.id) + '.html">' +
+    // 押すとページを移動せず、その場でそのスポットの写真を表示する（home-search.js）。
+    // スポットの紹介ページへは、結果の上に出るリンクから行ける。
+    return '<button class="tp-spot" type="button" data-spot="' + esc(s.name) + '">' +
       '<img src="' + esc(image) + '" alt="' + esc(s.alt || s.name) + '" loading="lazy" width="640" height="480">' +
       '<span class="tp-card__name">' + esc(s.name) + '</span>' +
       '<span class="tp-card__meta">' + esc(s.description || s.area) + '</span>' +
-      '<span class="tp-card__meta">写真 ' + esc(s.count) + '枚</span></a>';
+      '<span class="tp-card__meta">写真 ' + esc(s.count) + '枚</span></button>';
   }
 
   function photoCard(p) {

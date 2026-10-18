@@ -99,6 +99,16 @@
         (cs.length > 1 ? '<button type="button" class="tp-chip" data-clear-all>すべての条件を解除</button>' : '');
     }
 
+    // スポットで絞っているときは、そのスポットの紹介ページへのリンクを出す
+    var spotLink = $('#tpSpotLink');
+    var spotName = field('spot').value;
+    var spotId = '';
+    library.some(function (p) { if (p.spot === spotName && p.spotId) { spotId = p.spotId; return true; } return false; });
+    spotLink.hidden = !(spotName && spotId);
+    if (!spotLink.hidden) {
+      spotLink.innerHTML = '<a href="spots/' + esc(spotId) + '.html">' + esc(spotName) + 'の紹介ページを見る <span aria-hidden="true">→</span></a>';
+    }
+
     var note = $('#tpNote');
     note.hidden = !field('season').value;
     if (!note.hidden) {
@@ -221,13 +231,14 @@
 
     // 入力例・ジャンル・シーン・季節・条件のはずし方
     document.addEventListener('click', function (e) {
-      var t = e.target.closest('[data-remove],[data-clear-all],[data-q],[data-genre],[data-season]');
+      var t = e.target.closest('[data-remove],[data-clear-all],[data-q],[data-genre],[data-season],[data-spot]');
       if (!t || !t.closest('main')) return;
       if (t.hasAttribute('data-remove')) { field(t.getAttribute('data-remove')).value = ''; search(); return; }
       if (t.hasAttribute('data-clear-all')) { setAll(); search(); return; }
       var vals = {};
       if (t.hasAttribute('data-q')) vals.q = t.getAttribute('data-q');
       else if (t.hasAttribute('data-genre')) vals.genre = t.getAttribute('data-genre');
+      else if (t.hasAttribute('data-spot')) vals.spot = t.getAttribute('data-spot');
       else vals.season = t.getAttribute('data-season');
       setAll(vals);
       search({ scroll: true });
