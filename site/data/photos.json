@@ -43,7 +43,7 @@
       "id": "bench",
       "name": "世界一長いベンチ・増穂浦海岸",
       "area": "富来エリア",
-      "count": 85,
+      "count": 84,
       "image": "assets/img/lib/P0008-hero.jpg",
       "alt": "世界一長いベンチ・増穂浦海岸",
       "description": "海・貝・夕日、そして記憶に残る長さ"
@@ -81,7 +81,7 @@
       "id": "bench",
       "name": "世界一長いベンチ・増穂浦海岸",
       "area": "富来エリア",
-      "count": 85,
+      "count": 84,
       "image": "assets/img/lib/P0008-hero.jpg",
       "alt": "世界一長いベンチ・増穂浦海岸",
       "description": "海・貝・夕日、そして記憶に残る長さ"
@@ -144,7 +144,7 @@
       "id": "sakuragai",
       "name": "道の駅とぎ海街道・さくら貝資料館",
       "area": "富来エリア",
-      "count": 33,
+      "count": 31,
       "image": "assets/img/lib/P0049-hero.jpg",
       "alt": "道の駅とぎ海街道・さくら貝資料館",
       "description": "能登の恵みと、幸せを呼ぶピンクの貝殻に出会える場所"
@@ -213,25 +213,6 @@
     }
   ],
   "photos": [
-    {
-      "id": "P0003",
-      "title": "手のひらのさくら貝",
-      "spot": "世界一長いベンチ・増穂浦海岸",
-      "area": "富来エリア",
-      "season": [
-        "春",
-        "冬"
-      ],
-      "tags": [
-        "砂浜",
-        "さくら貝",
-        "チラシ・ポスター向き"
-      ],
-      "image": "assets/img/lib/P0003-new.jpg",
-      "alt": "増穂浦海岸で拾い集めたさくら貝",
-      "restricted": false,
-      "genre": "観光地"
-    },
     {
       "id": "P0006",
       "title": "ベンチイルミネーション",

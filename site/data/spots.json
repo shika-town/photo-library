@@ -42,23 +42,6 @@
       "hero": "assets/img/lib/P0008-hero.jpg",
       "photos": [
         {
-          "id": "P0003",
-          "thumb": "../assets/img/lib/P0003-thumb.jpg",
-          "large": "../assets/img/lib/P0003-large.jpg",
-          "caption": "手のひらのさくら貝",
-          "tags": [
-            "砂浜",
-            "さくら貝",
-            "チラシ・ポスター向き"
-          ],
-          "season": [
-            "春",
-            "冬"
-          ],
-          "restricted": false,
-          "genre": "観光地"
-        },
-        {
           "id": "P0006",
           "thumb": "../assets/img/lib/P0006-thumb.jpg",
           "large": "../assets/img/lib/P0006-large.jpg",
@@ -1330,7 +1313,7 @@
           "genre": "観光地"
         }
       ],
-      "count": 85
+      "count": 84
     },
     {
       "id": "hatago",
@@ -4911,39 +4894,6 @@
           "genre": "特産品"
         },
         {
-          "id": "P0051",
-          "thumb": "../assets/img/lib/P0051-thumb.jpg",
-          "large": "../assets/img/lib/P0051-large.jpg",
-          "caption": "さくら貝のクラフト作品",
-          "tags": [
-            "さくら貝",
-            "文化施設",
-            "体験",
-            "お土産",
-            "屋内",
-            "印刷物向き"
-          ],
-          "season": [],
-          "restricted": false,
-          "genre": "特産品"
-        },
-        {
-          "id": "P0052",
-          "thumb": "../assets/img/lib/P0052-thumb.jpg",
-          "large": "../assets/img/lib/P0052-large.jpg",
-          "caption": "人気のソフトクリーム",
-          "tags": [
-            "文化施設",
-            "屋内",
-            "体験",
-            "お土産",
-            "印刷物向き"
-          ],
-          "season": [],
-          "restricted": false,
-          "genre": "特産品"
-        },
-        {
           "id": "P0053",
           "thumb": "../assets/img/lib/P0053-thumb.jpg",
           "large": "../assets/img/lib/P0053-large.jpg",
@@ -5392,7 +5342,7 @@
           "genre": "観光地"
         }
       ],
-      "count": 33
+      "count": 31
     },
     {
       "id": "taira",

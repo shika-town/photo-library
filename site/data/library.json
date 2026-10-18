@@ -1,33 +1,9 @@
 {
   "meta": {
     "note": "photos.json と spots.json から自動生成しています。直接編集せず、scripts/build-library.py を実行してください。",
-    "count": 715
+    "count": 712
   },
   "photos": [
-    {
-      "title": "手のひらのさくら貝",
-      "spot": "世界一長いベンチ・増穂浦海岸",
-      "spotId": "bench",
-      "area": "富来エリア",
-      "season": [
-        "春",
-        "冬"
-      ],
-      "tags": [
-        "砂浜",
-        "さくら貝",
-        "チラシ・ポスター向き"
-      ],
-      "thumb": "assets/img/lib/P0003-thumb.jpg",
-      "large": "assets/img/lib/P0003-large.jpg",
-      "alt": "増穂浦海岸で拾い集めたさくら貝",
-      "credit": "© 志賀町",
-      "photographer": "志賀町",
-      "source": "新着写真",
-      "restricted": false,
-      "genre": "観光地",
-      "id": "P0003"
-    },
     {
       "title": "ベンチイルミネーション",
       "spot": "世界一長いベンチ・増穂浦海岸",
@@ -6663,53 +6639,6 @@
       "restricted": false,
       "genre": "特産品",
       "id": "P0050"
-    },
-    {
-      "title": "さくら貝のクラフト作品",
-      "spot": "道の駅とぎ海街道・さくら貝資料館",
-      "spotId": "sakuragai",
-      "area": "富来エリア",
-      "season": [],
-      "tags": [
-        "さくら貝",
-        "文化施設",
-        "体験",
-        "お土産",
-        "屋内",
-        "印刷物向き"
-      ],
-      "thumb": "assets/img/lib/P0051-thumb.jpg",
-      "large": "assets/img/lib/P0051-large.jpg",
-      "alt": "さくら貝のクラフト作品",
-      "credit": "© 志賀町",
-      "photographer": "志賀町",
-      "source": "道の駅とぎ海街道・さくら貝資料館",
-      "restricted": false,
-      "genre": "特産品",
-      "id": "P0051"
-    },
-    {
-      "title": "人気のソフトクリーム",
-      "spot": "道の駅とぎ海街道・さくら貝資料館",
-      "spotId": "sakuragai",
-      "area": "富来エリア",
-      "season": [],
-      "tags": [
-        "文化施設",
-        "屋内",
-        "体験",
-        "お土産",
-        "印刷物向き"
-      ],
-      "thumb": "assets/img/lib/P0052-thumb.jpg",
-      "large": "assets/img/lib/P0052-large.jpg",
-      "alt": "人気のソフトクリーム",
-      "credit": "© 志賀町",
-      "photographer": "志賀町",
-      "source": "道の駅とぎ海街道・さくら貝資料館",
-      "restricted": false,
-      "genre": "特産品",
-      "id": "P0052"
     },
     {
       "title": "さくら貝資料館_1",
