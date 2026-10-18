@@ -114,10 +114,10 @@ def header(current='', pre='../'):
         '<a class="drawer__link" href="%s"%s>%s</a>'
         % (E(h), ' data-admin-gate' if l == ADMIN_LABEL else '', E(l))
         for l, h in nav)
-    drawer += '<a class="drawer__link" href="%sfavorites.html">❤ あとで見るリスト</a>' % pre
+    drawer += '<a class="drawer__link" href="%sfavorites.html">あとで見るリスト</a>' % pre
     return '''<header class="subbar" id="header">
   <div class="subbar__inner">
-    <a class="subbar__brand" href="{PRE}index.html" aria-label="%s ホーム">能登・志賀町<span>公式フォトライブラリー</span></a>
+    <a class="subbar__brand" href="{PRE}index.html" aria-label="%s ホーム">SHIKA PHOTO LIBRARY</a>
     <nav class="subbar__nav" aria-label="メインナビゲーション">
       <a href="{PRE}index.html#find">写真を探す <span aria-hidden="true">↓</span></a>
       <a class="header__fav" href="{PRE}favorites.html">あとで見るリスト <span class="header__fav-badge" hidden>0</span></a>

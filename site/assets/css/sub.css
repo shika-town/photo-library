@@ -89,7 +89,6 @@ h1, h2, h3, h4 { font-weight: 400; }
 .tag { padding: 0; background: none; border-radius: 0; border-bottom: 1px solid var(--line); font-size: 12px; color: var(--ink); letter-spacing: .03em; }
 .tag:hover { border-color: var(--accent); }
 .photometa__tags, .spotbody__tags { gap: 8px 14px; }
-.favbtn { background: rgba(33, 67, 76, .5); }
 
 /* ---------- スポットページ ---------- */
 .spothero__media { height: min(36vw, 52vh); min-height: 280px; }
@@ -174,3 +173,13 @@ h1, h2, h3, h4 { font-weight: 400; }
 
 @media (min-width: 1025px) { .photo-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
 .tp-footer { padding-inline: max(24px, calc((100% - 1200px) / 2)); }
+
+/* あとで見る（ハート）：丸い黒背景をやめ、写真の上に細い線のハートだけを重ねる */
+.favbtn { top: 2px; right: 2px; width: 44px; height: 44px; background: none; box-shadow: none; backdrop-filter: none; color: #fff; filter: drop-shadow(0 1px 3px rgba(8, 51, 75, .6)); }
+.favbtn svg { width: 22px; height: 22px; stroke-width: 1.4; }
+.favbtn:hover { transform: none; opacity: .8; }
+.favbtn.is-active { background: none; color: #fff; }
+.favbtn.is-active svg { fill: #fff; }
+.subbar__brand { display: flex; align-items: center; padding-block: 0; font-size: 12px; letter-spacing: .16em; }
+.subbar .header__fav.has-items { color: var(--ink); }
+.subbar .header__fav.has-items:hover { color: var(--accent); }

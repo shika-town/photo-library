@@ -342,6 +342,15 @@ body.tp [hidden] { display: none !important; }
   .tp-instagram-embed { display: none; }
 }
 @media (max-width: 370px) { .tp-section { padding-left: 20px; padding-right: 20px; } }
-@media (max-width: 700px) { .tp-ranking .tp-rank .favbtn { right: auto; left: 94px; top: 6px; width: 30px; height: 30px; } }
+@media (max-width: 700px) { .tp-ranking .tp-rank .favbtn { right: auto; left: 84px; top: 0; } }
 .tp-spots--rest { margin-top: 24px; }
 @media (prefers-reduced-motion: reduce) { .tp-hero__img { transition: none; } }
+
+/* あとで見る（ハート）：丸い黒背景をやめ、写真の上に細い線のハートだけを重ねる */
+.favbtn { top: 2px; right: 2px; width: 44px; height: 44px; background: none; box-shadow: none; backdrop-filter: none; color: #fff; filter: drop-shadow(0 1px 3px rgba(8, 51, 75, .6)); }
+.favbtn svg { width: 22px; height: 22px; stroke-width: 1.4; }
+.favbtn:hover { transform: none; opacity: .8; }
+.favbtn.is-active { background: none; color: #fff; }
+.favbtn.is-active svg { fill: #fff; }
+.tp-brand { display: flex; align-items: center; font-size: 12px; letter-spacing: .16em; }
+.tp-hero__nav .header__fav.has-items, .tp-hero__nav a.has-items { color: #fff; }
