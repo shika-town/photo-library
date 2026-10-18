@@ -12,7 +12,7 @@
 </script>
 <title>巌門｜SHIKA PHOTO LIBRARY</title>
 <meta name="description" content="日本海が作り上げた芸術">
-<meta name="theme-color" content="#0B4F82">
+<meta name="theme-color" content="#205563">
 <link rel="icon" href="../assets/img/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="../assets/img/favicon-16x16.png">
@@ -30,8 +30,9 @@
 <link rel="canonical" href="./gate.html">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Shippori+Mincho:wght@400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../assets/css/style.css">
+<link rel="stylesheet" href="../assets/css/sub.css">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "TouristAttraction", "name": "巌門", "description": "日本海が作り上げた芸術", "address": {"@type": "PostalAddress", "addressCountry": "JP", "streetAddress": "石川県羽咋郡志賀町富来牛下巌門"}, "image": "../assets/img/lib/P0020-hero.jpg", "inLanguage": "ja"}</script>
 </head>
 <body>
@@ -54,27 +55,20 @@
   <symbol id="i-facebook" viewBox="0 0 24 24" fill="currentColor"><path d="M14 9h2.5V5.5H14C11.8 5.5 10 7.3 10 9.5V12H8v3.5h2V22h3.5v-6.5H16l.5-3.5h-3V9.8c0-.5.4-.8.9-.8z"/></symbol>
 </svg>
 <a href="#main" class="sr-only">本文へスキップ</a>
-<header class="header header--solid" id="header">
-  <div class="header__inner">
-    <a href="../index.html" class="logo" aria-label="SHIKA PHOTO LIBRARY ホーム">
-      <span class="logo__mark"><svg><use href="#i-camera"/></svg></span>
-      <span class="logo__text">
-        <span class="logo__en">SHIKA PHOTO LIBRARY</span>
-        <span class="logo__ja">能登・志賀町 公式フォトライブラリー</span>
-      </span>
-    </a>
-    <nav class="nav" aria-label="メインナビゲーション"><ul class="nav__list"><li><a class="nav__link" href="../index.html">HOME</a></li><li><a class="nav__link" href="../spots/index.html" aria-current="page">スポットから探す</a></li><li><a class="nav__link" href="../search.html">写真から探す</a></li><li><a class="nav__link" href="../index.html#scenes">シーンで探す</a></li><li><a class="nav__link" href="../terms.html">ご利用について</a></li><li><a class="nav__link" href="../index.html#contact">お問い合わせ</a></li><li><a class="nav__link" href="#" data-admin-gate>🔒 管理者ページ</a></li></ul></nav>
-    <a class="header__fav" href="../favorites.html" aria-label="あとで見るリスト">
-      <svg><use href="#i-heart"/></svg><span class="header__fav-badge" hidden>0</span>
-    </a>
-    <a class="header__search" href="../search.html" aria-label="写真を検索"><svg><use href="#i-search"/></svg></a>
-    <button class="burger" id="btnBurger" aria-label="メニューを開く" aria-expanded="false"><svg><use href="#i-menu"/></svg></button>
+<header class="subbar" id="header">
+  <div class="subbar__inner">
+    <a class="subbar__brand" href="../index.html" aria-label="SHIKA PHOTO LIBRARY ホーム">能登・志賀町<span>公式フォトライブラリー</span></a>
+    <nav class="subbar__nav" aria-label="メインナビゲーション">
+      <a href="../index.html#find">写真を探す <span aria-hidden="true">↓</span></a>
+      <a class="header__fav" href="../favorites.html">あとで見るリスト <span class="header__fav-badge" hidden>0</span></a>
+      <button type="button" id="btnBurger" aria-expanded="false" aria-controls="drawer"><i class="tp-menu-icon" aria-hidden="true"></i><span>メニュー</span></button>
+    </nav>
   </div>
 </header>
 <div class="drawer" id="drawer">
-  <nav class="drawer__panel" aria-label="モバイルメニュー">
+  <nav class="drawer__panel" aria-label="メニュー">
     <button class="drawer__close" id="drawerClose" aria-label="メニューを閉じる"><svg><use href="#i-close"/></svg></button>
-    <a class="drawer__link" href="../index.html">HOME</a><a class="drawer__link" href="../spots/index.html">スポットから探す</a><a class="drawer__link" href="../search.html">写真から探す</a><a class="drawer__link" href="../index.html#scenes">シーンで探す</a><a class="drawer__link" href="../terms.html">ご利用について</a><a class="drawer__link" href="../index.html#contact">お問い合わせ</a><a class="drawer__link" href="#" data-admin-gate>🔒 管理者ページ</a><a class="drawer__link" href="../favorites.html">❤ あとで見るリスト</a>
+    <a class="drawer__link" href="../index.html">HOME</a><a class="drawer__link" href="../index.html#find">写真を探す</a><a class="drawer__link" href="../index.html#genres">ジャンルで探す</a><a class="drawer__link" href="../index.html#scenes">シーンで探す</a><a class="drawer__link" href="../index.html#seasons">季節から探す</a><a class="drawer__link" href="../terms.html">ご利用について</a><a class="drawer__link" href="../index.html#contact">お問い合わせ</a><a class="drawer__link" href="#" data-admin-gate>🔒 管理者ページ</a><a class="drawer__link" href="../favorites.html">❤ あとで見るリスト</a>
   </nav>
 </div>
 <main id="main">
@@ -89,7 +83,7 @@
   <nav class="breadcrumb container" aria-label="パンくずリスト">
     <ol>
       <li><a href="../index.html">HOME</a></li>
-      <li><a href="index.html">スポットから探す</a></li>
+      <li><a href="../index.html#spots">スポット</a></li>
       <li>巌門</li>
     </ol>
   </nav>
@@ -99,7 +93,7 @@
       <div>
         <p class="spotbody__catch">日本海が作り上げた芸術</p>
         <div class="spotbody__text"><p>日本海の荒波に削られた巌門の景観は古来から知られ、書画などを親しむ人の往来も多かったと伝えられています。</p><p>1853年には、風景版画の巨匠・歌川（安藤）広重の名作に数えられる「六十余州名所図会」に「滝之浦（巌門・不動滝・鷹巣岩）」として描かれました。</p><p>洞門の中からは水平線が見え、日の入りを美しく望むことができます。すぐ近くから出る能登金剛遊覧船に乗れば、海側から洞門をくぐり抜けることもできます。</p></div>
-        <div class="spotbody__tags"><a class="tag" href="../index.html#photos">#海</a><a class="tag" href="../index.html#photos">#岩</a><a class="tag" href="../index.html#photos">#遊覧船</a><a class="tag" href="../index.html#photos">#空撮</a></div>
+        <div class="spotbody__tags"><a class="tag" href="../index.html?tag=%E6%B5%B7#find">#海</a><a class="tag" href="../index.html?tag=%E5%B2%A9#find">#岩</a><a class="tag" href="../index.html?tag=%E9%81%8A%E8%A6%A7%E8%88%B9#find">#遊覧船</a><a class="tag" href="../index.html?tag=%E7%A9%BA%E6%92%AE#find">#空撮</a></div>
       </div>
       <aside class="infobox">
         <p class="infobox__title">INFORMATION</p>
@@ -115,7 +109,7 @@
         <div>
           <span class="section__eyebrow">PHOTOS</span>
           <h2 class="section__title">巌門の写真</h2>
-          <p class="section__lead">写真をクリックすると拡大表示します。</p>
+          <p class="section__lead">代表の写真です。クリックすると拡大表示します。</p>
         </div>
         <span class="section__more">全62枚</span>
       </div>
@@ -155,157 +149,8 @@
     </button><button class="gallery__item" type="button" data-index="11" data-large="../assets/img/lib/P0588-large.jpg" data-caption="巌門_18" data-photo="P0588">
       <img src="../assets/img/lib/P0588-thumb.jpg" alt="巌門_18" loading="lazy" width="640" height="480">
       <span class="gallery__cap">巌門_18</span>
-    </button><button class="gallery__item" type="button" data-index="12" data-large="../assets/img/lib/P0589-large.jpg" data-caption="巌門_19" data-photo="P0589">
-      <img src="../assets/img/lib/P0589-thumb.jpg" alt="巌門_19" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">巌門_19</span>
-    </button><button class="gallery__item" type="button" data-index="13" data-large="../assets/img/lib/P0590-large.jpg" data-caption="巌門_20" data-photo="P0590">
-      <img src="../assets/img/lib/P0590-thumb.jpg" alt="巌門_20" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">巌門_20</span>
-    </button><button class="gallery__item" type="button" data-index="14" data-large="../assets/img/lib/P0591-large.jpg" data-caption="巌門_21" data-photo="P0591">
-      <img src="../assets/img/lib/P0591-thumb.jpg" alt="巌門_21" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">巌門_21</span>
-    </button><button class="gallery__item" type="button" data-index="15" data-large="../assets/img/lib/P0593-large.jpg" data-caption="巌門_23" data-photo="P0593">
-      <img src="../assets/img/lib/P0593-thumb.jpg" alt="巌門_23" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">巌門_23</span>
-    </button><button class="gallery__item" type="button" data-index="16" data-large="../assets/img/lib/P0594-large.jpg" data-caption="巌門_24" data-photo="P0594">
-      <img src="../assets/img/lib/P0594-thumb.jpg" alt="巌門_24" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">巌門_24</span>
-    </button><button class="gallery__item" type="button" data-index="17" data-large="../assets/img/lib/P0595-large.jpg" data-caption="巌門_25" data-photo="P0595">
-      <img src="../assets/img/lib/P0595-thumb.jpg" alt="巌門_25" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">巌門_25</span>
-    </button><button class="gallery__item" type="button" data-index="18" data-large="../assets/img/lib/P0596-large.jpg" data-caption="巌門_26" data-photo="P0596">
-      <img src="../assets/img/lib/P0596-thumb.jpg" alt="巌門_26" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">巌門_26</span>
-    </button><button class="gallery__item" type="button" data-index="19" data-large="../assets/img/lib/P0597-large.jpg" data-caption="巌門_27" data-photo="P0597">
-      <img src="../assets/img/lib/P0597-thumb.jpg" alt="巌門_27" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">巌門_27</span>
-    </button><button class="gallery__item" type="button" data-index="20" data-large="../assets/img/lib/P0598-large.jpg" data-caption="巌門_28" data-photo="P0598">
-      <img src="../assets/img/lib/P0598-thumb.jpg" alt="巌門_28" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">巌門_28</span>
-    </button><button class="gallery__item" type="button" data-index="21" data-large="../assets/img/lib/P0599-large.jpg" data-caption="巌門_29" data-photo="P0599">
-      <img src="../assets/img/lib/P0599-thumb.jpg" alt="巌門_29" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">巌門_29</span>
-    </button><button class="gallery__item" type="button" data-index="22" data-large="../assets/img/lib/P0600-large.jpg" data-caption="巌門_30" data-photo="P0600">
-      <img src="../assets/img/lib/P0600-thumb.jpg" alt="巌門_30" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">巌門_30</span>
-    </button><button class="gallery__item" type="button" data-index="23" data-large="../assets/img/lib/P0601-large.jpg" data-caption="巌門_31" data-photo="P0601">
-      <img src="../assets/img/lib/P0601-thumb.jpg" alt="巌門_31" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">巌門_31</span>
-    </button><button class="gallery__item" type="button" data-index="24" data-large="../assets/img/lib/P0603-large.jpg" data-caption="巌門_32" data-photo="P0603">
-      <img src="../assets/img/lib/P0603-thumb.jpg" alt="巌門_32" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">巌門_32</span>
-    </button><button class="gallery__item" type="button" data-index="25" data-large="../assets/img/lib/P0073-large.jpg" data-caption="巌門洞窟へ続く遊歩道" data-photo="P0073">
-      <img src="../assets/img/lib/P0073-thumb.jpg" alt="巌門洞窟へ続く遊歩道" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">巌門洞窟へ続く遊歩道</span>
-    </button><button class="gallery__item" type="button" data-index="26" data-large="../assets/img/lib/P0074-large.jpg" data-caption="岩肌を流れ落ちる滝" data-photo="P0074">
-      <img src="../assets/img/lib/P0074-thumb.jpg" alt="岩肌を流れ落ちる滝" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">岩肌を流れ落ちる滝</span>
-    </button><button class="gallery__item" type="button" data-index="27" data-large="../assets/img/lib/P0075-large.jpg" data-caption="巌門洞窟の入口" data-photo="P0075">
-      <img src="../assets/img/lib/P0075-thumb.jpg" alt="巌門洞窟の入口" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">巌門洞窟の入口</span>
-    </button><button class="gallery__item" type="button" data-index="28" data-large="../assets/img/lib/P0076-large.jpg" data-caption="夕暮れの巌門" data-photo="P0076">
-      <img src="../assets/img/lib/P0076-thumb.jpg" alt="夕暮れの巌門" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">夕暮れの巌門</span>
-    </button><button class="gallery__item" type="button" data-index="29" data-large="../assets/img/lib/P0077-large.jpg" data-caption="海に突き出す岩の門" data-photo="P0077">
-      <img src="../assets/img/lib/P0077-thumb.jpg" alt="海に突き出す岩の門" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">海に突き出す岩の門</span>
-    </button><button class="gallery__item" type="button" data-index="30" data-large="../assets/img/lib/P0079-large.jpg" data-caption="緑に覆われた海岸線" data-photo="P0079">
-      <img src="../assets/img/lib/P0079-thumb.jpg" alt="緑に覆われた海岸線" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">緑に覆われた海岸線</span>
-    </button><button class="gallery__item" type="button" data-index="31" data-large="../assets/img/lib/P0080-large.jpg" data-caption="岩の額縁と遊覧船" data-photo="P0080">
-      <img src="../assets/img/lib/P0080-thumb.jpg" alt="岩の額縁と遊覧船" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">岩の額縁と遊覧船</span>
-    </button><button class="gallery__item" type="button" data-index="32" data-large="../assets/img/lib/P0081-large.jpg" data-caption="青く澄んだ日本海" data-photo="P0081">
-      <img src="../assets/img/lib/P0081-thumb.jpg" alt="青く澄んだ日本海" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">青く澄んだ日本海</span>
-    </button><button class="gallery__item" type="button" data-index="33" data-large="../assets/img/lib/P0082-large.jpg" data-caption="エメラルドグリーンの入り江" data-photo="P0082">
-      <img src="../assets/img/lib/P0082-thumb.jpg" alt="エメラルドグリーンの入り江" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">エメラルドグリーンの入り江</span>
-    </button><button class="gallery__item" type="button" data-index="34" data-large="../assets/img/lib/P0083-large.jpg" data-caption="岩を伝う清流" data-photo="P0083">
-      <img src="../assets/img/lib/P0083-thumb.jpg" alt="岩を伝う清流" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">岩を伝う清流</span>
-    </button><button class="gallery__item" type="button" data-index="35" data-large="../assets/img/lib/P0084-large.jpg" data-caption="海上から見た巌門" data-photo="P0084">
-      <img src="../assets/img/lib/P0084-thumb.jpg" alt="海上から見た巌門" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">海上から見た巌門</span>
-    </button><button class="gallery__item" type="button" data-index="36" data-large="../assets/img/lib/P0085-large.jpg" data-caption="風車が並ぶ海岸線" data-photo="P0085">
-      <img src="../assets/img/lib/P0085-thumb.jpg" alt="風車が並ぶ海岸線" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">風車が並ぶ海岸線</span>
-    </button><button class="gallery__item" type="button" data-index="37" data-large="../assets/img/lib/P0086-large.jpg" data-caption="能登金剛遊覧船" data-photo="P0086">
-      <img src="../assets/img/lib/P0086-thumb.jpg" alt="能登金剛遊覧船" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">能登金剛遊覧船</span>
-    </button><button class="gallery__item" type="button" data-index="38" data-large="../assets/img/lib/P0087-large.jpg" data-caption="岩場に架かる橋" data-photo="P0087">
-      <img src="../assets/img/lib/P0087-thumb.jpg" alt="岩場に架かる橋" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">岩場に架かる橋</span>
-    </button><button class="gallery__item" type="button" data-index="39" data-large="../assets/img/lib/P0088-large.jpg" data-caption="岩壁に開いた洞門" data-photo="P0088">
-      <img src="../assets/img/lib/P0088-thumb.jpg" alt="岩壁に開いた洞門" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">岩壁に開いた洞門</span>
-    </button><button class="gallery__item" type="button" data-index="40" data-large="../assets/img/lib/P0191-large.jpg" data-caption="巌門_1" data-photo="P0191">
-      <img src="../assets/img/lib/P0191-thumb.jpg" alt="巌門_1" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">巌門_1</span>
-    </button><button class="gallery__item" type="button" data-index="41" data-large="../assets/img/lib/P0205-large.jpg" data-caption="巌門_2" data-photo="P0205">
-      <img src="../assets/img/lib/P0205-thumb.jpg" alt="巌門_2" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">巌門_2</span>
-    </button><button class="gallery__item" type="button" data-index="42" data-large="../assets/img/lib/P0206-large.jpg" data-caption="巌門_3" data-photo="P0206">
-      <img src="../assets/img/lib/P0206-thumb.jpg" alt="巌門_3" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">巌門_3</span>
-    </button><button class="gallery__item" type="button" data-index="43" data-large="../assets/img/lib/P0207-large.jpg" data-caption="巌門_4" data-photo="P0207">
-      <img src="../assets/img/lib/P0207-thumb.jpg" alt="巌門_4" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">巌門_4</span>
-    </button><button class="gallery__item" type="button" data-index="44" data-large="../assets/img/lib/P0208-large.jpg" data-caption="巌門_5" data-photo="P0208">
-      <img src="../assets/img/lib/P0208-thumb.jpg" alt="巌門_5" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">巌門_5</span>
-    </button><button class="gallery__item" type="button" data-index="45" data-large="../assets/img/lib/P0209-large.jpg" data-caption="巌門_7" data-photo="P0209">
-      <img src="../assets/img/lib/P0209-thumb.jpg" alt="巌門_7" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">巌門_7</span>
-    </button><button class="gallery__item" type="button" data-index="46" data-large="../assets/img/lib/P0210-large.jpg" data-caption="巌門_8" data-photo="P0210">
-      <img src="../assets/img/lib/P0210-thumb.jpg" alt="巌門_8" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">巌門_8</span>
-    </button><button class="gallery__item" type="button" data-index="47" data-large="../assets/img/lib/P0211-large.jpg" data-caption="巌門_9" data-photo="P0211">
-      <img src="../assets/img/lib/P0211-thumb.jpg" alt="巌門_9" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">巌門_9</span>
-    </button><button class="gallery__item" type="button" data-index="48" data-large="../assets/img/lib/P0213-large.jpg" data-caption="巌門_11" data-photo="P0213">
-      <img src="../assets/img/lib/P0213-thumb.jpg" alt="巌門_11" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">巌門_11</span>
-    </button><button class="gallery__item" type="button" data-index="49" data-large="../assets/img/lib/P0214-large.jpg" data-caption="巌門_12" data-photo="P0214">
-      <img src="../assets/img/lib/P0214-thumb.jpg" alt="巌門_12" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">巌門_12</span>
-    </button><button class="gallery__item" type="button" data-index="50" data-large="../assets/img/lib/P0215-large.jpg" data-caption="巌門_13" data-photo="P0215">
-      <img src="../assets/img/lib/P0215-thumb.jpg" alt="巌門_13" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">巌門_13</span>
-    </button><button class="gallery__item" type="button" data-index="51" data-large="../assets/img/lib/P0216-large.jpg" data-caption="巌門_14" data-photo="P0216">
-      <img src="../assets/img/lib/P0216-thumb.jpg" alt="巌門_14" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">巌門_14</span>
-    </button><button class="gallery__item" type="button" data-index="52" data-large="../assets/img/lib/P0371-large.jpg" data-caption="鷹の巣岩_1" data-photo="P0371">
-      <img src="../assets/img/lib/P0371-thumb.jpg" alt="鷹の巣岩_1" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">鷹の巣岩_1</span>
-    </button><button class="gallery__item" type="button" data-index="53" data-large="../assets/img/lib/P0372-large.jpg" data-caption="鷹の巣岩_2" data-photo="P0372">
-      <img src="../assets/img/lib/P0372-thumb.jpg" alt="鷹の巣岩_2" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">鷹の巣岩_2</span>
-    </button><button class="gallery__item" type="button" data-index="54" data-large="../assets/img/lib/P0373-large.jpg" data-caption="鷹の巣岩_3" data-photo="P0373">
-      <img src="../assets/img/lib/P0373-thumb.jpg" alt="鷹の巣岩_3" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">鷹の巣岩_3</span>
-    </button><button class="gallery__item" type="button" data-index="55" data-large="../assets/img/lib/P0374-large.jpg" data-caption="鷹の巣岩_4" data-photo="P0374">
-      <img src="../assets/img/lib/P0374-thumb.jpg" alt="鷹の巣岩_4" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">鷹の巣岩_4</span>
-    </button><button class="gallery__item" type="button" data-index="56" data-large="../assets/img/lib/P0375-large.jpg" data-caption="鷹の巣岩_5" data-photo="P0375">
-      <img src="../assets/img/lib/P0375-thumb.jpg" alt="鷹の巣岩_5" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">鷹の巣岩_5</span>
-    </button><button class="gallery__item" type="button" data-index="57" data-large="../assets/img/lib/P0376-large.jpg" data-caption="鷹の巣岩_6" data-photo="P0376">
-      <img src="../assets/img/lib/P0376-thumb.jpg" alt="鷹の巣岩_6" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">鷹の巣岩_6</span>
-    </button><button class="gallery__item" type="button" data-index="58" data-large="../assets/img/lib/P0377-large.jpg" data-caption="鷹の巣岩_7" data-photo="P0377">
-      <img src="../assets/img/lib/P0377-thumb.jpg" alt="鷹の巣岩_7" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">鷹の巣岩_7</span>
-    </button><button class="gallery__item" type="button" data-index="59" data-large="../assets/img/lib/P0378-large.jpg" data-caption="鷹の巣岩_8" data-photo="P0378">
-      <img src="../assets/img/lib/P0378-thumb.jpg" alt="鷹の巣岩_8" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">鷹の巣岩_8</span>
-    </button><button class="gallery__item" type="button" data-index="60" data-large="../assets/img/lib/P0379-large.jpg" data-caption="鷹の巣岩_9" data-photo="P0379">
-      <img src="../assets/img/lib/P0379-thumb.jpg" alt="鷹の巣岩_9" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">鷹の巣岩_9</span>
-    </button><button class="gallery__item" type="button" data-index="61" data-large="../assets/img/lib/P0510-large.jpg" data-caption="巌門_33" data-photo="P0510">
-      <img src="../assets/img/lib/P0510-thumb.jpg" alt="巌門_33" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">巌門_33</span>
     </button></div>
+      <a class="spot-allbtn" href="../index.html?spot=%E5%B7%8C%E9%96%80#find">このスポットの写真をすべて見る（62枚） <span aria-hidden="true">→</span></a>
     </div>
   </section>
 
@@ -316,10 +161,10 @@
           <span class="section__eyebrow">RELATED</span>
           <h2 class="section__title">近くのスポット</h2>
         </div>
-        <a class="section__more" href="index.html">すべて見る <svg><use href="#i-arrow"/></svg></a>
+        <a class="section__more" href="../index.html#spots">トップのスポット一覧へ <svg><use href="#i-arrow"/></svg></a>
       </div>
       <div class="spot-grid"><a class="spot-card" href="benten.html" data-area="志賀エリア">
-  <div class="spot-card__media"><img src="../assets/img/lib/P0026-hero.jpg" alt="弁天島" loading="lazy" width="2000" height="1125"></div>
+  <div class="spot-card__media"><img src="../assets/img/lib/P0026-thumb.jpg" alt="弁天島" loading="lazy" width="640" height="480"></div>
   <div class="spot-card__body">
     <h3 class="spot-card__name">弁天島</h3>
     <p class="spot-card__area"><svg><use href="#i-pin"/></svg>志賀エリア</p>
@@ -327,7 +172,7 @@
   </div>
 </a>
 <a class="spot-card" href="yase.html" data-area="富来エリア">
-  <div class="spot-card__media"><img src="../assets/img/lib/P0032-hero.jpg" alt="ヤセの断崖・義経の舟隠し" loading="lazy" width="2000" height="1125"></div>
+  <div class="spot-card__media"><img src="../assets/img/lib/P0032-thumb.jpg" alt="ヤセの断崖・義経の舟隠し" loading="lazy" width="640" height="480"></div>
   <div class="spot-card__body">
     <h3 class="spot-card__name">ヤセの断崖・義経の舟隠し</h3>
     <p class="spot-card__area"><svg><use href="#i-pin"/></svg>富来エリア</p>
@@ -335,7 +180,7 @@
   </div>
 </a>
 <a class="spot-card" href="fukura.html" data-area="富来エリア">
-  <div class="spot-card__media"><img src="../assets/img/lib/P0005-hero.jpg" alt="旧福浦灯台" loading="lazy" width="2000" height="1125"></div>
+  <div class="spot-card__media"><img src="../assets/img/lib/P0005-thumb.jpg" alt="旧福浦灯台" loading="lazy" width="640" height="480"></div>
   <div class="spot-card__body">
     <h3 class="spot-card__name">旧福浦灯台</h3>
     <p class="spot-card__area"><svg><use href="#i-pin"/></svg>富来エリア</p>
@@ -343,7 +188,7 @@
   </div>
 </a>
 <a class="spot-card" href="shogando.html" data-area="志賀エリア">
-  <div class="spot-card__media"><img src="../assets/img/lib/P0042-hero.jpg" alt="大島諸願堂・大島キャンプ場" loading="lazy" width="2000" height="1125"></div>
+  <div class="spot-card__media"><img src="../assets/img/lib/P0042-thumb.jpg" alt="大島諸願堂・大島キャンプ場" loading="lazy" width="640" height="480"></div>
   <div class="spot-card__body">
     <h3 class="spot-card__name">大島諸願堂・大島キャンプ場</h3>
     <p class="spot-card__area"><svg><use href="#i-pin"/></svg>志賀エリア</p>
@@ -365,30 +210,23 @@
     <a class="lightbox__link" id="lbLink" href="#" hidden>写真の詳細・ダウンロード →</a>
   </div>
 </div>
-<footer class="footer">
-  <div class="container">
-    <div class="footer__top">
-      <a href="../index.html" class="logo">
-        <span class="logo__mark"><svg><use href="#i-camera"/></svg></span>
-        <span class="logo__text"><span class="logo__en">志賀町</span><span class="logo__ja">SHIKA TOWN</span></span>
-      </a>
-      <div class="footer__primary">
-        <a class="footer__btn" href="https://shika-guide.jp" target="_blank" rel="noopener"><svg><use href="#i-compass"/></svg>志賀町観光情報</a>
-        <a class="footer__btn" href="https://www.instagram.com/shikatown_official/" target="_blank" rel="noopener"><svg><use href="#i-instagram"/></svg>Instagram</a>
-        <a class="footer__btn" href="../index.html#contact"><svg><use href="#i-mail"/></svg>お問い合わせ</a>
-      </div>
-    </div>
-    <div class="footer__bottom">
-      <ul class="footer__links">
-        <li><a href="../terms.html">利用規約</a></li>
-        <li><a href="../privacy.html">プライバシーポリシー</a></li>
-        <li><a href="../credit.html">著作権・クレジット</a></li>
-        <li><a href="../faq.html">よくあるご質問</a></li>
-        <li><a href="../instagram.html">Instagramのご紹介</a></li>
-      </ul>
-      <p class="footer__copy">© 志賀町 All Rights Reserved.</p>
+<footer class="tp-footer">
+  <div class="tp-footer__top">
+    <div class="tp-footer__logo">#しかたび<small>志賀町公式フォトライブラリー</small></div>
+    <div class="tp-footer__links">
+      <a href="https://shika-guide.jp" target="_blank" rel="noopener">志賀町観光情報 ↗</a>
+      <a href="https://www.instagram.com/shikatown_official/" target="_blank" rel="noopener">Instagram ↗</a>
+      <a href="../index.html#find">写真を探す ↑</a>
     </div>
   </div>
+  <ul class="tp-footer__links" aria-label="ご利用案内">
+    <li><a href="../terms.html">利用規約</a></li>
+    <li><a href="../privacy.html">プライバシーポリシー</a></li>
+    <li><a href="../credit.html">著作権・クレジット</a></li>
+    <li><a href="../faq.html">よくあるご質問</a></li>
+    <li><a href="../instagram.html">Instagramのご紹介</a></li>
+  </ul>
+  <p class="tp-footer__copy">© 志賀町 All Rights Reserved.</p>
 </footer>
 <script src="../assets/js/favorites-widget.js"></script>
 <script src="../assets/js/admin-gate.js"></script>

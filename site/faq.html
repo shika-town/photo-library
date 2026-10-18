@@ -12,7 +12,7 @@
 </script>
 <title>よくあるご質問｜SHIKA PHOTO LIBRARY</title>
 <meta name="description" content="ご利用にあたって、よくいただくご質問をまとめました。">
-<meta name="theme-color" content="#0B4F82">
+<meta name="theme-color" content="#205563">
 <link rel="icon" href="assets/img/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
@@ -30,8 +30,9 @@
 <link rel="canonical" href="./faq.html">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Shippori+Mincho:wght@400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/sub.css">
 </head>
 <body>
 <!-- ※この文面は案です。公開前に志賀町の担当部署（法規・情報公開担当を含む）で
@@ -55,27 +56,20 @@
   <symbol id="i-facebook" viewBox="0 0 24 24" fill="currentColor"><path d="M14 9h2.5V5.5H14C11.8 5.5 10 7.3 10 9.5V12H8v3.5h2V22h3.5v-6.5H16l.5-3.5h-3V9.8c0-.5.4-.8.9-.8z"/></symbol>
 </svg>
 <a href="#main" class="sr-only">本文へスキップ</a>
-<header class="header header--solid" id="header">
-  <div class="header__inner">
-    <a href="index.html" class="logo" aria-label="SHIKA PHOTO LIBRARY ホーム">
-      <span class="logo__mark"><svg><use href="#i-camera"/></svg></span>
-      <span class="logo__text">
-        <span class="logo__en">SHIKA PHOTO LIBRARY</span>
-        <span class="logo__ja">能登・志賀町 公式フォトライブラリー</span>
-      </span>
-    </a>
-    <nav class="nav" aria-label="メインナビゲーション"><ul class="nav__list"><li><a class="nav__link" href="index.html">HOME</a></li><li><a class="nav__link" href="spots/index.html">スポットから探す</a></li><li><a class="nav__link" href="search.html">写真から探す</a></li><li><a class="nav__link" href="index.html#scenes">シーンで探す</a></li><li><a class="nav__link" href="terms.html" aria-current="page">ご利用について</a></li><li><a class="nav__link" href="index.html#contact">お問い合わせ</a></li><li><a class="nav__link" href="#" data-admin-gate>🔒 管理者ページ</a></li></ul></nav>
-    <a class="header__fav" href="favorites.html" aria-label="あとで見るリスト">
-      <svg><use href="#i-heart"/></svg><span class="header__fav-badge" hidden>0</span>
-    </a>
-    <a class="header__search" href="search.html" aria-label="写真を検索"><svg><use href="#i-search"/></svg></a>
-    <button class="burger" id="btnBurger" aria-label="メニューを開く" aria-expanded="false"><svg><use href="#i-menu"/></svg></button>
+<header class="subbar" id="header">
+  <div class="subbar__inner">
+    <a class="subbar__brand" href="index.html" aria-label="SHIKA PHOTO LIBRARY ホーム">能登・志賀町<span>公式フォトライブラリー</span></a>
+    <nav class="subbar__nav" aria-label="メインナビゲーション">
+      <a href="index.html#find">写真を探す <span aria-hidden="true">↓</span></a>
+      <a class="header__fav" href="favorites.html">あとで見るリスト <span class="header__fav-badge" hidden>0</span></a>
+      <button type="button" id="btnBurger" aria-expanded="false" aria-controls="drawer"><i class="tp-menu-icon" aria-hidden="true"></i><span>メニュー</span></button>
+    </nav>
   </div>
 </header>
 <div class="drawer" id="drawer">
-  <nav class="drawer__panel" aria-label="モバイルメニュー">
+  <nav class="drawer__panel" aria-label="メニュー">
     <button class="drawer__close" id="drawerClose" aria-label="メニューを閉じる"><svg><use href="#i-close"/></svg></button>
-    <a class="drawer__link" href="index.html">HOME</a><a class="drawer__link" href="spots/index.html">スポットから探す</a><a class="drawer__link" href="search.html">写真から探す</a><a class="drawer__link" href="index.html#scenes">シーンで探す</a><a class="drawer__link" href="terms.html">ご利用について</a><a class="drawer__link" href="index.html#contact">お問い合わせ</a><a class="drawer__link" href="#" data-admin-gate>🔒 管理者ページ</a><a class="drawer__link" href="favorites.html">❤ あとで見るリスト</a>
+    <a class="drawer__link" href="index.html">HOME</a><a class="drawer__link" href="index.html#find">写真を探す</a><a class="drawer__link" href="index.html#genres">ジャンルで探す</a><a class="drawer__link" href="index.html#scenes">シーンで探す</a><a class="drawer__link" href="index.html#seasons">季節から探す</a><a class="drawer__link" href="terms.html">ご利用について</a><a class="drawer__link" href="index.html#contact">お問い合わせ</a><a class="drawer__link" href="#" data-admin-gate>🔒 管理者ページ</a><a class="drawer__link" href="favorites.html">❤ あとで見るリスト</a>
   </nav>
 </div>
 <main id="main">
@@ -98,7 +92,7 @@
     <div class="container">
       <div class="doc__inner">
         <p class="doc__updated">2026年8月27日 更新</p>
-        <div class="doc__intro">よくいただくご質問をまとめました。解決しない場合は、お気軽に<a href="index.html#contact">お問い合わせ</a>ください。</div><div class="faq__group"><h2>写真の利用について</h2><details class="faq__item"><summary class="faq__q">写真は無料で使えますか？</summary><div class="faq__a"><div>観光PR・報道・教育・個人のSNS投稿など、志賀町の魅力を紹介する目的であれば、申請不要・無償でご利用いただけます。ただし営利目的の利用は原則お断りしています。詳しくは<a href="terms.html">利用規約</a>をご確認ください。</div></div></details><details class="faq__item"><summary class="faq__q">申請や事前連絡は必要ですか？</summary><div class="faq__a"><div>通常のご利用であれば不要です。ただし、営利を目的とした利用、人物が大きく写る写真の掲載、画像を大きく加工する場合は、事前にご相談ください。</div></div></details><details class="faq__item"><summary class="faq__q">会員登録は必要ですか？</summary><div class="faq__a"><div>必要ありません。どなたでもそのままダウンロードいただけます。</div></div></details><details class="faq__item"><summary class="faq__q">クレジットの表記は必要ですか？</summary><div class="faq__a"><div>ダウンロードした画像には右下に「© 志賀町」が入っているため、そのままお使いいただく分には別途の表記は不要です。画像の外に表記したい場合は<a href="credit.html">著作権・クレジットについて</a>をご覧ください。</div></div></details><details class="faq__item"><summary class="faq__q">商用利用はできますか？</summary><div class="faq__a"><div><strong>営利を目的とした利用は原則としてお断りしています。</strong>ただし、志賀町の観光振興に資すると認められる場合は個別に検討しますので、まずはご相談ください。</div></div></details><details class="faq__item"><summary class="faq__q">写真を加工してもいいですか？</summary><div class="faq__a"><div>トリミングや明るさの調整など、内容を大きく変えない範囲であれば差し支えありません。合成など被写体の印象が変わる加工は事前にご相談ください。</div></div></details></div><div class="faq__group"><h2>ダウンロードについて</h2><details class="faq__item"><summary class="faq__q">ダウンロードの手順を教えてください。</summary><div class="faq__a"><div>写真のページを開き、「この写真をダウンロード」ボタンを押します。利用規約が表示されるので、内容をご確認のうえ同意にチェックを入れ、「同意してダウンロード」を押すと保存が始まります。</div></div></details><details class="faq__item"><summary class="faq__q">ダウンロードした写真にクレジットが入っています。消せますか？</summary><div class="faq__a"><div>クレジットは画像に直接書き込まれているため、通常は消すことができません。また、削除や判読できない程度の加工はお断りしています。町から利用の許可を得ている場合に限り、ダウンロード画面でクレジットなしの画像を選ぶことができます。</div></div></details><details class="faq__item"><summary class="faq__q">もっと大きいサイズの写真がほしいです。</summary><div class="faq__a"><div>印刷用など高解像度のデータが必要な場合は、用途をお知らせのうえお問い合わせください。個別に対応します。</div></div></details><details class="faq__item"><summary class="faq__q">ダウンロードできません。</summary><div class="faq__a"><div>ブラウザのバージョンが古い場合や、ダウンロードがブロックされている場合があります。ブラウザを最新版に更新するか、別のブラウザでお試しください。それでも解決しない場合はお問い合わせください。</div></div></details></div><div class="faq__group"><h2>写真の探し方</h2><details class="faq__item"><summary class="faq__q">目的の写真を探すには？</summary><div class="faq__a"><div>画面上部の検索ボックスに、スポット名・季節・「夕陽」などのキーワードを入れて検索できます。<a href="spots/">スポットから探す</a>で観光地ごとに見ることもできます。</div></div></details><details class="faq__item"><summary class="faq__q">どんな写真がありますか？</summary><div class="faq__a"><div>世界一長いベンチ、機具岩、巌門、ヤセの断崖など、志賀町の主な観光スポットの写真を掲載しています。四季の風景や祭りの写真もあります。</div></div></details><details class="faq__item"><summary class="faq__q">写真の追加予定はありますか？</summary><div class="faq__a"><div>順次追加していく予定です。「こんな写真がほしい」というご要望もお寄せください。</div></div></details></div><div class="faq__group"><h2>写真の提供について</h2><details class="faq__item"><summary class="faq__q">自分が撮った志賀町の写真を提供したいのですが。</summary><div class="faq__a"><div>ありがとうございます。ぜひお問い合わせフォームまたはメールでご連絡ください。掲載にあたっては、著作権の取り扱いなどを個別にご相談させていただきます。</div></div></details><details class="faq__item"><summary class="faq__q">写真に自分が写っています。削除してもらえますか？</summary><div class="faq__a"><div>大変申し訳ありません。該当する写真のページのURLを添えてご連絡ください。確認のうえ速やかに対応いたします。</div></div></details></div><div class="doc__contact">
+        <div class="doc__intro">よくいただくご質問をまとめました。解決しない場合は、お気軽に<a href="index.html#contact">お問い合わせ</a>ください。</div><div class="faq__group"><h2>写真の利用について</h2><details class="faq__item"><summary class="faq__q">写真は無料で使えますか？</summary><div class="faq__a"><div>観光PR・報道・教育・個人のSNS投稿など、志賀町の魅力を紹介する目的であれば、申請不要・無償でご利用いただけます。ただし営利目的の利用は原則お断りしています。詳しくは<a href="terms.html">利用規約</a>をご確認ください。</div></div></details><details class="faq__item"><summary class="faq__q">申請や事前連絡は必要ですか？</summary><div class="faq__a"><div>通常のご利用であれば不要です。ただし、営利を目的とした利用、人物が大きく写る写真の掲載、画像を大きく加工する場合は、事前にご相談ください。</div></div></details><details class="faq__item"><summary class="faq__q">会員登録は必要ですか？</summary><div class="faq__a"><div>必要ありません。どなたでもそのままダウンロードいただけます。</div></div></details><details class="faq__item"><summary class="faq__q">クレジットの表記は必要ですか？</summary><div class="faq__a"><div>ダウンロードした画像には右下に「© 志賀町」が入っているため、そのままお使いいただく分には別途の表記は不要です。画像の外に表記したい場合は<a href="credit.html">著作権・クレジットについて</a>をご覧ください。</div></div></details><details class="faq__item"><summary class="faq__q">商用利用はできますか？</summary><div class="faq__a"><div><strong>営利を目的とした利用は原則としてお断りしています。</strong>ただし、志賀町の観光振興に資すると認められる場合は個別に検討しますので、まずはご相談ください。</div></div></details><details class="faq__item"><summary class="faq__q">写真を加工してもいいですか？</summary><div class="faq__a"><div>トリミングや明るさの調整など、内容を大きく変えない範囲であれば差し支えありません。合成など被写体の印象が変わる加工は事前にご相談ください。</div></div></details></div><div class="faq__group"><h2>ダウンロードについて</h2><details class="faq__item"><summary class="faq__q">ダウンロードの手順を教えてください。</summary><div class="faq__a"><div>写真のページを開き、「この写真をダウンロード」ボタンを押します。利用規約が表示されるので、内容をご確認のうえ同意にチェックを入れ、「同意してダウンロード」を押すと保存が始まります。</div></div></details><details class="faq__item"><summary class="faq__q">ダウンロードした写真にクレジットが入っています。消せますか？</summary><div class="faq__a"><div>クレジットは画像に直接書き込まれているため、通常は消すことができません。また、削除や判読できない程度の加工はお断りしています。町から利用の許可を得ている場合に限り、ダウンロード画面でクレジットなしの画像を選ぶことができます。</div></div></details><details class="faq__item"><summary class="faq__q">もっと大きいサイズの写真がほしいです。</summary><div class="faq__a"><div>印刷用など高解像度のデータが必要な場合は、用途をお知らせのうえお問い合わせください。個別に対応します。</div></div></details><details class="faq__item"><summary class="faq__q">ダウンロードできません。</summary><div class="faq__a"><div>ブラウザのバージョンが古い場合や、ダウンロードがブロックされている場合があります。ブラウザを最新版に更新するか、別のブラウザでお試しください。それでも解決しない場合はお問い合わせください。</div></div></details></div><div class="faq__group"><h2>写真の探し方</h2><details class="faq__item"><summary class="faq__q">目的の写真を探すには？</summary><div class="faq__a"><div>トップページの「写真を、見つける。」で、スポット名・季節・「夕陽」などのキーワードを入れて検索できます。撮影スポット・ジャンル・用途・季節で絞り込むこともできます。<a href="index.html#find">写真を探す</a></div></div></details><details class="faq__item"><summary class="faq__q">どんな写真がありますか？</summary><div class="faq__a"><div>世界一長いベンチ、機具岩、巌門、ヤセの断崖など、志賀町の主な観光スポットの写真を掲載しています。四季の風景や祭りの写真もあります。</div></div></details><details class="faq__item"><summary class="faq__q">写真の追加予定はありますか？</summary><div class="faq__a"><div>順次追加していく予定です。「こんな写真がほしい」というご要望もお寄せください。</div></div></details></div><div class="faq__group"><h2>写真の提供について</h2><details class="faq__item"><summary class="faq__q">自分が撮った志賀町の写真を提供したいのですが。</summary><div class="faq__a"><div>ありがとうございます。ぜひお問い合わせフォームまたはメールでご連絡ください。掲載にあたっては、著作権の取り扱いなどを個別にご相談させていただきます。</div></div></details><details class="faq__item"><summary class="faq__q">写真に自分が写っています。削除してもらえますか？</summary><div class="faq__a"><div>大変申し訳ありません。該当する写真のページのURLを添えてご連絡ください。確認のうえ速やかに対応いたします。</div></div></details></div><div class="doc__contact">
   <h2>お問い合わせ</h2>
   <p>志賀町役場 商工観光課</p>
   <p>メール：<a href="mailto:shokan@town.shika.lg.jp">shokan@town.shika.lg.jp</a>　<button class="copybtn" type="button" data-copy="shokan@town.shika.lg.jp">アドレスをコピー</button></p>
@@ -108,30 +102,23 @@
     </div>
   </section>
 </main>
-<footer class="footer">
-  <div class="container">
-    <div class="footer__top">
-      <a href="index.html" class="logo">
-        <span class="logo__mark"><svg><use href="#i-camera"/></svg></span>
-        <span class="logo__text"><span class="logo__en">志賀町</span><span class="logo__ja">SHIKA TOWN</span></span>
-      </a>
-      <div class="footer__primary">
-        <a class="footer__btn" href="https://shika-guide.jp" target="_blank" rel="noopener"><svg><use href="#i-compass"/></svg>志賀町観光情報</a>
-        <a class="footer__btn" href="https://www.instagram.com/shikatown_official/" target="_blank" rel="noopener"><svg><use href="#i-instagram"/></svg>Instagram</a>
-        <a class="footer__btn" href="index.html#contact"><svg><use href="#i-mail"/></svg>お問い合わせ</a>
-      </div>
-    </div>
-    <div class="footer__bottom">
-      <ul class="footer__links">
-        <li><a href="terms.html">利用規約</a></li>
-        <li><a href="privacy.html">プライバシーポリシー</a></li>
-        <li><a href="credit.html">著作権・クレジット</a></li>
-        <li><a href="faq.html">よくあるご質問</a></li>
-        <li><a href="instagram.html">Instagramのご紹介</a></li>
-      </ul>
-      <p class="footer__copy">© 志賀町 All Rights Reserved.</p>
+<footer class="tp-footer">
+  <div class="tp-footer__top">
+    <div class="tp-footer__logo">#しかたび<small>志賀町公式フォトライブラリー</small></div>
+    <div class="tp-footer__links">
+      <a href="https://shika-guide.jp" target="_blank" rel="noopener">志賀町観光情報 ↗</a>
+      <a href="https://www.instagram.com/shikatown_official/" target="_blank" rel="noopener">Instagram ↗</a>
+      <a href="index.html#find">写真を探す ↑</a>
     </div>
   </div>
+  <ul class="tp-footer__links" aria-label="ご利用案内">
+    <li><a href="terms.html">利用規約</a></li>
+    <li><a href="privacy.html">プライバシーポリシー</a></li>
+    <li><a href="credit.html">著作権・クレジット</a></li>
+    <li><a href="faq.html">よくあるご質問</a></li>
+    <li><a href="instagram.html">Instagramのご紹介</a></li>
+  </ul>
+  <p class="tp-footer__copy">© 志賀町 All Rights Reserved.</p>
 </footer>
 <script src="assets/js/favorites-widget.js"></script>
 <script src="assets/js/admin-gate.js"></script>

@@ -12,7 +12,7 @@
 </script>
 <title>道の駅とぎ海街道・さくら貝資料館｜SHIKA PHOTO LIBRARY</title>
 <meta name="description" content="能登の恵みと、幸せを呼ぶピンクの貝殻に出会える場所">
-<meta name="theme-color" content="#0B4F82">
+<meta name="theme-color" content="#205563">
 <link rel="icon" href="../assets/img/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="../assets/img/favicon-16x16.png">
@@ -30,8 +30,9 @@
 <link rel="canonical" href="./sakuragai.html">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Shippori+Mincho:wght@400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../assets/css/style.css">
+<link rel="stylesheet" href="../assets/css/sub.css">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "TouristAttraction", "name": "道の駅とぎ海街道・さくら貝資料館", "description": "能登の恵みと、幸せを呼ぶピンクの貝殻に出会える場所", "address": {"@type": "PostalAddress", "addressCountry": "JP", "streetAddress": "石川県羽咋郡志賀町富来領家町甲3-5"}, "image": "../assets/img/lib/P0049-hero.jpg", "inLanguage": "ja"}</script>
 </head>
 <body>
@@ -54,27 +55,20 @@
   <symbol id="i-facebook" viewBox="0 0 24 24" fill="currentColor"><path d="M14 9h2.5V5.5H14C11.8 5.5 10 7.3 10 9.5V12H8v3.5h2V22h3.5v-6.5H16l.5-3.5h-3V9.8c0-.5.4-.8.9-.8z"/></symbol>
 </svg>
 <a href="#main" class="sr-only">本文へスキップ</a>
-<header class="header header--solid" id="header">
-  <div class="header__inner">
-    <a href="../index.html" class="logo" aria-label="SHIKA PHOTO LIBRARY ホーム">
-      <span class="logo__mark"><svg><use href="#i-camera"/></svg></span>
-      <span class="logo__text">
-        <span class="logo__en">SHIKA PHOTO LIBRARY</span>
-        <span class="logo__ja">能登・志賀町 公式フォトライブラリー</span>
-      </span>
-    </a>
-    <nav class="nav" aria-label="メインナビゲーション"><ul class="nav__list"><li><a class="nav__link" href="../index.html">HOME</a></li><li><a class="nav__link" href="../spots/index.html" aria-current="page">スポットから探す</a></li><li><a class="nav__link" href="../search.html">写真から探す</a></li><li><a class="nav__link" href="../index.html#scenes">シーンで探す</a></li><li><a class="nav__link" href="../terms.html">ご利用について</a></li><li><a class="nav__link" href="../index.html#contact">お問い合わせ</a></li><li><a class="nav__link" href="#" data-admin-gate>🔒 管理者ページ</a></li></ul></nav>
-    <a class="header__fav" href="../favorites.html" aria-label="あとで見るリスト">
-      <svg><use href="#i-heart"/></svg><span class="header__fav-badge" hidden>0</span>
-    </a>
-    <a class="header__search" href="../search.html" aria-label="写真を検索"><svg><use href="#i-search"/></svg></a>
-    <button class="burger" id="btnBurger" aria-label="メニューを開く" aria-expanded="false"><svg><use href="#i-menu"/></svg></button>
+<header class="subbar" id="header">
+  <div class="subbar__inner">
+    <a class="subbar__brand" href="../index.html" aria-label="SHIKA PHOTO LIBRARY ホーム">能登・志賀町<span>公式フォトライブラリー</span></a>
+    <nav class="subbar__nav" aria-label="メインナビゲーション">
+      <a href="../index.html#find">写真を探す <span aria-hidden="true">↓</span></a>
+      <a class="header__fav" href="../favorites.html">あとで見るリスト <span class="header__fav-badge" hidden>0</span></a>
+      <button type="button" id="btnBurger" aria-expanded="false" aria-controls="drawer"><i class="tp-menu-icon" aria-hidden="true"></i><span>メニュー</span></button>
+    </nav>
   </div>
 </header>
 <div class="drawer" id="drawer">
-  <nav class="drawer__panel" aria-label="モバイルメニュー">
+  <nav class="drawer__panel" aria-label="メニュー">
     <button class="drawer__close" id="drawerClose" aria-label="メニューを閉じる"><svg><use href="#i-close"/></svg></button>
-    <a class="drawer__link" href="../index.html">HOME</a><a class="drawer__link" href="../spots/index.html">スポットから探す</a><a class="drawer__link" href="../search.html">写真から探す</a><a class="drawer__link" href="../index.html#scenes">シーンで探す</a><a class="drawer__link" href="../terms.html">ご利用について</a><a class="drawer__link" href="../index.html#contact">お問い合わせ</a><a class="drawer__link" href="#" data-admin-gate>🔒 管理者ページ</a><a class="drawer__link" href="../favorites.html">❤ あとで見るリスト</a>
+    <a class="drawer__link" href="../index.html">HOME</a><a class="drawer__link" href="../index.html#find">写真を探す</a><a class="drawer__link" href="../index.html#genres">ジャンルで探す</a><a class="drawer__link" href="../index.html#scenes">シーンで探す</a><a class="drawer__link" href="../index.html#seasons">季節から探す</a><a class="drawer__link" href="../terms.html">ご利用について</a><a class="drawer__link" href="../index.html#contact">お問い合わせ</a><a class="drawer__link" href="#" data-admin-gate>🔒 管理者ページ</a><a class="drawer__link" href="../favorites.html">❤ あとで見るリスト</a>
   </nav>
 </div>
 <main id="main">
@@ -89,7 +83,7 @@
   <nav class="breadcrumb container" aria-label="パンくずリスト">
     <ol>
       <li><a href="../index.html">HOME</a></li>
-      <li><a href="index.html">スポットから探す</a></li>
+      <li><a href="../index.html#spots">スポット</a></li>
       <li>道の駅とぎ海街道・さくら貝資料館</li>
     </ol>
   </nav>
@@ -99,7 +93,7 @@
       <div>
         <p class="spotbody__catch">能登の恵みと、幸せを呼ぶピンクの貝殻に出会える場所</p>
         <div class="spotbody__text"><p>国道249号沿いに建つ「道の駅とぎ海街道」は、増穂浦海岸のすぐそばにある志賀町の玄関口。お土産コーナーには、志賀町ならではの特産品や工芸品、季節の農産物・海産物が並びます。</p><p>ころ柿を使ったスイーツ、さざえ最中、かきもち、板ワカメ・岩海苔など、ここでしか手に入らない逸品が揃うほか、活きた海産物をその場で選んで直送できるサービスも。季節ごとに甘えびやカニが水槽に並ぶ光景も名物です。</p><p>館内には「さくら貝資料館」を併設。淡いピンク色が美しいさくら貝をはじめ、増穂浦海岸に打ち寄せる約300種類の小貝や、世界各地の貝殻を展示しています（入場無料）。</p><p>幸せを招くといわれるさくら貝を使ったクラフト体験も人気で、フォトフレームやキーホルダーなど世界に一つだけの作品を作れます（体験料1,200円〜、要予約）。</p></div>
-        <div class="spotbody__tags"><a class="tag" href="../index.html#photos">#さくら貝</a><a class="tag" href="../index.html#photos">#文化施設</a><a class="tag" href="../index.html#photos">#体験</a><a class="tag" href="../index.html#photos">#お土産</a><a class="tag" href="../index.html#photos">#屋内</a></div>
+        <div class="spotbody__tags"><a class="tag" href="../index.html?tag=%E3%81%95%E3%81%8F%E3%82%89%E8%B2%9D#find">#さくら貝</a><a class="tag" href="../index.html?tag=%E6%96%87%E5%8C%96%E6%96%BD%E8%A8%AD#find">#文化施設</a><a class="tag" href="../index.html?tag=%E4%BD%93%E9%A8%93#find">#体験</a><a class="tag" href="../index.html?tag=%E3%81%8A%E5%9C%9F%E7%94%A3#find">#お土産</a><a class="tag" href="../index.html?tag=%E5%B1%8B%E5%86%85#find">#屋内</a></div>
       </div>
       <aside class="infobox">
         <p class="infobox__title">INFORMATION</p>
@@ -115,7 +109,7 @@
         <div>
           <span class="section__eyebrow">PHOTOS</span>
           <h2 class="section__title">道の駅とぎ海街道・さくら貝資料館の写真</h2>
-          <p class="section__lead">写真をクリックすると拡大表示します。</p>
+          <p class="section__lead">代表の写真です。クリックすると拡大表示します。</p>
         </div>
         <span class="section__more">全33枚</span>
       </div>
@@ -155,70 +149,8 @@
     </button><button class="gallery__item" type="button" data-index="11" data-large="../assets/img/lib/P0579-large.jpg" data-caption="縁結び石_3" data-photo="P0579">
       <img src="../assets/img/lib/P0579-thumb.jpg" alt="縁結び石_3" loading="lazy" width="640" height="480">
       <span class="gallery__cap">縁結び石_3</span>
-    </button><button class="gallery__item" type="button" data-index="12" data-large="../assets/img/lib/P0335-large.jpg" data-caption="さくら貝資料館_4" data-photo="P0335">
-      <img src="../assets/img/lib/P0335-thumb.jpg" alt="さくら貝資料館_4" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">さくら貝資料館_4</span>
-    </button><button class="gallery__item" type="button" data-index="13" data-large="../assets/img/lib/P0336-large.jpg" data-caption="さくら貝資料館_5" data-photo="P0336">
-      <img src="../assets/img/lib/P0336-thumb.jpg" alt="さくら貝資料館_5" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">さくら貝資料館_5</span>
-    </button><button class="gallery__item" type="button" data-index="14" data-large="../assets/img/lib/P0337-large.jpg" data-caption="道の駅とぎ海街道_かに" data-photo="P0337">
-      <img src="../assets/img/lib/P0337-thumb.jpg" alt="道の駅とぎ海街道_かに" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">道の駅とぎ海街道_かに</span>
-    </button><button class="gallery__item" type="button" data-index="15" data-large="../assets/img/lib/P0339-large.jpg" data-caption="道の駅とぎ海街道_甘えびかきあげバーガー" data-photo="P0339">
-      <img src="../assets/img/lib/P0339-thumb.jpg" alt="道の駅とぎ海街道_甘えびかきあげバーガー" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">道の駅とぎ海街道_甘えびかきあげバーガー</span>
-    </button><button class="gallery__item" type="button" data-index="16" data-large="../assets/img/lib/P0340-large.jpg" data-caption="道の駅とぎ海街道_甘えびかきあげバーガー" data-photo="P0340">
-      <img src="../assets/img/lib/P0340-thumb.jpg" alt="道の駅とぎ海街道_甘えびかきあげバーガー" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">道の駅とぎ海街道_甘えびかきあげバーガー</span>
-    </button><button class="gallery__item" type="button" data-index="17" data-large="../assets/img/lib/P0341-large.jpg" data-caption="道の駅とぎ海街道_海鮮丼＆甘えびかきあげバーガー" data-photo="P0341">
-      <img src="../assets/img/lib/P0341-thumb.jpg" alt="道の駅とぎ海街道_海鮮丼＆甘えびかきあげバーガー" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">道の駅とぎ海街道_海鮮丼＆甘えびかきあげバーガー</span>
-    </button><button class="gallery__item" type="button" data-index="18" data-large="../assets/img/lib/P0342-large.jpg" data-caption="道の駅とぎ海街道_カネヨ醤油" data-photo="P0342">
-      <img src="../assets/img/lib/P0342-thumb.jpg" alt="道の駅とぎ海街道_カネヨ醤油" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">道の駅とぎ海街道_カネヨ醤油</span>
-    </button><button class="gallery__item" type="button" data-index="19" data-large="../assets/img/lib/P0343-large.jpg" data-caption="道の駅とぎ海街道_キリコ" data-photo="P0343">
-      <img src="../assets/img/lib/P0343-thumb.jpg" alt="道の駅とぎ海街道_キリコ" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">道の駅とぎ海街道_キリコ</span>
-    </button><button class="gallery__item" type="button" data-index="20" data-large="../assets/img/lib/P0344-large.jpg" data-caption="道の駅とぎ海街道_志賀町優良特産品" data-photo="P0344">
-      <img src="../assets/img/lib/P0344-thumb.jpg" alt="道の駅とぎ海街道_志賀町優良特産品" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">道の駅とぎ海街道_志賀町優良特産品</span>
-    </button><button class="gallery__item" type="button" data-index="21" data-large="../assets/img/lib/P0345-large.jpg" data-caption="道の駅とぎ海街道_海鮮丼" data-photo="P0345">
-      <img src="../assets/img/lib/P0345-thumb.jpg" alt="道の駅とぎ海街道_海鮮丼" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">道の駅とぎ海街道_海鮮丼</span>
-    </button><button class="gallery__item" type="button" data-index="22" data-large="../assets/img/lib/P0347-large.jpg" data-caption="道の駅とぎ海街道_さざえ" data-photo="P0347">
-      <img src="../assets/img/lib/P0347-thumb.jpg" alt="道の駅とぎ海街道_さざえ" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">道の駅とぎ海街道_さざえ</span>
-    </button><button class="gallery__item" type="button" data-index="23" data-large="../assets/img/lib/P0349-large.jpg" data-caption="道の駅とぎ海街道館内_2" data-photo="P0349">
-      <img src="../assets/img/lib/P0349-thumb.jpg" alt="道の駅とぎ海街道館内_2" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">道の駅とぎ海街道館内_2</span>
-    </button><button class="gallery__item" type="button" data-index="24" data-large="../assets/img/lib/P0351-large.jpg" data-caption="さくら貝資料館_6" data-photo="P0351">
-      <img src="../assets/img/lib/P0351-thumb.jpg" alt="さくら貝資料館_6" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">さくら貝資料館_6</span>
-    </button><button class="gallery__item" type="button" data-index="25" data-large="../assets/img/lib/P0352-large.jpg" data-caption="さくら貝資料館_7" data-photo="P0352">
-      <img src="../assets/img/lib/P0352-thumb.jpg" alt="さくら貝資料館_7" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">さくら貝資料館_7</span>
-    </button><button class="gallery__item" type="button" data-index="26" data-large="../assets/img/lib/P0353-large.jpg" data-caption="さくら貝資料館_8" data-photo="P0353">
-      <img src="../assets/img/lib/P0353-thumb.jpg" alt="さくら貝資料館_8" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">さくら貝資料館_8</span>
-    </button><button class="gallery__item" type="button" data-index="27" data-large="../assets/img/lib/P0354-large.jpg" data-caption="さくら貝資料館_9" data-photo="P0354">
-      <img src="../assets/img/lib/P0354-thumb.jpg" alt="さくら貝資料館_9" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">さくら貝資料館_9</span>
-    </button><button class="gallery__item" type="button" data-index="28" data-large="../assets/img/lib/P0355-large.jpg" data-caption="さくら貝資料館_10" data-photo="P0355">
-      <img src="../assets/img/lib/P0355-thumb.jpg" alt="さくら貝資料館_10" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">さくら貝資料館_10</span>
-    </button><button class="gallery__item" type="button" data-index="29" data-large="../assets/img/lib/P0356-large.jpg" data-caption="さくら貝資料館_11" data-photo="P0356">
-      <img src="../assets/img/lib/P0356-thumb.jpg" alt="さくら貝資料館_11" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">さくら貝資料館_11</span>
-    </button><button class="gallery__item" type="button" data-index="30" data-large="../assets/img/lib/P0358-large.jpg" data-caption="さくら貝資料館_13" data-photo="P0358">
-      <img src="../assets/img/lib/P0358-thumb.jpg" alt="さくら貝資料館_13" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">さくら貝資料館_13</span>
-    </button><button class="gallery__item" type="button" data-index="31" data-large="../assets/img/lib/P0360-large.jpg" data-caption="さくら貝資料館_14" data-photo="P0360">
-      <img src="../assets/img/lib/P0360-thumb.jpg" alt="さくら貝資料館_14" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">さくら貝資料館_14</span>
-    </button><button class="gallery__item" type="button" data-index="32" data-large="../assets/img/lib/P0361-large.jpg" data-caption="さくら貝資料館_15" data-photo="P0361">
-      <img src="../assets/img/lib/P0361-thumb.jpg" alt="さくら貝資料館_15" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">さくら貝資料館_15</span>
     </button></div>
+      <a class="spot-allbtn" href="../index.html?spot=%E9%81%93%E3%81%AE%E9%A7%85%E3%81%A8%E3%81%8E%E6%B5%B7%E8%A1%97%E9%81%93%E3%83%BB%E3%81%95%E3%81%8F%E3%82%89%E8%B2%9D%E8%B3%87%E6%96%99%E9%A4%A8#find">このスポットの写真をすべて見る（33枚） <span aria-hidden="true">→</span></a>
     </div>
   </section>
 
@@ -229,10 +161,10 @@
           <span class="section__eyebrow">RELATED</span>
           <h2 class="section__title">近くのスポット</h2>
         </div>
-        <a class="section__more" href="index.html">すべて見る <svg><use href="#i-arrow"/></svg></a>
+        <a class="section__more" href="../index.html#spots">トップのスポット一覧へ <svg><use href="#i-arrow"/></svg></a>
       </div>
       <div class="spot-grid"><a class="spot-card" href="taira.html" data-area="志賀エリア">
-  <div class="spot-card__media"><img src="../assets/img/lib/P0062-hero.jpg" alt="平家" loading="lazy" width="2000" height="1125"></div>
+  <div class="spot-card__media"><img src="../assets/img/lib/P0062-thumb.jpg" alt="平家" loading="lazy" width="640" height="480"></div>
   <div class="spot-card__body">
     <h3 class="spot-card__name">平家</h3>
     <p class="spot-card__area"><svg><use href="#i-pin"/></svg>志賀エリア</p>
@@ -240,7 +172,7 @@
   </div>
 </a>
 <a class="spot-card" href="matsuo.html" data-area="富来エリア">
-  <div class="spot-card__media"><img src="../assets/img/lib/P0144-hero.jpg" alt="松尾神社" loading="lazy" width="2000" height="1125"></div>
+  <div class="spot-card__media"><img src="../assets/img/lib/P0144-thumb.jpg" alt="松尾神社" loading="lazy" width="640" height="480"></div>
   <div class="spot-card__body">
     <h3 class="spot-card__name">松尾神社</h3>
     <p class="spot-card__area"><svg><use href="#i-pin"/></svg>富来エリア</p>
@@ -248,7 +180,7 @@
   </div>
 </a>
 <a class="spot-card" href="other.html" data-area="">
-  <div class="spot-card__media"><img src="../assets/img/lib/P0007-hero.jpg" alt="その他" loading="lazy" width="2000" height="1125"></div>
+  <div class="spot-card__media"><img src="../assets/img/lib/P0007-thumb.jpg" alt="その他" loading="lazy" width="640" height="480"></div>
   <div class="spot-card__body">
     <h3 class="spot-card__name">その他</h3>
     <p class="spot-card__area"><svg><use href="#i-pin"/></svg></p>
@@ -256,7 +188,7 @@
   </div>
 </a>
 <a class="spot-card" href="bench.html" data-area="富来エリア">
-  <div class="spot-card__media"><img src="../assets/img/lib/P0008-hero.jpg" alt="世界一長いベンチ・増穂浦海岸" loading="lazy" width="2000" height="1125"></div>
+  <div class="spot-card__media"><img src="../assets/img/lib/P0008-thumb.jpg" alt="世界一長いベンチ・増穂浦海岸" loading="lazy" width="640" height="480"></div>
   <div class="spot-card__body">
     <h3 class="spot-card__name">世界一長いベンチ・増穂浦海岸</h3>
     <p class="spot-card__area"><svg><use href="#i-pin"/></svg>富来エリア</p>
@@ -278,30 +210,23 @@
     <a class="lightbox__link" id="lbLink" href="#" hidden>写真の詳細・ダウンロード →</a>
   </div>
 </div>
-<footer class="footer">
-  <div class="container">
-    <div class="footer__top">
-      <a href="../index.html" class="logo">
-        <span class="logo__mark"><svg><use href="#i-camera"/></svg></span>
-        <span class="logo__text"><span class="logo__en">志賀町</span><span class="logo__ja">SHIKA TOWN</span></span>
-      </a>
-      <div class="footer__primary">
-        <a class="footer__btn" href="https://shika-guide.jp" target="_blank" rel="noopener"><svg><use href="#i-compass"/></svg>志賀町観光情報</a>
-        <a class="footer__btn" href="https://www.instagram.com/shikatown_official/" target="_blank" rel="noopener"><svg><use href="#i-instagram"/></svg>Instagram</a>
-        <a class="footer__btn" href="../index.html#contact"><svg><use href="#i-mail"/></svg>お問い合わせ</a>
-      </div>
-    </div>
-    <div class="footer__bottom">
-      <ul class="footer__links">
-        <li><a href="../terms.html">利用規約</a></li>
-        <li><a href="../privacy.html">プライバシーポリシー</a></li>
-        <li><a href="../credit.html">著作権・クレジット</a></li>
-        <li><a href="../faq.html">よくあるご質問</a></li>
-        <li><a href="../instagram.html">Instagramのご紹介</a></li>
-      </ul>
-      <p class="footer__copy">© 志賀町 All Rights Reserved.</p>
+<footer class="tp-footer">
+  <div class="tp-footer__top">
+    <div class="tp-footer__logo">#しかたび<small>志賀町公式フォトライブラリー</small></div>
+    <div class="tp-footer__links">
+      <a href="https://shika-guide.jp" target="_blank" rel="noopener">志賀町観光情報 ↗</a>
+      <a href="https://www.instagram.com/shikatown_official/" target="_blank" rel="noopener">Instagram ↗</a>
+      <a href="../index.html#find">写真を探す ↑</a>
     </div>
   </div>
+  <ul class="tp-footer__links" aria-label="ご利用案内">
+    <li><a href="../terms.html">利用規約</a></li>
+    <li><a href="../privacy.html">プライバシーポリシー</a></li>
+    <li><a href="../credit.html">著作権・クレジット</a></li>
+    <li><a href="../faq.html">よくあるご質問</a></li>
+    <li><a href="../instagram.html">Instagramのご紹介</a></li>
+  </ul>
+  <p class="tp-footer__copy">© 志賀町 All Rights Reserved.</p>
 </footer>
 <script src="../assets/js/favorites-widget.js"></script>
 <script src="../assets/js/admin-gate.js"></script>

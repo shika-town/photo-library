@@ -268,7 +268,7 @@ FAQ = [
  ]),
  ('写真の探し方', [
    ('目的の写真を探すには？',
-    '画面上部の検索ボックスに、スポット名・季節・「夕陽」などのキーワードを入れて検索できます。<a href="spots/">スポットから探す</a>で観光地ごとに見ることもできます。'),
+    'トップページの「写真を、見つける。」で、スポット名・季節・「夕陽」などのキーワードを入れて検索できます。撮影スポット・ジャンル・用途・季節で絞り込むこともできます。<a href="index.html#find">写真を探す</a>'),
    ('どんな写真がありますか？',
     '世界一長いベンチ、機具岩、巌門、ヤセの断崖など、志賀町の主な観光スポットの写真を掲載しています。四季の風景や祭りの写真もあります。'),
    ('写真の追加予定はありますか？',
@@ -338,8 +338,8 @@ nf += '''
       </p>
       <div class="notfound__actions">
         <a class="notfound__btn notfound__btn--primary" href="index.html">トップページへ</a>
-        <a class="notfound__btn notfound__btn--ghost" href="search.html">写真から探す</a>
-        <a class="notfound__btn notfound__btn--ghost" href="spots/">スポットから探す</a>
+        <a class="notfound__btn notfound__btn--ghost" href="index.html#find">写真を探す</a>
+        <a class="notfound__btn notfound__btn--ghost" href="index.html#spots">スポットから探す</a>
       </div>
     </div>
   </section>

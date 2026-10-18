@@ -70,7 +70,7 @@ for i, p in enumerate(PHOTOS):
     # タグは自由文検索（q=）ではなく、そのタグが実際に付いている写真だけに絞り込む
     # 専用パラメータ（tag=）にリンクする（タイトルやスポット名にたまたま同じ文字が
     # 含まれる無関係な写真まで拾ってしまうのを防ぐため）。
-    tags_html = ''.join('<a class="tag" href="../search.html?tag=%s">#%s</a>'
+    tags_html = ''.join('<a class="tag" href="../index.html?tag=%s#find">#%s</a>'
                         % (urllib.parse.quote(t), E(t)) for t in p['tags'])
 
     terms_html = ''.join('<li>・%s</li>' % E(t) for t in TERMS)
@@ -118,13 +118,13 @@ for i, p in enumerate(PHOTOS):
                    % (p['title'], p['spot'], p['area']),
                    '../' + p['large'], './%s.html' % p['id'])
     page += '<script type="application/ld+json">%s</script>\n</head>\n<body>\n' % ld
-    page += bs.SPRITE + '\n<a href="#main" class="sr-only">本文へスキップ</a>\n' + bs.header('写真から探す')
+    page += bs.SPRITE + '\n<a href="#main" class="sr-only">本文へスキップ</a>\n' + bs.header()
     page += '''
 <main id="main">
   <nav class="breadcrumb container" aria-label="パンくずリスト">
     <ol>
       <li><a href="../index.html">HOME</a></li>
-      <li><a href="../search.html">写真から探す</a></li>
+      <li><a href="../index.html#find">写真を探す</a></li>
       %s
       <li>%s</li>
     </ol>

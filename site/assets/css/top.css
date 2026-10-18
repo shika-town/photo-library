@@ -328,3 +328,4 @@ body.tp [hidden] { display: none !important; }
 }
 @media (max-width: 370px) { .tp-section { padding-left: 20px; padding-right: 20px; } }
 @media (max-width: 700px) { .tp-ranking .tp-rank .favbtn { right: auto; left: 94px; top: 6px; width: 30px; height: 30px; } }
+.tp-spots--rest { margin-top: 24px; }

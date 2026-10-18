@@ -111,6 +111,22 @@
     document.title = d.site.name + '｜' + d.site.nameJa;
 
     $('#spotGrid').innerHTML   = d.spots.map(spotCard).join('');
+    // 先頭の4つ以外のスポットは「すべてのスポット」で展開する（スポット一覧ページの代わり）
+    var shown = d.spots.map(function (s) { return s.id; });
+    var rest = (d.allSpots || []).filter(function (s) { return shown.indexOf(s.id) === -1; });
+    $('#spotRest').innerHTML = rest.map(spotCard).join('');
+    var more = $('#spotsMore');
+    if (rest.length && more) {
+      more.hidden = false;
+      var label = function (open) { more.innerHTML = (open ? '閉じる' : 'すべてのスポット（' + (shown.length + rest.length) + '件）') + ' <span aria-hidden="true">' + (open ? '↑' : '↓') + '</span>'; };
+      label(false);
+      more.addEventListener('click', function () {
+        var open = more.getAttribute('aria-expanded') !== 'true';
+        more.setAttribute('aria-expanded', String(open));
+        $('#spotRest').hidden = !open;
+        label(open);
+      });
+    }
     $('#genreGrid').innerHTML  = (d.genres || []).map(genreCard).join('');
     $('#sceneGrid').innerHTML  = (d.scenes || []).map(sceneButton).join('');
     $('#photoGrid').innerHTML  = d.photos.slice(0, 8).map(photoCard).join('');   // 新着は8件（PC4列×2行）

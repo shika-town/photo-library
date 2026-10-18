@@ -382,5 +382,97 @@ window.SPL_DATA = {
       "image": "assets/img/lib/P0007-scene.jpg",
       "alt": "尊保の桜並木"
     }
+  ],
+  "allSpots": [
+    {
+      "id": "bench",
+      "name": "世界一長いベンチ・増穂浦海岸",
+      "area": "富来エリア",
+      "count": 85,
+      "image": "assets/img/lib/P0008-hero.jpg",
+      "alt": "世界一長いベンチ・増穂浦海岸",
+      "description": "海・貝・夕日、そして記憶に残る長さ"
+    },
+    {
+      "id": "hatago",
+      "name": "機具岩",
+      "area": "富来エリア",
+      "count": 42,
+      "image": "assets/img/lib/P0001-hero.jpg",
+      "alt": "機具岩",
+      "description": "二つの岩が寄り添う夫婦岩。能登屈指のマジックアワーポイント。"
+    },
+    {
+      "id": "gate",
+      "name": "巌門",
+      "area": "富来エリア",
+      "count": 62,
+      "image": "assets/img/lib/P0020-hero.jpg",
+      "alt": "巌門",
+      "description": "日本海が作り上げた芸術"
+    },
+    {
+      "id": "benten",
+      "name": "弁天島",
+      "area": "志賀エリア",
+      "count": 25,
+      "image": "assets/img/lib/P0026-hero.jpg",
+      "alt": "弁天島",
+      "description": "夕日に照らされて幻想的に描かれる、美しい自然のシルエット"
+    },
+    {
+      "id": "yase",
+      "name": "ヤセの断崖・義経の舟隠し",
+      "area": "富来エリア",
+      "count": 11,
+      "image": "assets/img/lib/P0032-hero.jpg",
+      "alt": "ヤセの断崖・義経の舟隠し",
+      "description": "『ゼロの焦点』の舞台と、義経が舟を隠した入り江"
+    },
+    {
+      "id": "fukura",
+      "name": "旧福浦灯台",
+      "area": "富来エリア",
+      "count": 33,
+      "image": "assets/img/lib/P0005-hero.jpg",
+      "alt": "旧福浦灯台",
+      "description": "海を照らし続けた、時を超えるあかり。日本最古の木造灯台。"
+    },
+    {
+      "id": "shogando",
+      "name": "大島諸願堂・大島キャンプ場",
+      "area": "志賀エリア",
+      "count": 37,
+      "image": "assets/img/lib/P0042-hero.jpg",
+      "alt": "大島諸願堂・大島キャンプ場",
+      "description": "石積みの六角地蔵塔と、白砂青松の海辺のキャンプ場"
+    },
+    {
+      "id": "sakuragai",
+      "name": "道の駅とぎ海街道・さくら貝資料館",
+      "area": "富来エリア",
+      "count": 33,
+      "image": "assets/img/lib/P0049-hero.jpg",
+      "alt": "道の駅とぎ海街道・さくら貝資料館",
+      "description": "能登の恵みと、幸せを呼ぶピンクの貝殻に出会える場所"
+    },
+    {
+      "id": "taira",
+      "name": "平家",
+      "area": "志賀エリア",
+      "count": 14,
+      "image": "assets/img/lib/P0062-hero.jpg",
+      "alt": "平家",
+      "description": "天領大庄屋の屋敷に残る、幽玄な庭園"
+    },
+    {
+      "id": "matsuo",
+      "name": "松尾神社",
+      "area": "富来エリア",
+      "count": 4,
+      "image": "assets/img/lib/P0144-hero.jpg",
+      "alt": "松尾神社",
+      "description": ""
+    }
   ]
 };

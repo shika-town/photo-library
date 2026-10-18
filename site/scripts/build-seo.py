@@ -25,7 +25,7 @@ else:
 io.open(os.path.join(BASE, 'robots.txt'), 'w', encoding='utf-8').write(robots)
 
 # ---------- sitemap.xml ----------
-urls  = [('', '1.0', 'weekly'), ('search.html', '0.9', 'weekly'), ('spots/', '0.8', 'weekly')]
+urls  = [('', '1.0', 'weekly')]
 urls += [('spots/%s.html'  % s['id'], '0.7', 'monthly') for s in spots]
 urls += [('photos/%s.html' % p['id'], '0.5', 'monthly') for p in lib]
 urls += [(n, '0.4', 'yearly') for n in ('terms.html', 'privacy.html', 'credit.html', 'faq.html')]

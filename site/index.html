@@ -120,6 +120,7 @@
     <form id="tpForm" role="search">
       <div class="tp-field">
         <label for="tpQuery"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><span class="sr-only">キーワード</span></label>
+        <input id="tpTag" type="hidden">
         <input id="tpQuery" type="search" placeholder="巌門、海 夕日、さくら貝" autocomplete="off" enterkeyhint="search">
         <button class="tp-btn" type="submit">検索</button>
       </div>
@@ -162,9 +163,10 @@
         <h2>人気のスポット</h2>
         <p class="tp-lead">志賀町を代表する景色を、写真からたどる。</p>
       </div>
-      <a class="tp-link" href="spots/index.html">すべてのスポット <span aria-hidden="true">↗</span></a>
+      <button class="tp-link" id="spotsMore" type="button" aria-expanded="false" aria-controls="spotRest" hidden>すべてのスポット <span aria-hidden="true">↓</span></button>
     </div>
     <div class="tp-grid tp-spots" id="spotGrid"></div>
+    <div class="tp-grid tp-spots tp-spots--rest" id="spotRest" hidden></div>
   </section>
 
   <!-- ================= ジャンルで探す ================= -->
@@ -249,7 +251,7 @@
         <h2>写真から探す</h2>
         <p class="tp-lead">新着写真から、気になる一枚を。</p>
       </div>
-      <a class="tp-link" href="search.html">すべての写真 <span aria-hidden="true">↗</span></a>
+      <button class="tp-link" type="button" data-all-photos>すべての写真を見る <span aria-hidden="true">↓</span></button>
     </div>
     <div class="tp-grid tp-new" id="photoGrid"></div>
   </section>
@@ -324,8 +326,7 @@
     <button class="drawer__close" id="drawerClose" aria-label="メニューを閉じる"><svg><use href="#i-close"/></svg></button>
     <a class="drawer__link" href="index.html">HOME</a>
     <a class="drawer__link" href="#find">写真を探す</a>
-    <a class="drawer__link" href="spots/index.html">スポットから探す</a>
-    <a class="drawer__link" href="search.html">写真から探す</a>
+    <a class="drawer__link" href="#spots">スポットから探す</a>
     <a class="drawer__link" href="#genres">ジャンルで探す</a>
     <a class="drawer__link" href="#scenes">シーンで探す</a>
     <a class="drawer__link" href="#seasons">季節から探す</a>

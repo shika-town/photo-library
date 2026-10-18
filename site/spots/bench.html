@@ -12,7 +12,7 @@
 </script>
 <title>世界一長いベンチ・増穂浦海岸｜SHIKA PHOTO LIBRARY</title>
 <meta name="description" content="海・貝・夕日、そして記憶に残る長さ">
-<meta name="theme-color" content="#0B4F82">
+<meta name="theme-color" content="#205563">
 <link rel="icon" href="../assets/img/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="../assets/img/favicon-16x16.png">
@@ -30,8 +30,9 @@
 <link rel="canonical" href="./bench.html">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Shippori+Mincho:wght@400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../assets/css/style.css">
+<link rel="stylesheet" href="../assets/css/sub.css">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "TouristAttraction", "name": "世界一長いベンチ・増穂浦海岸", "description": "海・貝・夕日、そして記憶に残る長さ", "address": {"@type": "PostalAddress", "addressCountry": "JP", "streetAddress": "石川県羽咋郡志賀町富来領家町"}, "image": "../assets/img/lib/P0008-hero.jpg", "inLanguage": "ja"}</script>
 </head>
 <body>
@@ -54,27 +55,20 @@
   <symbol id="i-facebook" viewBox="0 0 24 24" fill="currentColor"><path d="M14 9h2.5V5.5H14C11.8 5.5 10 7.3 10 9.5V12H8v3.5h2V22h3.5v-6.5H16l.5-3.5h-3V9.8c0-.5.4-.8.9-.8z"/></symbol>
 </svg>
 <a href="#main" class="sr-only">本文へスキップ</a>
-<header class="header header--solid" id="header">
-  <div class="header__inner">
-    <a href="../index.html" class="logo" aria-label="SHIKA PHOTO LIBRARY ホーム">
-      <span class="logo__mark"><svg><use href="#i-camera"/></svg></span>
-      <span class="logo__text">
-        <span class="logo__en">SHIKA PHOTO LIBRARY</span>
-        <span class="logo__ja">能登・志賀町 公式フォトライブラリー</span>
-      </span>
-    </a>
-    <nav class="nav" aria-label="メインナビゲーション"><ul class="nav__list"><li><a class="nav__link" href="../index.html">HOME</a></li><li><a class="nav__link" href="../spots/index.html" aria-current="page">スポットから探す</a></li><li><a class="nav__link" href="../search.html">写真から探す</a></li><li><a class="nav__link" href="../index.html#scenes">シーンで探す</a></li><li><a class="nav__link" href="../terms.html">ご利用について</a></li><li><a class="nav__link" href="../index.html#contact">お問い合わせ</a></li><li><a class="nav__link" href="#" data-admin-gate>🔒 管理者ページ</a></li></ul></nav>
-    <a class="header__fav" href="../favorites.html" aria-label="あとで見るリスト">
-      <svg><use href="#i-heart"/></svg><span class="header__fav-badge" hidden>0</span>
-    </a>
-    <a class="header__search" href="../search.html" aria-label="写真を検索"><svg><use href="#i-search"/></svg></a>
-    <button class="burger" id="btnBurger" aria-label="メニューを開く" aria-expanded="false"><svg><use href="#i-menu"/></svg></button>
+<header class="subbar" id="header">
+  <div class="subbar__inner">
+    <a class="subbar__brand" href="../index.html" aria-label="SHIKA PHOTO LIBRARY ホーム">能登・志賀町<span>公式フォトライブラリー</span></a>
+    <nav class="subbar__nav" aria-label="メインナビゲーション">
+      <a href="../index.html#find">写真を探す <span aria-hidden="true">↓</span></a>
+      <a class="header__fav" href="../favorites.html">あとで見るリスト <span class="header__fav-badge" hidden>0</span></a>
+      <button type="button" id="btnBurger" aria-expanded="false" aria-controls="drawer"><i class="tp-menu-icon" aria-hidden="true"></i><span>メニュー</span></button>
+    </nav>
   </div>
 </header>
 <div class="drawer" id="drawer">
-  <nav class="drawer__panel" aria-label="モバイルメニュー">
+  <nav class="drawer__panel" aria-label="メニュー">
     <button class="drawer__close" id="drawerClose" aria-label="メニューを閉じる"><svg><use href="#i-close"/></svg></button>
-    <a class="drawer__link" href="../index.html">HOME</a><a class="drawer__link" href="../spots/index.html">スポットから探す</a><a class="drawer__link" href="../search.html">写真から探す</a><a class="drawer__link" href="../index.html#scenes">シーンで探す</a><a class="drawer__link" href="../terms.html">ご利用について</a><a class="drawer__link" href="../index.html#contact">お問い合わせ</a><a class="drawer__link" href="#" data-admin-gate>🔒 管理者ページ</a><a class="drawer__link" href="../favorites.html">❤ あとで見るリスト</a>
+    <a class="drawer__link" href="../index.html">HOME</a><a class="drawer__link" href="../index.html#find">写真を探す</a><a class="drawer__link" href="../index.html#genres">ジャンルで探す</a><a class="drawer__link" href="../index.html#scenes">シーンで探す</a><a class="drawer__link" href="../index.html#seasons">季節から探す</a><a class="drawer__link" href="../terms.html">ご利用について</a><a class="drawer__link" href="../index.html#contact">お問い合わせ</a><a class="drawer__link" href="#" data-admin-gate>🔒 管理者ページ</a><a class="drawer__link" href="../favorites.html">❤ あとで見るリスト</a>
   </nav>
 </div>
 <main id="main">
@@ -89,7 +83,7 @@
   <nav class="breadcrumb container" aria-label="パンくずリスト">
     <ol>
       <li><a href="../index.html">HOME</a></li>
-      <li><a href="index.html">スポットから探す</a></li>
+      <li><a href="../index.html#spots">スポット</a></li>
       <li>世界一長いベンチ・増穂浦海岸</li>
     </ol>
   </nav>
@@ -99,7 +93,7 @@
       <div>
         <p class="spotbody__catch">海・貝・夕日、そして記憶に残る長さ</p>
         <div class="spotbody__text"><p>増穂浦海岸に沿って続く「世界一長いベンチ」は、全長460.9m。1987年に地元住民の手で造られ、1989年にはギネスブックに世界一として掲載されました。現在は世界一の座を譲っていますが、そのスケールとロケーションは変わらず、志賀町を代表する景色です。</p><p>ベンチは海岸の高台に沿って設置され、日本海を見下ろす絶好の位置にあります。目の前には幸せを呼ぶといわれるさくら貝が打ち寄せる浜辺が広がり、夕暮れには日本海に沈む夕日が空と海を染め上げます。</p><p>砂浜は白砂青松が約4kmにわたって続き、透明度の高い海と穏やかな波から「日本の水浴場55選」にも選ばれています。11月から3月に吹く「貝寄せの風」の頃には、さくら貝をはじめ三十六歌仙貝と呼ばれる貝殻が浜辺に流れ着きます。</p><p>2023年冬に老朽化のため一時撤去されましたが、2024年5月に再設置され、地域の復興の象徴として新たなスタートを切りました。</p></div>
-        <div class="spotbody__tags"><a class="tag" href="../index.html#photos">#夕陽</a><a class="tag" href="../index.html#photos">#海</a><a class="tag" href="../index.html#photos">#ベンチ</a><a class="tag" href="../index.html#photos">#さくら貝</a><a class="tag" href="../index.html#photos">#空撮</a></div>
+        <div class="spotbody__tags"><a class="tag" href="../index.html?tag=%E5%A4%95%E9%99%BD#find">#夕陽</a><a class="tag" href="../index.html?tag=%E6%B5%B7#find">#海</a><a class="tag" href="../index.html?tag=%E3%83%99%E3%83%B3%E3%83%81#find">#ベンチ</a><a class="tag" href="../index.html?tag=%E3%81%95%E3%81%8F%E3%82%89%E8%B2%9D#find">#さくら貝</a><a class="tag" href="../index.html?tag=%E7%A9%BA%E6%92%AE#find">#空撮</a></div>
       </div>
       <aside class="infobox">
         <p class="infobox__title">INFORMATION</p>
@@ -115,7 +109,7 @@
         <div>
           <span class="section__eyebrow">PHOTOS</span>
           <h2 class="section__title">世界一長いベンチ・増穂浦海岸の写真</h2>
-          <p class="section__lead">写真をクリックすると拡大表示します。</p>
+          <p class="section__lead">代表の写真です。クリックすると拡大表示します。</p>
         </div>
         <span class="section__more">全85枚</span>
       </div>
@@ -155,226 +149,8 @@
     </button><button class="gallery__item" type="button" data-index="11" data-large="../assets/img/lib/P0811-large.jpg" data-caption="いろいろな貝" data-photo="P0811">
       <img src="../assets/img/lib/P0811-thumb.jpg" alt="いろいろな貝" loading="lazy" width="640" height="480">
       <span class="gallery__cap">いろいろな貝</span>
-    </button><button class="gallery__item" type="button" data-index="12" data-large="../assets/img/lib/P0816-large.jpg" data-caption="世界一長いベンチ_23" data-photo="P0816">
-      <img src="../assets/img/lib/P0816-thumb.jpg" alt="世界一長いベンチ_23" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">世界一長いベンチ_23</span>
-    </button><button class="gallery__item" type="button" data-index="13" data-large="../assets/img/lib/P0683-large.jpg" data-caption="増穂浦海岸_7" data-photo="P0683">
-      <img src="../assets/img/lib/P0683-thumb.jpg" alt="増穂浦海岸_7" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">増穂浦海岸_7</span>
-    </button><button class="gallery__item" type="button" data-index="14" data-large="../assets/img/lib/P0780-large.jpg" data-caption="増穂浦海岸_10" data-photo="P0780">
-      <img src="../assets/img/lib/P0780-thumb.jpg" alt="増穂浦海岸_10" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">増穂浦海岸_10</span>
-    </button><button class="gallery__item" type="button" data-index="15" data-large="../assets/img/lib/P0789-large.jpg" data-caption="さくら貝_6" data-photo="P0789">
-      <img src="../assets/img/lib/P0789-thumb.jpg" alt="さくら貝_6" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">さくら貝_6</span>
-    </button><button class="gallery__item" type="button" data-index="16" data-large="../assets/img/lib/P0804-large.jpg" data-caption="増穂浦海岸_14" data-photo="P0804">
-      <img src="../assets/img/lib/P0804-thumb.jpg" alt="増穂浦海岸_14" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">増穂浦海岸_14</span>
-    </button><button class="gallery__item" type="button" data-index="17" data-large="../assets/img/lib/P0817-large.jpg" data-caption="世界一長いベンチ_24" data-photo="P0817">
-      <img src="../assets/img/lib/P0817-thumb.jpg" alt="世界一長いベンチ_24" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">世界一長いベンチ_24</span>
-    </button><button class="gallery__item" type="button" data-index="18" data-large="../assets/img/lib/P0841-large.jpg" data-caption="世界一長いベンチ_34" data-photo="P0841">
-      <img src="../assets/img/lib/P0841-thumb.jpg" alt="世界一長いベンチ_34" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">世界一長いベンチ_34</span>
-    </button><button class="gallery__item" type="button" data-index="19" data-large="../assets/img/lib/P0684-large.jpg" data-caption="増穂浦海岸_8" data-photo="P0684">
-      <img src="../assets/img/lib/P0684-thumb.jpg" alt="増穂浦海岸_8" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">増穂浦海岸_8</span>
-    </button><button class="gallery__item" type="button" data-index="20" data-large="../assets/img/lib/P0781-large.jpg" data-caption="増穂浦海岸_11" data-photo="P0781">
-      <img src="../assets/img/lib/P0781-thumb.jpg" alt="増穂浦海岸_11" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">増穂浦海岸_11</span>
-    </button><button class="gallery__item" type="button" data-index="21" data-large="../assets/img/lib/P0790-large.jpg" data-caption="さくら貝_7" data-photo="P0790">
-      <img src="../assets/img/lib/P0790-thumb.jpg" alt="さくら貝_7" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">さくら貝_7</span>
-    </button><button class="gallery__item" type="button" data-index="22" data-large="../assets/img/lib/P0805-large.jpg" data-caption="さくら貝_9" data-photo="P0805">
-      <img src="../assets/img/lib/P0805-thumb.jpg" alt="さくら貝_9" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">さくら貝_9</span>
-    </button><button class="gallery__item" type="button" data-index="23" data-large="../assets/img/lib/P0818-large.jpg" data-caption="世界一長いベンチ_25" data-photo="P0818">
-      <img src="../assets/img/lib/P0818-thumb.jpg" alt="世界一長いベンチ_25" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">世界一長いベンチ_25</span>
-    </button><button class="gallery__item" type="button" data-index="24" data-large="../assets/img/lib/P0842-large.jpg" data-caption="世界一長いベンチ_35" data-photo="P0842">
-      <img src="../assets/img/lib/P0842-thumb.jpg" alt="世界一長いベンチ_35" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">世界一長いベンチ_35</span>
-    </button><button class="gallery__item" type="button" data-index="25" data-large="../assets/img/lib/P0782-large.jpg" data-caption="増穂浦海岸_12" data-photo="P0782">
-      <img src="../assets/img/lib/P0782-thumb.jpg" alt="増穂浦海岸_12" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">増穂浦海岸_12</span>
-    </button><button class="gallery__item" type="button" data-index="26" data-large="../assets/img/lib/P0791-large.jpg" data-caption="さくら貝_8" data-photo="P0791">
-      <img src="../assets/img/lib/P0791-thumb.jpg" alt="さくら貝_8" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">さくら貝_8</span>
-    </button><button class="gallery__item" type="button" data-index="27" data-large="../assets/img/lib/P0819-large.jpg" data-caption="世界一長いベンチ_26" data-photo="P0819">
-      <img src="../assets/img/lib/P0819-thumb.jpg" alt="世界一長いベンチ_26" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">世界一長いベンチ_26</span>
-    </button><button class="gallery__item" type="button" data-index="28" data-large="../assets/img/lib/P0843-large.jpg" data-caption="世界一長いベンチ_36" data-photo="P0843">
-      <img src="../assets/img/lib/P0843-thumb.jpg" alt="世界一長いベンチ_36" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">世界一長いベンチ_36</span>
-    </button><button class="gallery__item" type="button" data-index="29" data-large="../assets/img/lib/P0820-large.jpg" data-caption="世界一長いベンチ_27" data-photo="P0820">
-      <img src="../assets/img/lib/P0820-thumb.jpg" alt="世界一長いベンチ_27" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">世界一長いベンチ_27</span>
-    </button><button class="gallery__item" type="button" data-index="30" data-large="../assets/img/lib/P0844-large.jpg" data-caption="世界一長いベンチ_37" data-photo="P0844">
-      <img src="../assets/img/lib/P0844-thumb.jpg" alt="世界一長いベンチ_37" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">世界一長いベンチ_37</span>
-    </button><button class="gallery__item" type="button" data-index="31" data-large="../assets/img/lib/P0821-large.jpg" data-caption="世界一長いベンチ_28" data-photo="P0821">
-      <img src="../assets/img/lib/P0821-thumb.jpg" alt="世界一長いベンチ_28" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">世界一長いベンチ_28</span>
-    </button><button class="gallery__item" type="button" data-index="32" data-large="../assets/img/lib/P0845-large.jpg" data-caption="世界一長いベンチ_38" data-photo="P0845">
-      <img src="../assets/img/lib/P0845-thumb.jpg" alt="世界一長いベンチ_38" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">世界一長いベンチ_38</span>
-    </button><button class="gallery__item" type="button" data-index="33" data-large="../assets/img/lib/P0822-large.jpg" data-caption="世界一長いベンチ_29" data-photo="P0822">
-      <img src="../assets/img/lib/P0822-thumb.jpg" alt="世界一長いベンチ_29" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">世界一長いベンチ_29</span>
-    </button><button class="gallery__item" type="button" data-index="34" data-large="../assets/img/lib/P0823-large.jpg" data-caption="世界一長いベンチ_30" data-photo="P0823">
-      <img src="../assets/img/lib/P0823-thumb.jpg" alt="世界一長いベンチ_30" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">世界一長いベンチ_30</span>
-    </button><button class="gallery__item" type="button" data-index="35" data-large="../assets/img/lib/P0824-large.jpg" data-caption="世界一長いベンチ_31" data-photo="P0824">
-      <img src="../assets/img/lib/P0824-thumb.jpg" alt="世界一長いベンチ_31" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">世界一長いベンチ_31</span>
-    </button><button class="gallery__item" type="button" data-index="36" data-large="../assets/img/lib/P0825-large.jpg" data-caption="世界一長いベンチ_32" data-photo="P0825">
-      <img src="../assets/img/lib/P0825-thumb.jpg" alt="世界一長いベンチ_32" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">世界一長いベンチ_32</span>
-    </button><button class="gallery__item" type="button" data-index="37" data-large="../assets/img/lib/P0146-large.jpg" data-caption="上空から見た増穂浦海岸" data-photo="P0146">
-      <img src="../assets/img/lib/P0146-thumb.jpg" alt="上空から見た増穂浦海岸" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">上空から見た増穂浦海岸</span>
-    </button><button class="gallery__item" type="button" data-index="38" data-large="../assets/img/lib/P0147-large.jpg" data-caption="上空から見た志賀町の海岸" data-photo="P0147">
-      <img src="../assets/img/lib/P0147-thumb.jpg" alt="上空から見た志賀町の海岸" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">上空から見た志賀町の海岸</span>
-    </button><button class="gallery__item" type="button" data-index="39" data-large="../assets/img/lib/P0148-large.jpg" data-caption="増穂浦海岸に伸びるベンチ" data-photo="P0148">
-      <img src="../assets/img/lib/P0148-thumb.jpg" alt="増穂浦海岸に伸びるベンチ" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">増穂浦海岸に伸びるベンチ</span>
-    </button><button class="gallery__item" type="button" data-index="40" data-large="../assets/img/lib/P0149-large.jpg" data-caption="海を望む木製デッキ" data-photo="P0149">
-      <img src="../assets/img/lib/P0149-thumb.jpg" alt="海を望む木製デッキ" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">海を望む木製デッキ</span>
-    </button><button class="gallery__item" type="button" data-index="41" data-large="../assets/img/lib/P0150-large.jpg" data-caption="カラフルに続く世界一長いベンチ" data-photo="P0150">
-      <img src="../assets/img/lib/P0150-thumb.jpg" alt="カラフルに続く世界一長いベンチ" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">カラフルに続く世界一長いベンチ</span>
-    </button><button class="gallery__item" type="button" data-index="42" data-large="../assets/img/lib/P0151-large.jpg" data-caption="増穂浦の砂浜と青い海" data-photo="P0151">
-      <img src="../assets/img/lib/P0151-thumb.jpg" alt="増穂浦の砂浜と青い海" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">増穂浦の砂浜と青い海</span>
-    </button><button class="gallery__item" type="button" data-index="43" data-large="../assets/img/lib/P0152-large.jpg" data-caption="世界一長いベンチの案内板" data-photo="P0152">
-      <img src="../assets/img/lib/P0152-thumb.jpg" alt="世界一長いベンチの案内板" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">世界一長いベンチの案内板</span>
-    </button><button class="gallery__item" type="button" data-index="44" data-large="../assets/img/lib/P0153-large.jpg" data-caption="世界一長いベンチのモニュメント" data-photo="P0153">
-      <img src="../assets/img/lib/P0153-thumb.jpg" alt="世界一長いベンチのモニュメント" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">世界一長いベンチのモニュメント</span>
-    </button><button class="gallery__item" type="button" data-index="45" data-large="../assets/img/lib/P0154-large.jpg" data-caption="手形が並ぶカラフルなタイル" data-photo="P0154">
-      <img src="../assets/img/lib/P0154-thumb.jpg" alt="手形が並ぶカラフルなタイル" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">手形が並ぶカラフルなタイル</span>
-    </button><button class="gallery__item" type="button" data-index="46" data-large="../assets/img/lib/P0155-large.jpg" data-caption="世界一長いベンチと青い空" data-photo="P0155">
-      <img src="../assets/img/lib/P0155-thumb.jpg" alt="世界一長いベンチと青い空" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">世界一長いベンチと青い空</span>
-    </button><button class="gallery__item" type="button" data-index="47" data-large="../assets/img/lib/P0156-large.jpg" data-caption="ベンチが続く増穂浦の遊歩道" data-photo="P0156">
-      <img src="../assets/img/lib/P0156-thumb.jpg" alt="ベンチが続く増穂浦の遊歩道" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">ベンチが続く増穂浦の遊歩道</span>
-    </button><button class="gallery__item" type="button" data-index="48" data-large="../assets/img/lib/P0219-large.jpg" data-caption="世界一長いベンチ_花火1" data-photo="P0219">
-      <img src="../assets/img/lib/P0219-thumb.jpg" alt="世界一長いベンチ_花火1" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">世界一長いベンチ_花火1</span>
-    </button><button class="gallery__item" type="button" data-index="49" data-large="../assets/img/lib/P0220-large.jpg" data-caption="世界一長いベンチ_ポケモン" data-photo="P0220">
-      <img src="../assets/img/lib/P0220-thumb.jpg" alt="世界一長いベンチ_ポケモン" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">世界一長いベンチ_ポケモン</span>
-    </button><button class="gallery__item" type="button" data-index="50" data-large="../assets/img/lib/P0222-large.jpg" data-caption="増穂浦海岸_1" data-photo="P0222">
-      <img src="../assets/img/lib/P0222-thumb.jpg" alt="増穂浦海岸_1" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">増穂浦海岸_1</span>
-    </button><button class="gallery__item" type="button" data-index="51" data-large="../assets/img/lib/P0223-large.jpg" data-caption="増穂浦海岸_2" data-photo="P0223">
-      <img src="../assets/img/lib/P0223-thumb.jpg" alt="増穂浦海岸_2" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">増穂浦海岸_2</span>
-    </button><button class="gallery__item" type="button" data-index="52" data-large="../assets/img/lib/P0224-large.jpg" data-caption="増穂浦海岸_3" data-photo="P0224">
-      <img src="../assets/img/lib/P0224-thumb.jpg" alt="増穂浦海岸_3" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">増穂浦海岸_3</span>
-    </button><button class="gallery__item" type="button" data-index="53" data-large="../assets/img/lib/P0225-large.jpg" data-caption="増穂浦海岸_4" data-photo="P0225">
-      <img src="../assets/img/lib/P0225-thumb.jpg" alt="増穂浦海岸_4" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">増穂浦海岸_4</span>
-    </button><button class="gallery__item" type="button" data-index="54" data-large="../assets/img/lib/P0226-large.jpg" data-caption="増穂浦海岸_5" data-photo="P0226">
-      <img src="../assets/img/lib/P0226-thumb.jpg" alt="増穂浦海岸_5" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">増穂浦海岸_5</span>
-    </button><button class="gallery__item" type="button" data-index="55" data-large="../assets/img/lib/P0227-large.jpg" data-caption="世界一長いベンチ_花火2" data-photo="P0227">
-      <img src="../assets/img/lib/P0227-thumb.jpg" alt="世界一長いベンチ_花火2" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">世界一長いベンチ_花火2</span>
-    </button><button class="gallery__item" type="button" data-index="56" data-large="../assets/img/lib/P0228-large.jpg" data-caption="世界一長いベンチ_花火3" data-photo="P0228">
-      <img src="../assets/img/lib/P0228-thumb.jpg" alt="世界一長いベンチ_花火3" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">世界一長いベンチ_花火3</span>
-    </button><button class="gallery__item" type="button" data-index="57" data-large="../assets/img/lib/P0229-large.jpg" data-caption="世界一長いベンチ_花火4" data-photo="P0229">
-      <img src="../assets/img/lib/P0229-thumb.jpg" alt="世界一長いベンチ_花火4" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">世界一長いベンチ_花火4</span>
-    </button><button class="gallery__item" type="button" data-index="58" data-large="../assets/img/lib/P0230-large.jpg" data-caption="世界一長いベンチ_花火5" data-photo="P0230">
-      <img src="../assets/img/lib/P0230-thumb.jpg" alt="世界一長いベンチ_花火5" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">世界一長いベンチ_花火5</span>
-    </button><button class="gallery__item" type="button" data-index="59" data-large="../assets/img/lib/P0231-large.jpg" data-caption="世界一長いベンチ_花火6" data-photo="P0231">
-      <img src="../assets/img/lib/P0231-thumb.jpg" alt="世界一長いベンチ_花火6" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">世界一長いベンチ_花火6</span>
-    </button><button class="gallery__item" type="button" data-index="60" data-large="../assets/img/lib/P0232-large.jpg" data-caption="世界一長いベンチ_1" data-photo="P0232">
-      <img src="../assets/img/lib/P0232-thumb.jpg" alt="世界一長いベンチ_1" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">世界一長いベンチ_1</span>
-    </button><button class="gallery__item" type="button" data-index="61" data-large="../assets/img/lib/P0233-large.jpg" data-caption="世界一長いベンチ_花火9" data-photo="P0233">
-      <img src="../assets/img/lib/P0233-thumb.jpg" alt="世界一長いベンチ_花火9" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">世界一長いベンチ_花火9</span>
-    </button><button class="gallery__item" type="button" data-index="62" data-large="../assets/img/lib/P0234-large.jpg" data-caption="世界一長いベンチ_花火7" data-photo="P0234">
-      <img src="../assets/img/lib/P0234-thumb.jpg" alt="世界一長いベンチ_花火7" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">世界一長いベンチ_花火7</span>
-    </button><button class="gallery__item" type="button" data-index="63" data-large="../assets/img/lib/P0235-large.jpg" data-caption="世界一長いベンチ_花火8" data-photo="P0235">
-      <img src="../assets/img/lib/P0235-thumb.jpg" alt="世界一長いベンチ_花火8" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">世界一長いベンチ_花火8</span>
-    </button><button class="gallery__item" type="button" data-index="64" data-large="../assets/img/lib/P0236-large.jpg" data-caption="世界一長いベンチ_2" data-photo="P0236">
-      <img src="../assets/img/lib/P0236-thumb.jpg" alt="世界一長いベンチ_2" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">世界一長いベンチ_2</span>
-    </button><button class="gallery__item" type="button" data-index="65" data-large="../assets/img/lib/P0237-large.jpg" data-caption="世界一長いベンチ_3" data-photo="P0237">
-      <img src="../assets/img/lib/P0237-thumb.jpg" alt="世界一長いベンチ_3" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">世界一長いベンチ_3</span>
-    </button><button class="gallery__item" type="button" data-index="66" data-large="../assets/img/lib/P0238-large.jpg" data-caption="世界一長いベンチ_4" data-photo="P0238">
-      <img src="../assets/img/lib/P0238-thumb.jpg" alt="世界一長いベンチ_4" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">世界一長いベンチ_4</span>
-    </button><button class="gallery__item" type="button" data-index="67" data-large="../assets/img/lib/P0366-large.jpg" data-caption="世界一長いベンチ_5" data-photo="P0366">
-      <img src="../assets/img/lib/P0366-thumb.jpg" alt="世界一長いベンチ_5" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">世界一長いベンチ_5</span>
-    </button><button class="gallery__item" type="button" data-index="68" data-large="../assets/img/lib/P0367-large.jpg" data-caption="世界一長いベンチ_6" data-photo="P0367">
-      <img src="../assets/img/lib/P0367-thumb.jpg" alt="世界一長いベンチ_6" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">世界一長いベンチ_6</span>
-    </button><button class="gallery__item" type="button" data-index="69" data-large="../assets/img/lib/P0368-large.jpg" data-caption="世界一長いベンチ_7" data-photo="P0368">
-      <img src="../assets/img/lib/P0368-thumb.jpg" alt="世界一長いベンチ_7" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">世界一長いベンチ_7</span>
-    </button><button class="gallery__item" type="button" data-index="70" data-large="../assets/img/lib/P0369-large.jpg" data-caption="世界一長いベンチ_8" data-photo="P0369">
-      <img src="../assets/img/lib/P0369-thumb.jpg" alt="世界一長いベンチ_8" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">世界一長いベンチ_8</span>
-    </button><button class="gallery__item" type="button" data-index="71" data-large="../assets/img/lib/P0370-large.jpg" data-caption="世界一長いベンチ_9" data-photo="P0370">
-      <img src="../assets/img/lib/P0370-thumb.jpg" alt="世界一長いベンチ_9" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">世界一長いベンチ_9</span>
-    </button><button class="gallery__item" type="button" data-index="72" data-large="../assets/img/lib/P0404-large.jpg" data-caption="世界一長いベンチ_10" data-photo="P0404">
-      <img src="../assets/img/lib/P0404-thumb.jpg" alt="世界一長いベンチ_10" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">世界一長いベンチ_10</span>
-    </button><button class="gallery__item" type="button" data-index="73" data-large="../assets/img/lib/P0405-large.jpg" data-caption="世界一長いベンチ_11" data-photo="P0405">
-      <img src="../assets/img/lib/P0405-thumb.jpg" alt="世界一長いベンチ_11" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">世界一長いベンチ_11</span>
-    </button><button class="gallery__item" type="button" data-index="74" data-large="../assets/img/lib/P0406-large.jpg" data-caption="世界一長いベンチ_12" data-photo="P0406">
-      <img src="../assets/img/lib/P0406-thumb.jpg" alt="世界一長いベンチ_12" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">世界一長いベンチ_12</span>
-    </button><button class="gallery__item" type="button" data-index="75" data-large="../assets/img/lib/P0407-large.jpg" data-caption="世界一長いベンチ_13" data-photo="P0407">
-      <img src="../assets/img/lib/P0407-thumb.jpg" alt="世界一長いベンチ_13" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">世界一長いベンチ_13</span>
-    </button><button class="gallery__item" type="button" data-index="76" data-large="../assets/img/lib/P0408-large.jpg" data-caption="世界一長いベンチ_14" data-photo="P0408">
-      <img src="../assets/img/lib/P0408-thumb.jpg" alt="世界一長いベンチ_14" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">世界一長いベンチ_14</span>
-    </button><button class="gallery__item" type="button" data-index="77" data-large="../assets/img/lib/P0409-large.jpg" data-caption="世界一長いベンチ_15" data-photo="P0409">
-      <img src="../assets/img/lib/P0409-thumb.jpg" alt="世界一長いベンチ_15" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">世界一長いベンチ_15</span>
-    </button><button class="gallery__item" type="button" data-index="78" data-large="../assets/img/lib/P0424-large.jpg" data-caption="世界一長いベンチ_16" data-photo="P0424">
-      <img src="../assets/img/lib/P0424-thumb.jpg" alt="世界一長いベンチ_16" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">世界一長いベンチ_16</span>
-    </button><button class="gallery__item" type="button" data-index="79" data-large="../assets/img/lib/P0425-large.jpg" data-caption="世界一長いベンチ_17" data-photo="P0425">
-      <img src="../assets/img/lib/P0425-thumb.jpg" alt="世界一長いベンチ_17" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">世界一長いベンチ_17</span>
-    </button><button class="gallery__item" type="button" data-index="80" data-large="../assets/img/lib/P0426-large.jpg" data-caption="世界一長いベンチ_18" data-photo="P0426">
-      <img src="../assets/img/lib/P0426-thumb.jpg" alt="世界一長いベンチ_18" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">世界一長いベンチ_18</span>
-    </button><button class="gallery__item" type="button" data-index="81" data-large="../assets/img/lib/P0427-large.jpg" data-caption="世界一長いベンチ_19" data-photo="P0427">
-      <img src="../assets/img/lib/P0427-thumb.jpg" alt="世界一長いベンチ_19" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">世界一長いベンチ_19</span>
-    </button><button class="gallery__item" type="button" data-index="82" data-large="../assets/img/lib/P0429-large.jpg" data-caption="世界一長いベンチ_20" data-photo="P0429">
-      <img src="../assets/img/lib/P0429-thumb.jpg" alt="世界一長いベンチ_20" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">世界一長いベンチ_20</span>
-    </button><button class="gallery__item" type="button" data-index="83" data-large="../assets/img/lib/P0430-large.jpg" data-caption="世界一長いベンチ_21" data-photo="P0430">
-      <img src="../assets/img/lib/P0430-thumb.jpg" alt="世界一長いベンチ_21" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">世界一長いベンチ_21</span>
-    </button><button class="gallery__item" type="button" data-index="84" data-large="../assets/img/lib/P0444-large.jpg" data-caption="世界一長いベンチ_22" data-photo="P0444">
-      <img src="../assets/img/lib/P0444-thumb.jpg" alt="世界一長いベンチ_22" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">世界一長いベンチ_22</span>
     </button></div>
+      <a class="spot-allbtn" href="../index.html?spot=%E4%B8%96%E7%95%8C%E4%B8%80%E9%95%B7%E3%81%84%E3%83%99%E3%83%B3%E3%83%81%E3%83%BB%E5%A2%97%E7%A9%82%E6%B5%A6%E6%B5%B7%E5%B2%B8#find">このスポットの写真をすべて見る（85枚） <span aria-hidden="true">→</span></a>
     </div>
   </section>
 
@@ -385,10 +161,10 @@
           <span class="section__eyebrow">RELATED</span>
           <h2 class="section__title">近くのスポット</h2>
         </div>
-        <a class="section__more" href="index.html">すべて見る <svg><use href="#i-arrow"/></svg></a>
+        <a class="section__more" href="../index.html#spots">トップのスポット一覧へ <svg><use href="#i-arrow"/></svg></a>
       </div>
       <div class="spot-grid"><a class="spot-card" href="hatago.html" data-area="富来エリア">
-  <div class="spot-card__media"><img src="../assets/img/lib/P0001-hero.jpg" alt="機具岩" loading="lazy" width="2000" height="1125"></div>
+  <div class="spot-card__media"><img src="../assets/img/lib/P0001-thumb.jpg" alt="機具岩" loading="lazy" width="640" height="480"></div>
   <div class="spot-card__body">
     <h3 class="spot-card__name">機具岩</h3>
     <p class="spot-card__area"><svg><use href="#i-pin"/></svg>富来エリア</p>
@@ -396,7 +172,7 @@
   </div>
 </a>
 <a class="spot-card" href="gate.html" data-area="富来エリア">
-  <div class="spot-card__media"><img src="../assets/img/lib/P0020-hero.jpg" alt="巌門" loading="lazy" width="2000" height="1125"></div>
+  <div class="spot-card__media"><img src="../assets/img/lib/P0020-thumb.jpg" alt="巌門" loading="lazy" width="640" height="480"></div>
   <div class="spot-card__body">
     <h3 class="spot-card__name">巌門</h3>
     <p class="spot-card__area"><svg><use href="#i-pin"/></svg>富来エリア</p>
@@ -404,7 +180,7 @@
   </div>
 </a>
 <a class="spot-card" href="benten.html" data-area="志賀エリア">
-  <div class="spot-card__media"><img src="../assets/img/lib/P0026-hero.jpg" alt="弁天島" loading="lazy" width="2000" height="1125"></div>
+  <div class="spot-card__media"><img src="../assets/img/lib/P0026-thumb.jpg" alt="弁天島" loading="lazy" width="640" height="480"></div>
   <div class="spot-card__body">
     <h3 class="spot-card__name">弁天島</h3>
     <p class="spot-card__area"><svg><use href="#i-pin"/></svg>志賀エリア</p>
@@ -412,7 +188,7 @@
   </div>
 </a>
 <a class="spot-card" href="yase.html" data-area="富来エリア">
-  <div class="spot-card__media"><img src="../assets/img/lib/P0032-hero.jpg" alt="ヤセの断崖・義経の舟隠し" loading="lazy" width="2000" height="1125"></div>
+  <div class="spot-card__media"><img src="../assets/img/lib/P0032-thumb.jpg" alt="ヤセの断崖・義経の舟隠し" loading="lazy" width="640" height="480"></div>
   <div class="spot-card__body">
     <h3 class="spot-card__name">ヤセの断崖・義経の舟隠し</h3>
     <p class="spot-card__area"><svg><use href="#i-pin"/></svg>富来エリア</p>
@@ -434,30 +210,23 @@
     <a class="lightbox__link" id="lbLink" href="#" hidden>写真の詳細・ダウンロード →</a>
   </div>
 </div>
-<footer class="footer">
-  <div class="container">
-    <div class="footer__top">
-      <a href="../index.html" class="logo">
-        <span class="logo__mark"><svg><use href="#i-camera"/></svg></span>
-        <span class="logo__text"><span class="logo__en">志賀町</span><span class="logo__ja">SHIKA TOWN</span></span>
-      </a>
-      <div class="footer__primary">
-        <a class="footer__btn" href="https://shika-guide.jp" target="_blank" rel="noopener"><svg><use href="#i-compass"/></svg>志賀町観光情報</a>
-        <a class="footer__btn" href="https://www.instagram.com/shikatown_official/" target="_blank" rel="noopener"><svg><use href="#i-instagram"/></svg>Instagram</a>
-        <a class="footer__btn" href="../index.html#contact"><svg><use href="#i-mail"/></svg>お問い合わせ</a>
-      </div>
-    </div>
-    <div class="footer__bottom">
-      <ul class="footer__links">
-        <li><a href="../terms.html">利用規約</a></li>
-        <li><a href="../privacy.html">プライバシーポリシー</a></li>
-        <li><a href="../credit.html">著作権・クレジット</a></li>
-        <li><a href="../faq.html">よくあるご質問</a></li>
-        <li><a href="../instagram.html">Instagramのご紹介</a></li>
-      </ul>
-      <p class="footer__copy">© 志賀町 All Rights Reserved.</p>
+<footer class="tp-footer">
+  <div class="tp-footer__top">
+    <div class="tp-footer__logo">#しかたび<small>志賀町公式フォトライブラリー</small></div>
+    <div class="tp-footer__links">
+      <a href="https://shika-guide.jp" target="_blank" rel="noopener">志賀町観光情報 ↗</a>
+      <a href="https://www.instagram.com/shikatown_official/" target="_blank" rel="noopener">Instagram ↗</a>
+      <a href="../index.html#find">写真を探す ↑</a>
     </div>
   </div>
+  <ul class="tp-footer__links" aria-label="ご利用案内">
+    <li><a href="../terms.html">利用規約</a></li>
+    <li><a href="../privacy.html">プライバシーポリシー</a></li>
+    <li><a href="../credit.html">著作権・クレジット</a></li>
+    <li><a href="../faq.html">よくあるご質問</a></li>
+    <li><a href="../instagram.html">Instagramのご紹介</a></li>
+  </ul>
+  <p class="tp-footer__copy">© 志賀町 All Rights Reserved.</p>
 </footer>
 <script src="../assets/js/favorites-widget.js"></script>
 <script src="../assets/js/admin-gate.js"></script>

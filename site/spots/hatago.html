@@ -12,7 +12,7 @@
 </script>
 <title>機具岩｜SHIKA PHOTO LIBRARY</title>
 <meta name="description" content="二つの岩が寄り添う夫婦岩。能登屈指のマジックアワーポイント。">
-<meta name="theme-color" content="#0B4F82">
+<meta name="theme-color" content="#205563">
 <link rel="icon" href="../assets/img/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="../assets/img/favicon-16x16.png">
@@ -30,8 +30,9 @@
 <link rel="canonical" href="./hatago.html">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Shippori+Mincho:wght@400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../assets/css/style.css">
+<link rel="stylesheet" href="../assets/css/sub.css">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "TouristAttraction", "name": "機具岩", "description": "二つの岩が寄り添う夫婦岩。能登屈指のマジックアワーポイント。", "address": {"@type": "PostalAddress", "addressCountry": "JP", "streetAddress": "石川県羽咋郡志賀町七海"}, "image": "../assets/img/lib/P0001-hero.jpg", "inLanguage": "ja"}</script>
 </head>
 <body>
@@ -54,27 +55,20 @@
   <symbol id="i-facebook" viewBox="0 0 24 24" fill="currentColor"><path d="M14 9h2.5V5.5H14C11.8 5.5 10 7.3 10 9.5V12H8v3.5h2V22h3.5v-6.5H16l.5-3.5h-3V9.8c0-.5.4-.8.9-.8z"/></symbol>
 </svg>
 <a href="#main" class="sr-only">本文へスキップ</a>
-<header class="header header--solid" id="header">
-  <div class="header__inner">
-    <a href="../index.html" class="logo" aria-label="SHIKA PHOTO LIBRARY ホーム">
-      <span class="logo__mark"><svg><use href="#i-camera"/></svg></span>
-      <span class="logo__text">
-        <span class="logo__en">SHIKA PHOTO LIBRARY</span>
-        <span class="logo__ja">能登・志賀町 公式フォトライブラリー</span>
-      </span>
-    </a>
-    <nav class="nav" aria-label="メインナビゲーション"><ul class="nav__list"><li><a class="nav__link" href="../index.html">HOME</a></li><li><a class="nav__link" href="../spots/index.html" aria-current="page">スポットから探す</a></li><li><a class="nav__link" href="../search.html">写真から探す</a></li><li><a class="nav__link" href="../index.html#scenes">シーンで探す</a></li><li><a class="nav__link" href="../terms.html">ご利用について</a></li><li><a class="nav__link" href="../index.html#contact">お問い合わせ</a></li><li><a class="nav__link" href="#" data-admin-gate>🔒 管理者ページ</a></li></ul></nav>
-    <a class="header__fav" href="../favorites.html" aria-label="あとで見るリスト">
-      <svg><use href="#i-heart"/></svg><span class="header__fav-badge" hidden>0</span>
-    </a>
-    <a class="header__search" href="../search.html" aria-label="写真を検索"><svg><use href="#i-search"/></svg></a>
-    <button class="burger" id="btnBurger" aria-label="メニューを開く" aria-expanded="false"><svg><use href="#i-menu"/></svg></button>
+<header class="subbar" id="header">
+  <div class="subbar__inner">
+    <a class="subbar__brand" href="../index.html" aria-label="SHIKA PHOTO LIBRARY ホーム">能登・志賀町<span>公式フォトライブラリー</span></a>
+    <nav class="subbar__nav" aria-label="メインナビゲーション">
+      <a href="../index.html#find">写真を探す <span aria-hidden="true">↓</span></a>
+      <a class="header__fav" href="../favorites.html">あとで見るリスト <span class="header__fav-badge" hidden>0</span></a>
+      <button type="button" id="btnBurger" aria-expanded="false" aria-controls="drawer"><i class="tp-menu-icon" aria-hidden="true"></i><span>メニュー</span></button>
+    </nav>
   </div>
 </header>
 <div class="drawer" id="drawer">
-  <nav class="drawer__panel" aria-label="モバイルメニュー">
+  <nav class="drawer__panel" aria-label="メニュー">
     <button class="drawer__close" id="drawerClose" aria-label="メニューを閉じる"><svg><use href="#i-close"/></svg></button>
-    <a class="drawer__link" href="../index.html">HOME</a><a class="drawer__link" href="../spots/index.html">スポットから探す</a><a class="drawer__link" href="../search.html">写真から探す</a><a class="drawer__link" href="../index.html#scenes">シーンで探す</a><a class="drawer__link" href="../terms.html">ご利用について</a><a class="drawer__link" href="../index.html#contact">お問い合わせ</a><a class="drawer__link" href="#" data-admin-gate>🔒 管理者ページ</a><a class="drawer__link" href="../favorites.html">❤ あとで見るリスト</a>
+    <a class="drawer__link" href="../index.html">HOME</a><a class="drawer__link" href="../index.html#find">写真を探す</a><a class="drawer__link" href="../index.html#genres">ジャンルで探す</a><a class="drawer__link" href="../index.html#scenes">シーンで探す</a><a class="drawer__link" href="../index.html#seasons">季節から探す</a><a class="drawer__link" href="../terms.html">ご利用について</a><a class="drawer__link" href="../index.html#contact">お問い合わせ</a><a class="drawer__link" href="#" data-admin-gate>🔒 管理者ページ</a><a class="drawer__link" href="../favorites.html">❤ あとで見るリスト</a>
   </nav>
 </div>
 <main id="main">
@@ -89,7 +83,7 @@
   <nav class="breadcrumb container" aria-label="パンくずリスト">
     <ol>
       <li><a href="../index.html">HOME</a></li>
-      <li><a href="index.html">スポットから探す</a></li>
+      <li><a href="../index.html#spots">スポット</a></li>
       <li>機具岩</li>
     </ol>
   </nav>
@@ -99,7 +93,7 @@
       <div>
         <p class="spotbody__catch">二つの岩が寄り添う夫婦岩。能登屈指のマジックアワーポイント。</p>
         <div class="spotbody__text"><p>高さ16mと12mの岩が並び、注連縄で結ばれた姿から夫婦岩として知られる、能登金剛を代表する奇岩のひとつです。伊勢の二見岩に似ていることから「能登二見」とも呼ばれますが、大きい岩が女岩、小さい岩が男岩とされるのが特徴です。</p><p>その昔、能登に織物の技術を広めた神・渟名木入比咩命が山賊に襲われ、背負っていた織機を海に投げたところ、それが岩に変じたという伝説が残されています。</p><p>西を向いて立っているため夕焼けの名所としても有名で、空と海と岩が織りなすマジックアワーは多くの写真愛好家を惹きつけます。夏季と冬季にはライトアップも行われます。</p></div>
-        <div class="spotbody__tags"><a class="tag" href="../index.html#photos">#夕陽</a><a class="tag" href="../index.html#photos">#海</a><a class="tag" href="../index.html#photos">#岩</a><a class="tag" href="../index.html#photos">#ライトアップ</a></div>
+        <div class="spotbody__tags"><a class="tag" href="../index.html?tag=%E5%A4%95%E9%99%BD#find">#夕陽</a><a class="tag" href="../index.html?tag=%E6%B5%B7#find">#海</a><a class="tag" href="../index.html?tag=%E5%B2%A9#find">#岩</a><a class="tag" href="../index.html?tag=%E3%83%A9%E3%82%A4%E3%83%88%E3%82%A2%E3%83%83%E3%83%97#find">#ライトアップ</a></div>
       </div>
       <aside class="infobox">
         <p class="infobox__title">INFORMATION</p>
@@ -115,7 +109,7 @@
         <div>
           <span class="section__eyebrow">PHOTOS</span>
           <h2 class="section__title">機具岩の写真</h2>
-          <p class="section__lead">写真をクリックすると拡大表示します。</p>
+          <p class="section__lead">代表の写真です。クリックすると拡大表示します。</p>
         </div>
         <span class="section__more">全42枚</span>
       </div>
@@ -155,97 +149,8 @@
     </button><button class="gallery__item" type="button" data-index="11" data-large="../assets/img/lib/P0858-large.jpg" data-caption="機具岩_25" data-photo="P0858">
       <img src="../assets/img/lib/P0858-thumb.jpg" alt="機具岩_25" loading="lazy" width="640" height="480">
       <span class="gallery__cap">機具岩_25</span>
-    </button><button class="gallery__item" type="button" data-index="12" data-large="../assets/img/lib/P0808-large.jpg" data-caption="機具岩_20" data-photo="P0808">
-      <img src="../assets/img/lib/P0808-thumb.jpg" alt="機具岩_20" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">機具岩_20</span>
-    </button><button class="gallery__item" type="button" data-index="13" data-large="../assets/img/lib/P0859-large.jpg" data-caption="機具岩_26" data-photo="P0859">
-      <img src="../assets/img/lib/P0859-thumb.jpg" alt="機具岩_26" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">機具岩_26</span>
-    </button><button class="gallery__item" type="button" data-index="14" data-large="../assets/img/lib/P0809-large.jpg" data-caption="機具岩_21" data-photo="P0809">
-      <img src="../assets/img/lib/P0809-thumb.jpg" alt="機具岩_21" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">機具岩_21</span>
-    </button><button class="gallery__item" type="button" data-index="15" data-large="../assets/img/lib/P0860-large.jpg" data-caption="機具岩_27" data-photo="P0860">
-      <img src="../assets/img/lib/P0860-thumb.jpg" alt="機具岩_27" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">機具岩_27</span>
-    </button><button class="gallery__item" type="button" data-index="16" data-large="../assets/img/lib/P0810-large.jpg" data-caption="機具岩_22" data-photo="P0810">
-      <img src="../assets/img/lib/P0810-thumb.jpg" alt="機具岩_22" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">機具岩_22</span>
-    </button><button class="gallery__item" type="button" data-index="17" data-large="../assets/img/lib/P0861-large.jpg" data-caption="機具岩_28" data-photo="P0861">
-      <img src="../assets/img/lib/P0861-thumb.jpg" alt="機具岩_28" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">機具岩_28</span>
-    </button><button class="gallery__item" type="button" data-index="18" data-large="../assets/img/lib/P0862-large.jpg" data-caption="機具岩_29" data-photo="P0862">
-      <img src="../assets/img/lib/P0862-thumb.jpg" alt="機具岩_29" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">機具岩_29</span>
-    </button><button class="gallery__item" type="button" data-index="19" data-large="../assets/img/lib/P0863-large.jpg" data-caption="機具岩_30" data-photo="P0863">
-      <img src="../assets/img/lib/P0863-thumb.jpg" alt="機具岩_30" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">機具岩_30</span>
-    </button><button class="gallery__item" type="button" data-index="20" data-large="../assets/img/lib/P0864-large.jpg" data-caption="機具岩_31" data-photo="P0864">
-      <img src="../assets/img/lib/P0864-thumb.jpg" alt="機具岩_31" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">機具岩_31</span>
-    </button><button class="gallery__item" type="button" data-index="21" data-large="../assets/img/lib/P0865-large.jpg" data-caption="機具岩_32" data-photo="P0865">
-      <img src="../assets/img/lib/P0865-thumb.jpg" alt="機具岩_32" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">機具岩_32</span>
-    </button><button class="gallery__item" type="button" data-index="22" data-large="../assets/img/lib/P0866-large.jpg" data-caption="機具岩_33" data-photo="P0866">
-      <img src="../assets/img/lib/P0866-thumb.jpg" alt="機具岩_33" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">機具岩_33</span>
-    </button><button class="gallery__item" type="button" data-index="23" data-large="../assets/img/lib/P0867-large.jpg" data-caption="機具岩_34" data-photo="P0867">
-      <img src="../assets/img/lib/P0867-thumb.jpg" alt="機具岩_34" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">機具岩_34</span>
-    </button><button class="gallery__item" type="button" data-index="24" data-large="../assets/img/lib/P0868-large.jpg" data-caption="機具岩_35" data-photo="P0868">
-      <img src="../assets/img/lib/P0868-thumb.jpg" alt="機具岩_35" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">機具岩_35</span>
-    </button><button class="gallery__item" type="button" data-index="25" data-large="../assets/img/lib/P0099-large.jpg" data-caption="機具岩_2" data-photo="P0099">
-      <img src="../assets/img/lib/P0099-thumb.jpg" alt="機具岩_2" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">機具岩_2</span>
-    </button><button class="gallery__item" type="button" data-index="26" data-large="../assets/img/lib/P0100-large.jpg" data-caption="機具岩_3" data-photo="P0100">
-      <img src="../assets/img/lib/P0100-thumb.jpg" alt="機具岩_3" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">機具岩_3</span>
-    </button><button class="gallery__item" type="button" data-index="27" data-large="../assets/img/lib/P0101-large.jpg" data-caption="機具岩_4" data-photo="P0101">
-      <img src="../assets/img/lib/P0101-thumb.jpg" alt="機具岩_4" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">機具岩_4</span>
-    </button><button class="gallery__item" type="button" data-index="28" data-large="../assets/img/lib/P0102-large.jpg" data-caption="機具岩_5" data-photo="P0102">
-      <img src="../assets/img/lib/P0102-thumb.jpg" alt="機具岩_5" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">機具岩_5</span>
-    </button><button class="gallery__item" type="button" data-index="29" data-large="../assets/img/lib/P0103-large.jpg" data-caption="機具岩_6" data-photo="P0103">
-      <img src="../assets/img/lib/P0103-thumb.jpg" alt="機具岩_6" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">機具岩_6</span>
-    </button><button class="gallery__item" type="button" data-index="30" data-large="../assets/img/lib/P0104-large.jpg" data-caption="機具岩_7" data-photo="P0104">
-      <img src="../assets/img/lib/P0104-thumb.jpg" alt="機具岩_7" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">機具岩_7</span>
-    </button><button class="gallery__item" type="button" data-index="31" data-large="../assets/img/lib/P0105-large.jpg" data-caption="機具岩_8" data-photo="P0105">
-      <img src="../assets/img/lib/P0105-thumb.jpg" alt="機具岩_8" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">機具岩_8</span>
-    </button><button class="gallery__item" type="button" data-index="32" data-large="../assets/img/lib/P0106-large.jpg" data-caption="機具岩_9" data-photo="P0106">
-      <img src="../assets/img/lib/P0106-thumb.jpg" alt="機具岩_9" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">機具岩_9</span>
-    </button><button class="gallery__item" type="button" data-index="33" data-large="../assets/img/lib/P0107-large.jpg" data-caption="機具岩_10" data-photo="P0107">
-      <img src="../assets/img/lib/P0107-thumb.jpg" alt="機具岩_10" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">機具岩_10</span>
-    </button><button class="gallery__item" type="button" data-index="34" data-large="../assets/img/lib/P0108-large.jpg" data-caption="機具岩_11" data-photo="P0108">
-      <img src="../assets/img/lib/P0108-thumb.jpg" alt="機具岩_11" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">機具岩_11</span>
-    </button><button class="gallery__item" type="button" data-index="35" data-large="../assets/img/lib/P0109-large.jpg" data-caption="機具岩_12" data-photo="P0109">
-      <img src="../assets/img/lib/P0109-thumb.jpg" alt="機具岩_12" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">機具岩_12</span>
-    </button><button class="gallery__item" type="button" data-index="36" data-large="../assets/img/lib/P0110-large.jpg" data-caption="機具岩_13" data-photo="P0110">
-      <img src="../assets/img/lib/P0110-thumb.jpg" alt="機具岩_13" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">機具岩_13</span>
-    </button><button class="gallery__item" type="button" data-index="37" data-large="../assets/img/lib/P0111-large.jpg" data-caption="機具岩_14" data-photo="P0111">
-      <img src="../assets/img/lib/P0111-thumb.jpg" alt="機具岩_14" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">機具岩_14</span>
-    </button><button class="gallery__item" type="button" data-index="38" data-large="../assets/img/lib/P0112-large.jpg" data-caption="機具岩_15" data-photo="P0112">
-      <img src="../assets/img/lib/P0112-thumb.jpg" alt="機具岩_15" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">機具岩_15</span>
-    </button><button class="gallery__item" type="button" data-index="39" data-large="../assets/img/lib/P0113-large.jpg" data-caption="機具岩_16" data-photo="P0113">
-      <img src="../assets/img/lib/P0113-thumb.jpg" alt="機具岩_16" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">機具岩_16</span>
-    </button><button class="gallery__item" type="button" data-index="40" data-large="../assets/img/lib/P0114-large.jpg" data-caption="機具岩_17" data-photo="P0114">
-      <img src="../assets/img/lib/P0114-thumb.jpg" alt="機具岩_17" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">機具岩_17</span>
-    </button><button class="gallery__item" type="button" data-index="41" data-large="../assets/img/lib/P0218-large.jpg" data-caption="機具岩_1" data-photo="P0218">
-      <img src="../assets/img/lib/P0218-thumb.jpg" alt="機具岩_1" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">機具岩_1</span>
     </button></div>
+      <a class="spot-allbtn" href="../index.html?spot=%E6%A9%9F%E5%85%B7%E5%B2%A9#find">このスポットの写真をすべて見る（42枚） <span aria-hidden="true">→</span></a>
     </div>
   </section>
 
@@ -256,10 +161,10 @@
           <span class="section__eyebrow">RELATED</span>
           <h2 class="section__title">近くのスポット</h2>
         </div>
-        <a class="section__more" href="index.html">すべて見る <svg><use href="#i-arrow"/></svg></a>
+        <a class="section__more" href="../index.html#spots">トップのスポット一覧へ <svg><use href="#i-arrow"/></svg></a>
       </div>
       <div class="spot-grid"><a class="spot-card" href="gate.html" data-area="富来エリア">
-  <div class="spot-card__media"><img src="../assets/img/lib/P0020-hero.jpg" alt="巌門" loading="lazy" width="2000" height="1125"></div>
+  <div class="spot-card__media"><img src="../assets/img/lib/P0020-thumb.jpg" alt="巌門" loading="lazy" width="640" height="480"></div>
   <div class="spot-card__body">
     <h3 class="spot-card__name">巌門</h3>
     <p class="spot-card__area"><svg><use href="#i-pin"/></svg>富来エリア</p>
@@ -267,7 +172,7 @@
   </div>
 </a>
 <a class="spot-card" href="benten.html" data-area="志賀エリア">
-  <div class="spot-card__media"><img src="../assets/img/lib/P0026-hero.jpg" alt="弁天島" loading="lazy" width="2000" height="1125"></div>
+  <div class="spot-card__media"><img src="../assets/img/lib/P0026-thumb.jpg" alt="弁天島" loading="lazy" width="640" height="480"></div>
   <div class="spot-card__body">
     <h3 class="spot-card__name">弁天島</h3>
     <p class="spot-card__area"><svg><use href="#i-pin"/></svg>志賀エリア</p>
@@ -275,7 +180,7 @@
   </div>
 </a>
 <a class="spot-card" href="yase.html" data-area="富来エリア">
-  <div class="spot-card__media"><img src="../assets/img/lib/P0032-hero.jpg" alt="ヤセの断崖・義経の舟隠し" loading="lazy" width="2000" height="1125"></div>
+  <div class="spot-card__media"><img src="../assets/img/lib/P0032-thumb.jpg" alt="ヤセの断崖・義経の舟隠し" loading="lazy" width="640" height="480"></div>
   <div class="spot-card__body">
     <h3 class="spot-card__name">ヤセの断崖・義経の舟隠し</h3>
     <p class="spot-card__area"><svg><use href="#i-pin"/></svg>富来エリア</p>
@@ -283,7 +188,7 @@
   </div>
 </a>
 <a class="spot-card" href="fukura.html" data-area="富来エリア">
-  <div class="spot-card__media"><img src="../assets/img/lib/P0005-hero.jpg" alt="旧福浦灯台" loading="lazy" width="2000" height="1125"></div>
+  <div class="spot-card__media"><img src="../assets/img/lib/P0005-thumb.jpg" alt="旧福浦灯台" loading="lazy" width="640" height="480"></div>
   <div class="spot-card__body">
     <h3 class="spot-card__name">旧福浦灯台</h3>
     <p class="spot-card__area"><svg><use href="#i-pin"/></svg>富来エリア</p>
@@ -305,30 +210,23 @@
     <a class="lightbox__link" id="lbLink" href="#" hidden>写真の詳細・ダウンロード →</a>
   </div>
 </div>
-<footer class="footer">
-  <div class="container">
-    <div class="footer__top">
-      <a href="../index.html" class="logo">
-        <span class="logo__mark"><svg><use href="#i-camera"/></svg></span>
-        <span class="logo__text"><span class="logo__en">志賀町</span><span class="logo__ja">SHIKA TOWN</span></span>
-      </a>
-      <div class="footer__primary">
-        <a class="footer__btn" href="https://shika-guide.jp" target="_blank" rel="noopener"><svg><use href="#i-compass"/></svg>志賀町観光情報</a>
-        <a class="footer__btn" href="https://www.instagram.com/shikatown_official/" target="_blank" rel="noopener"><svg><use href="#i-instagram"/></svg>Instagram</a>
-        <a class="footer__btn" href="../index.html#contact"><svg><use href="#i-mail"/></svg>お問い合わせ</a>
-      </div>
-    </div>
-    <div class="footer__bottom">
-      <ul class="footer__links">
-        <li><a href="../terms.html">利用規約</a></li>
-        <li><a href="../privacy.html">プライバシーポリシー</a></li>
-        <li><a href="../credit.html">著作権・クレジット</a></li>
-        <li><a href="../faq.html">よくあるご質問</a></li>
-        <li><a href="../instagram.html">Instagramのご紹介</a></li>
-      </ul>
-      <p class="footer__copy">© 志賀町 All Rights Reserved.</p>
+<footer class="tp-footer">
+  <div class="tp-footer__top">
+    <div class="tp-footer__logo">#しかたび<small>志賀町公式フォトライブラリー</small></div>
+    <div class="tp-footer__links">
+      <a href="https://shika-guide.jp" target="_blank" rel="noopener">志賀町観光情報 ↗</a>
+      <a href="https://www.instagram.com/shikatown_official/" target="_blank" rel="noopener">Instagram ↗</a>
+      <a href="../index.html#find">写真を探す ↑</a>
     </div>
   </div>
+  <ul class="tp-footer__links" aria-label="ご利用案内">
+    <li><a href="../terms.html">利用規約</a></li>
+    <li><a href="../privacy.html">プライバシーポリシー</a></li>
+    <li><a href="../credit.html">著作権・クレジット</a></li>
+    <li><a href="../faq.html">よくあるご質問</a></li>
+    <li><a href="../instagram.html">Instagramのご紹介</a></li>
+  </ul>
+  <p class="tp-footer__copy">© 志賀町 All Rights Reserved.</p>
 </footer>
 <script src="../assets/js/favorites-widget.js"></script>
 <script src="../assets/js/admin-gate.js"></script>

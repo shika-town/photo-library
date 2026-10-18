@@ -13,7 +13,8 @@
   var PAGE = 12;                 // 検索結果は12枚ずつ
   var FIELDS = [                 // [URLパラメーター, 入力欄のid, 画面に出すラベル]
     ['q', 'tpQuery', 'キーワード'], ['spot', 'tpSpot', '場所'], ['genre', 'tpGenre', 'ジャンル'],
-    ['use', 'tpUse', '用途'], ['season', 'tpSeason', '季節']
+    ['use', 'tpUse', '用途'], ['season', 'tpSeason', '季節'],
+    ['tag', 'tpTag', 'タグ']     // 写真ページのタグから来たときの、そのタグだけの絞り込み（入力欄は無し）
   ];
 
   var $ = function (s, c) { return (c || document).querySelector(s); };
@@ -25,7 +26,7 @@
   function num(n) { return Number(n).toLocaleString('ja-JP'); }
 
   var library = [];              // data/library.json の写真一覧
-  var matches = [], shown = PAGE, searched = false;
+  var matches = [], shown = PAGE, searched = false, showAll = false;   // showAll: 条件なしで全写真を並べる
 
   function field(key) { return $('#' + FIELDS.filter(function (f) { return f[0] === key; })[0][1]); }
 
@@ -56,7 +57,7 @@
   }
   function condObject() {
     return { q: field('q').value, spot: field('spot').value, genre: field('genre').value,
-             use: field('use').value, season: field('season').value };
+             use: field('use').value, season: field('season').value, tag: field('tag').value };
   }
 
   /* ---------- 結果の描画 ---------- */
@@ -123,6 +124,7 @@
   function toQueryString() {
     var u = new URLSearchParams();
     conditions().forEach(function (c) { u.set(c.key, c.value); });
+    if (showAll && !u.toString()) u.set('all', '1');
     return u.toString();
   }
   function sync(push) {
@@ -132,9 +134,10 @@
   }
   function search(opts) {
     opts = opts || {};
-    searched = conditions().length > 0;
+    showAll = !!opts.all && conditions().length === 0;
+    searched = conditions().length > 0 || showAll;
     shown = PAGE;
-    matches = searched ? SPLSearch.filter(library, condObject()) : [];
+    matches = conditions().length ? SPLSearch.filter(library, condObject()) : (showAll ? library.slice() : []);
     draw();
     sync(opts.push !== false);
     if (opts.scroll && searched) $('#tpResults').scrollIntoView({ block: 'start' });
@@ -144,9 +147,10 @@
     var vals = {};
     FIELDS.forEach(function (f) { vals[f[0]] = u.get(f[0]) || ''; });
     setAll(vals);
-    searched = conditions().length > 0;
+    showAll = u.get('all') === '1' && conditions().length === 0;
+    searched = conditions().length > 0 || showAll;
     shown = PAGE;
-    matches = searched ? SPLSearch.filter(library, condObject()) : [];
+    matches = conditions().length ? SPLSearch.filter(library, condObject()) : (showAll ? library.slice() : []);
     draw();
   }
 
@@ -231,10 +235,11 @@
 
     // 入力例・ジャンル・シーン・季節・条件のはずし方
     document.addEventListener('click', function (e) {
-      var t = e.target.closest('[data-remove],[data-clear-all],[data-q],[data-genre],[data-season],[data-spot]');
+      var t = e.target.closest('[data-remove],[data-clear-all],[data-q],[data-genre],[data-season],[data-spot],[data-all-photos]');
       if (!t || !t.closest('main')) return;
       if (t.hasAttribute('data-remove')) { field(t.getAttribute('data-remove')).value = ''; search(); return; }
       if (t.hasAttribute('data-clear-all')) { setAll(); search(); return; }
+      if (t.hasAttribute('data-all-photos')) { setAll(); search({ all: true, scroll: true }); return; }
       var vals = {};
       if (t.hasAttribute('data-q')) vals.q = t.getAttribute('data-q');
       else if (t.hasAttribute('data-genre')) vals.genre = t.getAttribute('data-genre');

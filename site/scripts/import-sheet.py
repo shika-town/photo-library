@@ -509,6 +509,10 @@ def main():
                  'images': hero_images, 'caption': site.get('heroCaption', '')},
         'heroTags': split(site.get('heroTags')),
         'spots': spot_cards,
+        # トップの「すべてのスポット」で展開して見せる全スポット（「その他」は除く）
+        'allSpots': [{'id': s['id'], 'name': s['name'], 'area': s['area'], 'count': s['count'],
+                      'image': s['hero'], 'alt': s['name'], 'description': s['catch']}
+                     for s in spots_out if s['id'] != 'other'],
         'scenes': [], 'photos': new_photos, 'seasons': [],
         'footer': {
             'primary': [

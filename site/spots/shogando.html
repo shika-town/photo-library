@@ -12,7 +12,7 @@
 </script>
 <title>大島諸願堂・大島キャンプ場｜SHIKA PHOTO LIBRARY</title>
 <meta name="description" content="石積みの六角地蔵塔と、白砂青松の海辺のキャンプ場">
-<meta name="theme-color" content="#0B4F82">
+<meta name="theme-color" content="#205563">
 <link rel="icon" href="../assets/img/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="../assets/img/favicon-16x16.png">
@@ -30,8 +30,9 @@
 <link rel="canonical" href="./shogando.html">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Shippori+Mincho:wght@400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../assets/css/style.css">
+<link rel="stylesheet" href="../assets/css/sub.css">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "TouristAttraction", "name": "大島諸願堂・大島キャンプ場", "description": "石積みの六角地蔵塔と、白砂青松の海辺のキャンプ場", "address": {"@type": "PostalAddress", "addressCountry": "JP", "streetAddress": "石川県羽咋郡志賀町大島"}, "image": "../assets/img/lib/P0042-hero.jpg", "inLanguage": "ja"}</script>
 </head>
 <body>
@@ -54,27 +55,20 @@
   <symbol id="i-facebook" viewBox="0 0 24 24" fill="currentColor"><path d="M14 9h2.5V5.5H14C11.8 5.5 10 7.3 10 9.5V12H8v3.5h2V22h3.5v-6.5H16l.5-3.5h-3V9.8c0-.5.4-.8.9-.8z"/></symbol>
 </svg>
 <a href="#main" class="sr-only">本文へスキップ</a>
-<header class="header header--solid" id="header">
-  <div class="header__inner">
-    <a href="../index.html" class="logo" aria-label="SHIKA PHOTO LIBRARY ホーム">
-      <span class="logo__mark"><svg><use href="#i-camera"/></svg></span>
-      <span class="logo__text">
-        <span class="logo__en">SHIKA PHOTO LIBRARY</span>
-        <span class="logo__ja">能登・志賀町 公式フォトライブラリー</span>
-      </span>
-    </a>
-    <nav class="nav" aria-label="メインナビゲーション"><ul class="nav__list"><li><a class="nav__link" href="../index.html">HOME</a></li><li><a class="nav__link" href="../spots/index.html" aria-current="page">スポットから探す</a></li><li><a class="nav__link" href="../search.html">写真から探す</a></li><li><a class="nav__link" href="../index.html#scenes">シーンで探す</a></li><li><a class="nav__link" href="../terms.html">ご利用について</a></li><li><a class="nav__link" href="../index.html#contact">お問い合わせ</a></li><li><a class="nav__link" href="#" data-admin-gate>🔒 管理者ページ</a></li></ul></nav>
-    <a class="header__fav" href="../favorites.html" aria-label="あとで見るリスト">
-      <svg><use href="#i-heart"/></svg><span class="header__fav-badge" hidden>0</span>
-    </a>
-    <a class="header__search" href="../search.html" aria-label="写真を検索"><svg><use href="#i-search"/></svg></a>
-    <button class="burger" id="btnBurger" aria-label="メニューを開く" aria-expanded="false"><svg><use href="#i-menu"/></svg></button>
+<header class="subbar" id="header">
+  <div class="subbar__inner">
+    <a class="subbar__brand" href="../index.html" aria-label="SHIKA PHOTO LIBRARY ホーム">能登・志賀町<span>公式フォトライブラリー</span></a>
+    <nav class="subbar__nav" aria-label="メインナビゲーション">
+      <a href="../index.html#find">写真を探す <span aria-hidden="true">↓</span></a>
+      <a class="header__fav" href="../favorites.html">あとで見るリスト <span class="header__fav-badge" hidden>0</span></a>
+      <button type="button" id="btnBurger" aria-expanded="false" aria-controls="drawer"><i class="tp-menu-icon" aria-hidden="true"></i><span>メニュー</span></button>
+    </nav>
   </div>
 </header>
 <div class="drawer" id="drawer">
-  <nav class="drawer__panel" aria-label="モバイルメニュー">
+  <nav class="drawer__panel" aria-label="メニュー">
     <button class="drawer__close" id="drawerClose" aria-label="メニューを閉じる"><svg><use href="#i-close"/></svg></button>
-    <a class="drawer__link" href="../index.html">HOME</a><a class="drawer__link" href="../spots/index.html">スポットから探す</a><a class="drawer__link" href="../search.html">写真から探す</a><a class="drawer__link" href="../index.html#scenes">シーンで探す</a><a class="drawer__link" href="../terms.html">ご利用について</a><a class="drawer__link" href="../index.html#contact">お問い合わせ</a><a class="drawer__link" href="#" data-admin-gate>🔒 管理者ページ</a><a class="drawer__link" href="../favorites.html">❤ あとで見るリスト</a>
+    <a class="drawer__link" href="../index.html">HOME</a><a class="drawer__link" href="../index.html#find">写真を探す</a><a class="drawer__link" href="../index.html#genres">ジャンルで探す</a><a class="drawer__link" href="../index.html#scenes">シーンで探す</a><a class="drawer__link" href="../index.html#seasons">季節から探す</a><a class="drawer__link" href="../terms.html">ご利用について</a><a class="drawer__link" href="../index.html#contact">お問い合わせ</a><a class="drawer__link" href="#" data-admin-gate>🔒 管理者ページ</a><a class="drawer__link" href="../favorites.html">❤ あとで見るリスト</a>
   </nav>
 </div>
 <main id="main">
@@ -89,7 +83,7 @@
   <nav class="breadcrumb container" aria-label="パンくずリスト">
     <ol>
       <li><a href="../index.html">HOME</a></li>
-      <li><a href="index.html">スポットから探す</a></li>
+      <li><a href="../index.html#spots">スポット</a></li>
       <li>大島諸願堂・大島キャンプ場</li>
     </ol>
   </nav>
@@ -99,7 +93,7 @@
       <div>
         <p class="spotbody__catch">石積みの六角地蔵塔と、白砂青松の海辺のキャンプ場</p>
         <div class="spotbody__text"><p>大島海岸に佇む諸願堂は、室町時代から伝わる悲しい船乗りの物語を今に伝える場所です。石積みの六角地蔵塔が静かに立ち、日本海の潮風に吹かれながら供養の祈りを捧げ続けています。</p><p>その昔、肥前大村（現在の長崎県大村市）の船持・武太夫の息子が乗った船が大島沖で難破。息子をはじめ乗組員たちは命を落とし、悲しみに暮れた武太夫は故郷から石を運び、この地に地蔵塔を建立しました。六角地蔵塔は高さ約3m、六面に地蔵菩薩が彫られた石積みの塔で、昭和48年に志賀町指定文化財に登録されています。</p><p>同じ大島海岸には、能登半島国定公園内に位置する「大島キャンプ場」があります。白砂青松に囲まれた広大なフリーサイトが魅力のオートキャンプ場で、車を乗り入れて好きな場所にテントを張り、海辺で自由なキャンプを楽しめます。</p><p>敷地内にはコテージやログハウスもあり、ドッグランを併設したサイトも。隣接する海水浴場は遠浅で、夏には家族連れで賑わいます。夏休み期間中には地引き網体験も実施されています。</p></div>
-        <div class="spotbody__tags"><a class="tag" href="../index.html#photos">#名所旧跡</a><a class="tag" href="../index.html#photos">#海</a><a class="tag" href="../index.html#photos">#星空</a><a class="tag" href="../index.html#photos">#夕陽</a><a class="tag" href="../index.html#photos">#キャンプ</a></div>
+        <div class="spotbody__tags"><a class="tag" href="../index.html?tag=%E5%90%8D%E6%89%80%E6%97%A7%E8%B7%A1#find">#名所旧跡</a><a class="tag" href="../index.html?tag=%E6%B5%B7#find">#海</a><a class="tag" href="../index.html?tag=%E6%98%9F%E7%A9%BA#find">#星空</a><a class="tag" href="../index.html?tag=%E5%A4%95%E9%99%BD#find">#夕陽</a><a class="tag" href="../index.html?tag=%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%97#find">#キャンプ</a></div>
       </div>
       <aside class="infobox">
         <p class="infobox__title">INFORMATION</p>
@@ -115,7 +109,7 @@
         <div>
           <span class="section__eyebrow">PHOTOS</span>
           <h2 class="section__title">大島諸願堂・大島キャンプ場の写真</h2>
-          <p class="section__lead">写真をクリックすると拡大表示します。</p>
+          <p class="section__lead">代表の写真です。クリックすると拡大表示します。</p>
         </div>
         <span class="section__more">全37枚</span>
       </div>
@@ -155,82 +149,8 @@
     </button><button class="gallery__item" type="button" data-index="11" data-large="../assets/img/lib/P0830-large.jpg" data-caption="大島地引網_4" data-photo="P0830">
       <img src="../assets/img/lib/P0830-thumb.jpg" alt="大島地引網_4" loading="lazy" width="640" height="480">
       <span class="gallery__cap">大島地引網_4</span>
-    </button><button class="gallery__item" type="button" data-index="12" data-large="../assets/img/lib/P0831-large.jpg" data-caption="大島地引網_5" data-photo="P0831">
-      <img src="../assets/img/lib/P0831-thumb.jpg" alt="大島地引網_5" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">大島地引網_5</span>
-    </button><button class="gallery__item" type="button" data-index="13" data-large="../assets/img/lib/P0832-large.jpg" data-caption="大島地引網_6" data-photo="P0832">
-      <img src="../assets/img/lib/P0832-thumb.jpg" alt="大島地引網_6" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">大島地引網_6</span>
-    </button><button class="gallery__item" type="button" data-index="14" data-large="../assets/img/lib/P0833-large.jpg" data-caption="大島地引網_7" data-photo="P0833">
-      <img src="../assets/img/lib/P0833-thumb.jpg" alt="大島地引網_7" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">大島地引網_7</span>
-    </button><button class="gallery__item" type="button" data-index="15" data-large="../assets/img/lib/P0834-large.jpg" data-caption="大島地引網_8" data-photo="P0834">
-      <img src="../assets/img/lib/P0834-thumb.jpg" alt="大島地引網_8" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">大島地引網_8</span>
-    </button><button class="gallery__item" type="button" data-index="16" data-large="../assets/img/lib/P0835-large.jpg" data-caption="大島地引網_9" data-photo="P0835">
-      <img src="../assets/img/lib/P0835-thumb.jpg" alt="大島地引網_9" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">大島地引網_9</span>
-    </button><button class="gallery__item" type="button" data-index="17" data-large="../assets/img/lib/P0836-large.jpg" data-caption="大島地引網_10" data-photo="P0836">
-      <img src="../assets/img/lib/P0836-thumb.jpg" alt="大島地引網_10" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">大島地引網_10</span>
-    </button><button class="gallery__item" type="button" data-index="18" data-large="../assets/img/lib/P0837-large.jpg" data-caption="大島地引網_11" data-photo="P0837">
-      <img src="../assets/img/lib/P0837-thumb.jpg" alt="大島地引網_11" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">大島地引網_11</span>
-    </button><button class="gallery__item" type="button" data-index="19" data-large="../assets/img/lib/P0838-large.jpg" data-caption="大島地引網_12" data-photo="P0838">
-      <img src="../assets/img/lib/P0838-thumb.jpg" alt="大島地引網_12" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">大島地引網_12</span>
-    </button><button class="gallery__item" type="button" data-index="20" data-large="../assets/img/lib/P0839-large.jpg" data-caption="大島地引網_13" data-photo="P0839">
-      <img src="../assets/img/lib/P0839-thumb.jpg" alt="大島地引網_13" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">大島地引網_13</span>
-    </button><button class="gallery__item" type="button" data-index="21" data-large="../assets/img/lib/P0157-large.jpg" data-caption="大島諸願堂_1" data-photo="P0157">
-      <img src="../assets/img/lib/P0157-thumb.jpg" alt="大島諸願堂_1" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">大島諸願堂_1</span>
-    </button><button class="gallery__item" type="button" data-index="22" data-large="../assets/img/lib/P0158-large.jpg" data-caption="大島諸願堂_2" data-photo="P0158">
-      <img src="../assets/img/lib/P0158-thumb.jpg" alt="大島諸願堂_2" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">大島諸願堂_2</span>
-    </button><button class="gallery__item" type="button" data-index="23" data-large="../assets/img/lib/P0159-large.jpg" data-caption="大島諸願堂_3" data-photo="P0159">
-      <img src="../assets/img/lib/P0159-thumb.jpg" alt="大島諸願堂_3" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">大島諸願堂_3</span>
-    </button><button class="gallery__item" type="button" data-index="24" data-large="../assets/img/lib/P0160-large.jpg" data-caption="大島諸願堂_4" data-photo="P0160">
-      <img src="../assets/img/lib/P0160-thumb.jpg" alt="大島諸願堂_4" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">大島諸願堂_4</span>
-    </button><button class="gallery__item" type="button" data-index="25" data-large="../assets/img/lib/P0161-large.jpg" data-caption="大島キャンプ場_1" data-photo="P0161">
-      <img src="../assets/img/lib/P0161-thumb.jpg" alt="大島キャンプ場_1" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">大島キャンプ場_1</span>
-    </button><button class="gallery__item" type="button" data-index="26" data-large="../assets/img/lib/P0162-large.jpg" data-caption="大島キャンプ場_2" data-photo="P0162">
-      <img src="../assets/img/lib/P0162-thumb.jpg" alt="大島キャンプ場_2" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">大島キャンプ場_2</span>
-    </button><button class="gallery__item" type="button" data-index="27" data-large="../assets/img/lib/P0163-large.jpg" data-caption="大島諸願堂_5" data-photo="P0163">
-      <img src="../assets/img/lib/P0163-thumb.jpg" alt="大島諸願堂_5" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">大島諸願堂_5</span>
-    </button><button class="gallery__item" type="button" data-index="28" data-large="../assets/img/lib/P0164-large.jpg" data-caption="大島諸願堂_6" data-photo="P0164">
-      <img src="../assets/img/lib/P0164-thumb.jpg" alt="大島諸願堂_6" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">大島諸願堂_6</span>
-    </button><button class="gallery__item" type="button" data-index="29" data-large="../assets/img/lib/P0168-large.jpg" data-caption="大島キャンプ場_3" data-photo="P0168">
-      <img src="../assets/img/lib/P0168-thumb.jpg" alt="大島キャンプ場_3" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">大島キャンプ場_3</span>
-    </button><button class="gallery__item" type="button" data-index="30" data-large="../assets/img/lib/P0169-large.jpg" data-caption="大島キャンプ場_4" data-photo="P0169">
-      <img src="../assets/img/lib/P0169-thumb.jpg" alt="大島キャンプ場_4" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">大島キャンプ場_4</span>
-    </button><button class="gallery__item" type="button" data-index="31" data-large="../assets/img/lib/P0171-large.jpg" data-caption="大島キャンプ場_5" data-photo="P0171">
-      <img src="../assets/img/lib/P0171-thumb.jpg" alt="大島キャンプ場_5" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">大島キャンプ場_5</span>
-    </button><button class="gallery__item" type="button" data-index="32" data-large="../assets/img/lib/P0172-large.jpg" data-caption="大島キャンプ場_6" data-photo="P0172">
-      <img src="../assets/img/lib/P0172-thumb.jpg" alt="大島キャンプ場_6" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">大島キャンプ場_6</span>
-    </button><button class="gallery__item" type="button" data-index="33" data-large="../assets/img/lib/P0174-large.jpg" data-caption="大島キャンプ場_7" data-photo="P0174">
-      <img src="../assets/img/lib/P0174-thumb.jpg" alt="大島キャンプ場_7" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">大島キャンプ場_7</span>
-    </button><button class="gallery__item" type="button" data-index="34" data-large="../assets/img/lib/P0399-large.jpg" data-caption="大島諸願堂_7" data-photo="P0399">
-      <img src="../assets/img/lib/P0399-thumb.jpg" alt="大島諸願堂_7" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">大島諸願堂_7</span>
-    </button><button class="gallery__item" type="button" data-index="35" data-large="../assets/img/lib/P0400-large.jpg" data-caption="大島諸願堂_8" data-photo="P0400">
-      <img src="../assets/img/lib/P0400-thumb.jpg" alt="大島諸願堂_8" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">大島諸願堂_8</span>
-    </button><button class="gallery__item" type="button" data-index="36" data-large="../assets/img/lib/P0401-large.jpg" data-caption="大島諸願堂_9" data-photo="P0401">
-      <img src="../assets/img/lib/P0401-thumb.jpg" alt="大島諸願堂_9" loading="lazy" width="640" height="480">
-      <span class="gallery__cap">大島諸願堂_9</span>
     </button></div>
+      <a class="spot-allbtn" href="../index.html?spot=%E5%A4%A7%E5%B3%B6%E8%AB%B8%E9%A1%98%E5%A0%82%E3%83%BB%E5%A4%A7%E5%B3%B6%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%97%E5%A0%B4#find">このスポットの写真をすべて見る（37枚） <span aria-hidden="true">→</span></a>
     </div>
   </section>
 
@@ -241,10 +161,10 @@
           <span class="section__eyebrow">RELATED</span>
           <h2 class="section__title">近くのスポット</h2>
         </div>
-        <a class="section__more" href="index.html">すべて見る <svg><use href="#i-arrow"/></svg></a>
+        <a class="section__more" href="../index.html#spots">トップのスポット一覧へ <svg><use href="#i-arrow"/></svg></a>
       </div>
       <div class="spot-grid"><a class="spot-card" href="sakuragai.html" data-area="富来エリア">
-  <div class="spot-card__media"><img src="../assets/img/lib/P0049-hero.jpg" alt="道の駅とぎ海街道・さくら貝資料館" loading="lazy" width="2000" height="1125"></div>
+  <div class="spot-card__media"><img src="../assets/img/lib/P0049-thumb.jpg" alt="道の駅とぎ海街道・さくら貝資料館" loading="lazy" width="640" height="480"></div>
   <div class="spot-card__body">
     <h3 class="spot-card__name">道の駅とぎ海街道・さくら貝資料館</h3>
     <p class="spot-card__area"><svg><use href="#i-pin"/></svg>富来エリア</p>
@@ -252,7 +172,7 @@
   </div>
 </a>
 <a class="spot-card" href="taira.html" data-area="志賀エリア">
-  <div class="spot-card__media"><img src="../assets/img/lib/P0062-hero.jpg" alt="平家" loading="lazy" width="2000" height="1125"></div>
+  <div class="spot-card__media"><img src="../assets/img/lib/P0062-thumb.jpg" alt="平家" loading="lazy" width="640" height="480"></div>
   <div class="spot-card__body">
     <h3 class="spot-card__name">平家</h3>
     <p class="spot-card__area"><svg><use href="#i-pin"/></svg>志賀エリア</p>
@@ -260,7 +180,7 @@
   </div>
 </a>
 <a class="spot-card" href="matsuo.html" data-area="富来エリア">
-  <div class="spot-card__media"><img src="../assets/img/lib/P0144-hero.jpg" alt="松尾神社" loading="lazy" width="2000" height="1125"></div>
+  <div class="spot-card__media"><img src="../assets/img/lib/P0144-thumb.jpg" alt="松尾神社" loading="lazy" width="640" height="480"></div>
   <div class="spot-card__body">
     <h3 class="spot-card__name">松尾神社</h3>
     <p class="spot-card__area"><svg><use href="#i-pin"/></svg>富来エリア</p>
@@ -268,7 +188,7 @@
   </div>
 </a>
 <a class="spot-card" href="other.html" data-area="">
-  <div class="spot-card__media"><img src="../assets/img/lib/P0007-hero.jpg" alt="その他" loading="lazy" width="2000" height="1125"></div>
+  <div class="spot-card__media"><img src="../assets/img/lib/P0007-thumb.jpg" alt="その他" loading="lazy" width="640" height="480"></div>
   <div class="spot-card__body">
     <h3 class="spot-card__name">その他</h3>
     <p class="spot-card__area"><svg><use href="#i-pin"/></svg></p>
@@ -290,30 +210,23 @@
     <a class="lightbox__link" id="lbLink" href="#" hidden>写真の詳細・ダウンロード →</a>
   </div>
 </div>
-<footer class="footer">
-  <div class="container">
-    <div class="footer__top">
-      <a href="../index.html" class="logo">
-        <span class="logo__mark"><svg><use href="#i-camera"/></svg></span>
-        <span class="logo__text"><span class="logo__en">志賀町</span><span class="logo__ja">SHIKA TOWN</span></span>
-      </a>
-      <div class="footer__primary">
-        <a class="footer__btn" href="https://shika-guide.jp" target="_blank" rel="noopener"><svg><use href="#i-compass"/></svg>志賀町観光情報</a>
-        <a class="footer__btn" href="https://www.instagram.com/shikatown_official/" target="_blank" rel="noopener"><svg><use href="#i-instagram"/></svg>Instagram</a>
-        <a class="footer__btn" href="../index.html#contact"><svg><use href="#i-mail"/></svg>お問い合わせ</a>
-      </div>
-    </div>
-    <div class="footer__bottom">
-      <ul class="footer__links">
-        <li><a href="../terms.html">利用規約</a></li>
-        <li><a href="../privacy.html">プライバシーポリシー</a></li>
-        <li><a href="../credit.html">著作権・クレジット</a></li>
-        <li><a href="../faq.html">よくあるご質問</a></li>
-        <li><a href="../instagram.html">Instagramのご紹介</a></li>
-      </ul>
-      <p class="footer__copy">© 志賀町 All Rights Reserved.</p>
+<footer class="tp-footer">
+  <div class="tp-footer__top">
+    <div class="tp-footer__logo">#しかたび<small>志賀町公式フォトライブラリー</small></div>
+    <div class="tp-footer__links">
+      <a href="https://shika-guide.jp" target="_blank" rel="noopener">志賀町観光情報 ↗</a>
+      <a href="https://www.instagram.com/shikatown_official/" target="_blank" rel="noopener">Instagram ↗</a>
+      <a href="../index.html#find">写真を探す ↑</a>
     </div>
   </div>
+  <ul class="tp-footer__links" aria-label="ご利用案内">
+    <li><a href="../terms.html">利用規約</a></li>
+    <li><a href="../privacy.html">プライバシーポリシー</a></li>
+    <li><a href="../credit.html">著作権・クレジット</a></li>
+    <li><a href="../faq.html">よくあるご質問</a></li>
+    <li><a href="../instagram.html">Instagramのご紹介</a></li>
+  </ul>
+  <p class="tp-footer__copy">© 志賀町 All Rights Reserved.</p>
 </footer>
 <script src="../assets/js/favorites-widget.js"></script>
 <script src="../assets/js/admin-gate.js"></script>

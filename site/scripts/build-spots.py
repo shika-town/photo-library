@@ -7,7 +7,7 @@
   spots/index.html   スポット一覧（エリア絞り込み付き）
   spots/<id>.html    スポット詳細（ヒーロー・説明・基本情報・写真グリッド・関連スポット）
 """
-import json, io, os, html, urllib.parse
+import json, io, os, re, html, urllib.parse
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = json.load(io.open(os.path.join(BASE, 'data', 'spots.json'), encoding='utf-8'))
@@ -50,8 +50,9 @@ GA_SNIPPET = '''<script async src="https://www.googletagmanager.com/gtag/js?id=%
 # 「管理者ページ」だけは特別扱い：リンク先ページを持たず、クリックすると
 # assets/js/admin-gate.js が合言葉モーダルを開く（header() 内で判定）。
 ADMIN_LABEL = '🔒 管理者ページ'
-NAV = [('HOME', '{p}index.html'), ('スポットから探す', '{p}spots/index.html'),
-       ('写真から探す', '{p}search.html'), ('シーンで探す', '{p}index.html#scenes'),
+NAV = [('HOME', '{p}index.html'), ('写真を探す', '{p}index.html#find'),
+       ('ジャンルで探す', '{p}index.html#genres'), ('シーンで探す', '{p}index.html#scenes'),
+       ('季節から探す', '{p}index.html#seasons'),
        ('ご利用について', '{p}terms.html'), ('お問い合わせ', '{p}index.html#contact'),
        (ADMIN_LABEL, '#')]
 
@@ -83,7 +84,7 @@ def head(title, desc, ogimg, canonical, pre='../'):
 <meta name="viewport" content="width=device-width, initial-scale=1">
 ''' + GA_SNIPPET + '''<title>%s</title>
 <meta name="description" content="%s">
-<meta name="theme-color" content="#0B4F82">
+<meta name="theme-color" content="#205563">
 <link rel="icon" href="{PRE}assets/img/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="{PRE}assets/img/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="{PRE}assets/img/favicon-16x16.png">
@@ -100,72 +101,55 @@ def head(title, desc, ogimg, canonical, pre='../'):
 <link rel="canonical" href="%s">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Shippori+Mincho:wght@400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="{PRE}assets/css/style.css">
+<link rel="stylesheet" href="{PRE}assets/css/sub.css">
 ''').replace('{PRE}', pre).replace('{ROBOTS}', ROBOTS) % (E(title), E(desc), E(SITE), E(title), E(desc), E(ogimg), E(canonical))
 
 
-def header(current, pre='../'):
+def header(current='', pre='../'):
+    """トップ以外のページ共通のヘッダー（細いバー＋メニュー）。メニューの中身はトップと同じ。"""
     nav = [(l, h.replace('{p}', pre)) for l, h in NAV]
-    items = ''.join(
-        '<li><a class="nav__link" href="%s"%s%s>%s</a></li>'
-        % (E(href), ' aria-current="page"' if label == current else '',
-           ' data-admin-gate' if label == ADMIN_LABEL else '', E(label))
-        for label, href in nav)
     drawer = ''.join(
         '<a class="drawer__link" href="%s"%s>%s</a>'
         % (E(h), ' data-admin-gate' if l == ADMIN_LABEL else '', E(l))
         for l, h in nav)
     drawer += '<a class="drawer__link" href="%sfavorites.html">❤ あとで見るリスト</a>' % pre
-    return '''<header class="header header--solid" id="header">
-  <div class="header__inner">
-    <a href="{PRE}index.html" class="logo" aria-label="%s ホーム">
-      <span class="logo__mark"><svg><use href="#i-camera"/></svg></span>
-      <span class="logo__text">
-        <span class="logo__en">SHIKA PHOTO LIBRARY</span>
-        <span class="logo__ja">能登・志賀町 公式フォトライブラリー</span>
-      </span>
-    </a>
-    <nav class="nav" aria-label="メインナビゲーション"><ul class="nav__list">%s</ul></nav>
-    <a class="header__fav" href="{PRE}favorites.html" aria-label="あとで見るリスト">
-      <svg><use href="#i-heart"/></svg><span class="header__fav-badge" hidden>0</span>
-    </a>
-    <a class="header__search" href="{PRE}search.html" aria-label="写真を検索"><svg><use href="#i-search"/></svg></a>
-    <button class="burger" id="btnBurger" aria-label="メニューを開く" aria-expanded="false"><svg><use href="#i-menu"/></svg></button>
+    return '''<header class="subbar" id="header">
+  <div class="subbar__inner">
+    <a class="subbar__brand" href="{PRE}index.html" aria-label="%s ホーム">能登・志賀町<span>公式フォトライブラリー</span></a>
+    <nav class="subbar__nav" aria-label="メインナビゲーション">
+      <a href="{PRE}index.html#find">写真を探す <span aria-hidden="true">↓</span></a>
+      <a class="header__fav" href="{PRE}favorites.html">あとで見るリスト <span class="header__fav-badge" hidden>0</span></a>
+      <button type="button" id="btnBurger" aria-expanded="false" aria-controls="drawer"><i class="tp-menu-icon" aria-hidden="true"></i><span>メニュー</span></button>
+    </nav>
   </div>
 </header>
 <div class="drawer" id="drawer">
-  <nav class="drawer__panel" aria-label="モバイルメニュー">
+  <nav class="drawer__panel" aria-label="メニュー">
     <button class="drawer__close" id="drawerClose" aria-label="メニューを閉じる"><svg><use href="#i-close"/></svg></button>
     %s
   </nav>
-</div>'''.replace('{PRE}', pre) % (E(SITE), items, drawer)
+</div>'''.replace('{PRE}', pre) % (E(SITE), drawer)
 
 
-FOOTER_TPL = '''<footer class="footer">
-  <div class="container">
-    <div class="footer__top">
-      <a href="{PRE}index.html" class="logo">
-        <span class="logo__mark"><svg><use href="#i-camera"/></svg></span>
-        <span class="logo__text"><span class="logo__en">志賀町</span><span class="logo__ja">SHIKA TOWN</span></span>
-      </a>
-      <div class="footer__primary">
-        <a class="footer__btn" href="https://shika-guide.jp" target="_blank" rel="noopener"><svg><use href="#i-compass"/></svg>志賀町観光情報</a>
-        <a class="footer__btn" href="https://www.instagram.com/shikatown_official/" target="_blank" rel="noopener"><svg><use href="#i-instagram"/></svg>Instagram</a>
-        <a class="footer__btn" href="{PRE}index.html#contact"><svg><use href="#i-mail"/></svg>お問い合わせ</a>
-      </div>
-    </div>
-    <div class="footer__bottom">
-      <ul class="footer__links">
-        <li><a href="{PRE}terms.html">利用規約</a></li>
-        <li><a href="{PRE}privacy.html">プライバシーポリシー</a></li>
-        <li><a href="{PRE}credit.html">著作権・クレジット</a></li>
-        <li><a href="{PRE}faq.html">よくあるご質問</a></li>
-        <li><a href="{PRE}instagram.html">Instagramのご紹介</a></li>
-      </ul>
-      <p class="footer__copy">© 志賀町 All Rights Reserved.</p>
+FOOTER_TPL = '''<footer class="tp-footer">
+  <div class="tp-footer__top">
+    <div class="tp-footer__logo">#しかたび<small>志賀町公式フォトライブラリー</small></div>
+    <div class="tp-footer__links">
+      <a href="https://shika-guide.jp" target="_blank" rel="noopener">志賀町観光情報 ↗</a>
+      <a href="https://www.instagram.com/shikatown_official/" target="_blank" rel="noopener">Instagram ↗</a>
+      <a href="{PRE}index.html#find">写真を探す ↑</a>
     </div>
   </div>
+  <ul class="tp-footer__links" aria-label="ご利用案内">
+    <li><a href="{PRE}terms.html">利用規約</a></li>
+    <li><a href="{PRE}privacy.html">プライバシーポリシー</a></li>
+    <li><a href="{PRE}credit.html">著作権・クレジット</a></li>
+    <li><a href="{PRE}faq.html">よくあるご質問</a></li>
+    <li><a href="{PRE}instagram.html">Instagramのご紹介</a></li>
+  </ul>
+  <p class="tp-footer__copy">© 志賀町 All Rights Reserved.</p>
 </footer>
 <script src="{PRE}assets/js/favorites-widget.js"></script>
 <script src="{PRE}assets/js/admin-gate.js"></script>
@@ -178,77 +162,58 @@ def footer(pre='../', js='spots.js'):
     return FOOTER_TPL.replace('{PRE}', pre).replace('{JS}', js)
 
 
+def redirect_page(target, title, map_params=False):
+    """廃止したページの代わりに置く、トップへの転送ページ（古いURLや外部リンクが切れないように残す）。"""
+    js = ''
+    if map_params:
+        js = """<script>
+(function () {
+  var p = new URLSearchParams(location.search), o = new URLSearchParams();
+  ['q', 'spot', 'genre', 'use', 'season', 'tag'].forEach(function (k) { if (p.get(k)) o.set(k, p.get(k)); });
+  if (p.get('tags') && !o.get('q')) o.set('q', p.get('tags').split(',').join(' '));   // 旧「目的で探す」のURL
+  var qs = o.toString();
+  location.replace('%s'.replace('#', (qs ? '?' + qs : '') + '#'));
+})();
+</script>
+<noscript><meta http-equiv="refresh" content="0;url=%s"></noscript>""" % (target, target)
+    else:
+        js = '<meta http-equiv="refresh" content="0;url=%s">' % target
+    return ('<!DOCTYPE html>\n<html lang="ja">\n<head>\n<meta charset="UTF-8">\n'
+            '<meta name="viewport" content="width=device-width, initial-scale=1">\n'
+            '<meta name="robots" content="noindex">\n<title>%s</title>\n<link rel="canonical" href="%s">\n%s\n</head>\n'
+            '<body><p><a href="%s">トップページへ移動します</a></p></body>\n</html>\n') % (E(title), target, js, target)
+
+
 def spot_card(s, href_prefix=''):
     return '''<a class="spot-card" href="%s%s.html" data-area="%s">
-  <div class="spot-card__media"><img src="../%s" alt="%s" loading="lazy" width="2000" height="1125"></div>
+  <div class="spot-card__media"><img src="../%s" alt="%s" loading="lazy" width="640" height="480"></div>
   <div class="spot-card__body">
     <h3 class="spot-card__name">%s</h3>
     <p class="spot-card__area"><svg><use href="#i-pin"/></svg>%s</p>
     <p class="spot-card__count">写真 %d枚</p>
   </div>
-</a>''' % (E(href_prefix), E(s['id']), E(s['area']), E(s['hero']), E(s['name']), E(s['name']), E(s['area']), s['count'])
+</a>''' % (E(href_prefix), E(s['id']), E(s['area']), E(re.sub(r'-hero\.jpg$', '-thumb.jpg', s['hero'])), E(s['name']), E(s['name']), E(s['area']), s['count'])
 
 
 # =====================================================================
 # spots/index.html
 # =====================================================================
-areas = []
-for s in SPOTS:
-    if s['area'] and s['area'] not in areas:
-        areas.append(s['area'])
-
-filters = '<button class="filter is-active" type="button" data-area="all">すべて（%d）</button>' % len(SPOTS)
-for a in areas:
-    n = sum(1 for s in SPOTS if s['area'] == a)
-    filters += '<button class="filter" type="button" data-area="%s">%s（%d）</button>' % (E(a), E(a), n)
-
-index_html = head(
-    'スポットから探す｜%s' % SITE,
-    '志賀町の観光スポットを写真から探せます。世界一長いベンチ、機具岩、巌門、ヤセの断崖など%d件を掲載。' % len(SPOTS),
-    '../assets/img/ogp.jpg', './') + '''</head>
-<body>
-''' + SPRITE + '''
-<a href="#main" class="sr-only">本文へスキップ</a>
-''' + header('スポットから探す') + '''
-<main id="main">
-  <nav class="breadcrumb container" aria-label="パンくずリスト">
-    <ol>
-      <li><a href="../index.html">HOME</a></li>
-      <li>スポットから探す</li>
-    </ol>
-  </nav>
-
-  <div class="container">
-    <div class="pagehead">
-      <span class="pagehead__eyebrow">SPOTS</span>
-      <h1 class="pagehead__title">スポットから探す</h1>
-      <p class="pagehead__lead">志賀町の観光スポットを、写真からたどれます。</p>
-    </div>
-
-    <div class="filters" id="areaFilters">''' + filters + '''</div>
-
-    <div class="spot-grid" id="spotGrid">
-''' + '\n'.join(spot_card(s) for s in SPOTS) + '''
-    </div>
-    <p class="results__empty" id="noResult" hidden>該当するスポットがありません。</p>
-  </div>
-
-  <div style="height:var(--section-gap)"></div>
-</main>
-''' + footer()
-
-io.open(os.path.join(OUT, 'index.html'), 'w', encoding='utf-8').write(index_html)
-print('spots/index.html')
+# スポット一覧ページは廃止（トップの「人気のスポット」に全スポットを集約）。
+# 古いURLが切れないよう、トップの該当位置へ転送するだけのページを置く。
+io.open(os.path.join(OUT, 'index.html'), 'w', encoding='utf-8').write(
+    redirect_page('../index.html#spots', 'スポットから探す｜%s' % SITE))
+print('spots/index.html（転送ページ）')
 
 
 # =====================================================================
 # spots/<id>.html
 # =====================================================================
+GALLERY_PREVIEW = 12   # スポットページに載せる代表写真の枚数（全写真はトップの検索で見る）
 for i, s in enumerate(SPOTS):
     related = [SPOTS[(i + k) % len(SPOTS)] for k in (1, 2, 3, 4)]
 
     body = ''.join('<p>%s</p>' % E(p) for p in s['body'])
-    tags = ''.join('<a class="tag" href="../index.html#photos">#%s</a>' % E(t) for t in s['tags'])
+    tags = ''.join('<a class="tag" href="../index.html?tag=%s#find">#%s</a>' % (urllib.parse.quote(t), E(t)) for t in s['tags'])
 
     rows = '<div class="infobox__row"><p class="infobox__label">住所</p><p class="infobox__value">%s</p></div>' % E(s['address'])
     for r in s['info']:
@@ -262,7 +227,8 @@ for i, s in enumerate(SPOTS):
       <span class="gallery__cap">%s</span>
     </button>''' % (j, E(p['large']), E(p['caption']), E(PHOTO_ID.get(_norm(p['thumb']), '')),
                     E(p['thumb']), E(p['caption']), E(p['caption']))
-        for j, p in enumerate(s['photos']))
+        for j, p in enumerate(s['photos'][:GALLERY_PREVIEW]))
+    all_url = '../index.html?spot=%s#find' % urllib.parse.quote(s['name'])
 
     ld = json.dumps({
         "@context": "https://schema.org", "@type": "TouristAttraction",
@@ -273,7 +239,7 @@ for i, s in enumerate(SPOTS):
 
     page = head('%s｜%s' % (s['name'], SITE), s['catch'], '../' + s['hero'], './%s.html' % s['id'])
     page += '<script type="application/ld+json">%s</script>\n</head>\n<body>\n' % ld
-    page += SPRITE + '\n<a href="#main" class="sr-only">本文へスキップ</a>\n' + header('スポットから探す') + '''
+    page += SPRITE + '\n<a href="#main" class="sr-only">本文へスキップ</a>\n' + header() + '''
 <main id="main">
   <section class="spothero">
     <div class="spothero__media"><img src="../%s" alt="%s" fetchpriority="high" width="2000" height="1125"></div>
@@ -286,7 +252,7 @@ for i, s in enumerate(SPOTS):
   <nav class="breadcrumb container" aria-label="パンくずリスト">
     <ol>
       <li><a href="../index.html">HOME</a></li>
-      <li><a href="index.html">スポットから探す</a></li>
+      <li><a href="../index.html#spots">スポット</a></li>
       <li>%s</li>
     </ol>
   </nav>
@@ -312,11 +278,12 @@ for i, s in enumerate(SPOTS):
         <div>
           <span class="section__eyebrow">PHOTOS</span>
           <h2 class="section__title">%sの写真</h2>
-          <p class="section__lead">写真をクリックすると拡大表示します。</p>
+          <p class="section__lead">代表の写真です。クリックすると拡大表示します。</p>
         </div>
         <span class="section__more">全%d枚</span>
       </div>
       <div class="gallery" id="gallery">%s</div>
+      <a class="spot-allbtn" href="%s">このスポットの写真をすべて見る（%d枚） <span aria-hidden="true">→</span></a>
     </div>
   </section>
 
@@ -327,7 +294,7 @@ for i, s in enumerate(SPOTS):
           <span class="section__eyebrow">RELATED</span>
           <h2 class="section__title">近くのスポット</h2>
         </div>
-        <a class="section__more" href="index.html">すべて見る <svg><use href="#i-arrow"/></svg></a>
+        <a class="section__more" href="../index.html#spots">トップのスポット一覧へ <svg><use href="#i-arrow"/></svg></a>
       </div>
       <div class="spot-grid">%s</div>
     </div>
@@ -346,7 +313,7 @@ for i, s in enumerate(SPOTS):
   </div>
 </div>
 ''' % (E(s['hero']), E(s['name']), E(s['area']), E(s['name']), E(s['kana']), E(s['name']),
-       E(s['catch']), body, tags, rows, mapq, E(s['name']), s['count'], gallery,
+       E(s['catch']), body, tags, rows, mapq, E(s['name']), s['count'], gallery, all_url, s['count'],
        '\n'.join(spot_card(r) for r in related)) + footer()
 
     io.open(os.path.join(OUT, '%s.html' % s['id']), 'w', encoding='utf-8').write(page)
