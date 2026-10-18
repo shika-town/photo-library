@@ -3,9 +3,163 @@
 window.SPL_LIBRARY = {
   "meta": {
     "note": "photos.json と spots.json から自動生成しています。直接編集せず、scripts/build-library.py を実行してください。",
-    "count": 712
+    "count": 721
   },
   "photos": [
+    {
+      "title": "高瀬宮_7",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": [],
+      "tags": [
+        "岩",
+        "神社",
+        "石",
+        "チラシ・ポスター向き"
+      ],
+      "thumb": "assets/img/lib/P0931-thumb.jpg",
+      "large": "assets/img/lib/P0931-large.jpg",
+      "alt": "",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "新着写真",
+      "restricted": false,
+      "genre": "自然風景",
+      "id": "P0931"
+    },
+    {
+      "title": "高瀬宮_6",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": [],
+      "tags": [
+        "岩",
+        "神社",
+        "石",
+        "チラシ・ポスター向き"
+      ],
+      "thumb": "assets/img/lib/P0930-thumb.jpg",
+      "large": "assets/img/lib/P0930-large.jpg",
+      "alt": "",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "新着写真",
+      "restricted": false,
+      "genre": "自然風景",
+      "id": "P0930"
+    },
+    {
+      "title": "高瀬宮_5",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": [],
+      "tags": [
+        "岩",
+        "神社",
+        "石",
+        "チラシ・ポスター向き"
+      ],
+      "thumb": "assets/img/lib/P0929-thumb.jpg",
+      "large": "assets/img/lib/P0929-large.jpg",
+      "alt": "",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "新着写真",
+      "restricted": false,
+      "genre": "自然風景",
+      "id": "P0929"
+    },
+    {
+      "title": "高瀬宮_4",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": [],
+      "tags": [
+        "岩",
+        "神社",
+        "石",
+        "チラシ・ポスター向き"
+      ],
+      "thumb": "assets/img/lib/P0928-thumb.jpg",
+      "large": "assets/img/lib/P0928-large.jpg",
+      "alt": "",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "新着写真",
+      "restricted": false,
+      "genre": "自然風景",
+      "id": "P0928"
+    },
+    {
+      "title": "高瀬宮_3",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": [],
+      "tags": [
+        "岩",
+        "神社",
+        "石",
+        "チラシ・ポスター向き"
+      ],
+      "thumb": "assets/img/lib/P0927-thumb.jpg",
+      "large": "assets/img/lib/P0927-large.jpg",
+      "alt": "",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "新着写真",
+      "restricted": false,
+      "genre": "自然風景",
+      "id": "P0927"
+    },
+    {
+      "title": "高瀬宮_2",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": [],
+      "tags": [
+        "岩",
+        "神社",
+        "石",
+        "チラシ・ポスター向き"
+      ],
+      "thumb": "assets/img/lib/P0926-thumb.jpg",
+      "large": "assets/img/lib/P0926-large.jpg",
+      "alt": "",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "新着写真",
+      "restricted": false,
+      "genre": "自然風景",
+      "id": "P0926"
+    },
+    {
+      "title": "高瀬宮_1",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": [],
+      "tags": [
+        "岩",
+        "神社",
+        "石",
+        "チラシ・ポスター向き"
+      ],
+      "thumb": "assets/img/lib/P0925-thumb.jpg",
+      "large": "assets/img/lib/P0925-large.jpg",
+      "alt": "",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "新着写真",
+      "restricted": false,
+      "genre": "自然風景",
+      "id": "P0925"
+    },
     {
       "title": "萬燈祭_21",
       "spot": "その他",
@@ -18,153 +172,13 @@ window.SPL_LIBRARY = {
       ],
       "thumb": "assets/img/lib/P0924-thumb.jpg",
       "large": "assets/img/lib/P0924-large.jpg",
-      "alt": "萬燈祭_21",
+      "alt": "",
       "credit": "© 志賀町",
       "photographer": "志賀町",
       "source": "新着写真",
       "restricted": false,
       "genre": "祭り",
       "id": "P0924"
-    },
-    {
-      "title": "萬燈祭_20",
-      "spot": "その他",
-      "spotId": "other",
-      "area": "",
-      "season": [],
-      "tags": [
-        "祭り",
-        "SNS向き"
-      ],
-      "thumb": "assets/img/lib/P0923-thumb.jpg",
-      "large": "assets/img/lib/P0923-large.jpg",
-      "alt": "萬燈祭_20",
-      "credit": "© 志賀町",
-      "photographer": "志賀町",
-      "source": "新着写真",
-      "restricted": false,
-      "genre": "祭り",
-      "id": "P0923"
-    },
-    {
-      "title": "萬燈祭_19",
-      "spot": "その他",
-      "spotId": "other",
-      "area": "",
-      "season": [],
-      "tags": [
-        "祭り",
-        "SNS向き"
-      ],
-      "thumb": "assets/img/lib/P0922-thumb.jpg",
-      "large": "assets/img/lib/P0922-large.jpg",
-      "alt": "萬燈祭_19",
-      "credit": "© 志賀町",
-      "photographer": "志賀町",
-      "source": "新着写真",
-      "restricted": false,
-      "genre": "祭り",
-      "id": "P0922"
-    },
-    {
-      "title": "萬燈祭_18",
-      "spot": "その他",
-      "spotId": "other",
-      "area": "",
-      "season": [],
-      "tags": [
-        "祭り",
-        "SNS向き"
-      ],
-      "thumb": "assets/img/lib/P0921-thumb.jpg",
-      "large": "assets/img/lib/P0921-large.jpg",
-      "alt": "萬燈祭_18",
-      "credit": "© 志賀町",
-      "photographer": "志賀町",
-      "source": "新着写真",
-      "restricted": false,
-      "genre": "祭り",
-      "id": "P0921"
-    },
-    {
-      "title": "萬燈祭_17",
-      "spot": "その他",
-      "spotId": "other",
-      "area": "",
-      "season": [],
-      "tags": [
-        "祭り",
-        "SNS向き"
-      ],
-      "thumb": "assets/img/lib/P0920-thumb.jpg",
-      "large": "assets/img/lib/P0920-large.jpg",
-      "alt": "萬燈祭_17",
-      "credit": "© 志賀町",
-      "photographer": "志賀町",
-      "source": "新着写真",
-      "restricted": false,
-      "genre": "祭り",
-      "id": "P0920"
-    },
-    {
-      "title": "萬燈祭_16",
-      "spot": "その他",
-      "spotId": "other",
-      "area": "",
-      "season": [],
-      "tags": [
-        "祭り",
-        "SNS向き"
-      ],
-      "thumb": "assets/img/lib/P0919-thumb.jpg",
-      "large": "assets/img/lib/P0919-large.jpg",
-      "alt": "萬燈祭_16",
-      "credit": "© 志賀町",
-      "photographer": "志賀町",
-      "source": "新着写真",
-      "restricted": false,
-      "genre": "祭り",
-      "id": "P0919"
-    },
-    {
-      "title": "萬燈祭_15",
-      "spot": "その他",
-      "spotId": "other",
-      "area": "",
-      "season": [],
-      "tags": [
-        "祭り",
-        "SNS向き"
-      ],
-      "thumb": "assets/img/lib/P0918-thumb.jpg",
-      "large": "assets/img/lib/P0918-large.jpg",
-      "alt": "萬燈祭_15",
-      "credit": "© 志賀町",
-      "photographer": "志賀町",
-      "source": "新着写真",
-      "restricted": false,
-      "genre": "祭り",
-      "id": "P0918"
-    },
-    {
-      "title": "萬燈祭_14",
-      "spot": "その他",
-      "spotId": "other",
-      "area": "",
-      "season": [],
-      "tags": [
-        "祭り",
-        "SNS向き"
-      ],
-      "thumb": "assets/img/lib/P0917-thumb.jpg",
-      "large": "assets/img/lib/P0917-large.jpg",
-      "alt": "萬燈祭_14",
-      "credit": "© 志賀町",
-      "photographer": "志賀町",
-      "source": "新着写真",
-      "restricted": false,
-      "genre": "祭り",
-      "id": "P0917"
     },
     {
       "title": "ベンチイルミネーション",
@@ -7566,6 +7580,28 @@ window.SPL_LIBRARY = {
       "id": "P0176"
     },
     {
+      "title": "平家_3",
+      "spot": "平家",
+      "spotId": "taira",
+      "area": "志賀エリア",
+      "season": [],
+      "tags": [
+        "庭園",
+        "名所旧跡",
+        "文化施設",
+        "チラシ・ポスター向き"
+      ],
+      "thumb": "assets/img/lib/P0177-thumb.jpg",
+      "large": "assets/img/lib/P0177-large.jpg",
+      "alt": "平家_3",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "平家",
+      "restricted": false,
+      "genre": "観光地",
+      "id": "P0177"
+    },
+    {
       "title": "平家_4",
       "spot": "平家",
       "spotId": "taira",
@@ -12711,6 +12747,26 @@ window.SPL_LIBRARY = {
       "id": "P0776"
     },
     {
+      "title": "萬燈祭_14",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": [],
+      "tags": [
+        "祭り",
+        "SNS向き"
+      ],
+      "thumb": "assets/img/lib/P0917-thumb.jpg",
+      "large": "assets/img/lib/P0917-large.jpg",
+      "alt": "萬燈祭_14",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "genre": "祭り",
+      "id": "P0917"
+    },
+    {
       "title": "福浦祭り_31",
       "spot": "その他",
       "spotId": "other",
@@ -12774,6 +12830,26 @@ window.SPL_LIBRARY = {
       "id": "P0777"
     },
     {
+      "title": "萬燈祭_15",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": [],
+      "tags": [
+        "祭り",
+        "SNS向き"
+      ],
+      "thumb": "assets/img/lib/P0918-thumb.jpg",
+      "large": "assets/img/lib/P0918-large.jpg",
+      "alt": "萬燈祭_15",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "genre": "祭り",
+      "id": "P0918"
+    },
+    {
       "title": "福浦祭り_47",
       "spot": "その他",
       "spotId": "other",
@@ -12816,6 +12892,26 @@ window.SPL_LIBRARY = {
       "id": "P0778"
     },
     {
+      "title": "萬燈祭_16",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": [],
+      "tags": [
+        "祭り",
+        "SNS向き"
+      ],
+      "thumb": "assets/img/lib/P0919-thumb.jpg",
+      "large": "assets/img/lib/P0919-large.jpg",
+      "alt": "萬燈祭_16",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "genre": "祭り",
+      "id": "P0919"
+    },
+    {
       "title": "福浦祭り_48",
       "spot": "その他",
       "spotId": "other",
@@ -12835,6 +12931,26 @@ window.SPL_LIBRARY = {
       "restricted": false,
       "genre": "祭り",
       "id": "P0751"
+    },
+    {
+      "title": "萬燈祭_17",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": [],
+      "tags": [
+        "祭り",
+        "SNS向き"
+      ],
+      "thumb": "assets/img/lib/P0920-thumb.jpg",
+      "large": "assets/img/lib/P0920-large.jpg",
+      "alt": "萬燈祭_17",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "genre": "祭り",
+      "id": "P0920"
     },
     {
       "title": "福浦祭り_49",
@@ -12858,6 +12974,26 @@ window.SPL_LIBRARY = {
       "id": "P0752"
     },
     {
+      "title": "萬燈祭_18",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": [],
+      "tags": [
+        "祭り",
+        "SNS向き"
+      ],
+      "thumb": "assets/img/lib/P0921-thumb.jpg",
+      "large": "assets/img/lib/P0921-large.jpg",
+      "alt": "萬燈祭_18",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "genre": "祭り",
+      "id": "P0921"
+    },
+    {
       "title": "福浦祭り_50",
       "spot": "その他",
       "spotId": "other",
@@ -12879,6 +13015,26 @@ window.SPL_LIBRARY = {
       "id": "P0753"
     },
     {
+      "title": "萬燈祭_19",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": [],
+      "tags": [
+        "祭り",
+        "SNS向き"
+      ],
+      "thumb": "assets/img/lib/P0922-thumb.jpg",
+      "large": "assets/img/lib/P0922-large.jpg",
+      "alt": "萬燈祭_19",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "genre": "祭り",
+      "id": "P0922"
+    },
+    {
       "title": "福浦祭り_51",
       "spot": "その他",
       "spotId": "other",
@@ -12898,6 +13054,26 @@ window.SPL_LIBRARY = {
       "restricted": false,
       "genre": "祭り",
       "id": "P0754"
+    },
+    {
+      "title": "萬燈祭_20",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": [],
+      "tags": [
+        "祭り",
+        "SNS向き"
+      ],
+      "thumb": "assets/img/lib/P0923-thumb.jpg",
+      "large": "assets/img/lib/P0923-large.jpg",
+      "alt": "萬燈祭_20",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "genre": "祭り",
+      "id": "P0923"
     },
     {
       "title": "福浦祭り_52",
@@ -14931,6 +15107,28 @@ window.SPL_LIBRARY = {
       "restricted": false,
       "genre": "特産品",
       "id": "P0326"
+    },
+    {
+      "title": "志賀町優良特産品_かきもち3",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": [],
+      "tags": [
+        "お土産",
+        "食",
+        "特産品",
+        "印刷物向き"
+      ],
+      "thumb": "assets/img/lib/P0327-thumb.jpg",
+      "large": "assets/img/lib/P0327-large.jpg",
+      "alt": "志賀町優良特産品_かきもち3",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "genre": "特産品",
+      "id": "P0327"
     },
     {
       "title": "志賀町優良特産品_かきもち4",

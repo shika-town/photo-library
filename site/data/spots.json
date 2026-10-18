@@ -5487,6 +5487,21 @@
           "genre": "観光地"
         },
         {
+          "id": "P0177",
+          "thumb": "../assets/img/lib/P0177-thumb.jpg",
+          "large": "../assets/img/lib/P0177-large.jpg",
+          "caption": "平家_3",
+          "tags": [
+            "庭園",
+            "名所旧跡",
+            "文化施設",
+            "チラシ・ポスター向き"
+          ],
+          "season": [],
+          "restricted": false,
+          "genre": "観光地"
+        },
+        {
           "id": "P0178",
           "thumb": "../assets/img/lib/P0178-thumb.jpg",
           "large": "../assets/img/lib/P0178-large.jpg",
@@ -5607,7 +5622,7 @@
           "genre": "観光地"
         }
       ],
-      "count": 14
+      "count": 15
     },
     {
       "id": "matsuo",
@@ -6306,6 +6321,21 @@
           "genre": "祭り"
         },
         {
+          "id": "P0925",
+          "thumb": "../assets/img/lib/P0925-thumb.jpg",
+          "large": "../assets/img/lib/P0925-large.jpg",
+          "caption": "高瀬宮_1",
+          "tags": [
+            "岩",
+            "神社",
+            "石",
+            "チラシ・ポスター向き"
+          ],
+          "season": [],
+          "restricted": false,
+          "genre": "自然風景"
+        },
+        {
           "id": "P0549",
           "thumb": "../assets/img/lib/P0549-thumb.jpg",
           "large": "../assets/img/lib/P0549-large.jpg",
@@ -6807,6 +6837,21 @@
           "genre": "祭り"
         },
         {
+          "id": "P0926",
+          "thumb": "../assets/img/lib/P0926-thumb.jpg",
+          "large": "../assets/img/lib/P0926-large.jpg",
+          "caption": "高瀬宮_2",
+          "tags": [
+            "岩",
+            "神社",
+            "石",
+            "チラシ・ポスター向き"
+          ],
+          "season": [],
+          "restricted": false,
+          "genre": "自然風景"
+        },
+        {
           "id": "P0550",
           "thumb": "../assets/img/lib/P0550-thumb.jpg",
           "large": "../assets/img/lib/P0550-large.jpg",
@@ -7257,6 +7302,21 @@
           "genre": "祭り"
         },
         {
+          "id": "P0927",
+          "thumb": "../assets/img/lib/P0927-thumb.jpg",
+          "large": "../assets/img/lib/P0927-large.jpg",
+          "caption": "高瀬宮_3",
+          "tags": [
+            "岩",
+            "神社",
+            "石",
+            "チラシ・ポスター向き"
+          ],
+          "season": [],
+          "restricted": false,
+          "genre": "自然風景"
+        },
+        {
           "id": "P0551",
           "thumb": "../assets/img/lib/P0551-thumb.jpg",
           "large": "../assets/img/lib/P0551-large.jpg",
@@ -7647,6 +7707,21 @@
           "genre": "祭り"
         },
         {
+          "id": "P0928",
+          "thumb": "../assets/img/lib/P0928-thumb.jpg",
+          "large": "../assets/img/lib/P0928-large.jpg",
+          "caption": "高瀬宮_4",
+          "tags": [
+            "岩",
+            "神社",
+            "石",
+            "チラシ・ポスター向き"
+          ],
+          "season": [],
+          "restricted": false,
+          "genre": "自然風景"
+        },
+        {
           "id": "P0552",
           "thumb": "../assets/img/lib/P0552-thumb.jpg",
           "large": "../assets/img/lib/P0552-large.jpg",
@@ -7975,6 +8050,21 @@
           "genre": "祭り"
         },
         {
+          "id": "P0929",
+          "thumb": "../assets/img/lib/P0929-thumb.jpg",
+          "large": "../assets/img/lib/P0929-large.jpg",
+          "caption": "高瀬宮_5",
+          "tags": [
+            "岩",
+            "神社",
+            "石",
+            "チラシ・ポスター向き"
+          ],
+          "season": [],
+          "restricted": false,
+          "genre": "自然風景"
+        },
+        {
           "id": "P0553",
           "thumb": "../assets/img/lib/P0553-thumb.jpg",
           "large": "../assets/img/lib/P0553-large.jpg",
@@ -8229,6 +8319,21 @@
           "genre": "祭り"
         },
         {
+          "id": "P0930",
+          "thumb": "../assets/img/lib/P0930-thumb.jpg",
+          "large": "../assets/img/lib/P0930-large.jpg",
+          "caption": "高瀬宮_6",
+          "tags": [
+            "岩",
+            "神社",
+            "石",
+            "チラシ・ポスター向き"
+          ],
+          "season": [],
+          "restricted": false,
+          "genre": "自然風景"
+        },
+        {
           "id": "P0554",
           "thumb": "../assets/img/lib/P0554-thumb.jpg",
           "large": "../assets/img/lib/P0554-large.jpg",
@@ -8404,6 +8509,21 @@
           "season": [],
           "restricted": false,
           "genre": "祭り"
+        },
+        {
+          "id": "P0931",
+          "thumb": "../assets/img/lib/P0931-thumb.jpg",
+          "large": "../assets/img/lib/P0931-large.jpg",
+          "caption": "高瀬宮_7",
+          "tags": [
+            "岩",
+            "神社",
+            "石",
+            "チラシ・ポスター向き"
+          ],
+          "season": [],
+          "restricted": false,
+          "genre": "自然風景"
         },
         {
           "id": "P0555",
@@ -10624,6 +10744,21 @@
           "genre": "特産品"
         },
         {
+          "id": "P0327",
+          "thumb": "../assets/img/lib/P0327-thumb.jpg",
+          "large": "../assets/img/lib/P0327-large.jpg",
+          "caption": "志賀町優良特産品_かきもち3",
+          "tags": [
+            "お土産",
+            "食",
+            "特産品",
+            "印刷物向き"
+          ],
+          "season": [],
+          "restricted": false,
+          "genre": "特産品"
+        },
+        {
           "id": "P0328",
           "thumb": "../assets/img/lib/P0328-thumb.jpg",
           "large": "../assets/img/lib/P0328-large.jpg",
@@ -11150,7 +11285,7 @@
           "genre": "自然風景"
         }
       ],
-      "count": 369
+      "count": 377
     }
   ]
 }

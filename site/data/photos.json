@@ -153,7 +153,7 @@
       "id": "taira",
       "name": "平家",
       "area": "志賀エリア",
-      "count": 14,
+      "count": 15,
       "image": "assets/img/lib/P0062-hero.jpg",
       "alt": "平家",
       "description": "天領大庄屋の屋敷に残る、幽玄な庭園"
@@ -214,6 +214,125 @@
   ],
   "photos": [
     {
+      "id": "P0931",
+      "title": "高瀬宮_7",
+      "spot": "その他",
+      "area": "",
+      "season": [],
+      "tags": [
+        "岩",
+        "神社",
+        "石",
+        "チラシ・ポスター向き"
+      ],
+      "image": "assets/img/lib/P0931-new.jpg",
+      "alt": "",
+      "restricted": false,
+      "genre": "自然風景"
+    },
+    {
+      "id": "P0930",
+      "title": "高瀬宮_6",
+      "spot": "その他",
+      "area": "",
+      "season": [],
+      "tags": [
+        "岩",
+        "神社",
+        "石",
+        "チラシ・ポスター向き"
+      ],
+      "image": "assets/img/lib/P0930-new.jpg",
+      "alt": "",
+      "restricted": false,
+      "genre": "自然風景"
+    },
+    {
+      "id": "P0929",
+      "title": "高瀬宮_5",
+      "spot": "その他",
+      "area": "",
+      "season": [],
+      "tags": [
+        "岩",
+        "神社",
+        "石",
+        "チラシ・ポスター向き"
+      ],
+      "image": "assets/img/lib/P0929-new.jpg",
+      "alt": "",
+      "restricted": false,
+      "genre": "自然風景"
+    },
+    {
+      "id": "P0928",
+      "title": "高瀬宮_4",
+      "spot": "その他",
+      "area": "",
+      "season": [],
+      "tags": [
+        "岩",
+        "神社",
+        "石",
+        "チラシ・ポスター向き"
+      ],
+      "image": "assets/img/lib/P0928-new.jpg",
+      "alt": "",
+      "restricted": false,
+      "genre": "自然風景"
+    },
+    {
+      "id": "P0927",
+      "title": "高瀬宮_3",
+      "spot": "その他",
+      "area": "",
+      "season": [],
+      "tags": [
+        "岩",
+        "神社",
+        "石",
+        "チラシ・ポスター向き"
+      ],
+      "image": "assets/img/lib/P0927-new.jpg",
+      "alt": "",
+      "restricted": false,
+      "genre": "自然風景"
+    },
+    {
+      "id": "P0926",
+      "title": "高瀬宮_2",
+      "spot": "その他",
+      "area": "",
+      "season": [],
+      "tags": [
+        "岩",
+        "神社",
+        "石",
+        "チラシ・ポスター向き"
+      ],
+      "image": "assets/img/lib/P0926-new.jpg",
+      "alt": "",
+      "restricted": false,
+      "genre": "自然風景"
+    },
+    {
+      "id": "P0925",
+      "title": "高瀬宮_1",
+      "spot": "その他",
+      "area": "",
+      "season": [],
+      "tags": [
+        "岩",
+        "神社",
+        "石",
+        "チラシ・ポスター向き"
+      ],
+      "image": "assets/img/lib/P0925-new.jpg",
+      "alt": "",
+      "restricted": false,
+      "genre": "自然風景"
+    },
+    {
       "id": "P0924",
       "title": "萬燈祭_21",
       "spot": "その他",
@@ -223,113 +342,8 @@
         "祭り",
         "SNS向き"
       ],
-      "image": "assets/img/lib/P0924-thumb.jpg",
-      "alt": "萬燈祭_21",
-      "restricted": false,
-      "genre": "祭り"
-    },
-    {
-      "id": "P0923",
-      "title": "萬燈祭_20",
-      "spot": "その他",
-      "area": "",
-      "season": [],
-      "tags": [
-        "祭り",
-        "SNS向き"
-      ],
-      "image": "assets/img/lib/P0923-thumb.jpg",
-      "alt": "萬燈祭_20",
-      "restricted": false,
-      "genre": "祭り"
-    },
-    {
-      "id": "P0922",
-      "title": "萬燈祭_19",
-      "spot": "その他",
-      "area": "",
-      "season": [],
-      "tags": [
-        "祭り",
-        "SNS向き"
-      ],
-      "image": "assets/img/lib/P0922-thumb.jpg",
-      "alt": "萬燈祭_19",
-      "restricted": false,
-      "genre": "祭り"
-    },
-    {
-      "id": "P0921",
-      "title": "萬燈祭_18",
-      "spot": "その他",
-      "area": "",
-      "season": [],
-      "tags": [
-        "祭り",
-        "SNS向き"
-      ],
-      "image": "assets/img/lib/P0921-thumb.jpg",
-      "alt": "萬燈祭_18",
-      "restricted": false,
-      "genre": "祭り"
-    },
-    {
-      "id": "P0920",
-      "title": "萬燈祭_17",
-      "spot": "その他",
-      "area": "",
-      "season": [],
-      "tags": [
-        "祭り",
-        "SNS向き"
-      ],
-      "image": "assets/img/lib/P0920-thumb.jpg",
-      "alt": "萬燈祭_17",
-      "restricted": false,
-      "genre": "祭り"
-    },
-    {
-      "id": "P0919",
-      "title": "萬燈祭_16",
-      "spot": "その他",
-      "area": "",
-      "season": [],
-      "tags": [
-        "祭り",
-        "SNS向き"
-      ],
-      "image": "assets/img/lib/P0919-thumb.jpg",
-      "alt": "萬燈祭_16",
-      "restricted": false,
-      "genre": "祭り"
-    },
-    {
-      "id": "P0918",
-      "title": "萬燈祭_15",
-      "spot": "その他",
-      "area": "",
-      "season": [],
-      "tags": [
-        "祭り",
-        "SNS向き"
-      ],
-      "image": "assets/img/lib/P0918-thumb.jpg",
-      "alt": "萬燈祭_15",
-      "restricted": false,
-      "genre": "祭り"
-    },
-    {
-      "id": "P0917",
-      "title": "萬燈祭_14",
-      "spot": "その他",
-      "area": "",
-      "season": [],
-      "tags": [
-        "祭り",
-        "SNS向き"
-      ],
-      "image": "assets/img/lib/P0917-thumb.jpg",
-      "alt": "萬燈祭_14",
+      "image": "assets/img/lib/P0924-new.jpg",
+      "alt": "",
       "restricted": false,
       "genre": "祭り"
     }
