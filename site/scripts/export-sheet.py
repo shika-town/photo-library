@@ -170,7 +170,7 @@ for i, p in enumerate(lib['photos']):
     rows.append({
         'id': p['id'], 'title': p['title'], 'spot': spot,
         'area': area_by_spot.get(spot, p['area']),
-        'season': p.get('season', ''), 'tags': ','.join(p['tags']),
+        'season': ','.join(p['season']) if isinstance(p.get('season'), list) else p.get('season', ''), 'tags': ','.join(p['tags']),
         'roles': ','.join(roles), 'sortOrder': '', 'driveFileId': '', 'localPath': '_source/photos/%s.jpg' % p['id'],
         'focus': '中央', 'photographer': p['photographer'], 'copyright': p['credit'],
         'description': p.get('alt', ''), 'publish': 'TRUE', 'downloadAllowed': 'TRUE',

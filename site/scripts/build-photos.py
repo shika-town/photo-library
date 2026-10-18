@@ -61,7 +61,7 @@ for i, p in enumerate(PHOTOS):
 
     rows = [('スポット', spot_link), ('エリア', E(p['area']))]
     if p.get('season'):
-        rows.append(('季節', E(p['season'])))
+        rows.append(('季節', E('・'.join(p['season']) if isinstance(p['season'], list) else p['season'])))
     rows.append(('撮影・提供', E(p['photographer'])))
     rows.append(('クレジット', E(p['credit'])))
     rows_html = ''.join(

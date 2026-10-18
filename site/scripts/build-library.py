@@ -14,6 +14,12 @@ spots = json.load(io.open(os.path.join(BASE, 'data', 'spots.json'), encoding='ut
 SPOT_BY_NAME = {s['name']: s for s in spots['spots']}
 norm = lambda p: re.sub(r'^\.\./', '', p)      # '../assets/...' → 'assets/...'
 
+SEASONS = ('春', '夏', '秋', '冬')
+def seasons_of(v):
+    """季節は ['春','冬'] のような配列で持つ（古い '春,冬' 形式の値が来ても配列にそろえる）。"""
+    items = v if isinstance(v, (list, tuple)) else re.split(r'[,、，/／・\s]+', str(v or ''))
+    return [x for x in SEASONS if x in [str(i).strip() for i in items]]
+
 photos, n = [], 0
 _seen = set()
 def add(_id=None, **kw):
@@ -36,6 +42,8 @@ def add(_id=None, **kw):
             prev['spotId'] = kw['spotId']; prev['spot'] = kw['spot']; prev['area'] = kw['area']
         if kw.get('restricted'):
             prev['restricted'] = True
+        if kw.get('season') and not prev.get('season'):
+            prev['season'] = kw['season']
         return
     _seen.add(kw['id'])
     photos.append(kw)
@@ -46,7 +54,7 @@ def add(_id=None, **kw):
 for p in top['photos']:
     sp = SPOT_BY_NAME.get(p['spot'])
     add(_id=p.get('id'), title=p['title'], spot=p['spot'], spotId=(sp['id'] if sp else None),
-        area=p['area'], season=p.get('season', ''), tags=p.get('tags', []),
+        area=p['area'], season=seasons_of(p.get('season')), tags=p.get('tags', []),
         thumb=norm(p['image']), large=norm(p['image']),
         alt=p.get('alt', p['title']), credit='© 志賀町', photographer='志賀町',
         source='新着写真', restricted=bool(p.get('restricted')), genre=p.get('genre', ''))
@@ -58,7 +66,7 @@ for s in spots['spots']:
         # （スポットの代表タグで埋めると、未タグ付けの写真にも無関係なタグが
         #   ついてしまい、今回のバグと同じ状態を再発させるため）。
         add(_id=ph.get('id'), title=ph['caption'], spot=s['name'], spotId=s['id'], area=s['area'],
-            season='', tags=ph.get('tags', []), thumb=norm(ph['thumb']), large=norm(ph['large']),
+            season=seasons_of(ph.get('season')), tags=ph.get('tags', []), thumb=norm(ph['thumb']), large=norm(ph['large']),
             alt=ph['caption'], credit='© 志賀町', photographer='志賀町',
             source=s['name'], restricted=bool(ph.get('restricted')), genre=ph.get('genre', ''))
 

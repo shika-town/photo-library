@@ -11,7 +11,10 @@ window.SPL_LIBRARY = {
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
-      "season": "春,冬",
+      "season": [
+        "春",
+        "冬"
+      ],
       "tags": [
         "砂浜",
         "さくら貝",
@@ -32,7 +35,9 @@ window.SPL_LIBRARY = {
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
-      "season": "秋",
+      "season": [
+        "秋"
+      ],
       "tags": [
         "ベンチ",
         "夜景",
@@ -54,7 +59,9 @@ window.SPL_LIBRARY = {
       "spot": "機具岩",
       "spotId": "hatago",
       "area": "富来エリア",
-      "season": "秋",
+      "season": [
+        "秋"
+      ],
       "tags": [
         "夕陽",
         "海",
@@ -76,7 +83,9 @@ window.SPL_LIBRARY = {
       "spot": "巌門",
       "spotId": "gate",
       "area": "富来エリア",
-      "season": "夏",
+      "season": [
+        "夏"
+      ],
       "tags": [
         "空撮",
         "海",
@@ -98,7 +107,9 @@ window.SPL_LIBRARY = {
       "spot": "旧福浦灯台",
       "spotId": "fukura",
       "area": "富来エリア",
-      "season": "夏",
+      "season": [
+        "夏"
+      ],
       "tags": [
         "名所旧跡",
         "建築",
@@ -122,7 +133,9 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "春",
+      "season": [
+        "春"
+      ],
       "tags": [
         "桜",
         "花",
@@ -144,7 +157,9 @@ window.SPL_LIBRARY = {
       "spot": "巌門",
       "spotId": "gate",
       "area": "富来エリア",
-      "season": "夏",
+      "season": [
+        "夏"
+      ],
       "tags": [
         "海",
         "岩",
@@ -167,7 +182,9 @@ window.SPL_LIBRARY = {
       "spot": "旧福浦灯台",
       "spotId": "fukura",
       "area": "富来エリア",
-      "season": "夏",
+      "season": [
+        "夏"
+      ],
       "tags": [
         "海",
         "文化施設",
@@ -189,7 +206,7 @@ window.SPL_LIBRARY = {
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "空撮",
@@ -211,7 +228,7 @@ window.SPL_LIBRARY = {
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "ベンチ",
@@ -232,7 +249,7 @@ window.SPL_LIBRARY = {
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "ベンチ",
         "チラシ・ポスター向き"
@@ -252,7 +269,7 @@ window.SPL_LIBRARY = {
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "ベンチ",
         "青空",
@@ -273,7 +290,7 @@ window.SPL_LIBRARY = {
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "ベンチ",
@@ -295,7 +312,7 @@ window.SPL_LIBRARY = {
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "青空",
@@ -317,7 +334,7 @@ window.SPL_LIBRARY = {
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "空撮",
         "青空",
@@ -339,7 +356,7 @@ window.SPL_LIBRARY = {
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "砂浜",
@@ -362,7 +379,7 @@ window.SPL_LIBRARY = {
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "砂浜",
@@ -384,7 +401,7 @@ window.SPL_LIBRARY = {
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "砂浜",
         "さくら貝",
@@ -405,7 +422,7 @@ window.SPL_LIBRARY = {
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "ベンチ",
         "ライトアップ",
@@ -428,7 +445,7 @@ window.SPL_LIBRARY = {
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "青空",
@@ -450,7 +467,7 @@ window.SPL_LIBRARY = {
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "空撮",
         "青空",
@@ -472,7 +489,7 @@ window.SPL_LIBRARY = {
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "砂浜",
@@ -495,7 +512,7 @@ window.SPL_LIBRARY = {
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "砂浜",
@@ -517,7 +534,7 @@ window.SPL_LIBRARY = {
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "ベンチ",
         "ライトアップ",
@@ -540,7 +557,7 @@ window.SPL_LIBRARY = {
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "空撮",
         "ベンチ",
@@ -561,7 +578,7 @@ window.SPL_LIBRARY = {
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "青空",
@@ -583,7 +600,7 @@ window.SPL_LIBRARY = {
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "空撮",
         "青空",
@@ -605,7 +622,7 @@ window.SPL_LIBRARY = {
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "砂浜",
@@ -628,7 +645,7 @@ window.SPL_LIBRARY = {
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "砂浜",
@@ -650,7 +667,7 @@ window.SPL_LIBRARY = {
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "ベンチ",
         "ライトアップ",
@@ -673,7 +690,7 @@ window.SPL_LIBRARY = {
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "空撮",
         "ベンチ",
@@ -694,7 +711,7 @@ window.SPL_LIBRARY = {
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "空撮",
         "青空",
@@ -716,7 +733,7 @@ window.SPL_LIBRARY = {
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "砂浜",
@@ -739,7 +756,7 @@ window.SPL_LIBRARY = {
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "ベンチ",
         "ライトアップ",
@@ -762,7 +779,7 @@ window.SPL_LIBRARY = {
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "空撮",
         "ベンチ",
@@ -783,7 +800,7 @@ window.SPL_LIBRARY = {
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "ベンチ",
         "ライトアップ",
@@ -806,7 +823,7 @@ window.SPL_LIBRARY = {
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "空撮",
         "ベンチ",
@@ -827,7 +844,7 @@ window.SPL_LIBRARY = {
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "ベンチ",
         "ライトアップ",
@@ -850,7 +867,7 @@ window.SPL_LIBRARY = {
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "空撮",
         "ベンチ",
@@ -871,7 +888,7 @@ window.SPL_LIBRARY = {
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "ベンチ",
         "ライトアップ",
@@ -894,7 +911,7 @@ window.SPL_LIBRARY = {
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "ベンチ",
         "ライトアップ",
@@ -917,7 +934,7 @@ window.SPL_LIBRARY = {
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "ベンチ",
         "ライトアップ",
@@ -940,7 +957,7 @@ window.SPL_LIBRARY = {
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "ベンチ",
         "ライトアップ",
@@ -963,7 +980,7 @@ window.SPL_LIBRARY = {
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "空撮",
@@ -985,7 +1002,7 @@ window.SPL_LIBRARY = {
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "空撮",
@@ -1007,7 +1024,7 @@ window.SPL_LIBRARY = {
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "世界一長いベンチ",
         "海",
@@ -1029,7 +1046,7 @@ window.SPL_LIBRARY = {
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "ベンチ",
         "チラシ・ポスター向き"
@@ -1049,7 +1066,7 @@ window.SPL_LIBRARY = {
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "青空",
         "世界一長いベンチ",
@@ -1070,7 +1087,7 @@ window.SPL_LIBRARY = {
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "青空",
@@ -1092,7 +1109,7 @@ window.SPL_LIBRARY = {
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "青空",
         "世界一長いベンチ",
@@ -1113,7 +1130,7 @@ window.SPL_LIBRARY = {
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "世界一長いベンチ",
         "チラシ・ポスター向き"
@@ -1133,7 +1150,7 @@ window.SPL_LIBRARY = {
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "世界一長いベンチ",
         "アート",
@@ -1154,7 +1171,7 @@ window.SPL_LIBRARY = {
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "青空",
         "世界一長いベンチ",
@@ -1175,7 +1192,7 @@ window.SPL_LIBRARY = {
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "青空",
         "世界一長いベンチ",
@@ -1196,7 +1213,7 @@ window.SPL_LIBRARY = {
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "ベンチ",
@@ -1219,7 +1236,7 @@ window.SPL_LIBRARY = {
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "ベンチ",
         "ポケモン",
@@ -1240,7 +1257,7 @@ window.SPL_LIBRARY = {
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "砂浜",
@@ -1262,7 +1279,7 @@ window.SPL_LIBRARY = {
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "砂浜",
@@ -1284,7 +1301,7 @@ window.SPL_LIBRARY = {
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "砂浜",
@@ -1306,7 +1323,7 @@ window.SPL_LIBRARY = {
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "砂浜",
@@ -1328,7 +1345,7 @@ window.SPL_LIBRARY = {
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "空撮",
@@ -1351,7 +1368,7 @@ window.SPL_LIBRARY = {
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "夜景",
@@ -1374,7 +1391,7 @@ window.SPL_LIBRARY = {
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "夜景",
@@ -1397,7 +1414,7 @@ window.SPL_LIBRARY = {
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "ベンチ",
@@ -1421,7 +1438,7 @@ window.SPL_LIBRARY = {
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "ベンチ",
@@ -1445,7 +1462,7 @@ window.SPL_LIBRARY = {
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "ベンチ",
@@ -1469,7 +1486,7 @@ window.SPL_LIBRARY = {
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "夕陽",
@@ -1491,7 +1508,7 @@ window.SPL_LIBRARY = {
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "夜景",
@@ -1514,7 +1531,7 @@ window.SPL_LIBRARY = {
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "夜景",
@@ -1537,7 +1554,7 @@ window.SPL_LIBRARY = {
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "ベンチ",
@@ -1561,7 +1578,7 @@ window.SPL_LIBRARY = {
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "夕陽",
@@ -1583,7 +1600,7 @@ window.SPL_LIBRARY = {
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "夕陽",
@@ -1605,7 +1622,7 @@ window.SPL_LIBRARY = {
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "夕陽",
@@ -1627,7 +1644,7 @@ window.SPL_LIBRARY = {
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "ベンチ",
         "ライトアップ",
@@ -1650,7 +1667,7 @@ window.SPL_LIBRARY = {
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "ベンチ",
@@ -1674,7 +1691,7 @@ window.SPL_LIBRARY = {
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "ベンチ",
@@ -1698,7 +1715,7 @@ window.SPL_LIBRARY = {
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "ベンチ",
         "ライトアップ",
@@ -1721,7 +1738,7 @@ window.SPL_LIBRARY = {
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "ベンチ",
@@ -1745,7 +1762,7 @@ window.SPL_LIBRARY = {
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "空撮",
         "砂浜",
@@ -1768,7 +1785,7 @@ window.SPL_LIBRARY = {
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "ベンチ",
         "青空",
@@ -1789,7 +1806,7 @@ window.SPL_LIBRARY = {
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "ベンチ",
         "青空",
@@ -1810,7 +1827,7 @@ window.SPL_LIBRARY = {
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "ベンチ",
         "青空",
@@ -1831,7 +1848,7 @@ window.SPL_LIBRARY = {
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "ベンチ",
         "青空",
@@ -1852,7 +1869,7 @@ window.SPL_LIBRARY = {
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "ベンチ",
         "青空",
@@ -1873,7 +1890,7 @@ window.SPL_LIBRARY = {
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "ベンチ",
@@ -1895,7 +1912,7 @@ window.SPL_LIBRARY = {
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "ベンチ",
         "青空",
@@ -1916,7 +1933,7 @@ window.SPL_LIBRARY = {
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "ベンチ",
@@ -1938,7 +1955,7 @@ window.SPL_LIBRARY = {
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "ベンチ",
         "青空",
@@ -1959,7 +1976,7 @@ window.SPL_LIBRARY = {
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "ベンチ",
@@ -1981,7 +1998,7 @@ window.SPL_LIBRARY = {
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "ベンチ",
         "青空",
@@ -2003,7 +2020,7 @@ window.SPL_LIBRARY = {
       "spot": "世界一長いベンチ・増穂浦海岸",
       "spotId": "bench",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "ベンチ",
         "青空",
@@ -2024,7 +2041,7 @@ window.SPL_LIBRARY = {
       "spot": "機具岩",
       "spotId": "hatago",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "夕陽",
         "海",
@@ -2046,7 +2063,7 @@ window.SPL_LIBRARY = {
       "spot": "機具岩",
       "spotId": "hatago",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "岩",
@@ -2067,7 +2084,7 @@ window.SPL_LIBRARY = {
       "spot": "機具岩",
       "spotId": "hatago",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "夕陽",
         "海",
@@ -2089,7 +2106,7 @@ window.SPL_LIBRARY = {
       "spot": "機具岩",
       "spotId": "hatago",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "夕陽",
         "海",
@@ -2111,7 +2128,7 @@ window.SPL_LIBRARY = {
       "spot": "機具岩",
       "spotId": "hatago",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "岩",
@@ -2133,7 +2150,7 @@ window.SPL_LIBRARY = {
       "spot": "機具岩",
       "spotId": "hatago",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "岩",
@@ -2154,7 +2171,7 @@ window.SPL_LIBRARY = {
       "spot": "機具岩",
       "spotId": "hatago",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "夕陽",
@@ -2176,7 +2193,7 @@ window.SPL_LIBRARY = {
       "spot": "機具岩",
       "spotId": "hatago",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "岩",
@@ -2197,7 +2214,7 @@ window.SPL_LIBRARY = {
       "spot": "機具岩",
       "spotId": "hatago",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "夕陽",
@@ -2219,7 +2236,7 @@ window.SPL_LIBRARY = {
       "spot": "機具岩",
       "spotId": "hatago",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "岩",
@@ -2240,7 +2257,7 @@ window.SPL_LIBRARY = {
       "spot": "機具岩",
       "spotId": "hatago",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "岩",
@@ -2261,7 +2278,7 @@ window.SPL_LIBRARY = {
       "spot": "機具岩",
       "spotId": "hatago",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "岩",
@@ -2282,7 +2299,7 @@ window.SPL_LIBRARY = {
       "spot": "機具岩",
       "spotId": "hatago",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "岩",
@@ -2303,7 +2320,7 @@ window.SPL_LIBRARY = {
       "spot": "機具岩",
       "spotId": "hatago",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "岩",
@@ -2324,7 +2341,7 @@ window.SPL_LIBRARY = {
       "spot": "機具岩",
       "spotId": "hatago",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "岩",
@@ -2345,7 +2362,7 @@ window.SPL_LIBRARY = {
       "spot": "機具岩",
       "spotId": "hatago",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "岩",
@@ -2366,7 +2383,7 @@ window.SPL_LIBRARY = {
       "spot": "機具岩",
       "spotId": "hatago",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "岩",
@@ -2387,7 +2404,7 @@ window.SPL_LIBRARY = {
       "spot": "機具岩",
       "spotId": "hatago",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "岩",
@@ -2408,7 +2425,7 @@ window.SPL_LIBRARY = {
       "spot": "機具岩",
       "spotId": "hatago",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "岩",
@@ -2429,7 +2446,7 @@ window.SPL_LIBRARY = {
       "spot": "機具岩",
       "spotId": "hatago",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "岩",
@@ -2450,7 +2467,7 @@ window.SPL_LIBRARY = {
       "spot": "機具岩",
       "spotId": "hatago",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "岩",
@@ -2471,7 +2488,7 @@ window.SPL_LIBRARY = {
       "spot": "機具岩",
       "spotId": "hatago",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "岩",
@@ -2492,7 +2509,7 @@ window.SPL_LIBRARY = {
       "spot": "機具岩",
       "spotId": "hatago",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "岩",
@@ -2513,7 +2530,7 @@ window.SPL_LIBRARY = {
       "spot": "機具岩",
       "spotId": "hatago",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "岩",
@@ -2534,7 +2551,7 @@ window.SPL_LIBRARY = {
       "spot": "機具岩",
       "spotId": "hatago",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "岩",
@@ -2555,7 +2572,7 @@ window.SPL_LIBRARY = {
       "spot": "機具岩",
       "spotId": "hatago",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "夕陽",
@@ -2577,7 +2594,7 @@ window.SPL_LIBRARY = {
       "spot": "機具岩",
       "spotId": "hatago",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "夕陽",
@@ -2599,7 +2616,7 @@ window.SPL_LIBRARY = {
       "spot": "機具岩",
       "spotId": "hatago",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "夕陽",
@@ -2621,7 +2638,7 @@ window.SPL_LIBRARY = {
       "spot": "機具岩",
       "spotId": "hatago",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "岩",
@@ -2642,7 +2659,7 @@ window.SPL_LIBRARY = {
       "spot": "機具岩",
       "spotId": "hatago",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "岩",
@@ -2664,7 +2681,7 @@ window.SPL_LIBRARY = {
       "spot": "機具岩",
       "spotId": "hatago",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "夕陽",
@@ -2686,7 +2703,7 @@ window.SPL_LIBRARY = {
       "spot": "機具岩",
       "spotId": "hatago",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "夕陽",
@@ -2708,7 +2725,7 @@ window.SPL_LIBRARY = {
       "spot": "機具岩",
       "spotId": "hatago",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "夕陽",
@@ -2730,7 +2747,7 @@ window.SPL_LIBRARY = {
       "spot": "機具岩",
       "spotId": "hatago",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "夕陽",
@@ -2752,7 +2769,7 @@ window.SPL_LIBRARY = {
       "spot": "機具岩",
       "spotId": "hatago",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "夕陽",
@@ -2774,7 +2791,7 @@ window.SPL_LIBRARY = {
       "spot": "機具岩",
       "spotId": "hatago",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "夕陽",
@@ -2796,7 +2813,7 @@ window.SPL_LIBRARY = {
       "spot": "機具岩",
       "spotId": "hatago",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "岩",
@@ -2818,7 +2835,7 @@ window.SPL_LIBRARY = {
       "spot": "機具岩",
       "spotId": "hatago",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "夕陽",
@@ -2840,7 +2857,7 @@ window.SPL_LIBRARY = {
       "spot": "機具岩",
       "spotId": "hatago",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "岩",
@@ -2863,7 +2880,7 @@ window.SPL_LIBRARY = {
       "spot": "機具岩",
       "spotId": "hatago",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "夕陽",
@@ -2885,7 +2902,7 @@ window.SPL_LIBRARY = {
       "spot": "機具岩",
       "spotId": "hatago",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "岩",
@@ -2906,7 +2923,7 @@ window.SPL_LIBRARY = {
       "spot": "巌門",
       "spotId": "gate",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "岩",
@@ -2928,7 +2945,7 @@ window.SPL_LIBRARY = {
       "spot": "巌門",
       "spotId": "gate",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "岩",
@@ -2950,7 +2967,7 @@ window.SPL_LIBRARY = {
       "spot": "巌門",
       "spotId": "gate",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "岩",
@@ -2972,7 +2989,7 @@ window.SPL_LIBRARY = {
       "spot": "巌門",
       "spotId": "gate",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "岩",
@@ -2994,7 +3011,7 @@ window.SPL_LIBRARY = {
       "spot": "巌門",
       "spotId": "gate",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "岩",
@@ -3016,7 +3033,7 @@ window.SPL_LIBRARY = {
       "spot": "巌門",
       "spotId": "gate",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "岩",
         "断崖",
@@ -3038,7 +3055,7 @@ window.SPL_LIBRARY = {
       "spot": "巌門",
       "spotId": "gate",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "夕陽",
         "海",
@@ -3060,7 +3077,7 @@ window.SPL_LIBRARY = {
       "spot": "巌門",
       "spotId": "gate",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "岩",
         "断崖",
@@ -3082,7 +3099,7 @@ window.SPL_LIBRARY = {
       "spot": "巌門",
       "spotId": "gate",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "岩",
         "断崖",
@@ -3104,7 +3121,7 @@ window.SPL_LIBRARY = {
       "spot": "巌門",
       "spotId": "gate",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "岩",
         "断崖",
@@ -3127,7 +3144,7 @@ window.SPL_LIBRARY = {
       "spot": "巌門",
       "spotId": "gate",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "空撮",
         "岩",
@@ -3151,7 +3168,7 @@ window.SPL_LIBRARY = {
       "spot": "巌門",
       "spotId": "gate",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "岩",
         "断崖",
@@ -3173,7 +3190,7 @@ window.SPL_LIBRARY = {
       "spot": "巌門",
       "spotId": "gate",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "岩",
         "断崖",
@@ -3195,7 +3212,7 @@ window.SPL_LIBRARY = {
       "spot": "巌門",
       "spotId": "gate",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "岩",
         "断崖",
@@ -3217,7 +3234,7 @@ window.SPL_LIBRARY = {
       "spot": "巌門",
       "spotId": "gate",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "岩",
         "断崖",
@@ -3239,7 +3256,7 @@ window.SPL_LIBRARY = {
       "spot": "巌門",
       "spotId": "gate",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "岩",
         "断崖",
@@ -3261,7 +3278,7 @@ window.SPL_LIBRARY = {
       "spot": "巌門",
       "spotId": "gate",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "岩",
         "断崖",
@@ -3283,7 +3300,7 @@ window.SPL_LIBRARY = {
       "spot": "巌門",
       "spotId": "gate",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "岩",
         "断崖",
@@ -3305,7 +3322,7 @@ window.SPL_LIBRARY = {
       "spot": "巌門",
       "spotId": "gate",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "岩",
         "断崖",
@@ -3327,7 +3344,7 @@ window.SPL_LIBRARY = {
       "spot": "巌門",
       "spotId": "gate",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "岩",
         "断崖",
@@ -3349,7 +3366,7 @@ window.SPL_LIBRARY = {
       "spot": "巌門",
       "spotId": "gate",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "岩",
         "断崖",
@@ -3371,7 +3388,7 @@ window.SPL_LIBRARY = {
       "spot": "巌門",
       "spotId": "gate",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "岩",
         "断崖",
@@ -3393,7 +3410,7 @@ window.SPL_LIBRARY = {
       "spot": "巌門",
       "spotId": "gate",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "岩",
         "断崖",
@@ -3415,7 +3432,7 @@ window.SPL_LIBRARY = {
       "spot": "巌門",
       "spotId": "gate",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "岩",
@@ -3437,7 +3454,7 @@ window.SPL_LIBRARY = {
       "spot": "巌門",
       "spotId": "gate",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "滝",
         "岩",
@@ -3459,7 +3476,7 @@ window.SPL_LIBRARY = {
       "spot": "巌門",
       "spotId": "gate",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "岩",
         "遊歩道",
@@ -3480,7 +3497,7 @@ window.SPL_LIBRARY = {
       "spot": "巌門",
       "spotId": "gate",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "夕陽",
         "海",
@@ -3502,7 +3519,7 @@ window.SPL_LIBRARY = {
       "spot": "巌門",
       "spotId": "gate",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "岩",
@@ -3523,7 +3540,7 @@ window.SPL_LIBRARY = {
       "spot": "巌門",
       "spotId": "gate",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "岩",
@@ -3545,7 +3562,7 @@ window.SPL_LIBRARY = {
       "spot": "巌門",
       "spotId": "gate",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "岩",
@@ -3567,7 +3584,7 @@ window.SPL_LIBRARY = {
       "spot": "巌門",
       "spotId": "gate",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "岩",
@@ -3589,7 +3606,7 @@ window.SPL_LIBRARY = {
       "spot": "巌門",
       "spotId": "gate",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "岩",
@@ -3610,7 +3627,7 @@ window.SPL_LIBRARY = {
       "spot": "巌門",
       "spotId": "gate",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "滝",
         "岩",
@@ -3632,7 +3649,7 @@ window.SPL_LIBRARY = {
       "spot": "巌門",
       "spotId": "gate",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "岩",
@@ -3654,7 +3671,7 @@ window.SPL_LIBRARY = {
       "spot": "巌門",
       "spotId": "gate",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "風車",
@@ -3676,7 +3693,7 @@ window.SPL_LIBRARY = {
       "spot": "巌門",
       "spotId": "gate",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "遊覧船",
@@ -3697,7 +3714,7 @@ window.SPL_LIBRARY = {
       "spot": "巌門",
       "spotId": "gate",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "岩",
         "自然",
@@ -3718,7 +3735,7 @@ window.SPL_LIBRARY = {
       "spot": "巌門",
       "spotId": "gate",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "岩",
@@ -3739,7 +3756,7 @@ window.SPL_LIBRARY = {
       "spot": "巌門",
       "spotId": "gate",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "岩",
@@ -3761,7 +3778,7 @@ window.SPL_LIBRARY = {
       "spot": "巌門",
       "spotId": "gate",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "岩",
@@ -3783,7 +3800,7 @@ window.SPL_LIBRARY = {
       "spot": "巌門",
       "spotId": "gate",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "岩",
@@ -3805,7 +3822,7 @@ window.SPL_LIBRARY = {
       "spot": "巌門",
       "spotId": "gate",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "岩",
@@ -3827,7 +3844,7 @@ window.SPL_LIBRARY = {
       "spot": "巌門",
       "spotId": "gate",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "岩",
@@ -3849,7 +3866,7 @@ window.SPL_LIBRARY = {
       "spot": "巌門",
       "spotId": "gate",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "岩",
@@ -3871,7 +3888,7 @@ window.SPL_LIBRARY = {
       "spot": "巌門",
       "spotId": "gate",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "岩",
@@ -3893,7 +3910,7 @@ window.SPL_LIBRARY = {
       "spot": "巌門",
       "spotId": "gate",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "岩",
@@ -3915,7 +3932,7 @@ window.SPL_LIBRARY = {
       "spot": "巌門",
       "spotId": "gate",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "岩",
@@ -3938,7 +3955,7 @@ window.SPL_LIBRARY = {
       "spot": "巌門",
       "spotId": "gate",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "岩",
@@ -3961,7 +3978,7 @@ window.SPL_LIBRARY = {
       "spot": "巌門",
       "spotId": "gate",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "空撮",
@@ -3985,7 +4002,7 @@ window.SPL_LIBRARY = {
       "spot": "巌門",
       "spotId": "gate",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "空撮",
@@ -4009,7 +4026,7 @@ window.SPL_LIBRARY = {
       "spot": "巌門",
       "spotId": "gate",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "岩",
@@ -4031,7 +4048,7 @@ window.SPL_LIBRARY = {
       "spot": "巌門",
       "spotId": "gate",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "岩",
@@ -4053,7 +4070,7 @@ window.SPL_LIBRARY = {
       "spot": "巌門",
       "spotId": "gate",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "岩",
@@ -4075,7 +4092,7 @@ window.SPL_LIBRARY = {
       "spot": "巌門",
       "spotId": "gate",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "岩",
@@ -4097,7 +4114,7 @@ window.SPL_LIBRARY = {
       "spot": "巌門",
       "spotId": "gate",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "岩",
@@ -4119,7 +4136,7 @@ window.SPL_LIBRARY = {
       "spot": "巌門",
       "spotId": "gate",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "岩",
@@ -4141,7 +4158,7 @@ window.SPL_LIBRARY = {
       "spot": "巌門",
       "spotId": "gate",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "岩",
@@ -4163,7 +4180,7 @@ window.SPL_LIBRARY = {
       "spot": "巌門",
       "spotId": "gate",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "岩",
@@ -4185,7 +4202,7 @@ window.SPL_LIBRARY = {
       "spot": "巌門",
       "spotId": "gate",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "岩",
@@ -4207,7 +4224,7 @@ window.SPL_LIBRARY = {
       "spot": "巌門",
       "spotId": "gate",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "岩",
         "断崖",
@@ -4229,7 +4246,7 @@ window.SPL_LIBRARY = {
       "spot": "弁天島",
       "spotId": "benten",
       "area": "志賀エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "夕陽",
         "海",
@@ -4252,7 +4269,7 @@ window.SPL_LIBRARY = {
       "spot": "弁天島",
       "spotId": "benten",
       "area": "志賀エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "夕陽",
         "海",
@@ -4275,7 +4292,7 @@ window.SPL_LIBRARY = {
       "spot": "弁天島",
       "spotId": "benten",
       "area": "志賀エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "夕陽",
         "海",
@@ -4298,7 +4315,7 @@ window.SPL_LIBRARY = {
       "spot": "弁天島",
       "spotId": "benten",
       "area": "志賀エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "夕陽",
         "海",
@@ -4321,7 +4338,7 @@ window.SPL_LIBRARY = {
       "spot": "弁天島",
       "spotId": "benten",
       "area": "志賀エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "夕陽",
         "海",
@@ -4344,7 +4361,7 @@ window.SPL_LIBRARY = {
       "spot": "弁天島",
       "spotId": "benten",
       "area": "志賀エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "夕陽",
@@ -4366,7 +4383,7 @@ window.SPL_LIBRARY = {
       "spot": "弁天島",
       "spotId": "benten",
       "area": "志賀エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "夕陽",
@@ -4388,7 +4405,7 @@ window.SPL_LIBRARY = {
       "spot": "弁天島",
       "spotId": "benten",
       "area": "志賀エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "夕陽",
@@ -4410,7 +4427,7 @@ window.SPL_LIBRARY = {
       "spot": "弁天島",
       "spotId": "benten",
       "area": "志賀エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "夕陽",
@@ -4432,7 +4449,7 @@ window.SPL_LIBRARY = {
       "spot": "弁天島",
       "spotId": "benten",
       "area": "志賀エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "夕陽",
@@ -4454,7 +4471,7 @@ window.SPL_LIBRARY = {
       "spot": "弁天島",
       "spotId": "benten",
       "area": "志賀エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "島",
         "夜",
@@ -4476,7 +4493,7 @@ window.SPL_LIBRARY = {
       "spot": "弁天島",
       "spotId": "benten",
       "area": "志賀エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "島",
         "夜",
@@ -4498,7 +4515,7 @@ window.SPL_LIBRARY = {
       "spot": "弁天島",
       "spotId": "benten",
       "area": "志賀エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "島",
         "海",
@@ -4520,7 +4537,7 @@ window.SPL_LIBRARY = {
       "spot": "弁天島",
       "spotId": "benten",
       "area": "志賀エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "島",
         "海",
@@ -4542,7 +4559,7 @@ window.SPL_LIBRARY = {
       "spot": "弁天島",
       "spotId": "benten",
       "area": "志賀エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "島",
         "海",
@@ -4564,7 +4581,7 @@ window.SPL_LIBRARY = {
       "spot": "弁天島",
       "spotId": "benten",
       "area": "志賀エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "島",
         "海",
@@ -4586,7 +4603,7 @@ window.SPL_LIBRARY = {
       "spot": "弁天島",
       "spotId": "benten",
       "area": "志賀エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "島",
         "海",
@@ -4608,7 +4625,7 @@ window.SPL_LIBRARY = {
       "spot": "弁天島",
       "spotId": "benten",
       "area": "志賀エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "島",
         "海",
@@ -4630,7 +4647,7 @@ window.SPL_LIBRARY = {
       "spot": "弁天島",
       "spotId": "benten",
       "area": "志賀エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "島",
         "海",
@@ -4652,7 +4669,7 @@ window.SPL_LIBRARY = {
       "spot": "弁天島",
       "spotId": "benten",
       "area": "志賀エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "島",
         "海",
@@ -4674,7 +4691,7 @@ window.SPL_LIBRARY = {
       "spot": "弁天島",
       "spotId": "benten",
       "area": "志賀エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "夕陽",
@@ -4695,7 +4712,7 @@ window.SPL_LIBRARY = {
       "spot": "弁天島",
       "spotId": "benten",
       "area": "志賀エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "島",
         "海",
@@ -4717,7 +4734,7 @@ window.SPL_LIBRARY = {
       "spot": "弁天島",
       "spotId": "benten",
       "area": "志賀エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "島",
         "海",
@@ -4739,7 +4756,7 @@ window.SPL_LIBRARY = {
       "spot": "弁天島",
       "spotId": "benten",
       "area": "志賀エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "島",
         "海",
@@ -4761,7 +4778,7 @@ window.SPL_LIBRARY = {
       "spot": "弁天島",
       "spotId": "benten",
       "area": "志賀エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "島",
         "神社",
@@ -4783,7 +4800,7 @@ window.SPL_LIBRARY = {
       "spot": "ヤセの断崖・義経の舟隠し",
       "spotId": "yase",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "断崖",
         "海",
@@ -4807,7 +4824,7 @@ window.SPL_LIBRARY = {
       "spot": "ヤセの断崖・義経の舟隠し",
       "spotId": "yase",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "岩",
@@ -4829,7 +4846,7 @@ window.SPL_LIBRARY = {
       "spot": "ヤセの断崖・義経の舟隠し",
       "spotId": "yase",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "断崖",
         "景色",
@@ -4850,7 +4867,7 @@ window.SPL_LIBRARY = {
       "spot": "ヤセの断崖・義経の舟隠し",
       "spotId": "yase",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "断崖",
         "景色",
@@ -4871,7 +4888,7 @@ window.SPL_LIBRARY = {
       "spot": "ヤセの断崖・義経の舟隠し",
       "spotId": "yase",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "岩",
         "断崖",
@@ -4893,7 +4910,7 @@ window.SPL_LIBRARY = {
       "spot": "ヤセの断崖・義経の舟隠し",
       "spotId": "yase",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "岩",
@@ -4915,7 +4932,7 @@ window.SPL_LIBRARY = {
       "spot": "ヤセの断崖・義経の舟隠し",
       "spotId": "yase",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "岩",
@@ -4937,7 +4954,7 @@ window.SPL_LIBRARY = {
       "spot": "ヤセの断崖・義経の舟隠し",
       "spotId": "yase",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "岩",
@@ -4959,7 +4976,7 @@ window.SPL_LIBRARY = {
       "spot": "ヤセの断崖・義経の舟隠し",
       "spotId": "yase",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "岩",
@@ -4981,7 +4998,7 @@ window.SPL_LIBRARY = {
       "spot": "ヤセの断崖・義経の舟隠し",
       "spotId": "yase",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "岩",
@@ -5003,7 +5020,7 @@ window.SPL_LIBRARY = {
       "spot": "ヤセの断崖・義経の舟隠し",
       "spotId": "yase",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "岩",
         "断崖",
@@ -5024,7 +5041,7 @@ window.SPL_LIBRARY = {
       "spot": "旧福浦灯台",
       "spotId": "fukura",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "名所旧跡",
@@ -5049,7 +5066,7 @@ window.SPL_LIBRARY = {
       "spot": "旧福浦灯台",
       "spotId": "fukura",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "名所旧跡",
@@ -5074,7 +5091,7 @@ window.SPL_LIBRARY = {
       "spot": "旧福浦灯台",
       "spotId": "fukura",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "名所旧跡",
@@ -5099,7 +5116,7 @@ window.SPL_LIBRARY = {
       "spot": "旧福浦灯台",
       "spotId": "fukura",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "名所旧跡",
@@ -5124,7 +5141,7 @@ window.SPL_LIBRARY = {
       "spot": "旧福浦灯台",
       "spotId": "fukura",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "名所旧跡",
@@ -5148,7 +5165,7 @@ window.SPL_LIBRARY = {
       "spot": "旧福浦灯台",
       "spotId": "fukura",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "名所旧跡",
         "建築",
@@ -5172,7 +5189,7 @@ window.SPL_LIBRARY = {
       "spot": "旧福浦灯台",
       "spotId": "fukura",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "星空",
         "名所旧跡",
@@ -5197,7 +5214,7 @@ window.SPL_LIBRARY = {
       "spot": "旧福浦灯台",
       "spotId": "fukura",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "名所旧跡",
         "建築",
@@ -5223,7 +5240,7 @@ window.SPL_LIBRARY = {
       "spot": "旧福浦灯台",
       "spotId": "fukura",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "名所旧跡",
         "建築",
@@ -5245,7 +5262,7 @@ window.SPL_LIBRARY = {
       "spot": "旧福浦灯台",
       "spotId": "fukura",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "名所旧跡",
         "建築",
@@ -5267,7 +5284,7 @@ window.SPL_LIBRARY = {
       "spot": "旧福浦灯台",
       "spotId": "fukura",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "星空",
         "名所旧跡",
@@ -5292,7 +5309,7 @@ window.SPL_LIBRARY = {
       "spot": "旧福浦灯台",
       "spotId": "fukura",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "名所旧跡",
         "建築",
@@ -5316,7 +5333,7 @@ window.SPL_LIBRARY = {
       "spot": "旧福浦灯台",
       "spotId": "fukura",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "名所旧跡",
         "建築",
@@ -5338,7 +5355,7 @@ window.SPL_LIBRARY = {
       "spot": "旧福浦灯台",
       "spotId": "fukura",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "名所旧跡",
         "建築",
@@ -5360,7 +5377,7 @@ window.SPL_LIBRARY = {
       "spot": "旧福浦灯台",
       "spotId": "fukura",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "名所旧跡",
         "建築",
@@ -5382,7 +5399,7 @@ window.SPL_LIBRARY = {
       "spot": "旧福浦灯台",
       "spotId": "fukura",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "名所旧跡",
         "建築",
@@ -5404,7 +5421,7 @@ window.SPL_LIBRARY = {
       "spot": "旧福浦灯台",
       "spotId": "fukura",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "名所旧跡",
         "建築",
@@ -5426,7 +5443,7 @@ window.SPL_LIBRARY = {
       "spot": "旧福浦灯台",
       "spotId": "fukura",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "名所旧跡",
         "建築",
@@ -5448,7 +5465,7 @@ window.SPL_LIBRARY = {
       "spot": "旧福浦灯台",
       "spotId": "fukura",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "名所旧跡",
         "建築",
@@ -5470,7 +5487,7 @@ window.SPL_LIBRARY = {
       "spot": "旧福浦灯台",
       "spotId": "fukura",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "夕陽",
@@ -5495,7 +5512,7 @@ window.SPL_LIBRARY = {
       "spot": "旧福浦灯台",
       "spotId": "fukura",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "夕陽",
@@ -5520,7 +5537,7 @@ window.SPL_LIBRARY = {
       "spot": "旧福浦灯台",
       "spotId": "fukura",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "夕陽",
@@ -5545,7 +5562,7 @@ window.SPL_LIBRARY = {
       "spot": "旧福浦灯台",
       "spotId": "fukura",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "名所旧跡",
@@ -5570,7 +5587,7 @@ window.SPL_LIBRARY = {
       "spot": "旧福浦灯台",
       "spotId": "fukura",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "名所旧跡",
@@ -5595,7 +5612,7 @@ window.SPL_LIBRARY = {
       "spot": "旧福浦灯台",
       "spotId": "fukura",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "名所旧跡",
@@ -5620,7 +5637,7 @@ window.SPL_LIBRARY = {
       "spot": "旧福浦灯台",
       "spotId": "fukura",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "名所旧跡",
         "建築",
@@ -5644,7 +5661,7 @@ window.SPL_LIBRARY = {
       "spot": "旧福浦灯台",
       "spotId": "fukura",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "名所旧跡",
         "建築",
@@ -5669,7 +5686,7 @@ window.SPL_LIBRARY = {
       "spot": "旧福浦灯台",
       "spotId": "fukura",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "名所旧跡",
         "建築",
@@ -5694,7 +5711,7 @@ window.SPL_LIBRARY = {
       "spot": "旧福浦灯台",
       "spotId": "fukura",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "夕陽",
         "名所旧跡",
@@ -5718,7 +5735,7 @@ window.SPL_LIBRARY = {
       "spot": "旧福浦灯台",
       "spotId": "fukura",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "夕陽",
         "灯台",
@@ -5740,7 +5757,7 @@ window.SPL_LIBRARY = {
       "spot": "旧福浦灯台",
       "spotId": "fukura",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "名所旧跡",
         "建築",
@@ -5765,7 +5782,7 @@ window.SPL_LIBRARY = {
       "spot": "大島諸願堂・大島キャンプ場",
       "spotId": "shogando",
       "area": "志賀エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "夕陽",
@@ -5788,7 +5805,7 @@ window.SPL_LIBRARY = {
       "spot": "大島諸願堂・大島キャンプ場",
       "spotId": "shogando",
       "area": "志賀エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "名所旧跡",
@@ -5811,7 +5828,7 @@ window.SPL_LIBRARY = {
       "spot": "大島諸願堂・大島キャンプ場",
       "spotId": "shogando",
       "area": "志賀エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "名所旧跡",
@@ -5834,7 +5851,7 @@ window.SPL_LIBRARY = {
       "spot": "大島諸願堂・大島キャンプ場",
       "spotId": "shogando",
       "area": "志賀エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "名所旧跡",
         "海",
@@ -5857,7 +5874,7 @@ window.SPL_LIBRARY = {
       "spot": "大島諸願堂・大島キャンプ場",
       "spotId": "shogando",
       "area": "志賀エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "名所旧跡",
         "海",
@@ -5880,7 +5897,7 @@ window.SPL_LIBRARY = {
       "spot": "大島諸願堂・大島キャンプ場",
       "spotId": "shogando",
       "area": "志賀エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "キャンプ",
         "青空",
@@ -5901,7 +5918,7 @@ window.SPL_LIBRARY = {
       "spot": "大島諸願堂・大島キャンプ場",
       "spotId": "shogando",
       "area": "志賀エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "名所旧跡",
@@ -5924,7 +5941,7 @@ window.SPL_LIBRARY = {
       "spot": "大島諸願堂・大島キャンプ場",
       "spotId": "shogando",
       "area": "志賀エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "砂浜",
         "地引網",
@@ -5947,7 +5964,7 @@ window.SPL_LIBRARY = {
       "spot": "大島諸願堂・大島キャンプ場",
       "spotId": "shogando",
       "area": "志賀エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "砂浜",
@@ -5970,7 +5987,7 @@ window.SPL_LIBRARY = {
       "spot": "大島諸願堂・大島キャンプ場",
       "spotId": "shogando",
       "area": "志賀エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "砂浜",
@@ -5993,7 +6010,7 @@ window.SPL_LIBRARY = {
       "spot": "大島諸願堂・大島キャンプ場",
       "spotId": "shogando",
       "area": "志賀エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "砂浜",
@@ -6016,7 +6033,7 @@ window.SPL_LIBRARY = {
       "spot": "大島諸願堂・大島キャンプ場",
       "spotId": "shogando",
       "area": "志賀エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "砂浜",
@@ -6039,7 +6056,7 @@ window.SPL_LIBRARY = {
       "spot": "大島諸願堂・大島キャンプ場",
       "spotId": "shogando",
       "area": "志賀エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "砂浜",
@@ -6062,7 +6079,7 @@ window.SPL_LIBRARY = {
       "spot": "大島諸願堂・大島キャンプ場",
       "spotId": "shogando",
       "area": "志賀エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "砂浜",
@@ -6085,7 +6102,7 @@ window.SPL_LIBRARY = {
       "spot": "大島諸願堂・大島キャンプ場",
       "spotId": "shogando",
       "area": "志賀エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "砂浜",
@@ -6108,7 +6125,7 @@ window.SPL_LIBRARY = {
       "spot": "大島諸願堂・大島キャンプ場",
       "spotId": "shogando",
       "area": "志賀エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "砂浜",
@@ -6131,7 +6148,7 @@ window.SPL_LIBRARY = {
       "spot": "大島諸願堂・大島キャンプ場",
       "spotId": "shogando",
       "area": "志賀エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "砂浜",
@@ -6154,7 +6171,7 @@ window.SPL_LIBRARY = {
       "spot": "大島諸願堂・大島キャンプ場",
       "spotId": "shogando",
       "area": "志賀エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "砂浜",
@@ -6177,7 +6194,7 @@ window.SPL_LIBRARY = {
       "spot": "大島諸願堂・大島キャンプ場",
       "spotId": "shogando",
       "area": "志賀エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "砂浜",
@@ -6200,7 +6217,7 @@ window.SPL_LIBRARY = {
       "spot": "大島諸願堂・大島キャンプ場",
       "spotId": "shogando",
       "area": "志賀エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "砂浜",
@@ -6223,7 +6240,7 @@ window.SPL_LIBRARY = {
       "spot": "大島諸願堂・大島キャンプ場",
       "spotId": "shogando",
       "area": "志賀エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "砂浜",
@@ -6246,7 +6263,7 @@ window.SPL_LIBRARY = {
       "spot": "大島諸願堂・大島キャンプ場",
       "spotId": "shogando",
       "area": "志賀エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "夕陽",
@@ -6269,7 +6286,7 @@ window.SPL_LIBRARY = {
       "spot": "大島諸願堂・大島キャンプ場",
       "spotId": "shogando",
       "area": "志賀エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "夕陽",
@@ -6292,7 +6309,7 @@ window.SPL_LIBRARY = {
       "spot": "大島諸願堂・大島キャンプ場",
       "spotId": "shogando",
       "area": "志賀エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "夕陽",
@@ -6315,7 +6332,7 @@ window.SPL_LIBRARY = {
       "spot": "大島諸願堂・大島キャンプ場",
       "spotId": "shogando",
       "area": "志賀エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "夕陽",
@@ -6338,7 +6355,7 @@ window.SPL_LIBRARY = {
       "spot": "大島諸願堂・大島キャンプ場",
       "spotId": "shogando",
       "area": "志賀エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "夕陽",
@@ -6360,7 +6377,7 @@ window.SPL_LIBRARY = {
       "spot": "大島諸願堂・大島キャンプ場",
       "spotId": "shogando",
       "area": "志賀エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "夕陽",
@@ -6382,7 +6399,7 @@ window.SPL_LIBRARY = {
       "spot": "大島諸願堂・大島キャンプ場",
       "spotId": "shogando",
       "area": "志賀エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "夕陽",
@@ -6405,7 +6422,7 @@ window.SPL_LIBRARY = {
       "spot": "大島諸願堂・大島キャンプ場",
       "spotId": "shogando",
       "area": "志賀エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "夕陽",
@@ -6428,7 +6445,7 @@ window.SPL_LIBRARY = {
       "spot": "大島諸願堂・大島キャンプ場",
       "spotId": "shogando",
       "area": "志賀エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "夕陽",
@@ -6451,7 +6468,7 @@ window.SPL_LIBRARY = {
       "spot": "大島諸願堂・大島キャンプ場",
       "spotId": "shogando",
       "area": "志賀エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "星空",
@@ -6473,7 +6490,7 @@ window.SPL_LIBRARY = {
       "spot": "大島諸願堂・大島キャンプ場",
       "spotId": "shogando",
       "area": "志賀エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "星空",
@@ -6495,7 +6512,7 @@ window.SPL_LIBRARY = {
       "spot": "大島諸願堂・大島キャンプ場",
       "spotId": "shogando",
       "area": "志賀エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "星空",
@@ -6517,7 +6534,7 @@ window.SPL_LIBRARY = {
       "spot": "大島諸願堂・大島キャンプ場",
       "spotId": "shogando",
       "area": "志賀エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "星空",
@@ -6539,7 +6556,7 @@ window.SPL_LIBRARY = {
       "spot": "大島諸願堂・大島キャンプ場",
       "spotId": "shogando",
       "area": "志賀エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "名所旧跡",
@@ -6561,7 +6578,7 @@ window.SPL_LIBRARY = {
       "spot": "大島諸願堂・大島キャンプ場",
       "spotId": "shogando",
       "area": "志賀エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "名所旧跡",
@@ -6583,7 +6600,7 @@ window.SPL_LIBRARY = {
       "spot": "大島諸願堂・大島キャンプ場",
       "spotId": "shogando",
       "area": "志賀エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "名所旧跡",
@@ -6605,7 +6622,7 @@ window.SPL_LIBRARY = {
       "spot": "道の駅とぎ海街道・さくら貝資料館",
       "spotId": "sakuragai",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "文化施設",
         "屋内",
@@ -6628,7 +6645,7 @@ window.SPL_LIBRARY = {
       "spot": "道の駅とぎ海街道・さくら貝資料館",
       "spotId": "sakuragai",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "さくら貝",
         "文化施設",
@@ -6652,7 +6669,7 @@ window.SPL_LIBRARY = {
       "spot": "道の駅とぎ海街道・さくら貝資料館",
       "spotId": "sakuragai",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "さくら貝",
         "文化施設",
@@ -6676,7 +6693,7 @@ window.SPL_LIBRARY = {
       "spot": "道の駅とぎ海街道・さくら貝資料館",
       "spotId": "sakuragai",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "文化施設",
         "屋内",
@@ -6699,7 +6716,7 @@ window.SPL_LIBRARY = {
       "spot": "道の駅とぎ海街道・さくら貝資料館",
       "spotId": "sakuragai",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "さくら貝",
         "文化施設",
@@ -6723,7 +6740,7 @@ window.SPL_LIBRARY = {
       "spot": "道の駅とぎ海街道・さくら貝資料館",
       "spotId": "sakuragai",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "さくら貝",
         "文化施設",
@@ -6747,7 +6764,7 @@ window.SPL_LIBRARY = {
       "spot": "道の駅とぎ海街道・さくら貝資料館",
       "spotId": "sakuragai",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "さくら貝",
         "お土産",
@@ -6769,7 +6786,7 @@ window.SPL_LIBRARY = {
       "spot": "道の駅とぎ海街道・さくら貝資料館",
       "spotId": "sakuragai",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "さくら貝",
         "文化施設",
@@ -6793,7 +6810,7 @@ window.SPL_LIBRARY = {
       "spot": "道の駅とぎ海街道・さくら貝資料館",
       "spotId": "sakuragai",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "さくら貝",
         "文化施設",
@@ -6817,7 +6834,7 @@ window.SPL_LIBRARY = {
       "spot": "道の駅とぎ海街道・さくら貝資料館",
       "spotId": "sakuragai",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "岩",
         "道の駅",
@@ -6840,7 +6857,7 @@ window.SPL_LIBRARY = {
       "spot": "道の駅とぎ海街道・さくら貝資料館",
       "spotId": "sakuragai",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "岩",
         "道の駅",
@@ -6863,7 +6880,7 @@ window.SPL_LIBRARY = {
       "spot": "道の駅とぎ海街道・さくら貝資料館",
       "spotId": "sakuragai",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "岩",
         "道の駅",
@@ -6886,7 +6903,7 @@ window.SPL_LIBRARY = {
       "spot": "道の駅とぎ海街道・さくら貝資料館",
       "spotId": "sakuragai",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "さくら貝",
         "文化施設",
@@ -6910,7 +6927,7 @@ window.SPL_LIBRARY = {
       "spot": "道の駅とぎ海街道・さくら貝資料館",
       "spotId": "sakuragai",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "さくら貝",
         "文化施設",
@@ -6934,7 +6951,7 @@ window.SPL_LIBRARY = {
       "spot": "道の駅とぎ海街道・さくら貝資料館",
       "spotId": "sakuragai",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "道の駅",
         "海の幸",
@@ -6956,7 +6973,7 @@ window.SPL_LIBRARY = {
       "spot": "道の駅とぎ海街道・さくら貝資料館",
       "spotId": "sakuragai",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "道の駅",
         "えび",
@@ -6978,7 +6995,7 @@ window.SPL_LIBRARY = {
       "spot": "道の駅とぎ海街道・さくら貝資料館",
       "spotId": "sakuragai",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "道の駅",
         "えび",
@@ -7000,7 +7017,7 @@ window.SPL_LIBRARY = {
       "spot": "道の駅とぎ海街道・さくら貝資料館",
       "spotId": "sakuragai",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "道の駅",
         "海鮮",
@@ -7022,7 +7039,7 @@ window.SPL_LIBRARY = {
       "spot": "道の駅とぎ海街道・さくら貝資料館",
       "spotId": "sakuragai",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "道の駅",
         "お土産",
@@ -7043,7 +7060,7 @@ window.SPL_LIBRARY = {
       "spot": "道の駅とぎ海街道・さくら貝資料館",
       "spotId": "sakuragai",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "屋内",
         "お土産",
@@ -7065,7 +7082,7 @@ window.SPL_LIBRARY = {
       "spot": "道の駅とぎ海街道・さくら貝資料館",
       "spotId": "sakuragai",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "道の駅",
         "お土産",
@@ -7087,7 +7104,7 @@ window.SPL_LIBRARY = {
       "spot": "道の駅とぎ海街道・さくら貝資料館",
       "spotId": "sakuragai",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "道の駅",
         "海鮮",
@@ -7109,7 +7126,7 @@ window.SPL_LIBRARY = {
       "spot": "道の駅とぎ海街道・さくら貝資料館",
       "spotId": "sakuragai",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "夏",
         "道の駅",
@@ -7130,7 +7147,7 @@ window.SPL_LIBRARY = {
       "spot": "道の駅とぎ海街道・さくら貝資料館",
       "spotId": "sakuragai",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "屋内",
         "お土産",
@@ -7152,7 +7169,7 @@ window.SPL_LIBRARY = {
       "spot": "道の駅とぎ海街道・さくら貝資料館",
       "spotId": "sakuragai",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "さくら貝",
         "屋内",
@@ -7174,7 +7191,7 @@ window.SPL_LIBRARY = {
       "spot": "道の駅とぎ海街道・さくら貝資料館",
       "spotId": "sakuragai",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "さくら貝",
         "屋内",
@@ -7196,7 +7213,7 @@ window.SPL_LIBRARY = {
       "spot": "道の駅とぎ海街道・さくら貝資料館",
       "spotId": "sakuragai",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "さくら貝",
         "屋内",
@@ -7218,7 +7235,7 @@ window.SPL_LIBRARY = {
       "spot": "道の駅とぎ海街道・さくら貝資料館",
       "spotId": "sakuragai",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "さくら貝",
         "屋内",
@@ -7240,7 +7257,7 @@ window.SPL_LIBRARY = {
       "spot": "道の駅とぎ海街道・さくら貝資料館",
       "spotId": "sakuragai",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "さくら貝",
         "屋内",
@@ -7262,7 +7279,7 @@ window.SPL_LIBRARY = {
       "spot": "道の駅とぎ海街道・さくら貝資料館",
       "spotId": "sakuragai",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "さくら貝",
         "屋内",
@@ -7284,7 +7301,7 @@ window.SPL_LIBRARY = {
       "spot": "道の駅とぎ海街道・さくら貝資料館",
       "spotId": "sakuragai",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "さくら貝",
         "屋内",
@@ -7306,7 +7323,7 @@ window.SPL_LIBRARY = {
       "spot": "道の駅とぎ海街道・さくら貝資料館",
       "spotId": "sakuragai",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "さくら貝",
         "屋内",
@@ -7328,7 +7345,7 @@ window.SPL_LIBRARY = {
       "spot": "道の駅とぎ海街道・さくら貝資料館",
       "spotId": "sakuragai",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "さくら貝",
         "屋内",
@@ -7350,7 +7367,7 @@ window.SPL_LIBRARY = {
       "spot": "平家",
       "spotId": "taira",
       "area": "志賀エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "庭園",
         "名所旧跡",
@@ -7373,7 +7390,7 @@ window.SPL_LIBRARY = {
       "spot": "平家",
       "spotId": "taira",
       "area": "志賀エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "庭園",
         "名所旧跡",
@@ -7396,7 +7413,7 @@ window.SPL_LIBRARY = {
       "spot": "平家",
       "spotId": "taira",
       "area": "志賀エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "庭園",
         "名所旧跡",
@@ -7419,7 +7436,7 @@ window.SPL_LIBRARY = {
       "spot": "平家",
       "spotId": "taira",
       "area": "志賀エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "庭園",
         "名所旧跡",
@@ -7442,7 +7459,7 @@ window.SPL_LIBRARY = {
       "spot": "平家",
       "spotId": "taira",
       "area": "志賀エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "庭園",
         "名所旧跡",
@@ -7464,7 +7481,7 @@ window.SPL_LIBRARY = {
       "spot": "平家",
       "spotId": "taira",
       "area": "志賀エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "庭園",
         "名所旧跡",
@@ -7486,7 +7503,7 @@ window.SPL_LIBRARY = {
       "spot": "平家",
       "spotId": "taira",
       "area": "志賀エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "庭園",
         "名所旧跡",
@@ -7508,7 +7525,7 @@ window.SPL_LIBRARY = {
       "spot": "平家",
       "spotId": "taira",
       "area": "志賀エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "庭園",
         "名所旧跡",
@@ -7530,7 +7547,7 @@ window.SPL_LIBRARY = {
       "spot": "平家",
       "spotId": "taira",
       "area": "志賀エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "庭園",
         "名所旧跡",
@@ -7552,7 +7569,7 @@ window.SPL_LIBRARY = {
       "spot": "平家",
       "spotId": "taira",
       "area": "志賀エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "庭園",
         "名所旧跡",
@@ -7574,7 +7591,7 @@ window.SPL_LIBRARY = {
       "spot": "平家",
       "spotId": "taira",
       "area": "志賀エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "庭園",
         "名所旧跡",
@@ -7596,7 +7613,7 @@ window.SPL_LIBRARY = {
       "spot": "平家",
       "spotId": "taira",
       "area": "志賀エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "庭園",
         "名所旧跡",
@@ -7618,7 +7635,7 @@ window.SPL_LIBRARY = {
       "spot": "平家",
       "spotId": "taira",
       "area": "志賀エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "庭園",
         "名所旧跡",
@@ -7640,7 +7657,7 @@ window.SPL_LIBRARY = {
       "spot": "平家",
       "spotId": "taira",
       "area": "志賀エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "文化施設",
         "名所旧跡",
@@ -7662,7 +7679,7 @@ window.SPL_LIBRARY = {
       "spot": "松尾神社",
       "spotId": "matsuo",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "神社",
         "名所旧跡",
@@ -7683,7 +7700,7 @@ window.SPL_LIBRARY = {
       "spot": "松尾神社",
       "spotId": "matsuo",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "神社",
         "名所旧跡",
@@ -7704,7 +7721,7 @@ window.SPL_LIBRARY = {
       "spot": "松尾神社",
       "spotId": "matsuo",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "神社",
         "名所旧跡",
@@ -7725,7 +7742,7 @@ window.SPL_LIBRARY = {
       "spot": "松尾神社",
       "spotId": "matsuo",
       "area": "富来エリア",
-      "season": "",
+      "season": [],
       "tags": [
         "神社",
         "名所旧跡",
@@ -7746,7 +7763,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "岩",
@@ -7768,7 +7785,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "能登富士",
         "山",
@@ -7789,7 +7806,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "棚田",
         "水田",
@@ -7811,7 +7828,9 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [
+        "春"
+      ],
       "tags": [
         "桜",
         "花",
@@ -7832,7 +7851,9 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [
+        "春"
+      ],
       "tags": [
         "桜",
         "花",
@@ -7853,7 +7874,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "花",
         "あじさい",
@@ -7874,7 +7895,9 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [
+        "夏"
+      ],
       "tags": [
         "祭り",
         "八朔",
@@ -7897,7 +7920,9 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [
+        "夏"
+      ],
       "tags": [
         "祭り",
         "八朔",
@@ -7920,7 +7945,9 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [
+        "夏"
+      ],
       "tags": [
         "祭り",
         "八朔",
@@ -7943,7 +7970,9 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [
+        "夏"
+      ],
       "tags": [
         "祭り",
         "八朔",
@@ -7966,7 +7995,9 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [
+        "夏"
+      ],
       "tags": [
         "祭り",
         "八朔",
@@ -7989,7 +8020,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "祭り",
         "福浦",
@@ -8011,7 +8042,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "祭り",
         "福浦",
@@ -8033,7 +8064,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "祭り",
         "福浦",
@@ -8055,7 +8086,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "太鼓",
         "これでもか",
@@ -8077,7 +8108,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "これでもか",
         "太鼓",
@@ -8099,7 +8130,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "桜",
         "花",
@@ -8121,7 +8152,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "青空",
         "村",
@@ -8143,7 +8174,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "青空",
         "公園",
@@ -8165,7 +8196,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "夜景",
         "祭り",
@@ -8187,7 +8218,9 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [
+        "春"
+      ],
       "tags": [
         "花",
         "庭",
@@ -8209,7 +8242,9 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [
+        "春"
+      ],
       "tags": [
         "桜",
         "花",
@@ -8231,7 +8266,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "花",
         "あじさい",
@@ -8252,7 +8287,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "祭り",
         "福浦",
@@ -8273,7 +8308,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "祭り",
         "福浦",
@@ -8294,7 +8329,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "太鼓",
         "音楽",
@@ -8315,7 +8350,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "空撮",
         "体育館",
@@ -8336,7 +8371,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "村",
         "公園",
@@ -8357,7 +8392,9 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [
+        "春"
+      ],
       "tags": [
         "桜",
         "花",
@@ -8378,7 +8415,9 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [
+        "春"
+      ],
       "tags": [
         "桜",
         "花",
@@ -8399,7 +8438,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "花",
         "彼岸花",
@@ -8420,7 +8459,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "あかりちゃん",
         "灯台",
@@ -8441,7 +8480,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "岩",
         "雪",
@@ -8463,7 +8502,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "お土産",
         "特産品",
@@ -8485,7 +8524,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "特産品",
         "食",
@@ -8506,7 +8545,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "お土産",
         "食",
@@ -8528,7 +8567,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "お土産",
         "食",
@@ -8550,7 +8589,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "祭り",
         "獅子舞",
@@ -8571,7 +8610,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "祭り",
         "SNS向き"
@@ -8591,7 +8630,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "能登富士",
         "山",
@@ -8612,7 +8651,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "棚田",
         "水田",
@@ -8634,7 +8673,9 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [
+        "春"
+      ],
       "tags": [
         "桜",
         "花",
@@ -8655,7 +8696,9 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [
+        "春"
+      ],
       "tags": [
         "桜",
         "花",
@@ -8676,7 +8719,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "花",
         "あじさい",
@@ -8697,7 +8740,9 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [
+        "夏"
+      ],
       "tags": [
         "祭り",
         "八朔",
@@ -8720,7 +8765,9 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [
+        "夏"
+      ],
       "tags": [
         "祭り",
         "八朔",
@@ -8743,7 +8790,9 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [
+        "夏"
+      ],
       "tags": [
         "祭り",
         "八朔",
@@ -8766,7 +8815,9 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [
+        "夏"
+      ],
       "tags": [
         "祭り",
         "八朔",
@@ -8789,7 +8840,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "祭り",
         "福浦",
@@ -8811,7 +8862,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "祭り",
         "福浦",
@@ -8833,7 +8884,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "祭り",
         "福浦",
@@ -8855,7 +8906,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "太鼓",
         "これでもか",
@@ -8877,7 +8928,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "これでもか",
         "太鼓",
@@ -8899,7 +8950,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "青空",
         "村",
@@ -8921,7 +8972,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "青空",
         "公園",
@@ -8943,7 +8994,9 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [
+        "春"
+      ],
       "tags": [
         "花",
         "庭",
@@ -8965,7 +9018,9 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [
+        "春"
+      ],
       "tags": [
         "桜",
         "花",
@@ -8987,7 +9042,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "花",
         "あじさい",
@@ -9008,7 +9063,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "祭り",
         "福浦",
@@ -9029,7 +9084,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "祭り",
         "福浦",
@@ -9050,7 +9105,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "太鼓",
         "音楽",
@@ -9071,7 +9126,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "空撮",
         "体育館",
@@ -9092,7 +9147,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "村",
         "公園",
@@ -9113,7 +9168,9 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [
+        "春"
+      ],
       "tags": [
         "桜",
         "花",
@@ -9134,7 +9191,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "花",
         "彼岸花",
@@ -9155,7 +9212,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "岩",
         "雪",
@@ -9177,7 +9234,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "お土産",
         "特産品",
@@ -9199,7 +9256,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "特産品",
         "食",
@@ -9220,7 +9277,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "お土産",
         "食",
@@ -9242,7 +9299,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "お土産",
         "食",
@@ -9264,7 +9321,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "祭り",
         "獅子舞",
@@ -9285,7 +9342,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "祭り",
         "SNS向き"
@@ -9305,7 +9362,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "能登富士",
         "山",
@@ -9326,7 +9383,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "棚田",
         "水田",
@@ -9348,7 +9405,9 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [
+        "春"
+      ],
       "tags": [
         "桜",
         "花",
@@ -9369,7 +9428,9 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [
+        "春"
+      ],
       "tags": [
         "桜",
         "花",
@@ -9390,7 +9451,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "花",
         "あじさい",
@@ -9411,7 +9472,9 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [
+        "夏"
+      ],
       "tags": [
         "祭り",
         "八朔",
@@ -9434,7 +9497,9 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [
+        "夏"
+      ],
       "tags": [
         "祭り",
         "八朔",
@@ -9457,7 +9522,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "祭り",
         "福浦",
@@ -9479,7 +9544,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "祭り",
         "福浦",
@@ -9501,7 +9566,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "祭り",
         "福浦",
@@ -9523,7 +9588,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "太鼓",
         "これでもか",
@@ -9545,7 +9610,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "これでもか",
         "太鼓",
@@ -9567,7 +9632,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "青空",
         "村",
@@ -9589,7 +9654,9 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [
+        "春"
+      ],
       "tags": [
         "花",
         "庭",
@@ -9611,7 +9678,9 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [
+        "春"
+      ],
       "tags": [
         "桜",
         "花",
@@ -9633,7 +9702,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "花",
         "あじさい",
@@ -9654,7 +9723,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "祭り",
         "福浦",
@@ -9675,7 +9744,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "祭り",
         "福浦",
@@ -9696,7 +9765,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "太鼓",
         "音楽",
@@ -9717,7 +9786,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "空撮",
         "体育館",
@@ -9738,7 +9807,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "村",
         "公園",
@@ -9759,7 +9828,9 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [
+        "春"
+      ],
       "tags": [
         "桜",
         "花",
@@ -9780,7 +9851,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "花",
         "彼岸花",
@@ -9801,7 +9872,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "岩",
         "雪",
@@ -9823,7 +9894,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "お土産",
         "特産品",
@@ -9845,7 +9916,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "特産品",
         "食",
@@ -9866,7 +9937,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "お土産",
         "食",
@@ -9888,7 +9959,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "お土産",
         "食",
@@ -9910,7 +9981,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "祭り",
         "獅子舞",
@@ -9931,7 +10002,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "祭り",
         "SNS向き"
@@ -9951,7 +10022,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "能登富士",
         "山",
@@ -9972,7 +10043,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "棚田",
         "水田",
@@ -9994,7 +10065,9 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [
+        "春"
+      ],
       "tags": [
         "桜",
         "花",
@@ -10015,7 +10088,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "花",
         "あじさい",
@@ -10036,7 +10109,9 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [
+        "夏"
+      ],
       "tags": [
         "祭り",
         "八朔",
@@ -10059,7 +10134,9 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [
+        "夏"
+      ],
       "tags": [
         "祭り",
         "八朔",
@@ -10082,7 +10159,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "祭り",
         "福浦",
@@ -10104,7 +10181,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "祭り",
         "福浦",
@@ -10126,7 +10203,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "祭り",
         "福浦",
@@ -10148,7 +10225,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "太鼓",
         "これでもか",
@@ -10170,7 +10247,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "これでもか",
         "太鼓",
@@ -10192,7 +10269,9 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [
+        "春"
+      ],
       "tags": [
         "花",
         "庭",
@@ -10214,7 +10293,9 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [
+        "春"
+      ],
       "tags": [
         "桜",
         "花",
@@ -10236,7 +10317,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "祭り",
         "福浦",
@@ -10257,7 +10338,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "祭り",
         "福浦",
@@ -10278,7 +10359,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "太鼓",
         "音楽",
@@ -10299,7 +10380,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "空撮",
         "体育館",
@@ -10320,7 +10401,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "村",
         "公園",
@@ -10341,7 +10422,9 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [
+        "春"
+      ],
       "tags": [
         "桜",
         "花",
@@ -10362,7 +10445,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "花",
         "彼岸花",
@@ -10383,7 +10466,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "岩",
         "雪",
@@ -10405,7 +10488,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "お土産",
         "特産品",
@@ -10427,7 +10510,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "特産品",
         "食",
@@ -10448,7 +10531,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "お土産",
         "食",
@@ -10470,7 +10553,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "祭り",
         "獅子舞",
@@ -10491,7 +10574,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "祭り",
         "SNS向き"
@@ -10511,7 +10594,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "花",
         "青空",
@@ -10534,7 +10617,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "棚田",
         "水田",
@@ -10556,7 +10639,9 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [
+        "春"
+      ],
       "tags": [
         "桜",
         "花",
@@ -10577,7 +10662,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "花",
         "あじさい",
@@ -10598,7 +10683,9 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [
+        "夏"
+      ],
       "tags": [
         "祭り",
         "八朔",
@@ -10621,7 +10708,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "祭り",
         "福浦",
@@ -10643,7 +10730,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "祭り",
         "福浦",
@@ -10665,7 +10752,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "祭り",
         "福浦",
@@ -10687,7 +10774,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "太鼓",
         "これでもか",
@@ -10709,7 +10796,9 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [
+        "春"
+      ],
       "tags": [
         "花",
         "庭",
@@ -10731,7 +10820,9 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [
+        "春"
+      ],
       "tags": [
         "桜",
         "花",
@@ -10753,7 +10844,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "花",
         "あじさい",
@@ -10774,7 +10865,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "祭り",
         "福浦",
@@ -10795,7 +10886,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "祭り",
         "福浦",
@@ -10816,7 +10907,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "太鼓",
         "音楽",
@@ -10837,7 +10928,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "空撮",
         "体育館",
@@ -10858,7 +10949,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "村",
         "公園",
@@ -10879,7 +10970,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "お土産",
         "特産品",
@@ -10901,7 +10992,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "特産品",
         "食",
@@ -10922,7 +11013,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "お土産",
         "食",
@@ -10944,7 +11035,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "祭り",
         "獅子舞",
@@ -10965,7 +11056,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "祭り",
         "SNS向き"
@@ -10985,7 +11076,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "花",
         "能登富士",
@@ -11007,7 +11098,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "棚田",
         "水田",
@@ -11029,7 +11120,9 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [
+        "春"
+      ],
       "tags": [
         "桜",
         "花",
@@ -11050,7 +11143,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "花",
         "あじさい",
@@ -11071,7 +11164,9 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [
+        "夏"
+      ],
       "tags": [
         "祭り",
         "八朔",
@@ -11094,7 +11189,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "祭り",
         "福浦",
@@ -11116,7 +11211,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "太鼓",
         "これでもか",
@@ -11138,7 +11233,9 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [
+        "春"
+      ],
       "tags": [
         "花",
         "庭",
@@ -11160,7 +11257,9 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [
+        "春"
+      ],
       "tags": [
         "桜",
         "花",
@@ -11182,7 +11281,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "祭り",
         "福浦",
@@ -11203,7 +11302,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "祭り",
         "福浦",
@@ -11224,7 +11323,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "太鼓",
         "音楽",
@@ -11245,7 +11344,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "村",
         "公園",
@@ -11266,7 +11365,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "特産品",
         "食",
@@ -11287,7 +11386,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "お土産",
         "食",
@@ -11309,7 +11408,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "祭り",
         "獅子舞",
@@ -11330,7 +11429,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "祭り",
         "SNS向き"
@@ -11350,7 +11449,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "能登富士",
         "山",
@@ -11371,7 +11470,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "棚田",
         "水田",
@@ -11393,7 +11492,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "花",
         "あじさい",
@@ -11414,7 +11513,9 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [
+        "夏"
+      ],
       "tags": [
         "祭り",
         "八朔",
@@ -11437,7 +11538,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "太鼓",
         "これでもか",
@@ -11459,7 +11560,9 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [
+        "春"
+      ],
       "tags": [
         "桜",
         "花",
@@ -11481,7 +11584,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "祭り",
         "福浦",
@@ -11502,7 +11605,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "祭り",
         "福浦",
@@ -11523,7 +11626,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "太鼓",
         "音楽",
@@ -11544,7 +11647,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "特産品",
         "食",
@@ -11565,7 +11668,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "お土産",
         "食",
@@ -11587,7 +11690,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "祭り",
         "SNS向き"
@@ -11607,7 +11710,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "能登富士",
         "山",
@@ -11628,7 +11731,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "棚田",
         "水田",
@@ -11650,7 +11753,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "花",
         "あじさい",
@@ -11671,7 +11774,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "太鼓",
         "これでもか",
@@ -11693,7 +11796,9 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [
+        "春"
+      ],
       "tags": [
         "桜",
         "花",
@@ -11715,7 +11820,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "祭り",
         "福浦",
@@ -11736,7 +11841,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "祭り",
         "福浦",
@@ -11757,7 +11862,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "太鼓",
         "音楽",
@@ -11778,7 +11883,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "特産品",
         "食",
@@ -11799,7 +11904,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "お土産",
         "食",
@@ -11821,7 +11926,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "祭り",
         "SNS向き"
@@ -11841,7 +11946,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "能登富士",
         "山",
@@ -11862,7 +11967,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "棚田",
         "水田",
@@ -11884,7 +11989,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "太鼓",
         "これでもか",
@@ -11906,7 +12011,9 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [
+        "春"
+      ],
       "tags": [
         "桜",
         "花",
@@ -11928,7 +12035,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "祭り",
         "福浦",
@@ -11949,7 +12056,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "祭り",
         "福浦",
@@ -11970,7 +12077,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "太鼓",
         "音楽",
@@ -11991,7 +12098,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "祭り",
         "SNS向き"
@@ -12011,7 +12118,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "雪",
         "能登富士",
@@ -12033,7 +12140,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "棚田",
         "水田",
@@ -12055,7 +12162,9 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [
+        "春"
+      ],
       "tags": [
         "桜",
         "花",
@@ -12077,7 +12186,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "祭り",
         "福浦",
@@ -12098,7 +12207,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "祭り",
         "福浦",
@@ -12119,7 +12228,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "太鼓",
         "音楽",
@@ -12140,7 +12249,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "祭り",
         "SNS向き"
@@ -12160,7 +12269,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "能登富士",
         "山",
@@ -12181,7 +12290,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "祭り",
         "福浦",
@@ -12202,7 +12311,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "祭り",
         "福浦",
@@ -12223,7 +12332,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "太鼓",
         "音楽",
@@ -12244,7 +12353,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "祭り",
         "SNS向き"
@@ -12264,7 +12373,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "雪",
         "能登富士",
@@ -12286,7 +12395,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "祭り",
         "福浦",
@@ -12307,7 +12416,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "祭り",
         "福浦",
@@ -12328,7 +12437,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "太鼓",
         "音楽",
@@ -12349,7 +12458,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "祭り",
         "SNS向き"
@@ -12369,7 +12478,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "祭り",
         "福浦",
@@ -12390,7 +12499,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "祭り",
         "福浦",
@@ -12411,7 +12520,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "太鼓",
         "音楽",
@@ -12432,7 +12541,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "祭り",
         "SNS向き"
@@ -12452,7 +12561,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "祭り",
         "福浦",
@@ -12473,7 +12582,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "祭り",
         "福浦",
@@ -12494,7 +12603,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "太鼓",
         "音楽",
@@ -12515,7 +12624,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "祭り",
         "SNS向き"
@@ -12535,7 +12644,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "祭り",
         "福浦",
@@ -12556,7 +12665,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "祭り",
         "福浦",
@@ -12577,7 +12686,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "太鼓",
         "音楽",
@@ -12598,7 +12707,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "祭り",
         "SNS向き"
@@ -12618,7 +12727,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "祭り",
         "福浦",
@@ -12639,7 +12748,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "太鼓",
         "音楽",
@@ -12660,7 +12769,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "祭り",
         "SNS向き"
@@ -12680,7 +12789,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "祭り",
         "福浦",
@@ -12701,7 +12810,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "祭り",
         "SNS向き"
@@ -12721,7 +12830,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "祭り",
         "福浦",
@@ -12742,7 +12851,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "祭り",
         "SNS向き"
@@ -12762,7 +12871,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "祭り",
         "福浦",
@@ -12783,7 +12892,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "祭り",
         "SNS向き"
@@ -12803,7 +12912,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "祭り",
         "福浦",
@@ -12824,7 +12933,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "祭り",
         "SNS向き"
@@ -12844,7 +12953,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "祭り",
         "福浦",
@@ -12865,7 +12974,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "祭り",
         "SNS向き"
@@ -12885,7 +12994,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "祭り",
         "福浦",
@@ -12906,7 +13015,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "祭り",
         "福浦",
@@ -12927,7 +13036,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "祭り",
         "福浦",
@@ -12948,7 +13057,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "祭り",
         "福浦",
@@ -12969,7 +13078,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "祭り",
         "福浦",
@@ -12990,7 +13099,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "祭り",
         "福浦",
@@ -13011,7 +13120,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "祭り",
         "福浦",
@@ -13032,7 +13141,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "青空",
         "春",
@@ -13054,7 +13163,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "青空",
         "春",
@@ -13076,7 +13185,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "青空",
         "春",
@@ -13098,7 +13207,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "花",
         "春",
@@ -13120,7 +13229,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "花",
         "春",
@@ -13142,7 +13251,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "庭園",
         "春",
@@ -13164,7 +13273,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "庭園",
         "春",
@@ -13186,7 +13295,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "庭園",
         "春",
@@ -13208,7 +13317,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "花",
         "春",
@@ -13230,7 +13339,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "花",
         "春",
@@ -13252,7 +13361,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "庭園",
         "春",
@@ -13274,7 +13383,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "花",
         "春",
@@ -13296,7 +13405,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "花",
         "春",
@@ -13318,7 +13427,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "花",
         "春",
@@ -13340,7 +13449,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "山",
         "能登富士",
@@ -13361,7 +13470,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "山",
         "能登富士",
@@ -13382,7 +13491,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "桜",
         "花",
@@ -13404,7 +13513,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "桜",
         "花",
@@ -13426,7 +13535,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "桜",
         "花",
@@ -13448,7 +13557,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "桜",
         "花",
@@ -13470,7 +13579,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "桜",
         "花",
@@ -13492,7 +13601,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "空撮",
         "チラシ・ポスター向き"
@@ -13512,7 +13621,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "空撮",
@@ -13534,7 +13643,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "花",
         "あじさい",
@@ -13555,7 +13664,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "花",
         "寺",
@@ -13578,7 +13687,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "花",
         "寺",
@@ -13600,7 +13709,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "花",
         "寺",
@@ -13623,7 +13732,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "花",
         "寺",
@@ -13645,7 +13754,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "花",
         "寺",
@@ -13667,7 +13776,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "花",
         "寺",
@@ -13689,7 +13798,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "花",
         "寺",
@@ -13711,7 +13820,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "トンネル",
         "アート",
@@ -13732,7 +13841,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "青空",
         "水田",
@@ -13753,7 +13862,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "青空",
         "水田",
@@ -13774,7 +13883,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "福浦",
         "寺",
@@ -13795,7 +13904,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "福浦",
         "寺",
@@ -13816,7 +13925,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "福浦",
         "寺",
@@ -13837,7 +13946,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "福浦",
         "寺",
@@ -13858,7 +13967,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "福浦",
         "寺",
@@ -13879,7 +13988,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "福浦",
         "寺",
@@ -13900,7 +14009,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "青空",
@@ -13921,7 +14030,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "青空",
@@ -13942,7 +14051,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "青空",
@@ -13963,7 +14072,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "青空",
@@ -13984,7 +14093,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "青空",
@@ -14005,7 +14114,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "夕陽",
@@ -14026,7 +14135,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "夕陽",
@@ -14047,7 +14156,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "夕陽",
@@ -14068,7 +14177,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "夕陽",
@@ -14089,7 +14198,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "夜景",
         "祭り",
@@ -14111,7 +14220,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "夜景",
         "花火",
@@ -14132,7 +14241,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "夜景",
         "祭り",
@@ -14154,7 +14263,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "夜景",
         "祭り",
@@ -14176,7 +14285,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "夜景",
         "祭り",
@@ -14198,7 +14307,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "イルミネーション",
         "祭り",
@@ -14220,7 +14329,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "夜景",
         "イルミネーション",
@@ -14242,7 +14351,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "夜景",
         "祭り",
@@ -14264,7 +14373,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "夜景",
         "イルミネーション",
@@ -14286,7 +14395,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "夜景",
         "イルミネーション",
@@ -14308,7 +14417,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "夜景",
         "祭り",
@@ -14330,7 +14439,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "お土産",
         "食",
@@ -14352,7 +14461,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "さくら貝",
         "特産品",
@@ -14374,7 +14483,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "お土産",
         "食",
@@ -14396,7 +14505,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "お土産",
         "食",
@@ -14418,7 +14527,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "お土産",
         "食",
@@ -14440,7 +14549,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "お土産",
         "食",
@@ -14462,7 +14571,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "お土産",
         "食",
@@ -14484,7 +14593,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "お土産",
         "食",
@@ -14506,7 +14615,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "お土産",
         "食",
@@ -14528,7 +14637,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "さくら貝",
         "お土産",
@@ -14549,7 +14658,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "さくら貝",
         "お土産",
@@ -14570,7 +14679,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "さくら貝",
         "お土産",
@@ -14591,7 +14700,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "お土産",
         "食",
@@ -14613,7 +14722,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "さくら貝",
         "お土産",
@@ -14634,7 +14743,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "さくら貝",
         "お土産",
@@ -14655,7 +14764,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "お土産",
         "食",
@@ -14677,7 +14786,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "お土産",
         "食",
@@ -14699,7 +14808,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "お土産",
         "食",
@@ -14721,7 +14830,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "お土産",
         "食",
@@ -14743,7 +14852,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "お土産",
         "食",
@@ -14765,7 +14874,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "お土産",
         "食",
@@ -14787,7 +14896,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "お土産",
         "食",
@@ -14809,7 +14918,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "お土産",
         "食",
@@ -14831,7 +14940,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "お土産",
         "食",
@@ -14853,7 +14962,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "お土産",
         "食",
@@ -14875,7 +14984,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "お土産",
         "食",
@@ -14897,7 +15006,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "お土産",
         "食",
@@ -14919,7 +15028,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "お土産",
         "食",
@@ -14941,7 +15050,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "お土産",
         "食",
@@ -14963,7 +15072,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "お土産",
         "食",
@@ -14985,7 +15094,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "お土産",
         "食",
@@ -15007,7 +15116,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "神社",
         "能登富士",
@@ -15029,7 +15138,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "神社",
         "能登富士",
@@ -15051,7 +15160,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "神社",
         "能登富士",
@@ -15073,7 +15182,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "神社",
         "高爪山",
@@ -15095,7 +15204,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "神社",
         "高爪山",
@@ -15117,7 +15226,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "神社",
         "高爪山",
@@ -15139,7 +15248,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "神社",
         "高爪山",
@@ -15161,7 +15270,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "神社",
         "高爪山",
@@ -15183,7 +15292,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "西海",
@@ -15206,7 +15315,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "西海",
@@ -15229,7 +15338,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "西海",
@@ -15252,7 +15361,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "西海",
@@ -15274,7 +15383,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "西海",
@@ -15296,7 +15405,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "西海",
@@ -15318,7 +15427,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "海",
         "西海",
@@ -15340,7 +15449,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "花",
         "庭",
@@ -15362,7 +15471,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "花",
         "庭",
@@ -15384,7 +15493,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "花",
         "庭",
@@ -15406,7 +15515,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "花",
         "庭",
@@ -15428,7 +15537,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "花",
         "庭",
@@ -15450,7 +15559,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "花",
         "庭",
@@ -15472,7 +15581,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "花",
         "庭",
@@ -15494,7 +15603,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "花",
         "庭",
@@ -15516,7 +15625,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "花",
         "庭",
@@ -15538,7 +15647,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "花",
         "庭",
@@ -15560,7 +15669,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "花",
         "庭",
@@ -15582,7 +15691,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "花",
         "庭",
@@ -15604,7 +15713,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "花",
         "庭",
@@ -15626,7 +15735,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "花",
         "水芭蕉",
@@ -15647,7 +15756,7 @@ window.SPL_LIBRARY = {
       "spot": "その他",
       "spotId": "other",
       "area": "",
-      "season": "",
+      "season": [],
       "tags": [
         "神社",
         "名所旧跡",

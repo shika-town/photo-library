@@ -129,7 +129,10 @@ window.SPL_DATA = {
       "title": "手のひらのさくら貝",
       "spot": "世界一長いベンチ・増穂浦海岸",
       "area": "富来エリア",
-      "season": "春,冬",
+      "season": [
+        "春",
+        "冬"
+      ],
       "tags": [
         "砂浜",
         "さくら貝",
@@ -145,7 +148,9 @@ window.SPL_DATA = {
       "title": "ベンチイルミネーション",
       "spot": "世界一長いベンチ・増穂浦海岸",
       "area": "富来エリア",
-      "season": "秋",
+      "season": [
+        "秋"
+      ],
       "tags": [
         "ベンチ",
         "夜景",
@@ -162,7 +167,9 @@ window.SPL_DATA = {
       "title": "機具岩に沈む夕陽",
       "spot": "機具岩",
       "area": "富来エリア",
-      "season": "秋",
+      "season": [
+        "秋"
+      ],
       "tags": [
         "夕陽",
         "海",
@@ -179,7 +186,9 @@ window.SPL_DATA = {
       "title": "巌門の入り江",
       "spot": "巌門",
       "area": "富来エリア",
-      "season": "夏",
+      "season": [
+        "夏"
+      ],
       "tags": [
         "空撮",
         "海",
@@ -196,7 +205,9 @@ window.SPL_DATA = {
       "title": "旧福浦灯台_8",
       "spot": "旧福浦灯台",
       "area": "富来エリア",
-      "season": "夏",
+      "season": [
+        "夏"
+      ],
       "tags": [
         "名所旧跡",
         "建築",
@@ -215,7 +226,9 @@ window.SPL_DATA = {
       "title": "尊保の桜並木",
       "spot": "その他",
       "area": "",
-      "season": "春",
+      "season": [
+        "春"
+      ],
       "tags": [
         "桜",
         "花",
@@ -232,7 +245,9 @@ window.SPL_DATA = {
       "title": "巌門と遊覧船正面から",
       "spot": "巌門",
       "area": "富来エリア",
-      "season": "夏",
+      "season": [
+        "夏"
+      ],
       "tags": [
         "海",
         "岩",
@@ -250,7 +265,9 @@ window.SPL_DATA = {
       "title": "遠くから眺める旧福浦灯台",
       "spot": "旧福浦灯台",
       "area": "富来エリア",
-      "season": "夏",
+      "season": [
+        "夏"
+      ],
       "tags": [
         "海",
         "文化施設",

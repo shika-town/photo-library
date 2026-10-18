@@ -261,6 +261,28 @@ def with_purpose_tag(tag_list, genre):
         return tag_list + [purpose]
     return tag_list
 
+# 「季節」は春・夏・秋・冬の4つ。「春,冬」のように複数入れてもよい。
+# 取り込み〜検索まで、必ず ['春','冬'] のような配列に正規化して持ち回す。
+SEASON_VALUES = ('春', '夏', '秋', '冬')
+_season_unknown = set()
+def normalize_seasons(v):
+    """'春,冬' / '春・冬' / ['春','冬'] などを、重複なし・春夏秋冬の順の配列にする。"""
+    if isinstance(v, (list, tuple)):
+        items = [str(x) for x in v]
+    else:
+        items = re.split(r'[,、，/／・\s]+', str(v or ''))
+    found = []
+    for x in items:
+        x = x.strip()
+        if not x:
+            continue
+        if x in SEASON_VALUES:
+            if x not in found:
+                found.append(x)
+        else:
+            _season_unknown.add(x)
+    return [x for x in SEASON_VALUES if x in found]
+
 def photo_visible(p):
     """公開サイトに出す写真だけを通す。
     publish は表示ON/OFF、downloadAllowed はダウンロード対象のON/OFF。
@@ -402,6 +424,7 @@ def main():
                             'thumb': '../' + make(f, 'lib/%s-thumb' % p['id'], SIZES['thumb'], fy),
                             'large': '../' + make(f, 'lib/%s-large' % p['id'], SIZES['large'], fy),
                             'caption': p.get('title', ''), 'tags': with_purpose_tag(split(p.get('tags')), _genre),
+                            'season': normalize_seasons(p.get('season')),
                             'restricted': restricted(p), 'genre': _genre})
             except Exception as e:
                 thumb = made_path('lib/%s-thumb' % p['id'])
@@ -412,6 +435,7 @@ def main():
                                 'thumb': '../' + thumb,
                                 'large': '../' + large,
                                 'caption': p.get('title', ''), 'tags': with_purpose_tag(split(p.get('tags')), _genre),
+                                'season': normalize_seasons(p.get('season')),
                                 'restricted': restricted(p), 'genre': _genre})
                     continue
                 if not isinstance(e, (FileNotFoundError, UnidentifiedImageError)):
@@ -456,7 +480,7 @@ def main():
         _genre = classify_genre(p, p.get('spot', ''))
         new_photos.append({
             'id': p['id'], 'title': p['title'], 'spot': p.get('spot', ''), 'area': p.get('area', ''),
-            'season': p.get('season', ''), 'tags': with_purpose_tag(split(p.get('tags')), _genre),
+            'season': normalize_seasons(p.get('season')), 'tags': with_purpose_tag(split(p.get('tags')), _genre),
             'image': _img,
             'alt': p.get('description', p['title']),
             'restricted': restricted(p),
@@ -538,6 +562,12 @@ def main():
 
     io.open(os.path.join(BASE, 'data', 'photos.json'), 'w', encoding='utf-8').write(
         json.dumps(top, ensure_ascii=False, indent=2))
+
+    if _season_unknown:
+        print('\n  ！ 「季節」欄に春・夏・秋・冬以外の値があり、無視しました: %s' % ', '.join(sorted(_season_unknown)))
+    _n_season = sum(1 for sp_ in spots_out for ph in sp_['photos'] if ph.get('season'))
+    print('  季節が登録されている写真: %d枚 / 公開 %d枚（未登録の写真は季節の絞り込みに出ません）'
+          % (_n_season, sum(len(sp_['photos']) for sp_ in spots_out)))
 
     if skipped:
         print('\n  ！ 画像が用意できていない写真を %d枚 飛ばしました: %s' % (len(skipped), ', '.join(skipped)))
