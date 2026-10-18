@@ -3055,7 +3055,9 @@ window.SPL_LIBRARY = {
       "spot": "巌門",
       "spotId": "gate",
       "area": "富来エリア",
-      "season": [],
+      "season": [
+        "秋"
+      ],
       "tags": [
         "夕陽",
         "海",

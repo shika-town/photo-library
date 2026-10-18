@@ -58,6 +58,19 @@
       ]
     },
     {
+      "id": "P0088",
+      "downloads": 1,
+      "title": "岩壁に開いた洞門",
+      "area": "富来エリア",
+      "thumb": "assets/img/lib/P0088-thumb.jpg",
+      "alt": "岩壁に開いた洞門",
+      "tags": [
+        "海",
+        "岩",
+        "チラシ・ポスター向き"
+      ]
+    },
+    {
       "id": "P0153",
       "downloads": 1,
       "title": "世界一長いベンチのモニュメント",
@@ -114,31 +127,16 @@
       ]
     },
     {
-      "id": "P0682",
+      "id": "P0426",
       "downloads": 1,
-      "title": "増穂浦海岸_6",
+      "title": "世界一長いベンチ_18",
       "area": "富来エリア",
-      "thumb": "assets/img/lib/P0682-thumb.jpg",
-      "alt": "増穂浦海岸_6",
+      "thumb": "assets/img/lib/P0426-thumb.jpg",
+      "alt": "世界一長いベンチ_18",
       "tags": [
         "海",
-        "青空",
-        "増穂浦",
-        "チラシ・ポスター向き"
-      ]
-    },
-    {
-      "id": "P0788",
-      "downloads": 1,
-      "title": "さくら貝_5",
-      "area": "富来エリア",
-      "thumb": "assets/img/lib/P0788-thumb.jpg",
-      "alt": "さくら貝_5",
-      "tags": [
-        "海",
-        "砂浜",
-        "さくら貝",
         "ベンチ",
+        "青空",
         "チラシ・ポスター向き"
       ]
     }
