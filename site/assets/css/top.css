@@ -35,13 +35,17 @@ body.tp [hidden] { display: none !important; }
   position: relative; isolation: isolate; overflow: hidden;
   height: 520px; color: #fff;
 }
+.tp-hero__slides { position: absolute; inset: 0; z-index: -2; }
 .tp-hero__img {
-  position: absolute; inset: 0; z-index: -2;
-  width: 100%; height: 100%; object-fit: cover; object-position: 50% 50%;
+  position: absolute; inset: 0; width: 100%; height: 100%;
+  object-fit: cover; object-position: var(--posd, 50% 50%);
+  opacity: 0; transition: opacity 1s ease;
 }
+.tp-hero__img.is-active { opacity: 1; }
+.tp-hero__link { position: absolute; inset: 0; z-index: 0; cursor: pointer; }
 .tp-hero::before {
   content: ''; position: absolute; inset: 0; z-index: -1;
-  background: linear-gradient(180deg, var(--tp-shade), transparent 65%, var(--tp-shade));
+  background: linear-gradient(180deg, rgba(8, 51, 75, .42), rgba(8, 51, 75, .16) 38%, rgba(8, 51, 75, .16) 62%, rgba(8, 51, 75, .42));
 }
 .tp-hero__bar {
   position: absolute; left: 5%; right: 5%; top: 27px;
@@ -80,9 +84,22 @@ body.tp [hidden] { display: none !important; }
 }
 .tp-copy span { writing-mode: vertical-rl; }
 .tp-copy span + span { padding-top: 31px; }
-.tp-hero__place { position: absolute; bottom: 27px; left: 5%; margin: 0; font-size: 11px; letter-spacing: .08em; }
-.tp-hero__place span { display: block; letter-spacing: .03em; }
-.tp-hero__mark { position: absolute; right: 5%; bottom: 27px; margin: 0; font-size: 11px; letter-spacing: .12em; }
+.tp-wordmark, .tp-copy { pointer-events: none; }
+.tp-hero__place { position: absolute; bottom: 22px; left: 5%; font-size: 11px; letter-spacing: .08em; pointer-events: none; }
+.tp-hero__place p { margin: 0; }
+.tp-hero__place p span { display: block; letter-spacing: .03em; }
+.tp-hero__more { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; pointer-events: auto; font-size: 11px; letter-spacing: .06em; border-bottom: 1px solid rgba(255,255,255,.6); }
+.tp-hero__ctrl { position: absolute; right: 5%; bottom: 22px; display: flex; align-items: center; gap: 4px; }
+.tp-hero__ctrl button {
+  display: inline-flex; align-items: center; justify-content: center; min-width: 44px; min-height: 44px; padding: 0;
+  background: none; border: 0; color: #fff; font-size: 22px; line-height: 1; cursor: pointer;
+}
+.tp-hero__ctrl #tpPause { font-size: 13px; letter-spacing: .1em; }
+.tp-hero__ctrl #tpPause[aria-pressed="true"] { opacity: .85; }
+.tp-hero__dots { display: inline-flex; align-items: center; }
+.tp-hero__dots button { min-width: 28px; }
+.tp-hero__dots button::before { content: ''; display: block; width: 8px; height: 8px; border-radius: 50%; border: 1px solid #fff; }
+.tp-hero__dots button[aria-current="true"]::before { background: #fff; }
 
 /* ---------- 検索 ---------- */
 .tp-search { padding: 33px var(--tp-pad) 25px; }
@@ -239,15 +256,15 @@ body.tp [hidden] { display: none !important; }
 }
 @media (max-width: 700px) {
   .tp-hero { height: 490px; }
-  .tp-hero__img { object-position: 25% 50%; }
+  .tp-hero__img { object-position: var(--pos, 25% 50%); }
   .tp-hero__bar { left: 24px; right: 24px; top: 25px; gap: 12px; }
   .tp-hero__nav a { display: none; }
   .tp-wordmark { left: 24px; top: 126px; font-size: clamp(44px, 10vw, 58px); }
   .tp-wordmark small { margin-top: 15px; }
   .tp-copy { top: 257px; right: 27%; font-size: 19px; gap: 13px; }
   .tp-copy span + span { padding-top: 24px; }
-  .tp-hero__place { left: 24px; bottom: 22px; }
-  .tp-hero__mark { right: 24px; bottom: 22px; }
+  .tp-hero__place { left: 24px; bottom: 60px; }
+  .tp-hero__ctrl { right: 12px; bottom: 6px; }
   .tp-search { padding: 28px 24px 20px; }
   .tp-search__head { margin-bottom: 12px; gap: 10px; }
   .tp-field { gap: 8px; }
@@ -286,7 +303,6 @@ body.tp [hidden] { display: none !important; }
 @media (max-width: 370px) {
   .tp-wordmark { left: 20px; font-size: 44px; letter-spacing: .025em; }
   .tp-copy { right: 12%; font-size: 18px; }
-  .tp-hero__mark { display: none; }
   .tp-field label { display: none; }
   .tp-search, .tp-section { padding-left: 20px; padding-right: 20px; }
   .tp-results { padding-left: 20px; padding-right: 20px; }
@@ -328,3 +344,4 @@ body.tp [hidden] { display: none !important; }
 }
 @media (max-width: 370px) { .tp-section { padding-left: 20px; padding-right: 20px; } }
 @media (max-width: 700px) { .tp-ranking .tp-rank .favbtn { right: auto; left: 94px; top: 6px; width: 30px; height: 30px; } }
+@media (prefers-reduced-motion: reduce) { .tp-hero__img { transition: none; } }
