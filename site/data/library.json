@@ -1,9 +1,119 @@
 {
   "meta": {
     "note": "photos.json と spots.json から自動生成しています。直接編集せず、scripts/build-library.py を実行してください。",
-    "count": 721
+    "count": 730
   },
   "photos": [
+    {
+      "title": "世界一長いベンチ_43",
+      "spot": "世界一長いベンチ・増穂浦海岸",
+      "spotId": "bench",
+      "area": "富来エリア",
+      "season": [],
+      "tags": [
+        "ベンチ",
+        "ライトアップ",
+        "イルミネーション",
+        "SNS向き"
+      ],
+      "thumb": "assets/img/lib/P0936-thumb.jpg",
+      "large": "assets/img/lib/P0936-large.jpg",
+      "alt": "",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "新着写真",
+      "restricted": false,
+      "genre": "イベント",
+      "id": "P0936"
+    },
+    {
+      "title": "世界一長いベンチ_42",
+      "spot": "世界一長いベンチ・増穂浦海岸",
+      "spotId": "bench",
+      "area": "富来エリア",
+      "season": [],
+      "tags": [
+        "ベンチ",
+        "ライトアップ",
+        "イルミネーション",
+        "SNS向き"
+      ],
+      "thumb": "assets/img/lib/P0935-thumb.jpg",
+      "large": "assets/img/lib/P0935-large.jpg",
+      "alt": "",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "新着写真",
+      "restricted": false,
+      "genre": "イベント",
+      "id": "P0935"
+    },
+    {
+      "title": "世界一長いベンチ_41",
+      "spot": "世界一長いベンチ・増穂浦海岸",
+      "spotId": "bench",
+      "area": "富来エリア",
+      "season": [],
+      "tags": [
+        "ベンチ",
+        "ライトアップ",
+        "イルミネーション",
+        "SNS向き"
+      ],
+      "thumb": "assets/img/lib/P0934-thumb.jpg",
+      "large": "assets/img/lib/P0934-large.jpg",
+      "alt": "",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "新着写真",
+      "restricted": false,
+      "genre": "イベント",
+      "id": "P0934"
+    },
+    {
+      "title": "世界一長いベンチ_40",
+      "spot": "世界一長いベンチ・増穂浦海岸",
+      "spotId": "bench",
+      "area": "富来エリア",
+      "season": [],
+      "tags": [
+        "ベンチ",
+        "ライトアップ",
+        "イルミネーション",
+        "SNS向き"
+      ],
+      "thumb": "assets/img/lib/P0933-thumb.jpg",
+      "large": "assets/img/lib/P0933-large.jpg",
+      "alt": "",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "新着写真",
+      "restricted": false,
+      "genre": "イベント",
+      "id": "P0933"
+    },
+    {
+      "title": "世界一長いベンチ_39",
+      "spot": "世界一長いベンチ・増穂浦海岸",
+      "spotId": "bench",
+      "area": "富来エリア",
+      "season": [],
+      "tags": [
+        "ベンチ",
+        "ライトアップ",
+        "イルミネーション",
+        "SNS向き"
+      ],
+      "thumb": "assets/img/lib/P0932-thumb.jpg",
+      "large": "assets/img/lib/P0932-large.jpg",
+      "alt": "",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "新着写真",
+      "restricted": false,
+      "genre": "イベント",
+      "id": "P0932"
+    },
     {
       "title": "高瀬宮_7",
       "spot": "その他",
@@ -71,112 +181,28 @@
       "id": "P0929"
     },
     {
-      "title": "高瀬宮_4",
-      "spot": "その他",
-      "spotId": "other",
-      "area": "",
-      "season": [],
+      "title": "手のひらのさくら貝",
+      "spot": "世界一長いベンチ・増穂浦海岸",
+      "spotId": "bench",
+      "area": "富来エリア",
+      "season": [
+        "春",
+        "冬"
+      ],
       "tags": [
-        "岩",
-        "神社",
-        "石",
+        "砂浜",
+        "さくら貝",
         "チラシ・ポスター向き"
       ],
-      "thumb": "assets/img/lib/P0928-thumb.jpg",
-      "large": "assets/img/lib/P0928-large.jpg",
-      "alt": "",
+      "thumb": "assets/img/lib/P0003-thumb.jpg",
+      "large": "assets/img/lib/P0003-large.jpg",
+      "alt": "手のひらのさくら貝",
       "credit": "© 志賀町",
       "photographer": "志賀町",
-      "source": "新着写真",
+      "source": "世界一長いベンチ・増穂浦海岸",
       "restricted": false,
-      "genre": "自然風景",
-      "id": "P0928"
-    },
-    {
-      "title": "高瀬宮_3",
-      "spot": "その他",
-      "spotId": "other",
-      "area": "",
-      "season": [],
-      "tags": [
-        "岩",
-        "神社",
-        "石",
-        "チラシ・ポスター向き"
-      ],
-      "thumb": "assets/img/lib/P0927-thumb.jpg",
-      "large": "assets/img/lib/P0927-large.jpg",
-      "alt": "",
-      "credit": "© 志賀町",
-      "photographer": "志賀町",
-      "source": "新着写真",
-      "restricted": false,
-      "genre": "自然風景",
-      "id": "P0927"
-    },
-    {
-      "title": "高瀬宮_2",
-      "spot": "その他",
-      "spotId": "other",
-      "area": "",
-      "season": [],
-      "tags": [
-        "岩",
-        "神社",
-        "石",
-        "チラシ・ポスター向き"
-      ],
-      "thumb": "assets/img/lib/P0926-thumb.jpg",
-      "large": "assets/img/lib/P0926-large.jpg",
-      "alt": "",
-      "credit": "© 志賀町",
-      "photographer": "志賀町",
-      "source": "新着写真",
-      "restricted": false,
-      "genre": "自然風景",
-      "id": "P0926"
-    },
-    {
-      "title": "高瀬宮_1",
-      "spot": "その他",
-      "spotId": "other",
-      "area": "",
-      "season": [],
-      "tags": [
-        "岩",
-        "神社",
-        "石",
-        "チラシ・ポスター向き"
-      ],
-      "thumb": "assets/img/lib/P0925-thumb.jpg",
-      "large": "assets/img/lib/P0925-large.jpg",
-      "alt": "",
-      "credit": "© 志賀町",
-      "photographer": "志賀町",
-      "source": "新着写真",
-      "restricted": false,
-      "genre": "自然風景",
-      "id": "P0925"
-    },
-    {
-      "title": "萬燈祭_21",
-      "spot": "その他",
-      "spotId": "other",
-      "area": "",
-      "season": [],
-      "tags": [
-        "祭り",
-        "SNS向き"
-      ],
-      "thumb": "assets/img/lib/P0924-thumb.jpg",
-      "large": "assets/img/lib/P0924-large.jpg",
-      "alt": "",
-      "credit": "© 志賀町",
-      "photographer": "志賀町",
-      "source": "新着写真",
-      "restricted": false,
-      "genre": "祭り",
-      "id": "P0924"
+      "genre": "観光地",
+      "id": "P0003"
     },
     {
       "title": "ベンチイルミネーション",
@@ -2060,6 +2086,27 @@
       "restricted": false,
       "genre": "観光地",
       "id": "P0001"
+    },
+    {
+      "title": "機具岩_37",
+      "spot": "機具岩",
+      "spotId": "hatago",
+      "area": "富来エリア",
+      "season": [],
+      "tags": [
+        "夕陽",
+        "岩",
+        "チラシ・ポスター向き"
+      ],
+      "thumb": "assets/img/lib/P0063-thumb.jpg",
+      "large": "assets/img/lib/P0063-large.jpg",
+      "alt": "機具岩_37",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "機具岩",
+      "restricted": false,
+      "genre": "観光地",
+      "id": "P0063"
     },
     {
       "title": "マジックアワーの機具岩",
@@ -6791,6 +6838,53 @@
       "id": "P0050"
     },
     {
+      "title": "さくら貝のクラフト作品",
+      "spot": "道の駅とぎ海街道・さくら貝資料館",
+      "spotId": "sakuragai",
+      "area": "富来エリア",
+      "season": [],
+      "tags": [
+        "さくら貝",
+        "文化施設",
+        "屋内",
+        "体験",
+        "お土産",
+        "印刷物向き"
+      ],
+      "thumb": "assets/img/lib/P0051-thumb.jpg",
+      "large": "assets/img/lib/P0051-large.jpg",
+      "alt": "さくら貝のクラフト作品",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "道の駅とぎ海街道・さくら貝資料館",
+      "restricted": false,
+      "genre": "特産品",
+      "id": "P0051"
+    },
+    {
+      "title": "人気のソフトクリーム",
+      "spot": "道の駅とぎ海街道・さくら貝資料館",
+      "spotId": "sakuragai",
+      "area": "富来エリア",
+      "season": [],
+      "tags": [
+        "文化施設",
+        "屋内",
+        "体験",
+        "お土産",
+        "印刷物向き"
+      ],
+      "thumb": "assets/img/lib/P0052-thumb.jpg",
+      "large": "assets/img/lib/P0052-large.jpg",
+      "alt": "人気のソフトクリーム",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "道の駅とぎ海街道・さくら貝資料館",
+      "restricted": false,
+      "genre": "特産品",
+      "id": "P0052"
+    },
+    {
       "title": "さくら貝資料館_1",
       "spot": "道の駅とぎ海街道・さくら貝資料館",
       "spotId": "sakuragai",
@@ -8751,6 +8845,28 @@
       "id": "P0904"
     },
     {
+      "title": "高瀬宮_1",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": [],
+      "tags": [
+        "岩",
+        "神社",
+        "石",
+        "チラシ・ポスター向き"
+      ],
+      "thumb": "assets/img/lib/P0925-thumb.jpg",
+      "large": "assets/img/lib/P0925-large.jpg",
+      "alt": "高瀬宮_1",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "genre": "自然風景",
+      "id": "P0925"
+    },
+    {
       "title": "高爪山_4",
       "spot": "その他",
       "spotId": "other",
@@ -9483,6 +9599,28 @@
       "id": "P0905"
     },
     {
+      "title": "高瀬宮_2",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": [],
+      "tags": [
+        "岩",
+        "神社",
+        "石",
+        "チラシ・ポスター向き"
+      ],
+      "thumb": "assets/img/lib/P0926-thumb.jpg",
+      "large": "assets/img/lib/P0926-large.jpg",
+      "alt": "高瀬宮_2",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "genre": "自然風景",
+      "id": "P0926"
+    },
+    {
       "title": "高爪山_5",
       "spot": "その他",
       "spotId": "other",
@@ -10143,6 +10281,28 @@
       "id": "P0906"
     },
     {
+      "title": "高瀬宮_3",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": [],
+      "tags": [
+        "岩",
+        "神社",
+        "石",
+        "チラシ・ポスター向き"
+      ],
+      "thumb": "assets/img/lib/P0927-thumb.jpg",
+      "large": "assets/img/lib/P0927-large.jpg",
+      "alt": "高瀬宮_3",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "genre": "自然風景",
+      "id": "P0927"
+    },
+    {
       "title": "高爪山_6",
       "spot": "その他",
       "spotId": "other",
@@ -10713,6 +10873,28 @@
       "restricted": false,
       "genre": "祭り",
       "id": "P0907"
+    },
+    {
+      "title": "高瀬宮_4",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": [],
+      "tags": [
+        "岩",
+        "神社",
+        "石",
+        "チラシ・ポスター向き"
+      ],
+      "thumb": "assets/img/lib/P0928-thumb.jpg",
+      "large": "assets/img/lib/P0928-large.jpg",
+      "alt": "高瀬宮_4",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "genre": "自然風景",
+      "id": "P0928"
     },
     {
       "title": "高爪山_7",
@@ -13093,6 +13275,26 @@
       "restricted": false,
       "genre": "祭り",
       "id": "P0755"
+    },
+    {
+      "title": "萬燈祭_21",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": [],
+      "tags": [
+        "祭り",
+        "SNS向き"
+      ],
+      "thumb": "assets/img/lib/P0924-thumb.jpg",
+      "large": "assets/img/lib/P0924-large.jpg",
+      "alt": "萬燈祭_21",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "genre": "祭り",
+      "id": "P0924"
     },
     {
       "title": "福浦祭り_53",

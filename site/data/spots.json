@@ -42,6 +42,23 @@
       "hero": "assets/img/lib/P0008-hero.jpg",
       "photos": [
         {
+          "id": "P0003",
+          "thumb": "../assets/img/lib/P0003-thumb.jpg",
+          "large": "../assets/img/lib/P0003-large.jpg",
+          "caption": "手のひらのさくら貝",
+          "tags": [
+            "砂浜",
+            "さくら貝",
+            "チラシ・ポスター向き"
+          ],
+          "season": [
+            "春",
+            "冬"
+          ],
+          "restricted": false,
+          "genre": "観光地"
+        },
+        {
           "id": "P0006",
           "thumb": "../assets/img/lib/P0006-thumb.jpg",
           "large": "../assets/img/lib/P0006-large.jpg",
@@ -221,6 +238,21 @@
           "genre": "イベント"
         },
         {
+          "id": "P0932",
+          "thumb": "../assets/img/lib/P0932-thumb.jpg",
+          "large": "../assets/img/lib/P0932-large.jpg",
+          "caption": "世界一長いベンチ_39",
+          "tags": [
+            "ベンチ",
+            "ライトアップ",
+            "イルミネーション",
+            "SNS向き"
+          ],
+          "season": [],
+          "restricted": false,
+          "genre": "イベント"
+        },
+        {
           "id": "P0683",
           "thumb": "../assets/img/lib/P0683-thumb.jpg",
           "large": "../assets/img/lib/P0683-large.jpg",
@@ -310,6 +342,21 @@
           "season": [],
           "restricted": false,
           "genre": "観光地"
+        },
+        {
+          "id": "P0933",
+          "thumb": "../assets/img/lib/P0933-thumb.jpg",
+          "large": "../assets/img/lib/P0933-large.jpg",
+          "caption": "世界一長いベンチ_40",
+          "tags": [
+            "ベンチ",
+            "ライトアップ",
+            "イルミネーション",
+            "SNS向き"
+          ],
+          "season": [],
+          "restricted": false,
+          "genre": "イベント"
         },
         {
           "id": "P0684",
@@ -403,6 +450,21 @@
           "genre": "観光地"
         },
         {
+          "id": "P0934",
+          "thumb": "../assets/img/lib/P0934-thumb.jpg",
+          "large": "../assets/img/lib/P0934-large.jpg",
+          "caption": "世界一長いベンチ_41",
+          "tags": [
+            "ベンチ",
+            "ライトアップ",
+            "イルミネーション",
+            "SNS向き"
+          ],
+          "season": [],
+          "restricted": false,
+          "genre": "イベント"
+        },
+        {
           "id": "P0782",
           "thumb": "../assets/img/lib/P0782-thumb.jpg",
           "large": "../assets/img/lib/P0782-large.jpg",
@@ -464,6 +526,21 @@
           "genre": "観光地"
         },
         {
+          "id": "P0935",
+          "thumb": "../assets/img/lib/P0935-thumb.jpg",
+          "large": "../assets/img/lib/P0935-large.jpg",
+          "caption": "世界一長いベンチ_42",
+          "tags": [
+            "ベンチ",
+            "ライトアップ",
+            "イルミネーション",
+            "SNS向き"
+          ],
+          "season": [],
+          "restricted": false,
+          "genre": "イベント"
+        },
+        {
           "id": "P0820",
           "thumb": "../assets/img/lib/P0820-thumb.jpg",
           "large": "../assets/img/lib/P0820-large.jpg",
@@ -492,6 +569,21 @@
           "season": [],
           "restricted": false,
           "genre": "観光地"
+        },
+        {
+          "id": "P0936",
+          "thumb": "../assets/img/lib/P0936-thumb.jpg",
+          "large": "../assets/img/lib/P0936-large.jpg",
+          "caption": "世界一長いベンチ_43",
+          "tags": [
+            "ベンチ",
+            "ライトアップ",
+            "イルミネーション",
+            "SNS向き"
+          ],
+          "season": [],
+          "restricted": false,
+          "genre": "イベント"
         },
         {
           "id": "P0821",
@@ -1313,7 +1405,7 @@
           "genre": "観光地"
         }
       ],
-      "count": 84
+      "count": 90
     },
     {
       "id": "hatago",
@@ -1365,6 +1457,20 @@
           "season": [
             "秋"
           ],
+          "restricted": false,
+          "genre": "観光地"
+        },
+        {
+          "id": "P0063",
+          "thumb": "../assets/img/lib/P0063-thumb.jpg",
+          "large": "../assets/img/lib/P0063-large.jpg",
+          "caption": "機具岩_37",
+          "tags": [
+            "夕陽",
+            "岩",
+            "チラシ・ポスター向き"
+          ],
+          "season": [],
           "restricted": false,
           "genre": "観光地"
         },
@@ -1964,7 +2070,7 @@
           "genre": "観光地"
         }
       ],
-      "count": 42
+      "count": 43
     },
     {
       "id": "gate",
@@ -4894,6 +5000,39 @@
           "genre": "特産品"
         },
         {
+          "id": "P0051",
+          "thumb": "../assets/img/lib/P0051-thumb.jpg",
+          "large": "../assets/img/lib/P0051-large.jpg",
+          "caption": "さくら貝のクラフト作品",
+          "tags": [
+            "さくら貝",
+            "文化施設",
+            "屋内",
+            "体験",
+            "お土産",
+            "印刷物向き"
+          ],
+          "season": [],
+          "restricted": false,
+          "genre": "特産品"
+        },
+        {
+          "id": "P0052",
+          "thumb": "../assets/img/lib/P0052-thumb.jpg",
+          "large": "../assets/img/lib/P0052-large.jpg",
+          "caption": "人気のソフトクリーム",
+          "tags": [
+            "文化施設",
+            "屋内",
+            "体験",
+            "お土産",
+            "印刷物向き"
+          ],
+          "season": [],
+          "restricted": false,
+          "genre": "特産品"
+        },
+        {
           "id": "P0053",
           "thumb": "../assets/img/lib/P0053-thumb.jpg",
           "large": "../assets/img/lib/P0053-large.jpg",
@@ -5342,7 +5481,7 @@
           "genre": "観光地"
         }
       ],
-      "count": 31
+      "count": 33
     },
     {
       "id": "taira",

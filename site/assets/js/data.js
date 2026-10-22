@@ -46,7 +46,7 @@ window.SPL_DATA = {
       "id": "bench",
       "name": "世界一長いベンチ・増穂浦海岸",
       "area": "富来エリア",
-      "count": 84,
+      "count": 90,
       "image": "assets/img/lib/P0008-hero.jpg",
       "alt": "世界一長いベンチ・増穂浦海岸",
       "description": "海・貝・夕日、そして記憶に残る長さ"
@@ -55,7 +55,7 @@ window.SPL_DATA = {
       "id": "hatago",
       "name": "機具岩",
       "area": "富来エリア",
-      "count": 42,
+      "count": 43,
       "image": "assets/img/lib/P0001-hero.jpg",
       "alt": "機具岩",
       "description": "二つの岩が寄り添う夫婦岩。能登屈指のマジックアワーポイント。"
@@ -84,7 +84,7 @@ window.SPL_DATA = {
       "id": "bench",
       "name": "世界一長いベンチ・増穂浦海岸",
       "area": "富来エリア",
-      "count": 84,
+      "count": 90,
       "image": "assets/img/lib/P0008-hero.jpg",
       "alt": "世界一長いベンチ・増穂浦海岸",
       "description": "海・貝・夕日、そして記憶に残る長さ"
@@ -93,7 +93,7 @@ window.SPL_DATA = {
       "id": "hatago",
       "name": "機具岩",
       "area": "富来エリア",
-      "count": 42,
+      "count": 43,
       "image": "assets/img/lib/P0001-hero.jpg",
       "alt": "機具岩",
       "description": "二つの岩が寄り添う夫婦岩。能登屈指のマジックアワーポイント。"
@@ -147,7 +147,7 @@ window.SPL_DATA = {
       "id": "sakuragai",
       "name": "道の駅とぎ海街道・さくら貝資料館",
       "area": "富来エリア",
-      "count": 31,
+      "count": 33,
       "image": "assets/img/lib/P0049-hero.jpg",
       "alt": "道の駅とぎ海街道・さくら貝資料館",
       "description": "能登の恵みと、幸せを呼ぶピンクの貝殻に出会える場所"
@@ -175,8 +175,8 @@ window.SPL_DATA = {
     {
       "label": "夕陽",
       "query": "夕陽",
-      "image": "",
-      "alt": "夕陽"
+      "image": "assets/img/lib/P0063-scene.jpg",
+      "alt": "機具岩_37"
     },
     {
       "label": "海",
@@ -216,6 +216,91 @@ window.SPL_DATA = {
     }
   ],
   "photos": [
+    {
+      "id": "P0936",
+      "title": "世界一長いベンチ_43",
+      "spot": "世界一長いベンチ・増穂浦海岸",
+      "area": "富来エリア",
+      "season": [],
+      "tags": [
+        "ベンチ",
+        "ライトアップ",
+        "イルミネーション",
+        "SNS向き"
+      ],
+      "image": "assets/img/lib/P0936-new.jpg",
+      "alt": "",
+      "restricted": false,
+      "genre": "イベント"
+    },
+    {
+      "id": "P0935",
+      "title": "世界一長いベンチ_42",
+      "spot": "世界一長いベンチ・増穂浦海岸",
+      "area": "富来エリア",
+      "season": [],
+      "tags": [
+        "ベンチ",
+        "ライトアップ",
+        "イルミネーション",
+        "SNS向き"
+      ],
+      "image": "assets/img/lib/P0935-new.jpg",
+      "alt": "",
+      "restricted": false,
+      "genre": "イベント"
+    },
+    {
+      "id": "P0934",
+      "title": "世界一長いベンチ_41",
+      "spot": "世界一長いベンチ・増穂浦海岸",
+      "area": "富来エリア",
+      "season": [],
+      "tags": [
+        "ベンチ",
+        "ライトアップ",
+        "イルミネーション",
+        "SNS向き"
+      ],
+      "image": "assets/img/lib/P0934-new.jpg",
+      "alt": "",
+      "restricted": false,
+      "genre": "イベント"
+    },
+    {
+      "id": "P0933",
+      "title": "世界一長いベンチ_40",
+      "spot": "世界一長いベンチ・増穂浦海岸",
+      "area": "富来エリア",
+      "season": [],
+      "tags": [
+        "ベンチ",
+        "ライトアップ",
+        "イルミネーション",
+        "SNS向き"
+      ],
+      "image": "assets/img/lib/P0933-new.jpg",
+      "alt": "",
+      "restricted": false,
+      "genre": "イベント"
+    },
+    {
+      "id": "P0932",
+      "title": "世界一長いベンチ_39",
+      "spot": "世界一長いベンチ・増穂浦海岸",
+      "area": "富来エリア",
+      "season": [],
+      "tags": [
+        "ベンチ",
+        "ライトアップ",
+        "イルミネーション",
+        "SNS向き"
+      ],
+      "image": "assets/img/lib/P0932-new.jpg",
+      "alt": "",
+      "restricted": false,
+      "genre": "イベント"
+    },
     {
       "id": "P0931",
       "title": "高瀬宮_7",
@@ -266,89 +351,6 @@ window.SPL_DATA = {
       "alt": "",
       "restricted": false,
       "genre": "自然風景"
-    },
-    {
-      "id": "P0928",
-      "title": "高瀬宮_4",
-      "spot": "その他",
-      "area": "",
-      "season": [],
-      "tags": [
-        "岩",
-        "神社",
-        "石",
-        "チラシ・ポスター向き"
-      ],
-      "image": "assets/img/lib/P0928-new.jpg",
-      "alt": "",
-      "restricted": false,
-      "genre": "自然風景"
-    },
-    {
-      "id": "P0927",
-      "title": "高瀬宮_3",
-      "spot": "その他",
-      "area": "",
-      "season": [],
-      "tags": [
-        "岩",
-        "神社",
-        "石",
-        "チラシ・ポスター向き"
-      ],
-      "image": "assets/img/lib/P0927-new.jpg",
-      "alt": "",
-      "restricted": false,
-      "genre": "自然風景"
-    },
-    {
-      "id": "P0926",
-      "title": "高瀬宮_2",
-      "spot": "その他",
-      "area": "",
-      "season": [],
-      "tags": [
-        "岩",
-        "神社",
-        "石",
-        "チラシ・ポスター向き"
-      ],
-      "image": "assets/img/lib/P0926-new.jpg",
-      "alt": "",
-      "restricted": false,
-      "genre": "自然風景"
-    },
-    {
-      "id": "P0925",
-      "title": "高瀬宮_1",
-      "spot": "その他",
-      "area": "",
-      "season": [],
-      "tags": [
-        "岩",
-        "神社",
-        "石",
-        "チラシ・ポスター向き"
-      ],
-      "image": "assets/img/lib/P0925-new.jpg",
-      "alt": "",
-      "restricted": false,
-      "genre": "自然風景"
-    },
-    {
-      "id": "P0924",
-      "title": "萬燈祭_21",
-      "spot": "その他",
-      "area": "",
-      "season": [],
-      "tags": [
-        "祭り",
-        "SNS向き"
-      ],
-      "image": "assets/img/lib/P0924-new.jpg",
-      "alt": "",
-      "restricted": false,
-      "genre": "祭り"
     }
   ],
   "seasons": [
