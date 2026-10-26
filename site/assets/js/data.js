@@ -46,7 +46,7 @@ window.SPL_DATA = {
       "id": "bench",
       "name": "世界一長いベンチ・増穂浦海岸",
       "area": "富来エリア",
-      "count": 90,
+      "count": 91,
       "image": "assets/img/lib/P0008-hero.jpg",
       "alt": "世界一長いベンチ・増穂浦海岸",
       "description": "海・貝・夕日、そして記憶に残る長さ"
@@ -84,7 +84,7 @@ window.SPL_DATA = {
       "id": "bench",
       "name": "世界一長いベンチ・増穂浦海岸",
       "area": "富来エリア",
-      "count": 90,
+      "count": 91,
       "image": "assets/img/lib/P0008-hero.jpg",
       "alt": "世界一長いベンチ・増穂浦海岸",
       "description": "海・貝・夕日、そして記憶に残る長さ"
@@ -217,6 +217,39 @@ window.SPL_DATA = {
   ],
   "photos": [
     {
+      "id": "P0938",
+      "title": "DSCF3540",
+      "spot": "世界一長いベンチ・増穂浦海岸",
+      "area": "富来エリア",
+      "season": [],
+      "tags": [
+        "砂浜",
+        "さくら貝",
+        "チラシ・ポスター向き"
+      ],
+      "image": "assets/img/lib/P0938-new.jpg",
+      "alt": "",
+      "restricted": false,
+      "genre": "観光地"
+    },
+    {
+      "id": "P0937",
+      "title": "志賀町優良特産品_かきもち5",
+      "spot": "その他",
+      "area": "",
+      "season": [],
+      "tags": [
+        "お土産",
+        "食",
+        "特産品",
+        "印刷物向き"
+      ],
+      "image": "assets/img/lib/P0937-new.jpg",
+      "alt": "",
+      "restricted": false,
+      "genre": "特産品"
+    },
+    {
       "id": "P0936",
       "title": "世界一長いベンチ_43",
       "spot": "世界一長いベンチ・増穂浦海岸",
@@ -314,40 +347,6 @@ window.SPL_DATA = {
         "チラシ・ポスター向き"
       ],
       "image": "assets/img/lib/P0931-new.jpg",
-      "alt": "",
-      "restricted": false,
-      "genre": "自然風景"
-    },
-    {
-      "id": "P0930",
-      "title": "高瀬宮_6",
-      "spot": "その他",
-      "area": "",
-      "season": [],
-      "tags": [
-        "岩",
-        "神社",
-        "石",
-        "チラシ・ポスター向き"
-      ],
-      "image": "assets/img/lib/P0930-new.jpg",
-      "alt": "",
-      "restricted": false,
-      "genre": "自然風景"
-    },
-    {
-      "id": "P0929",
-      "title": "高瀬宮_5",
-      "spot": "その他",
-      "area": "",
-      "season": [],
-      "tags": [
-        "岩",
-        "神社",
-        "石",
-        "チラシ・ポスター向き"
-      ],
-      "image": "assets/img/lib/P0929-new.jpg",
       "alt": "",
       "restricted": false,
       "genre": "自然風景"

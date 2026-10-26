@@ -1,9 +1,52 @@
 {
   "meta": {
     "note": "photos.json と spots.json から自動生成しています。直接編集せず、scripts/build-library.py を実行してください。",
-    "count": 730
+    "count": 732
   },
   "photos": [
+    {
+      "title": "DSCF3540",
+      "spot": "世界一長いベンチ・増穂浦海岸",
+      "spotId": "bench",
+      "area": "富来エリア",
+      "season": [],
+      "tags": [
+        "砂浜",
+        "さくら貝",
+        "チラシ・ポスター向き"
+      ],
+      "thumb": "assets/img/lib/P0938-thumb.jpg",
+      "large": "assets/img/lib/P0938-large.jpg",
+      "alt": "",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "新着写真",
+      "restricted": false,
+      "genre": "観光地",
+      "id": "P0938"
+    },
+    {
+      "title": "志賀町優良特産品_かきもち5",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": [],
+      "tags": [
+        "お土産",
+        "食",
+        "特産品",
+        "印刷物向き"
+      ],
+      "thumb": "assets/img/lib/P0937-thumb.jpg",
+      "large": "assets/img/lib/P0937-large.jpg",
+      "alt": "",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "新着写真",
+      "restricted": false,
+      "genre": "特産品",
+      "id": "P0937"
+    },
     {
       "title": "世界一長いベンチ_43",
       "spot": "世界一長いベンチ・増穂浦海岸",
@@ -135,50 +178,6 @@
       "restricted": false,
       "genre": "自然風景",
       "id": "P0931"
-    },
-    {
-      "title": "高瀬宮_6",
-      "spot": "その他",
-      "spotId": "other",
-      "area": "",
-      "season": [],
-      "tags": [
-        "岩",
-        "神社",
-        "石",
-        "チラシ・ポスター向き"
-      ],
-      "thumb": "assets/img/lib/P0930-thumb.jpg",
-      "large": "assets/img/lib/P0930-large.jpg",
-      "alt": "",
-      "credit": "© 志賀町",
-      "photographer": "志賀町",
-      "source": "新着写真",
-      "restricted": false,
-      "genre": "自然風景",
-      "id": "P0930"
-    },
-    {
-      "title": "高瀬宮_5",
-      "spot": "その他",
-      "spotId": "other",
-      "area": "",
-      "season": [],
-      "tags": [
-        "岩",
-        "神社",
-        "石",
-        "チラシ・ポスター向き"
-      ],
-      "thumb": "assets/img/lib/P0929-thumb.jpg",
-      "large": "assets/img/lib/P0929-large.jpg",
-      "alt": "",
-      "credit": "© 志賀町",
-      "photographer": "志賀町",
-      "source": "新着写真",
-      "restricted": false,
-      "genre": "自然風景",
-      "id": "P0929"
     },
     {
       "title": "手のひらのさくら貝",
@@ -11379,6 +11378,28 @@
       "id": "P0908"
     },
     {
+      "title": "高瀬宮_5",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": [],
+      "tags": [
+        "岩",
+        "神社",
+        "石",
+        "チラシ・ポスター向き"
+      ],
+      "thumb": "assets/img/lib/P0929-thumb.jpg",
+      "large": "assets/img/lib/P0929-large.jpg",
+      "alt": "高瀬宮_5",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "genre": "自然風景",
+      "id": "P0929"
+    },
+    {
       "title": "高爪山_8",
       "spot": "その他",
       "spotId": "other",
@@ -11750,6 +11771,28 @@
       "restricted": false,
       "genre": "祭り",
       "id": "P0909"
+    },
+    {
+      "title": "高瀬宮_6",
+      "spot": "その他",
+      "spotId": "other",
+      "area": "",
+      "season": [],
+      "tags": [
+        "岩",
+        "神社",
+        "石",
+        "チラシ・ポスター向き"
+      ],
+      "thumb": "assets/img/lib/P0930-thumb.jpg",
+      "large": "assets/img/lib/P0930-large.jpg",
+      "alt": "高瀬宮_6",
+      "credit": "© 志賀町",
+      "photographer": "志賀町",
+      "source": "その他",
+      "restricted": false,
+      "genre": "自然風景",
+      "id": "P0930"
     },
     {
       "title": "imgsion156",

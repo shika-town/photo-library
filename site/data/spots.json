@@ -253,6 +253,20 @@
           "genre": "イベント"
         },
         {
+          "id": "P0938",
+          "thumb": "../assets/img/lib/P0938-thumb.jpg",
+          "large": "../assets/img/lib/P0938-large.jpg",
+          "caption": "DSCF3540",
+          "tags": [
+            "砂浜",
+            "さくら貝",
+            "チラシ・ポスター向き"
+          ],
+          "season": [],
+          "restricted": false,
+          "genre": "観光地"
+        },
+        {
           "id": "P0683",
           "thumb": "../assets/img/lib/P0683-thumb.jpg",
           "large": "../assets/img/lib/P0683-large.jpg",
@@ -1405,7 +1419,7 @@
           "genre": "観光地"
         }
       ],
-      "count": 90
+      "count": 91
     },
     {
       "id": "hatago",
@@ -6475,6 +6489,21 @@
           "genre": "自然風景"
         },
         {
+          "id": "P0937",
+          "thumb": "../assets/img/lib/P0937-thumb.jpg",
+          "large": "../assets/img/lib/P0937-large.jpg",
+          "caption": "志賀町優良特産品_かきもち5",
+          "tags": [
+            "お土産",
+            "食",
+            "特産品",
+            "印刷物向き"
+          ],
+          "season": [],
+          "restricted": false,
+          "genre": "特産品"
+        },
+        {
           "id": "P0549",
           "thumb": "../assets/img/lib/P0549-thumb.jpg",
           "large": "../assets/img/lib/P0549-large.jpg",
@@ -11424,7 +11453,7 @@
           "genre": "自然風景"
         }
       ],
-      "count": 377
+      "count": 378
     }
   ]
 }
