@@ -1621,6 +1621,20 @@
           "genre": "観光地"
         },
         {
+          "id": "P0942",
+          "thumb": "../assets/img/lib/P0942-thumb.jpg",
+          "large": "../assets/img/lib/P0942-large.jpg",
+          "caption": "機具岩_38",
+          "tags": [
+            "岩",
+            "ライトアップ",
+            "SNS向き"
+          ],
+          "season": [],
+          "restricted": false,
+          "genre": "イベント"
+        },
+        {
           "id": "P0807",
           "thumb": "../assets/img/lib/P0807-thumb.jpg",
           "large": "../assets/img/lib/P0807-large.jpg",
@@ -1647,6 +1661,20 @@
           "season": [],
           "restricted": false,
           "genre": "観光地"
+        },
+        {
+          "id": "P0943",
+          "thumb": "../assets/img/lib/P0943-thumb.jpg",
+          "large": "../assets/img/lib/P0943-large.jpg",
+          "caption": "機具岩_39",
+          "tags": [
+            "岩",
+            "ライトアップ",
+            "SNS向き"
+          ],
+          "season": [],
+          "restricted": false,
+          "genre": "イベント"
         },
         {
           "id": "P0808",
@@ -2084,7 +2112,7 @@
           "genre": "観光地"
         }
       ],
-      "count": 43
+      "count": 45
     },
     {
       "id": "gate",
@@ -2244,6 +2272,21 @@
           "genre": "観光地"
         },
         {
+          "id": "P0940",
+          "thumb": "../assets/img/lib/P0940-thumb.jpg",
+          "large": "../assets/img/lib/P0940-large.jpg",
+          "caption": "巌門_34",
+          "tags": [
+            "岩",
+            "断崖",
+            "名所旧跡",
+            "チラシ・ポスター向き"
+          ],
+          "season": [],
+          "restricted": false,
+          "genre": "観光地"
+        },
+        {
           "id": "F0001",
           "thumb": "../assets/img/lib/F0001-thumb.jpg",
           "large": "../assets/img/lib/F0001-large.jpg",
@@ -2265,6 +2308,21 @@
           "thumb": "../assets/img/lib/P0586-thumb.jpg",
           "large": "../assets/img/lib/P0586-large.jpg",
           "caption": "巌門_16",
+          "tags": [
+            "岩",
+            "断崖",
+            "名所旧跡",
+            "チラシ・ポスター向き"
+          ],
+          "season": [],
+          "restricted": false,
+          "genre": "観光地"
+        },
+        {
+          "id": "P0941",
+          "thumb": "../assets/img/lib/P0941-thumb.jpg",
+          "large": "../assets/img/lib/P0941-large.jpg",
+          "caption": "巌門_35",
           "tags": [
             "岩",
             "断崖",
@@ -3059,7 +3117,7 @@
           "genre": "観光地"
         }
       ],
-      "count": 62
+      "count": 64
     },
     {
       "id": "benten",
@@ -6504,6 +6562,51 @@
           "genre": "特産品"
         },
         {
+          "id": "P0939",
+          "thumb": "../assets/img/lib/P0939-thumb.jpg",
+          "large": "../assets/img/lib/P0939-large.jpg",
+          "caption": "星空とバイク",
+          "tags": [
+            "星空",
+            "バイク",
+            "チラシ・ポスター向き"
+          ],
+          "season": [],
+          "restricted": false,
+          "genre": "自然風景"
+        },
+        {
+          "id": "P0944",
+          "thumb": "../assets/img/lib/P0944-thumb.jpg",
+          "large": "../assets/img/lib/P0944-large.jpg",
+          "caption": "商工祭2026_1",
+          "tags": [
+            "夜景",
+            "花火",
+            "商工祭",
+            "SNS向き"
+          ],
+          "season": [],
+          "restricted": false,
+          "genre": "イベント"
+        },
+        {
+          "id": "P0949",
+          "thumb": "../assets/img/lib/P0949-thumb.jpg",
+          "large": "../assets/img/lib/P0949-large.jpg",
+          "caption": "商工祭2026_6",
+          "tags": [
+            "夜景",
+            "イルミネーション",
+            "商工祭",
+            "ドローン",
+            "SNS向き"
+          ],
+          "season": [],
+          "restricted": false,
+          "genre": "イベント"
+        },
+        {
           "id": "P0549",
           "thumb": "../assets/img/lib/P0549-thumb.jpg",
           "large": "../assets/img/lib/P0549-large.jpg",
@@ -7020,6 +7123,21 @@
           "genre": "自然風景"
         },
         {
+          "id": "P0945",
+          "thumb": "../assets/img/lib/P0945-thumb.jpg",
+          "large": "../assets/img/lib/P0945-large.jpg",
+          "caption": "商工祭2026_2",
+          "tags": [
+            "夜景",
+            "花火",
+            "商工祭",
+            "SNS向き"
+          ],
+          "season": [],
+          "restricted": false,
+          "genre": "イベント"
+        },
+        {
           "id": "P0550",
           "thumb": "../assets/img/lib/P0550-thumb.jpg",
           "large": "../assets/img/lib/P0550-large.jpg",
@@ -7485,6 +7603,21 @@
           "genre": "自然風景"
         },
         {
+          "id": "P0946",
+          "thumb": "../assets/img/lib/P0946-thumb.jpg",
+          "large": "../assets/img/lib/P0946-large.jpg",
+          "caption": "商工祭2026_3",
+          "tags": [
+            "夜景",
+            "花火",
+            "商工祭",
+            "SNS向き"
+          ],
+          "season": [],
+          "restricted": false,
+          "genre": "イベント"
+        },
+        {
           "id": "P0551",
           "thumb": "../assets/img/lib/P0551-thumb.jpg",
           "large": "../assets/img/lib/P0551-large.jpg",
@@ -7890,6 +8023,21 @@
           "genre": "自然風景"
         },
         {
+          "id": "P0947",
+          "thumb": "../assets/img/lib/P0947-thumb.jpg",
+          "large": "../assets/img/lib/P0947-large.jpg",
+          "caption": "商工祭2026_4",
+          "tags": [
+            "夜景",
+            "花火",
+            "商工祭",
+            "SNS向き"
+          ],
+          "season": [],
+          "restricted": false,
+          "genre": "イベント"
+        },
+        {
           "id": "P0552",
           "thumb": "../assets/img/lib/P0552-thumb.jpg",
           "large": "../assets/img/lib/P0552-large.jpg",
@@ -8231,6 +8379,21 @@
           "season": [],
           "restricted": false,
           "genre": "自然風景"
+        },
+        {
+          "id": "P0948",
+          "thumb": "../assets/img/lib/P0948-thumb.jpg",
+          "large": "../assets/img/lib/P0948-large.jpg",
+          "caption": "商工祭2026_5",
+          "tags": [
+            "夜景",
+            "花火",
+            "商工祭",
+            "SNS向き"
+          ],
+          "season": [],
+          "restricted": false,
+          "genre": "イベント"
         },
         {
           "id": "P0553",
@@ -11453,7 +11616,7 @@
           "genre": "自然風景"
         }
       ],
-      "count": 378
+      "count": 385
     }
   ]
 }

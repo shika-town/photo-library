@@ -55,7 +55,7 @@ window.SPL_DATA = {
       "id": "hatago",
       "name": "機具岩",
       "area": "富来エリア",
-      "count": 43,
+      "count": 45,
       "image": "assets/img/lib/P0001-hero.jpg",
       "alt": "機具岩",
       "description": "二つの岩が寄り添う夫婦岩。能登屈指のマジックアワーポイント。"
@@ -64,7 +64,7 @@ window.SPL_DATA = {
       "id": "gate",
       "name": "巌門",
       "area": "富来エリア",
-      "count": 62,
+      "count": 64,
       "image": "assets/img/lib/P0020-hero.jpg",
       "alt": "巌門",
       "description": "日本海が作り上げた芸術"
@@ -93,7 +93,7 @@ window.SPL_DATA = {
       "id": "hatago",
       "name": "機具岩",
       "area": "富来エリア",
-      "count": 43,
+      "count": 45,
       "image": "assets/img/lib/P0001-hero.jpg",
       "alt": "機具岩",
       "description": "二つの岩が寄り添う夫婦岩。能登屈指のマジックアワーポイント。"
@@ -102,7 +102,7 @@ window.SPL_DATA = {
       "id": "gate",
       "name": "巌門",
       "area": "富来エリア",
-      "count": 62,
+      "count": 64,
       "image": "assets/img/lib/P0020-hero.jpg",
       "alt": "巌門",
       "description": "日本海が作り上げた芸術"
@@ -217,139 +217,139 @@ window.SPL_DATA = {
   ],
   "photos": [
     {
-      "id": "P0938",
-      "title": "DSCF3540",
-      "spot": "世界一長いベンチ・増穂浦海岸",
-      "area": "富来エリア",
-      "season": [],
-      "tags": [
-        "砂浜",
-        "さくら貝",
-        "チラシ・ポスター向き"
-      ],
-      "image": "assets/img/lib/P0938-new.jpg",
-      "alt": "",
-      "restricted": false,
-      "genre": "観光地"
-    },
-    {
-      "id": "P0937",
-      "title": "志賀町優良特産品_かきもち5",
+      "id": "P0949",
+      "title": "商工祭2026_6",
       "spot": "その他",
       "area": "",
       "season": [],
       "tags": [
-        "お土産",
-        "食",
-        "特産品",
-        "印刷物向き"
-      ],
-      "image": "assets/img/lib/P0937-new.jpg",
-      "alt": "",
-      "restricted": false,
-      "genre": "特産品"
-    },
-    {
-      "id": "P0936",
-      "title": "世界一長いベンチ_43",
-      "spot": "世界一長いベンチ・増穂浦海岸",
-      "area": "富来エリア",
-      "season": [],
-      "tags": [
-        "ベンチ",
-        "ライトアップ",
+        "夜景",
         "イルミネーション",
+        "商工祭",
+        "ドローン",
         "SNS向き"
       ],
-      "image": "assets/img/lib/P0936-new.jpg",
+      "image": "assets/img/lib/P0949-new.jpg",
       "alt": "",
       "restricted": false,
       "genre": "イベント"
     },
     {
-      "id": "P0935",
-      "title": "世界一長いベンチ_42",
-      "spot": "世界一長いベンチ・増穂浦海岸",
-      "area": "富来エリア",
-      "season": [],
-      "tags": [
-        "ベンチ",
-        "ライトアップ",
-        "イルミネーション",
-        "SNS向き"
-      ],
-      "image": "assets/img/lib/P0935-new.jpg",
-      "alt": "",
-      "restricted": false,
-      "genre": "イベント"
-    },
-    {
-      "id": "P0934",
-      "title": "世界一長いベンチ_41",
-      "spot": "世界一長いベンチ・増穂浦海岸",
-      "area": "富来エリア",
-      "season": [],
-      "tags": [
-        "ベンチ",
-        "ライトアップ",
-        "イルミネーション",
-        "SNS向き"
-      ],
-      "image": "assets/img/lib/P0934-new.jpg",
-      "alt": "",
-      "restricted": false,
-      "genre": "イベント"
-    },
-    {
-      "id": "P0933",
-      "title": "世界一長いベンチ_40",
-      "spot": "世界一長いベンチ・増穂浦海岸",
-      "area": "富来エリア",
-      "season": [],
-      "tags": [
-        "ベンチ",
-        "ライトアップ",
-        "イルミネーション",
-        "SNS向き"
-      ],
-      "image": "assets/img/lib/P0933-new.jpg",
-      "alt": "",
-      "restricted": false,
-      "genre": "イベント"
-    },
-    {
-      "id": "P0932",
-      "title": "世界一長いベンチ_39",
-      "spot": "世界一長いベンチ・増穂浦海岸",
-      "area": "富来エリア",
-      "season": [],
-      "tags": [
-        "ベンチ",
-        "ライトアップ",
-        "イルミネーション",
-        "SNS向き"
-      ],
-      "image": "assets/img/lib/P0932-new.jpg",
-      "alt": "",
-      "restricted": false,
-      "genre": "イベント"
-    },
-    {
-      "id": "P0931",
-      "title": "高瀬宮_7",
+      "id": "P0948",
+      "title": "商工祭2026_5",
       "spot": "その他",
       "area": "",
+      "season": [],
+      "tags": [
+        "夜景",
+        "花火",
+        "商工祭",
+        "SNS向き"
+      ],
+      "image": "assets/img/lib/P0948-new.jpg",
+      "alt": "",
+      "restricted": false,
+      "genre": "イベント"
+    },
+    {
+      "id": "P0947",
+      "title": "商工祭2026_4",
+      "spot": "その他",
+      "area": "",
+      "season": [],
+      "tags": [
+        "夜景",
+        "花火",
+        "商工祭",
+        "SNS向き"
+      ],
+      "image": "assets/img/lib/P0947-new.jpg",
+      "alt": "",
+      "restricted": false,
+      "genre": "イベント"
+    },
+    {
+      "id": "P0946",
+      "title": "商工祭2026_3",
+      "spot": "その他",
+      "area": "",
+      "season": [],
+      "tags": [
+        "夜景",
+        "花火",
+        "商工祭",
+        "SNS向き"
+      ],
+      "image": "assets/img/lib/P0946-new.jpg",
+      "alt": "",
+      "restricted": false,
+      "genre": "イベント"
+    },
+    {
+      "id": "P0945",
+      "title": "商工祭2026_2",
+      "spot": "その他",
+      "area": "",
+      "season": [],
+      "tags": [
+        "夜景",
+        "花火",
+        "商工祭",
+        "SNS向き"
+      ],
+      "image": "assets/img/lib/P0945-new.jpg",
+      "alt": "",
+      "restricted": false,
+      "genre": "イベント"
+    },
+    {
+      "id": "P0944",
+      "title": "商工祭2026_1",
+      "spot": "その他",
+      "area": "",
+      "season": [],
+      "tags": [
+        "夜景",
+        "花火",
+        "商工祭",
+        "SNS向き"
+      ],
+      "image": "assets/img/lib/P0944-new.jpg",
+      "alt": "",
+      "restricted": false,
+      "genre": "イベント"
+    },
+    {
+      "id": "P0943",
+      "title": "機具岩_39",
+      "spot": "機具岩",
+      "area": "富来エリア",
       "season": [],
       "tags": [
         "岩",
-        "神社",
-        "石",
-        "チラシ・ポスター向き"
+        "ライトアップ",
+        "SNS向き"
       ],
-      "image": "assets/img/lib/P0931-new.jpg",
+      "image": "assets/img/lib/P0943-new.jpg",
       "alt": "",
       "restricted": false,
-      "genre": "自然風景"
+      "genre": "イベント"
+    },
+    {
+      "id": "P0942",
+      "title": "機具岩_38",
+      "spot": "機具岩",
+      "area": "富来エリア",
+      "season": [],
+      "tags": [
+        "岩",
+        "ライトアップ",
+        "SNS向き"
+      ],
+      "image": "assets/img/lib/P0942-new.jpg",
+      "alt": "",
+      "restricted": false,
+      "genre": "イベント"
     }
   ],
   "seasons": [
