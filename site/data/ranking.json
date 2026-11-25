@@ -3,32 +3,6 @@
   "periodDays": 30,
   "photos": [
     {
-      "id": "P0008",
-      "downloads": 2,
-      "title": "上空から見た増穂浦海岸とベンチ",
-      "area": "富来エリア",
-      "thumb": "assets/img/lib/P0008-thumb.jpg",
-      "alt": "上空から見た増穂浦海岸とベンチ",
-      "tags": [
-        "海",
-        "空撮",
-        "ベンチ",
-        "チラシ・ポスター向き"
-      ]
-    },
-    {
-      "id": "P0153",
-      "downloads": 2,
-      "title": "世界一長いベンチのモニュメント",
-      "area": "富来エリア",
-      "thumb": "assets/img/lib/P0153-thumb.jpg",
-      "alt": "世界一長いベンチのモニュメント",
-      "tags": [
-        "世界一長いベンチ",
-        "チラシ・ポスター向き"
-      ]
-    },
-    {
       "id": "P0811",
       "downloads": 2,
       "title": "いろいろな貝",
@@ -42,44 +16,17 @@
       ]
     },
     {
-      "id": "P0003",
+      "id": "P0008",
       "downloads": 1,
-      "title": "手のひらのさくら貝",
+      "title": "上空から見た増穂浦海岸とベンチ",
       "area": "富来エリア",
-      "thumb": "assets/img/lib/P0003-thumb.jpg",
-      "alt": "手のひらのさくら貝",
-      "tags": [
-        "砂浜",
-        "さくら貝",
-        "チラシ・ポスター向き"
-      ]
-    },
-    {
-      "id": "P0012",
-      "downloads": 1,
-      "title": "打ち寄せられた貝殻の浜",
-      "area": "富来エリア",
-      "thumb": "assets/img/lib/P0012-thumb.jpg",
-      "alt": "打ち寄せられた貝殻の浜",
+      "thumb": "assets/img/lib/P0008-thumb.jpg",
+      "alt": "上空から見た増穂浦海岸とベンチ",
       "tags": [
         "海",
+        "空撮",
         "ベンチ",
-        "さくら貝",
         "チラシ・ポスター向き"
-      ]
-    },
-    {
-      "id": "P0056",
-      "downloads": 1,
-      "title": "志賀町優良特産品_さくら貝華ブローチ",
-      "area": "富来エリア",
-      "thumb": "assets/img/lib/P0056-thumb.jpg",
-      "alt": "志賀町優良特産品_さくら貝華ブローチ",
-      "tags": [
-        "さくら貝",
-        "お土産",
-        "特産品",
-        "印刷物向き"
       ]
     },
     {
@@ -97,35 +44,6 @@
       ]
     },
     {
-      "id": "P0782",
-      "downloads": 1,
-      "title": "増穂浦海岸_12",
-      "area": "富来エリア",
-      "thumb": "assets/img/lib/P0782-thumb.jpg",
-      "alt": "増穂浦海岸_12",
-      "tags": [
-        "空撮",
-        "青空",
-        "増穂浦",
-        "チラシ・ポスター向き"
-      ]
-    },
-    {
-      "id": "P0789",
-      "downloads": 1,
-      "title": "さくら貝_6",
-      "area": "富来エリア",
-      "thumb": "assets/img/lib/P0789-thumb.jpg",
-      "alt": "さくら貝_6",
-      "tags": [
-        "海",
-        "砂浜",
-        "さくら貝",
-        "ベンチ",
-        "チラシ・ポスター向き"
-      ]
-    },
-    {
       "id": "P0935",
       "downloads": 1,
       "title": "世界一長いベンチ_42",
@@ -136,6 +54,19 @@
         "ベンチ",
         "ライトアップ",
         "イルミネーション",
+        "SNS向き"
+      ]
+    },
+    {
+      "id": "P0943",
+      "downloads": 1,
+      "title": "機具岩_39",
+      "area": "富来エリア",
+      "thumb": "assets/img/lib/P0943-thumb.jpg",
+      "alt": "",
+      "tags": [
+        "岩",
+        "ライトアップ",
         "SNS向き"
       ]
     }
