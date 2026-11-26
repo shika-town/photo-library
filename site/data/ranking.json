@@ -3,29 +3,15 @@
   "periodDays": 30,
   "photos": [
     {
-      "id": "P0811",
+      "id": "P0783",
       "downloads": 2,
-      "title": "いろいろな貝",
-      "area": "富来エリア",
-      "thumb": "assets/img/lib/P0811-thumb.jpg",
-      "alt": "いろいろな貝",
+      "title": "志賀町総合体育館上空_1",
+      "area": "",
+      "thumb": "assets/img/lib/P0783-thumb.jpg",
+      "alt": "志賀町総合体育館上空_1",
       "tags": [
-        "砂浜",
-        "さくら貝",
-        "チラシ・ポスター向き"
-      ]
-    },
-    {
-      "id": "P0008",
-      "downloads": 1,
-      "title": "上空から見た増穂浦海岸とベンチ",
-      "area": "富来エリア",
-      "thumb": "assets/img/lib/P0008-thumb.jpg",
-      "alt": "上空から見た増穂浦海岸とベンチ",
-      "tags": [
-        "海",
         "空撮",
-        "ベンチ",
+        "体育館",
         "チラシ・ポスター向き"
       ]
     },
@@ -41,20 +27,6 @@
         "神社",
         "天使のはしご",
         "チラシ・ポスター向き"
-      ]
-    },
-    {
-      "id": "P0935",
-      "downloads": 1,
-      "title": "世界一長いベンチ_42",
-      "area": "富来エリア",
-      "thumb": "assets/img/lib/P0935-thumb.jpg",
-      "alt": "世界一長いベンチ_42",
-      "tags": [
-        "ベンチ",
-        "ライトアップ",
-        "イルミネーション",
-        "SNS向き"
       ]
     },
     {
